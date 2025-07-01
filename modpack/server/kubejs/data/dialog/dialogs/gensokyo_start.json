@@ -1,0 +1,103 @@
+{
+  "id": "gensokyo_start",
+  "title": "初入幻想乡",
+  "description": "灵梦的介绍。",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "animationType": "FADE_IN",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text":["@i你好，又是新来的？博丽结界真是越来越不可靠了呢。",
+   "如果你是新来的，什么都不懂，可以给你介绍一下情况。如果你是单人游戏，此时是时间停止状态，所以不用担心。"],
+      "portraits": [
+        {"path": "39486261_p0.png", "position": "RIGHT", "brightness": 1.0, "animationType": "FADE_IN"}
+      ]
+    },
+    {
+      "id": "nxt",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "你需要了解的大部分内容都能在任务中和教程书中找到，如果大部分内容都不熟悉，最好花点时间专门学习了解一下，可能会事半功倍。",
+      "portraits": [
+        {"path": "39486261_p0.png"}
+      ],
+      "next":"1"
+    },
+    {
+      "id": "1",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "除此之外请问还想要详细了解哪些内容？",
+      "portraits": [
+        {"path": "39486261_p0.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+         "options": [
+        {
+          "text": "区块认领",
+          "target": "opac"
+        },
+        {
+          "text": "关于女仆",
+          "target": "maid"
+        },
+        {
+          "text": "遇到不会的东西怎么办",
+          "target": "qa"
+        },
+        {
+          "text": "想要你的蝴蝶结",
+          "target": "butterfly"
+        },
+        {
+          "text": "我不需要了",
+          "target": "end"
+        }
+
+      ]
+    },
+    {
+      "id": "opac",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "打开地图，右键或者拖动右键，选择相应选项认领区块。认领后的区块可以继续设置强加载。多人游戏时记得组队。认领区块后可防止被敌人破坏。",
+      "portraits": [
+        {"path": "39486261_p0.png"}
+      ],
+      "next":"1"
+    },
+    {
+      "id": "maid",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "女仆的内容可以去任务里查看教程，或者打开记忆中的幻想乡这本教程书。",
+      "portraits": [
+        {"path": "39486261_p0.png"}
+      ],
+      "next":"1"
+    },
+    {
+      "id": "qa",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "遇到不会的东西，通常优先查看任务中和教程书中的介绍，其次可以在MC百科mcmod.cn中查询相关内容。",
+      "portraits": [
+        {"path": "39486261_p0.png"}
+      ],
+      "next":"1"
+    },
+    {
+      "id": "butterfly",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "这我可不能随便给你，规矩你是知道的，如果你想要的话，就自己来拿。给我准备95种不同食物的话给你蝴蝶结也不是不行。",
+      "portraits": [
+        {"path": "39486261_p0.png","animationType": "BOUNCE"}
+      ],
+      "next":"1"
+    },
+    {
+      "id": "end",
+      "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
+      "text": "好的，那祝你在幻想乡玩得愉快。不过走之前提醒一下，记得不要随便吃怪肉，否则的话我可不会客气。",
+      "portraits": [
+        {"path": "39486261_p0.png"}
+      ],
+      "endDialog":true
+    }
+  ]
+}

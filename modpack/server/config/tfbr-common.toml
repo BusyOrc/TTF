@@ -1,0 +1,26 @@
+
+["Naga resurrection"]
+	naga_trophy_block = "nffgirls:soul_cake"
+	naga_ring_block = "create:andesite_alloy_block"
+	naga_entity = "twilightforest:naga"
+
+["Lich resurrection"]
+	lich_trophy_block = "createaddition:honey_cake"
+	lich_ring_block = "create:brass_block"
+	lich_entity = "twilightforest:lich"
+
+["Hydra resurrection"]
+	hydra_trophy_block = "tconstruct:magma_cake"
+	hydra_ring_block = "tconstruct:queens_slime_block"
+	hydra_entity = "twilightforest:hydra"
+
+["Ur-Ghast resurrection"]
+	urghast_trophy_block = "vanillacookbook:chorus_cake"
+	urghast_ring_block = "thermal:steel_block"
+	urghast_entity = "twilightforest:ur_ghast"
+
+["Snow Queen resurrection"]
+	sq_trophy_block = "vanillacookbook:ice_cream_cake"
+	sq_ring_block = "tconstruct:slimesteel_block"
+	sq_entity = "twilightforest:snow_queen"
+

@@ -1,0 +1,26 @@
+{
+    "block_effects": [
+      {
+        "type": "tconstruct:mob_effect_cloud",
+        "effects": [
+          {
+            "effect": "minecraft:strength",
+            "level": 2,
+            "time": 200
+          },
+          {
+            "effect": "minecraft:speed",
+            "level": 3,
+            "time": 200
+          }
+        ]
+      }
+    ],
+    "entity_effects": [
+
+    ],
+    "fluid": {
+      "amount": 20,
+      "fluid": "chemlib:epinephrine_fluid"
+    }
+  }

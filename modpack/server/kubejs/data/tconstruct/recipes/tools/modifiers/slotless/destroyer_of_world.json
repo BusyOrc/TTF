@@ -1,0 +1,17 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "alexscaves:nuclear_bomb"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:destroyer_of_world",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

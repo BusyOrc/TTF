@@ -1,0 +1,39 @@
+{
+  "youkaishomecoming:fairy_ice_crystal":
+  {
+    "rarity": 0,
+    "additionEntry": 1
+  },
+    "sakuratinker:youkai_ingot":
+  {
+    "rarity": 0,
+    "additionEntry": 1
+
+  },
+    "kubejs:doremy_ingot":
+  {
+    "rarity": 0,
+    "additionEntry": 1
+
+  },
+  "kubejs:daiyouseis_bomb":
+    {
+    "rarity": 0,
+    "additionEntry": 1
+  },
+    "kubejs:reimu":
+    {
+    "rarity": 2,
+    "additionEntry": 2
+  },
+    "kubejs:youmus_dualswords":
+    {
+    "rarity": 2,
+    "additionEntry": 1
+  },
+      "kubejs:mysterious_hat":
+    {
+    "rarity": 2,
+    "additionEntry": 2
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+      {
+        "type": "tconstruct:mob_effect",
+        "effect": "minecraft:weakness",
+        "hooks": [
+          "tconstruct:melee_hit",
+          "tconstruct:projectile_hit"
+        ],
+        "level": {
+          "flat": 2.0
+        },
+        "target": {
+
+            "type":"mantle:inverted",
+            
+             "inverted_type":"mantle:tag",
+             "tag":"mantle:fairy"
+            
+            
+        
+        },
+        "time": {
+          "flat": 40.0,
+          "random": 10.0
+        }
+      }
+    ],
+    "tooltip_display": "always"
+  }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluxnetworks",
+  "pattern": [
+    "fof",
+    "oeo",
+    "fof"
+  ],
+  "key": {
+    "o": {
+      "item": "thermal:enderium_block"
+    },
+    "f": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "e": {
+      "item": "tinkers_thinking:ender_slime_drop"
+    }
+  },
+  "result": {
+    "item": "fluxnetworks:flux_core",
+    "count": 4
+  }
+}

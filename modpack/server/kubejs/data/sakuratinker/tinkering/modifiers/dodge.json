@@ -1,0 +1,22 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "attributeslib:dodge_chance",
+          "operation": "addition",
+          "value": 0.1
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "addition",
+          "value": -8.0
+        }
+      ],
+      "name": "sakuratinker:dodge"
+    }
+  ],
+  "tooltip_display": "always"
+}

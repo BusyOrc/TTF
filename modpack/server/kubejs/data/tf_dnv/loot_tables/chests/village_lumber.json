@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:chests/basement",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:chests/hedge_maze",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:twilight_oak_log",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

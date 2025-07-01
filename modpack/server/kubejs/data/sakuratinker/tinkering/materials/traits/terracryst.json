@@ -1,0 +1,22 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "sakuratinker:heavy_weight"
+    }
+  ],
+  "perStat": {
+    "sakuratinker:charm": [
+      {
+        "level": 1,
+        "name": "sakuratinker:earth_light"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "sakuratinker:kobold"
+      }
+    ]
+  }
+}

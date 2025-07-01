@@ -1,0 +1,27 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "tag": "forge:tea_leaves"
+    },
+    {
+      "tag": "forge:tea_leaves"
+    }
+  ],
+  "catalysts": [
+    {
+      "item": "touhou_little_maid:broom"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:turtle_egg"
+    }
+  ]
+}

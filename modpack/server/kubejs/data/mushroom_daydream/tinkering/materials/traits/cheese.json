@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:hole"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:tasty"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "irons_spellbooks:blood_rune"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:blank_rune"
+        },
+        {
+          "amount": 1000,
+          "fluidTag": "forge:blood",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:blank_rune"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "irons_spellbooks:blank_rune"
+        },
+        {
+          "amount": 1000,
+          "fluidTag": "forge:blood",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "irons_spellbooks:blank_rune"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "irons_spellbooks:blank_rune"
+  }
+}
+

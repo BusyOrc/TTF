@@ -1,0 +1,16 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.3,
+        "operation": "addition",
+        "attribute": "attributeslib:overheal",
+        "unique": "tconstruct.modifier.overheal",
+        "slots": [
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

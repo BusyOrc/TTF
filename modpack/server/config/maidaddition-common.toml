@@ -1,0 +1,10 @@
+
+#General settings
+["Chunks loading settings"]
+	#Set the radius of loading chunks by maids
+	#Range: 0 ~ 64
+	ChunksLoadingRadius = 8
+	#Set the update frequency of loading chunks by maids
+	#Range: > 0
+	UpdateChunksLoadingRate = 100
+

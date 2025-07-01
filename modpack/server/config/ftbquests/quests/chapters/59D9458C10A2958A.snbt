@@ -1,0 +1,770 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "59D9458C10A2958A"
+	group: "4293891DF89E3E58"
+	icon: "lightmanscurrency:coin_gold"
+	id: "59D9458C10A2958A"
+	images: [{
+		height: 11.8d
+		image: "touhou_tinker_fantasy:textures/shop.png"
+		rotation: 0.0d
+		width: 8.5d
+		x: -5.0d
+		y: -1.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"山城高岭：你好，我这里各种东西都有卖的，可不是黑市哦。需要的话就拿钱币来买。"
+				""
+				"作为新顾客的礼品，就送你一个钱包吧，记得保管好"
+				""
+				"如果需要&a兑换货币&r，可以在&aATM机&r里进行，或者也可以将其合成为饰品，随时随地兑换"
+			]
+			icon: {
+				Count: 1
+				id: "lightmanscurrency:wallet_gold"
+				tag: {
+					AutoConvert: 1b
+				}
+			}
+			id: "7DE5EF85D3A7D56E"
+			rewards: [
+				{
+					id: "45025E5BA8EC0CCF"
+					item: {
+						Count: 1
+						id: "lightmanscurrency:wallet_gold"
+						tag: {
+							AutoConvert: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "147747A2966ECA3A"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A9FAFFF4E2A2592"
+				type: "checkmark"
+			}]
+			title: "4.1 山城高岭的良心商店"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: ["想偷懒不想自己寻找染料？巧了，我这里有很多库存，但是由于关税问题，价格会比较高，理解一下"]
+			disable_toast: true
+			icon: "minecraft:pink_dye"
+			id: "2F4B97F75BE55C10"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "minecraft:pink_dye"
+				id: "37CA1F9AB137004F"
+				table_id: 7098175122732375304L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5FD46BB20034264B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "染料"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["各种装饰品都有的"]
+			disable_toast: true
+			icon: "simplehats:hatbag_easter"
+			id: "51C49BAC04995C1D"
+			rewards: [{
+				icon: "simplehats:hatbag_easter"
+				id: "553F8E040DDE3013"
+				table_id: 3534121561611772206L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "05F0B0BDE2CF3A83"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "帽子抽奖"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["愿赌服输哦"]
+			icon: "artifacts:villager_hat"
+			id: "1BAD6652B3AA1CBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23BB0D4814810716"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0A1BCC53372E3449"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "幸运大抽奖"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
+				""
+				"这个情报是关于一些&b简单配方说明&r的"
+			]
+			id: "0A69BE56B68AE353"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "48EA2A2C9901B42B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "可靠情报1"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A69BE56B68AE353"]
+			description: [
+				"很简单，钱币都可以拿来做成巧克力钱币，情人节的时候送人很合适"
+				""
+				"啊，你说没有可以送的人？真不好意思o(╥﹏╥)o"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "5CC75E2571801F49"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "3D90D32575F86118"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"你就是下个大FU人家"
+				"&7&o注：本奖池只包含东方project人物，且旧作与特别角色形态的获取概率为其他的一半&r"
+				"&o&8有可能获得好东西......?&r"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:cirno"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			id: "0FE45E01792590D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D214F1F1C249CC"
+				table_id: 4036622934681258898L
+				type: "random"
+			}]
+			subtitle: "你身旁没有fumo陪伴你吗？现在有了！"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "402D9694B333297D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "FUMO!"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "40F9765A68E89559"
+			rewards: [{
+				id: "223120CB1FDBDA56"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			subtitle: "太多了？让我康康！"
+			tasks: [{
+				consume_items: true
+				id: "4D1F3438CF008812"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+				title: "Any #artifacts:artifacts"
+				type: "item"
+			}]
+			title: "饰品回收"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
+				""
+				"这个情报是关于某个&b特殊结构&r的"
+			]
+			id: "3DCF537D5C62DCBC"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "55218389939D4FD8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "可靠情报2"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3DCF537D5C62DCBC"]
+			description: [
+				"{ \"text\": \"关于灵梦的蝴蝶结，据说灵梦会把她备用的蝴蝶结都存放在主世界要塞里头。\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F0BB36E884917E2\" } }"
+				"如果我的情报没有错的话，应该就存放在了整个要塞里面的其中部分箱子里，具体是哪个箱子完全是随机的，根本没有也是有可能的，另外还有一个很神秘的房间似乎很少有人发现，估计是有&e暗门之类&r的东西，但是这个暗门里似乎&b也并不一定有蝴蝶结&r。"
+				""
+				"小心点，里面的敌人&a不光实力强大，个别敌人还有隐身的能力&r，如果是我的话，就会先准备好再去，比如说带上扫描器，或者准备好魔法。"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "2C9040DAB80AC95D"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "1D6CF4383C3ECE93"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
+				""
+				"这个情报是关于某个&b重要物品&r获取的"
+			]
+			id: "0C24F14C184B5726"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "07D2819C1A1805ED"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "可靠情报3"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C24F14C184B5726"]
+			description: [
+				"部分匠魂高级素材会使用到&a嗅探兽&r的挖掘产物，所以你越早挖到它的蛋越好！"
+				"根据内线情报，据说这种蛋在&a温水海洋&r里头的可疑沙子/沙砾出现，同时也有概率在部分陆地上的遗迹里出现"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "1095B179B610ACB3"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "3778CEA6112094C0"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2C9040DAB80AC95D"]
+			description: ["你肯定很好奇，这个暗门在哪里，如何破解对吧？也很简单哦，给点小钱我就告诉你破解的方法，而且我还会告诉你需要小心里面的某种东西"]
+			icon: "lightmanscurrency:coin_diamond"
+			id: "5F4619F1381480E4"
+			tasks: [{
+				consume_items: true
+				id: "3DCFE71CD1F2C73D"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "内线情报"
+			x: 4.05d
+			y: -9.6d
+		}
+		{
+			dependencies: ["5F4619F1381480E4"]
+			description: [
+				"首先，不管是根据末影之眼的指引，还是探险家指南针的指示，你首先能找到的是一个有传送石碑的起始大厅"
+				""
+				"这个起始大厅的旁边就是要塞的大图书馆了，最好小心里面的小恶魔哦"
+				""
+				"之后，你在大图书馆的箱子里，包括要塞其他地方的箱子里都有可能找到相应的指示书，根据指示书上的提示，可以将大图书馆里面拉杆旁写的符号翻译成对应的文字"
+				""
+				"谜底则是ONE ABOVE ALL"
+				""
+				"不过，如果你要找蝴蝶结的话，最好在整个要塞里都仔细搜寻一下各种箱子"
+				""
+				"另外，这个暗房里面还可能会出现监守者，敌人实力也很强，探索之前务必小心"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "2616C36720C156A6"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "5F1C7860CBB09AD9"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 4.05d
+			y: -11.25d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
+				""
+				"这个情报是关于某个&b匠魂材料物品&r获取的"
+			]
+			id: "102B1F9CDBE84E06"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "54470684568802DB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "可靠情报5"
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["102B1F9CDBE84E06"]
+			description: [
+				"有一种特殊的材料，获取方式非常特别，需要&b主手&r持有&b御币&r的情况下，在&b凌晨四点左右击杀末影处刑者&r才能获得"
+				""
+				"猜你想问：主手拿着御币该如何击杀呢？这我可不知道哦，如果你确实想了解的话，也不是不行"
+				""
+				"&l得加钱&r！"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "776F148926A1BBB1"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "40EA7A68AFE0B844"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5CC75E2571801F49"]
+			description: [
+				"再免费告诉你一些情报吧，是关于不同的矿脉挖掘点，矿机所需液体的信息"
+				""
+				"沥青沙：需要水"
+				""
+				"魔力聚集地（位于暮色森林）：需要平凡墨水，至于什么是平凡墨水，你可以试试将我给你的2份"
+				"奥术源质和3份墨囊在工作盆里搅拌"
+				""
+				"软质豆腐矿脉：需要豆奶"
+				""
+				"硬化豆腐矿脉：需要远古树脂"
+				""
+				"下界远古矿脉：需要液态轻云，至于这种液体的获得方式嘛，我给个提示，需要用到瓶中云"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "0AF27FCCF7C0F99B"
+			rewards: [
+				{
+					count: 2
+					id: "3E8147E813B8C018"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4131CA936C0A9C3E"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+				{
+					id: "5BC54580646F7F6D"
+					item: "quark:bottled_cloud"
+					type: "item"
+				}
+			]
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "064931B633E7C8B4"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
+				""
+				"这个情报是关于&b探险家指南针&r的"
+			]
+			id: "684DE283305CD879"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "71B093F0121280A2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "可靠情报4"
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["684DE283305CD879"]
+			description: [
+				"我的线人帮你整理了以下特殊的结构名称，如果你在使用探险家指南针&a没有搜寻到不妨使用英文看看！"
+				""
+				"&e妖怪们的归家&r模组："
+				"Hakurei Shrine:博丽神社（灵梦老家）"
+				""
+				"Youkai Nest:妖怪的窝（露米娅家）"
+				""
+				"&e灾变&r模组："
+				"Ancient Factory：远古工厂(先驱者老家）"
+				""
+				"Burning Arena :烈焰竞技场（焰魔老家）"
+				""
+				"Cursed Pyramid：诅咒金字塔（远古异魂老家）"
+				""
+				"Frosted Prison ：苦寒监牢（咒翼灵骸老家）"
+				""
+				"Ruined Citadel：废弃堡垒（末影守卫老家）"
+				""
+				"Soul Black Smith：灵魂锻造厂（下界合金巨兽老家）"
+				""
+				"Sunken City：沉没之城（利维坦老家）"
+				"{@pagebreak}"
+				"&e原版结构&r魔改："
+				"Strongehold：要塞（原版要塞魔改）"
+				""
+				"&eIDAS魔改&r模组结构："
+				"iceandfire/dread_citadel：悚陵（冰火传说模组）"
+				""
+				"Haunted Manor：闹鬼庄园/墓地（冰火传说模组）"
+				""
+				"Labyrinth：迷宫/蛇发女妖神庙（冰火传说模组）"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "6F43CC86B8364E9B"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "3EA5B5B6C206095A"
+				type: "checkmark"
+			}]
+			title: "完成后可查看文本"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["776F148926A1BBB1"]
+			description: ["两种御币均可"]
+			hide_until_deps_complete: true
+			icon: "kubejs:wu_yu_ingot"
+			id: "4E0F30BE178F7E5B"
+			tasks: [
+				{
+					id: "11F8F51E9581FCD1"
+					item: "kubejs:wu_yu_ingot"
+					type: "item"
+				}
+				{
+					id: "40427C5C238A9F6F"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:hakurei_gohei"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40ADAE6495E43153"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:sanae_gohei"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["776F148926A1BBB1"]
+			description: [
+				"既然主手持有御币，当然可以用御币击杀。"
+				""
+				"&7&o主播主播，这样的方法太难了，有没有简单无脑一点的方法&r"
+				"&r"
+				"有的有的，除此之外，你也可以先用其他武器攻击，控制血量差不多了再击杀，只需要最后击杀时主手有御币即可"
+				""
+				"除此之外，法术是不受限制的，只需要装备上法术书就能用法术击杀末影处刑者。但是弓箭🏹对末影处刑者无效。"
+			]
+			hide_text_until_complete: true
+			id: "34DCB09FAF01EDB3"
+			subtitle: "只要加钱，都好说"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2EA9B2D9C7F50508"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			title: "加钱"
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DE5EF85D3A7D56E"]
+			description: ["山城高岭：如果觉得交易不方便，也可以用现代新科技远程购物，但是别忘了，有部分交易还是需要到我这里来的"]
+			id: "57B217730F0E181C"
+			rewards: [{
+				id: "425DD34D795102AC"
+				item: "thermal:rubberwood_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54E0C05EA79D1AF0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "lightmanscurrency:network_terminal"
+					}
+				}
+				title: "任意交易终端"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["我还有一些关于矿物的信息，应该也对你有用"]
+			id: "214CB6BFEA9C38FE"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5EA69AADCBBF91D2"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "可靠情报6"
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["214CB6BFEA9C38FE"]
+			description: [
+				"零素：在主世界基岩层出现，零素和基岩很像，注意分辨"
+				""
+				"幻金，山铜，地心晶：主世界地下深层和浅层都有一定分布"
+				""
+				"钴：在下界很常见"
+				""
+				"阿迪特：在下界出现，情况类似于远古残骸，要找的话&a可不能只找表面"
+				"&r"
+				"锡，铅，镍，银：主世界和暮色森林都广泛分布"
+				""
+				"硝石，硫，磷灰石在主世界表层很常见，应该不用特意去找"
+			]
+			hide_text_until_complete: true
+			icon: "minecraft:book"
+			id: "2D8AE6A0E1871C63"
+			subtitle: "目前可公开的情报："
+			tasks: [{
+				id: "442BB2A87CE2E90E"
+				type: "checkmark"
+			}]
+			title: "完成后可查看"
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["57B217730F0E181C"]
+			description: [
+				"山城高岭：由于关税对本店影响较大，因此这个店铺暂时关闭大部分商品的出售，以求&b降本增效&r"
+				""
+				"&a这些商品在线上商店仍可购买&r（即打开交易终端），而且对我来说还可以走各种渠道规避关税"
+				""
+				"如果你要问为什么不降价，原因很简单，&m凭本事涨的价，那当然不能轻易降价&r  当然是因为所有商品都是匠心打造，历经九九八十一道工序，倾尽毕生心血。而且地主家也没余粮了，不多赚点不行啊"
+			]
+			icon: "farmersdelight:white_hanging_canvas_sign"
+			id: "133F9E4B76DF2A09"
+			rewards: [{
+				count: 3
+				id: "337E6684D60BF338"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "61752D0E3E141D30"
+				type: "checkmark"
+			}]
+			title: "通知"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["133F9E4B76DF2A09"]
+			description: [
+				"山城高岭：地灵殿和我最近搞了些合作，现在你可以在交易终端里&a自动化&r购买一些流体和电力"
+				""
+				"当然了，如果你直接打开方块形态的流体/能源终端选择购买的话，首先需要在售货机选择里面，点击需要的售货机（例如地灵殿流体仓储间），然后在交易选择界面选择你需要的交易项，但是你可能会发现钱不够，原因很简单，在这里购买所用到的是你银行账户里面的钱。还记得之前送给你的&lATM&r吗？除了用来转换货币，还能将&b钱存入自己的银行账户中&r，这样就能购买了"
+				""
+				"如果要自动化购买的话，只需要在交易选择界面右侧，调整红石控制的相关选项，然后如果有需要的话，用拉杆等方式持续提供红石信号即可。自动输入和输出推荐使用AE的设备。你说你没有电力用不起AE？巧了，在这里也可以买电的哦"
+				""
+				"{@pagebreak}"
+				"你可能还会遇到一个问题：输出空间不足"
+				"原因也很简单，购买的电力或者流体会直接把终端给塞满，根本放不下，所以自然也无法购买。"
+				""
+				"解决方法：安装增加额外容量的升级，这里恰好有2个，就送给你了，分别对应流体和电力的，可不要放错地方了"
+			]
+			icon: "lctech:fluid_trader_interface"
+			id: "1DBA3D37A06CCA17"
+			rewards: [
+				{
+					id: "12A36465B369AE5E"
+					item: "lctech:fluid_capacity_upgrade_1"
+					type: "item"
+				}
+				{
+					id: "0FAAE7F6B8FD28ED"
+					item: "lctech:energy_capacity_upgrade_3"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29839F28A9763047"
+					item: "lctech:fluid_trader_interface"
+					type: "item"
+				}
+				{
+					id: "38F5018ACF687E61"
+					item: "lctech:energy_trader_interface"
+					type: "item"
+				}
+			]
+			title: "面板交易终端"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DBA3D37A06CCA17"]
+			description: [
+				"最高等级为下界合金等级的储罐，能存放不少流体，并且破坏以后可以保留其中的流体"
+				""
+				"[ \"这种储罐适合放置在世界中，如果只是打算随身携带，可考虑\", { \"text\": \"贮液器\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1089400B3F8E1254\" } } ]"
+			]
+			id: "01384D2579E08875"
+			rewards: [{
+				id: "246F45C1F35044C3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A5A6177482F8C1"
+				item: "lctech:iron_tank"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DBA3D37A06CCA17"]
+			description: [
+				"[ \"这种电池也能用于存放FE电力，除此之外，还有热力的\", { \"text\": \"通量电容\",\"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4231FBEE84E72188\" } } ]"
+				""
+				"但是由于兼容问题，如果需要随身购买电力，只能用这种电池来存储购买的电力"
+			]
+			id: "17EA604FB4B371D3"
+			rewards: [{
+				id: "6F5D846A268CD1B2"
+				item: "lightmanscurrency:coin_chocolate_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69A41F3BC010E4F7"
+				item: {
+					Count: 1
+					id: "lctech:battery_large"
+					tag: {
+						Battery: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1DBA3D37A06CCA17"]
+			description: [
+				"如果你打算用普通的交易终端购买电力或者流体，通常也会提示空间不足——因为&a普通的交易终端是不带流体或电力存储功能的，你需要用额外的容器或者热力的通量电容来收集"
+				"&r"
+				"除此之外，随身购买的话，消耗的是钱包里的货币而不是银行账户里的"
+			]
+			id: "50902EC28B882960"
+			tasks: [{
+				id: "38A4DCA997C434E7"
+				type: "checkmark"
+			}]
+			title: "随身购买"
+			x: 9.0d
+			y: 3.0d
+		}
+	]
+	title: "山城高岭的黑市"
+}

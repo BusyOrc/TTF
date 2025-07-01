@@ -1,0 +1,35 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "catalysts": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "chances": 0.1,
+  "results": [
+    {
+      "item": "minecraft:echo_shard",
+      "count": 3
+    }
+  ]
+}

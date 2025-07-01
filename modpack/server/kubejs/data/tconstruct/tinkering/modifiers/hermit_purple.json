@@ -1,0 +1,15 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:protection",
+        "attacker": {
+          "type": "mantle:tag",
+          "tag": "forge:ender"
+        },
+        "damage_source": "mantle:can_protect",
+        "each_level": 4
+      }
+    ],
+    "tooltip_display": "always"
+  }

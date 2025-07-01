@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "solidarytinker:bloodmeat_ingot"
+  },
+  "result": {
+    "fluid": "solidarytinker:molten_bloodmeat",
+    "amount": 90
+  },
+  "temperature": 150,
+  "time": 20
+}

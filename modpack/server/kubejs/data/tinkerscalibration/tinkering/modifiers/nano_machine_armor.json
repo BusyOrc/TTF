@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "attributeslib"
+    }
+  ],
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 8,
+      "operation": "addition",
+      "attribute": "attributeslib:prot_pierce",
+      "unique": "tconstruct.modifier.nano_machine_armor",
+      "slots": [
+
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+
+    },
+    
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 0.2,
+      "operation": "addition",
+      "attribute": "attributeslib:prot_shred",
+      "unique": "tconstruct.modifier.nano_machine_armor",
+      "slots": [
+
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+    }
+  ],
+  "tooltip_display": "always"
+}

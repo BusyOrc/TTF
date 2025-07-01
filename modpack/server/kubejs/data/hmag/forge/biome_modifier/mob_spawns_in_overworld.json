@@ -1,0 +1,57 @@
+{
+  "type": "hmag:add_spawns",
+  "biomes": [
+    [
+      {
+        "name": "#hmag:is_overworld"
+      },
+      {
+        "name": "#hmag:no_hmag_monsters",
+        "negate": true
+      }
+    ],
+    [
+      {
+        "name": "#hmag:spawns_overworld_mobs_special"
+      }
+    ]
+  ],
+  "spawners": [
+    {
+      "type": "hmag:ghost",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "hmag:kobold",
+      "weight": 30,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "hmag:lich",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "hmag:ogre",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "hmag:spider_nest",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "hmag:necrotic_reaper",
+      "weight": 20,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

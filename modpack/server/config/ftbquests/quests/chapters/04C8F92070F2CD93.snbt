@@ -1,0 +1,1000 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04C8F92070F2CD93"
+	group: "398070A2413EA53F"
+	icon: "twilightforest:lich_tower_miniature_structure"
+	id: "04C8F92070F2CD93"
+	images: [
+		{
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/yaomeng.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 18.5d
+			y: -6.5d
+		}
+		{
+			height: 10.0d
+			image: "touhou_tinker_fantasy:textures/aquarium.png"
+			order: 1
+			rotation: 0.0d
+			width: 10.0d
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			alpha: 130
+			height: 9.0d
+			image: "touhou_tinker_fantasy:textures/mystia2.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			height: 10.0d
+			image: "touhou_tinker_fantasy:textures/patchbuilding.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			alpha: 130
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/patchouliknowledge.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			alpha: 130
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/hakureireimu.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			height: 9.0d
+			image: "touhou_tinker_fantasy:textures/hakureishrine.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			height: 14.0d
+			image: "touhou_tinker_fantasy:textures/harukeikekkai.png"
+			order: 1
+			rotation: 0.0d
+			width: 14.0d
+			x: 29.5d
+			y: 10.0d
+		}
+		{
+			alpha: 130
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/yakumoyukari.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/tofusmallshrine.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			height: 9.0d
+			image: "touhou_tinker_fantasy:textures/tofushrine.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.0d
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			alpha: 130
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/yakumoran.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.0d
+			y: 10.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1CE3EA2EC9C3218A"]
+			description: [
+				"荷取：最近接到一些指示，要河建五局，河建九局加上天建一局联合搞一些工程项目"
+				""
+				"话不多说，赶紧开工吧，争取在工期内尽快完成"
+				""
+				"天子：你能来到这里，说明你应该已经完成了大部分重要内容的学习，接下来就该检验一下成果了。如果有一些和你之前学过的内容有所差异的，或者是全新的内容，我肯定是会继续教你的，但是已经提到过的内容就不再重复了哦"
+				""
+				"荷取：对的对的，这样干活效率才比较高嘛"
+			]
+			icon: {
+				Count: 1
+				id: "thermal:wrench"
+				tag: { }
+			}
+			id: "5980A94EFE033B35"
+			tasks: [{
+				id: "5092E7AE30B83D27"
+				type: "checkmark"
+			}]
+			title: "工程项目安排"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5980A94EFE033B35"]
+			description: [
+				"荷取：作为起步，首先从这个基础的方块开始吧，需求量其实很小，主要是作为多方块的控制器原料"
+				""
+				"而这个建造器的使用方法也非常简单，首先将神秘壳体制作成相应的控制器，物品栏里准备好足够的材料的情况下，直接用建造器右键控制器就能建造了"
+				""
+				"不同的多方块结构需要不同的控制器，具体的内容等下会给你介绍的"
+				""
+				"如果需要查看配方，只需要对控制器按U即可"
+			]
+			icon: "mbd2:mbd_gadgets"
+			id: "00F50F4B73C57632"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6B5CA3FC323F66FC"
+					item: "create_wizardry:arcane_casing"
+					type: "item"
+				}
+				{
+					id: "7A91901BD56D72C1"
+					item: "mbd2:mbd_gadgets"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"荷取：这是最简单的一种控制器和多方块结构，制作方式也很简单，将其放置好以后，准备好合适的材料带在身上，用刚才的建造器右键即可"
+				""
+				"目前已经建造好了，但是如果还想要激活的话，必须用一个P点右键控制器作为催化剂"
+				""
+				"建造所需要的材料在JEI中均可查看。顺便一提，豆腐祭坛一定会用到大量豆奶，记得提前准备好"
+				""
+				"查看配方可以先查看多方块结构，再通过JEI中点击多方块结构抬头标题的方式来查看更多种类的配方。"
+				""
+				"如果遇到无法顺利建造的问题，只需将多方块建造器shift+右键切换到调试器模式右键控制器，即可查看无法顺利建造的原因"
+				"{@pagebreak}"
+				"多方块建造好以后，如果要正常生产，只需要关注两点："
+				"1.输入接口，推荐在旁边放置一个样板供应器，可不要手搓哦"
+				"2.控制器本身，配方生产得到的物品或流体可以从控制器里自动输出到旁边的容器里，或者也可放置输入总线以让产物进入ME网络"
+				""
+				"只要AE线缆和设备顺利连接，生产所需的全部步骤只有三步"
+				"1.编写样板"
+				"2.放好样板"
+				"3.终端下单"
+				""
+				"对于部分需要持续生产的配方，推荐使用ME接口或者ME输出总线来持续供应原材料"
+				""
+				"{@pagebreak}"
+				""
+				"射命丸文来到了工地现场采访河城荷取"
+				""
+				"文:关于为什么控制器的材质和某些其他机器是一样的?"
+				"荷取:呃，实际上，从发展历史的角度来说，河建集团的历史悠久，人员设备众多"
+				"文:那为什么都是这种材质的控制器，有新材质吗？"
+				"荷取:我们河建集团有许多待完成的大型建筑工程，建筑修复，维护工程，相关的配套设施也需要持续更新"
+				"文:所以这些控制器有更好的材质外观吗？"
+				"荷取:（摆手）别问了，别问了"
+			]
+			hide_dependent_lines: true
+			icon: "touhou_little_maid:power_point"
+			id: "058725000BA912A0"
+			rewards: [{
+				id: "50409DEC8D96958C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5FCCD5F6D171F6F2"
+					item: "mbd2:small_tofu_shrine"
+					type: "item"
+				}
+				{
+					id: "474AF1D756639A3C"
+					item: "touhou_little_maid:power_point"
+					type: "item"
+				}
+			]
+			title: "补充"
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"荷取：这个输入接口可是结合了多种材料制作的，相当靠谱，当放置在多方块结构里时，可以自动输入旁边容器的流体或者物品，输出的话还是需要控制器"
+				""
+				"当一个配方需要多种材料时，可以将所有材料都只放进输入接口，也可以将一半放输入接口，另一半放入控制器里，这样也能正常生产"
+			]
+			id: "5D64ACD50E7A6BB3"
+			rewards: [{
+				id: "07818F641D3132E0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:starfall"
+								index: 0
+								level: 10
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "696AEA754FA7E7B3"
+				item: "mbd2:tofu_input"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"荷取：你应该能注意到，很多的多方块配方都有硫化废液或者废水作为副产物，这些副产物可别光看名字就认为不重要，直接给销毁了哦，千万记得多回收处理"
+				""
+				"处理设备需要用到流体精炼机，并且硫化废液处理一次以后还会产生废水，需要二次处理。得到的富炉渣也是有用的，许多配方都能用上。"
+				""
+				"如果缺少富炉渣的话，可以考虑特意用一些配方来专门生产硫化废液和废水，处理回收以后就能得到富炉渣了"
+			]
+			icon: "kubejs:waste_water_bucket"
+			id: "01CDE820F8B20CCF"
+			optional: true
+			rewards: [{
+				id: "4A46D2B18B2E6625"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7CA05431C5353B8E"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			title: "多方块副产物处理"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"天子：只要不是跨维度，短距离内都可以考虑用无线连接器来远程连接，避免飞线"
+				""
+				"长距离的耗电量很大，除非家里有矿，否则不推荐"
+			]
+			id: "584A0AE72CCF6227"
+			rewards: [{
+				id: "100C64F5E2FE1D1B"
+				type: "xp"
+				xp: 500
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "66355ACB5880B7FF"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"天子：你不是已经学过了AE吗？怎么还有难处呢？&b实在想不通的话，雾之湖没加盖，蓬莱药你敞买。&r"
+				""
+				"既然这样，那我再多讲讲吧。首先你需要把所有的基础物品都做到能被动量产，也就是持续供应原材料来生产这些有大量需求的基础物品，例如铜，铁，金，木材等"
+				""
+				"其次，给所有“按需生产”的物品，也就是有需求的时候才会生产的物品写好对应的样板，放在相应的样板供应器或者装配矩阵里。写的时候只需要保证样板主产物没有问题即可，副产物可省略"
+				""
+				"最后，在合成终端里下单，只要是已经写好样板的物品，可以直接在JEI收藏的物品里面中键下单，无需在AE里面搜索。很多副产物应该单独做一条被动产线来处理，不推荐额外消耗CPU"
+			]
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x10"
+				tag: { }
+			}
+			id: "572778F87D06478D"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0ED3BF4B009F385F"
+				type: "checkmark"
+			}]
+			title: "有难处？"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31EA2B25EDCA3877"]
+			description: ["灵梦：这大结界我可什么都不知道哦，我只知道当年有一些村民神秘失踪。不过最近的异变可能确实和大结界（魔）法学性能下降有关，还好当初修建的时候法学性能标准可是留够了余量的，所以目前只是有一些小异变，还没出什么大乱子"]
+			icon: {
+				Count: 1
+				id: "tinkersancient:battlesign_head"
+				tag: {
+					Material: "tinkerscalibration:soulgold"
+				}
+			}
+			id: "75153793970F3688"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0ABE40F997676D91"
+				type: "checkmark"
+			}]
+			title: "灵梦的补充"
+			x: 16.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4FD91041DF58EB0E"]
+			description: ["帕氏体——帕秋莉·诺蕾姬在某次催情药水的研发过程中发现的材料，虽然实验失败了，但是误打误撞发现了这种材料的制作方法，甚至还有一些特殊的副产物"]
+			id: "51BB5DC63F534547"
+			size: 2.0d
+			tasks: [{
+				id: "2E883E8E9EB83757"
+				item: "kubejs:alpha"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FD91041DF58EB0E"]
+			description: ["河氏体——当然是我河城荷取发现的啦，那天灵梦邀请我来参与稳定器的维护工程，在测试的时候我根据多年的经验，加入了一些奇妙材料，于是得到了河氏体"]
+			id: "7C3093C7AEA14846"
+			size: 2.0d
+			tasks: [{
+				id: "66B94546D0EC2BD1"
+				item: "kubejs:beta"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FD91041DF58EB0E"
+				"356A77395FDA425A"
+				"3B3FEBDE61625575"
+				"3DBCE3921C128A8B"
+				"4ED2D7C44ADA7854"
+				"1B1AD492B0F8299B"
+				"4454D321DD5011D8"
+			]
+			description: [
+				"天子：接下来的就我来介绍了吧"
+				""
+				"比氏体——当然是我发现的材料了，本来我只是想改进一下AE相关设备，随便凑了点材料，您猜怎么着？诶，得到的产物那叫一个地~道~"
+			]
+			id: "5B458AE0C89F6301"
+			size: 2.0d
+			tasks: [{
+				id: "3852347C61DF2948"
+				item: "kubejs:gamma"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4FD91041DF58EB0E"
+				"20EFB7D3D78B3AC9"
+			]
+			description: ["魔理沙：这个我来讲讲吧，最初我也想做催情药水，但是机缘巧合之下虽然没做出来，但是却得到了新的产物。"]
+			id: "59D6AB5AEEE917BC"
+			size: 2.0d
+			tasks: [{
+				id: "7BBC8ED4C21E6D8E"
+				item: "kubejs:omega"
+				type: "item"
+			}]
+			x: 13.521428571428537d
+			y: 2.9476190476190354d
+		}
+		{
+			dependencies: ["28A2A2886D8D4E4D"]
+			description: [
+				"荷取：让我来给你讲一下这几种催化剂的来源吧。名字中的X氏体最初的含义是某人发现的材料所对应的独特晶相组织名称，后来被用于直接称呼对应的催化剂材料。这些催化剂材料使用时并不会消耗，可用于部分稳定器配方以制作特殊设备。"
+				""
+				"&a都需要在博丽结界稳定器里制作，这是重要的前置条件&r"
+			]
+			icon: "tconstruct:clear_item_frame"
+			id: "4FD91041DF58EB0E"
+			tasks: [{
+				id: "2FCFC728ABC3AFC4"
+				type: "checkmark"
+			}]
+			title: "重要的催化剂"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C3093C7AEA14846"
+				"51BB5DC63F534547"
+				"5B458AE0C89F6301"
+				"5312DEC009B729F3"
+			]
+			hide_dependency_lines: true
+			id: "460AAC7F7E28B87A"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "306C2BAA52C4620A"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7C3093C7AEA14846"
+				"51BB5DC63F534547"
+				"59D6AB5AEEE917BC"
+				"5312DEC009B729F3"
+			]
+			hide_dependency_lines: true
+			id: "4DFC6AA7510D37EB"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "61A106F5E4EE8B9A"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"51BB5DC63F534547"
+				"59D6AB5AEEE917BC"
+				"5312DEC009B729F3"
+			]
+			hide_dependency_lines: true
+			id: "3D9F98573ED36858"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0A77BA22A08C575F"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			description: ["击杀霜冻巨兽掉落，所在结构（主世界）：Frostmaw Spawn"]
+			id: "3B3FEBDE61625575"
+			tasks: [{
+				id: "1A8CD20FFBFBD41F"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["击杀太阳鸟获取，所在结构（主世界）：Umvuthana Grove"]
+			id: "4ED2D7C44ADA7854"
+			tasks: [{
+				id: "09B070CE1F8BFE07"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			description: ["击杀娜迦飞蛇获取，通常在山地生成"]
+			id: "4454D321DD5011D8"
+			tasks: [{
+				id: "2C1357D22835E933"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"首先寻找主世界的寺庙（Monastery），并在其中击败泥峭人获取泥峭棒，交给雕刻家开启挑战。完成挑战即可获取&a大地手套&r"
+				""
+				"击杀雕刻家无法获取大地手套，必须通过其给出的考验才能完成。考验的内容是想办法在规定条件的限制之下（不能搭方块，飞行）到达顶端"
+				""
+				"八仙过海各显神通，总有一种办法适合你"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "15a4801f-5717-427c-903d-edbb96e646ea"
+				}
+			}
+			id: "1B1AD492B0F8299B"
+			tasks: [
+				{
+					id: "7C999EFD6FB1B278"
+					item: "mowziesmobs:bluff_rod"
+					type: "item"
+				}
+				{
+					id: "154FDDF2F447EC2D"
+					item: {
+						Count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "15a4801f-5717-427c-903d-edbb96e646ea"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "大地手套"
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"击杀钢铁守护者掉落，所在结构（主世界）：Wrought Chamber"
+				""
+				"这种敌人的绝大部分身体免疫任何攻击，只有攻击背部才能正常造成伤害，而且攻击的次数相当有限，&c高攻速武器在这里可行不太通&r"
+			]
+			id: "356A77395FDA425A"
+			tasks: [{
+				id: "245B36ACAC4FCED2"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			description: ["海中钓鱼获取，或者用奇观大型豆腐祭坛来生产"]
+			id: "3DBCE3921C128A8B"
+			tasks: [{
+				count: 8L
+				id: "355AB5EC810AA7E7"
+				item: { Count: 8, id: "aquaculture:neptunium_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"灵梦：我猜你肯定想说，这些生物似乎不应该存在于幻想乡里，对吧？"
+				""
+				"这就对喽，既然是不该存在的东西，那怎么办？只有一个字，全部退治！幻想乡里没有的东西，不熟悉的东西，没见过的生物都可以退治，据我所知，只有&a雕刻家&r需要按要求完成挑战才能获取对应物品，别的只管退治就完事儿了嗷。"
+				""
+				"妖梦：说的没错~这把剑斩不断的东西根本不存在"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4DF440BA249CB06F"
+			rewards: [{
+				id: "3F28BE83A5FE7345"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0A4CB20D866B75F1"
+				type: "checkmark"
+			}]
+			title: "提示"
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			description: ["与琪露诺交易获得，解锁交易需要自身有&b妖精化&r效果，可在探险家指南针中搜索cirno寻找对应结构"]
+			id: "20EFB7D3D78B3AC9"
+			tasks: [{
+				id: "536F0F41515935D3"
+				item: {
+					Count: 1
+					id: "youkaishomecoming:cirno_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: ["荷取：顺便一提，地灵殿的蜂箱漏斗应该没有忘记做吧？之后可能会需要不少的蜂蜜"]
+			id: "5A530DD149FB424D"
+			tasks: [{
+				id: "04E086D031FC1E46"
+				item: "thermal:device_hive_extractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"米斯蒂娅：哎呀呀...怎么连八目鳗都不够了呢...河童那边的抽不出人手帮我搭建八目鳗养殖场啊..."
+				"这下真的要饭团包万物了.."
+				""
+				"嗯？你都听到了？那我委托你帮我盖一个如何 ？作为回报 养殖场里头的水产你也能调用。"
+				""
+				"&7水族馆 主要职责为使用水产饲料生产墨鱼与八目鳗"
+				"&7同时也能够&a稳定获取鉕锭&r"
+				""
+				"&7水族馆里头的水需要你手动输入，你问我怎么输入？"
+				"{ \"text\": \"软管滑轮是个好东西,点我查看怎么使用\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E0B6C8886D15BD9\" } }"
+				""
+				"{@pagebreak}"
+				"荷取：相信你已经在之前的课程里学会了软管滑轮的用法，那就不啰嗦了哦，毕竟剩下的其他材料都只需要AE的合成终端里面下单就能完成。这种设备一定会用到水产饲料，可以产出一些正常情况不方便量产的水产品。并且部分配方&b需要在暮色的地下才能发挥作用&r。"
+				""
+				"天子：什么？你说AE根本没动？那你可惨喽，逃的课终究是要补回来的，如果要&b纯手工匠心打造&r的话，祝你好运，我先溜了"
+				""
+				"荷取：总之还是稍微提醒一下，如果需要大量骨粉的话，或者可以试试化学合成的方式。据说骨粉，白色染料之间存在着奇妙的循环……"
+			]
+			icon: "youkaishomecoming:lamprey_bucket"
+			id: "21CFCBEAA167B850"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：产出八目鳗与墨鱼 生产鉕锭"
+			tasks: [{
+				id: "4C3E9292709920DE"
+				item: "mbd2:aqua"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"帕秋莉：来的正好，我的魔法阵刚好画好了，不过因为&c异变&r的原因，咲夜已经有很长一段时间没法帮我取得素材了"
+				""
+				"不如这样吧"
+				"&a你给我材料 我来做实验，出来的材料。副产品什么的你拿走&r "
+				"我只要实验数据 双赢。"
+				""
+				"&7不动的图书馆 主要职责为提供材料与流体 "
+				"&7（均需要流体经验）制作一些相对难以获取的物品，与三种龙钢的转换"
+				"&e东方素材"
+				"邪正&c人鬼&a的唯一获取方式"
+				"&8鬼人正邪&r"
+				"&c需要注意 正邪素材无法制作防具"
+				""
+				"另外还有灵梦衣服碎片&7（别问怎么出来的）&r，零素与大卢恩的配方。"
+				""
+				"{@pagebreak}"
+				"荷取：众所周知，既然是大图书馆，一定需要大量的知识（经验）才能有所产出"
+				""
+				"没错，不动的大图书馆的所有配方一定需要液体经验，有很多种生产液体经验的方法，记得多看多学。&b输入接口则放在底部的紫色混凝土中，不过也可以全部材料都从控制器那里输入和输出，都行，看你。&r"
+				""
+				"还有一点非常重要，这个多方块推荐放在地下Y值较小的地方。如果需要查看配方，可以在多方块结构界面&a点击抬头标题以查看更多JEI配方"
+				"&r"
+				"&b建筑作者：B站葡萄桃紫薯&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:dragonskin_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "2DAF273B73D9756D"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：制作材料 转换材料。"
+			tasks: [{
+				id: "0EE95BB18AEDA2D1"
+				item: "mbd2:patch"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"灵梦：唉麻烦死了 这种仪式还得额外搭建一个场地，我现在哪来的时间？"
+				""
+				"嗯？你说你能搭建？只是需要帮你做点东西？"
+				""
+				"那感情好，快点快点 不用钱的苦力什么的真是太好了！"
+				""
+				"&7博丽祭坛 主要职责为制作一些高效提炼精炼油与刚玉（限定白色）复制"
+				"&7可&a批量制作手办&7与流体经验（概率产出下界之星）"
+				""
+				"&7同时也是&e东方素材&7 神秘帽子（也就是莲子的帽子）&a唯一获取方式。"
+				"&c更是流体以太的唯一获取方式，流体以太为创造物品与天邪鬼锭的重要合成素材之一。"
+				""
+				"{@pagebreak}"
+				"荷取：有不少材料需要特定种类的木材，其他材料的木材无法满足要求，如果在寻找木材方面遇到了困难，不妨试试群系指南针"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31EA2B25EDCA3877"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：刚玉复制 提炼精炼油"
+			tasks: [{
+				id: "6E8782CF75460223"
+				item: "mbd2:touhou_shrine"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"本章图片除了米斯蒂娅来自&eDairi老师&r以外，均来自东方安科创作者&e白昼桃草子&r"
+				""
+				"什么？你问我安科是啥么？"
+				""
+				"安科，简单来说就是角色的大多数行为全部都由骰子决定的故事，作为作者为角色的行动给出多个选项，然后投骰子决定故事的走向，由于...."
+				""
+				"{image:touhou_tinker_fantasy:textures/yuuka.png width:50 height:50 align:left}"
+				"&a风见幽香：好了这里没你的份了 闭嘴吧你。&r"
+				"{image:touhou_tinker_fantasy:textures/erin.png width:50 height:50 align:left}&c"
+				"&c八意永琳：已经品尝&9的够多了，快端下去罢。&r"
+				""
+				"&7。。。总而言之快去看白昼桃草子老师的安科！"
+				"&8哦对，幽香与永琳的图片也是来自Dairi老师。"
+			]
+			icon: "minecraft:book"
+			id: "5A5DA75C3B89EAD7"
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "桃海皇的安科很好看，快给我去看！"
+			tasks: [{
+				id: "7D9C4AFBA1CE9E4E"
+				title: "关于本页的图片来源"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"&d紫：结界最近因为异变的缘故有点不稳定了。 我怀疑是稳定器出了点问题"
+				""
+				"&d你来的正好 这是设计图  你帮我个忙去看看稳定器是不是损坏了 至于报酬"
+				""
+				"&d稳定器其实当初设计的时候还有个功能可以生产物品的来着 在不破坏的情况下随便你折腾了"
+				""
+				"&7博丽结界稳定器 主要职责为制作特殊催化剂与创造物品，&a制作的所有配方均需要电力。"
+				""
+				"&7特殊催化剂为创造物品的重要合成素材之一，每个创造物品需求都不一致"
+				""
+				"{@pagebreak}"
+				"荷取：可别看这个奇观的材料需求种类少，实际上制作难度并不低，而且更重要的是，毕竟博丽大结界维持了这么多年，上一次测算结果显示，相关性能参数已经有所下降。"
+				""
+				"比如说，部分应力集中区域的抗剪切能力已经大幅下降，最近异变导致的魔力指数异常波动也让大结界的框架结构产生了裂痕。甚至经过一些精密测算，发现居然大结界由特殊材料一次性浇筑而成的桁架里还有没消除的内应力？这种材料的（魔）法学性能可是相当优秀的。我怀疑是不是当初建造的时候打了生桩"
+			]
+			hide_dependent_lines: true
+			icon: "touhou_little_maid:wireless_io"
+			id: "28A2A2886D8D4E4D"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：特殊催化体制作 创造物品制作"
+			tasks: [{
+				id: "380351F93CFBC06D"
+				item: "mbd2:border_stablizer"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"&e蓝：又见面了，不要问为什么是我来介绍豆腐祭坛的功能，你就当是紫大人对我的刻板印象吧。"
+				""
+				"&e总而言之 这种祭坛需要你先到豆腐世界一趟取得相关素材"
+				""
+				"&e还有这边的预览图估计是抄写时出现问题了 &a预览图的黄铜机壳实际上是控制器的位置&e。而前方有个空位是多方块输入接口的位置"
+				""
+				"&7小型豆腐祭坛 主要职责为提炼轻油与豆腐块的制作，同时兼职制造豆奶。"
+				""
+				"&b需要先完成这一个多方块结构才能开启之后的任务&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3300927C5AE26645"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：制造豆腐块 提炼轻油"
+			tasks: [{
+				id: "6262C0E478D07FD4"
+				item: "mbd2:small_tofu_shrine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3300927C5AE26645"]
+			description: [
+				"&e蓝：至于大型的祭坛你可以视为升级版本，小祭坛能做的配方它也能做"
+				""
+				"&e黄铜机壳能任意替换为输入接口。"
+				""
+				"&7大型豆腐祭坛 主要职责为制造三种龙钢，以及稳定产出的海王锭。"
+			]
+			id: "5A8D8C7D2129F164"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "主要职责：小型豆腐祭坛上位替代 龙钢制作  海王锭制作"
+			tasks: [{
+				id: "39ACE15C8E3C31E5"
+				item: "mbd2:big_tofu_shrine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"3D9F98573ED36858"
+				"460AAC7F7E28B87A"
+				"4DFC6AA7510D37EB"
+			]
+			description: [
+				"似乎存在着这样的一种可能性，有另外一种独特的方法同样可以得到这几种重要的设备，尽管几乎不需要发展什么科技，对战斗的要求也不算很高，但是难度却相当大，甚至一点也不比做科技的难度低……"
+				""
+				"是需要运气吗？不对，具体的解法是固定的，不需要赌运气。"
+				"是需要很深的游戏理解，必须是MC生电大佬吗？也不是，毕竟游戏里面具体的操作并不算复杂，甚至如果你已经学会了，可以完全不动手，指挥别人来完成。"
+				"是需要刷刷刷吗？也不对，最重要的是思路不是肝度。"
+				""
+				"但是，&c这条线的难度可能会让绝大部分人望而却步，甚至光是看一眼就不会有丝毫尝试的勇气&r，因此，&4不管是已经到达这里的，或者尚未到达的，都不必对此有太高的期待（指难度方面）&r，或许等更新以后，绝大部分人会发现——静下心来耐心研究一下AE会更简单"
+				""
+				"&a【未完待续】"
+				""
+				"&a【0科技线待更新】"
+			]
+			icon: "itemfilters:max_count"
+			id: "415B372D30B0960E"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "67E7549101369E8D"
+				type: "checkmark"
+			}]
+			title: "另一条世界线？"
+			x: 21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00F50F4B73C57632"]
+			description: [
+				"shift右键切换到该模式以后，再右键打开可以输入配方ID，即你需要检查为什么失效的配方ID"
+				""
+				"&a如何查看配方ID&r：&dF3+H&r以显示物品和配方的详细信息，在JEI中查看对应的配方中的产物详细信息即可看到配方ID"
+				""
+				"输入时有自动补全，因此无需记忆完整ID"
+				""
+				"输入对应的配方ID以后，需要点击上方弹出窗口中的候选项配方ID以保存输入。之后再用该道具右键控制器，即可显示配方无法生效的原因"
+				""
+				"常见原因："
+				"·原料错误或原料不足"
+				"·不满足对应条件（具体参考JEI）"
+				"·多方块结构缺失，因此配方也自然无效（类似匠魂炉的多方块结构无效）"
+				"·&9产物没有及时处理，导致堵塞&r（类似原版熔炉里烧满一组的铁锭没有拿出来，再放入更多粗铁矿自然也无法执行熔炼配方）"
+			]
+			id: "6A15205C76F98BDA"
+			rewards: [
+				{
+					id: "1AA941080F81FEF7"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 8
+					id: "06597FE4CB55F064"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			subtitle: "论如何自查配方失效原因"
+			tasks: [{
+				id: "111E67FBC3533264"
+				item: {
+					Count: 1
+					id: "mbd2:mbd_gadgets"
+					tag: {
+						Damage: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+	]
+	title: "幻想乡奇观工程"
+}

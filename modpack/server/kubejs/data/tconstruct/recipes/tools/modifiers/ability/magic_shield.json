@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      {
+        "item": "sakuratinker:south_star"
+      },
+      {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      },
+      {
+        "item": "minecraft:netherite_ingot"
+      }
+    ],
+    "level": 1,
+    "result": "sakuratinker:magic_shield",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

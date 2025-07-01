@@ -1,0 +1,27 @@
+[
+    {
+        "structure": [
+            "ttf:fumo_nether"
+        ],
+        "playerhelditem": [
+            "irons_spellbooks:fire_rune"
+        ],
+        "offhanditem": [
+            "quark:ancient_sapling",
+            "alexscaves:ancient_sapling"
+        ],
+        "block": {
+            "block": "supplementaries:bubble_block"
+        },
+        "fire": 30,
+        "explosion": "10,false,false",
+        "potion": [
+            "minecraft:wither,400,9"
+        ],
+        "give":[
+            "2=kubejs:greatrune_forgery_fluid_bucket",
+            "3=kubejs:ancient_essence_bucket"
+        ],
+        "message": "溢散的魔力已被收集并转化为特殊液体"
+    }
+]

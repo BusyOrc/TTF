@@ -1,0 +1,22 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "attributeslib:arrow_velocity",
+          "operation": "multiply_total",
+          "value": 0.1
+        },
+        {
+          "attribute": "attributeslib:healing_received",
+          "operation": "multiply_total",
+          "value": 0.3
+        }
+      ],
+      "name": "sakuratinker:moon_rabbit"
+    }
+  ],
+  "tooltip_display": "always"
+}

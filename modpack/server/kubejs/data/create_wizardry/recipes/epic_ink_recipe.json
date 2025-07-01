@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:arcane_ingot"
+    }, 
+    {
+      "amount": 500,
+      "fluidTag": "forge:blood"
+    },
+    {
+      "amount": 1000,
+      "fluid": "create_wizardry:rare_ink"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ],
+  "results": [
+    {
+      "amount": 750,
+      "fluid": "create_wizardry:epic_ink"
+    }
+  ],
+  "heatRequirement": "superheated"
+}
+
+

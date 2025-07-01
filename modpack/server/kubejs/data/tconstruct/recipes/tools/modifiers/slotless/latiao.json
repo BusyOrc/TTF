@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "tag": "forge:treasure_latiao"
+      },
+      {
+        "tag": "forge:treasure_latiao"
+      },
+      {
+        "tag": "forge:treasure_latiao"
+      },
+      {
+        "tag": "forge:treasure_latiao"
+      },
+      {
+        "tag": "forge:treasure_latiao"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:latiao",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.knockback_resistance",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.3
+  }
+}

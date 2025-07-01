@@ -1,0 +1,26 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 7,
+        "operation": "addition",
+        "attribute": "attributeslib:armor_pierce",
+        "unique": "tconstruct.modifier.darkness_emerging",
+        "slots": [
+          "mainhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.2,
+        "operation": "addition",
+        "attribute": "attributeslib:life_steal",
+        "unique": "tconstruct.modifier.darkness_emerging",
+        "slots": [
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

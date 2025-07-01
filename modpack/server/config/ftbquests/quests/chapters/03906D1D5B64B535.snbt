@@ -1,0 +1,1838 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "03906D1D5B64B535"
+	group: "4293891DF89E3E58"
+	icon: {
+		Count: 1
+		id: "touhou_little_maid:hakurei_gohei"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "03906D1D5B64B535"
+	images: [
+		{
+			height: 12.7d
+			image: "touhou_tinker_fantasy:textures/reimu.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "thermal:block/devices/device_collector_underlay"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.75d
+			y: 4.25d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"灵梦：似乎每天都有外乡人穿越到这里，我已经见怪不怪了，总之还是简单介绍一下。"
+				""
+				"最近又有异变，我忙着到处解决，如果有时间的话肯定会带你逛逛的，但很可惜时间紧任务重，你先收下这些东西吧，就作为来作客的礼物。如果你愿意的话，可以帮我解决一下异变吗？不着急，你先四处逛逛，之后会给你详细介绍的。"
+			]
+			icon: "touhou_little_maid:power_point"
+			id: "23C704C20A4D102C"
+			rewards: [
+				{
+					count: 4
+					id: "0E870712847A8150"
+					item: "farmersdelight:cabbage"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "14D5BAAFFE9B6419"
+					item: "farmersdelight:fried_egg"
+					type: "item"
+				}
+				{
+					id: "6021DA936401ED45"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "2F7C0F839A228AC1"
+					item: "touhou_little_maid:ender_chest_backpack"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "23D5B9BF84AE6AE9"
+				type: "checkmark"
+			}]
+			title: "1.1 初次见面"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23C704C20A4D102C"]
+			description: [
+				"灵梦：你来的时候似乎带着一本宝书，这可是难得一见的东西，能够把多本书的内容结合到一本书上，还能任意切换。帕秋莉昨天才和我提到她很想要一本这样的书。总之尽量保管好，不要弄丢了。"
+				""
+				"你现在的状态看起来也没办法帮忙处理异变，身体太虚弱了，也没有什么工具，不如这样吧，你去先找一下&a秋穰子和秋静叶姐妹&r，她们能教你如何&9解决食物问题&r，并且&9提升自己的身体状态&r。"
+				""
+				"其次，我推荐你去找&a河城荷取&r请教一下她那堆&9机械和动力相关&r的东西，我是不太懂，但相信你应该能学会如何使用。"
+				""
+				"想要制作趁手的工具的话，可以去找&a多多良小伞&r，她知道很多关于锻刀的技巧，当然，最近还学会了用各种&9材料制作工匠的工具&r。她应当很乐意教会你这些知识。"
+			]
+			icon: "akashictome:tome"
+			id: "0760661C2440F82B"
+			rewards: [{
+				id: "0BC392089669B5E9"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57171E013B7A05DE"
+				type: "checkmark"
+			}]
+			title: "1.2 阿卡什宝典"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0760661C2440F82B"]
+			description: [
+				"灵梦：你似乎还有点疑问，不过暂时不用想那么多，先动起来再说"
+				""
+				"这里还有点东西，直接送你了吧"
+				""
+				"弹幕战介绍：为了避免弹幕近距离影响观感（尤其是符卡的大量弹幕），近距离平着发射时弹幕不会显示，为正常情况。弹幕战强化的弹幕也有同样的视效优化，实际伤害不受影响。"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13025B20518A9BD2"
+			rewards: [
+				{
+					id: "3E76263E24AFC987"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B2C44B6F472327"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_shield"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "46068a59-0282-48c5-82f6-04393b3ae5f3"
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:blocking"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:block_amount": 10.0f
+								"tconstruct:block_angle": 90.0f
+								"tconstruct:durability": 300.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:use_item_speed": 0.8f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								"tconstruct:rarity": 1
+								"tconstruct:soulbound": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C475EF3585FC87B"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 1.0d
+								AttributeName: "minecraft:generic.armor_toughness"
+								Name: "ARtoughness0"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1273578378
+									1410745932
+									-1475422399
+									-210673238
+								]
+							}]
+							etstlib_tool_uuid: "1aebd0b6-c0e6-4d1a-b475-ad73450f7f02"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "ARtoughness"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:daiyousei"
+								"tconstruct:leather"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:item_frame"
+								}
+								{
+									level: 1
+									name: "tconstruct:turtle_shell"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:yousei"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+							]
+							tic_persistent: {
+								defense: -1
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 520.0f
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:item_frame"
+								}
+								{
+									level: 1
+									name: "tconstruct:turtle_shell"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:soulbound": 1b
+								"tconstruct:total_item_slots": 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49C08F69136FE630"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 3.0d
+								AttributeName: "minecraft:generic.armor_toughness"
+								Name: "ARtoughness0"
+								Operation: 0
+								Slot: "chest"
+								UUID: [I;
+									-740404970
+									1254310541
+									-1703478059
+									1012356142
+								]
+							}]
+							etstlib_tool_uuid: "d09459ed-7b6e-4786-9e2a-0dfcb17f1b2f"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "ARtoughness"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:cobalt"
+								"tconstruct:leather"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:shulking"
+								}
+								{
+									level: 1
+									name: "tconstruct:melee_protection"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								defense: -3
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 8.0f
+								"tconstruct:armor_toughness": 2.5f
+								"tconstruct:durability": 720.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:knockback_resistance": 0.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:shulking"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:rarity": 1
+								"tconstruct:soulbound": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45DD0D39AAEAEB13"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 2.0d
+								AttributeName: "minecraft:generic.armor"
+								Name: "ARarmor0"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									939231067
+									-1109638655
+									-1375005909
+									488551140
+								]
+							}]
+							etstlib_tool_uuid: "ebf4479b-41cf-42e4-aa8a-5e66ddead2c6"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "ARarmor"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:leather"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:protection"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -1
+								defense: -1
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 4.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 337.5f
+								"tconstruct:harvest_tier": "minecraft:iron"
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:rarity": 1
+								"tconstruct:soulbound": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BEC07F82382E1C4"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 6.0d
+								AttributeName: "attributeslib:prot_pierce"
+								Name: "ARprot_pierce0"
+								Operation: 0
+								Slot: "feet"
+								UUID: [I;
+									103397764
+									-969060559
+									-1509999616
+									-103660101
+								]
+							}]
+							etstlib_tool_uuid: "0213545c-db14-4256-8061-5604560fa8ad"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "ARprot_pierce"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:reisen"
+								"tconstruct:leather"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 3
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:medicine_borne"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -1
+								defense: -3
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 6.0f
+								"tconstruct:armor_toughness": 2.5f
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 1401.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:knockback_resistance": 0.03f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:projectile_damage": 2.5f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 3
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:rarity": 1
+								"tconstruct:soulbound": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78BB3F24E50CFA94"
+					item: {
+						Count: 1
+						id: "tconstruct:sword"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 0.2d
+								AttributeName: "attributeslib:experience_gained"
+								Name: "ATexperience0"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1113198278
+									-1932637424
+									-1954083191
+									1136981997
+								]
+							}]
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"村好剑\"}"
+							}
+							etstlib_tool_uuid: "d4f580ca-cb70-4598-99db-111c33bc7fb2"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "ATexperience"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:daiyousei"
+								"kubejs:baka"
+								"tinkers_thinking:cactus"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:mossmending"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:danmaku_ball"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:overheal"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:perfect_freeze"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:prickly"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 1.1f
+								"tconstruct:mining_speed": 0.625f
+							}
+							tic_persistent: {
+								abilities: -1
+								"mushroom_daydream:flare": 3.0f
+								upgrades: -4
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:attack_damage": 8.302501f
+								"tconstruct:attack_speed": 1.4f
+								"tconstruct:durability": 1071.2626f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:mining_speed": 3.4312499f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:mossmending"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:danmaku_ball"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+								"tconstruct:soulbound": 1b
+								upgrades: 4
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1980F8FAACC41A6F"
+				type: "checkmark"
+			}]
+			title: "1.3 补充"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"灵梦：这种生物我也不喜欢，如果要避免幻翼的出现，&b床和天花板就像牢笼一样困住了我&r，如果有需要的话，我可以让它们&c再起不能&r。"
+				""
+				"永别了，牢笼！"
+				""
+				"不必担心掉落物的问题，有别的方法可以获得"
+			]
+			icon: "minecraft:phantom_membrane"
+			id: "7F569C4005C27A01"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule doInsomnia false"
+					elevate_perms: true
+					id: "469F2418AFDE0E0E"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "3575CF23E4E9AC76"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "退治幻翼"
+			tasks: [{
+				id: "7C0E209C0B849A4D"
+				type: "checkmark"
+			}]
+			title: "1.4 永别了，牢笼"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"如果你发现自己的战斗技巧学习出了点问题，可以考虑忘记所学的一切重新开始。不必担心，忘记学过的一切才算真正学到了东西"
+				""
+				"可以重新分配技能树Might  and Magic这部分的技能点"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7458F09A4FE9E448"
+			optional: true
+			rewards: [{
+				command: "/puffish_skills skills reset @s puffish_skills:might_and_magic"
+				elevate_perms: true
+				id: "3778BD978F352F1B"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "69F68F773D493625"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "1.5 重寻战斗的记忆"
+			x: 5.75d
+			y: 4.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13025B20518A9BD2"]
+			description: ["重新分配你在技能树养生方面所获得的技能点"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E728D0CDEB6D3E0"
+			optional: true
+			rewards: [{
+				command: "/puffish_skills skills reset @s puffish_skills:farm"
+				elevate_perms: true
+				id: "4B94B540FA4E91B5"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6B5C3C4222C793A8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "1.6 重寻旅行的意义"
+			x: 3.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"根据&a记忆中的幻想乡&r教程书中的多方块结构投影，使用&b红色羊毛和任意原木&r即可完成祭坛的搭建，大部分女仆的重要材料都在这里合成，包括还可以合成驯养革新相关的部分附魔书"
+				""
+				"&l不需要重新制作这本书&r，只需要利用小恶魔的能力，从阿卡什宝典中就能立刻找到这本书"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+				}
+			}
+			id: "0A3142642A7A7D2F"
+			rewards: [{
+				id: "3BA2C7AD2DF90DBB"
+				item: "touhou_little_maid:smart_slab_init"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "21F6E6B45C87893B"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "1.7 搭建祭坛"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13025B20518A9BD2"]
+			description: ["提高当前难度等级20点，仅影响自己的难度，服务器中不同玩家的难度相互独立"]
+			icon: {
+				Count: 1
+				id: "twilightforest:wither_skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "51E8930E163FB897"
+			rewards: [{
+				auto: "disabled"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 20"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "35AC873CDD7D63E5"
+				team_reward: false
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "37F145EAE526EA93"
+				type: "checkmark"
+			}]
+			title: "1.8 勇敢勇敢我的朋友"
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&l如果你能看到这个任务，说明你在编辑模式下，正常模式下这个任务不可见"
+				"&r"
+				"降低当前难度20点，或者你也可以手动输入指令"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "5DC59FDCCE6E5FB7"
+			invisible: true
+			optional: true
+			rewards: [{
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add -20"
+				elevate_perms: true
+				id: "40D8312865F7AC6E"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [{
+				consume_items: true
+				id: "07C5E918F19E5AFE"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			title: "1.9 技术性调整"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0760661C2440F82B"]
+			description: [
+				"灵梦：丢了？拿十万来我就给你找回来，不过没有十万的话，"
+				""
+				"就用10个铁锭代替吧"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "32B3421E3CA0E280"
+			rewards: [{
+				id: "0C9F2C46065316E7"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ae2.guide\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.guide\"}]}"
+									}
+								}
+							}
+							alchemistry: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"alchemistry.patchouli.book_name\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"alchemistry.patchouli.book_name\"}]}"
+									}
+									"patchouli:book": "alchemistry:alchemistry_book"
+								}
+							}
+							alexsmobs: {
+								Count: 1b
+								id: "alexsmobs:animal_dictionary"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.alexsmobs.animal_dictionary\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.alexsmobs.animal_dictionary\"}]}"
+									}
+								}
+							}
+							irons_spellbooks: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"Iron's Guidebook\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Iron's Guidebook\"}]}"
+									}
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+							}
+							laserio: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "laserio:laseriobook"
+								}
+							}
+							ltc2: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ltc2.guidebook\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ltc2.guidebook\"}]}"
+									}
+									"patchouli:book": "ltc2:guidebook"
+								}
+							}
+							modulargolems: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "modulargolems:golem_guide"
+								}
+							}
+							nffgirls: {
+								Count: 1b
+								id: "nffgirls:mob_dictionary"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.nffgirls.mob_dictionary\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.nffgirls.mob_dictionary\"}]}"
+									}
+								}
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+							tconstruct: {
+								Count: 1b
+								id: "tconstruct:materials_and_you"
+								tag: {
+									mantle: {
+										book: {
+											current_page: "intro.introduction"
+										}
+									}
+								}
+							}
+							tconstruct_0: {
+								Count: 1b
+								id: "tconstruct:puny_smelting"
+								tag: {
+									"akashictome:definedMod": "tconstruct_0"
+								}
+							}
+							tconstruct_1: {
+								Count: 1b
+								id: "tconstruct:tinkers_gadgetry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_1"
+								}
+							}
+							tconstruct_2: {
+								Count: 1b
+								id: "tconstruct:mighty_smelting"
+								tag: {
+									"akashictome:definedMod": "tconstruct_2"
+								}
+							}
+							tconstruct_3: {
+								Count: 1b
+								id: "tconstruct:fantastic_foundry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_3"
+								}
+							}
+							tconstruct_4: {
+								Count: 1b
+								id: "tconstruct:encyclopedia"
+								tag: {
+									"akashictome:definedMod": "tconstruct_4"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.tconstruct.encyclopedia\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tconstruct.encyclopedia\"}]}"
+									}
+									mantle: {
+										book: {
+											current_page: ""
+										}
+									}
+								}
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							tofucraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.tofucraft.tofu_book\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tofucraft.tofu_book\"}]}"
+									}
+									"patchouli:book": "tofucraft:tofu_book"
+								}
+							}
+							touhou_little_maid: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"patchouli.touhou_little_maid.book.name\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"patchouli.touhou_little_maid.book.name\"}]}"
+									}
+									"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+								}
+							}
+							twilightdelight: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "twilightdelight:twilight_guide"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "26550BE6C0C8485B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6CABD09C13B51A97"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			title: "这本书给弄丢了"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0760661C2440F82B"]
+			description: ["宝典在选择变为其中一本书后，对空气左键即可还原"]
+			id: "0D90D53E98AED45E"
+			tasks: [{
+				id: "2EA1B18F5E2D8508"
+				type: "checkmark"
+			}]
+			title: "还原宝典"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23C704C20A4D102C"]
+			description: [
+				"灵梦：现在幻想乡魔物四起，魔力紊乱，虽然对于人里的居民威胁很大，但是对我来说都还挺简单的。主要问题在于，如果不找到并解决根源的话，清理再多魔物也终究只是一时之策，虽然俗话说能力越大责任越大，但是我个人的能力也有限，也不能996，007工作。所以，还需要拜托您到处走访调查一下，多谢了。"
+				""
+				"灵梦：还有一些信息需要补充一下。最近米斯蒂娅在她的仓库中发现了一具来源不明的尸体，更奇怪的事情是，每次试图转移尸体时，尸体总会在大家都不知情的情况下突然转移回到原位，所以目前尸体还在米斯蒂娅的仓库里放着呢。更奇怪的事情是，这件事的出现和异变发生几乎是同一时间，一定是有人在捣鬼"
+			]
+			hide_text_until_complete: true
+			id: "13D94D115F35344F"
+			rewards: [{
+				id: "41D7F60E2EA6FB88"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "提示：部分纯剧情任务需完成后可查看"
+			tasks: [{
+				id: "6ABBA51F6C59E272"
+				type: "checkmark"
+			}]
+			title: "询问灵梦关于异变"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A3142642A7A7D2F"]
+			description: ["想要复活女仆？拿上胶片，可在祭坛进行复活，或者将胶片放入神龛也可以，前者消耗材料，后者消耗自身血量"]
+			id: "6C841A11F83976DD"
+			rewards: [{
+				id: "6278F20DC7CB4C4D"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7D02BEDD16C01877"
+				item: "touhou_little_maid:shrine"
+				type: "item"
+			}]
+			x: 7.047619047619058d
+			y: 3.720238095238095d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"灵梦：最近我发现一些异变的妖怪似乎拿起了小伞做的匠魂武器，也不知道是如何做到的，但是在退治异变的时候我发现，似乎可以通过一些手段来&a增强这些敌人持有的武器&r。"
+				""
+				"虽然敌人战斗力会更强，但是击败后也有&a小概率掉落相应的武器&r。如果你愿意冒这个险，就来试试吧"
+				""
+				"那么，你想要面对更强的敌人，&b对吗&r？"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:scythe"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "cb368ee0-d34b-4b07-8823-3632d9a0efe5"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"tinker_in_caves:candy_cane"
+						"tconstruct:wood"
+						"tinker_in_caves:candy_cane"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 2
+							name: "tinker_in_caves:sweety"
+						}
+						{
+							level: 1
+							name: "tconstruct:cultivated"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:ecological"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_aoe_shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.6f
+						"tconstruct:durability": 2.5f
+						"tconstruct:mining_speed": 0.85f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 5.04f
+						"tconstruct:attack_speed": 0.93500006f
+						"tconstruct:durability": 131.25f
+						"tconstruct:mining_speed": 2.3375f
+						"tconstruct:use_item_speed": 0.3f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "4AF3B5DC86723CE3"
+			shape: "rsquare"
+			tasks: [{
+				id: "132992B731EE0361"
+				type: "checkmark"
+			}]
+			title: "富贵险中求"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4AF3B5DC86723CE3"]
+			description: [
+				"灵梦：好了，利用一块邪恶水晶碎片作为魔力的引导，部分敌人的武器现在变得更强了，从原来的1级匠魂工具变为了最高2级"
+				""
+				"尽管暴毙的风险更高了，但是说不定也能收获更多？谁知道呢"
+				""
+				"（&a反复完成该任务不会叠加&r，如果需要继续提升，请完成下面的后续任务，每份任务的提升是独立的，互不干扰，如果要降低难度，则需要去对应的任务中降低）"
+			]
+			icon: "minecraft:red_glazed_terracotta"
+			id: "4FC4FDE2CC125B7C"
+			rewards: [{
+				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_1"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "4771E6D2A955913B"
+				silent: true
+				type: "command"
+			}]
+			subtitle: "对吗？不对吧"
+			tasks: [{
+				consume_items: true
+				id: "66849CA65C4FBAA9"
+				item: "hmag:evil_crystal_fragment"
+				type: "item"
+			}]
+			title: "对的对的对的"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4AF3B5DC86723CE3"]
+			description: [
+				"灵梦：如果要消除额外魔力带来的影响，需要用到一个手办，这样的话，敌人只会拥有最初级的1级匠魂工具"
+				""
+				"只有在你&c已经提高了敌人工具强度&r的情况下才会生效，&a否则不会有任何作用&r"
+			]
+			icon: "minecraft:lime_glazed_terracotta"
+			id: "4E81437A4FC1C383"
+			rewards: [{
+				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_1"
+				elevate_perms: true
+				id: "1144EB9EA1068CE9"
+				type: "command"
+			}]
+			subtitle: "好像是对的？"
+			tasks: [{
+				consume_items: true
+				id: "196F77F1D27CFDE1"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:garage_kit"
+					tag: {
+						EntityInfo: {
+							IsYsmModel: 0b
+							MaidTaskDataMaps: { }
+							ModelId: "touhou_little_maid_old:yuuka_old"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "不对不对，我说不对"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FC4FDE2CC125B7C"
+				"4E81437A4FC1C383"
+			]
+			description: ["灵梦：所以你到底是要还是不要？就问你要不要吧？"]
+			hide_until_deps_complete: true
+			icon: "minecraft:tnt_minecart"
+			id: "24477AEA2FEBED50"
+			tasks: [{
+				id: "7B20E64B790E869C"
+				type: "checkmark"
+			}]
+			title: "噢布莱克斯"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AF3B5DC86723CE3"]
+			description: ["灵梦：如果你觉得还不够，可以考虑让敌人能获得更强力的武器类型，例如巨剑等。目前敌人仅会持有相对基础的匠魂武器。"]
+			icon: {
+				Count: 1
+				id: "tinkers_things:halberd"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "e89312e5-6f1b-4451-a124-f600cf0563db"
+					tic_broken: 0b
+					tic_materials: [
+						"cloudertinker:prublaze"
+						"cloudertinker:prublaze"
+						"cloudertinker:prublaze"
+						"cloudertinker:prublaze"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "cloudertinker:lichcurse"
+						}
+						{
+							level: 4
+							name: "cloudertinker:twilightprotece"
+						}
+						{
+							level: 4
+							name: "tconstruct:smite"
+						}
+						{
+							level: 1
+							name: "tinkers_things:range"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 2.25f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 9.0f
+						"tconstruct:attack_speed": 0.96000004f
+						"tconstruct:durability": 476.21252f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 7.92f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "208D98BAC1512E9F"
+			tasks: [{
+				id: "557AFF3EA41D6138"
+				type: "checkmark"
+			}]
+			title: "原来你一直与我同在"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4AF3B5DC86723CE3"]
+			description: [
+				"灵梦：还想要提升难度吗？可以的哦，这样的话，算上之前的提升，敌人最高会持有3级匠魂工具"
+				""
+				"如果后悔了，也&b可以取消&r"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:excavator"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "760d1eae-3804-48ba-8e22-47559e69e578"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:fiery_crystal"
+						"sakuratinker:fiery_crystal"
+						"sakuratinker:fiery_crystal"
+						"sakuratinker:fiery_crystal"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "sakuratinker:twilight_sparkle"
+						}
+						{
+							level: 4
+							name: "sakuratinker:twilight_remembrance"
+						}
+						{
+							level: 2
+							name: "tconstruct:knockback"
+						}
+						{
+							level: 1
+							name: "tconstruct:pathing"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.2f
+						"tconstruct:durability": 3.75f
+						"tconstruct:mining_speed": 0.3f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 11.73f
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:durability": 4839.75f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 2.16f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "35B5E5C18E78A85D"
+			tasks: [{
+				id: "3A1148F5FD1DC342"
+				type: "checkmark"
+			}]
+			title: "更上一层楼"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["35B5E5C18E78A85D"]
+			description: ["提升后的材料等级：一个某位胖子不会数的数字"]
+			icon: "minecraft:red_glazed_terracotta"
+			id: "5921B121DA84F001"
+			rewards: [{
+				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_2"
+				elevate_perms: true
+				id: "5CC62CFEAFB1B0A6"
+				type: "command"
+			}]
+			subtitle: "增加1级敌人持有的材料等级"
+			tasks: [{
+				consume_items: true
+				id: "33E18DBCF4AF185C"
+				item: "hmag:evil_crystal"
+				type: "item"
+			}]
+			title: "喜加一"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["35B5E5C18E78A85D"]
+			description: ["虽然目前敌人工具强度降低了1级，但只要用帕秋莉的法术发动进攻，一切都会好起来的"]
+			icon: "minecraft:lime_glazed_terracotta"
+			id: "63DFF623B9E76101"
+			rewards: [{
+				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_2"
+				elevate_perms: true
+				id: "1861CA727DDF087B"
+				type: "command"
+			}]
+			subtitle: "降低1级敌人持有的材料等级"
+			tasks: [{
+				consume_items: true
+				id: "5B7CA8FC174E63F0"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			title: "大家不要慌，一定是技术性调整"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35B5E5C18E78A85D"]
+			description: ["灵梦：你确定还要继续吗？4级匠魂材料几乎都是最强材料，持有这种武器的敌人相当于解锁了全盛姿态，拼尽全力不可战胜。建议考虑清楚"]
+			icon: {
+				Count: 1
+				id: "sakuratinker:great_sword"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "5260526f-63b7-4871-9362-d868f382a761"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:bamboosteel"
+						"tinkerscalibration:bamboosteel"
+						"tinkerscalibration:bamboosteel"
+						"tinkerscalibration:bamboosteel"
+						"tinkerscalibration:bamboosteel"
+					]
+					tic_modifiers: [
+						{
+							level: 5
+							name: "tinkerscalibration:bamboo_growing"
+						}
+						{
+							level: 1
+							name: "tconstruct:reach"
+						}
+						{
+							level: 1
+							name: "sakuratinker:heavy"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.8f
+						"tconstruct:durability": 4.0f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 24.354f
+						"tconstruct:attack_speed": 0.5f
+						"tconstruct:durability": 6930.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 9.61875f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "70287163FD8AF8F1"
+			tasks: [{
+				id: "7AD40A1BE1F6ABE8"
+				type: "checkmark"
+			}]
+			title: "全盛姿态"
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70287163FD8AF8F1"]
+			description: ["&7&o我当初想直接开局挑战手持4级匠魂工具的敌人，怎么样，是不是很大胆？那可是开局挑战哦，但是我放弃了&r&r"]
+			icon: "minecraft:lime_glazed_terracotta"
+			id: "6ECC55AF08732D8A"
+			rewards: [{
+				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_3"
+				elevate_perms: true
+				id: "686544B49DB564EF"
+				type: "command"
+			}]
+			subtitle: "年轻人要讲武德"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3952D8C9F0F61B56"
+				item: "hmag:ender_plasm"
+				type: "item"
+			}]
+			title: "《我放弃了提升难度》"
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70287163FD8AF8F1"]
+			description: ["已经抛弃繁文缛节了"]
+			icon: "minecraft:red_glazed_terracotta"
+			id: "7DE470F6B5B4370E"
+			rewards: [{
+				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_3"
+				elevate_perms: true
+				id: "7559B07CC7C1FD47"
+				type: "command"
+			}]
+			subtitle: "增加1级敌人持有的材料等级"
+			tasks: [{
+				consume_items: true
+				id: "5CF7C1B9C5ECA706"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "全盛姿态启动"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["208D98BAC1512E9F"]
+			description: [
+				"在敌人快被打败的时候，敌人背包里的巨剑，双头刀，劈刀掉落在面前"
+				""
+				"&o&7啊，原来你一直与我同在，我的导师，指引我的月光&r&r"
+			]
+			icon: "minecraft:red_glazed_terracotta"
+			id: "61321E44A83C53FD"
+			rewards: [{
+				command: "/advancement grant @s only tconstruct_emergence:advanced_melee_weapons"
+				elevate_perms: true
+				id: "4971E98136FF2261"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12D15BCD5197316C"
+				type: "checkmark"
+			}]
+			title: "接受挑战"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["208D98BAC1512E9F"]
+			description: ["让部分敌人仅会持有相对普通的匠魂武器，合适的才是最好的"]
+			icon: "minecraft:lime_glazed_terracotta"
+			id: "5A123F08C41F7828"
+			rewards: [{
+				command: "/advancement revoke @s only tconstruct_emergence:advanced_melee_weapons"
+				elevate_perms: true
+				id: "3AA37FBDAE2E62BE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "08C2D92687AC0A38"
+				type: "checkmark"
+			}]
+			title: "大丈夫能屈能伸"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: ["灵梦：暮色森林世界存在结界的封锁，如果未击败前面的BOSS则无法前往挑战后续敌人，但是在我面前玩结界都是班门弄斧，如果你能给我带一些之前我没尝过的食物，就帮你解开&b暮色森林的封锁&r，如何？"]
+			id: "0F304CCA2EC8128A"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule tfEnforcedProgression false"
+				elevate_perms: true
+				id: "3E428741BF7ABFB5"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "7ACDAB3235A2B505"
+					item: "tinkers_delight:piglins_head_meat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A765D692AA3561E"
+					item: "tinkers_delight:baked_vegetables_with_cheese"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "203274780023734D"
+					item: "tinkers_delight:big_cotton_candy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2BC2582C881F53B4"
+					item: "tinkers_delight:mashed_potato_with_milk"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "320950DF69380E5D"
+					item: "immortalers_delight:stuffed_poisonous_potato"
+					type: "item"
+				}
+			]
+			title: "去除暮色世界的封印"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "初遇灵梦"
+}

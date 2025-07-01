@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "block": "thermal:lead_ore",
+      "weight": 1
+    }
+  ],
+  "max_length": 6,
+  "size_variation": 0.4,
+  "weight": 4
+}

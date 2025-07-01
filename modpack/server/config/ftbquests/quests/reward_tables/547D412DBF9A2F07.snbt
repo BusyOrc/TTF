@@ -1,0 +1,80 @@
+{
+	icon: "minecraft:chest"
+	id: "547D412DBF9A2F07"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "thermalendergy:endergy_upgrade_3" }
+		{ item: "thermalendergy:endergy_upgrade_2" }
+		{ item: "thermalendergy:endergy_upgrade_1" }
+		{ item: "thermalendergy:dynamo_fuel_nullifier_augment" }
+		{ item: "thermalendergy:energy_nullifier_augment" }
+		{ item: "thermalendergy:efficiency_nullifier_augment" }
+		{ item: "thermalendergy:resonant_catalyst_augment" }
+		{ item: "thermalendergy:dynamo_consumption_nullifier_augment" }
+		{
+			item: {
+				Count: 1
+				id: "ae2:portable_item_cell_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2things:disk_drive_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2things:disk_drive_4k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2_mega_things:fluid_disk_drive_4k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2_mega_things:fluid_disk_drive_16k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:item_storage_cell_64k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:item_storage_cell_256k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_64k"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:fluid_storage_cell_256k"
+				tag: { }
+			}
+		}
+	]
+	title: "boss"
+}

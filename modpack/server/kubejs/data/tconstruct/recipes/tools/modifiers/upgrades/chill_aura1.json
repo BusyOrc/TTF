@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "minecraft:ice"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "minecraft:ice"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:chill_aura",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

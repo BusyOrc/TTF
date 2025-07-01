@@ -1,0 +1,28 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:katana"
+      },
+      {
+        "level":1,
+        "name":"sakuratinker:mortal_wound"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "tinkerscalibration:dash_armor"
+        },
+        {
+            "level": 2,
+            "name": "tconstruct:projectile_protection"
+          },
+          {
+            "level":2,
+            "name":"sakuratinker:solid"
+          }
+      ]
+    }
+  }

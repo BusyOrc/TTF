@@ -1,0 +1,22 @@
+{
+    "type": "tconstruct:alloy",
+    "inputs": [
+      {
+        "name": "tconstruct:molten_steel",
+        "amount": 90
+      },
+      {
+        "tag": "forge:blood",
+        "amount": 250
+      },
+      {
+        "name": "tconstruct:molten_clay",
+        "amount": 250
+      }
+    ],
+    "result": {
+      "fluid": "sakuratinker:molten_blood_bound_steel",
+      "amount": 90
+    },
+    "temperature": 1000
+  }

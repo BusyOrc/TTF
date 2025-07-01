@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls" : 1,
+      "entries" : [
+        {
+          "type" : "minecraft:item",
+          "weight" : 18,
+          "name" : "tofucraft:tofustick"
+        },
+        {
+          "type" : "minecraft:item",
+          "weight" : 2,
+          "name" : "minecraft:air"
+        }
+      ]
+    }
+  ]
+}

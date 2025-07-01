@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mushroom_daydream:no_head",
+  "temperature": 999,
+  "result": {
+    "fluid": "mushroom_daydream:no_head",
+    "amount": 90
+  }
+}

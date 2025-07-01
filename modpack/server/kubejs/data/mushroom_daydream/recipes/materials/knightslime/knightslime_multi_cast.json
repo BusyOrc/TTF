@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "name": "tconstruct:molten_knightslime",
+    "amount": 90
+  },
+  "result": "tconstruct:knightslime_ingot",
+  "cooling_time": 200
+}

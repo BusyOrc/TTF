@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "tconstruct:knightslime_ingot"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_knightslime",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 20
+}

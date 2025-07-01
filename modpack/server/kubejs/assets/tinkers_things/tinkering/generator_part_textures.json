@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "parts": [
+    { "path": "tinkers_things:item/tool/twinblade/blade1",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/blade1_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/blade2",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/blade2_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/handle",       "stat_type": "tconstruct:handle" },
+    { "path": "tinkers_things:item/tool/twinblade/grip",         "stat_type": "tconstruct:binding" },
+    
+    { "path": "tinkers_things:item/tool/twinblade/large/blade1",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/large/blade1_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/large/blade2",        "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/large/blade2_broken", "stat_type": "tconstruct:head" },
+    { "path": "tinkers_things:item/tool/twinblade/large/handle",       "stat_type": "tconstruct:handle" },
+    { "path": "tinkers_things:item/tool/twinblade/large/grip",         "stat_type": "tconstruct:binding" }
+  ]
+    
+
+}

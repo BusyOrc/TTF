@@ -1,0 +1,33 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "alexscaves:hazmat_mask"
+      },
+      {
+        "item": "alexscaves:hazmat_chestplate"
+      },
+      {
+        "item": "alexscaves:hazmat_leggings"
+      },
+      {
+        "item": "alexscaves:hazmat_boots"
+      },
+      {      
+        "amount_needed": 16,
+        "tag": "forge:plates/lead"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:radiation_immune",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

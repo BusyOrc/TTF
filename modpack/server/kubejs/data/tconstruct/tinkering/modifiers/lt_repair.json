@@ -1,0 +1,11 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+        {
+            "type": "tconstruct:constant_enchantment",
+            "level": 5,
+            "name": "ltc2:latiao_mending"
+          }
+    ],
+    "tooltip_display": "always"
+  }

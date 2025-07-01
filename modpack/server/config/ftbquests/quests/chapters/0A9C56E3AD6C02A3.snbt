@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0A9C56E3AD6C02A3"
+	group: "398070A2413EA53F"
+	icon: "youkaishomecoming:donation_box"
+	id: "0A9C56E3AD6C02A3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4F6FC1D2FCA5F22C"]
+			description: [
+				"灵梦：很可惜，这次的异变只能暂时缓解，还无法被真正解决。原因很简单，这次是外界带来的影响，在幻想乡里无法解决。最初的起因暂时还不清楚，但是最直接的原因，就是外界的一部分人似乎又回到了以前的状态，其实这件事也挺奇怪的，明明经过了这么多年的发展，人已经成为了大写的人，但是为什么还是有一些人愿意去继续当狗，当奴才呢？"
+				""
+				"灵梦继续补充：难道说，真的有部分人天生就是这样的，还是说，在同一个环境里，相互影响的情况下，大家都是帮凶？就像当年的瑞灵……但是，既然已经不是过去的时代那种情况了，就应该以人为中心。曾经我找小恶魔借过一些书，我刚说完书的情况，她瞬间就帮我找到了，是一些外界文学作品的书籍。虽然具体内容已经忘了，但是我还记得，其中有一本书里的主角竟然会将一条大鱼的鱼骨架给拖回家，这种看似没有实际意义的行为，或许……"
+				""
+				"{@pagebreak}"
+				"此时，魔理沙突然在神社门外平地摔绊倒了"
+				""
+				"魔理沙：偷听谈话真不好意思，嘿嘿"
+				""
+				"灵梦：你小子，又来是吧"
+				""
+				"魔理沙：刚才听完了对话，我突然想问一个问题，如果，我是说如果——某一天你发现夜雀食堂老板娘做的菜是有问题的，质量不光不合格，菜品里还掺杂了应当被扔进垃圾桶的私货，但是周围的顾客都没有发声，似乎都觉得没有任何问题，你会首先怀疑自己，还是大声提出来质疑老板娘呢？灵梦的答案显而易见，不用多说了。毕竟按照灵梦的风格，明天这世上就会少一个烧烤摊和一只夜雀。那么——"
+				""
+				"&l你的答案呢？&r"
+			]
+			hide_text_until_complete: true
+			icon: "tofucraft:tofustem_hanging_sign"
+			id: "0AAC91CC3287329A"
+			rewards: [{
+				id: "5301111C67B6441E"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:garage_kit"
+					tag: {
+						EntityInfo: {
+							IsYsmModel: 0b
+							MaidTaskDataMaps: { }
+							ModelId: "touhou_little_maid:miyadeguchi_mizuchi"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "任务完成后可查看"
+			tasks: [{
+				id: "5766A3DFDA7D3110"
+				type: "checkmark"
+			}]
+			title: "灵梦的总结"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AAC91CC3287329A"]
+			description: [
+				"如果在完整体验过剧情以后，有任何反馈，建议，欢迎加群友善交流"
+				"1群：823588101"
+				"2群：1040140278"
+				"3群：1049795386"
+			]
+			icon: "quark:diamond_heart"
+			id: "03FA6D4901FAD69D"
+			rewards: [{
+				id: "181EF8EC5A609E1A"
+				item: "simplehats:rgbbigribbon"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7072F3AC65EC93F2"
+				type: "checkmark"
+			}]
+			title: "感谢您的游玩"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "博丽神社"
+}

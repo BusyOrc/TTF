@@ -1,0 +1,32 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:pyroelectric"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:dense"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:smite"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "tinkerscalibration:pyroelectric"
+          },
+        {
+          "level": 1,
+          "name": "tconstruct:dense"
+        },
+        {
+            "level": 1,
+            "name": "tinkerscalibration:refined_armor"
+          }
+      ]
+    }
+  }

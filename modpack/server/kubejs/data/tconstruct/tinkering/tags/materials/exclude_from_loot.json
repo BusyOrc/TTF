@@ -1,0 +1,232 @@
+{
+  "values": [
+    {
+      "id": "sakuratinker:dragon_fire_steel",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:dragon_ice_steel",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:dragon_lightning_steel",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:youkai",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:blood_bound_steel",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:fiery_crystal",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:prometheum",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:south_star",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:soul_sakura",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:aurumos",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:eezo",
+      "required": false
+    },
+    {
+      "id": "sakuratinker:orichalcum",
+      "required": false
+    },
+    {
+      "id": "kubejs:greatrune",
+      "required": false
+    },
+    {
+      "id": "kubejs:himekaido",
+      "required": false
+    },
+    {
+      "id": "kubejs:koishi",
+      "required": false
+    },
+    {
+      "id": "kubejs:komachi",
+      "required": false
+    },
+    {
+      "id": "kubejs:reimu",
+      "required": false
+    },
+    {
+      "id": "kubejs:wu_yu",
+      "required": false
+    },
+    {
+      "id": "kubejs:seija",
+      "required": false
+    },
+    {
+      "id": "kubejs:hifuu",
+      "required": false
+    },
+    {
+      "id": "kubejs:youmu",
+      "required": false
+    },
+    {
+      "id": "tinkers_ingenious:black_flash_alloy",
+      "required": false
+    },
+    {
+      "id": "tinkers_ingenious:colorful_slime",
+      "required": false
+    },
+    {
+      "id": "tinkers_ingenious:coloured_glaze_star",
+      "required": false
+    },
+    {
+      "id": "tinkers_ingenious:final_shell",
+      "required": false
+    },
+    {
+      "id": "tinkers_ingenious:knight_crystal",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:phantom",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:fierdistear",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:forestgem",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:glaze",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:steelbone",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:hydra_scale",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:prublaze",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:monigold",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:knightmetal",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:steeleafalloy",
+      "required": false
+    },
+    {
+      "id": "clouder_tinker:frostiron",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:breashell",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:wither",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:soulgold",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:fazelle",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:emperorslime",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:inertwitherium",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:magiga",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:stellarium",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:oraclium",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:refinedquartz",
+      "required": false
+    },
+    {
+      "id": "tinkerscalibration:jazz",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:knightslime",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:dark_thing",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:witherite_ingot",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:heimdallr",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:dawnstone",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:plague_steel",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:liga",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:no_head",
+      "required": false
+    },
+    {
+      "id": "mushroom_daydream:whiterose_wood",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67348DEFE07CC87E"
+	group: "756D1B6269D2C725"
+	icon: "irons_spellbooks:cooldown_rune"
+	id: "67348DEFE07CC87E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["AE的催生器可以催生农作物和灵浆母岩吗？"]
+			icon: "ae2:growth_accelerator"
+			id: "6EE85AF8BC2565A3"
+			tasks: [{
+				id: "11CBCD5BB5D92FB8"
+				type: "checkmark"
+			}]
+			title: "1.催生器"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EE85AF8BC2565A3"]
+			description: ["回答正确"]
+			hide_text_until_complete: true
+			id: "186504D783A9EBDE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 68857A8764468922"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "1BDFCF04C82B44EE"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					count: 4
+					exclude_from_claim_all: true
+					id: "00D5F7A33971BFA7"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:diamond_barrel"
+						tag: {
+							woodType: "cherry"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67AF2E552E893B6C"
+				type: "checkmark"
+			}]
+			title: "可以催熟农作物，灵浆母岩"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EE85AF8BC2565A3"]
+			description: ["回答错误，有惩罚"]
+			hide_text_until_complete: true
+			id: "68857A8764468922"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 186504D783A9EBDE"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "324E6FA99B0C852F"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "290EEA61E0331C9C"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "26BEDC48A7747E51"
+				type: "checkmark"
+			}]
+			title: "不能催熟农作物，灵浆母岩"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"慧音：这里给你准备了一些小问题，如果你认真学习了的话肯定能正确回答出来的。&a答对了有奖励，答错了有惩罚哦&r。作为开卷考试，希望能认真对待。另外，为了防止全选的情况，在回答对一道以后，&c其他的回答也会被标记为完成状态但是不会有奖励或惩罚，仅会有你所回答选项的奖励或惩罚&r"
+				""
+				"每个题目有且仅有一个正确答案，一定要认真选择"
+				""
+				"前面几道题会隐藏一下题目的额外文本（题目本身供选择的内容仍然可以看到），并且这部分额外内容只有回答以后才能看到，但是会提示回答正确还是错误，来让你适应一下"
+			]
+			icon: "quark:acacia_bookshelf"
+			id: "37F87ED4D96E7FDF"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "0AFE2FB4C609723E"
+				type: "checkmark"
+			}]
+			title: "答题环节"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: ["机械动力的软管滑轮可以自动抽取流体，并且在此整合包中只需要1024格就能满足无限抽取的要求，那么在以下选项中，请选择&a所有流体&r都满足无限流体抽取的选项"]
+			icon: "create:hose_pulley"
+			id: "14FC1C9304D6D7D9"
+			tasks: [{
+				id: "66A410E31F81BB54"
+				type: "checkmark"
+			}]
+			title: "2.无限流体"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14FC1C9304D6D7D9"]
+			description: ["回答错误，有惩罚"]
+			hide_text_until_complete: true
+			id: "16217935325F38EE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 43AB882ED597C17A"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "3E960D64C3317DF0"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "7D0E3F3321CE4773"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 022F142EF6CA4D6E"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "50EA1FCCB20682AD"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "06F7FD7D0755824F"
+				type: "checkmark"
+			}]
+			title: "熔岩，烈焰血"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14FC1C9304D6D7D9"]
+			description: ["回答错误，有惩罚"]
+			hide_text_until_complete: true
+			id: "43AB882ED597C17A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 16217935325F38EE"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0AD359F2835A7817"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "6CECEE7DC5ED6B79"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 022F142EF6CA4D6E"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "547043F6AFA19919"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6BEAD0A45EA5A5D9"
+				type: "checkmark"
+			}]
+			title: "水，烈焰血，豆奶"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14FC1C9304D6D7D9"]
+			description: ["回答正确"]
+			hide_text_until_complete: true
+			id: "022F142EF6CA4D6E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 16217935325F38EE"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "4B9DB3712F481909"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 43AB882ED597C17A"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "1A1BD9175D447DEB"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					count: 9
+					exclude_from_claim_all: true
+					id: "0B6054FA346EC3A7"
+					item: "tconstruct:debris_nugget"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18EAB411360E5F02"
+				type: "checkmark"
+			}]
+			title: "熔岩，豆奶，血"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"对于部分有概率合成的配方，如果要使用AE的&b合成终端发包控制合成&r，请选择&a所有操作步骤都正确&r的选项"
+				""
+				"慧音：回答了前面的问题，你应该已经清楚正确和错误的情况了，因此接下来的题目将不会隐藏回答以后的文本，但是也不会在正文中提示该选项是正确还是错误的"
+			]
+			icon: "ae2:controller"
+			id: "7F150D54B8E22683"
+			tasks: [{
+				id: "35E8DC70EB68E375"
+				type: "checkmark"
+			}]
+			title: "3.概率合成"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7F150D54B8E22683"]
+			description: ["用ME精确输出总线调整好过滤和数量，连接需要供应材料的机器或容器"]
+			icon: "expatternprovider:precise_export_bus"
+			id: "26CE0E9B690A3D09"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 6166CF4D72D71ACF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "2C0BC830A9ECC233"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "248E9246825268CE"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 0DA36D089094D4BF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "636150AFFCD42376"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 21095E993CA0890F"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "34F67482F98A4279"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7480854FA3EBD121"
+				type: "checkmark"
+			}]
+			title: "ME精确输出总线"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F150D54B8E22683"]
+			description: ["建造装配矩阵+CPU来合成对应物品，写好样板以后放入装配矩阵中，在合成终端里下单控制合成"]
+			icon: "expatternprovider:assembler_matrix_frame"
+			id: "6166CF4D72D71ACF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 26CE0E9B690A3D09"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "084F1F669A1CCBB4"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "70B4F046306422D8"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 0DA36D089094D4BF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "0A2AABE811CC674D"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 21095E993CA0890F"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "56459570E201B4DC"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3E9668ECD44E0A46"
+				type: "checkmark"
+			}]
+			title: "装配矩阵合成"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F150D54B8E22683"]
+			description: ["发信器+合成卡，在发信器UI左侧配置成“发出信号以合成”，并且用红石电路连接控制对应机器"]
+			icon: "ae2:level_emitter"
+			id: "0DA36D089094D4BF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 26CE0E9B690A3D09"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "13D6589DD4EC6DD2"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 6166CF4D72D71ACF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "4848E8F706EB3ACE"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					count: 3
+					exclude_from_claim_all: true
+					id: "1ADBF99D61AF6B31"
+					item: "irons_spellbooks:fire_rune"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 21095E993CA0890F"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "787E42E4FCA69275"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2F51A979E03A5DF7"
+				type: "checkmark"
+			}]
+			title: "ME标准发信器"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F150D54B8E22683"]
+			description: ["使用P2P的方式传递控制器的频道，用石英纤维隔开频道构建子网，在子网中用样板供应器提供机器所需样板"]
+			icon: "ae2:me_p2p_tunnel"
+			id: "21095E993CA0890F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 26CE0E9B690A3D09"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "7BE0AC9866218F9A"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "38F5932AF699CD67"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 0DA36D089094D4BF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "14D473AD8AB95DD1"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 6166CF4D72D71ACF"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "01EBD3E7D5862CA6"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7BF7B0288A94F939"
+				type: "checkmark"
+			}]
+			title: "P2P+样板供应器"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			description: ["脂肪或疣猪兽皮&a必须&r使用什么工具击杀才能获得？"]
+			icon: "delightful:animal_fat"
+			id: "08A4AEF82B36D039"
+			tasks: [{
+				id: "5100607BA2B6D64C"
+				type: "checkmark"
+			}]
+			title: "4.特殊食材"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["08A4AEF82B36D039"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "tconstruct:cleaver"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "25cdfa06-2cef-4fde-87ab-c1c278907396"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 2
+							name: "tconstruct:severing"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_aoe_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 3.5f
+						"tconstruct:mining_speed": 0.25f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 4.725f
+						"tconstruct:attack_speed": 1.1f
+						"tconstruct:durability": 269.5f
+						"tconstruct:mining_speed": 0.5f
+						"tconstruct:use_item_speed": 0.6f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "4DE5A232986BABC7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 2D024DEFB2767461"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "57E0F967BC2E20F1"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "5203C24C8C488AD9"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "36937AFADE507FA6"
+				type: "checkmark"
+			}]
+			title: "劈刀"
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["08A4AEF82B36D039"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:knife"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "72958389-cd8b-44e8-9dab-bb15c8009472"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"tinker_in_caves:candy_cane"
+						"tconstruct:bamboo"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 1
+							name: "tinker_in_caves:sweety"
+						}
+						{
+							level: 1
+							name: "tconstruct:antiaquatic"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 3.6000001f
+						"tconstruct:attack_speed": 1.98f
+						"tconstruct:durability": 42.0f
+						"tconstruct:mining_speed": 3.3000002f
+						"tconstruct:use_item_speed": 0.4f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "2D024DEFB2767461"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 4DE5A232986BABC7"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "79142199DEC8E265"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					count: 4
+					exclude_from_claim_all: true
+					id: "53CF64F8682A7534"
+					ignore_reward_blocking: true
+					item: "delightful:animal_fat"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36D5A46D591DD519"
+				type: "checkmark"
+			}]
+			title: "小刀"
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			description: ["请选择选项中&a所有包含生物&r所对应的刷怪笼都符合“会自然消失的刷怪笼”的选项"]
+			icon: "minecraft:spawner"
+			id: "155514E23C6C9F49"
+			tasks: [{
+				id: "1210E6040793252A"
+				type: "checkmark"
+			}]
+			title: "5.刷怪笼"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["155514E23C6C9F49"]
+			description: [""]
+			icon: "minecraft:phantom_membrane"
+			id: "746BA4C5AF2C9C6C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 2770916B6BA80454"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "05097129C081E4FD"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/summon hmag:creeper_girl ~ ~ ~"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "5232DED468C41319"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3135B0AA7077FE86"
+				type: "checkmark"
+			}]
+			title: "烈焰人，幻翼"
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["155514E23C6C9F49"]
+			icon: "minecraft:magma_cream"
+			id: "2770916B6BA80454"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 746BA4C5AF2C9C6C"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "3465153DD5253F13"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					count: 4
+					exclude_from_claim_all: true
+					id: "6DF6AD1663DB19E4"
+					ignore_reward_blocking: true
+					item: "minecraft:blaze_rod"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "752AAE8A4E1DC998"
+				type: "checkmark"
+			}]
+			title: "岩浆怪，烈焰人"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0DA36D089094D4BF"]
+			description: ["ME标准发信器是正确答案，这道题可能略难，你猜对了吗？"]
+			hide_until_deps_complete: true
+			id: "1E72946724340DE5"
+			tasks: [{
+				id: "3232DF9C66574D85"
+				type: "checkmark"
+			}]
+			title: "正确答案"
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "慧音小课堂"
+}

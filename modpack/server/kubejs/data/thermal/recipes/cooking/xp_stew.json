@@ -1,0 +1,42 @@
+{  
+    "conditions":
+    [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container":
+    {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients":
+    [
+        {
+            "tag": "forge:crops/barley"
+        },
+        {
+            "tag": "forge:crops/barley"
+        },
+        {
+            "tag": "forge:crops/eggplant"
+        },
+        {
+            "tag": "forge:crops/spinach"
+        },
+        {
+            "tag": "forge:crops/spinach"
+        },
+        {
+            "item":"minecraft:experience_bottle"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result":
+    {
+        "item": "thermal:xp_stew"
+    }
+  }

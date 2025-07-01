@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5215418435CE6624"
+	group: "7E2BC7A0DAD568E2"
+	icon: "dummmmmmy:target_dummy"
+	id: "5215418435CE6624"
+	images: [{
+		click: "#7E8F7DC22FB0C928"
+		dependency: "16F275B78212A43E"
+		height: 2.0d
+		hover: ["点我点我！"]
+		image: "quark:textures/attribute/max_health.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 2.0d
+		y: 1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"喂喂？听得到吗？"
+			"阿，你能听见啊，太好了！史蒂夫桑"
+			"嗯嗯，这里是alex洞穴频道"
+			"本支线可以与主线同时进行，换句话说，有非常简单的部分，也可能会有不搓两把匠魂好刀就打不过的部分"
+			"当不知道怎么走的时候，也许可以试着推推主线剧情？"
+			"那么，以下是对本支线的特色介绍"
+			"{@pagebreak}"
+			"本支线剧情会很多很多，相对的，需要史蒂夫桑自己动的地方可能会比较少"
+			"故事的推进方式主要是图片化叙事，你基本上看不到通常形态任务书的任务点"
+			"所以当你不知道该怎么做的时候，就试着四处点点吧！"
+			"也许还会找到藏在场景中的彩蛋哦？"
+			"那么，马上就让你试试手！"
+			"关闭本提示后，试着点击一下出现的图片吧！"
+		]
+		id: "16F275B78212A43E"
+		rewards: [{
+			id: "3750CBBBCD81044D"
+			item: {
+				Count: 1
+				id: "vanillacookbook:netherite_apple"
+				tag: {
+					display: {
+						Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"BAD APPLE!!!!!\"}"
+					}
+				}
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "5D0F331FEDFDA928"
+			title: "我知道了！"
+			type: "checkmark"
+		}]
+		title: "看我看我！我是注意事项！"
+		x: 2.0d
+		y: -0.5d
+	}]
+	title: "食用须知"
+}

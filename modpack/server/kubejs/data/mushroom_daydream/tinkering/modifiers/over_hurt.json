@@ -1,0 +1,19 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "attribute": "l2damagetracker:damage_reduction",
+        "each_level": 0.2,
+        "operation": "addition",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ],
+        "unique": "tconstruct.modifier.over_hurt"
+      }
+    ],
+    "tooltip_display": "always"
+  }

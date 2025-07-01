@@ -1,0 +1,47 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tconstruct:enderference"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:energy_infusion"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:energy_display"
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:dodge"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "tconstruct:enderference"
+        },
+
+          {
+            "level": 1,
+            "name": "sakuratinker:energy_infusion"
+          },
+          {
+            "level": 1,
+            "name": "sakuratinker:energy_display"
+          },
+          {
+        "level": 1,
+        "name": "tinkerscalibration:dodge"
+      }
+      ],
+      "sakuratinker:charm":[
+      {
+        "level":1,
+        "name":"sakuratinker:dodge"
+      }
+    ]
+    }
+  }

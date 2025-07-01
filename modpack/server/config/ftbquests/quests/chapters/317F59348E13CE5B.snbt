@@ -1,0 +1,7142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "317F59348E13CE5B"
+	group: "7E2BC7A0DAD568E2"
+	icon: "supplementaries:candy"
+	id: "317F59348E13CE5B"
+	images: [
+		{
+			dependency: "0CE48249ED661708"
+			height: 6.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: 18.0d
+			y: -11.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 5.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 18.0d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 5.5d
+			image: "biomesoplenty:block/dead_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 1.5d
+			image: "minecraft:block/mangrove_trapdoor"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/daub_frame"
+			order: 5
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.75d
+			y: -14.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.5d
+			y: -11.5d
+		}
+		{
+			click: "#72E22E33842A3A0E"
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_side"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.5d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.5d
+			y: -16.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 0.75d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			click: "#72E22E33842A3A0E"
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_side"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 6.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 5.0d
+			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 5.5d
+			image: "biomesoplenty:block/dead_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: -13.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 1.5d
+			image: "minecraft:block/mangrove_trapdoor"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.0d
+			y: -13.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 20.0d
+			y: -16.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 13.5d
+			y: -16.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.5d
+			y: -16.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.0d
+			y: -16.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.0d
+			y: -17.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 17.0d
+			y: -17.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 11.5d
+			y: -17.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 16.5d
+			y: -17.5d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 12.0d
+			y: -19.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 16.0d
+			y: -19.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 12.0d
+			y: -20.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 2.0d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 10.0d
+			x: 16.0d
+			y: -20.0d
+		}
+		{
+			dependency: "0CE48249ED661708"
+			height: 0.75d
+			image: "supplementaries:block/blackstone_tiles"
+			order: 10
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: -17.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 22.0d
+			y: -12.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 19.5d
+			y: -9.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.0d
+			y: -11.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 24.5d
+			y: -5.0d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 20.5d
+			y: -5.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 23.0d
+			y: -10.5d
+		}
+		{
+			dependency: "5C1C368C85B5C4BB"
+			height: 6.0d
+			image: "minecraft:block/cherry_sapling"
+			order: 5
+			rotation: 0.0d
+			width: 4.0d
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependency: "72E22E33842A3A0E"
+			height: 10.0d
+			image: "minecraft:block/dirt_path_top"
+			order: -1
+			rotation: -10.0d
+			width: 4.0d
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			click: "#228E40A96945DBA2"
+			dependency: "72E22E33842A3A0E"
+			height: 10.0d
+			hover: ["和西行寺小姐走在路上"]
+			image: "minecraft:block/dirt_path_top"
+			order: -1
+			rotation: 26.0d
+			width: 4.0d
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependency: "72E22E33842A3A0E"
+			height: 10.0d
+			image: "minecraft:block/dirt_path_top"
+			order: -1
+			rotation: -35.0d
+			width: 4.0d
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependency: "72E22E33842A3A0E"
+			height: 10.0d
+			image: "minecraft:block/dirt_path_top"
+			order: -1
+			rotation: 90.0d
+			width: 4.0d
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependency: "72E22E33842A3A0E"
+			height: 10.0d
+			image: "minecraft:block/dirt_path_top"
+			order: -1
+			rotation: 90.0d
+			width: 4.0d
+			x: 28.0d
+			y: 7.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 32.0d
+			y: 5.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 31.5d
+			y: 7.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 33.0d
+			y: 4.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 34.5d
+			y: 0.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 36.0d
+			y: 3.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 36.5d
+			y: -0.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 38.5d
+			y: -1.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 40.5d
+			y: -2.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 41.0d
+			y: -0.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 42.5d
+			y: 0.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 44.0d
+			y: 3.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 46.5d
+			y: 4.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 47.0d
+			y: 2.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 47.0d
+			y: 6.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 49.5d
+			y: 6.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 47.0d
+			y: 9.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 50.0d
+			y: 8.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 44.0d
+			y: 9.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 49.0d
+			y: 3.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 45.0d
+			y: 1.0d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 33.5d
+			y: 3.5d
+		}
+		{
+			dependency: "228E40A96945DBA2"
+			height: 4.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 36.5d
+			y: 0.5d
+		}
+		{
+			click: "#563DF4213E850D2F"
+			color: 7500402
+			dependency: "228E40A96945DBA2"
+			height: 10.0d
+			hover: ["神秘的洞口，应当就是我们的目标"]
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 37.0d
+			y: 5.0d
+		}
+		{
+			click: "#563DF4213E850D2F"
+			color: 7500402
+			dependency: "228E40A96945DBA2"
+			height: 10.0d
+			hover: ["神秘的洞口，应当就是我们的目标"]
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 41.0d
+			y: 6.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 23.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 21.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 39.5d
+			y: 25.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.0d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.5d
+			image: "alexscaves:textures/misc/advancement/icon/tame_candicorn.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 38.0d
+			y: 21.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_green"
+			rotation: 0.0d
+			width: 1.0d
+			x: 46.0d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.5d
+			y: 33.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 37.0d
+			y: 18.5d
+		}
+		{
+			click: "#"
+			dependency: "563DF4213E850D2F"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 1
+			rotation: -30.0d
+			width: 3.0d
+			x: 46.5d
+			y: 18.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.0d
+			y: 23.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.0d
+			y: 23.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.0d
+			y: 23.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 43.5d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 43.0d
+			y: 24.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.5d
+			y: 25.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.0d
+			y: 26.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.5d
+			y: 28.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.5d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.5d
+			y: 28.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 26.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 28.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.0d
+			y: 30.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 39.0d
+			y: 29.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 37.0d
+			y: 27.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.5d
+			y: 27.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 37.5d
+			y: 25.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.0d
+			y: 20.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.0d
+			y: 22.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.5d
+			y: 20.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.5d
+			y: 20.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 43.5d
+			y: 18.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.5d
+			y: 19.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.0d
+			y: 20.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 40.0d
+			y: 21.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.0d
+			y: 21.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.5d
+			y: 22.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 46.5d
+			y: 20.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.0d
+			y: 18.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 19.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 35.5d
+			y: 20.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.5d
+			y: 20.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.5d
+			y: 22.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 35.0d
+			y: 22.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.5d
+			y: 17.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 53.5d
+			y: 26.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.0d
+			y: 26.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 48.0d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 50.0d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 49.0d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 50.0d
+			y: 29.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 50.5d
+			y: 27.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.5d
+			y: 27.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 53.5d
+			y: 27.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 50.0d
+			y: 30.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.0d
+			y: 29.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 49.5d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 47.5d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.5d
+			y: 28.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 53.5d
+			y: 28.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 51.5d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 53.5d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.5d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.0d
+			y: 30.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 54.0d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 56.0d
+			y: 29.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.5d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 54.0d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.0d
+			y: 32.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 57.5d
+			y: 31.0d
+		}
+		{
+			click: "#563DF4213E850D2F"
+			dependency: "563DF4213E850D2F"
+			height: 6.0d
+			hover: ["我的天哪！这里连空气都是甜的！！"]
+			image: "alexscaves:block/candy_cane_block_top"
+			rotation: 0.0d
+			width: 6.0d
+			x: 40.0d
+			y: 17.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 47.0d
+			y: 30.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 43.5d
+			y: 31.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.0d
+			y: 31.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 46.0d
+			y: 32.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 47.5d
+			y: 33.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.5d
+			y: 32.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 43.0d
+			y: 32.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 46.0d
+			y: 33.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.0d
+			y: 34.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.0d
+			y: 34.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.0d
+			y: 36.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.5d
+			y: 35.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.5d
+			y: 35.5d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 46.0d
+			y: 37.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.0d
+			y: 24.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_green"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.0d
+			y: 35.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 35.0d
+			y: 26.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.0d
+			y: 25.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.5d
+			y: 28.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 35.0d
+			y: 28.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 37.5d
+			y: 30.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.5d
+			y: 27.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 28.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 39.5d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.0d
+			y: 31.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.0d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.0d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 39.5d
+			y: 32.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 38.0d
+			y: 31.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.0d
+			y: 29.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 34.5d
+			y: 25.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.5d
+			y: 25.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.5d
+			y: 25.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.0d
+			y: 24.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 48.0d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 49.5d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 49.5d
+			y: 34.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 50.5d
+			y: 33.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.0d
+			y: 33.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 53.5d
+			y: 35.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.5d
+			y: 35.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 54.0d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 54.0d
+			y: 34.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 52.5d
+			y: 33.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 56.5d
+			y: 33.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 55.0d
+			y: 33.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 56.5d
+			y: 34.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 58.0d
+			y: 32.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 41.0d
+			y: 25.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 42.5d
+			y: 24.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 44.5d
+			y: 24.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 0.75d
+			image: "alexscaves:textures/misc/advancement/icon/tame_candicorn.png"
+			order: 1
+			rotation: -22.0d
+			width: 0.75d
+			x: 37.0d
+			y: 20.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.5d
+			image: "alexscaves:textures/misc/advancement/icon/tame_candicorn.png"
+			order: 1
+			rotation: 13.0d
+			width: 1.5d
+			x: 43.5d
+			y: 20.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.5d
+			image: "alexscaves:textures/misc/advancement/icon/tame_candicorn.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 51.0d
+			y: 26.5d
+		}
+		{
+			click: "#"
+			dependency: "563DF4213E850D2F"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 1
+			rotation: -61.0d
+			width: 3.0d
+			x: 50.0d
+			y: 25.0d
+		}
+		{
+			click: "#"
+			dependency: "563DF4213E850D2F"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 1
+			rotation: -30.0d
+			width: 3.0d
+			x: 58.0d
+			y: 29.0d
+		}
+		{
+			click: "#"
+			dependency: "563DF4213E850D2F"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 1
+			rotation: -90.0d
+			width: 3.0d
+			x: 33.5d
+			y: 23.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			image: "alexscaves:block/frosting"
+			rotation: 0.0d
+			width: 2.5d
+			x: 36.0d
+			y: 22.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 35.5d
+			y: 22.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 40.0d
+			y: 21.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 45.5d
+			y: 21.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 44.0d
+			y: 17.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 50.0d
+			y: 28.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 56.0d
+			y: 30.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/bucket_content/sweetish_fish_blue"
+			order: 1
+			rotation: 1.0d
+			width: 1.0d
+			x: 56.0d
+			y: 25.5d
+		}
+		{
+			click: "#3BE8D4CEF0B6E588"
+			dependency: "563DF4213E850D2F"
+			height: 5.0d
+			hover: ["嘿！超大棒棒糖！"]
+			image: "alexscaves:block/candy_cane_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 5.0d
+			x: 56.0d
+			y: 21.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 64.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 65.0d
+			y: 30.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.5d
+			y: 38.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 59.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 59.5d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 60.5d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 62.0d
+			y: 35.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 63.5d
+			y: 36.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 65.0d
+			y: 37.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.5d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.5d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.0d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_white"
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.0d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 60.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 60.5d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 61.5d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 63.0d
+			y: 34.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 63.5d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.0d
+			y: 37.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 64.5d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 64.5d
+			y: 30.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.5d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.5d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.5d
+			y: 35.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_yellow"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 37.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 61.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 63.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 63.0d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 62.0d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 65.0d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.0d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.0d
+			y: 35.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.0d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 37.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.0d
+			y: 38.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.5d
+			y: 37.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.0d
+			y: 35.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 64.0d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/rock_candy_brown"
+			rotation: 0.0d
+			width: 2.5d
+			x: 65.0d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.5d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.5d
+			y: 33.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.5d
+			y: 34.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.5d
+			y: 33.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.0d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.5d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.5d
+			y: 30.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 28.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.5d
+			y: 30.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 29.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 67.0d
+			y: 27.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.5d
+			y: 28.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.5d
+			y: 26.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.0d
+			y: 26.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 27.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.5d
+			y: 28.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.0d
+			y: 27.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.5d
+			y: 26.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 27.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.5d
+			y: 26.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 26.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 66.0d
+			y: 24.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 68.0d
+			y: 24.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 25.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 24.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 24.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 25.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 76.5d
+			y: 24.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.0d
+			y: 23.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 22.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 23.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.5d
+			y: 23.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 76.5d
+			y: 22.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 21.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.0d
+			y: 20.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.0d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.0d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 20.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.5d
+			y: 21.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 21.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 21.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.0d
+			y: 20.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.5d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 20.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.5d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 76.0d
+			y: 20.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.5d
+			y: 21.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 76.5d
+			y: 21.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 78.0d
+			y: 19.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.0d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.0d
+			y: 17.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 18.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.0d
+			y: 17.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.0d
+			y: 17.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.5d
+			y: 17.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.0d
+			y: 17.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 2.5d
+			x: 78.5d
+			y: 18.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.5d
+			y: 15.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 15.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 72.5d
+			y: 15.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.5d
+			y: 15.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 76.5d
+			y: 16.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 78.0d
+			y: 16.0d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 5
+			rotation: -30.0d
+			width: 3.0d
+			x: 76.0d
+			y: 22.5d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 5
+			rotation: -60.0d
+			width: 3.0d
+			x: 69.0d
+			y: 13.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 5.0d
+			image: "alexscaves:block/candy_cane_stripped"
+			order: -6
+			rotation: 0.0d
+			width: 1.0d
+			x: 56.0d
+			y: 25.0d
+		}
+		{
+			click: "#0013E47FE64D4A22"
+			color: 16736578
+			dependency: "563DF4213E850D2F"
+			height: 3.5d
+			hover: ["黏糊糊的史莱姆……好恶心>~<"]
+			image: "ftbchunks:textures/faces/minecraft/slime.png"
+			order: 6
+			rotation: -10.0d
+			width: 3.5d
+			x: 52.5d
+			y: 30.0d
+		}
+		{
+			click: "#7A8780D49481DEC8"
+			dependency: "563DF4213E850D2F"
+			height: 2.5d
+			hover: ["我去！汽水做的河！！"]
+			image: "alexscaves:block/purple_soda_flowing"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 45.0d
+			y: 35.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 46.5d
+			y: 36.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 45.5d
+			y: 35.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 46.0d
+			y: 33.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 46.5d
+			y: 37.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 45.5d
+			y: 37.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 44.5d
+			y: 37.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 43.5d
+			y: 37.0d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 44.5d
+			y: 36.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 1.0d
+			image: "alexscaves:item/sweetish_fish_red"
+			rotation: 0.0d
+			width: 1.0d
+			x: 42.5d
+			y: 36.0d
+		}
+		{
+			click: "#2ACDFAC5CFD417CE"
+			dependency: "3AC7E23E46DC0DEB"
+			height: 3.0d
+			hover: ["下边鱼多！让我捞个够！"]
+			image: "quark:textures/attribute/swim_speed.png"
+			order: 50
+			rotation: 0.0d
+			width: 3.0d
+			x: 43.0d
+			y: 35.5d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 6.0d
+			hover: [
+				"唔哦哦哦哦哦哦哦哦哦！！！！"
+				"糖果世界的五千年！！！"
+			]
+			image: "touhou_tinker_fantasy:textures/2025-03-18_23.23.29.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 66.0d
+			y: 21.0d
+		}
+		{
+			click: "#12DB681FF4C5FDB7"
+			dependency: "563DF4213E850D2F"
+			height: 6.0d
+			hover: ["阳光彩虹小白马~"]
+			image: "touhou_tinker_fantasy:textures/2025-03-18_23.37.23.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 51.5d
+			y: 23.5d
+		}
+		{
+			dependency: "563DF4213E850D2F"
+			height: 6.0d
+			image: "touhou_tinker_fantasy:textures/2025-03-18_23.33.20.png"
+			rotation: -12.0d
+			width: 4.0d
+			x: 38.0d
+			y: 24.0d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			order: 10
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 84.0d
+			y: 29.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 82.0d
+			y: 26.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			order: 10
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 69.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 71.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 73.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 75.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			order: 20
+			rotation: 0.0d
+			width: 2.5d
+			x: 70.0d
+			y: 37.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 74.0d
+			y: 37.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.5d
+			y: 37.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 36.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 34.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 34.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 36.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 38.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/wafer_cookie_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 40.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.5d
+			y: 35.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 84.5d
+			y: 35.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 82.0d
+			y: 32.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 82.0d
+			y: 30.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 2.5d
+			x: 82.0d
+			y: 28.5d
+		}
+		{
+			dependency: "4DA7CBE8B442814B"
+			height: 2.5d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 2.5d
+			x: 80.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.5d
+			y: 34.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.5d
+			y: 34.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 84.0d
+			y: 33.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 86.0d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 88.0d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 90.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 92.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 91.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.0d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 96.5d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 90.0d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 90.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 92.5d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.0d
+			y: 37.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 88.0d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 89.5d
+			y: 34.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 91.0d
+			y: 33.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 93.0d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.5d
+			y: 35.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.0d
+			y: 36.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.5d
+			y: 34.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 91.5d
+			y: 35.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 91.5d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 93.5d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/cake_layer_top"
+			order: -5
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.5d
+			y: 37.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.5d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 85.0d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 86.5d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 88.0d
+			y: 30.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 89.5d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 85.0d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 91.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 92.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.0d
+			y: 31.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.5d
+			y: 32.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 97.0d
+			y: 32.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 96.5d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 96.5d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.0d
+			y: 30.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 93.5d
+			y: 29.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 92.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.0d
+			y: 30.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/block_of_chocolate"
+			order: -4
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.0d
+			y: 29.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 77.5d
+			y: 33.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 79.0d
+			y: 31.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 81.0d
+			y: 30.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 83.0d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 85.5d
+			y: 29.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 87.0d
+			y: 29.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 87.0d
+			y: 30.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 88.5d
+			y: 28.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 90.0d
+			y: 27.5d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 92.0d
+			y: 28.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 94.0d
+			y: 28.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 95.5d
+			y: 28.0d
+		}
+		{
+			dependency: "12DB681FF4C5FDB7"
+			height: 2.5d
+			image: "alexscaves:block/frosted_chocolate_side"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 97.0d
+			y: 28.5d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 5
+			rotation: -30.0d
+			width: 3.0d
+			x: 77.0d
+			y: 31.0d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 5
+			rotation: -30.0d
+			width: 3.0d
+			x: 92.5d
+			y: 33.0d
+		}
+		{
+			click: "#"
+			dependency: "12DB681FF4C5FDB7"
+			height: 3.0d
+			hover: ["看着很好吃的拐杖糖"]
+			image: "alexscaves:item/candy_cane"
+			order: 5
+			rotation: -30.0d
+			width: 3.0d
+			x: 96.0d
+			y: 26.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 81.5d
+			y: 19.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 83.5d
+			y: 27.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 83.5d
+			y: 23.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 83.5d
+			y: 19.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 87.0d
+			y: 22.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 80.5d
+			y: 15.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 90.0d
+			width: 1.7d
+			x: 82.0d
+			y: 17.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 90.0d
+			width: 1.7d
+			x: 85.5d
+			y: 23.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 81.5d
+			y: 20.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 81.5d
+			y: 22.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 81.5d
+			y: 23.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 85.5d
+			y: 25.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 85.5d
+			y: 26.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 85.5d
+			y: 27.5d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 81.5d
+			y: 25.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 80.5d
+			y: 13.0d
+		}
+		{
+			click: "#15CD05C34BC9F0EF"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 87.0d
+			y: 19.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 88.5d
+			y: 25.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 23.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 88.5d
+			y: 20.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 96.0d
+			y: 25.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 91.5d
+			y: 23.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 93.0d
+			y: 23.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 94.5d
+			y: 23.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 96.0d
+			y: 20.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 18.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 91.5d
+			y: 18.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 93.0d
+			y: 18.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 94.5d
+			y: 18.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 96.0d
+			y: 15.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 90.0d
+			width: 2.0d
+			x: 99.0d
+			y: 20.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 101.5d
+			y: 19.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 102.5d
+			y: 20.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 19.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 21.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 22.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 21.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 20.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 19.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 94.0d
+			y: 22.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 88.5d
+			y: 15.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 86.0d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 87.5d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 89.0d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.5d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 93.5d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 95.0d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 96.5d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 98.0d
+			y: 12.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 87.5d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 89.0d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.5d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 93.5d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 95.0d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 96.5d
+			y: 10.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 89.0d
+			y: 9.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.5d
+			y: 9.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 92.0d
+			y: 9.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 93.5d
+			y: 9.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 95.0d
+			y: 9.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 101.5d
+			y: 17.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 14.5d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 90.0d
+			y: 16.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 2.0d
+			image: "minecraft:block/oak_planks"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 91.5d
+			y: 16.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 90.0d
+			width: 2.0d
+			x: 91.0d
+			y: 17.0d
+		}
+		{
+			dependency: "392FE76E17F8300F"
+			height: 6.0d
+			image: "minecraft:block/oak_log"
+			order: -10
+			rotation: 90.0d
+			width: 2.0d
+			x: 94.0d
+			y: 17.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 60.0d
+			width: 1.7d
+			x: 99.0d
+			y: 20.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 102.5d
+			y: 22.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 93.5d
+			y: 26.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -10
+			rotation: 0.0d
+			width: 1.7d
+			x: 97.5d
+			y: 23.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 102.5d
+			y: 23.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 100.5d
+			y: 22.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 102.5d
+			y: 24.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 91.5d
+			y: 24.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 92.5d
+			y: 24.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 91.5d
+			y: 26.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 94.0d
+			y: 18.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 94.0d
+			y: 19.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 86.5d
+			y: 13.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 86.5d
+			y: 14.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 86.5d
+			y: 15.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 1.7d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot_vine"
+			rotation: 0.0d
+			width: 1.7d
+			x: 86.5d
+			y: 16.0d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -20
+			rotation: 0.0d
+			width: 1.7d
+			x: 91.5d
+			y: 14.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -20
+			rotation: 0.0d
+			width: 1.7d
+			x: 91.0d
+			y: 21.5d
+		}
+		{
+			click: "#"
+			dependency: "392FE76E17F8300F"
+			height: 5.0d
+			hover: ["美味甘草"]
+			image: "alexscaves:block/licoroot/licoroot"
+			order: -20
+			rotation: 0.0d
+			width: 1.7d
+			x: 89.5d
+			y: 26.0d
+		}
+		{
+			click: "#27760B558F33B1E7"
+			dependency: "392FE76E17F8300F"
+			height: 4.0d
+			hover: ["哇！黄金坩埚！"]
+			image: "alexscaves:item/conversion_crucible"
+			rotation: 0.0d
+			width: 4.0d
+			x: 99.0d
+			y: 18.0d
+		}
+		{
+			click: "#"
+			dependency: "4DA7CBE8B442814B"
+			height: 6.0d
+			hover: ["姜饼科技！"]
+			image: "alexscaves:block/confection_oven_front_cooling"
+			rotation: 0.0d
+			width: 6.0d
+			x: 89.5d
+			y: 43.0d
+		}
+		{
+			color: 16776029
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: 0.0d
+			width: 3.0d
+			x: 60.5d
+			y: 29.5d
+		}
+		{
+			dependency: "7A1648A46F476DC2"
+			height: 8.0d
+			image: "touhou_tinker_fantasy:textures/2025-03-20_21.11.40.png"
+			order: 50
+			rotation: 60.0d
+			width: 8.0d
+			x: 58.0d
+			y: 17.5d
+		}
+		{
+			color: 7208912
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: 0.0d
+			width: 3.0d
+			x: 60.5d
+			y: 25.5d
+		}
+		{
+			color: 15146495
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -20.0d
+			width: 3.0d
+			x: 60.0d
+			y: 22.0d
+		}
+		{
+			color: 15146495
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -20.0d
+			width: 3.0d
+			x: 61.0d
+			y: 33.5d
+		}
+		{
+			color: 7208912
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -20.0d
+			width: 3.0d
+			x: 62.0d
+			y: 37.0d
+		}
+		{
+			color: 16776029
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -45.0d
+			width: 3.0d
+			x: 63.5d
+			y: 39.5d
+		}
+		{
+			color: 15146495
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -45.0d
+			width: 3.0d
+			x: 65.5d
+			y: 41.5d
+		}
+		{
+			color: 7208912
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -20.0d
+			width: 3.0d
+			x: 67.5d
+			y: 44.0d
+		}
+		{
+			color: 16776029
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -45.0d
+			width: 3.0d
+			x: 69.0d
+			y: 46.0d
+		}
+		{
+			color: 15146495
+			dependency: "7A1648A46F476DC2"
+			height: 4.0d
+			image: "supplementaries:block/awnings/awning_white"
+			order: 100
+			rotation: -80.0d
+			width: 3.0d
+			x: 72.0d
+			y: 47.5d
+		}
+		{
+			dependency: "7515AA0A09454933"
+			height: 5.0d
+			hover: ["和幽幽子一样的大胃袋？"]
+			image: "alexscaves:item/sack_of_sating_open"
+			rotation: 0.0d
+			width: 5.0d
+			x: 63.5d
+			y: 12.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44621E3061DC4D3D"]
+			description: [
+				"&d“原来，这个地方就是糖果龋洞……吸溜”"
+				""
+				"&e“对，对的，只要我们跟着这个地图走，想必就能找到了”"
+				""
+				"难道是我破译石板太辛苦了？所以这才导致我幻听西行寺小姐又吸口水的声音了？没错，一定是这样的，一定是我的幻觉。那么温柔高贵的西行寺小姐绝对不可能会有这种失礼的举动"
+				""
+				"&d“那么事不宜迟我们现在立刻就出——”"
+				""
+				"&b“等一下，幽幽子大人”"
+				""
+				"&d“放开我！妖梦！放开我！！我要去！现在就要！”"
+				""
+				"妖梦小姐一把抓住正欲往门外跑去的西行寺小姐，而西行寺小姐她……正在……撒，撒泼"
+				""
+				"幻觉，幻觉。西行寺小姐一定是在温柔地和妖梦嘱托出行事宜之类的东西，嗯，事实就是这样的"
+				"{@pagebreak}"
+				"眼睛不知道该往哪里放，我偏过头去吹起小口哨，尽力降低起自己的存在感"
+				""
+				"&b“幽幽子大人——您不能就这样跑出去的——您还有好多事情要处理——”"
+				""
+				"&d“那些怨灵的事务怎么样都好！要是不让我马上去糖果天国的话，瓦塔西！”"
+				""
+				"&b“史蒂夫先生！请您不要吹口哨了！快来帮我制住幽幽子大人！”"
+				""
+				"别找我啊！我已经不想再幻灭了阿！难道就不能让西行寺幽幽子的高冷形象在我的脑子里多停留几秒吗！"
+				""
+				"&e“西行寺小姐……我们处理完事务就去，好不好？只要处理完事务马上就带你去糖果龋，糖果天国……”"
+				""
+				"终于，在我和妖梦小姐二人合力下停止了马上就要暴走的西行寺小姐"
+				""
+				"{@pagebreak}"
+				"&d“呜呜呜……妖梦大坏蛋……史蒂夫也是狼心狗肺猪狗不如的禽兽……”"
+				""
+				"西行寺小姐哭唧唧地坐在桌前，手里一刻不停地在批阅冥界怨灵上交的卷宗。如果她的嘴巴没有一刻不停地侮辱我的人格，那就太好了"
+				""
+				"&b“真抱歉史蒂夫先生……我家大人让您见笑了”"
+				""
+				"&e“不不不没关系的。嗯，西行寺大人……嗯，很有个性！对，活泼开朗！然后然后，十分好相处！妖梦小姐您不用道歉的！”"
+				""
+				"&b“不用安慰我啦……作为赔礼，还请您收下这个吧”"
+				""
+				"&e“这是？”"
+				""
+				"&b“这是我平日训练用的备用剑。但其实锋利度也并不输我手上的楼观剑。这次还需要麻烦史蒂夫先生你带着幽幽子大人去一趟糖果洞穴了”"
+				""
+				"{@pagebreak}"
+				"&b“如您所见，幽幽子大人自从知晓了糖果洞穴的存在就时时刻刻都想念着它。您能够帮助yyz大人圆梦，我作为下仆真的感激不尽”"
+				""
+				"&b“只是，白玉楼还需要我留守，这次并不能够陪同她一起前往。所以我把剑交给你，希望你能够代替我保护幽幽子大人的安全。作为资深冒险家的你，能做到的，对吧？”"
+				""
+				"妖梦的眼睛直直盯着我，我双手接过她递来的剑，她那份对西行寺小姐的情意顺着剑柄真真切切地传递给了我"
+				""
+				"&e“我必定不辱使命”"
+				""
+				"&b“记住了，要是你让幽幽子大人受伤，我绝对饶不了你。不管你藏在何处，我都一定要把你斩杀”"
+				""
+				"&b“毕竟这世界上我的楼观剑斩不断的东西——根本不存在”"
+				""
+				"&d“妖梦——我批完了！能不能走了啊——”"
+				""
+				"&b“幽幽子大人，行李已经备好了，您可以启程了”"
+				""
+				"眸中的冷意消失不见，妖梦的眼底又染回了那份温柔"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "72E22E33842A3A0E"
+			rewards: [
+				{
+					id: "17BC719786EF9FD3"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:garage_kit"
+						tag: {
+							EntityInfo: {
+								IsYsmModel: 0b
+								MaidTaskDataMaps: { }
+								ModelId: "touhou_little_maid:konpaku_youmu"
+								id: "touhou_little_maid:maid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58AD96DA2B373EBA"
+					item: "kubejs:youmus_dualswords"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "405D084734CF16C3"
+					item: "youkaishomecoming:matcha_mochi"
+					type: "item"
+				}
+				{
+					id: "583A6A93DA5C8F59"
+					item: {
+						Count: 1
+						id: "mushroom_daydream:tachi"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"妖梦的备用剑\"}"
+							}
+							etstlib_tool_uuid: "62324511-6dcc-4a80-95f0-4d0f53183b27"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_daydream:no_head"
+								"kubejs:sakura"
+								"kubejs:youmu"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "mushroom_daydream:mob_king"
+								}
+								{
+									level: 1
+									name: "mushroom_daydream:gluttony"
+								}
+								{
+									level: 1
+									name: "sakuratinker:nether_ghost"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:katana"
+								}
+								{
+									level: 1
+									name: "sakuratinker:mortal_wound"
+								}
+								{
+									level: 1
+									name: "mushroom_daydream:on_dragon"
+								}
+								{
+									level: 2
+									name: "tconstruct:padded"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.8f
+								"tconstruct:durability": 1.2f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 12.839999f
+								"tconstruct:attack_speed": 1.8700001f
+								"tconstruct:durability": 2116.8f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:mining_speed": 11.0f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.01d
+			tasks: [{
+				id: "1D1CA92E08B1227C"
+				title: "出发！"
+				type: "checkmark"
+			}]
+			title: "目标是糖果龋洞！出发！"
+			x: 13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["72E22E33842A3A0E"]
+			description: [
+				"&b“路上小心”"
+				""
+				"离开白玉楼，妖梦她朝着我们挥手告别"
+				""
+				"&e“那个，西行寺小姐啊”"
+				""
+				"&d“唔？种墨惹？”"
+				""
+				"从包裹里翻出一大堆食物一个劲往嘴里塞着的西行寺小姐，口齿不清地回答"
+				""
+				"“难道说……您让我带上的这个巨大包裹，里面塞的全都是……”"
+				""
+				"&d“对哦，全都是吃的哦？”"
+				""
+				"&d“毕竟路途遥远，要是不好好准备干粮的话可走不到呢”"
+				""
+				"…………"
+				""
+				"亡灵也需要吃东西吗？"
+				""
+				"&e“可是我们的目的地应该会有很多吃的吧，毕竟是什么糖果的洞穴啥的”"
+				""
+				"&d“对啊，就是考虑到了这一点，所以我就刻意少带了一点”"
+				""
+				""
+				"{@pagebreak}"
+				"这叫少带了一点？！你跟我讲这几乎要填满整个大箱子那么多的食物叫少？！"
+				""
+				"看着一脸幸福的吃着东西的西行寺小姐，感觉心里有什么高贵的形象彻底碎掉了"
+				""
+				"&d“阿，对了。这个你拿着”"
+				""
+				"西行寺小姐递过来一把，锄头？"
+				""
+				"&d“这是我家妖梦种菜用的，你先拿着，等到了目的地看见的新奇玩意有一个算一个全都刨下来”"
+				""
+				"掂量起手中这不轻的分量，感慨真不愧是妖梦小姐，平时居然连这么重的合金锄头也甩得动。"
+				""
+				"虽然平时多有脱线，但关键时刻还是很靠得住的妖梦小姐"
+				""
+				"反观她的主人……"
+				""
+				"这哪里是主仆阿，你俩是母女吧。妖梦当妈的那种"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "228E40A96945DBA2"
+			rewards: [
+				{
+					count: 3
+					id: "454525AAEC2749FF"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:ma_shu"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6AC2D0CE42786DD4"
+					item: "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "297458587E5626EF"
+					table_id: 2362152798840615926L
+					type: "random"
+				}
+				{
+					id: "3C497CE27494FE0C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "lightmanscurrency:money_mending"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 4s
+								}
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+							]
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"白玉楼刨地的锄头\"}"
+							}
+						}
+					}
+					title: "白玉楼刨地的锄头，西行寺小姐说要用它挖空整个洞穴"
+					type: "item"
+				}
+				{
+					id: "52F1EE3B7D06E94A"
+					title: "说起来，麻薯的出现率是不是太高了？"
+					type: "custom"
+				}
+			]
+			size: 0.01d
+			tasks: [
+				{
+					id: "1844C396FC491598"
+					title: "大姐，你能别吃了吗……"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "568441081683DEB9"
+					item: "youkaishomecoming:bun"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "53C76B827F0D8279"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "34C492B77C3EBB9A"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+			]
+			title: "狂吃猛炫的幽幽子"
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["228E40A96945DBA2"]
+			description: [
+				"&e“前有绝景，所以，是下的时候了”"
+				""
+				"指着面前的洞窟，我朝西行寺小姐这么说着"
+				""
+				"&d“真的吗……一片漆黑什么都看不到”"
+				""
+				"&e“至少地图指引的方向就在这里，我们要相信古人的智慧阿西行寺小姐”"
+				""
+				"虽然不知道这个所谓“古人”的年龄比起西行寺小姐来说谁更大就是了"
+				""
+				"&d“你刚才是不是在想一些很失礼的事情？”"
+				""
+				"&e“怎，怎么可能呢。阿，您看，我们到了————”"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "563DF4213E850D2F"
+			rewards: [{
+				count: 5
+				id: "48564D3B023BDD57"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F870EE41D7C64A2"
+					title: "一二三跳！"
+					type: "checkmark"
+				}
+				{
+					biome: "alexscaves:candy_cavity"
+					id: "68B0980311CD0B0E"
+					title: "来到糖果龋洞"
+					type: "biome"
+				}
+			]
+			title: "地图所指引就在此处！"
+			x: 40.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3AC7E23E46DC0DEB"]
+			description: [
+				"不过当身体浸在苏打水里，也让我紧绷的情绪得到了些许放松"
+				""
+				"毕竟这种糟蹋食物一般的行为，除了一开始会有一丁点负罪感以外，往后那种离经叛道的背德感就愈来愈强，让人欲罢不能"
+				""
+				"&e“突然知道为什么越不让做的事情人们越想去做了”"
+				""
+				"看着滋滋冒泡的河水，突然有种想要痛饮的冲动"
+				""
+				"&e“哈啊——！”"
+				""
+				"回过神来，已是豪饮"
+				""
+				"&e“等等……”"
+				""
+				"我这样……算不算喝了自己的洗脚水？"
+			]
+			id: "7A8780D49481DEC8"
+			rewards: [
+				{
+					count: 6
+					id: "3F65BF9C10039865"
+					item: "alexscaves:purple_soda_bottle"
+					type: "item"
+				}
+				{
+					id: "5DF3CDF04D5609CB"
+					item: "alexscaves:purple_soda_bottle_rocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "607AA9F91899067D"
+				item: "alexscaves:purple_soda_bucket"
+				type: "item"
+			}]
+			title: "这条河是苏打水做的？那我高低得来上两口！"
+			x: 45.5d
+			y: 31.5d
+		}
+		{
+			dependencies: ["563DF4213E850D2F"]
+			description: [
+				"入目，是一片粉红色的世界"
+				""
+				"&e“居然是真的……”"
+				""
+				"就连空气中都是化不开的蜜味，嗅觉味觉视觉的三重打击无不在向我宣告着糖果龋洞的存在"
+				""
+				"&e“西行寺小姐，你看——”"
+				""
+				"可还没等我回头，就见一道身影飞速的从身边掠过，一下扑到了面前的巨大蛋糕之上"
+				""
+				"&d“嚼嚼嚼嚼嚼嚼嚼嚼嚼————”"
+				""
+				""
+				"{@pagebreak}"
+				"甚至还没有反应的时间，面前的巨大糖霜巧克力蛋糕就被一扫而空。西行寺小姐转头又向着另一处的巨大拐杖糖扑过去"
+				""
+				"&e“有巨大蛋糕……”"
+				""
+				"原来如此，怪不得先前西行寺小姐说带的食物少了"
+				""
+				"照她这么个吃法，怕不是把整个白玉楼都吃了尤嫌不足"
+				""
+				"&e“没办法，先干活吧”"
+				""
+				"掏出先前从西行寺小姐那里得到的锄头，我开始勤勤恳恳的锄大地工作"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "alexscaves:block_of_frosted_chocolate"
+			id: "7EBEE8F9FF0FFC86"
+			rewards: [
+				{
+					count: 5
+					id: "5813719BE8DFF34E"
+					item: "alexscaves:sprinkles"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "39D30D8CC5F153C9"
+					item: "alexscaves:lollipop_bunch"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5FBAF07FC0025D18"
+					item: "alexscaves:block_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "7F21242636A55011"
+					item: "alexscaves:cake_layer"
+					type: "item"
+				}
+				{
+					id: "72C780ED92ED901B"
+					item: "alexscaves:candy_cane"
+					type: "item"
+				}
+				{
+					id: "7335D7F51A644EFF"
+					item: "alexscaves:sundrop"
+					type: "item"
+				}
+				{
+					id: "47ADAA41FE9D441A"
+					title: "西行寺小姐！我求你别吃了！"
+					type: "checkmark"
+				}
+			]
+			title: "所以说，这里的万事万物都是可以吃的？"
+			x: 42.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7EBEE8F9FF0FFC86"]
+			description: [
+				"而正当我在辛勤收集路上一切能吃的东西的时候"
+				""
+				"&a“喀拉喀拉”"
+				""
+				"&a“噗铛——”"
+				""
+				"从背后传来了奇怪的声音"
+				""
+				"&e“什么家伙？！”"
+				""
+				"在多年的冒险经验驱使下，我一个侧身躲过袭来的弹射物，快速拔出剑背身望去——"
+				""
+				"前方，一个怪模怪样的糖果机正在缓缓朝我逼近"
+				""
+				"&e“就知道这里没那么简单……”"
+				""
+				""
+				"{@pagebreak}"
+				"&a“喀拉喀拉”"
+				""
+				"奇怪的声音再次响起，我知道那就是他攻击的前兆"
+				""
+				"&a“噗铛——”"
+				""
+				"来了！奇形怪状的弹射物喷射而来，我举剑欲要格挡"
+				""
+				"&d“啊呜”"
+				""
+				"突然出现的西行寺小姐，一个空摘吃掉了飞来的弹射物"
+				""
+				"&e“？？”"
+				""
+				"&a“喀拉？”"
+				""
+				"&d“嗯，味道不错，还是柑橘风味的”"
+				""
+				"原来还能吃的吗？！"
+				""
+				"&d“嚼嚼，还能吹泡泡呢，是口香糖啊”"
+				""
+				"&d“看你身体里，貌似还有很多别的口味的糖果吧……”"
+				""
+				"&d“来……乖……让我尝尝！！”"
+				""
+				""
+				"{@pagebreak}"
+				"&a“喀拉？！！！！”"
+				""
+				"糖果机被吓坏了，迈着小短腿就要逃跑。不过很快被西行寺小姐追上，头部的玻璃罩被狠狠捣碎，里面的口香糖散落一地"
+				""
+				"西行寺小姐趴伏在糖果机不再动弹的身体上，一个劲从裂开的玻璃罩中掏口香糖往嘴里塞"
+				""
+				"还好是糖果，还好是糖果……画面不至于太过残忍"
+				""
+				"回去之后，去命莲寺找白莲小姐告罪一下好了……"
+			]
+			icon: "alexscaves:gumball_pile"
+			id: "6286FE3163C1B2E1"
+			rewards: [
+				{
+					count: 4
+					id: "0B7F4749ECA7168C"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "alexscaves:deepsight"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "260A1B3F969DB0A3"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5A76EDF9935A762E"
+					title: "西行寺小姐！那个不能吃——！"
+					type: "checkmark"
+				}
+				{
+					entity: "alexscaves:gumbeeper"
+					id: "2478A8A12985D5AF"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "你怎么长得跟苦力怕一样？"
+			x: 39.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6286FE3163C1B2E1"]
+			description: [
+				"&d“那边”"
+				""
+				"&e“嗯？什么？”"
+				""
+				"西行寺小姐戳了戳正在挖大地的我，指向了远处的一条河流"
+				""
+				"不过是条苏打水河流，有什么……"
+				""
+				"看着时不时从水面跃出的软糖鱼，我止住了声音"
+				""
+				"&e“需要我去为您抓鱼吗……”"
+				""
+				"西行寺小姐笑着拍了拍我的肩，露出了一个“上道！”的表情"
+				""
+				"认命般，我卷起裤管走入河流"
+			]
+			icon: "alexscaves:sweetish_fish_green"
+			id: "3AC7E23E46DC0DEB"
+			rewards: [{
+				id: "6837A176214ACA68"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:yun_shan_miao_hua_tang"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13C9EB78BFEDC839"
+					title: "我以前是主世界捞鱼最好的人"
+					type: "checkmark"
+				}
+				{
+					entity: "alexscaves:sweetish_fish"
+					id: "78384BAA1068241F"
+					type: "kill"
+					value: 5L
+				}
+				{
+					id: "7EEF05AF32B07D51"
+					item: "alexscaves:sweetish_fish_red"
+					type: "item"
+				}
+			]
+			title: "俺寻思这鱼也是能吃的"
+			x: 44.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7A8780D49481DEC8"]
+			description: [
+				"正在探索着周围的我，发现了这些成群的小马"
+				""
+				"他们一个二个靠近过来，貌似对我身上的什么东西感到好奇。是因为没有见过外来者吗？"
+				""
+				"&5“哧溜”"
+				""
+				"&e“呜哇啊！”"
+				""
+				"其中一匹马突然舔了舔我的脸颊"
+				""
+				"看着他砸吧砸吧嘴的样子，疑惑起我自己看起来有那么好吃吗……"
+				""
+				"我掏出一颗用淋满了焦糖的苹果，试探着递到了他的嘴边"
+				""
+				"&5“啊呜”"
+				""
+				"看来很合口味呢"
+			]
+			icon: "simplehats:unicornhorn"
+			id: "12DB681FF4C5FDB7"
+			rewards: [
+				{
+					count: 8
+					id: "64232D814591DA8C"
+					item: "alexscaves:caramel_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C91F3E8B5C7832B"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DF5F609E9C6AD3E"
+					item: "alexscaves:candy_cane"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "可以用焦糖苹果驯服"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_candicorn"
+					criterion: ""
+					id: "416B7B8B7897F82B"
+					type: "advancement"
+				}
+				{
+					id: "0577DDEA76285237"
+					title: "左边那个是让你驯服一只阳光彩虹小白马"
+					type: "checkmark"
+				}
+				{
+					id: "7130DC13A3B2BEE3"
+					item: "alexscaves:caramel_apple"
+					type: "item"
+				}
+				{
+					id: "511A86C1A9A66685"
+					title: "独角兽可以用拐杖糖繁殖"
+					type: "checkmark"
+				}
+			]
+			title: "滴滴答滴滴答~"
+			x: 52.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["12DB681FF4C5FDB7"]
+			description: [
+				"走在软趴趴的糖果大陆上的时候，意外发现了一条奇妙的小路"
+				""
+				"&e“西行寺小姐，你怎么看？”"
+				""
+				"&d“白色的是纯种冰糖，紫色的是甘草味，棕色的是可乐味冰糖，还有那个绿色的……”"
+				""
+				"&e“您知道我问的不是口味……话说这些小路原来是冰糖做的吗？算了。考虑到这里的地貌，也不显得奇怪了”"
+				""
+				"&e“只是，这些冰糖显然并不是什么能够自然生成的东西。这些路面上具有明显的人工切削痕迹，况且您看”"
+				""
+				"我指向面前冰糖小路的某处"
+				""
+				"&e“仔细看看，从这里开始，能够看见一连串，小小凹坑”"
+				""
+				"&e“如果说是本来的纹理未免太过牵强。显然这是一串由某种生物所遗留下来的，某种足迹”"
+				""
+				""
+				"{@pagebreak}"
+				"&d“你的意思是？”"
+				""
+				"&e“在这处糖果世界里，还存在着其他智慧生物”"
+				""
+				"&e“只是它们对我们的态度未知，到底是敌意还是善意，恐怕只有亲眼见证了之后才能知晓”"
+				""
+				"&d“那你还在等什么呢？”"
+				""
+				"西行寺小姐随手拧断路边的拐杖糖塞在嘴里"
+				""
+				"&d“探索未至，直面未知。身为冒险家的你，应当不会害怕这种小事情对吧？”"
+				""
+				"&e“哼哼……您说的对”"
+				""
+				"&e“那就让我们看看，这条小路到底会把我们带到哪里吧”"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "alexscaves:rock_candy_brown"
+			id: "76D7011699E472B9"
+			rewards: [
+				{
+					id: "2AB162C2F258AD72"
+					item: "alexscaves:rock_candy_orange"
+					type: "item"
+				}
+				{
+					id: "152B3407D4F9DE08"
+					item: "alexscaves:rock_candy_magenta"
+					type: "item"
+				}
+				{
+					id: "4B17340FC19FD033"
+					item: "alexscaves:rock_candy_light_blue"
+					type: "item"
+				}
+				{
+					id: "2EF543D274AF3C1D"
+					item: "alexscaves:rock_candy_yellow"
+					type: "item"
+				}
+				{
+					id: "51A7B880EF5A8954"
+					item: "alexscaves:rock_candy_lime"
+					type: "item"
+				}
+				{
+					id: "4263BF85C78923C8"
+					item: "alexscaves:rock_candy_pink"
+					type: "item"
+				}
+				{
+					id: "447C2D722F884421"
+					item: "alexscaves:rock_candy_gray"
+					type: "item"
+				}
+				{
+					id: "7C46A37CEA3B07E1"
+					item: "alexscaves:rock_candy_light_gray"
+					type: "item"
+				}
+				{
+					id: "506D2FB850A1B568"
+					item: "alexscaves:rock_candy_cyan"
+					type: "item"
+				}
+				{
+					id: "45C45F701EA4BDF8"
+					item: "alexscaves:rock_candy_purple"
+					type: "item"
+				}
+				{
+					id: "3174463D8569B9F3"
+					item: "alexscaves:rock_candy_blue"
+					type: "item"
+				}
+				{
+					id: "268D558D53CBBD57"
+					item: "alexscaves:rock_candy_brown"
+					type: "item"
+				}
+				{
+					id: "39F9D5D629F6E513"
+					item: "alexscaves:rock_candy_green"
+					type: "item"
+				}
+				{
+					id: "275897ACFD743F6F"
+					item: "alexscaves:rock_candy_red"
+					type: "item"
+				}
+				{
+					id: "4AC6C76FECC6BA83"
+					item: "alexscaves:rock_candy_black"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0FB43FB92E5CEF54"
+					title: "连路面都是冰糖做的？！"
+					type: "checkmark"
+				}
+				{
+					count: 64L
+					id: "6FC74F571D03A727"
+					item: "alexscaves:rock_candy_white"
+					type: "item"
+				}
+			]
+			title: "不知通往何方的冰糖小路"
+			x: 62.0d
+			y: 31.5d
+		}
+		{
+			dependencies: ["76D7011699E472B9"]
+			description: [
+				"&e“呜哇啊？！”"
+				""
+				"面前的奇怪生物挥舞着手臂朝着我和西行寺小姐冲过来"
+				""
+				"&e“搞，搞什么啊……”"
+				""
+				"原本以为这家伙就是我们要找的智慧生物。只是现在来看，他的身体相对于小路上的足迹未免也太过巨大"
+				""
+				"眼下来看，应当只是在这糖果龋洞里的某种特殊怪物而已"
+				""
+				"况且挥舞着手臂来攻击的方式，总感觉有些奇奇怪怪的既视感"
+				""
+				"简直就像是抛弃了武术将身体交给本能攻击的某人……"
+				""
+				"&d“咦？这家伙身上的拐杖糖，和别的还有点不一样”"
+				""
+				"西行寺小姐掰下面前怪物的手臂在我眼前晃了晃"
+				""
+				"&d“你瞧，顶端被削尖了，硬度也过关。感觉这个可以……”"
+				""
+				"&e“当作武器？”"
+				""
+				"&d“当作牙签”"
+				""
+				"我倒"
+			]
+			icon: "alexscaves:chiseled_candy_cane_block"
+			id: "392FE76E17F8300F"
+			rewards: [
+				{
+					id: "1329F7766718AFF2"
+					item: "alexscaves:gummy_ring_red"
+					type: "item"
+				}
+				{
+					id: "21A95B34846773D8"
+					item: "alexscaves:gummy_ring_green"
+					type: "item"
+				}
+				{
+					id: "4200C142AD777C2C"
+					item: "alexscaves:gummy_ring_yellow"
+					type: "item"
+				}
+				{
+					id: "67AB70660B4A992F"
+					item: "alexscaves:gummy_ring_blue"
+					type: "item"
+				}
+				{
+					id: "58BCF44FC817489E"
+					item: "alexscaves:gummy_ring_pink"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C50332AAAAE1AB8"
+					title: "这是麦块世界的第5001年！"
+					type: "checkmark"
+				}
+				{
+					entity: "alexscaves:caniac"
+					id: "05AEF2945672C577"
+					type: "kill"
+					value: 5L
+				}
+				{
+					id: "7B971C3CA2333FEF"
+					item: "alexscaves:sharpened_candy_cane"
+					type: "item"
+				}
+			]
+			title: "你也会打烈车拳？！"
+			x: 67.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["563DF4213E850D2F"]
+			description: [
+				"毕竟除了自己吃，拿来应付那些烦人的笨蛋妖精也不失为一种不错的选择"
+				""
+				"硬度不错，也许还会有其他用处？"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3BE8D4CEF0B6E588"
+			rewards: [
+				{
+					count: 12
+					id: "6D16F4891717D4ED"
+					item: "alexscaves:candy_cane_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4B7D0C777D688FD1"
+					item: "alexscaves:chiseled_candy_cane_block"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			tasks: [
+				{
+					count: 12L
+					id: "0C4D88AD6DBACFD8"
+					item: "alexscaves:candy_cane"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1CAE855EB38A3BE1"
+					item: "alexscaves:candy_cane_block"
+					type: "item"
+				}
+				{
+					id: "2AFC17D6D7F258C9"
+					item: "alexscaves:candy_cane_pole"
+					type: "item"
+				}
+				{
+					id: "03F9050619145165"
+					item: "alexscaves:stripped_candy_cane_pole"
+					type: "item"
+				}
+				{
+					id: "10553935FB7E6E75"
+					item: "alexscaves:stripped_candy_cane_block"
+					type: "item"
+				}
+			]
+			title: "香香甜甜的拐杖糖，为什么不试着多收集一点呢？"
+			x: 56.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3AC7E23E46DC0DEB"]
+			description: [
+				"&e“西行寺小姐？这些鱼还不够么？”"
+				""
+				"朝着坐在岸上的她举起我手中拎着的两条软糖鱼"
+				""
+				"&d“唔，还是不够呐。史蒂夫先生抓的这么点鱼，我两分钟就能全部啃完了”"
+				""
+				"&d“唉，你下来，这里交给我”"
+				""
+				"&e“欸？西行寺大人你要自己下来抓鱼吗？但是您的衣服貌似不是很方便——”"
+				""
+				"&d“「反魂蝶 -五分咲-」”"
+				""
+				"&e“哈啊？！”"
+				""
+				"一阵绚烂的弹幕攻击过后，看着面前被炸的不成样子的苏打水河流和不断从天上掉下来的软糖鱼，再看看我手里两条小鱼苗，不由地陷入了沉思"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2ACDFAC5CFD417CE"
+			rewards: [
+				{
+					count: 6
+					id: "7298504D33596FC6"
+					item: "alexscaves:sweetish_fish_red"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0FBE424FE5719633"
+					item: "alexscaves:sweetish_fish_green"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1E289997984FB0CC"
+					item: "alexscaves:sweetish_fish_yellow"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "05DAD1DD72A586C2"
+					item: "alexscaves:sweetish_fish_blue"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6C8A234144C093A3"
+					item: "alexscaves:sweetish_fish_pink"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			tasks: [
+				{
+					id: "7C0024F8A1AF8C5B"
+					item: "alexscaves:sweetish_fish_red"
+					type: "item"
+				}
+				{
+					id: "71A76D60BD42CF06"
+					item: "alexscaves:sweetish_fish_green"
+					type: "item"
+				}
+				{
+					id: "688948C9B034A365"
+					item: "alexscaves:sweetish_fish_yellow"
+					type: "item"
+				}
+				{
+					id: "44EC32F183486AEA"
+					item: "alexscaves:sweetish_fish_blue"
+					type: "item"
+				}
+				{
+					id: "559118D4FB406C82"
+					item: "alexscaves:sweetish_fish_pink"
+					type: "item"
+				}
+				{
+					id: "3D02BFA9F2E8C64F"
+					title: "妈耶……"
+					type: "checkmark"
+				}
+			]
+			title: "渔王还想，继续做渔王"
+			x: 43.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["563DF4213E850D2F"]
+			description: [
+				"&e“呜哇啊！救我啊！西行寺小姐！”"
+				""
+				"一个不留神，我被突然冒出来的焦糖色的史莱姆撞翻在地"
+				""
+				"焦糖怪分泌出来的熔融焦糖紧紧贴在我身上，让我动弹不得"
+				""
+				"&e“可恶！偏偏在这种时候拔不出来剑”"
+				""
+				"眼看就要被焦糖怪囫囵吞入体内"
+				""
+				"&6“碰啪——！”"
+				""
+				"焦糖碎片在我眼前爆裂绽放"
+				""
+				"西行寺小姐站在我的面前，隐约可见她的扇子上还冒着烟"
+				""
+				"&e“帮，帮大忙了……”"
+				""
+				"&d“没事，不过史蒂夫先生你居然还会被这种家伙牵制住阿”"
+				""
+				"&e“只是因为太黏糊糊了，行动有点不便……”"
+				""
+				"&d“说到这个，史蒂夫先生，你现在身上真的很香哦？”"
+				""
+				"看着慢慢靠近过来的西行寺小姐，我吓得连忙跑回河里洗干净了身上的焦糖"
+				""
+				"感觉再慢一步就要被吃掉了……"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0013E47FE64D4A22"
+			rewards: [{
+				count: 10
+				id: "378E8BA57C4F0075"
+				item: "alexscaves:caramel"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [
+				{
+					id: "44EA8F57FA91A2FC"
+					item: "alexscaves:caramel"
+					type: "item"
+				}
+				{
+					id: "522647D7C6B8FEC8"
+					title: "又粘乎乎又限制行动。好险你分泌的不是什么会腐蚀衣服的液体"
+					type: "checkmark"
+				}
+				{
+					entity: "alexscaves:caramel_cube"
+					id: "4D80DF0CAC5EC6EE"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "焦糖怪？！"
+			x: 52.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["76D7011699E472B9"]
+			description: [
+				"沿着小路向前走去，我们终于找到了——"
+				""
+				"一个姜饼人小镇？"
+				""
+				"&e“糖霜和曲奇制作的墙壁，虹彩的薄荷糖用作装饰，甘草藤蔓做成的楼梯……”"
+				""
+				"就连我，也不由得咽了咽口水"
+				""
+				"不对！要是西行寺小姐在这里大开杀戒（大吃特吃）的话！"
+				""
+				"我着急看向西行寺小姐的方向——"
+				""
+				"&d“阿拉，这个是你送给我的吗？谢谢呢”"
+				""
+				"看到的是西行寺小姐温柔的笑脸，和在她面前蹦蹦跳跳的小姜饼人"
+				""
+				"要是放在十几个小时前，第一次见到西行寺小姐的我来看的话，这应当是一副极其温馨的场面才对"
+				""
+				"只是……有些东西，再看过一次之后就再也回不去了"
+				""
+				""
+				"{@pagebreak}"
+				"“嗯，很好吃哦~谢谢你们送给我的食物”"
+				""
+				"几个不同的姜饼人手上拿着 糖果，饼干等东西正在试着送给西行寺小姐"
+				""
+				"送东西？给这个大胃王？"
+				""
+				"我看你们这是要把命都送出去啊！不行，我必须要把它们从西行寺小姐的魔爪中解救出来！"
+				""
+				"&e“西行寺小姐！我们还是————”"
+				""
+				"&d“~❤”"
+				""
+				"西行寺小姐将食指贴在嘴唇上，远远朝我比出一个嘘声的动作"
+				""
+				"能感受到，从她那里传达来的“不必担心”的信息"
+				""
+				"&e“那，那我先自己去参观一下好了……”"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4DA7CBE8B442814B"
+			rewards: [{
+				id: "6EF3745C2263EE76"
+				item: "alexscaves:frosted_gingerbread_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27E55425C46D8C2A"
+					title: "找到了！"
+					type: "checkmark"
+				}
+				{
+					id: "0B9BDA4974B050FC"
+					structure: "alexscaves:gingerbread_town"
+					type: "structure"
+				}
+			]
+			title: "姜饼人的小镇"
+			x: 76.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["392FE76E17F8300F"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "15CD05C34BC9F0EF"
+			rewards: [{
+				id: "7F03C070FC80AD81"
+				type: "xp"
+				xp: 66
+			}]
+			tasks: [
+				{
+					id: "4865DC75EAB81987"
+					title: "好吃爱吃"
+					type: "checkmark"
+				}
+				{
+					id: "5F1D712997CDD700"
+					item: "alexscaves:licoroot"
+					type: "item"
+				}
+				{
+					id: "5A1672FEBF6BACA6"
+					item: "alexscaves:licoroot_vine"
+					type: "item"
+				}
+				{
+					id: "3855EEF8DCC59CFE"
+					item: "alexscaves:licoroot_sprout"
+					type: "item"
+				}
+			]
+			title: "甘草风暴！"
+			x: 82.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["15CD05C34BC9F0EF"]
+			description: [
+				"走在糖果大陆上，发现了一座巨大的女巫塔"
+				""
+				"&e“连这种地方都有女巫吗……”"
+				""
+				"看着女巫塔上那个熟悉的大鼻子姐姐的身影，我不禁感慨"
+				""
+				"&d“咦？史蒂夫先生，你看她手上拿的是什么？”"
+				""
+				"西行寺小姐戳了戳我的侧腹"
+				""
+				"&e“我看看嗷……”"
+				""
+				"掏出望远镜，我远远盯着女巫的手看"
+				""
+				"&e“一瓶彩虹色的……东西？”"
+				""
+				"取下望远镜，看到的是西行寺小姐意味深长的笑容"
+				""
+				"管他这那的，先抢过来再说！"
+			]
+			icon: "alexscaves:spawn_egg_licowitch"
+			id: "32223AA5567D72C5"
+			rewards: [
+				{
+					count: 4
+					id: "4C723C7BBD3F8408"
+					item: "alexscaves:radiant_essence"
+					type: "item"
+				}
+				{
+					id: "6C7FF136DC10F3CD"
+					item: "simplehats:zigzagwitchhat"
+					type: "item"
+				}
+				{
+					id: "387820233828C2FD"
+					item: "thermal:potion_cake"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:licowitch"
+					id: "228775DD10D547A3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5E26B33C51000106"
+					title: "扇你两巴掌看你还发不发颠"
+					type: "checkmark"
+				}
+			]
+			title: "连这种地方都有女巫塔？！"
+			x: 92.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["15CD05C34BC9F0EF"]
+			description: [
+				"在女巫塔里找到的神秘坩埚，具有转换一定区域内的生物群系的力量"
+				""
+				"当玩家饥饿值为0的时候吃下群系棒糖，就能够绑定玩家当前所在生物群系。（如果饥饿值不为零，棒糖将被消耗）"
+				""
+				"将绑定后的棒糖扔进转换坩埚中，再根据坩埚的提示丢入需求物品。全部完成后，转换坩埚将开始尝试将周围小范围内的群系转换为目标群系"
+				""
+				"&4存在炸档风险！不建议使用！请备份存档！！"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "27760B558F33B1E7"
+			rewards: [
+				{
+					count: 9
+					id: "5C7ADF70EA14B8E8"
+					item: "alexscaves:radiant_essence"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "56B4676C642C0633"
+					item: "alexscaves:biome_treat"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			subtitle: "存在炸档的风险，不建议使用"
+			tasks: [{
+				id: "7E842848C2DC28D9"
+				item: "alexscaves:conversion_crucible"
+				type: "item"
+			}]
+			title: "拥有魔法力量的神秘坩埚"
+			x: 99.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"4DA7CBE8B442814B"
+				"32223AA5567D72C5"
+			]
+			description: [
+				"击败甘草女巫后，我们从她手上夺到了——名为虹彩香精的珍贵物品"
+				""
+				"&d“闻着还挺香的，感觉拿给妖梦能够做出很好吃的菜”"
+				""
+				"&e“这样的话，等回去之后拜托她料理一下好了”"
+				""
+				"而当我正欲将香精收回物品栏的时候"
+				""
+				"&6“gugugaga？”"
+				""
+				"姜饼人的声音突然在我身边响起"
+				""
+				"&d“阿拉？你是跟着我们到这里来的吗？”"
+				""
+				"姜饼人没有回应西行寺小姐的话，反而是一脸急切地在朝我呼叫。他那小小的手指着我马上要收回去的虹彩香精，又指了指我们过来的姜饼小镇的方向"
+				""
+				"&6“gugugaga！gugugaga！”"
+				""
+				"&e“西行寺小姐，看来他好像是需要这瓶香精的样子，您怎么看？”"
+				""
+				"{@pagebreak}"
+				"&d“先去看看发生了什么事情吧”"
+				""
+				"&6“gugugaga？guguagag！”"
+				""
+				"姜饼人领着我们来到了小镇某处，在这里，有着一个熄火的小烤炉。姜饼人爬到烤炉上，示意我把香精倒在上面"
+				""
+				"“喀拉”"
+				""
+				"在我到完一整瓶之后，姜饼人示意西行寺小姐拉下身旁的拉杆"
+				""
+				"{@pagebreak}"
+				"烤炉的火焰重新燃起，从里面窜出来一个个的小小姜饼人"
+				""
+				"&6“guga！guga！”"
+				""
+				"最开始的那个姜饼人高兴地跳下来，和这些新生地姜饼人拥抱在一起"
+				""
+				"&d“看来这个小烤炉就是这些小家伙出生的地方了。不过，最重要的香精被女巫夺走，导致最新的日子一直没有新生的姜饼人出现”"
+				""
+				"&d“这么来说，我们也算是误打误撞帮了他们了”"
+				""
+				"&6“guga！guga！”"
+				""
+				"姜饼人转过身来，深深朝我们二人鞠了一躬"
+				""
+				"门外，更多的姜饼人朝着这里赶过来。而在他们的身后，还拖着……一套盔甲？"
+				""
+				"尺寸显然不是为了姜饼人而造，反而看起来很合我的身"
+				""
+				"&6“guga！”"
+				""
+				"&d“呵呵，看来这套盔甲是送给史蒂夫先生你的呢~你就收下吧”"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3D10BD7D8AE65D62"
+			rewards: [
+				{
+					id: "3A14129054E644CD"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "472A927A82C4D4B8"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D4A36E78D2C4677"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E8012152BFA88A9"
+					item: {
+						Count: 1
+						id: "alexscaves:gingerbread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4822CA7B0DFF6B12"
+					item: "alexscaves:gingerbread_crumbs"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "36537DB984353FF9"
+					item: "alexscaves:licowitch_radiant_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02F5F31A31CF6574"
+				item: "alexscaves:confection_oven"
+				type: "item"
+			}]
+			title: "姜饼人的神秘复活点"
+			x: 89.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["7A1648A46F476DC2"]
+			description: [
+				"&e“天哪……”"
+				""
+				"飞在天上，糖果龋洞的景色一览无遗"
+				""
+				"&e“西行寺小姐！在那里！”"
+				""
+				"目光瞥见从苏打水海洋里窜出的巨大身影，我立刻朝西行寺小姐报出了蠕虫的方位"
+				""
+				"&d“好！你抓稳了！”"
+				""
+				"紧紧抓着她的手,我们二人飞速朝着口香糖蠕虫消失的方位赶过去"
+				""
+				"&d“「反魂蝶 -八分咲-」”"
+				""
+				"在弹幕海洋的攻击下，蛋糕做的土壤被轰碎，苏打水的海洋被蒸发"
+				""
+				"&e“好厉害……”"
+				""
+				"原来，这才是幻想乡的住人的实力吗？一直以来都在和怪物近身肉搏的我仿佛像个笑话一般"
+				""
+				"{@pagebreak}"
+				"下次回家一定给自己武器打点弹幕上去！"
+				""
+				"在心里面这么想着"
+				""
+				"&d“史蒂夫先生，接下来就交给你了”"
+				""
+				"西行寺小姐手一松，我便直直从天空坠落"
+				""
+				"紧接着，就在下一刻，蠕虫的大嘴就出现在我眼前"
+				""
+				"&e“我给你脑门来一刀！”"
+				""
+				"刀锋从脑门刺入，借着重力一路向下将蠕虫的身体撕扯成两半"
+				""
+				"&e“呼——”"
+				""
+				"&e“退治成功！”"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "alexscaves:sweet_tooth"
+			id: "7515AA0A09454933"
+			rewards: [{
+				count: 5
+				id: "1A6410A5C8D0F8CC"
+				item: "alexscaves:sweet_tooth"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "153CD1EE1B6E9764"
+					title: "口香糖！伏诛！"
+					type: "checkmark"
+				}
+				{
+					entity: "alexscaves:gum_worm"
+					id: "4386B68EEE7B0AAB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "我给你牙都打下来！"
+			x: 61.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3D10BD7D8AE65D62"]
+			description: [
+				"解决完姜饼人的事情，我们在姜饼人的簇拥下离开了姜饼小镇"
+				""
+				"&e“哎呀……他们送的这虹彩香精，根本没法用啊”"
+				""
+				"把玩着手上的香精，貌似是它们先前为了自己激活烤炉而制作的赝品。不过既然现在有了真品，这些假香精也全部不需要了"
+				""
+				"&d“味道也和真品相去甚远，我可不想吃这玩意做的菜呐”"
+				""
+				"&d“不过，这次在糖果洞穴的冒险也已经足够了。至少我是吃到了很多不错的东西呢”"
+				""
+				"&e“您开心就好”"
+				""
+				"沿着来时的路，我们想要朝着洞口赶回去"
+				""
+				"&e“？！”"
+				""
+				"地面突然开始剧烈颤抖起来"
+				""
+				"{@pagebreak}"
+				"&e“什么？发生什么了？！”"
+				""
+				"&d“口香糖蠕虫”"
+				""
+				"&e“什么？西行寺小姐你说什么？口香糖蠕虫？”"
+				""
+				"&d“没错，古籍上记载了这种生活在这里的生物。身体巨大，爱吃口香糖，最重要的是……牙齿是非常珍贵的材料”"
+				""
+				"&d“本来我都快忘记这件事情了，现在想来，刚才的震动就是它活跃在周围的最好证明”"
+				""
+				"&d“走吧，我们去看看。现在吃也吃饱了，正好就当作饭后的消食运动”"
+				""
+				"西行寺小姐一把抓住我的衣服，拎着我就飞了起来，朝着震源所在地赶去"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7A1648A46F476DC2"
+			rewards: [{
+				count: 6
+				id: "320F765AD1BC120C"
+				item: "alexscaves:gobthumper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "59B4189DE6B1BFAC"
+					item: "alexscaves:gobthumper"
+					type: "item"
+				}
+				{
+					id: "28D06A65BCF9AF09"
+					title: "制造糖槌放在地上来吸引口香糖蠕虫！"
+					type: "checkmark"
+				}
+			]
+			title: "口香糖蠕虫的踪迹"
+			x: 76.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["7515AA0A09454933"]
+			description: [
+				"&e“呜哇……好大的蛀牙”"
+				""
+				"&d“来，交给我”"
+				""
+				"&e“西行寺小姐你要拿这个蛀牙做什么？”"
+				""
+				"&e“唔喔？！”"
+				""
+				"一阵光芒闪过，西行寺小姐手中的蛀牙和先前打鱼获得的凝胶融合在一起，变成了一个张着大嘴的——袋子？"
+				""
+				"&d“我试着用灵力唤醒了这颗蛀牙的灵魂，现在它应该可以为你容纳无穷无尽的食物。就像这样”"
+				""
+				"说着，西行寺小姐把手里的软糖鱼扔了进去。"
+				""
+				"&d“而想要取出来也很简单，只要直接伸进去————”"
+				""
+				"&d“啊嘞？”"
+				""
+				"西行寺小姐把手深入袋子中左右摸索，好像找不到刚才扔进去的那条鱼"
+				""
+				"&e“额西行寺小姐你说有没有一种可能，鱼被那个袋子给吃掉了……”"
+				""
+				"&d“不可能！绝对不可能！我才放进去几秒啊就能吃掉的渣都不剩？一定是这个袋子藏起来了！”"
+				""
+				"{@pagebreak}"
+				"说着西行寺小姐把伸进去的手更加深入了一点。总感觉，从袋子那里传来了某种绝望的情绪"
+				""
+				"“呕哇！”"
+				""
+				"终于，袋子先绷不住，主动把西行寺小姐的手给吐了出来。连带着一起出现的，还有一滩……额……软糖鱼的消化残渣"
+				""
+				"&d“……”"
+				""
+				"&e“……”"
+				""
+				"&e“吃掉了啊……”"
+				""
+				"&d“吃掉了呢……”"
+				""
+				"&d“史蒂夫先生”"
+				""
+				"&e“是”"
+				""
+				"&d“你说，要是把它牙齿全部拔掉，它还能装食物吗？”"
+				""
+				"{@pagebreak}"
+				"&e“……西行寺小姐，我觉得应该做不到的……”"
+				""
+				"小袋子就在那么躺在地板上，弱小，可怜又无助的听着我俩的对话"
+				""
+				"“沙沙沙沙沙！！！”"
+				""
+				"小袋子扭动起来，看起来就好像是在磕头求饶……"
+				""
+				"&e“西行寺小姐，要不我们还是放过它吧？”"
+				""
+				"&d“放过他？那我缺的鱼这块谁给我补啊”"
+				""
+				"&e“这样，我再给您捞个几条，您看直接让小袋子它跟着我得了，免得碍您的眼不是？”"
+				""
+				"&d“十条！”"
+				""
+				"&e“成交”"
+				""
+				""
+				"{@pagebreak}"
+				"——————"
+				""
+				"就这样，糖果龋洞的冒险在我们的笑语里落下了帷幕（不包括果腹袋）"
+				""
+				"虽然因为弄脏了西行寺小姐的衣服被妖梦追着砍了十条街"
+				""
+				"但是作为回报西行寺小姐和我分享了她喜欢吃的爆米花"
+				""
+				"糖果龋洞啊"
+				""
+				"像这样的奇妙洞穴，还会有其他的吗？"
+				""
+				"&oPs：果腹袋效果为右键将食物喂给他，在你的饥饿值降下时会消耗果腹袋的饥饿值帮你回复。&r"
+			]
+			id: "2466A059EF25FFED"
+			rewards: [
+				{
+					id: "6CEBC3E9CF54E8C2"
+					item: {
+						Count: 1
+						id: "alexscaves:sack_of_sating"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"被幽幽子调教过的果腹袋\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5FD5ED7B64AAC8"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:garage_kit"
+						tag: {
+							EntityInfo: {
+								IsYsmModel: 0b
+								MaidTaskDataMaps: { }
+								ModelId: "touhou_little_maid:saigyouji_yuyuko"
+								id: "touhou_little_maid:maid"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48D07C88B6490DA4"
+					item: {
+						Count: 1
+						id: "mushroom_daydream:baomihua"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"幽幽子吃过的爆米花\"}"
+							}
+							etstlib_tool_uuid: "e248a61f-608c-4b6a-b459-b1857d3c9679"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:youmu"
+								"mushroom_daydream:witherite_ingot"
+								"kubejs:komachi"
+								"kubejs:sakura"
+							]
+							tic_modifiers: [
+								{
+									level: 2
+									name: "mushroom_daydream:boom"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:katana"
+								}
+								{
+									level: 1
+									name: "sakuratinker:mortal_wound"
+								}
+								{
+									level: 1
+									name: "mushroom_daydream:gear_of_war"
+								}
+								{
+									level: 1
+									name: "tconstruct:mambaout"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:soul_reaper"
+								}
+								{
+									level: 1
+									name: "sakuratinker:reapers_blessing"
+								}
+								{
+									level: 1
+									name: "sakuratinker:nether_ghost"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.0f
+								"tconstruct:attack_speed": 0.8f
+								"tconstruct:durability": 999.0f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:mining_speed": 6.0f
+							}
+							tic_upgrades: [{
+								level: 1
+								name: "mushroom_daydream:boom"
+							}]
+							tic_volatile_data: {
+								abilities: 3
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "4299F3397398EB6D"
+				item: "alexscaves:sack_of_sating"
+				type: "item"
+			}]
+			title: "快看！迷你幽幽子！"
+			x: 63.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7515AA0A09454933"]
+			description: [
+				"糖果龋洞也有联动的模块化傀儡。试着制作吧"
+				""
+				"材料在先前的任务里应该让你收集好了"
+				""
+				"什么？你不知道糖霜怎么获得？"
+				""
+				"快去用精准采集收集地上的泡芙球！"
+			]
+			icon: "modulargolems:candy_construct"
+			id: "3C8ABC0AC3251609"
+			rewards: [
+				{
+					count: 2
+					id: "6F331BACBF94E867"
+					item: {
+						Count: 1
+						id: "modulargolems:metal_golem_arm"
+						tag: {
+							golem_material: "alexscaves:candy"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BE7DD5C350D86ED"
+					item: {
+						Count: 1
+						id: "modulargolems:metal_golem_legs"
+						tag: {
+							golem_material: "alexscaves:candy"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B55B5CA9D6880F0"
+					item: {
+						Count: 1
+						id: "modulargolems:metal_golem_body"
+						tag: {
+							golem_material: "alexscaves:candy"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66466BC9D96E8A24"
+					title: "利用在糖果洞穴里找到的材料，试着制作糖果的傀儡吧！"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 18L
+					id: "73DC3250B58E3A79"
+					item: "modulargolems:candy_construct"
+					type: "item"
+				}
+			]
+			title: "糖果龋洞的专属傀儡！"
+			x: 63.5d
+			y: 14.5d
+		}
+	]
+	title: "甜蜜的美梦"
+}

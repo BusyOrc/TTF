@@ -1,0 +1,40 @@
+{
+    "modifier.tinkerscalibration": {
+    "destroyer_of_world":"#FF4500",
+    "storm":"#AFEEEE",
+    "earth":"#EEE685",
+    "blizzard":"#87CEFA",
+    "sixth_sense":"#6A5ACD",
+    "thermal_engineer":"#EEC900",
+    "chill_aura":"#00E5EE",
+    "chill_aura.2":"#00E5EE",
+    "chill_aura.3":"#00E5EE",
+    "fire_react":"#CD5555",
+    "fire_react.2":"#CD5555",
+    "fire_react.3":"#CD5555",
+    "coin_repair":"#EEB422",
+    "crit_dmg":"#DA70D6",
+    "darkness_emerging_armor":"#27408B",
+    "darkness_emerging":"#27408B",
+    "dodge":"#ADFF2F",
+    "doremy":"#000080",
+    "katana":"#8DEEEE",
+    "komachi_blessing":"#EE6363",
+    "lightning":"#8470FF",
+    "fire":"#FA8072",
+    "ice":"#00E5EE",
+    "nano_machine":"#FFD700",
+    "nano_machine_armor":"#FFD700",
+    "soul_reaper":"#00BFFF",
+    "stealth":"#483D8B",
+    "telekinesis":"#00FFFF",
+    "tbm":"#76EE00",
+    "yousei":"#00EE00",
+    "overheal":"#00EE00",
+    "perfect_freeze":"#00BFFF",
+    "medicine_borne":"#FFB6C1"
+    },
+    "material.tinkerscalibration": {
+
+    }
+}

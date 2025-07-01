@@ -1,0 +1,17 @@
+{
+  "attributeType": "forge:step_height_addition",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "hmag:crimson_slaughterer"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 1
+  }
+}

@@ -1,0 +1,14 @@
+
+  {
+    "type": "tconstruct:modifier_salvage",
+    "modifier": "tconstruct:lt_repair",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": [
+
+      {
+        "tag": "tconstruct:modifiable/durability"
+      }
+    ]
+  }

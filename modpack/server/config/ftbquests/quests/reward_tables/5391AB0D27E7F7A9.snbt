@@ -1,0 +1,17 @@
+{
+	icon: "ae2:certus_quartz_crystal"
+	id: "5391AB0D27E7F7A9"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 3, item: "ae2:cell_component_16k" }
+		{ item: "ae2:cell_component_64k" }
+		{ count: 32, item: "ae2:certus_quartz_crystal" }
+		{ count: 64, item: "ae2:certus_quartz_dust" }
+		{ count: 64, item: "ae2:fluix_glass_cable" }
+		{ count: 32, item: "ae2:fluix_smart_cable" }
+		{ count: 32, item: "ae2:fluix_covered_cable" }
+		{ count: 16, item: "ae2:fluix_smart_dense_cable" }
+	]
+	title: "ae2"
+}

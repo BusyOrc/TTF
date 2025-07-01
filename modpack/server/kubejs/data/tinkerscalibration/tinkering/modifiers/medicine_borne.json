@@ -1,0 +1,21 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.7,
+        "operation": "addition",
+        "attribute": "attributeslib:healing_received",
+        "unique": "tconstruct.modifier.medicine_borne",
+        "slots": [
+          "mainhand",
+          "offhand",
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

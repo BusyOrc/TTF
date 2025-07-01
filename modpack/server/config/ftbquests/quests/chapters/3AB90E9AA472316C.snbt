@@ -1,0 +1,3752 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3AB90E9AA472316C"
+	group: "398070A2413EA53F"
+	icon: "touhou_little_maid:power_point"
+	id: "3AB90E9AA472316C"
+	images: [
+		{
+			alpha: 150
+			height: 2.0d
+			image: "quark:block/andesite_bricks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			height: 1.0d
+			image: "cataclysm:item/burning_ashes"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "tofucraft:textures/mob_effect/soy_healthy.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			alpha: 170
+			height: 2.0d
+			image: "cataclysm:block/ignitium_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "twilightforest:block/carminite_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "twilightforest:block/thorn_rose"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/azure_seastone_ink_mural/thunder"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/azure_seastone_ink_mural/cindaria"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.2d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:block/azure_seastone_ink_mural/clawdian"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/essence_of_the_storm"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.3d
+			y: 1.3d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"13025B20518A9BD2"
+				"0F698C6A49F609BD"
+				"633F35405883FB99"
+				"4E39135CBEF52C40"
+				"0C6DFF00454B7779"
+			]
+			description: ["灵梦：简单介绍一下，处理魔物的方法主要分为退治和收容两种方式，其中仅有部分魔物可以收容，具体可以参考阿卡什宝典里包含的HMaG图鉴。收容需要的材料和条件其中都有说明，但总的来说都比较麻烦，有兴趣的话可以试试，但是按照我的风格，只要长得像魔物的，全部干掉就行了，不用想太多"]
+			hide_until_deps_complete: false
+			icon: "hmag:evil_crystal"
+			id: "4F6A176071C2DAD3"
+			rewards: [{
+				count: 3
+				id: "0A6F29FB9A9229BD"
+				item: "hmag:evil_crystal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "530712F482162445"
+				type: "checkmark"
+			}]
+			title: "9.1 刚除了几个妖"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F6A176071C2DAD3"]
+			description: ["灵梦：特别提醒一下，如果在&a村民面前击杀其他村民，或者吃“怪肉”&r，我可是会来收拾不听话家伙的"]
+			hide_until_deps_complete: false
+			icon: "youkaishomecoming:flesh"
+			id: "24CD1BFBAC0F7C68"
+			tasks: [{
+				id: "5C532F3051AC90F1"
+				type: "checkmark"
+			}]
+			title: "9.2 特别提醒"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24CD1BFBAC0F7C68"]
+			description: [
+				"灵梦：听说有这么一个都市传说，只要在&9下界&r保持&a半妖怪化状态成功格挡三次&r“神秘隐身人”的袭击，就能获得一顶帽子。至于结果嘛，至今没人成功过，都被人用匕首从背后一刀毙命."
+				"&7据说最近的尸体附近都放着来自铁匠铺，被一刀捅穿的盾牌，疑似从锻造炉出来的盾牌抵挡不了这一刀?"
+			]
+			hide_until_deps_complete: false
+			icon: "youkaishomecoming:koishi_mousse"
+			id: "71E02A2139976EF1"
+			rewards: [{
+				count: 8
+				id: "07217BAD5066E69D"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EE56D71CCD2D3A"
+				type: "checkmark"
+			}]
+			title: "9.3 都市传说"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"24CD1BFBAC0F7C68"
+				"47564D5FF0B41FA8"
+			]
+			description: [
+				"灵梦：目前主要有以下目标，分别是&a暮色森林，灾变&r的众多强敌以及路上能遇到的各种敌人。暮色森林有阶段流程的限制，需要按照顺序击杀BOSS，而灾变的BOSS没有顺序的说法，可以制作相应的眼睛，类似于末影之眼，来寻找对应的BOSS结构。也可以用结构指南针直接寻找。"
+				""
+				""
+				"除此之外，还可以通过一些手段主动召唤强敌，但应战前做好准备，这些敌人强度和平时你遇到的可不太一样"
+				""
+				"再次提醒，一定要做好充足准备，虽然战利品很丰厚，但是&c敌人强度也非常高&r"
+				""
+				"强化后的敌人均有额外的护甲和吸血能力，如果要避免或减缓敌人吸血，可通过部分匠魂材料减少敌人生命恢复量，或者尽可能远程战斗，避免被击中。但是灾变的强敌需要在12格范围以内使用投射物攻击，否则不会生效"
+			]
+			hide_until_deps_complete: false
+			icon: "touhou_little_maid:power_point"
+			id: "46DDE4AB21A27C0B"
+			rewards: [
+				{
+					id: "617B338FF44013BF"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10780E4BE6DEEFFA"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/slime"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B1BCD86609B83D3"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:emerald_grove"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "263A83E8AF1A317A"
+				type: "checkmark"
+			}]
+			title: "9.4 可清理的目标"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"灵梦：暮色的一小步，通关的一大步。正常情况下需要攻克的第一个难点，但是如果有食物的话……"
+				""
+				"{ \"text\": \"点击投喂灵梦\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F304CCA2EC8128A\" } }"
+				""
+				"推荐使用盾牌格挡非狂暴冲刺，狂暴冲刺则需要注意躲避"
+				""
+				"灵梦继续补充：目前所有暮色森林敌人受到异变影响，&c获得了新的能力，难度比以往更高&r，建议战斗之前仔细思考对策。但是&a部分强敌有新的方式可以快速复活&r，无需四处寻找新的敌人来击杀。我猜一定有和琪露诺一样的小baka看都不看就冲上去莽了，biu了以后才反应过来应该了解一下情况——不对，我猜这种小baka肯定会优先问路人张三李四而不是直接来找真正该找的人"
+				""
+				"{@pagebreak}"
+				"    势如破竹：当玩家的护甲值低于18点时，玩家被娜迦伤害而造成的护甲耐久降低会增加50%（消耗耐久比2小则消耗2点）；"
+				""
+				"    摧枯拉朽：当玩家装备槽每装备了一件耐久低于120的盔甲或没有装备盔甲，娜迦都会增加撞击玩家所造成的击飞距离；"
+				""
+				"    头部破坏：娜迦的头部承受过多伤害时，娜迦将会陷入眩晕，并掉落5片娜迦鳞片。娜迦的愤怒冲撞的发动频率将会有概率被取消，也有小概率会直接眩晕。头部未破坏时，娜迦获得60%减伤,破坏后减伤为20% 。"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:naga_trophy"
+			id: "1ADA1E7F0EC03A9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "370A04F86596B67E"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "072A6BF6C79FF0FE"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "752DA3FE3965D227"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"听说巫妖打算翻新自己的住处，但是可惜目前的世界线上经费不够，如果想参观全新的住所，只能先前往另一条世界线（1.21）"
+				""
+				"一阶段需要准确识别巫妖真身，并且用近战打回发出的法术攻击来破盾，否则无法正常造成伤害"
+				""
+				"也可以用法术伤害，例如喷溅治疗药水来破盾"
+				""
+				"【新能力】"
+				"    护体法术（5min冷却）：第二,三形态下且自身生命值低于1/2时，立即获得80额外的护甲和护甲韧性。并在接下来3分钟内，每受到一次伤害，额外的护甲和护甲韧性便会-1, 且获得80%高额减伤。如果6分钟内没能够削减掉全部额外加成，巫妖将永久获得20%减伤(最高80%)并回复所有生命值，反之则会受到20%的伤害增加(最高40%)。在此期间，巫妖外围会有和闪电苦力怕一样的特效坏绕；"
+				"{@pagebreak}"
+				"    背水一战：第二,三形态下，巫妖每20s便会召唤拥有着更强属性的僵尸仆从。这些僵尸仆从被杀死时，会对周围的巫妖造成其10%最大生命值的真实伤害(该伤害只受来自护体法术的伤害增减影响)。巫妖首次进入第三形态将永久获得400点最大生命值，25护甲与15护甲韧性；"
+				""
+				"    献上心脏（110s冷却）：第二，三形态下，巫妖会杀死周围的所有仆从，每一个被巫妖会为巫妖回复20%最大生命值，并为巫妖永久增加1攻击伤害。"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:lich_trophy"
+			id: "7869CCF0226A2B5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780B4108F330F955"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "71F0A9F5F15A3C73"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "03EA547CB18EC94B"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"雪人☃，但是缺少骑乘的小人"
+				""
+				"需要先用近战攻击后才能正常用远程造成伤害，近战只需要注意在狂暴时躲避即可"
+				"【新能力】"
+				"    吃雪啦：雪怪会在狂暴时对周围创造细雪；"
+				""
+				"    吃冰啦：雪怪拥有600点冰冻值，周围存在玩家在细雪中时，冰冻值每s减20。当冰冻值归零时，冻结周围所有的玩家并重置冰冻值。"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "31A5FB39C6CF3A59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EB4DE6163DFF314"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "79254E2A561C487E"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5073091AF8937838"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"是幻影共击！"
+				""
+				"注意：请勿连锁挖掘任何暮色森林&c迷宫中的墙壁&r，否则……"
+				""
+				"{@pagebreak}"
+				"&l啊，我滴审稿！（捶桌子）&r"
+				""
+				"    反击：骑士被玩家伤害时，若其不处于攻击状态(没有棕色躯干)，回复其20%最大生命值且对玩家造成相当其攻击力50%的魔法伤害；"
+				""
+				"    解脱：每位骑士死亡时，会对周围一定范围内的所有生物施加虚弱效果。"
+				""
+				"建议在战斗时仔细分辨幻影骑士的真身，假身具有相当高的护甲值，而真身则为正常BOSS的护甲值"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "34BA662DFF53F69F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D1248D9FFC55EC0"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "48D4B6C22EA2CCD5"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "55E3E2B7D7E61316"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"有牛不玩"
+				""
+				"相对简单的BOSS，但是在开打之前建议不要单挑，最好用傀儡或者女仆拉仇恨"
+				""
+				"愈战愈勇：当米诺菇持续锁定同一个目标时，其攻击力会逐渐提升至其基础攻击力(本体伤害+武器伤害)的200%，移动速度会逐渐提升至其基础移动速度的250%，当丢失目标时失去所有加成，转移目标时失去80%加成；"
+				""
+				"哞菇感(30s冷却)：受到可追溯来源的远程攻击时，其攻击目标会转为远程攻击发出者；"
+				""
+				"薄弱侧翼：米诺菇当前攻击目标对米诺菇造成的伤害-80%，而非其攻击目标的攻击造成的伤害将+30%；"
+				""
+				"战吼：生命值首次低于其最大生命值的90%时，获得8护甲与4护甲韧性与50最大生命值。并回复其所有生命值且推开附近的一切生物。"
+				""
+				"破釜沉舟：当米诺菇生命值低于1/2时，其原有的横扫和冲刺技能的蓄力时间-50%"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:minoshroom_trophy"
+			id: "2FAC90A203E531AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BA94B70C8C46D81"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "0E482A22DEDB3468"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5B47E8F5609EAEC6"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"暮色森林必吃榜"
+				""
+				"攻击张开嘴的头部会有更高的伤害，并且准备好抗火药水或戒指"
+				""
+				"注意灵活使用多种伤害来处理 适应"
+				""
+				"    引爆：九头蛇拥有400引爆值，当身边存在燃烧中的玩家时，每s会减去20引爆值。当引爆值归零时，重置引爆值并对周围所有燃烧中的生物造成爆炸；"
+				""
+				"    幸运的勇士：玩家身上的每级幸运效果会对九头蛇造成15%的增伤；"
+				""
+				"    血：九头蛇的头越多，自身获得一定的生命回复效果。"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:hydra_trophy"
+			id: "1A3531E882C9DE1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12595427227C9EE6"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "35C76B654134C147"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1BB8DEFA0D591651"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -1.0d
+		}
+		{
+			description: [
+				"是邪恶状态的幽幽子"
+				""
+				"BOSS附近的房间里有能对BOSS造成大量伤害的机关可以利用，但是也可以用远程输出硬莽"
+				""
+				"脆弱机关：其受到的爆炸伤害+70%且未加成前的爆炸伤害低于10点时按照10点计算；"
+				""
+				"自毁程序：当恶魂死亡时，会对周围大范围内的玩家造成相当与玩家180%最大生命值的魔法伤害。"
+				""
+				"建议给盔甲打上魔法保护的强化以减少其伤害"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "2BE94B9128AB92D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44009BEFD9620D34"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "0FFC969876498308"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5D704EB9B66B9A76"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -3.0d
+		}
+		{
+			description: [
+				"极光城堡也迎来了一次&a大翻新&r，而这正是冰雪女王为王的理由"
+				""
+				"可以从最底层慢慢爬上去，也可以直接从外部突破，需要攻击敌人上半身才能正常造成伤害"
+				""
+				"【新能力】"
+				"降温（5min冷却）：冰雪女王生命值低于1/2时，会停止移动并坠落， 获得无敌。 随后会在3秒内恢复生命值至其最大生命值的70%，恢复完成后对周围的玩家施加7秒的冰冻并继续持续7秒的无敌时间；"
+				""
+				"冰雪陷阱（40s冷却）：冰雪女王会尝试向周围玩家放置冰雪陷阱。降温冷却期间，会一次放置3个更大的冰雪陷阱，且该技能的冷却时间缩减50%。"
+				"{@pagebreak}"
+				"冰甲：在降温冷却期间，冰雪女王获得冰甲。冰甲会为冰雪女王提供80%减伤。"
+				""
+				"冰爆：其被冰雪陷阱影响时，会在短暂延迟后对周围有冰冻效果的生物找出相当于自身攻击力200%的魔法伤害。若没有冰冻效果，则转为给予2秒的冰冻效果。"
+				""
+				"碎冰：对附近所有处于冰冻状态的生物，冰雪女王会不断的对其造成其2%最大生命值的魔法伤害。"
+			]
+			hide_until_deps_complete: false
+			icon: "twilightforest:snow_queen_trophy"
+			id: "1DC44A07EBB4D413"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F7B0C0D259488CD"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 4"
+					elevate_perms: true
+					id: "0AE6C7DE68FE81B7"
+					silent: true
+					title: "获得4点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3C316D8EB1CBAE81"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"可利用诅咒之眼寻找&a主世界的苦寒监牢&r（&dFrosted Prison&r），与被诅咒的墓碑互动即可召唤"
+				""
+				"死亡后掉落&a咒魂锭&r"
+				""
+				"苦寒监牢中的魂尸，冥行武弁可掉落&a黑钢锭&r，这里的箱子里也有概率获得黑钢锭"
+				""
+				"近战时需要小心投技，被命中后无法挣脱"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:cursed_eye"
+			id: "20D16662EACB1AC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "156FAF9412F39811"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "7A7433EAD81AF35C"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:maledictus_spawn_egg"
+				id: "61E5A8D50142E960"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"主世界诅咒金字塔(&dCursed Pyramid&r)内沉睡的BOSS，需要在遗迹内&a可疑的沙子&r里找到沙漠项链，挂在远古遗魂的脖子上才能开始战斗"
+				""
+				"可疑的沙子为考古内容，使用刷子长按右键互动"
+				""
+				"死亡后掉落沙暴瓶，遗魂头骨，&a远古金属块&r，和一个唱片"
+				""
+				"&c主手使用攻速小于0.8的匠魂近战武器&r击败这个强敌，似乎有特殊掉落物——空白符文"
+				""
+				"前方需要小心眩晕攻击，眩晕时无法近战攻击，但仍可使用法术"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:desert_eye"
+			id: "70E31AB06ECF7467"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25ABEA1E386E450F"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "704371FADBBD0A88"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:ancient_remnant_spawn_egg"
+					id: "292B99692D4AFE09"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "73927A37D114B5F0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:brushes"
+						}
+					}
+					title: "Any #c:brushes"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"在主世界远古工厂（&dAncient Factory&r）中，使用&a下界之星&r激活先驱者即可开启战斗，击杀后可获取&a凋灵合金块&r"
+				""
+				"建议利用场景里的柱子规避激光伤害"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:mech_eye"
+			id: "2E2ED8B13788CF6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EFD165934A5E18A"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "1C541C12352665D0"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "5906B984FFF74DD6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"合成&a深渊祭品&r以召唤利维坦，这个召唤道具所需的全部物品在主世界&b沉沦之城&r（&dSunken City&r）中均可找到，这里也是利维坦蛰伏之处"
+				""
+				"死亡后掉落一个潮汐利爪，深渊之卵和一个唱片"
+				""
+				"利维坦不在水中时无法对其造成伤害，除此之外建议小心躲避伤害，并且准备好水下呼吸药水，或准备在水下有优势的相关材料，强化"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:abyss_eye"
+			id: "7333BA40CC7502CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A45D20A879A556A"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "3F6D650DE363CC55"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:the_leviathan_spawn_egg"
+					id: "05D90BEDCFD52E36"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "40C96E77434DABB8"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"在&c下界&r中可利用恶兽之眼寻找灵魂锻造厂(&dSoul Black Smith&r)"
+				""
+				"击杀后掉落&a恶兽犄角&r"
+				""
+				"建议准备好抗火药水，残血时小心冲撞，被撞到的话伤害很高"
+				""
+				"掉落的部分材料还可以用来制作匠魂工具"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:monstrous_eye"
+			id: "066F7D07D4978FC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D3C210F7D055D0D"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "530637E63AAC2DED"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "000F666E3CB2463E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"在&c下界&r利用火焰之眼寻找烈焰竞技场(&dBurning Arena&r)，击杀其中的炽燃遗魂后即可挑战焰魔"
+				""
+				"击杀后掉落&a腾炎锭&r"
+				""
+				"近战伤害非常高，但是可以多利用远程输出进行周旋"
+				""
+				"一共有3个阶段，转阶段时的AOE伤害很高，注意规避。三阶段盾牌会被摧毁，并且背后会有额外减伤"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:flame_eye"
+			id: "29514565E447A7A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31855CC8944F4256"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "0269EC5F1E4D3C4E"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "53EB0DD7BA4B8E83"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"利用虚空之眼寻找在&a末地&r的废弃堡垒(&dRuined Citadel&r)，探索到达最底层即可挑战末影守卫"
+				""
+				"击杀后掉落&a守卫者护手&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cataclysm:void_eye"
+			id: "0DE3F81348057DDE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2481CAA4A89E1313"
+					table_id: 6088093936018665223L
+					type: "random"
+				}
+				{
+					command: "/puffish_skills points add @s puffish_skills:farm 10"
+					elevate_perms: true
+					id: "32F92F00161F0101"
+					silent: true
+					title: "获得10点养生技能点"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "3C11D1D9761BA54B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F6A176071C2DAD3"]
+			description: ["灵梦：如果你已经顺利遵循秋姐妹的指引进入了豆腐世界，我倒是可以给你点提示。毕竟我也想找找这个世界有没有异变的线索"]
+			id: "3C59A3DCB0689F3A"
+			rewards: [{
+				id: "18C94AE92F7BFE20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				id: "14061EECDA95F770"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C59A3DCB0689F3A"]
+			description: ["灵梦：最近穷得吃土，先帮我从那边带点土特产过来吧，吃饱了才有力气干活"]
+			icon: "tofucraft:leek"
+			id: "76DE15B7C149CBA5"
+			rewards: [{
+				count: 16
+				id: "17E259B25CFF7C3A"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "19861B2D4F0503AE"
+					item: "tofucraft:leek"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "69E5BCA544352990"
+					item: "tofucraft:tofugrilled"
+					type: "item"
+				}
+			]
+			title: "土特产"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76DE15B7C149CBA5"]
+			description: [
+				"灵梦：废话少说，直奔主题吧。这个&a豆腐城堡&r里面有一个特殊的强敌，万一异变就是它干的呢？总之，在不知道谁是异变幕后真凶的情况下，每个人都欧拉一遍肯定不会错。"
+				""
+				"另外，根据帕秋莉提供的一些信息，似乎在保持&c最大生命值低于40&r的情况下击败这个强敌有特殊收获"
+			]
+			id: "63B3EA63F55F6004"
+			tasks: [{
+				id: "30A9E108CC8D9B73"
+				structure: "tofucraft:tofu_castle"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76DE15B7C149CBA5"]
+			description: [
+				"灵梦：河童托我给您带句话，&m只要您缴枪投降&r 不对，只要你前往豆腐世界，用探矿杖就能找到两种不同的矿脉，这是第一种矿脉"
+				""
+				"需要用到豆奶才能采集，但是应力要求非常低，豆奶可以从附近的豆奶河流中无限抽取（≥1024格）"
+				""
+				"挖掘得到的豆腐除了用来吃，似乎还有别的用途……"
+				""
+				"如果其他用途你也不想管，可以用这种豆腐来和我换取一些东西"
+			]
+			id: "64B60B5C61BAB6F2"
+			rewards: [{
+				count: 2
+				id: "3AC9CD62896999C5"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2433E38EAC514D80"
+				item: "kubejs:fantasy_tofu"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76DE15B7C149CBA5"]
+			description: [
+				"灵梦：这是另外一种豆腐的矿脉，需要的应力稍高一些，但是相比其他矿脉也是相当低了"
+				""
+				"挖掘需要供应流体——远古树脂，似乎这种流体的获取不止一种方法，帕秋莉听说还知道其他办法，建议你去找找她"
+				""
+				"挖掘得到的特殊豆腐似乎还有其他用途……"
+			]
+			id: "284C5B2AA445C503"
+			rewards: [{
+				id: "60AE9FCD7A086779"
+				item: "alexsmobs:soul_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "46BB04483F66A3B8"
+				item: "kubejs:gap_tofu"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["63B3EA63F55F6004"]
+			description: [
+				"灵梦：不知道你有没有顺利完成挑战，但是既然已经顺利解决了，它也说它没意见，那就应该寻找下一个目标了"
+				""
+				"这里有别人不要的法术书，你可以拿去"
+			]
+			id: "381124F7F0910CD2"
+			rewards: [{
+				id: "21569C0EE74D1822"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				entity: "tofucraft:tofu_gandlem"
+				icon: "tofucraft:tofudiamond"
+				id: "4B022347067B6109"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F6A176071C2DAD3"]
+			description: [
+				"灵梦：我有个建议——驯服一只僵尸娘"
+				""
+				"原因很简单，如果你不想跟着河童，⑤，甚至外界的神秘人去学习复杂的科技，有少量的很基础的材料可以交易获得。至于有这些材料的原因，大概是异变造成的魔力紊乱，一部分能量被转化为了特殊物质"
+				""
+				"{@pagebreak}"
+				"相关内容还不完善，仍待更新，目前仅有僵尸娘有特殊的科技相关材料可以交易"
+				""
+				"机制介绍："
+				"驯服后的生物可以通过击杀其他生物来获得经验值（主要方式），交易会获得少量经验。经验等级除了可以提升属性，还能用来解锁交易选项。目前该模组存在一定BUG，战斗指挥杖对大部分敌人无效，仅能指挥驯服后生物攻击中立生物，如🐮，但是经验获取是正常的。因此为了游戏体验考虑，目前的经验等级要求设置得非常低，控制击杀一些家里养的动物应该足够满足等级要求。"
+			]
+			icon: "minecraft:zombie_head"
+			id: "387B82AB28771F32"
+			tasks: [{
+				id: "1DF767F0D0DDDA50"
+				type: "checkmark"
+			}]
+			title: "以德服人"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["387B82AB28771F32"]
+			description: ["灵梦：将阿卡什宝典变为这本书，即可查阅相关资料，不过重要内容我也会告诉你的"]
+			id: "6AD4245E790763B7"
+			tasks: [{
+				id: "3DE26CC6830200D7"
+				item: "nffgirls:mob_dictionary"
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD4245E790763B7"]
+			description: [
+				"灵梦：在开始之前，先准备好这些道具，只需要其中任意一种就可以了。但是在接近之前，需要先让自己有亡灵亲和效果，这种效果也很简单，食用灵魂蛋糕切片就能获得。"
+				""
+				"在准备好后，有亡灵亲和效果的情况下，接近要驯服的僵尸娘，在未激怒过的情况下，将上述任意物品右键赠与（10秒冷却），即有概率增加好感度，当好感度满的情况下即可成功驯服"
+				""
+				"和驯服后的僵尸娘交易&a可获得裂变与聚变相关机器的部分制作材料&r，如果感觉相关材料获得非常困难的话，不妨试试这种方式"
+			]
+			icon: "nffgirls:soul_cake_slice"
+			id: "32978B9692991392"
+			tasks: [
+				{
+					id: "30467D05CEAFB7BA"
+					item: "nffgirls:soul_cake_slice"
+					type: "item"
+				}
+				{
+					id: "367ABB2F35D602C0"
+					item: "hmag:soul_apple"
+					type: "item"
+				}
+				{
+					id: "3B22B8F743E14546"
+					item: "hmag:soul_powder"
+					type: "item"
+				}
+			]
+			title: "驯服道具"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD4245E790763B7"]
+			description: [
+				"灵梦：驯服以后，为了能顺利控制，需要准备一下这两种法杖。一种可以控制行为模式，分别为待机，游荡和跟随"
+				""
+				"另一种可以控制攻击指定生物（目前仍有BUG，建议攻击中立的🐮等生物来获取经验，控制攻击敌对生物无效），并且获得击杀后的经验"
+			]
+			icon: "nffgirls:commanding_wand"
+			id: "5EDD4F7BCC7273D9"
+			rewards: [{
+				count: 2
+				id: "2821EF5562495E00"
+				item: "nffgirls:soul_cake_slice"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CC9EB7369AD8808"
+					item: "nffgirls:commanding_wand"
+					type: "item"
+				}
+				{
+					id: "21E69EA58FC273CF"
+					item: "nffgirls:combat_commanding_wand"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD4245E790763B7"]
+			description: [
+				"灵梦：这是交易所需的特殊货币，交易需要足够的经验等级才能进行"
+				""
+				"持有邪恶宝石或者空手右键已驯服生物即可打开交易界面"
+			]
+			id: "02DCF20188E0924F"
+			tasks: [{
+				id: "365940E618AE878A"
+				item: "nffgirls:evil_gem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AD4245E790763B7"]
+			description: ["灵梦：需要长距离转移已驯服的敌对生物的话，可以用这种道具"]
+			id: "74E9ECA2EB350A25"
+			tasks: [{
+				id: "28940BD63CCC6C42"
+				item: "nffgirls:empty_mob_storage_pod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F6A176071C2DAD3"]
+			description: [
+				"灵梦：所以说，你需要一个稳定的，能够轻松退治异变的装备搭配推荐？不想自己动脑子的话，也不是不行，但是我可不保证这是最优解"
+				""
+				"&a如果你能发现更优秀的搭配，认为我的推荐不够好，那你应该也不需要看我的推荐了&r，而如果你不知道该如何搭配匠魂材料，那看我的推荐也能稳定退治所有异变"
+			]
+			id: "5E07CD36D8831A86"
+			size: 2.0d
+			tasks: [{
+				id: "21A10C2B3DDA1A67"
+				type: "checkmark"
+			}]
+			title: "稳定套路？"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5E07CD36D8831A86"]
+			description: [
+				"核心思路：首先打上可改进等能获得额外强化槽位的强化（大部分提供槽位的强化仅在工匠砧上才会显示，但具体的强化均可通过JEI查询），在尽可能获取多的槽位的情况下，优先保证近战防护的强化尽可能多，尽量凑够80%，其余防护均匀分配即可，并且尽量保证同一种减伤强化集中在同一件装备上面（参考例子故意没有这样做，仅仅只是为了展示容错）"
+				""
+				"武器的能力槽相对充裕，可以再打上一个弹幕战，方便远程补充输出，以及破适应，或者也可以用任意法术来破适应"
+				""
+				"所有装备均打上不毁（铁幕的前置要求），铁幕，辣条修补和辣金强化，以最大程度提高装备属性"
+				""
+				"武器材料的大卢恩可以替换为妖梦"
+				"{@pagebreak}"
+				"抗火戒指可以替换为热力的药水注射器+抗火药水来保持常驻抗火效果，这样还能多一个戒指格子，该例子为了展示容错，故意没有这样做"
+				""
+				"为了进一步展示容错，在对抗200难度下的灾变BOSS时，未使用任何辅助类的铁魔法法术，仅使用了基础的法术用于破适应，并且完全没有借助傀儡装配模组的帮助，也没有任何复杂的操作，并且故意留了一些强化槽位没有使用完"
+				""
+				"推荐例子中大部分材料均不需要发展科技即可获取（大卢恩可用妖梦替代，南星所需的热力组件材料可打怪获取）"
+				""
+				"装备中的穿甲与穿甲防护等属性为必选项，如果仅使用法术输出，则仅需穿甲防护和盔甲撕裂防护即可"
+				""
+				"{@pagebreak}"
+				"展示例子中最核心的内容是装备的强化，如果同样的材料面对BOSS生存困难，请优先查看装备的强化问题"
+			]
+			icon: {
+				Count: 1
+				id: "tinkers_things:twinblade"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+					etstlib_tool_uuid: "78265456-5113-4011-8064-63276f82a234"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:soul_sakura"
+						"kubejs:youmu"
+						"kubejs:reisen"
+						"kubejs:greatrune"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tinkerslevellingaddon:improvable"
+						}
+						{
+							level: 1
+							name: "tconstruct:unbreakable"
+						}
+						{
+							level: 2
+							name: "tconstruct:projectile_protection"
+						}
+						{
+							level: 5
+							name: "tconstruct:reinforced"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 1
+							name: "tconstruct:lt_repair"
+						}
+						{
+							level: 1
+							name: "tconstruct:hotaurum"
+						}
+						{
+							level: 1
+							name: "tconstruct:iron_curtain"
+						}
+						{
+							level: 3
+							name: "tconstruct:sharpness"
+						}
+						{
+							level: 2
+							name: "sakuratinker:ruination"
+						}
+						{
+							level: 2
+							name: "sakuratinker:mortal_wound"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:katana"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:medicine_borne"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:nano_machine"
+						}
+						{
+							level: 1
+							name: "tconstruct:severing"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:blizzard"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:repayed"
+						}
+						{
+							level: 1
+							name: "tconstruct:thermal_engineer"
+						}
+						{
+							level: 1
+							name: "tconstruct:writable"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:storm"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:destroyer_of_world"
+						}
+						{
+							level: 1
+							name: "sakuratinker:promotion"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:withernic"
+						}
+						{
+							level: 1
+							name: "tconstruct:twilight_world"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: {
+						abilities: -3
+						defense: -1
+						"tinkerslevellingaddon:experience": 7588
+						"tinkerslevellingaddon:level": 5
+						"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;upgrade;"
+						upgrades: -11
+					}
+					tic_stats: {
+						"tconstruct:armor": 5.0f
+						"tconstruct:armor_toughness": 4.0f
+						"tconstruct:attack_damage": 31.464508f
+						"tconstruct:attack_speed": 1.9739999f
+						"tconstruct:durability": 4404.456f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:knockback_resistance": 0.15f
+						"tconstruct:mining_speed": 26.507812f
+						"tconstruct:velocity": 1.6500001f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinkerscalibration:blizzard"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:repayed"
+						}
+						{
+							level: 1
+							name: "tconstruct:projectile_protection"
+						}
+						{
+							level: 5
+							name: "tconstruct:reinforced"
+						}
+						{
+							level: 1
+							name: "tconstruct:thermal_engineer"
+						}
+						{
+							level: 1
+							name: "tconstruct:writable"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:storm"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:destroyer_of_world"
+						}
+						{
+							level: 1
+							name: "tinkerslevellingaddon:improvable"
+						}
+						{
+							level: 1
+							name: "sakuratinker:promotion"
+						}
+						{
+							level: 1
+							name: "tinkers_thinking:withernic"
+						}
+						{
+							level: 1
+							name: "tconstruct:twilight_world"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 1
+							name: "tconstruct:lt_repair"
+						}
+						{
+							level: 1
+							name: "tconstruct:hotaurum"
+						}
+						{
+							level: 1
+							name: "tconstruct:unbreakable"
+						}
+						{
+							level: 1
+							name: "tconstruct:iron_curtain"
+						}
+						{
+							level: 3
+							name: "tconstruct:sharpness"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 6
+						defense: 4
+						"tconstruct:indestructible": 1b
+						"tconstruct:rarity": 2
+						upgrades: 11
+					}
+				}
+			}
+			id: "275B4A59E078AD8A"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "仅供参考"
+			tasks: [
+				{
+					id: "3F92C71F66E5B5BE"
+					item: {
+						Count: 1
+						id: "tinkers_things:twinblade"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+							etstlib_tool_uuid: "73875489-83bc-4683-9c55-6b425e95bdb3"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:soul_sakura"
+								"kubejs:youmu"
+								"kubejs:reisen"
+								"kubejs:greatrune"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 2
+									name: "sakuratinker:ruination"
+								}
+								{
+									level: 2
+									name: "sakuratinker:mortal_wound"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:katana"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:medicine_borne"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:nano_machine"
+								}
+								{
+									level: 1
+									name: "tconstruct:severing"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: {
+								abilities: -3
+								defense: -1
+								"tinkerslevellingaddon:experience": 7588
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;upgrade;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:armor_toughness": 4.0f
+								"tconstruct:attack_damage": 31.464508f
+								"tconstruct:attack_speed": 1.9739999f
+								"tconstruct:durability": 4404.456f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.15f
+								"tconstruct:mining_speed": 26.507812f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 4
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								upgrades: 11
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DB4123313A62001"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "6ccbd697-00e2-4610-b267-80a8a1edb7f3"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:wu_yu"
+								"sakuratinker:south_star"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 3
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "sakuratinker:mamba"
+								}
+								{
+									level: 1
+									name: "sakuratinker:hardened_skin"
+								}
+								{
+									level: 1
+									name: "sakuratinker:fountain_magic"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -3
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 13.3f
+								"tconstruct:armor_toughness": 7.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 2600.64f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 3
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 14
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "411BD5C2B0568202"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							etstlib_tool_uuid: "85683508-1aea-4b94-aea7-72cb07ec6415"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:youmu"
+								"sakuratinker:terracryst"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:strength"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:dash_armor"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 2
+									name: "sakuratinker:solid"
+								}
+								{
+									level: 1
+									name: "sakuratinker:kobold"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -4
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 16.4f
+								"tconstruct:armor_toughness": 9.8f
+								"tconstruct:attack_damage": 0.336f
+								"tconstruct:durability": 4548.0957f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.5f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:strength"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 13
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67E926E4C4516F75"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "d055c5d9-9019-4e2f-904b-fd7c306b618d"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:himekaido"
+								"kubejs:daiyousei"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 3
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 2
+									name: "tconstruct:fire_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:soul_belt"
+								}
+								{
+									level: 1
+									name: "tconstruct:hermit_purple"
+								}
+								{
+									level: 1
+									name: "sakuratinker:absorption"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:yousei"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+								{
+									level: 1
+									name: "tconstruct:workbench"
+								}
+								{
+									level: 1
+									name: "tconstruct:crafting_table"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -5
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -12
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 19.8f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 3351.5999f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:workbench"
+								}
+								{
+									level: 1
+									name: "tconstruct:crafting_table"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 3
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 2
+									name: "tconstruct:fire_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:soul_belt"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 7
+								defense: 7
+								"tconstruct:crafting_table": 1b
+								"tconstruct:indestructible": 1b
+								"tconstruct:inventory_crafting": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "325891FBC64B557C"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "ba0ef516-2e38-408b-8e77-a8d584140fad"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:himekaido"
+								"kubejs:daiyousei"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:hermit_purple"
+								}
+								{
+									level: 1
+									name: "sakuratinker:absorption"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:yousei"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -4
+								defense: -4
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 14.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 3452.4f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 13
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E3D9EEBAFA642C"
+					item: "irons_spellbooks:fireward_ring"
+					type: "item"
+				}
+				{
+					id: "4F0D6627966700FD"
+					item: {
+						Count: 1
+						id: "jewelcraft:iron_ring_rose"
+						tag: {
+							Enchantments: [
+								{
+									id: "jewelcraft:rainbow"
+									lvl: 1s
+								}
+								{
+									id: "jewelcraft:critical"
+									lvl: 1s
+								}
+							]
+							ExCurioAttributeModifiers: [{
+								Amount: 0.1d
+								AttributeName: "l2damagetracker:crit_rate"
+								Name: "CUcurios40"
+								Operation: 0
+								UUID: "6fe73490-ad6a-3001-be9e-521a580dc58d"
+							}]
+							RepairCost: 3
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "CUcurios4"
+									Level: 1
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01A5267ECB790AAB"
+					item: {
+						Count: 1
+						id: "sakuratinker:tinker_charm"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "9df526c7-e42d-4433-90da-db09eda2c495"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:eezo"
+								"sakuratinker:youkai"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "sakuratinker:soul_bound_curio"
+								}
+								{
+									level: 3
+									name: "constructs_casting:cooldown_upgrade"
+								}
+								{
+									level: 1
+									name: "sakuratinker:high_frequency_barrier"
+								}
+								{
+									level: 1
+									name: "sakuratinker:jinx_doll"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+							]
+							tic_persistent: {
+								"sakuratinker:high_freq_barrier_last_hit": 141386L
+								"sakuratinker:high_freq_barrier_stacks": 10
+								upgrades: -4
+							}
+							tic_stats: {
+								"sakuratinker:armor": 0.05f
+								"sakuratinker:armor_toughness": 0.1f
+								"sakuratinker:arrow_damage": 0.2f
+								"sakuratinker:damage": 0.3f
+								"sakuratinker:health": 18.0f
+								"sakuratinker:movement_speed": 0.1f
+								"tconstruct:armor": 1.0f
+								"tconstruct:attack_damage": 1.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "sakuratinker:soul_bound_curio"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 3
+									name: "constructs_casting:cooldown_upgrade"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 2
+								upgrades: 4
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC184BB9786FA24"
+					item: {
+						Count: 1
+						id: "jewelcraft:iron_amulet_diamond"
+						tag: {
+							Enchantments: [
+								{
+									id: "jewelcraft:alexandrite"
+									lvl: 1s
+								}
+								{
+									id: "jewelcraft:infused"
+									lvl: 1s
+								}
+							]
+							ExCurioAttributeModifiers: [{
+								Amount: 0.2d
+								AttributeName: "l2damagetracker:crit_damage"
+								Name: "CUcurios10"
+								Operation: 0
+								UUID: "1a93c3ec-ac70-3331-9695-215cee5929f0"
+							}]
+							RepairCost: 3
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "CUcurios1"
+									Level: 1
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "推荐装备"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"目前为止仅有5种BOSS可以复活："
+				"娜迦，巫妖，九头蛇，冰雪女王，暮初恶魂"
+				""
+				"复活方法：首先将对应的仪式方块放置在BOSS死亡后的基座旁边围成一圈特定形状，&b每种BOSS对应的仪式方块都不一样&r。其次&b潜行右键&r基座将&a特定蛋糕🎂&r放置到BOSS基座上，在放置完成后，直接右键基座即可启动召唤仪式。如果方块放置错误的情况下右键BOSS基座，则会产生一次爆炸。"
+				""
+				"{image:touhou_tinker_fantasy:textures/tfbr1.png width:150 height:135 align:center}"
+				"粉色羊毛仅为方便定位方块位置，实际摆放时只需要如图将8个方块围一圈，蛋糕放中间即可"
+			]
+			hide_dependent_lines: true
+			icon: "twilightforest:kobold_spawn_egg"
+			id: "516D1539751E6B2B"
+			rewards: [{
+				count: 3
+				id: "7973109C051E79D0"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "28FAA81F10550BA6"
+				type: "checkmark"
+			}]
+			title: "如何复活暮色森林的BOSS"
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["516D1539751E6B2B"]
+			description: [
+				"基座上需要摆放蛋糕，而周围则需要按照要求摆放安山合金块，放置蛋糕时不要忘了&b潜行放置，完成后再右键基座即可&r。"
+				""
+				"击败BOSS后的战利品会出现在基座所在位置"
+			]
+			icon: "nffgirls:soul_cake"
+			id: "650FDA906EE57ECB"
+			rewards: [{
+				count: 2
+				id: "42B392C7C141F298"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0072F6928411608D"
+					item: "nffgirls:soul_cake"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "34661C5BF5283B72"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+			]
+			title: "娜迦"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["516D1539751E6B2B"]
+			description: ["参考娜迦，摆放方式完全相同，只是&a需要的物品不一样&r，其他BOSS的情况也类似"]
+			icon: "createaddition:honey_cake"
+			id: "4D5AA3ECB960382E"
+			rewards: [{
+				count: 4
+				id: "4568EA6447164869"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7742DE4D20B2ED04"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "075EE04C402C0E7C"
+					item: "create:brass_block"
+					type: "item"
+				}
+			]
+			title: "巫妖"
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["516D1539751E6B2B"]
+			icon: "vanillacookbook:ice_cream_cake"
+			id: "2060C95241FFFE07"
+			rewards: [{
+				id: "6266AC972C9CAE2B"
+				item: "megacells:sky_steel_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "26D96D4E910EC5A2"
+					item: "vanillacookbook:ice_cream_cake"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "76FCB87BBD7EB3D9"
+					item: "tconstruct:slimesteel_block"
+					type: "item"
+				}
+			]
+			title: "冰雪女王"
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["516D1539751E6B2B"]
+			description: ["所需材料和之前相比有所不同，为皇后史莱姆块"]
+			icon: "tconstruct:magma_cake"
+			id: "15C587561F72759D"
+			rewards: [{
+				count: 8
+				id: "17748540273E9CFF"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "715BAC51C082CD4B"
+					item: "tconstruct:magma_cake"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5867FCFD386F1DCA"
+					item: { Count: 8, id: "tconstruct:queens_slime_block" }
+					type: "item"
+				}
+			]
+			title: "九头蛇"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["516D1539751E6B2B"]
+			icon: "vanillacookbook:chorus_cake"
+			id: "5ADF2A70435BAC15"
+			rewards: [{
+				count: 2
+				id: "7481EEDF92E17C23"
+				item: "fruitsdelight:chorus_jello"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2B6488301EEEE3CB"
+					item: "vanillacookbook:chorus_cake"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "76134260819DB44A"
+					item: "thermal:steel_block"
+					type: "item"
+				}
+			]
+			title: "暮初恶魂"
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76DE15B7C149CBA5"]
+			description: [
+				"灵梦：顺便再分享一下情报，豆腐世界里钓鱼可是能得到幸运水晶的"
+				""
+				"你问在哪里钓鱼？当然是豆奶河流里面"
+			]
+			id: "6CB739DD73461507"
+			tasks: [{
+				id: "3FAD4B00B0BD1124"
+				item: "hmag:fortune_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29514565E447A7A5"]
+			description: [
+				"在玩家首次击败焰魔后会有极小的概率自然生成在下界要塞"
+				""
+				"掉落物：&b将熄余烬&r（&m江西于禁&r） x 0~2个，可用于合成炽燃余烬"
+			]
+			icon: "cataclysm:dying_ember"
+			id: "44BCA296B5679F9F"
+			tasks: [
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "2EE7DB4006605DA8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "318F7C6D31569735"
+					item: "cataclysm:dying_ember"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F6A176071C2DAD3"]
+			description: [
+				"灵梦：最近我还发现一些新出现的特殊敌人，强度相对来说不高，掉落物也很丰富，如果有需要的话，可以考虑试试退治一下"
+				""
+				"反正根据退治的原则，只要是活着的就全部欧拉一遍，直到找出异变真凶为止"
+				""
+				"但是应对大部分敌人之前，都建议&a提前准备好远程输出的手段&r"
+				""
+				"另外，有4个敌人需要特殊道具才能召唤，而这4种特殊道具又都有两种制作方式，其中一种方式消耗的材料相对较少，成本较低，但是可能会比较麻烦，不一定能搞到相应材料"
+				""
+				"而另一种制作方式消耗的材料通常成本高一些，但是有非常稳定的获取方式"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F50449D8329146A"
+			tasks: [{
+				id: "3F9FADB9047E31F7"
+				type: "checkmark"
+			}]
+			title: "特殊敌人"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F50449D8329146A"]
+			description: ["需要长按右键召唤沼泽巨颌怪，主要攻击手段是扔炸弹💣，其次是俯身冲撞，强度相当低，但是有远程的话会更简单一些"]
+			id: "0DC2B2A861D23DD5"
+			tasks: [{
+				id: "062E170ED5AE1962"
+				item: "meetyourfight:fossil_bait"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F50449D8329146A"]
+			description: [
+				"长按右键召唤敲钟人，可漂浮在地面上，并且可穿过墙壁"
+				""
+				"主要需要躲避弹幕，对你来说很简单吧"
+			]
+			id: "05F78BE46073AA4C"
+			tasks: [{
+				id: "3969CC94363F3E27"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F50449D8329146A"]
+			description: ["可召唤福尔图娜女爵，强度相对来说会稍高一些，建议做一定的准备再来调整"]
+			id: "69CC13820C514812"
+			tasks: [{
+				id: "7ABE38CB16F68528"
+				item: "meetyourfight:devils_ante"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F50449D8329146A"]
+			description: ["可召唤罗莎琳，这几个敌人中最强的一个，初始状态下有4个环绕着罗莎琳的蔷薇怨灵，此时需要先击杀蔷薇怨灵才能攻击本体"]
+			id: "3A703D46FC3DF2D3"
+			tasks: [{
+				id: "7C22CE041FEDDE83"
+				item: "meetyourfight:dusk_key"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DC2B2A861D23DD5"]
+			description: ["击败以后的战利品，有多种用途，通常建议先制作笼中心，以尽可能减少部分敌人造成的高额伤害"]
+			id: "44BD8B0832E52970"
+			tasks: [{
+				id: "506319E80A618443"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["44BD8B0832E52970"]
+			id: "3B833A1BECC92B76"
+			tasks: [{
+				id: "21B040765187231D"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44BD8B0832E52970"]
+			description: ["可以右键蓄力攻击"]
+			id: "29EB70BC31B29630"
+			tasks: [{
+				id: "05C819A0D868412D"
+				item: {
+					Count: 1
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44BD8B0832E52970"]
+			id: "25C17A6C842087F7"
+			tasks: [{
+				id: "39043DF05047002F"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44BD8B0832E52970"]
+			id: "020078BD82D267E0"
+			tasks: [{
+				id: "044B3F54216E3A9A"
+				item: "meetyourfight:marshy_delight"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["69CC13820C514812"]
+			description: ["福尔图娜女爵的固定战利品"]
+			id: "41FD1596086B028E"
+			tasks: [{
+				id: "3EA25B805B4BE45C"
+				item: "meetyourfight:fortunes_favor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["41FD1596086B028E"]
+			description: ["这个饰品同样推荐制作，不过希望你的饰品栏位还有空余"]
+			id: "2B35D5F7CE44E699"
+			tasks: [{
+				id: "550D393C66914E03"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41FD1596086B028E"]
+			description: ["非常推荐制作"]
+			id: "0CB783C617F49E09"
+			tasks: [{
+				id: "2363D0A507BAE170"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41FD1596086B028E"]
+			id: "1188AEF1A251CAC1"
+			tasks: [{
+				id: "319C8C5931F3E35F"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["41FD1596086B028E"]
+			id: "6009D80DB42F9551"
+			tasks: [{
+				id: "6F57AD6697AAF72E"
+				item: "meetyourfight:velvet_fortune"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3A703D46FC3DF2D3"]
+			description: ["罗莎琳的固定战利品"]
+			id: "6AC4475AD07FF797"
+			tasks: [{
+				id: "6B64C1AA2BA04E5A"
+				item: "meetyourfight:violet_bloom"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["05F78BE46073AA4C"]
+			description: ["敲钟人的固定战利品，能制作的东西都相当实用"]
+			id: "031C9BB0D026BF48"
+			tasks: [{
+				id: "142B35177A6C889C"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["031C9BB0D026BF48"]
+			id: "06B2788999EEC06F"
+			tasks: [{
+				id: "7F7DC44FA9D8507F"
+				item: "meetyourfight:passages_toll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["031C9BB0D026BF48"]
+			description: ["还在担心被隐身的敌人偷袭吗？这下有新的解决办法了"]
+			id: "0BCDBEDA231F4AD0"
+			tasks: [{
+				id: "6EBE65EBD0EC2304"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["031C9BB0D026BF48"]
+			description: ["只会影响放置方块和互动的范围，不影响攻击范围"]
+			id: "4E0BA7ECE2567205"
+			tasks: [{
+				id: "3AB1B7490D60488C"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["031C9BB0D026BF48"]
+			description: ["该蛋糕食用以后会有短暂漂浮效果"]
+			id: "25C8EA302C739F68"
+			tasks: [{
+				id: "5F0A20B3CA5CBD13"
+				item: "meetyourfight:aether_glazed_cupcake"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6AC4475AD07FF797"]
+			description: ["仅仅只是普通的武器，可作为收藏，主要特点是攻击距离很远"]
+			id: "6AD157D232D6FBFD"
+			tasks: [{
+				id: "113944D0C2000A21"
+				item: {
+					Count: 1
+					id: "meetyourfight:twilights_thorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6AC4475AD07FF797"]
+			description: ["真的要用这个项链吗？"]
+			id: "22E5E435D6C93125"
+			tasks: [{
+				id: "2D675C806D89C698"
+				item: "meetyourfight:wilted_ideals"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6AC4475AD07FF797"]
+			description: ["这下经验值管够了"]
+			id: "56DC6B386EAAA537"
+			tasks: [{
+				id: "284F88886E83A7F5"
+				item: "meetyourfight:blossoming_mind"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6AC4475AD07FF797"]
+			id: "07D569ADA652C281"
+			tasks: [{
+				id: "40BC7DE45BC53C53"
+				item: "meetyourfight:tomb_planter"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6AC4475AD07FF797"]
+			id: "2DCBF7BA98DEB2A6"
+			tasks: [{
+				id: "5994EAEB30C952B4"
+				item: "meetyourfight:petal_cream"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["066F7D07D4978FC6"]
+			description: ["下界合金巨兽的战利品，可以用来制作后续的匠魂材料"]
+			id: "7CCAEE2EFEC3A324"
+			tasks: [{
+				id: "2C668AB05E8114A2"
+				item: "cataclysm:lava_power_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			description: ["暮色森林里似乎也有一些村民，但是交易使用的货币和工作方块都有所不同"]
+			icon: "tf_dnv:trader_token"
+			id: "54E129159E924A2D"
+			rewards: [
+				{
+					id: "009910172E41CB34"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "54BB804DA0CBC55D"
+					item: "tf_dnv:trader_token"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45BA44908CDEB54E"
+					structure: "tf_dnv:twilight_village"
+					type: "structure"
+				}
+				{
+					id: "0A32CD7D88826FE9"
+					item: "tf_dnv:trader_token"
+					type: "item"
+				}
+			]
+			title: "暮色中的村庄"
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3CD2BBDE618E89A7"
+			tasks: [{
+				id: "60B37D51B0A30734"
+				type: "checkmark"
+			}]
+			title: "这是村民使用的工作方块"
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3CD2BBDE618E89A7"]
+			id: "31D87446EF2EDA2D"
+			tasks: [{
+				id: "564110E5F9461E7B"
+				item: "tf_dnv:alchemy_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3CD2BBDE618E89A7"]
+			id: "21F265BAF583C53F"
+			tasks: [{
+				id: "247C4C6435D34A41"
+				item: "tf_dnv:butcher_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3CD2BBDE618E89A7"]
+			id: "27BF82EB6C01E580"
+			tasks: [{
+				id: "242147FABA02FDC4"
+				item: "tf_dnv:composter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3CD2BBDE618E89A7"]
+			id: "51ABDAF6D53628B6"
+			tasks: [{
+				id: "5A9EC265B4E4ECC7"
+				item: "tf_dnv:lumber_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3CD2BBDE618E89A7"]
+			id: "5EE2A110F824D2FB"
+			tasks: [{
+				id: "3518FDB1FBFD5ED1"
+				item: "tf_dnv:mycologist_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			description: ["在暮色森林的地下似乎也有一些独特的迷宫，不过会有陷阱吗？"]
+			id: "6CF1E6464B323A63"
+			rewards: [{
+				count: 4
+				id: "7636A9EB2BA9E3F3"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6337368B6E2BB813"
+				structure: "tf_dnv:dungeon_hedge"
+				type: "structure"
+			}]
+			title: "地下树篱迷宫"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			id: "7AF420DCB23D625C"
+			rewards: [{
+				id: "467573EEF931BDA1"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E0B14F1C37C3A63"
+				structure: "twilight_treehouses:treehouse_lodge"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			id: "01EF9264636EF8BB"
+			rewards: [{
+				id: "55900CEABCF35303"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "541CB9CEB48308F2"
+				structure: "twilight_treehouses:treehouse_abode"
+				type: "structure"
+			}]
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			id: "6BD50DD258E80B10"
+			rewards: [{
+				id: "716529EE4B67C4C2"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "676A765DE53A5B74"
+				structure: "twilight_treehouses:treehouse_cabin"
+				type: "structure"
+			}]
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["06FEC1E851FC5556"]
+			id: "50227BEAE9163D41"
+			rewards: [{
+				id: "01705A3758F03E4F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A1D64405F246A38"
+				structure: "twilight_treehouses:treehouse_chalet"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"如需使用探险家指南针搜索，请根据任务给出的名称里引号后面的部分搜索英文"
+				""
+				"村庄可收集基础材料，地下树篱迷宫有部分热力的矿物等资源，而树屋里则能&a相对稳定地获得暮色森林的特殊树苗&r"
+			]
+			hide_dependent_lines: true
+			icon: "tf_dnv:mushgloom_torch"
+			id: "06FEC1E851FC5556"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5E6F79BC6427A609"
+				type: "checkmark"
+			}]
+			title: "暮色森林中的额外结构"
+			x: 12.517857142857139d
+			y: -6.952380952380949d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: [
+				"灵梦：竟然还有高手？最近又多了个搞事情的家伙，一起退治了吧"
+				""
+				"这家伙名叫斯库拉，据说喜欢栖息在暖水海洋群系的浮空建筑中，建筑叫做卫城（&dAcropolis&r）"
+				""
+				"似乎建筑中的特色是大量的水流交通，但是我不关心这些，我只想要退治那家伙"
+			]
+			id: "0F7F872B61EE4BE8"
+			rewards: [
+				{
+					count: 3
+					id: "1A43E59B8C69983E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28044D3DACE7CF33"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "267B008815579A4C"
+					item: "thermalendergy:endergy_upgrade_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:storm_eye"
+				id: "5E6EF3EEA4694A4F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F7F872B61EE4BE8"]
+			description: ["可制作盾牌与特殊武器"]
+			id: "4FDDE14FB190E5CC"
+			tasks: [{
+				id: "351EE473A42FE8C9"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F7F872B61EE4BE8"]
+			description: ["仅能从斯库拉身上掉落，可制作特殊武器"]
+			id: "41298C51AD1E8DCE"
+			tasks: [{
+				id: "39CD817315D531F3"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+	title: "退治异变"
+}

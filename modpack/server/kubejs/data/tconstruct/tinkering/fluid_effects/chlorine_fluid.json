@@ -1,0 +1,31 @@
+{
+    "block_effects": [
+      {
+        "type": "tconstruct:mob_effect_cloud",
+        "effects": [
+          {
+            "effect": "minecraft:poison",
+            "level": 2,
+            "time": 200
+          },
+          {
+            "effect": "minecraft:nausea",
+            "level": 3,
+            "time": 200
+          },
+          {
+            "effect": "minecraft:instant_damage",
+            "level": 1,
+            "time": 100
+          }
+        ]
+      }
+    ],
+    "entity_effects": [
+
+    ],
+    "fluid": {
+      "amount": 50,
+      "fluid": "chemlib:chlorine_fluid"
+    }
+  }

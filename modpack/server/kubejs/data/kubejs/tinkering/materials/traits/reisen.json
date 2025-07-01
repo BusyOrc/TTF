@@ -1,0 +1,32 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:medicine_borne"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "tinkerscalibration:medicine_borne"
+          }
+      ],
+      "tconstruct:ranged": [
+        {
+            "level": 1,
+            "name": "tinkerscalibration:scope"
+          },
+          {
+            "level": 1,
+            "name": "tconstruct:lightweight"
+          }
+      ],
+      "sakuratinker:charm":[
+      {
+        "level":1,
+        "name":"sakuratinker:moon_rabbit"
+      }
+    ]
+    }
+  }

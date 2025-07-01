@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": false,
+    "inputs": [
+      {
+        "item": "minecraft:magma_block"
+      },
+      {
+        "item": "hmag:burning_core"
+      },
+      {
+        "item": "minecraft:magma_block"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "level": 3,
+    "result": "tinkerscalibration:fire_react",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

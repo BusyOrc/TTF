@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios6": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:shadow"],
+  "RandomNum":"1",
+  "attrGethers": {
+"irons_spellbooks:spell_power": {
+      "weight":24,
+    "value": 0.12,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

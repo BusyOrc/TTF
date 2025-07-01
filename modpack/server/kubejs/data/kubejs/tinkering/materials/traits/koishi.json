@@ -1,0 +1,30 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "sakuratinker:clear_strike"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:mortal_wound"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+          {
+            "level": 1,
+            "name": "tconstruct:unconscious"
+          },
+          {
+            "level": 1,
+            "name": "sakuratinker:blurred"
+          }
+      ],
+      "sakuratinker:charm":[
+        {
+        "level":1,
+        "name":"sakuratinker:mary"
+      }
+    ]
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "mushroom_daydream:legend_paper"
+    }
+  ],
+  "level": 1,
+  "result": "mushroom_daydream:kira_doki",
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged/guitar"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:plains",
+    "#minecraft:is_savanna",
+    "#minecraft:is_forest",
+    "minecraft:cherry_grove"
+  ]
+}

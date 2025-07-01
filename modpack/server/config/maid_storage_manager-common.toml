@@ -1,0 +1,99 @@
+#Print debug messages
+debug_msg = false
+
+[compat]
+	#Enable ae2 support(Maid may pickup things from terminal)
+	ae2_support = true
+	#Enable rs support(Maid may pickup things from rs)
+	rs_support = true
+	#Ingredient request for JEI
+	jei_ingredient_request = true
+	#Ingredient request for EMI
+	emi_ingredient_request = true
+	#Enable create's stock ticker support for maid
+	create_storage = true
+	#Enable tacz recipe support
+	create_stock_manager = true
+	#Allow maid to act as create stock keeper around a stock ticker.
+	create_stock_keeper = true
+	#How far maid can control the stock ticker. Vertically
+	#Range: 1 ~ 256
+	create_stock_keeper_range_v = 16
+	#How far maid can control the stock ticker. Horizontally
+	#Range: 1 ~ 64
+	create_stock_keeper_range_h = 7
+
+[speed]
+	#Speed when working crafting
+	#Range: 0.0 ~ 3.0
+	crafting_speed = 0.5
+	#Speed when collecting requested list
+	#Range: 0.0 ~ 3.0
+	collect_speed = 0.5
+	#Speed when viewing chests in spare time
+	#Range: 0.0 ~ 3.0
+	view_speed = 0.3
+	#Speed when viewing chests in spare time
+	#Range: 0.0 ~ 3.0
+	view_change_speed = 0.5
+	#Speed when placing items to chests
+	#Range: 0.0 ~ 3.0
+	place_speed = 0.5
+	#Speed when following
+	#Range: 0.0 ~ 3.0
+	follow_speed = 0.5
+
+[behavior]
+	#Maximum times Maid will try to store items
+	#Range: 0 ~ 999999
+	max_store_tries = 3
+	#Maximum tick Maid will try to perform craft action
+	#Range: 0 ~ 9999999
+	max_craft_tries = 600
+	#Maximum logistics extract try will maid take
+	#Range: 0 ~ 9999999
+	max_logistics_tries = 50
+	#Enable maid from visiting all storages.
+	use_all_storage = false
+	#How many free slots required to pickup items when placing(Value indicates the percentage of empty slots in the total slots
+	#Range: 0.0 ~ 1.0
+	pickup_require_when_place = 0.5
+	#Maid will need to stop and stand by the block to work
+	real_work_sim = false
+	#Maid will ignore delay when picking up items.
+	pickup_ignore_delay = true
+	#How maid will throw Item.FINALLY_POS will try make the item stop at the position. GO_THROUGH will try to make item go through the target position. FIXED will always use the vector of length 0.6
+	#Allowed Values: FINALLY_POS, GO_THROUGH, FIXED
+	throw_item_vector = "FINALLY_POS"
+
+[render]
+	#Virtual Item Frame's render method allow access/no access/filter.
+	#Allowed Values: SMALL, LARGE, FRAME, CORNER
+	virtual_item_frame_render = "LARGE"
+	#Render the maid at the bottom of the screen when pressing Alt.
+	maid_render_ingredient_request = true
+
+[performance]
+	#Disable the 'shortest path limitation' to gain faster path finding.
+	fast_path_schedule = false
+
+[ai]
+	#Allow Maid call AI two times when doing some request.
+	two_step_ai_response = true
+	#Enable function calls from this mod
+	functions = true
+
+[utility]
+	#Generate virtual item frame entity when shift right-click with certain items.
+	generate_virtual_item_frame = true
+
+[crafting]
+	#Crafting solver to use. [DFS/DFS_QUEUED/TOPOLOGY]. Topology algorithm costs least but dose not support circular recipes.
+	solver = ["DFS_QUEUED"]
+
+	[crafting.nbt]
+		#Match nbt for all items by default. Use #maid_storage_manager:no_nbt and #maid_storage_manager:use_nbt to modify.
+		default = false
+		#Match nbt for all items by default. Use #maid_storage_manager:no_nbt and #maid_storage_manager:use_nbt to modify.
+		no_matching_path = ["Damage"]
+

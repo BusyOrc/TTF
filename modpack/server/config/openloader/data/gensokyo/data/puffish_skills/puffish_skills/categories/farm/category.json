@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "养生",
+	"icon": {
+		"type": "effect",
+		"data": {
+			"effect": "youkaishomecoming:youkaified"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

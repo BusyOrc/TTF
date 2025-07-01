@@ -1,0 +1,916 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"     a    <-->   ᔑ\n\\\"},
+                {\\\"text\\\":\\\"     b    <-->   ʖ\n\\\"},
+                {\\\"text\\\":\\\"     c    <-->   ᓵ\n\\\"},
+                {\\\"text\\\":\\\"     d    <-->   ↸\n\\\"},
+                {\\\"text\\\":\\\"     e    <-->   ᒷ\n\\\"},
+                {\\\"text\\\":\\\"     f    <-->   ⎓\n\\\"},
+                {\\\"text\\\":\\\"     g    <-->   ⊣\n\\\"},
+                {\\\"text\\\":\\\"     h    <-->   ⍑\n\\\"},
+                {\\\"text\\\":\\\"      i    <-->   ╎\n\\\"},
+                {\\\"text\\\":\\\"     j    <-->   ⋮\n\\\"},
+                {\\\"text\\\":\\\"     k    <-->   ꖌ\n\\\"},
+                {\\\"text\\\":\\\"      l    <-->   ꖎ\n\\\"},
+                {\\\"text\\\":\\\"     m    <-->   ᒲ\n\\\"},
+                {\\\"text\\\":\\\"     n    <-->   リ\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"     o    <-->   𝙹\n\\\"},
+                {\\\"text\\\":\\\"     p    <-->   !¡\n\\\"},
+                {\\\"text\\\":\\\"     q    <-->   ᑑ\n\\\"},
+                {\\\"text\\\":\\\"     r    <-->   ∷\n\\\"},
+                {\\\"text\\\":\\\"     s    <-->   ᓭ\n\\\"},
+                {\\\"text\\\":\\\"     t    <-->   ℸ\n\\\"},
+                {\\\"text\\\":\\\"     u    <-->   ⚍\n\\\"},
+                {\\\"text\\\":\\\"     v    <-->   ⍊\n\\\"},
+                {\\\"text\\\":\\\"     w    <-->   ∴\n\\\"},
+                {\\\"text\\\":\\\"     x    <-->   ̇/\n\\\"},
+                {\\\"text\\\":\\\"     y    <-->   ||\n\\\"},
+                {\\\"text\\\":\\\"     z    <-->   ⨅\\\"}
+              ]\"
+            ],
+            title:Redstone,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "对照表",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§l圣经\n\n\\\"},
+                {\\\"text\\\":\\\"我们有一个目标：\n\\\"},
+                {\\\"text\\\":\\\"通过建筑\n\\\"},
+                {\\\"text\\\":\\\"来为世界\n\\\"},
+                {\\\"text\\\":\\\"注入美丽和活力。\n\\\"},
+                {\\\"text\\\":\\\"我们目前的\n\\\"},
+                {\\\"text\\\":\\\"形态\n\\\"},
+                {\\\"text\\\":\\\"限制了我们实现想象的能力。\n\\\"},
+                {\\\"text\\\":\\\"为了最大程度的开发我们的潜能，\n\\\"},
+                {\\\"text\\\":\\\"我们必须\n\\\"},
+                {\\\"text\\\":\\\"达到\\\"},
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"形态。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"形态是我们进化的下个阶段。\n\n\\\"},
+                {\\\"text\\\":\\\"我们的潜能将被完全激发。 \\\"},
+                {\\\"text\\\":\\\"我们的凡躯将不能束缚我们，我们将可以随心所欲的建造。\\\"},
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"将它带给我们的是\\\"},
+                {\\\"text\\\":\\\"§o至高无上者。\\\"},
+                {\\\"text\\\":\\\"她需要我们，需要她的追随者，来实现她的目标。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"有了我们的帮助，\n\n\\\"},
+                {\\\"text\\\":\\\"§o至高无上者\\\"},
+                {\\\"text\\\":\\\"将会熄灭森林的大火...\n\n\\\"},
+                {\\\"text\\\":\\\"她将终结所有的饥荒...\n\n\\\"},
+                {\\\"text\\\":\\\"她将拯救那些生病和贫穷的人...\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"她会阻止\n\\\"},
+                {\\\"text\\\":\\\"§kundead\\\"},
+                {\\\"text\\\":\\\"的崛起...\n\n\\\"},
+                {\\\"text\\\":\\\"她会将我们带到新的高度。\n\n\\\"},
+                {\\\"text\\\":\\\"我们会一同将这个世界变成所有人的避难所，\\\"},
+                {\\\"text\\\":\\\"远离暴力，远离苦难，远离\\\"},
+                {\\\"text\\\":\\\"§kREDACTED\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§n我们知晓这些。\n\n\\\"},
+                {\\\"text\\\":\\\"§o我们已经从天上的石头里预见了这一切。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§o她在等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她用雷鸣般的吼声等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她用神奇的呼吸等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她在高空飞翔，等待着我们。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"我们会找到她的。\\\"}
+              ]\"
+            ],
+            title:Scripture,
+            author:Priest,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "龙之圣经",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第25天\n\n\\\"},
+                {\\\"text\\\":\\\"距离那颗小行星坠进我们强大的要塞里，已经过去两周左右了。我们藉此得以窥视一丝未来。 \\\"},
+                {\\\"text\\\":\\\"一个更好的未来。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"至高无上者在上， 我们会给那个带我们走向更好未来的人立一个雕像。\\\"},
+                {\\\"text\\\":\\\"这将会提醒我们，让我们记住我们的主要目标：到达末地。\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#13",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第79天\n\n\\\"},
+                {\\\"text\\\":\\\"为了向伟大的至高无上者致敬，我捐出了在军械库锻造的最好的工具。\\\"},
+                {\\\"text\\\":\\\"我希望我们的研究员们可以用这些工具来帮助我们实现我们的理想。\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#14",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第121天\n\n\\\"},
+                {\\\"text\\\":\\\"今天我才知道，这个大房间曾经是专门用来让整个社区给重大事项投票的，而不是让议会独断专行的！\\\"},
+                {\\\"text\\\":\\\"我不敢相信他们从没跟我们说过这点。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"议会太沉迷于至高无上者和到达末地了，我们需要回到我们以前的样子。\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#15",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第152天\n\n\\\"},
+                {\\\"text\\\":\\\"我一直都很疑惑，天花板上的古代字母是什么意思。\\\"},
+                {\\\"text\\\":\\\"今天我学到，这些是一种用于附魔的语言。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"也许有一本对照表可以帮我破译它们...\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#16",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"在神父的房间里\n\n\\\"},
+                {\\\"text\\\":\\\"在有翼怪兽的心脏里\n\n\\\"},
+                {\\\"text\\\":\\\"有一个价值连城的宝石\n\n\\\"},
+                {\\\"text\\\":\\\"来自于大地的深处\n\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#17",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"如果你想找到传送门\n\n\\\"},
+                {\\\"text\\\":\\\"寻找一个通向地底深处的地方\n\n\\\"},
+                {\\\"text\\\":\\\"入口在等待着你...\n\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "神秘日记#18",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_light_blue",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_black",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:statue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crafting_blueprint",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:abacus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:builders_tea"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:antique_ink"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:honeyed_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Pickaxe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Sword",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Leggings",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Boots",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Helmet",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Chestplate",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            }
+          ]
+        },  
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 5,
+          "functions": [
+             {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Axe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:enderman_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:eye_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "integrated_stronghold:music_disc_forlorn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "supplementaries:rope",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "integrated_stronghold:disc_fragment_sight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

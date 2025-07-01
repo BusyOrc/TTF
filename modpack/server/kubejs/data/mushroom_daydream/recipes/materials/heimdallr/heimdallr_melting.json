@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mushroom_daydream:heimdallr"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:mantle_heimdallr",
+    "amount": 90
+  },
+  "temperature": 1490,
+  "time": 20
+}

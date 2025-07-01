@@ -1,0 +1,22 @@
+{
+	"content": {
+
+		"equip_rew_shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "create:andesite_alloy",
+			"amount": {
+				"min": 5,
+				"max": 8
+			},
+			"unitWorth": 1200,
+
+			"forbids": [
+				{
+
+				}
+			]
+		}
+
+	}
+}

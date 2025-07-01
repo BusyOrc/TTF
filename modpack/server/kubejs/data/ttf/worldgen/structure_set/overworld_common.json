@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+          "structure": "ttf:fumo_overworld",
+          "weight": 1
+        }
+
+    ],
+    "placement": {
+        "salt": 7618368,
+        "spacing": 40,
+        "separation": 18,
+        "type": "minecraft:random_spread"
+      }
+}

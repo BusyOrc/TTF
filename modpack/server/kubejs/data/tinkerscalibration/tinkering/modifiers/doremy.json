@@ -1,0 +1,59 @@
+{
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "attributeslib"
+      }
+    ],
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.321,
+        "operation": "addition",
+        "attribute": "attributeslib:experience_gained",
+        "unique": "tconstruct.modifier.doremy",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand"
+        ]
+  
+      },
+      
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.123,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.armor",
+        "unique": "tconstruct.modifier.doremy",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.123,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.max_health",
+        "unique": "tconstruct.modifier.doremy",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

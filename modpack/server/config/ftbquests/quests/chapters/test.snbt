@@ -1,0 +1,2092 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: ""
+	id: "477CEA2B675A570F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"5DC59FDCCE6E5FB7"
+				"46D916928C2B6DA5"
+			]
+			id: "097B931D444B0C43"
+			invisible: true
+			rewards: [
+				{
+					id: "6B625DD1648045A2"
+					item: {
+						Count: 1
+						id: "tinkerscalibration:cutlass"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "1d2f3b25-b4f3-42f9-99ab-bf328fa5419f"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:komachi"
+								"kubejs:youmu"
+								"kubejs:greatrune"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 5
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:soul_reaper"
+								}
+								{
+									level: 1
+									name: "sakuratinker:reapers_blessing"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:katana"
+								}
+								{
+									level: 1
+									name: "sakuratinker:mortal_wound"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:nano_machine"
+								}
+								{
+									level: 1
+									name: "sakuratinker:ruination"
+								}
+								{
+									level: 1
+									name: "tconstruct:killager"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tconstruct:gilded"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.05f
+								"tconstruct:mining_speed": 0.7f
+							}
+							tic_persistent: {
+								abilities: -4
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3738
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;upgrade;"
+								upgrades: -15
+							}
+							tic_stats: {
+								"tconstruct:armor": 6.0f
+								"tconstruct:armor_toughness": 4.0f
+								"tconstruct:attack_damage": 27.556324f
+								"tconstruct:attack_speed": 2.97f
+								"tconstruct:durability": 2961.168f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.15f
+								"tconstruct:mining_speed": 16.17f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 5
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:gilded"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 5
+								defense: 3
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 16
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724D88CD7DC4AC77"
+					item: {
+						Count: 1
+						id: "tinkers_things:twinblade"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+							etstlib_tool_uuid: "301c823e-6318-41f1-815d-e733af06d92e"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:soul_sakura"
+								"kubejs:youmu"
+								"kubejs:reisen"
+								"kubejs:greatrune"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 2
+									name: "sakuratinker:ruination"
+								}
+								{
+									level: 2
+									name: "sakuratinker:mortal_wound"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:katana"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:medicine_borne"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:nano_machine"
+								}
+								{
+									level: 1
+									name: "tconstruct:severing"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: {
+								abilities: -3
+								defense: -1
+								"tinkerslevellingaddon:experience": 7588
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;upgrade;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:armor_toughness": 4.0f
+								"tconstruct:attack_damage": 31.464508f
+								"tconstruct:attack_speed": 1.9739999f
+								"tconstruct:durability": 4404.456f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.15f
+								"tconstruct:mining_speed": 26.507812f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkerscalibration:blizzard"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 4
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								upgrades: 11
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "745309592F0B9B7E"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							etstlib_tool_uuid: "c5b21926-f222-4601-bde6-1bfb97f0a01f"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:youmu"
+								"sakuratinker:terracryst"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:strength"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:dash_armor"
+								}
+								{
+									level: 2
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 2
+									name: "sakuratinker:solid"
+								}
+								{
+									level: 1
+									name: "sakuratinker:kobold"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -4
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 16.4f
+								"tconstruct:armor_toughness": 9.8f
+								"tconstruct:attack_damage": 0.336f
+								"tconstruct:durability": 4548.0957f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.5f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:strength"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 13
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27190D3EE11EF844"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "760c639e-0a5e-43a2-b824-7bcd16564bac"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:wu_yu"
+								"sakuratinker:south_star"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 3
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "sakuratinker:mamba"
+								}
+								{
+									level: 1
+									name: "sakuratinker:hardened_skin"
+								}
+								{
+									level: 1
+									name: "sakuratinker:fountain_magic"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -3
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 13.3f
+								"tconstruct:armor_toughness": 7.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 2600.64f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 3
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 14
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27BB0193EF15536C"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "47b243da-50ac-490b-b77f-05c8374d6c2a"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:himekaido"
+								"kubejs:daiyousei"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:hermit_purple"
+								}
+								{
+									level: 1
+									name: "sakuratinker:absorption"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:yousei"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -4
+								defense: -4
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 14.0f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 3452.4f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 2
+									name: "tconstruct:melee_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 6
+								defense: 7
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 13
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44F9B6163478D2AF"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "d384001e-b9e1-4300-8740-aed05cefc352"
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:himekaido"
+								"kubejs:daiyousei"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 3
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 2
+									name: "tconstruct:fire_protection"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:soul_belt"
+								}
+								{
+									level: 1
+									name: "tconstruct:hermit_purple"
+								}
+								{
+									level: 1
+									name: "sakuratinker:absorption"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:yousei"
+								}
+								{
+									level: 1
+									name: "tconstruct:fog_swim"
+								}
+								{
+									level: 1
+									name: "tconstruct:workbench"
+								}
+								{
+									level: 1
+									name: "tconstruct:crafting_table"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -5
+								defense: -6
+								"tconstruct:rebalanced": "upgrades"
+								"tinkerslevellingaddon:experience": 3792
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -12
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 19.8f
+								"tconstruct:armor_toughness": 10.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:durability": 3351.5999f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.25f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 1
+									name: "tconstruct:workbench"
+								}
+								{
+									level: 1
+									name: "tconstruct:crafting_table"
+								}
+								{
+									level: 1
+									name: "tconstruct:dragonborn"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 3
+									name: "tconstruct:magic_protection"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:destroyer_of_world"
+								}
+								{
+									level: 2
+									name: "tconstruct:fire_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:rebalanced"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:soul_belt"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 7
+								defense: 7
+								"tconstruct:crafting_table": 1b
+								"tconstruct:indestructible": 1b
+								"tconstruct:inventory_crafting": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								upgrades: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17FDD18A204052F8"
+					item: {
+						Count: 1
+						id: "tinkers_things:laminar_shield"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "3c782b77-8c16-4225-b768-3db1ac8cf762"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:wither"
+								"tinkerscalibration:wither"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:tank_handler"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 3
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:wetting"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:wither_flow_armor"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:lion_heart_armor"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 1
+									name: "tconstruct:blocking"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 1.5f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -5
+								defense: -3
+								"tconstruct:tank_fluid": {
+									Amount: 600
+									FluidName: "tconstruct:potion"
+									Tag: {
+										Potion: "minecraft:strong_healing"
+									}
+								}
+								"tinkerslevellingaddon:experience": 100
+								"tinkerslevellingaddon:level": 5
+								"tinkerslevellingaddon:slot_history": "ability;upgrade;upgrade;ability;defense;"
+								upgrades: -11
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 6.0f
+								"tconstruct:armor_toughness": 9.0f
+								"tconstruct:attack_damage": 0.84000003f
+								"tconstruct:block_amount": 40.0f
+								"tconstruct:block_angle": 130.0f
+								"tconstruct:durability": 3144.96f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.2f
+								"tconstruct:mining_speed": 5.625f
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:tank_capacity": 1000.0f
+								"tconstruct:use_item_speed": 0.4f
+								"tconstruct:velocity": 1.6500001f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:withernic"
+								}
+								{
+									level: 1
+									name: "tconstruct:twilight_world"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:storm"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:hotaurum"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:scute"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:repayed"
+								}
+								{
+									level: 1
+									name: "tinkerscalibration:earth"
+								}
+								{
+									level: 1
+									name: "sakuratinker:promotion"
+								}
+								{
+									level: 5
+									name: "tconstruct:reinforced"
+								}
+								{
+									level: 1
+									name: "tconstruct:iron_curtain"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 1
+									name: "sakuratinker:magic_shield"
+								}
+								{
+									level: 3
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:soulbound"
+								}
+								{
+									level: 1
+									name: "tconstruct:wetting"
+								}
+								{
+									level: 1
+									name: "tconstruct:unbreakable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 5
+								defense: 3
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								"tconstruct:soulbound": 1b
+								"tconstruct:total_tanks": 1
+								upgrades: 12
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7195A85ED02235DF"
+					item: {
+						Count: 1
+						id: "sakuratinker:tinker_charm"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "7a40fff9-0c10-4347-bd71-f920b48320b7"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:eezo"
+								"sakuratinker:youkai"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "sakuratinker:soul_bound_curio"
+								}
+								{
+									level: 3
+									name: "constructs_casting:cooldown_upgrade"
+								}
+								{
+									level: 1
+									name: "sakuratinker:high_frequency_barrier"
+								}
+								{
+									level: 1
+									name: "sakuratinker:jinx_doll"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+							]
+							tic_persistent: {
+								"sakuratinker:high_freq_barrier_last_hit": 141386L
+								"sakuratinker:high_freq_barrier_stacks": 10
+								upgrades: -4
+							}
+							tic_stats: {
+								"sakuratinker:armor": 0.05f
+								"sakuratinker:armor_toughness": 0.1f
+								"sakuratinker:arrow_damage": 0.2f
+								"sakuratinker:damage": 0.3f
+								"sakuratinker:health": 18.0f
+								"sakuratinker:movement_speed": 0.1f
+								"tconstruct:armor": 1.0f
+								"tconstruct:attack_damage": 1.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "sakuratinker:soul_bound_curio"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:thermal_engineer"
+								}
+								{
+									level: 3
+									name: "constructs_casting:cooldown_upgrade"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 2
+								upgrades: 4
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483ACA29FB52BAA2"
+					item: {
+						Count: 1
+						id: "jewelcraft:iron_amulet_diamond"
+						tag: {
+							Enchantments: [
+								{
+									id: "jewelcraft:alexandrite"
+									lvl: 1s
+								}
+								{
+									id: "jewelcraft:infused"
+									lvl: 1s
+								}
+							]
+							ExCurioAttributeModifiers: [{
+								Amount: 0.2d
+								AttributeName: "l2damagetracker:crit_damage"
+								Name: "CUcurios10"
+								Operation: 0
+								UUID: "1a93c3ec-ac70-3331-9695-215cee5929f0"
+							}]
+							RepairCost: 3
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "CUcurios1"
+									Level: 1
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F0A771329A8A268"
+					item: {
+						Count: 1
+						id: "jewelcraft:iron_ring_rose"
+						tag: {
+							Enchantments: [
+								{
+									id: "jewelcraft:rainbow"
+									lvl: 1s
+								}
+								{
+									id: "jewelcraft:critical"
+									lvl: 1s
+								}
+							]
+							ExCurioAttributeModifiers: [{
+								Amount: 0.1d
+								AttributeName: "l2damagetracker:crit_rate"
+								Name: "CUcurios40"
+								Operation: 0
+								UUID: "6fe73490-ad6a-3001-be9e-521a580dc58d"
+							}]
+							RepairCost: 3
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "CUcurios4"
+									Level: 1
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CBEC636F87560B3"
+					item: "irons_spellbooks:fireward_ring"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "052FEBD15678814D"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DC59FDCCE6E5FB7"]
+			description: ["这里的内容并不重要"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "46D916928C2B6DA5"
+			invisible: true
+			size: 2.0d
+			tasks: [{
+				id: "2C450042CB9E9D7F"
+				type: "checkmark"
+			}]
+			title: "你现在是编辑模式"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46D916928C2B6DA5"]
+			description: [
+				"正常情况下其他模组的容器动态结构化的话会出现各种问题，例如物品丢失，但是从现在开始这个问题已经被附属模组解决了"
+				""
+				"经过测试，抽屉，精妙存储的木桶箱子潜影盒等容器均可放置于动态结构上"
+				""
+				"尽管在实体化的时候&b只能访问查看其中物品，无法拿取或放入任何物品，精妙存储与背包的各种与外界互动的升级也不会工作&r，但是物品一切正常"
+				""
+				"实体化时，堆叠升级可能会有一些显示BUG（Jade显示的是正常数量，打开查看时有错误），但&a实际物品一切正常&r，停止实体化后可查看到正常数量的物品情况"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "723F7D317ED3C204"
+			rewards: [{
+				count: 4
+				id: "202B0AEC072042BB"
+				item: "storagedrawers:cherry_full_drawers_4"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "4AE88F4BAD438D8E"
+					item: "sophisticatedbackpacks:backpack"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "48133E19655DEAC3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					title: "Any #storagedrawers:drawers"
+					type: "item"
+				}
+			]
+			title: "其他模组的容器"
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	title: "test"
+}

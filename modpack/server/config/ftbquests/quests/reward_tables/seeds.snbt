@@ -1,0 +1,39 @@
+{
+	id: "08A444082E865508"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 4, item: "thermal:frost_melon_seeds" }
+		{ count: 2, item: "youkaishomecoming:udumbara_seeds" }
+		{ count: 8, item: "minecraft:wheat_seeds" }
+		{ count: 8, item: "minecraft:pumpkin_seeds" }
+		{ count: 8, item: "minecraft:melon_seeds" }
+		{ count: 8, item: "minecraft:beetroot_seeds" }
+		{ count: 8, item: "supplementaries:flax_seeds" }
+		{ count: 8, item: "fruitsdelight:durian_sapling" }
+		{ count: 8, item: "fruitsdelight:lemon_seeds" }
+		{ count: 8, item: "tofucraft:apricotseed" }
+		{ count: 8, item: "tofucraft:seeds_chili" }
+		{ count: 8, item: "thermal:amaranth_seeds" }
+		{ count: 8, item: "thermal:barley_seeds" }
+		{ count: 8, item: "thermal:corn_seeds" }
+		{ count: 8, item: "thermal:flax_seeds" }
+		{ count: 8, item: "thermal:onion_seeds" }
+		{ count: 8, item: "thermal:radish_seeds" }
+		{ count: 8, item: "thermal:rice_seeds" }
+		{ count: 8, item: "thermal:sadiroot_seeds" }
+		{ count: 8, item: "thermal:spinach_seeds" }
+		{ count: 8, item: "thermal:tea_seeds" }
+		{ count: 8, item: "thermal:hops_seeds" }
+		{ count: 8, item: "thermal:tomato_seeds" }
+		{ count: 8, item: "thermal:strawberry_seeds" }
+		{ count: 8, item: "thermal:peanut_seeds" }
+		{ count: 8, item: "thermal:green_bean_seeds" }
+		{ count: 8, item: "thermal:eggplant_seeds" }
+		{ count: 8, item: "thermal:bell_pepper_seeds" }
+		{ count: 8, item: "delightful:cantaloupe_seeds" }
+		{ count: 8, item: "farmersdelight:tomato_seeds" }
+		{ count: 8, item: "farmersdelight:cabbage_seeds" }
+	]
+	title: "Seeds"
+}

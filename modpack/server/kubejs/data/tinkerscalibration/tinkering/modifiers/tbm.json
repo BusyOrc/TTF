@@ -1,0 +1,16 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+        {
+            "type": "tconstruct:attribute",
+            "attribute": "attributeslib:current_hp_damage",
+            "each_level": 0.00985,
+            "operation": "addition",
+            "slots": [
+                "mainhand"
+              ],
+                  "unique": "tconstruct.modifier.tbm"
+          }
+    ],
+    "tooltip_display": "always"
+  }

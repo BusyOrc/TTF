@@ -1,0 +1,85 @@
+{
+	"content": {
+
+		"gardening_rew_stone_shovel": {
+			"type": "item",
+			"content": "touhou_little_maid:garage_kit",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"nbt":"{EntityInfo:{IsYsmModel:0b,MaidTaskDataMaps:{},ModelId:\"touhou_little_maid:komeiji_satori\",id:\"touhou_little_maid:maid\"}}"
+		},
+
+		"gardening_rew_stone_hoe": {
+			"type": "item",
+			"content": "touhou_little_maid:garage_kit",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"nbt":"{EntityInfo:{IsYsmModel:0b,MaidTaskDataMaps:{},ModelId:\"touhou_little_maid:fujiwara_no_mokou\",id:\"touhou_little_maid:maid\"}}"
+		},
+
+
+
+		"gardening_rew_iron_hoe": {
+			"type": "item",
+			"content": "touhou_little_maid:garage_kit",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"nbt":"{EntityInfo:{IsYsmModel:0b,MaidTaskDataMaps:{},ModelId:\"touhou_little_maid:kaku_seiga\",id:\"touhou_little_maid:maid\"}}"
+		},
+
+		"gardening_rew_iron_shovel": {
+			"type": "item",
+			"content": "touhou_little_maid:garage_kit",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"nbt":"{EntityInfo:{IsYsmModel:0b,MaidTaskDataMaps:{},ModelId:\"touhou_little_maid:hakurei_reimu_type_b\",id:\"touhou_little_maid:maid\"}}"
+		},
+
+		"gardening_rew_iron_greatsword": {
+			"type": "item",
+			"content": "touhou_little_maid:garage_kit",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"nbt":"{EntityInfo:{IsYsmModel:0b,MaidTaskDataMaps:{},ModelId:\"touhou_little_maid:kirisame_marisa\",id:\"touhou_little_maid:maid\"}}"
+		},
+
+		"gardening_rew_iron_longsword": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "thermal:rubberwood_sapling",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 1500
+		},
+		"gardening_rew_iron_glaive": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:cocoa_beans",
+			"amount": {
+				"min": 2,
+				"max": 5
+			},
+			"unitWorth": 1500
+		}
+
+	}
+
+
+}

@@ -1,0 +1,963 @@
+{
+	"starter": {
+		"title": "+2最大生命值，+1护甲",
+		"description": "消耗技能点：§a1§r\n§d史蒂夫误入幻想乡，拼尽全力不可战胜。\n",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "x8d0hit3cvhjbho6"
+		}
+	},
+	"health+2": {
+		"title": "+2最大生命值",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"description": "消耗技能点：§a1",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "172tw34zcx9g6pa7"
+		}
+	},
+	"resistance+5%": {
+		"title": "+5%抗性",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"description": "消耗技能点：§a8",
+		"cost": 8,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bq8wpb5hg2u4v0d8"
+		}
+	},
+	"attack_speed+8%": {
+		"title": "+8%攻击速度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"description": "消耗技能点：§a3",
+		"cost": 3,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0opkuky7bteg6vbq"
+		}
+	},
+	"movement_speed+5%": {
+		"title": "+5%移动速度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"description": "消耗技能点：§a3",
+		"cost": 3,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fhyrz81tmk0q0nld"
+		}
+	},
+	"jump+10%": {
+		"title": "+10%跳跃高度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"description": "消耗技能点：§a4",
+		"cost": 4,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "r0o5ucai1dapqt7q"
+		}
+	},
+	"armorpierce+5%": {
+		"title": "+5%盔甲撕裂",
+		"description": "消耗技能点：§a5\n在盔甲穿透前结算，无视百分比护甲",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_axe"
+			}
+		},
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_shred",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lw6kbl9iftzatq88"
+		}
+	},
+	"draw_speed+5%": {
+		"title": "+5%蓄力速度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iceandfire:dragonbone_bow"
+			}
+		},
+		"description": "消耗技能点：§a2",
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "j7c2181suhz271io"
+		}
+	},
+	"melee_res+3%": {
+		"title": "+3%近战抗性",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_helmet"
+			}
+		},
+		"description": "消耗技能点：§a2",
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:cold_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nbc302jm7eedzemq"
+		}
+	},
+	"armor_pierce+2": {
+		"title": "+2盔甲穿透",
+		"description": "消耗技能点：§a4\n在盔甲撕裂之后结算，忽视敌人护甲，最低为0",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "attributeslib:sundering"
+			}
+		},
+		"cost": 4,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "l3k1odt5obbtd35l"
+		}
+	},
+	"arrow_damage+5%": {
+		"title": "+5%弹射物伤害",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"description": "消耗技能点：§a2",
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ktvtv9z5uyadjbmj"
+		}
+	},
+	"knockback_resistance+5%": {
+		"title": "+5%击退抗性",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"description": "消耗技能点：§a3",
+		"cost": 3,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tc6poc2jjorxeekk"
+		}
+	},
+	"fighter": {
+		"title": "取得孙美天留下的残存力量",
+		"description": "消耗技能点：§a5§r\n§4 -70%闪避率§r\n§a+10%暴击率，+3%生命偷取，+5盔甲穿透\n§9史蒂夫，念你平日屠龙有功，这份力量赐予你了",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "wstweaks:blaze_blade"
+			}
+		},
+		"cost": 5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:crit_rate",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": -0.7,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "m5zafyqvn61nbt9f"
+		}
+	},
+	"archer": {
+		"title": "取得永琳留下的残存力量",
+		"description": "消耗技能点：§a4§r\n§4 -30%受治疗量，-30%击退抗性§r\n§a+30%蓄力速度，+10%闪避率，+7盔甲穿透，+30%弹射物伤害\n§9完整的医术能治愈苍生，可惜不完整的力量只会摧残身体",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:neptunium_bow"
+			}
+		},
+		"cost": 4,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": -0.3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 7,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wrkb5lpmklbx5pe2"
+		}
+	},
+	"dodge+5%": {
+		"title": "+5%闪避率",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "touhou_little_maid:nimble_fabric"
+			}
+		},
+		"description": "消耗技能点：§a6",
+		"cost": 6,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "q69tl5uj2gecmmgo"
+		}
+	},
+	"armor+7%": {
+		"title": "+7%护甲",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond_chestplate"
+			}
+		},
+		"description": "消耗技能点：§a3",
+		"cost": 3,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.07,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "awx7pjo7nyp79d6u"
+		}
+	},
+	"armor_toughness+7%": {
+		"title": "+7%盔甲韧性",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "netherite_chestplate"
+			}
+		},
+		"description": "消耗技能点：§a4",
+		"cost": 4,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.07,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ols9og7w6q9vz0db"
+		}
+	},
+	"mana_regen+10%": {
+		"title": "+10%法力回复速率",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:instant_mana"
+			}
+		},
+		"description": "消耗技能点：§a1",
+		"cost": 1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "sujbq5v6rcwk9nvy"
+		}
+	},
+	"mana_regen+20%": {
+		"title": "+20%法力回复速率",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "irons_spellbooks:instant_mana"
+			}
+		},
+		"description": "消耗技能点：§a2",
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0y8j7teeq7y5etcl"
+		}
+	},
+	"spell_power+5%": {
+		"title": "+5%法术强度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:hither_thither_wand"
+			}
+		},
+		"description": "消耗技能点：§a2",
+		"cost": 2,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rgj8mwdjq2ufibt8"
+		}
+	},
+	"healing_received+10%": {
+		"title": "+10%受治疗量",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "minecraft:regeneration"
+			}
+		},
+		"description": "消耗技能点：§a10",
+		"cost": 10,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d9v4vi463dtp0ie0"
+		}
+	},
+	"magic_res+5%": {
+		"title": "+5%魔法抗性",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "cofh_core:magic_resistance"
+			}
+		},
+		"description": "消耗技能点：§a7",
+		"cost": 7,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:magic_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hmjm311kycm1yjsy"
+		}
+	},
+	"max_mana+50": {
+		"title": "+50最大法力值",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:arcane_essence"
+			}
+		},
+		"description": "消耗技能点：§a1",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xf39twvd0fhwv249"
+		}
+	},
+	"+2%lifesteal": {
+		"title": "+2%近战吸血",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "attributeslib:bleeding"
+			}
+		},
+		"description": "消耗技能点：§a4",
+		"cost": 4,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xf39twvd0fhwv249"
+		}
+	},
+	"caster": {
+		"title": "帕秋莉♂GO",
+		"description": "消耗技能点：§a15§r\n和帕秋莉在大图书馆角落里肢体亲密交流以后，§r学会了使用强力魔法：\n§4 -75%攻击伤害，-25%最大生命值，+40%吟唱时间\n§a +150%总法强，+666最大法力值，+35%对法术抗性\n§9即使是哮喘也无法阻止魔法的释放",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "touhou_little_maid:bookshelf"
+			}
+		},
+		"cost": 12,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 666,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.35,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.75,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": -0.4,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bg5g1xtbwrah412c"
+		}
+	},
+	"overheal+5%": {
+		"title": "+5%过量治疗",
+		"description": "消耗技能点：§a10§r\n仅在满血时生效，将近战物理伤害转化为额外生命值（💛）",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "attributeslib:vitality"
+			}
+		},
+		"cost": 10,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hxd9cjygy8c02jkf"
+		}
+	},
+	"soul_sacrifice": {
+		"title": "收集春度",
+		"description": "消耗技能点：§a16§r\n向幽幽子献祭自己，于白玉楼居住一晚后，§r获得亡灵强大的力量：\n§4 常驻效果饥饿5，-60%总法强，-50%闪避率，-20%最大生命值§r，§a +10%生命偷取，+7%过量治疗，+70%暴击伤害，+40%暴击率，-25%受到的总伤害\n§9不知何时能看到西行妖开花",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "youkaishomecoming:purple_butterfly_danmaku"
+			}
+		},
+		"cost": 16,
+		"rewards": [
+			{
+				"type": "pufferfish_unofficial_additions:effect",
+				"data": {
+					"effect": "minecraft:hunger",
+					"amplifier": 4,
+					"type": "GRANT"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.07,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:crit_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:crit_rate",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:damage_reduction",
+					"value": -0.25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": -0.6,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": -0.5,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": -0.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "z89f5r2dmixaxnht"
+		}
+	},
+	"reimu": {
+		"title": "在空中飞行程度的能力",
+		"description": "消耗技能点：§a8\n付给灵梦10万，在小房间里过了两小时后，获得\n§4 +50%受到的总伤害，-60%最大生命值§r，§a +30%闪避率，+35%弹射物速度，+75%总法强，+40%吟唱时间缩减\n§b创造飞行能力已移到匠魂材料上\n§9新手避弹，熟手擦弹，老手中弹",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "youkaishomecoming:reimu_hairband"
+			}
+		},
+		"cost": 8,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:damage_reduction",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "walk_on_powder_snow"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.35,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.75,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.4,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -0.6,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cqd1vg99sucgk8mz"
+		}
+	},
+	"koishi": {
+		"title": "弗洛伊德之梦",
+		"description": "消耗技能点：§a15\n野外偶遇恋恋，在什么都没看见的情况下被强迫进行了运动。获得效果：\n§4 -25%攻击伤害，-60%经验获取，-30%最大生命值§r，§a 获得+90%暴击伤害，+30%暴击率，+50%背后攻击伤害.\n§9无意识中，经验值似乎都溜走了",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "youkaishomecoming:koishi_hat"
+			}
+		},
+		"cost": 15,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:crit_damage",
+					"value": 0.9,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:crit_rate",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": -0.6,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "exmodifier:behind_damage",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": -0.25,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "sontj659nxcjri67"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios9": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:emerald"],
+  "RandomNum":"1",
+  "attrGethers": {
+"attributeslib:experience_gained": {
+      "weight":24,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_total"
+  }
+  }
+}
+}
+

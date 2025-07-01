@@ -1,0 +1,67 @@
+
+[sound]
+	#Friendly mobs in NFF-Girls mods ambient sound frequency is multiplied by this number.
+	#Range: 0.0 ~ 1.0
+	ambientSoundChance = 0.5
+	#If true, friendly Zombie Girls and variants will use HMaG default girl sound.
+	zombiesUseGirlSound = false
+	#If true, friendly Skeleton Girls and variants will use HMaG default girl sound.
+	skeletonsUseGirlSound = false
+	#If true, friendly Ghastly Seekers will use HMaG default girl sound.
+	ghastsUseGirlSound = false
+	#If true, friendly Zombie Girls and variants will not make ambient sound.
+	zombiesNoAmbientSound = true
+	#If true, friendly Skeleton Girls and variants will not make ambient sound.
+	skeletonsNoAmbientSound = true
+	#If true, friendly Ghastly Seekers will not make ambient sound.
+	ghastsNoAmbientSound = true
+
+[combat]
+	#If true, players and owning NFF-Girls mobs can damage each other.
+	enableFriendlyDamage = false
+	#If true, projectiles from friendly mobs in NFF-Girls mods will hurt allies.
+	enableProjectileFriendlyDamage = false
+	#Max (max HP) value increase by level upgrade. Zero = no limit.
+	#Range: 0.0 ~ 1000000.0
+	maxHealthIncreaseByLevel = 0.0
+	#Max ATK value increase by level upgrade. Zero = no limit.
+	#Range: 0.0 ~ 1000000.0
+	maxAtkIncreaseByLevel = 0.0
+	#Max health value increase on each level upgrade.
+	#Range: 0.0 ~ 1000000.0
+	maxHealthIncreasePerLevel = 20.0
+	#ATK health value increase on each level upgrade.
+	#Range: 0.0 ~ 1000000.0
+	atkIncreasePerLevel = 10.0
+
+[interaction]
+	#Allow vanilla conversion if true, i.e. Husk -> Zombie -> Drowned; Skeleton -> Stray.
+	allowVanillaConversion = true
+	#Allow reverting vanilla conversion if true, i.e. Drowned -> Zombie -> Husk; Stray -> Skeleton.
+	allowReverseConversion = true
+	#If true, all friendly Zombie Girls can be converted to Husk Girls with Sponge, no matter if they're converted from Husk Girls.
+	allZombieGirlsCanConvertToHusks = true
+	#If true, all friendly Drowned Girls can be converted to Zombie Girls with Sponge, no matter if they're converted from Zombie Girls.
+	allDrownedGirlsCanConvertToZombies = true
+	#If true, all friendly Stray Girls can be converted to Skeleton Girls with Flint and Steel, no matter if they're converted from Skeleton Girls.
+	allStrayGirlsCanConvertToSkeletons = true
+
+[baubles]
+	#Bauble health recovery effect amount will be scaled with this value.
+	#Range: 0.0 ~ 1000000.0
+	baubleHealthRecoveryScale = 4.0
+	#Bauble armor increase will be scaled with this value.
+	#Range: 0.0 ~ 1000000.0
+	baubleMaxHPScale = 6.0
+	#Bauble ATK increase will be scaled with this value.
+	#Range: 0.0 ~ 1000000.0
+	baubleATKScale = 4.0
+
+[misc]
+	#If true, the hand items of the mobs will be removed by default on getting friendly.
+	removeHandItemsOnFriending = true
+	#If true, the armor of the mobs will be removed by default on getting friendly.
+	removeArmorOnFriending = true
+	#If enabled, the Commanding Wand can be used on a Bell to search mobs. If it causes a server lag, consider disable it.
+	enableCommandingWandMobSearch = true
+

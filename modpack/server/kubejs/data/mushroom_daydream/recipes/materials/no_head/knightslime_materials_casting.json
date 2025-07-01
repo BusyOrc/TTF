@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "mushroom_daydream:no_head",
+    "amount": 90
+  },
+  "temperature": 999,
+  "output": "mushroom_daydream:no_head"
+}

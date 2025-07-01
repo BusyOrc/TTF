@@ -1,0 +1,153 @@
+
+[entity]
+	enableEnderExecutorReduceDamage = true
+	enableEnderExecutorBeamAttack = true
+	lichAttackBabyTurtles = true
+	lichSummonVex = true
+	ogreAttackVillagers = true
+	ogreAttackBabyTurtles = true
+	enableOgreDestroyBlocks = true
+	spiderNestSummonCaveSpider = true
+	enableMeltyMonsterSetFire = true
+	cursedDollBurnsInDaylight = true
+	kashaAttackVillagers = true
+	kashaAttackBabyTurtles = true
+	enableJackFrostFreezesWater = true
+	enableJackFrostRegen = true
+	dullahanBurnsInDaylight = true
+	alrauneAttackVillagers = true
+	enableAlrauneRegen = true
+	redcapAttackVillagers = true
+	redcapAttackBabyTurtles = true
+	enableSlimeGirlRegen = true
+	magicalSlimeSpawnsOnSlimeGirlDeath = true
+	monolithAttackGolems = true
+	monolithAttackVillagers = true
+	monolithAttackIllagers = true
+	#Range: 0.0 ~ 32.0
+	monolithTargetDistance = 12.0
+	#Range: 0.0 ~ 32.0
+	monolithBeamAttackDistance = 15.0
+	#Range: 0.0 ~ 32.0
+	monolithRoarAttackDistance = 3.0
+	#Range: 0.0 ~ 32.0
+	monolithRoarAttackRange = 2.5
+	crimsonSlaughtererAttackAnimals = true
+	crimsonSlaughtererAttackVillagers = true
+	dyssomniaSummonPhantom = true
+	snowCanineAttackBabyTurtles = true
+	savagefangAttackAnimals = true
+	savagefangAttackVillagers = true
+	savagefangAttackIllagers = true
+	savagefangAttackDamagedMobs = true
+	necroticReaperAttackVillagers = true
+	necroticReaperAttackBabyTurtles = true
+	dodomekiBurnsInDaylight = true
+	enableGlaryadRegen = true
+	jiangshiAttackVillagers = true
+	jiangshiAttackBabyTurtles = true
+	giantMummyAttackVillagers = true
+	giantMummyAttackBabyTurtles = true
+	enableGiantMummyDestroyBlocks = true
+
+	[entity.spawn]
+		#Range: 0.0 ~ 1.0
+		bansheeAnotherVariantSpawnChance = 0.25
+		#Range: 0.0 ~ 1.0
+		cursedDollAnotherVariantSpawnChance = 0.25
+		#Range: 0.0 ~ 1.0
+		headlessDullahanSpawnChance = 0.2
+		#Range: 0.0 ~ 1.0
+		jiangshiAnotherVariantSpawnChance = 0.25
+		#Range: 0.0 ~ 1.0
+		pinkHarpySpawnChance = 0.05
+
+		[entity.spawn.replaceChance]
+			#Range: 0.0 ~ 1.0
+			zombieGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			huskGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			drownedGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			skeletonGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			witherSkeletonGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			strayGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			creeperGirlReplaceChance = 1.0
+			#Range: 0.0 ~ 1.0
+			enderExecutorReplaceChance = 1.0
+
+		[entity.spawn.chance]
+			#Range: 0.0 ~ 1.0
+			ghastlySeekerSpawnChance = 0.5
+			#Range: 0.0 ~ 1.0
+			crimsonSlaughtererSpawnChance = 0.7
+			#Range: 0.0 ~ 1.0
+			savagefangSpawnChance = 0.8
+
+		[entity.spawn.height]
+			#Range: -1024 ~ 1024
+			surfaceMobSpawnMinHeight = 48
+			#Range: -1024 ~ 1024
+			koboldSpawnMaxHeight = 48
+			#Range: -1024 ~ 1024
+			lichSpawnMaxHeight = -1
+			#Range: -1024 ~ 1024
+			ogreSpawnMaxHeight = -1
+			#Range: -1024 ~ 1024
+			spiderNestSpawnMaxHeight = -1
+			#Range: -1024 ~ 1024
+			necroticReaperSpawnMaxHeight = 54
+
+[item]
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel0 = 1800
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel1 = 1800
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel2 = 1800
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel3 = 1600
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel4 = 1400
+	#Range: 0 ~ 240000
+	insomuniaFruitCooldownLevel5 = 1200
+
+[enchantment]
+	#Range: 1 ~ 10
+	healthBoostMaxLevel = 5
+	healthBoostIsTreasure = true
+	healthBoostIsTradeable = true
+	healthBoostIsDiscoverable = true
+	#Range: 1 ~ 10
+	waterAspectMaxLevel = 5
+	waterAspectIsTreasure = false
+	waterAspectIsTradeable = true
+	waterAspectIsDiscoverable = true
+	#Range: 1 ~ 10
+	antiAirMaxLevel = 5
+	antiAirIsTreasure = false
+	antiAirIsTradeable = true
+	antiAirIsDiscoverable = true
+
+[potion]
+	enableKoboldPotionBrewingRecipes = true
+	enableHealingIIIPotionBrewingRecipes = true
+	enableHarmingIIIPotionBrewingRecipes = true
+	enableRegenerationIIIPotionBrewingRecipes = true
+	enableOgrePotionBrewingRecipes = true
+	enableVoracityPotionBrewingRecipes = true
+	enableEnderRagePotionBrewingRecipes = true
+	enableCombustionPotionBrewingRecipes = true
+	enableSlownessPotionBrewingRecipes = true
+	enableInvisibilityPotionBrewingRecipes = true
+	enableBlastingBottleBrewingRecipe = true
+	enableLightningBottleBrewingRecipe = true
+
+[world]
+	additionalVillagerTrades = true
+	additionalWandererTrades = true
+

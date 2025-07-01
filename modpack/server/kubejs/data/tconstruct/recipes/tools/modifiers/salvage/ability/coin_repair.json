@@ -1,0 +1,12 @@
+ {
+    "type": "tconstruct:modifier_salvage",
+    "modifier": "tinkerscalibration:coin_repair",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+      {
+        "tag": "tconstruct:modifiable"
+      }
+    ]
+  }

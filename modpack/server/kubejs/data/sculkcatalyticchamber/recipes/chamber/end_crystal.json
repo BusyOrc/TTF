@@ -1,0 +1,31 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "catalysts": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "chances": 0.3,
+  "results": [
+    {
+      "item": "minecraft:end_crystal"
+    }
+  ]
+}

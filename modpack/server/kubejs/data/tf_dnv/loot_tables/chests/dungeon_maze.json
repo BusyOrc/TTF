@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:chests/hedge_maze",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

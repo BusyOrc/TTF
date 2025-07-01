@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "twilightforest:fortification_scepter",
+      "type": "forge:partial_nbt",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "item": "cloudertinker:fortification_scepter_core",
+    "count": 8
+  }
+}

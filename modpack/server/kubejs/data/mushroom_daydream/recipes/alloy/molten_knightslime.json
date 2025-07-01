@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_amethyst_bronze",
+      "amount": 270
+    },
+    {
+      "name": "tconstruct:molten_manyullyn",
+      "amount": 90
+    },
+    {
+      "name": "tconstruct:ender_slime",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_knightslime",
+    "amount": 90
+  },
+  "temperature": 1500
+}

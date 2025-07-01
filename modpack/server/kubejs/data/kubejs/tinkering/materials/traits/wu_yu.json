@@ -1,0 +1,34 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "sakuratinker:mamba"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:magician"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:body_impact"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+          {
+            "level": 1,
+            "name": "sakuratinker:mamba"
+          },
+          {
+            "level": 1,
+            "name": "sakuratinker:hardened_skin"
+          },
+
+          {
+            "level": 1,
+            "name": "sakuratinker:fountain_magic"
+          }
+      ]
+    }
+
+}

@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "block": "thermal:nickel_ore",
+      "weight": 1
+    }
+  ],
+  "max_length": 8,
+  "size_variation": 0.6,
+  "weight": 4
+}

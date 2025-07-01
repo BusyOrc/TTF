@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:drowned",
+    "minecraft:husk",
+    "minecraft:vindicator",
+    "minecraft:zombified_piglin",
+    "minecraft:wither_skeleton",
+    "hmag:zombie_girl",
+    "hmag:husk_girl",
+    "hmag:hornet",
+    "hmag:drowned_girl",
+    "hmag:necrotic_reaper",
+    "hmag:ender_executor",
+    "hmag:imp",
+    "hmag:dullahan",
+    "hmag:cursed_doll",
+    "hmag:alraune",
+    "hmag:snow_canine",
+    "hmag:melty_monster",
+    "hmag:redcap",
+    "hmag:imp"
+  ]
+}

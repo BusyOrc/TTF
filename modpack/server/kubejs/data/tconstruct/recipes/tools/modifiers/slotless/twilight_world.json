@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "twilightforest:canopy_sapling"
+      },
+      {
+        "item": "twilightforest:magic_map_focus"
+      },
+      {
+        "item": "twilightforest:naga_scale"
+      },
+      {
+        "item": "twilightforest:firefly"
+      },
+      {
+        "item": "twilightforest:ironwood_ingot"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:twilight_world",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

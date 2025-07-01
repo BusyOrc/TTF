@@ -1,0 +1,654 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"     a    <-->   ᔑ\n\\\"},
+                {\\\"text\\\":\\\"     b    <-->   ʖ\n\\\"},
+                {\\\"text\\\":\\\"     c    <-->   ᓵ\n\\\"},
+                {\\\"text\\\":\\\"     d    <-->   ↸\n\\\"},
+                {\\\"text\\\":\\\"     e    <-->   ᒷ\n\\\"},
+                {\\\"text\\\":\\\"     f    <-->   ⎓\n\\\"},
+                {\\\"text\\\":\\\"     g    <-->   ⊣\n\\\"},
+                {\\\"text\\\":\\\"     h    <-->   ⍑\n\\\"},
+                {\\\"text\\\":\\\"      i    <-->   ╎\n\\\"},
+                {\\\"text\\\":\\\"     j    <-->   ⋮\n\\\"},
+                {\\\"text\\\":\\\"     k    <-->   ꖌ\n\\\"},
+                {\\\"text\\\":\\\"      l    <-->   ꖎ\n\\\"},
+                {\\\"text\\\":\\\"     m    <-->   ᒲ\n\\\"},
+                {\\\"text\\\":\\\"     n    <-->   リ\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"     o    <-->   𝙹\n\\\"},
+                {\\\"text\\\":\\\"     p    <-->   !¡\n\\\"},
+                {\\\"text\\\":\\\"     q    <-->   ᑑ\n\\\"},
+                {\\\"text\\\":\\\"     r    <-->   ∷\n\\\"},
+                {\\\"text\\\":\\\"     s    <-->   ᓭ\n\\\"},
+                {\\\"text\\\":\\\"     t    <-->   ℸ\n\\\"},
+                {\\\"text\\\":\\\"     u    <-->   ⚍\n\\\"},
+                {\\\"text\\\":\\\"     v    <-->   ⍊\n\\\"},
+                {\\\"text\\\":\\\"     w    <-->   ∴\n\\\"},
+                {\\\"text\\\":\\\"     x    <-->   ̇/\n\\\"},
+                {\\\"text\\\":\\\"     y    <-->   ||\n\\\"},
+                {\\\"text\\\":\\\"     z    <-->   ⨅\\\"}
+              ]\"
+            ],
+            title:Redstone,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "对照表",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§l附魔：全历史\n\\\"},
+                {\\\"text\\\":\\\"§l作者：\\\"},
+                {\\\"text\\\":\\\"§kREDACTED\n\n\\\"},
+                {\\\"text\\\":\\\"附魔是一种魔法行为，用于增强我们的工具、武器和盔甲。\\\"},
+                {\\\"text\\\":\\\"附魔不仅能赋予物品新的功能，\\\"},
+                {\\\"text\\\":\\\"还能将其现有能力提升到一个全新的水平。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"附魔就是在这个要塞中被发现并完善的。 \\\"},
+                {\\\"text\\\":\\\"在附魔台附魔一件物品。\\\"},
+                {\\\"text\\\":\\\"你有越多的知识和经验，物品就可以获得越强力的附魔。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"通过附魔的语言，掌握附魔的魔法。\\\"},
+                {\\\"text\\\":\\\"在大图书馆里就能找到它与普通话之间的直接翻译指南！ \\\"}
+              ]\"
+            ],
+            title:Enchanting,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "附魔：全历史",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§l晶洞和刚玉\n\\\"},
+                {\\\"text\\\":\\\"作者：§kREDACTED\n\\\"},
+                {\\\"text\\\":\\\"晶洞和刚玉是在洞穴中发现的发光的彩色岩石，具有神奇的特性。在这篇文章中，我们将研究它们各自的特性。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§l晶洞\n\\\"},
+                {\\\"text\\\":\\\"晶洞是在地下发现的球形岩石。它们通常有三层。外层由深灰色光滑的玄武岩组成。 \\\"},
+                {\\\"text\\\":\\\"第二层由白色岩石方解石构成。最后一层是紫色宝石：紫水晶。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"紫水晶是一种紫色的发光晶体，能长出紫水晶簇。紫水晶簇在发芽后会逐渐变大。\\\"},
+                {\\\"text\\\":\\\"紫水晶最有趣的特性之一就是它们的声音。当与它们互动时，它们会发出非常令人满意的声音。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"紫水晶还可以用作制作材料。制作成透镜后，可以用来放大物体。 \\\"},
+                {\\\"text\\\":\\\"这种透镜通常用于制作望远镜。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§l刚玉\n\\\"},
+                {\\\"text\\\":\\\"刚玉是洞穴中随处可见的彩色晶体。它们几乎可以是任何颜色。在自然状态下，它们会迅速扩散和生长。\\\"},
+                {\\\"text\\\":\\\"可以通过涂蜡来避免这种情况。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"它们可以和符文合成来为符文染色。而符文可以改变附魔光效的颜色。\\\"}
+              ]\"
+            ],
+            title:Geodes,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "晶洞和刚玉",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§l圣经\n\n\\\"},
+                {\\\"text\\\":\\\"我们有一个目标：\n\\\"},
+                {\\\"text\\\":\\\"通过建筑\n\\\"},
+                {\\\"text\\\":\\\"来为世界\n\\\"},
+                {\\\"text\\\":\\\"注入美丽和活力。\n\\\"},
+                {\\\"text\\\":\\\"我们目前的\n\\\"},
+                {\\\"text\\\":\\\"形态\n\\\"},
+                {\\\"text\\\":\\\"限制了我们实现想象的能力。\n\\\"},
+                {\\\"text\\\":\\\"为了最大程度的开发我们的潜能，\n\\\"},
+                {\\\"text\\\":\\\"我们必须\n\\\"},
+                {\\\"text\\\":\\\"达到\\\"},
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"形态。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"形态是我们进化的下个阶段。\n\n\\\"},
+                {\\\"text\\\":\\\"我们的潜能将被完全激发。 \\\"},
+                {\\\"text\\\":\\\"我们的凡躯将不能束缚我们，我们将可以随心所欲的建造。\\\"},
+                {\\\"text\\\":\\\"§o末地 \\\"},
+                {\\\"text\\\":\\\"将它带给我们的是\\\"},
+                {\\\"text\\\":\\\"§o至高无上者。\\\"},
+                {\\\"text\\\":\\\"她需要我们，需要她的追随者，来实现她的目标。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"有了我们的帮助，\n\n\\\"},
+                {\\\"text\\\":\\\"§o至高无上者\\\"},
+                {\\\"text\\\":\\\"将会熄灭森林的大火...\n\n\\\"},
+                {\\\"text\\\":\\\"她将终结所有的饥荒...\n\n\\\"},
+                {\\\"text\\\":\\\"她将拯救那些生病和贫穷的人...\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"她会阻止\n\\\"},
+                {\\\"text\\\":\\\"§kundead\\\"},
+                {\\\"text\\\":\\\"的崛起...\n\n\\\"},
+                {\\\"text\\\":\\\"她会将我们带到新的高度。\n\n\\\"},
+                {\\\"text\\\":\\\"我们会一同将这个世界变成所有人的避难所，\\\"},
+                {\\\"text\\\":\\\"远离暴力，远离苦难，远离\\\"},
+                {\\\"text\\\":\\\"§kREDACTED\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§n我们知晓这些。\n\n\\\"},
+                {\\\"text\\\":\\\"§o我们已经从天上的石头里预见了这一切。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§o她在等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她用雷鸣般的吼声等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她用神奇的呼吸等待着我们。\n\n\\\"},
+                {\\\"text\\\":\\\"§o她在高空飞翔，等待着我们。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"我们会找到她的。\\\"}
+              ]\"
+            ],
+            title:Scripture,
+            author:Priest,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "龙之圣经",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_purple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_black",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:statue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:eye_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "quark:ancient_tome",
+          "functions": [
+            {
+              "function": "quark:tome_enchant",
+              "levels": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:red_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:orange_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:yellow_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:green_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:blue_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:indigo_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:violet_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:white_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:black_corundum",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:crafting_blueprint",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:painting",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:abacus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "integrated_stronghold:disc_fragment_sight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

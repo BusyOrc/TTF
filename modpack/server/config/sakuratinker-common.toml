@@ -1,0 +1,88 @@
+
+#高频结界配置
+[high_frequency_barrier]
+	#每次受到伤害时增加的伤害减免比例 (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	reductionPerHit = 0.05
+	#最大伤害减免比例 (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	maxReduction = 0.5
+	#多少tick未受攻击后重置层数 (20 ticks = 1秒，0表示不重置)
+	#Range: > 0
+	resetTicks = 100
+
+#万剑归一掉落配置
+[item_drops]
+	#万剑归一的掉落概率 (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	bladeConvergenceDropChance = 0.0
+	#可以掉落万剑归一的生物 (用逗号分隔)，例如: 'minecraft:wither,minecraft:ender_dragon'
+	bladeConvergenceDropMobs = "cataclysm:ignis"
+
+#魂樱刻印配方修改
+[recipe]
+	#大地史莱姆水晶 (default: sakuratinker:slime_crystal_earth)
+	slimeCrystalEarth = "sakuratinker:slime_crystal_earth"
+	#天空史莱姆水晶 (default: sakuratinker:slime_crystal_sky)
+	slimeCrystalSky = "sakuratinker:slime_crystal_sky"
+	#下界史莱姆水晶 (default: sakuratinker:slime_crystal_nether
+	slimeCrystalNether = "sakuratinker:slime_crystal_nether"
+	#金块 (default: minecraft:gold_block)
+	goldBlock = "minecraft:gold_block"
+
+#折磨效果
+[torture]
+	#基础移动多少米触发伤害(1.0 = 1格)
+	#Range: 0.1 ~ 2.147483647E9
+	baseDamageThreshold = 1.0
+	#每等级对阈值的影响系数(0.2 = 每等级减少20%阈值)
+	#Range: 0.0 ~ 1.0
+	damageMultiplier = 0.2
+
+#死神祝福配置
+[reapers_blessing]
+	#最大加成 (百分比, 例如 0.4 是 40%)
+	#Range: 0.0 ~ 1.0
+	maxBonus = 1.0
+	#每百分比的生命加成
+	#Range: 0.0 ~ 0.1
+	bonusPerHealth = 0.01
+
+#虚空珍珠掉落配置
+[void_pearl_drop]
+	#掉落概率 (0.0 - 1.0)
+	#Range: 0.0 ~ 1.0
+	drop_chance = 0.0
+	#可以掉落虚空珍珠的生物 (用逗号分隔)，例如: 'minecraft:wither,minecraft:ender_dragon'
+	drop_mobs = ""
+
+#护符配置
+[charms]
+	#设为true允许装备多件护符
+	allowMultipleCharms = false
+
+#罪孽根源配置
+["Ruination Modifier Config"]
+	#罪孽根源的伤害系数
+	#Range: 0.0 ~ 1.0
+	ruinationDamage = 0.03
+
+#生命之尺
+["Life Ratio Modifier Config"]
+	#生命之尺的增幅系数
+	#Range: 0.0 ~ 1.0
+	lifeRatio = 0.02
+
+["伤害吸收配置"]
+	#每tick恢复的额外生命 (default: 5)
+	#Range: 1 ~ 1000
+	tickInterval = 2
+	#恢复生命的间隔 (default: 0.2)
+	#Range: 0.0 ~ 100.0
+	absorptionPerTick = 0.05
+
+["下克上"]
+	#Multiplier for damage scaling based on health ratio (default: 0.1)
+	#Range: 0.0 ~ 10.0
+	k = 0.05
+

@@ -1,0 +1,11 @@
+{
+    "type": "tconstruct:severing",
+    "entity": {
+      "types":  [
+        "hmag:hornet",
+    "hmag:alraune"
+    ]
+      
+    },
+    "result": "hmag:mysterious_petal"
+  }

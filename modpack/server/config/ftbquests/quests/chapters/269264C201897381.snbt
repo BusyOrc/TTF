@@ -1,0 +1,613 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "269264C201897381"
+	group: ""
+	icon: "touhou_little_maid:smart_slab_init"
+	id: "269264C201897381"
+	images: [
+		{
+			height: 3.0d
+			image: "touhou_tinker_fantasy:textures/ttf.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			alpha: 120
+			height: 4.0d
+			image: "tconstruct:item/tool/armor/slime/helmet_skull_tconstruct_ender_pearl"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.25d
+			y: 6.75d
+		}
+		{
+			click: "#0A828772950AD42E"
+			height: 3.0d
+			image: "cataclysm:block/melting_netherrack_3"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			click: "https://www.mcmod.cn/modpack/version/1070.html?jump=3806"
+			height: 2.0d
+			hover: [
+				"由于版本更新内容众多"
+				"不适合全部放在任务界面"
+				"因此建议前往MC百科查看"
+				"点击可跳转MC百科更新日志"
+			]
+			image: "quark:textures/attribute/luck.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			click: "https://space.bilibili.com/7039204"
+			height: 1.0d
+			hover: ["点击跳转FUMO作者B站主页"]
+			image: "touhou_little_maid:item/change_chair_model"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"放置的营火不会自动点燃，但点燃后可保存重生点，在下界和末地均可使用，优先级比床更高。&a潜行右键&r可以取消，如果对着床潜行右键可以让床的复活点优先级高于营火"
+				""
+				"专门设计了两套独特的技能树系统，按K键打开。目前版本的技能树经验获取来源为击杀敌对生物，会根据敌对生物的生命值和经验值获取倍率提升相应的技能树经验值"
+				""
+				"永恒之门模组的传送门怪物经过大幅改动，强度很高，相应地也增加了每一波的限制时间"
+				""
+				"悬赏板中的任务经过大幅调整，很适合前期快速获取部分资源和武器"
+				""
+				"&6&l烈焰人和岩浆怪的刷怪笼在刷出一定数量敌人后会消失,但烈焰血的产出有更多方法"
+				""
+				"{@pagebreak}"
+				"为驯养革新的部分附魔书增加了车万女仆祭坛的合成方式，如需快捷查看，只需查看书在祭坛中的合成配方即可"
+				""
+				"目前ImprovedMobs的难度系统数值并不高，并且女仆和傀儡装配的几种傀儡&a同样享受难度提升带来的数值提升&r，因此目前仅提供提高难度的选项，如果你是一名MC萌新，&a确实想要降低难度&r（承认自己弟并不算坏事），可以在&b开启作弊&r的情况下，在任务界面右下角打开编辑模式，就能在灵梦的任务里看到仅编辑模式可见的选项。&a难度并非无限上升&r，而是存在上限，并且正常情况下的“实际体感难度”并不高。"
+				""
+				"&c使用carry on搬运未驯服的娘化怪物会导致存档损坏&r，虽然本整合包并未添加carry on，但如果要手动添加，请务必在配置文件中加入限制，并且保管好自动备份的存档"
+				""
+				"{@pagebreak}"
+				"不少怪物都有冠军词条，但是会额外掉落物品，高词条等级的敌人能掉落更好的物品"
+				""
+				"为jewelcraft的饰品添加了额外属性，每一种材料对应的都是固定属性，后续任务中会介绍相应的属性情况"
+				""
+				"村民交易货币从绿宝石改为钱币"
+			]
+			icon: "minecraft:birch_hanging_sign"
+			id: "6DEADF6A1FC87F67"
+			rewards: [{
+				id: "5ACED74C6572EF48"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:smart_slab_init"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "12DCFEC0CDA2AB3B"
+				type: "checkmark"
+			}]
+			title: "重要的改动"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"本整合包可能存在的问题："
+				"教程无法照顾到完全没有科技模组经验的新人;"
+				"部分东方角色OOC;"
+				"不完全符合一设世界观;"
+				"在“教程简洁清晰”和“对话文本详实”之间难以取得平衡;"
+				"敌人和角色之间数值平衡不到位。"
+				"没特殊情况请不要使用指令/Kill 自己 可能会导致假死的情况发生"
+				"（目前版本没有相关反馈，测试也没有问题，应该已经修复，但仍建议少用）"
+				""
+				"在&a开启作弊模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，目前版本暂无配置选项，作者表示下个版本修复。如果需要开启作弊模式又不想失去游玩乐趣，请注意谨慎操作。"
+				""
+				"如果能接受以上问题，可以&a正式开始游戏&r了"
+				""
+				"东方project相关内容解释权归上海爱丽丝幻乐团所有"
+				""
+				"交流群：1040140278"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			id: "2D97609AFEA7E2BE"
+			rewards: [
+				{
+					id: "765FE45A8C457E73"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule artifacts.feralClaws.attackSpeedBonus 15"
+					elevate_perms: true
+					id: "392EB83478C4A466"
+					silent: true
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "6D428C4351DF0682"
+				type: "checkmark"
+			}]
+			title: "游玩须知"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DEADF6A1FC87F67"]
+			description: [
+				""
+				"如果你是一名经常玩整合包的MC老玩家，这个任务&a可以跳过不看&r，跳过剧情≠跳过人生"
+				""
+				"如果你刚刚接触MC整合包，请务必认真看接下来的说明，包括其他任务中的各种说明"
+				"{@pagebreak}"
+				"学会多使用JEI，在物品栏里，默认按键为&aR&r查看所指物品的获得方法（如果没有直接获得方法不会弹出窗口，通常这种物品有特殊的获得方式，在任务中一般会有介绍），按&aU&r可查看物品的用途"
+				""
+				"在物品栏右下角搜索栏中，使用@加模组英文名称可只查询该模组的相关物品，如果不知道物品所属的模组，按f3+h打开详细信息显示可以看到。在搜索单个物品时，可以只使用&a拼音搜索"
+				""
+				"如果不知道是哪个模组的物品，可按F3+H打开详细信息，就能看到物品ID，例如create:gear代表是create模组的，可通过搜索@create找到相关模组的各种物品"
+				"&r常用的模组搜索："
+				"@ae2"
+				"@thermal"
+				"@create"
+				"@alch （即使只输入部分也可以查询）"
+				"@chem"
+				"@iron"
+				"{@pagebreak}"
+				"当你按下连锁按键（预设为~）时可以&a一次性破坏相连的同样方块&r，也可以按下按键后使用下蹲+鼠标🖱滚轮调整模式，如果发现连锁未激活，请持有任意工具再进行连锁。这是正常的配置情况，并非BUG"
+				""
+				"预设模式&a最多破坏一组&r，可以&a透过高亮白色边框来查看&r这次连锁会破坏哪些方块。 "
+				"{@pagebreak}"
+				"任务界面可以按住ctrl+鼠标🖱滚轮缩放，有需要的任务可以点击右上角图钉📌按钮标记，这样就能常态显示，方便查看完成状态"
+				""
+				"大部分任务都有&a前置要求&r，如果要查看的话只需要点击任务界面左上角的箭头"
+				""
+				"下划线的任务文字代表可以&a跳转&r到其他任务，一步到位"
+				""
+				"如果你作为MC纯新人玩家，一直看到了这里，甚至读文字读到游戏中天都已经黑了，允许使用指令"
+				"/time set day 来调整时间，正式开始你的冒险。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "212E662535D00165"
+			size: 2.0d
+			tasks: [{
+				id: "426EDF704A3F6F5C"
+				type: "checkmark"
+			}]
+			title: "为纯新人提供的一点指引"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"首先根据自己的习惯调整键位，视频设置，是否开启光影"
+				""
+				"在安装新版整合包后，除了转移存档，记得也要转移xaero地图相关缓存文件和已经调整好的options文件，config等文件除非确认可以动，否则尽量不要动"
+				""
+				"整合包安装了超分辨率模组，可以提高低配电脑的帧数，但是考虑到有一些显示BUG，默认关闭状态，有需要的可以根据个人情况启用"
+				""
+				"X+C和R+C分别能打开tweakerge和IPN的配置界面，并调整按键，这两个模组的按键无法在系统按键设置里直接调整，需要用前面提到的组合键进到相应的界面"
+			]
+			icon: "irons_spellbooks:nature_rune"
+			id: "71CBF4474398BBA2"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "33BAA0FD78C48E88"
+				type: "checkmark"
+			}]
+			title: "如何根据个人情况调整配置"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DEADF6A1FC87F67"]
+			description: [
+				"部分敌人的刷新条件经过了修改，和原模组的刷新情况有一定区别"
+				""
+				"并且敌人掉落经验值与MC的难度相关，可根据个人情况自行调整游戏难度"
+				"简单：0.4倍经验"
+				"普通：0.7倍经验"
+				"困难：1.5倍经验"
+				""
+				"&a主世界&r："
+				"末影处刑者（末影人的精英变种）仅会在y=16以下生成，其余维度无变化"
+				""
+				"y=32以下的部分敌人有概率以隐身状态出现，隐身敌人血量更少，但是伤害更高"
+				""
+				"&b要塞&r生成的敌人&c更加危险&r，并且有更高概率出现精英敌人"
+				"{@pagebreak}"
+				"&c下界&r："
+				"部分敌人同样有小概率以隐身状态出现，注意，部分敌人可能会比较危险"
+				""
+				"修改了部分下界要塞的战利品，相比正常情况奖励更好"
+				"&7末地&r："
+				"目前无特别改动"
+				""
+				"&2暮色森林&r："
+				"增加了妖精女仆的生成"
+				"{@pagebreak}"
+				" \"如何应对隐身敌人："
+				"使用部分&a让敌人发光&r的手段（比如光灵箭）"
+				""
+				"火眼金睛，&a肉眼反隐"
+				""
+				"&r或者使用"
+				"{ \"text\": \"扫描器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CDAA330D9FB0ECC\" } }"
+				"（点击跳转）"
+			]
+			icon: "touhou_little_maid:fairy_spawn_egg"
+			id: "0A828772950AD42E"
+			size: 2.0d
+			tasks: [{
+				id: "5A576E8C651C0B74"
+				type: "checkmark"
+			}]
+			title: "修改过的敌人刷新情况"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"默认按M打开xaero世界地图以后，周围一定范围内的区块右键即可&b认领&r，认领后继续右键并选择相应选项，可&a强加载区块"
+				"&r"
+				"未加载区块的机器都不会正常工作，即使你只是想远程拿取家中物品，不做任何科技，也需要强加载区块"
+				""
+				"如果要认领或强加载大范围内的区块，只需要&a按住鼠标🖱右键&r并拖动，就能&l一次性认领大量区块"
+				"&r"
+				"认领后的区块上通常情况下敌人无法破坏方块，能有效保护家中的安全"
+				""
+				"多人游玩推荐在FTB队伍中组队，共享任务进度"
+			]
+			icon: "minecraft:map"
+			id: "7D354A0C59AA783E"
+			size: 1.5d
+			tasks: [{
+				id: "7AE25C0E83635E21"
+				type: "checkmark"
+			}]
+			title: "领地认领与强加载"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"别急。你仔细看看相关任务，是不是左上角跟右上角有着俩个小三角形。"
+				""
+				"那便是&a前置与附属&r。"
+				""
+				"点击左上角的小三角形可以查看该任务的前置任务，在该&a任务的前置任务完成之前你是没法完成该任务的&r。"
+				"&o&7就算是只要按一下标记就可以完成的任务也不行。"
+				""
+				"至于右上角的小三角形则是该任务的附属，也就是可以查看那些任务需要先完成这个任务才能解锁。"
+				""
+				"{ \"text\": \"就像是这个任务想要完成需要你先完成“游玩须知”这个任务一样\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D97609AFEA7E2BE\" } }"
+			]
+			icon: "ftbquests:book"
+			id: "09E653DE1F02F179"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "“为什么开不了啊？是不是卡bug了啊？”"
+			tasks: [{
+				id: "3BD53DDA6CC4D003"
+				title: "前面的区域，以后再来探索吧!"
+				type: "checkmark"
+			}]
+			title: "“关于为什么我的任务都是灰色的”"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"曾经有一位Minecraft玩家非常喜欢当时的&aMC科技模组&r（大概率有IC2等模组，至于格雷科技，GTNH之类的暂不清楚）并且希望加入游戏的制作组来做出贡献，但是被拒绝了"
+				""
+				"于是这名玩家自己做了一个工厂流水线游戏——&b异星工厂&r（Factorio），并且这款游戏的风格也影响了后来的一部分MC科技模组，例如&b机械动力&r。事实上，异星工厂的基本玩法就是利用传送带将物品送到不同地方，然后让机械臂将物品送入各种机器内生产，产线层层递进，是不是觉得很熟悉？"
+				""
+				"这款叫异星工厂的游戏深受另一位游戏制作人的喜爱，并且这位游戏制作人亲自表示，这是&a三大最爱游戏之一&r，通常，这位游戏制作人被称为&lZun"
+				"&r"
+				"在这款整合包里，同样包含了许多科技模组的要素，并且部分配方的魔改设计也参考了异星工厂的一些模组。也许Zun在创作东方正作的闲暇时光里玩星际拓荒，死亡细胞和异星工厂时，在异星工厂中也遇到过和整合包里的一些设计思路类似的产线。"
+				""
+				"完全不同风格的游戏，就这样以一种奇妙的方式联系到了一起。"
+			]
+			icon: "ae2:spatial_anchor"
+			id: "274655AA3D90DD2B"
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "4258D395682E2F53"
+				type: "checkmark"
+			}]
+			title: "小知识"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"目前版本经过测试，难度完全在可控范围内，即使不点技能树，通过合理搭配匠魂装备和强化也能有良好战斗体验。"
+				""
+				"技能树分为2类，第一套技能树需要通过击败敌人获取经验，获取的技能树经验值取决于敌人的最大血量和击杀后应掉落的经验值"
+				""
+				"第二套技能树需要收获农作物，或者挖掘矿物，钓鱼来获取经验，经验量取决于收获得到的农作物和种子的量，使用合适的工具收获可&a获得双倍经验值&r。"
+				"挖掘矿物的经验和挖掘得到的矿物无关，每个矿物方块为固定经验，钓鱼如果获得特殊的宝藏箱，会有大量的额外技能树经验。耕种的注意事项："
+				"右键即可收获，使用&b锄头，短刃镰，镰刀&r（后两者均为匠魂工具）收获则获得更多经验。"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "79685AF854059702"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2B2B7755C6EEF7A1"
+				type: "checkmark"
+			}]
+			title: "技能树"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79685AF854059702"]
+			description: ["[ \"如果不知道如何制作匠魂工具可点击这里：\", { \"text\": \"小伞\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"105612AA0735B07A\" } } ]"]
+			icon: {
+				Count: 1
+				id: "tconstruct:kama"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "e9f64ad4-58b4-480a-9073-13a59be982bb"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bone"
+						"tconstruct:bone"
+						"tconstruct:bone"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "tconstruct:tilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:shears"
+						}
+						{
+							level: 1
+							name: "tconstruct:harvest"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 6.6600003f
+						"tconstruct:attack_speed": 1.7600001f
+						"tconstruct:durability": 75.0f
+						"tconstruct:harvest_tier": "minecraft:stone"
+						"tconstruct:mining_speed": 2.5f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "394452277FC26DCC"
+			tasks: [{
+				id: "50B2C9AFE441391F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:hoes"
+					}
+				}
+				title: "任意锄，短刃镰，镰刀"
+				type: "item"
+			}]
+			title: "合适的收获工具"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"武器分为单手和双手，其中单手武器副手可搭配盾牌或另一把单手武器，双手武器则无法搭配副手攻击。"
+				""
+				"盾牌在非防御状态下默认隐藏，并且即使未防御也可提供一定比例的减伤"
+				""
+				"通过技能树或特定匠魂材料可获得近战吸血效果和过量治疗，后者较为特殊，搭配吸血的情况下可在满血情况下提供额外生命值（饮血剑同款）"
+				""
+				"如果需要远程输出，可使用匠魂的弓，弩，吹箭筒等工具，或者使用魔法发射远程法术。远程攻击无法享受到吸血，但能安全输出。遇见反射词条的敌人时记得多用远程。"
+				""
+				"战斗不一定要自己动手：制作的傀儡会根据难度提升血量等各种属性（仅限制作完成时），同时车万女仆也能起到一定的战斗能力，部分特殊掉落物还需要用车万女仆击杀特定敌人才能获取，具体见后续任务说明。"
+				"{@pagebreak}"
+				"暴击率：普攻造成暴击伤害的概率"
+				""
+				"暴击伤害：暴击时额外附加的百分比伤害，对武器自带的各种附加伤害无效"
+				""
+				"攻击倍率：每把武器都有不同的攻击动作，每种动作的攻击倍率都可能有所差别"
+				""
+				"例如，重锤有4段攻击动作，最后一段的倍率非常高。倍率可以和暴击伤害乘法叠加，和附加伤害无关联。附加伤害不会受到暴击和倍率的影响，但是好处是虚弱效果也不会影响附加伤害"
+				""
+				"另外，不同武器的攻击范围也不同，可通过F3+B打开碰撞箱查看"
+				""
+				"闪避率：最高为&a50%&r，≤0时不会有任何正面或负面效果，只有实际＞0时才有效"
+			]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:knife"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "106d50c2-1d2b-48c1-bcdd-07702df77746"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:copper"
+						"tconstruct:copper"
+						"tconstruct:copper"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:antiaquatic"
+						}
+						{
+							level: 3
+							name: "tconstruct:dwarven"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 3.36f
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:durability": 134.40001f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 6.6000004f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "15F98B980CB39635"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6EED5EDE9DC58ABF"
+				type: "checkmark"
+			}]
+			title: "战斗介绍"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"你在这个世界会看到一些野生的fumo，包括&4下界&f和&a主世界&f。这些fumo的原作者是B站：大猫凌霜"
+				"{@pagebreak}"
+				"O.o什么？你想把这些野生的fumo带回家？也可以，这边推荐使用ae的空间塔呢ovo"
+			]
+			icon: "touhou_little_maid:maid_spawn_egg"
+			id: "464E4F2D394635BC"
+			shape: "heart"
+			tasks: [{
+				id: "7B4DF509B3B3384D"
+				title: "野生的fumo"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A828772950AD42E"]
+			description: ["除此之外，不少远程敌人有概率使用匠魂的远程工具（击败后小概率会掉落），相比正常情况威胁要大得多。在防御不足的情况下很容易被一套秒掉。如果自身防护不够，可考虑使用盾牌度过前期。"]
+			icon: {
+				Count: 1
+				id: "tconstruct:longbow"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "68f562e9-498b-4a95-8665-613bbddc7fab"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+						"tconstruct:bamboo"
+						"tconstruct:string"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 1
+							name: "tconstruct:stringy"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.7f
+						"tconstruct:attack_damage": 0.75f
+						"tconstruct:draw_speed": 1.2f
+						"tconstruct:durability": 370.5f
+						"tconstruct:use_item_speed": 0.5f
+						"tconstruct:velocity": 0.9f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "3047E99791972E49"
+			tasks: [{
+				id: "25C799C36C66E76E"
+				type: "checkmark"
+			}]
+			title: "弹射保护最有用的一集"
+			x: -2.25d
+			y: 6.5d
+		}
+		{
+			description: ["部分玩家在游玩过程中遇到了“只要骑乘龙等实体就会闪退”的问题，具体原因待排查。但目前版本如果遇到类似问题，可以不用刻意去寻找龙蛋+养龙以制作龙锭，因为已经添加了不需要龙就能生产龙锭的配方"]
+			icon: "iceandfire:dragonegg_red"
+			id: "0C6DFF00454B7779"
+			size: 2.0d
+			tasks: [{
+				id: "37BFB022AD04DC0B"
+				type: "checkmark"
+			}]
+			title: "当前版本关于龙的说明"
+			x: -6.5d
+			y: 5.5d
+		}
+	]
+	title: "整合包介绍"
+}

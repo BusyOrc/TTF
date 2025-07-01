@@ -1,0 +1,62 @@
+
+{
+	"content": {
+
+        "fletcher_rew_arrow": {
+            "type": "item",
+            "content": "minecraft:arrow",
+            "amount": {
+                "min": 8,
+                "max": 48
+            },
+            "unitWorth": 60
+        },
+
+        "fletcher_rew_bow": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "create:railway_casing",
+            "amount": {
+                "min": 2,
+                "max": 5
+            },
+            "unitWorth": 1200
+        },
+
+        "fletcher_rew_crossbow": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "create:brass_tunnel",
+            "amount": {
+                "min": 2,
+                "max": 3
+            },
+            "unitWorth": 1500
+        },
+
+
+        "fletcher_rew_ench_book_flame": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:spore_blossom",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1100
+        },
+
+        "fletcher_rew_tipped_arrow_heals": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "simplehats:rabbitonhead",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1800
+        }
+
+    }
+
+}

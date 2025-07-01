@@ -1,0 +1,56 @@
+{
+	icon: "minecraft:salmon"
+	id: "33FECA9E5E37FCF5"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 32, item: "miners_delight:squid" }
+		{ count: 32, item: "aquaculture:atlantic_cod" }
+		{ count: 32, item: "aquaculture:pacific_halibut" }
+		{ count: 32, item: "aquaculture:atlantic_halibut" }
+		{ count: 32, item: "aquaculture:capitaine" }
+		{ count: 32, item: "aquaculture:catfish" }
+		{ count: 32, item: "aquaculture:arapaima" }
+		{ count: 32, item: "aquaculture:tuna" }
+		{ count: 32, item: "minecraft:cod" }
+		{ count: 32, item: "minecraft:salmon" }
+		{ count: 32, item: "aquaculture:blackfish" }
+		{ count: 32, item: "aquaculture:pink_salmon" }
+		{ count: 32, item: "aquaculture:pollock" }
+		{ count: 32, item: "aquaculture:rainbow_trout" }
+		{ count: 32, item: "aquaculture:bayad" }
+		{ count: 32, item: "aquaculture:smallmouth_bass" }
+		{ count: 32, item: "aquaculture:brown_trout" }
+		{ count: 32, item: "aquaculture:carp" }
+		{ count: 32, item: "aquaculture:gar" }
+		{ count: 32, item: "aquaculture:muskellunge" }
+		{ count: 32, item: "aquaculture:tambaqui" }
+		{ count: 32, item: "aquaculture:red_grouper" }
+		{ count: 32, item: "alexscaves:tripodfish" }
+		{ count: 32, item: "minecraft:tropical_fish" }
+		{ count: 32, item: "minecraft:pufferfish" }
+		{ count: 32, item: "aquaculture:atlantic_herring" }
+		{ count: 32, item: "aquaculture:boulti" }
+		{ count: 32, item: "quark:crab_leg" }
+		{ count: 32, item: "alexscaves:sea_pig" }
+		{ count: 32, item: "alexscaves:lanternfish" }
+		{ count: 32, item: "aquaculture:red_shrooma" }
+		{ count: 32, item: "aquaculture:brown_shrooma" }
+		{ count: 32, item: "aquaculture:piranha" }
+		{ count: 32, item: "aquaculture:perch" }
+		{ count: 32, item: "aquaculture:bluegill" }
+		{ count: 32, item: "aquaculture:synodontis" }
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "aquaculture:minnow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "youkaishomecoming:raw_lamprey" }
+	]
+	title: "Seafood"
+}

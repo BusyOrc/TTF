@@ -1,0 +1,2651 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F56FE792813B6D1"
+	group: "4293891DF89E3E58"
+	icon: "touhou_little_maid:broom"
+	id: "6F56FE792813B6D1"
+	images: [
+		{
+			height: 8.5d
+			image: "touhou_tinker_fantasy:textures/marisa11.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: -5.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: ["魔理沙：众所周知，我平时比较喜欢到各种地方“借”东西，在借的过程中也顺便学到了不少东西，比如说怎么快速逃离红魔馆之类的，所以如果遇到什么战斗方面的问题可以来找我"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "touhou_little_maid:broom"
+			id: "601095BFB131F14E"
+			progression_mode: "linear"
+			rewards: [{
+				id: "15AB91DF55FE6ACA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "128147AD301BE2FE"
+				type: "checkmark"
+			}]
+			title: "1 偶遇魔理沙"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: ["魔理沙：&b妖精冰晶&r是前期就能获得的好东西。在妖精化状态下可以和琪露诺交易来获取，或者也许还有另外的配方？而琪露诺的小屋通常在寒冷群系"]
+			icon: "youkaishomecoming:fairy_ice_crystal"
+			id: "78D254568DE41DBD"
+			rewards: [{
+				count: 4
+				id: "1CC0968941928B11"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "529289340F21CDA0"
+					item: "youkaishomecoming:fairy_ice_crystal"
+					type: "item"
+				}
+				{
+					id: "1316767961782DDF"
+					item: "youkaishomecoming:fairy_candy"
+					type: "item"
+				}
+			]
+			title: "2 推荐材料"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: ["魔理沙：别担心，三十六计走为上计，总还是有办法的DA⭐ZE。其次，多去了解一下小伞的锻造技术，有本书叫工匠大百科，如果你有的话可一定要多看看，里面收录了各种材料的数据，如果确实没什么办法，我这里有个宝物，能保证家周围的安全，姑且拿去吧"]
+			icon: "torchmaster:megatorch"
+			id: "4E0B5BA233E990EF"
+			rewards: [{
+				id: "69C4B3E10964AD26"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01EDF667E75B748A"
+				type: "checkmark"
+			}]
+			title: "3 如何应对强敌"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: [
+				"魔理沙：如果有女仆的话……"
+				""
+				"简而言之，女仆几乎是万能的，"
+				""
+				" &a                       车万女仆&r"
+				"&b左顾右盼把怪打，战斗守家钓鱼忙"
+				"&b种地做饭都能干，上天下海样样行"
+				""
+				"家中女仆忙"
+				"整天未见耕地闲"
+				"主人在养生&r"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "5E5F1E52CE1188C2"
+			tasks: [{
+				id: "5567BD4626B43819"
+				type: "checkmark"
+			}]
+			title: "4 女仆"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E5F1E52CE1188C2"]
+			description: ["魔理沙：别误会，这个项圈可是能附魔的，可以给女仆戴上，这样不光能兼顾生产，战斗方面也不会落下。部分附魔书还可以通过女仆祭坛直接制造。"]
+			id: "47DC58500D8B3CCA"
+			rewards: [{
+				id: "0EABF2EEDDF01CEE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1623AC7D9A247816"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "5 项圈"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47DC58500D8B3CCA"]
+			description: [
+				"魔理沙：如果有多个女仆需要携带，可以考虑使用文文相机，这可是我借来的，而且我问过了，她说她没意见"
+				""
+				"除了随身携带女仆，还能用照片来制作手办"
+				""
+				"至于具体的制作方法嘛，这就需要&a思索&r一下了"
+			]
+			id: "7DA7099306373209"
+			rewards: [{
+				id: "5D5EFEF35ABE3C8A"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED20CBBE7DB82E5"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:camera"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "6 文文新闻"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47DC58500D8B3CCA"]
+			description: [
+				"魔理沙：你猜我平时去找帕秋莉借书是怎么通过红魔馆大门的？"
+				""
+				"缺点是，如果你需要用的话，要带一个女仆才能飞行，毕竟我本来就会飞嘛，扫帚只是为了装装样子，这样才像个魔法使的样子"
+			]
+			id: "20B37571D04E75B9"
+			rewards: [{
+				id: "6A241081DD2C208C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5E314AD8CB03425F"
+				item: "touhou_little_maid:broom"
+				type: "item"
+			}]
+			title: "7 扫帚DA⭐ZE"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47DC58500D8B3CCA"]
+			description: [
+				"魔理沙：使用螺旋桨+任意木板就能制作了，还可以额外添加各种部件，需要添加一种引擎才能启动，虽然是现代化的东西，但是个人感觉不一定有扫帚飞行好用。最重要的是，千万注意不要&c坠机&r了。"
+				""
+				"另外，直升机需要两个螺旋桨，而货运飞机需要4个"
+			]
+			id: "34C6B71570B59FF6"
+			rewards: [{
+				count: 4
+				id: "40AF36EB5A01C3C6"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "137515525A326804"
+				item: "simpleplanes:plane_workbench"
+				type: "item"
+			}]
+			title: "8 飞机"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: [
+				"魔理沙：这些饰品残留的魔力似乎已经消退了大半，属性难以辨认，但是根据魔法使的直觉，每种材料所对应的&a额外属性增益&r应该是这样的情况："
+				""
+				"紫水晶：12%魔抗"
+				"钻石：20%暴击伤害"
+				"绿宝石：20%额外经验获取"
+				"青金石：20%施法时间缩减"
+				"黑玛瑙：3点护甲"
+				"奥术：12%法强"
+				"石英：15%移动速度"
+				"红石：20%攻速"
+				"玫瑰石英：10%暴击率"
+				""
+				"这些属性是固定的，但是还存在一些随机词条属性的情况，即匠魂工具，可与小伞交流了解情况"
+			]
+			icon: "jewelcraft:golden_amulet_amethyst"
+			id: "608DBBC2C37CCE7A"
+			rewards: [{
+				id: "0054A1B5440E0183"
+				item: "jewelcraft:copper_ring_lapis"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47F9A2EB05FFF494"
+				type: "checkmark"
+			}]
+			title: "9 饰品"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: ["魔理沙：虽然短时间内可能用不上，但是需要大量矿物资源的时候找找矿脉准没错。如果要用的话，建议你先去完成&a河童的教学&r再来"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "511F0C51DA0FE7C2"
+			rewards: [{
+				id: "5C67FF0CFDE4F920"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E18B000A90AB3AC"
+				item: {
+					Count: 1
+					id: "createoreexcavation:vein_finder"
+					tag: {
+						isFiltered: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "10 探矿杖"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["511F0C51DA0FE7C2"]
+			description: [
+				"根据不同的矿脉情况，选择两种钻井，并且记得&a安装合适的钻头&r，否则无法工作"
+				""
+				"钻井只需要放在矿脉所在区块内，通入需要的流体，应力即可开始工作，各种物流方式均可输出物品"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "7CA0EAD7C05544A3"
+			rewards: [{
+				count: 2
+				id: "4B524CE2131441B3"
+				item: "fruitsdelight:lychee_chicken"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FA60A23002C2151"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "0C5BF3882E0D1DEF"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+			]
+			title: "11 钻井"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E5F1E52CE1188C2"]
+			description: ["此任务只是为了方便查看合成配方"]
+			id: "4467137F2E6104CC"
+			tasks: [{
+				id: "7515F2BDDC7B2622"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:entity_placeholder"
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_box"
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CA0EAD7C05544A3"]
+			description: ["“关于矿脉，除了主世界和下界的常见矿脉以外，&a海洋群系&r可能会有酸液池，而&a暮色森林&r中还有魔力聚集地，可大量产出很多珍贵矿物。”"]
+			icon: "createoreexcavation:diamond_drill"
+			id: "1BF4EB6A99DA5EF6"
+			rewards: [{
+				count: 32
+				id: "179F66803FB1A349"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19833CCD46C72A41"
+				title: "12 矿脉"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E0B5BA233E990EF"]
+			description: ["魔理沙：“我听说，如果让&a女仆击杀监守者&r的话有特殊的掉落物。但是恐怕需要做好充足准备，例如给项圈打上足够好的附魔，给女仆穿上高质量匠魂盔甲和拿上武器.”"]
+			icon: "minecraft:sculk_sensor"
+			id: "35E6B0484D3EF7B8"
+			rewards: [{
+				id: "3BBD2589078F3E3D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4BA53880A866EED9"
+				type: "checkmark"
+			}]
+			title: "13 都市传说"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47DC58500D8B3CCA"]
+			description: ["P点和神龛可以手动合成，后者放入胶片以后可消耗血量复活女仆"]
+			icon: "touhou_little_maid:power_point"
+			id: "21BEDC92249BD7E7"
+			rewards: [{
+				count: 2
+				id: "72B9310C430F25F9"
+				item: "tconstruct:magma_bottle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "10CDA9AFDAEE29DC"
+					item: "touhou_little_maid:power_point"
+					type: "item"
+				}
+				{
+					id: "4E950BEFE11C9FBB"
+					item: "touhou_little_maid:shrine"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["511F0C51DA0FE7C2"]
+			description: ["“如果说认为主世界很危险的话，为何不去暮色森林里寻找宝物呢？听说部分地区的地底埋藏着大量矿物，而且很容易获取。还能找到矿脉&a魔力聚集地&r，使用机械动力设备即可挖掘。”"]
+			id: "47564D5FF0B41FA8"
+			rewards: [{
+				id: "5678B759C0339628"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2B43A0B2DC386E46"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E5F1E52CE1188C2"]
+			description: ["“俗话说，饱暖思建筑，解决了基本问题就想着搞建筑和养老，那我推荐你试试这款98新的家具套装，只需要供应&a电力和相应材料&r就能自动制作出需要的家具，需要使用&a专属发电机&r供电，燃料输入可以用物流方式自动化。”"]
+			icon: "refurbished_furniture:wrench"
+			id: "7DAADCD3685D6CA0"
+			rewards: [
+				{
+					count: 16
+					id: "208318DDDB73EB00"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "1E5C5DFC57249737"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "0B1E250EE1A4E562"
+					item: "refurbished_furniture:wrench"
+					type: "item"
+				}
+				{
+					id: "64A28A69CE91CB5F"
+					item: "refurbished_furniture:workbench"
+					type: "item"
+				}
+				{
+					id: "125458D5929A282C"
+					item: "refurbished_furniture:light_electricity_generator"
+					type: "item"
+				}
+			]
+			title: "14 家具"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E0B5BA233E990EF"]
+			description: [
+				"点燃营火后自动设置复活点，但是，电脑里有一个重生点可以取消的整合包，只需要&a潜行右键&r即可"
+				""
+				"默认点燃营火以后的复活点优先级是高于床的，因此如果不需要的话，请务必潜行右键取消掉"
+			]
+			id: "73A3F96C3E34BEA0"
+			rewards: [{
+				id: "16D09B08F13F7CB6"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "105ED982E2BEBB08"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "可以取消的复活点"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34C6B71570B59FF6"]
+			description: [
+				"除了使用熔炉引擎/流体引擎给飞机提供动力，还可以使用&a电力引擎&r，可以搭配充电站提前充电或太阳能板充电"
+				""
+				"扳手可以&b右键飞机来调整装配的物品&r"
+			]
+			icon: "simpleplanes:charging_station"
+			id: "3AF32740BA4AA0E6"
+			rewards: [
+				{
+					id: "282808F8EFA34C4B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "1ECCA79185A23029"
+					item: "sophisticatedbackpacks:battery_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "36ED0AB2FDE737E3"
+					item: "simpleplanes:charging_station"
+					type: "item"
+				}
+				{
+					id: "3AF042A2EDB23C96"
+					item: "simpleplanes:electric_engine"
+					type: "item"
+				}
+				{
+					id: "1A0934ECD63EB10E"
+					item: "simpleplanes:solar_panel"
+					type: "item"
+				}
+				{
+					id: "5C3F5DB3BF680E03"
+					item: "simpleplanes:wrench"
+					type: "item"
+				}
+			]
+			title: "电力引擎"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35E6B0484D3EF7B8"]
+			description: ["“似乎在地下有时候能发现洞穴探索者过去居住的小屋，里面有洞穴勘探台等物品。每一种洞穴都能通过手稿研究解锁相应的介绍。如果要主动寻找洞穴的话，我建议你先寻找一下&a毒化洞穴或者糖果洞穴&r，前者能在其中获得许多有用的东西，后者则有大量的食物可以获取”"]
+			icon: "alexscaves:spelunkery_table"
+			id: "60956B907D05ACF7"
+			rewards: [{
+				count: 3
+				id: "1BCEF9B2A5D21DDA"
+				item: "quark:sugar_cane_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A946A303B83129F"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+				{
+					id: "2CF92663DE901991"
+					item: "alexscaves:cave_book"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "15 洞穴寓言"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35E6B0484D3EF7B8"]
+			description: [
+				"“据说在部分水域群系的可疑沙子中可以用刷子获得&a嗅探兽蛋&r。嗅探兽蛋放在地上等待一段时间即可自然孵化，孵化后为幼年状态，成年嗅探兽在所有&b森林相关群系&r有概率挖出&a姬海棠果&r种子，似乎种子结出来的果实与金锭，羽毛和苔藓泥合成的&b金姬海棠果&r是&a非常优秀的匠魂材料&r。”"
+				"{@pagebreak}"
+				"补充：&a所有包含森林标签&r的群系里嗅探兽均可挖掘出姬海棠果种子。具体的群系名称太多，这里空白太小写不下，省流：&b主世界里长了树的群系&r。"
+			]
+			icon: "minecraft:sniffer_egg"
+			id: "3933E02335457909"
+			rewards: [{
+				id: "38542E55E1EB0721"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "1250A0017C86F671"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "1D8F57BF92BAE6F0"
+					item: "immortalers_delight:golden_himekaido"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E6B0484D3EF7B8"]
+			description: [
+				"想要灵梦的蝴蝶结的话，目前我知道整整三种获取方法"
+				""
+				"1.击败灵梦固定掉落"
+				"2.喂食灵梦95种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
+				"3.在某个特定结构内的&a神秘隐藏地点&r的箱子里固定会有一个，听说这个结构&b很复杂&r，还包含了&b通往另一个维度的传送门&r"
+				""
+				"哦对了，别给灵梦吃一些&4诡异的肉&f做出的料理，不然她可是会生气的！"
+			]
+			id: "5F0BB36E884917E2"
+			rewards: [{
+				id: "65F77D31E19E28A5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3717CF83359929E2"
+				type: "checkmark"
+			}]
+			title: "灵梦的大蝴蝶结"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["35E6B0484D3EF7B8"]
+			description: [
+				"我去&m偷&r借东西的时候最喜欢用的小道具，尤其是安装各种&a升级模块&r以后非常好用，能探查周围敌人，方块的情况。安装不同的模块有不同的效果，还可以安装范围升级来提高扫描范围"
+				""
+				" 海晶锭需要在感应炉里制作，如果不知道感应炉是什么的话，我给你指条路："
+				"{ \"text\": \"感应炉\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"609C738A0F0B222C\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "scannable:scanner"
+				tag: {
+					energy: 0
+				}
+			}
+			id: "1CDAA330D9FB0ECC"
+			rewards: [{
+				id: "0BD2586F3F5848CC"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "23C9F69CB24DC84E"
+					item: {
+						Count: 1
+						id: "scannable:scanner"
+						tag: {
+							energy: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "6CF0E757CA20F96C"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: ["魔理沙：&b要塞和末地&r是很&c危险的区域&r，未深入匠魂材料领域之前，不得踏入要塞与末地传送门"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:end_portal_frame"
+			id: "4DBD25FA36DC4C19"
+			rewards: [{
+				id: "09A7C0E954CDA719"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2135153F07622DA9"
+				type: "checkmark"
+			}]
+			title: "危险区域"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F0BB36E884917E2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"魔理沙：“如果你很好奇灵梦喜欢吃什么的话，问我可就对了！"
+				"但是灵梦喜欢的食物可多了，一时之间可能说不完，你等等啊，我给你一个名单！"
+			]
+			hide_until_deps_complete: false
+			icon: "youkaishomecoming:onigili"
+			id: "2397E7707E755DB6"
+			rewards: [{
+				id: "5E86E2E51C295DDE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "每次喂食灵梦都需要等灵梦消化"
+			tasks: [{
+				id: "3EB4FD6228D49BC2"
+				title: "关于88种食物"
+				type: "checkmark"
+			}]
+			title: "【IOSYS】灵梦的95种喂食胜负！（bushi"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：这可能是灵梦最常品尝到的饮料了 嗯？为什么？"
+				"&a那当然是因为灵梦没钱买酒啦！"
+			]
+			hide_dependency_lines: true
+			id: "4BE56AEE0E51C7ED"
+			rewards: [{
+				id: "6463EFF91EA55C57"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4FEBC9AD26B17D2A"
+				item: "youkaishomecoming:green_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "283C6B43578C7C16"
+			rewards: [{
+				id: "609B69C165CC0EC3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "12205E341D8003D2"
+				item: "youkaishomecoming:genmai_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "612A0C86AF439B86"
+			rewards: [{
+				id: "44B7A613224087AC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "33DFD439B9C6974D"
+				item: "youkaishomecoming:green_water"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：这大概是幽幽子平常喝的茶吧，啧，怎么这么甜"]
+			hide_dependency_lines: true
+			id: "7659405509854DB4"
+			rewards: [{
+				id: "4E3F8B0A2315FD86"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1FBA339B4C0707EA"
+				item: "youkaishomecoming:sakura_honey_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "58399C8ACF847C9D"
+			rewards: [{
+				id: "7EBDAE886379A993"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "322FDF698C194657"
+				item: "youkaishomecoming:saidi_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "2C44AAC2BE10AEA5"
+			rewards: [{
+				id: "65DD465F0A072606"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0BF2C4744334F0ED"
+				item: "youkaishomecoming:tea_mocha"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "3AA183793F078854"
+			rewards: [{
+				id: "141206DE97A93741"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "083A6FED0B589F69"
+				item: "youkaishomecoming:cornflower_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "7E5BA0747AEA91C2"
+			rewards: [{
+				id: "464F4CD19F125114"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1EAB465ABB9FA843"
+				item: "youkaishomecoming:oolong_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "67D810E395F9BB2E"
+			rewards: [{
+				id: "07F40A2DC58933FC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6AD6A41A487CADF5"
+				item: "youkaishomecoming:black_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "3900A550359ECAD2"
+			rewards: [{
+				id: "6B738CECD20256C1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "19FC5907DC2ED922"
+				item: "youkaishomecoming:white_tea"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "70727C51F28CA6FE"
+			rewards: [{
+				id: "77802DB3B6876DC5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "69E148F2E738A5D9"
+				item: "youkaishomecoming:mocha"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "1E8F8A61D1A2E2EE"
+			rewards: [{
+				id: "5C06E8D5F3400CB8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7BBE6A6FC8D84430"
+				item: "youkaishomecoming:cappuccino"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "68E2A584340A620D"
+			rewards: [{
+				id: "77D73FDDCE85D977"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7DE7E2DF3C57C028"
+				item: "youkaishomecoming:con_panna"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "287980C9B008A724"
+			rewards: [{
+				id: "4230C17E547BC485"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "16890096A1AF8F0B"
+				item: "youkaishomecoming:ristretto"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "7F5E6801184B5A82"
+			rewards: [{
+				id: "543F3FB7F1BFCF62"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "22D50247F45DB9F9"
+				item: "youkaishomecoming:espresso"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "6E413D942DDE30E0"
+			rewards: [{
+				id: "2CCEDCA7700E9B35"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "38544DA7A2D6D6D3"
+				item: "youkaishomecoming:americano"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "44087EC359CF28A3"
+			rewards: [{
+				id: "35D3963DF8CD1178"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "097B7ED95943BA13"
+				item: "youkaishomecoming:latte"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "76C2DA229771D66E"
+			rewards: [{
+				id: "6C97AA3E0712DD61"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1843C273DFC7F623"
+				item: "youkaishomecoming:affogato"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "17FE00B72D2FB419"
+			rewards: [{
+				id: "3BC490AAA25574BF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6FA42301DBDDC2D3"
+				item: "youkaishomecoming:macchiato"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["“好像是守矢的&a巫&f女从外面带过来的配方，堂而皇之地冠了自己的名字！说起来那家伙在外界能喝酒吗？啊，这玩意儿也完全不像酒就是了，怪不得她会喜欢，啧。”——不愿透露姓名的&4巫&f女"]
+			hide_dependency_lines: true
+			id: "5237C542D523AC05"
+			rewards: [{
+				id: "5AC84575B0A3EBA6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "·中酒精 ·现代 ·甘"
+			tasks: [{
+				id: "2EDF506D85ED95F0"
+				item: "youkaishomecoming:wind_priestesses"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "1214344B3B3CF8C9"
+			rewards: [{
+				id: "276CA79F7501194E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7312B573EB135A33"
+				item: "youkaishomecoming:sparrow_sake"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "75B8F96FFD389F50"
+			rewards: [{
+				id: "04C1FEDA7A92B6BC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "18A3E3D102D334D7"
+				item: "youkaishomecoming:mead"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "3749E0F39D5E9E53"
+			rewards: [{
+				id: "27BF12F56867A93F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "好喝，爱喝"
+			tasks: [{
+				id: "3AA0932F286470B1"
+				item: "youkaishomecoming:mio"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：这东西我每次去小夜雀的店还没说什么，她就拿着&a一盘装在船上的刺身跟这酒送过来了&f。"
+				"你别说，&b这酒虽然要440円&f，贵也有他贵的道理！"
+			]
+			hide_dependency_lines: true
+			id: "23FF68638DA37587"
+			rewards: [{
+				id: "28413A1F3CC0C5FB"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "懂了，你要大江户跟十四夜对吧！"
+			tasks: [{
+				id: "3BEDAE81DA4BB978"
+				item: "youkaishomecoming:full_moons_eve"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：放心，天狗喝了也不会跳舞的，更不会跳你想的那一套舞。"
+				"这酒倒是不错，卖吗？"
+			]
+			hide_dependency_lines: true
+			id: "02D9E45545A61A78"
+			rewards: [{
+				id: "2AF90E63B1598196"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "我好高兴啊.mp4"
+			tasks: [{
+				id: "0A6758852CA6AD25"
+				item: "youkaishomecoming:tengu_tango"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "67EE935382FCF32D"
+			rewards: [{
+				id: "1F0A441E8D6391B1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "036FEE6723208BE6"
+				item: "youkaishomecoming:dassai"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "32FAF36D84B01AF1"
+			rewards: [{
+				id: "37F506D33607C4DC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "18D481A0C936592D"
+				item: "youkaishomecoming:daiginjo"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "7F4FE64FCEABB0AF"
+			rewards: [{
+				id: "76BBEFA64B74F878"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2016E679A3A523A0"
+				item: "youkaishomecoming:roe"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "14DED241C59726B9"
+			rewards: [{
+				id: "200DC671690E55CC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "364D0AA4570FABCE"
+				item: "youkaishomecoming:big_popsicle"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "643F131FD9F21BF9"
+			rewards: [{
+				id: "007A0344FA6D4E4D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1A77A58E84BF10D4"
+				item: "youkaishomecoming:coffee_mochi"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["妖梦：幽幽子大人....那是我的半灵 不是麻薯....."]
+			hide_dependency_lines: true
+			id: "162FE79C03DD4C0F"
+			rewards: [{
+				id: "188251A1C7B548F2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4DBB035576465779"
+				item: "youkaishomecoming:mochi"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "22EC4B9B8B0021A9"
+			rewards: [{
+				id: "50159346EDE159EB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "382D26C67A8165FA"
+				item: "youkaishomecoming:sakura_mochi"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "67596BFB2C85AAC3"
+			rewards: [{
+				id: "10505B33B04C44BD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "273C2202598BF812"
+				item: "youkaishomecoming:tsukimi_dango"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "6444CB416D971EAF"
+			rewards: [{
+				id: "0717FB96670EB2F4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "46CFD30280103670"
+				item: "youkaishomecoming:matcha_mochi"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "05F16C61164B7F2B"
+			rewards: [{
+				id: "13941290CF2B3E0D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0059F1615D28F908"
+				item: "youkaishomecoming:cooked_mandrake_root"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "2DC331616357406C"
+			rewards: [{
+				id: "65DDF12475B8A99D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "10F9DC60E1943172"
+				item: "youkaishomecoming:tofu"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "388B77B3B0189D4E"
+			rewards: [{
+				id: "507D272A6A539DC6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1E5AEBDBE65F5D0B"
+				item: "youkaishomecoming:milk_popsicle"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["你是一个一个一个仙贝啊啊啊啊"]
+			hide_dependency_lines: true
+			id: "153818B54B108467"
+			rewards: [{
+				id: "5A70721FCA0C67EC"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "压力马斯内"
+			tasks: [{
+				id: "0857468AB21203EF"
+				item: "youkaishomecoming:senbei"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "342E3DF3C393ACD0"
+			rewards: [{
+				id: "2EE7628B8610E979"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "060DCF5A2C7AAA41"
+				item: "youkaishomecoming:fairy_candy"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：你问我原材料不能吃怎么这就能吃了？ 你别管那么多，你就说是不是食物吧！"]
+			hide_dependency_lines: true
+			id: "24DAE7A1240E48D2"
+			rewards: [{
+				id: "29301D7545658065"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "21F929B1DD95E909"
+				item: "youkaishomecoming:higi_chocolate"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "529785CEA809A888"
+			rewards: [{
+				id: "76FCAE0E5D861ACE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0333DCD400370579"
+				item: "youkaishomecoming:candy_apple"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：吃了不会让你看到那个拿镰刀的摸鱼怪的，至于为什么叫做彼岸汤？"
+				"emmm，可能跟材料那群灵魂有关。"
+			]
+			hide_dependency_lines: true
+			id: "571DFD08E9A94985"
+			rewards: [{
+				id: "646F2ACC5CBA3023"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "24E30B1A97B47DBD"
+				item: "youkaishomecoming:higan_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "6562A1F1EF200617"
+			rewards: [{
+				id: "1D9A425E7A711172"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1F604379E02B9632"
+				item: "youkaishomecoming:yakumo_inari"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "626722B4B7F75FDA"
+			rewards: [{
+				id: "67081F2BBA62D76B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7E791AB8F69CC252"
+				item: "youkaishomecoming:yashouma_dango"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：让我想到了灵梦好几次去小夜雀那儿吃饭，上的全是饭团，每个饭团还包不同东西，有的包肉还有的包蜂蜜。"]
+			hide_dependency_lines: true
+			id: "3422B9E3A8BFCC70"
+			rewards: [{
+				id: "43E6BA12DF0B88FF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "饭团包万物！"
+			tasks: [{
+				id: "635EE8FEDEEE3B62"
+				item: "youkaishomecoming:onigili"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "46E0E5C324AB31A6"
+			rewards: [{
+				id: "5B8048522A3EFA2C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "048A7234308AFDF8"
+				item: "youkaishomecoming:tutu_congee"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "75A5AA247CA99C22"
+			rewards: [{
+				id: "63FC4015D06AE656"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0C983D173F46868E"
+				item: "youkaishomecoming:steamed_egg_in_bamboo"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "2874F045E6A14BC2"
+			rewards: [{
+				id: "1B4EF6EB6B6FDD6B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "471146C9B2AC8260"
+				item: "youkaishomecoming:bamboo_mizuyokan"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "34B7C17615C8DC2C"
+			rewards: [{
+				id: "025A25DE244B3735"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "别名：赤蛮奇烧（）"
+			tasks: [{
+				id: "5FA240AB1E4028CD"
+				item: "youkaishomecoming:sekibankiyaki"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：这玩意不就是面食炸过吗，怎么外界好像挺热门的emmm..."]
+			hide_dependency_lines: true
+			id: "7DD619572DB38D7C"
+			rewards: [{
+				id: "67A7108E4116A1BD"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "外界警察的最爱（？）"
+			tasks: [{
+				id: "0FB013FE4321C6E4"
+				item: "youkaishomecoming:doughnut"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：我是不怎么喜欢啦，不过那个&d贤者&f的&e式神&f倒是挺喜欢的"]
+			hide_dependency_lines: true
+			id: "1CF3B4917861761B"
+			rewards: [{
+				id: "3E5F1CD455239734"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "“八云蓝想要知道你的位置”"
+			tasks: [{
+				id: "7FDD437E53B6C09C"
+				item: "youkaishomecoming:oily_bean_curd"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"某地灵殿之主的妹妹如此评价这道料理："
+				"&l&a“呸，难吃！”&r"
+			]
+			hide_dependency_lines: true
+			id: "6FB9B9C6CEC4A23F"
+			rewards: [{
+				id: "6EEBF3C1B8BD77E7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "吃完可别去找钓鱼竿啊！"
+			tasks: [{
+				id: "0A4F035937CE69FA"
+				item: "youkaishomecoming:koishi_mousse"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "463117D0EA214DE0"
+			rewards: [{
+				id: "15E1F39339731E22"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "035D0FBB5674EDD2"
+				item: "youkaishomecoming:oyaki"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "06C56CBDC487D966"
+			rewards: [{
+				id: "768058F70253BE66"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "55D6A2A521A68779"
+				item: "youkaishomecoming:avgolemono"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：你等会，你这鱼籽哪来的？"
+				"哦，不是&b若鹭姬&f身上的啊，那没事了"
+			]
+			hide_dependency_lines: true
+			id: "491F26E402532A5D"
+			rewards: [{
+				id: "0F29610EC77E5DFF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "鱼籽，蛋.jpg"
+			tasks: [{
+				id: "4F15BF93E7E0E6A9"
+				item: "youkaishomecoming:tobiko_gunkan"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "4C5B437633A15B02"
+			rewards: [{
+				id: "168A457ABD18951A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1DB045B640E08EA9"
+				item: "youkaishomecoming:tofu_burger"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "569BD01D785D2000"
+			rewards: [{
+				id: "288E062AC184C401"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4EB205FDDFCBFC57"
+				item: "youkaishomecoming:stinky_tofu"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "56F3912B262F02DC"
+			rewards: [{
+				id: "2E5C2A1C594BFC64"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7F15BC463CCB6CEA"
+				item: "youkaishomecoming:pork_rice_ball"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "62A4B2C5153FFA8A"
+			rewards: [{
+				id: "3717CF5543D504DE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C2C32D17820A35A"
+				item: "youkaishomecoming:miso_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "000419C40D10D843"
+			rewards: [{
+				id: "186394383AB17EFB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5251746EE67EAC71"
+				item: "youkaishomecoming:udumbara_cake"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：你这八目鳗怎么跟我去小夜雀店看到的不一样呢......"]
+			hide_dependency_lines: true
+			id: "23D3A396A44015E3"
+			rewards: [{
+				id: "295910B70549C234"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "514B3B3FCEBBA8D5"
+				item: "youkaishomecoming:roasted_lamprey_fillet"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：&e我就知道那夜雀给我的是泥鳅！"]
+			hide_dependency_lines: true
+			id: "618F6AEC648B73DA"
+			rewards: [{
+				id: "01633822DC5F1B74"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "你这是八目鳗还是泥鳅啊！"
+			tasks: [{
+				id: "1881B7DDD8EA5283"
+				item: "youkaishomecoming:roasted_lamprey"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "6818B6A4DB97DE5E"
+			rewards: [{
+				id: "732F5689C4E03AB8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0C3412197532423B"
+				item: "youkaishomecoming:dried_fish"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：这玩意辣度够的，回头给地灵殿那头&2傻鸟&f吃吃看"]
+			hide_dependency_lines: true
+			id: "5374D06EB901D39E"
+			rewards: [{
+				id: "7C6906578D805FD2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A188947072E6FFE"
+				item: "youkaishomecoming:blazing_red_curry"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"魔理沙：别想了，灵梦不会一直问你红豆泥红豆红豆泥的，更不会两眼发..."
+				"哦，这个会。"
+			]
+			hide_dependency_lines: true
+			id: "1185C7D3E8E0B10C"
+			rewards: [{
+				id: "4484294C341EC00C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "某个紫发的最爱（？）"
+			tasks: [{
+				id: "0BDF1B05A973CBEE"
+				item: "youkaishomecoming:kinako_dango"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：我只能说这东西，一般。"]
+			hide_dependency_lines: true
+			id: "24D67BFBA41F4DF7"
+			rewards: [{
+				id: "36B6C5CF5C2407CB"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "又咸又甜"
+			tasks: [{
+				id: "007BD31E75414049"
+				item: "youkaishomecoming:mitarashi_dango"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "5D04F3F9B7F569BC"
+			rewards: [{
+				id: "2D94D33F53D4BB32"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5FA6A40BBBCF04BE"
+				item: "youkaishomecoming:assorted_dango"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "594C878D9970B0FA"
+			rewards: [{
+				id: "437478448975A18F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1628AE7E1EE357A7"
+				item: "youkaishomecoming:higi_doughnut"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "62E4E8F2FC8AA0F0"
+			rewards: [{
+				id: "3ECEFBD188D5720F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "511665F7B70C35FA"
+				item: "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "1B273B3250DFB246"
+			rewards: [{
+				id: "633B38C14FB13D6C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2B9EF10383670883"
+				item: "youkaishomecoming:seven_colored_yokan"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "13ADB0B2F9B31BAC"
+			rewards: [{
+				id: "2FD69F61B60120D9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7666BDA5AF0D9940"
+				item: "youkaishomecoming:shaved_ice_over_rice"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "49143BB3A94D36AC"
+			rewards: [{
+				id: "3786849E36C327BD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "336BA43ED6795B88"
+				item: "youkaishomecoming:bun"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "4E399CF96C2F54B8"
+			rewards: [{
+				id: "168CD90C09FEC865"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5FC370A5033D0842"
+				item: "youkaishomecoming:mushroom_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["穷神汤已改为馒头"]
+			hide_dependency_lines: true
+			id: "14649541BDACAC42"
+			rewards: [{
+				id: "4B1FECCBB9848A1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "61C6046972AFEBD7"
+				item: "youkaishomecoming:mantou"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "00B8FEDDD07D268A"
+			rewards: [{
+				id: "4E262740B38CD860"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2EC9D6B318EFA446"
+				item: "youkaishomecoming:lions_head"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "5A6EE56C9A328BD3"
+			rewards: [{
+				id: "215074B2B810E959"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "287091D672839F84"
+				item: "youkaishomecoming:apaki"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "126A304D13C41A09"
+			rewards: [{
+				id: "55E2B5F251EEB281"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "你这菜有文化底蕴吗?"
+			tasks: [{
+				id: "075BF1401800DBA5"
+				item: "youkaishomecoming:shirayuki"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "786E232F8CE490D3"
+			rewards: [{
+				id: "6F530BFCAD37E689"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "125DB39623094B34"
+				item: "youkaishomecoming:mapo_tofu"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "6DA737A6EB0EEEE7"
+			rewards: [{
+				id: "78FE5E46BBDA2A2B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "319C73C7E8B1C5C2"
+				item: "youkaishomecoming:grilled_eel_over_rice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "1102FB9522E04032"
+			rewards: [{
+				id: "13B63826F849F93A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "576EB877DBA5A306"
+				item: "youkaishomecoming:longevity_noodles"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "5C56C692A9139BBC"
+			rewards: [{
+				id: "4E3DA566DD13AFB9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C6DFAEFE93796F1"
+				item: "youkaishomecoming:sauce_grilled_fish"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "38F872066351C46A"
+			rewards: [{
+				id: "1ECF7B81D910BEA2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6F62FCC090AC715B"
+				item: "youkaishomecoming:imitation_bear_paw"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "76D1F61D6F4C7CB9"
+			rewards: [{
+				id: "0331CD7ACCD26A14"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "393C1BC1FD099096"
+				item: "youkaishomecoming:tuscan_salmon"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "3BB0222D9CF921C7"
+			rewards: [{
+				id: "040137EB6BD2DEE3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4C58DA603ED774B2"
+				item: "youkaishomecoming:seafood_miso_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：你干了什么，怎么有个拿着武士刀的男人直接冲过来，嘴里还念着什么抛瓦抛瓦的？"]
+			hide_dependency_lines: true
+			id: "12B361D015B4C046"
+			rewards: [{
+				id: "0C2761057B889175"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "“Vergil非常想要知道你的位置”"
+			tasks: [{
+				id: "41A8178C5860C4F3"
+				item: "youkaishomecoming:power_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "41B702994B671323"
+			rewards: [{
+				id: "0EDF1942B48B119B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34D5C36C8697FD24"
+				item: "youkaishomecoming:pastitsio"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: [
+				"从幻昙华中提取色素，给一个个蘑菇伞染上颜色，将之铺在宝箱周围就像被锦花簇拥着。宝箱里究竟藏有什么惊喜呢？怀着这样的想法打开，跳出来的却是伸着大舌头的滑稽的伞！吓一跳了吧——？"
+				""
+				"做完后需要放置在地面，使用碗对其右键取得碗装大冒险 方可喂食灵梦"
+			]
+			hide_dependency_lines: true
+			id: "676C3CF9FC167592"
+			rewards: [{
+				id: "2E68CDB450A906F8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "6848AA43F9D857C8"
+					item: "youkaishomecoming:chest_of_heart_throbbing_surprise"
+					type: "item"
+				}
+				{
+					id: "3CF8A5AF79C89C71"
+					item: "youkaishomecoming:bowl_of_heart_throbbing_surprise"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			description: ["魔理沙：“如果缺少了什么特殊食材你从未见过也不知道去哪找的话，可以去回去请教一下秋穰子  作为丰收之神，肯定对于农作物是无所不知的DA⭐ZE”"]
+			hide_dependency_lines: false
+			icon: "farmersdelight:carrot_crate"
+			id: "336B0490A300837D"
+			rewards: [{
+				id: "608ACAA1A01010D1"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "1C0F8B57A513E1FE"
+				title: "缺少特定食材吗？"
+				type: "checkmark"
+			}]
+			title: "缺少特定农作物吗？"
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"13ADB0B2F9B31BAC"
+				"7F4FE64FCEABB0AF"
+				"6FB9B9C6CEC4A23F"
+				"5374D06EB901D39E"
+				"7E5BA0747AEA91C2"
+				"75A5AA247CA99C22"
+				"3AA183793F078854"
+				"1B273B3250DFB246"
+				"3422B9E3A8BFCC70"
+				"4C5B437633A15B02"
+				"676C3CF9FC167592"
+				"12B361D015B4C046"
+				"00B8FEDDD07D268A"
+				"000419C40D10D843"
+				"7F5E6801184B5A82"
+				"1CF3B4917861761B"
+				"2DC331616357406C"
+				"06C56CBDC487D966"
+				"287980C9B008A724"
+				"3900A550359ECAD2"
+				"342E3DF3C393ACD0"
+				"463117D0EA214DE0"
+				"1E8F8A61D1A2E2EE"
+				"3BB0222D9CF921C7"
+				"6562A1F1EF200617"
+				"34B7C17615C8DC2C"
+				"24DAE7A1240E48D2"
+				"44087EC359CF28A3"
+				"1214344B3B3CF8C9"
+				"58399C8ACF847C9D"
+				"56F3912B262F02DC"
+				"643F131FD9F21BF9"
+				"46E0E5C324AB31A6"
+				"14DED241C59726B9"
+				"618F6AEC648B73DA"
+				"2C44AAC2BE10AEA5"
+				"5D04F3F9B7F569BC"
+				"3749E0F39D5E9E53"
+				"4BE56AEE0E51C7ED"
+				"23FF68638DA37587"
+				"571DFD08E9A94985"
+				"76D1F61D6F4C7CB9"
+				"1185C7D3E8E0B10C"
+				"7659405509854DB4"
+				"6444CB416D971EAF"
+				"75B8F96FFD389F50"
+				"24D67BFBA41F4DF7"
+				"38F872066351C46A"
+				"1102FB9522E04032"
+				"49143BB3A94D36AC"
+				"594C878D9970B0FA"
+				"14649541BDACAC42"
+				"7DD619572DB38D7C"
+				"70727C51F28CA6FE"
+				"02D9E45545A61A78"
+				"2874F045E6A14BC2"
+				"5237C542D523AC05"
+				"62A4B2C5153FFA8A"
+				"32FAF36D84B01AF1"
+				"4E399CF96C2F54B8"
+				"529785CEA809A888"
+				"569BD01D785D2000"
+				"22EC4B9B8B0021A9"
+				"162FE79C03DD4C0F"
+				"68E2A584340A620D"
+				"5A6EE56C9A328BD3"
+				"67596BFB2C85AAC3"
+				"283C6B43578C7C16"
+				"23D3A396A44015E3"
+				"6DA737A6EB0EEEE7"
+				"612A0C86AF439B86"
+				"41B702994B671323"
+				"126A304D13C41A09"
+				"6E413D942DDE30E0"
+				"5C56C692A9139BBC"
+				"62E4E8F2FC8AA0F0"
+				"67EE935382FCF32D"
+				"67D810E395F9BB2E"
+				"388B77B3B0189D4E"
+				"05F16C61164B7F2B"
+				"6818B6A4DB97DE5E"
+				"491F26E402532A5D"
+				"786E232F8CE490D3"
+				"153818B54B108467"
+				"626722B4B7F75FDA"
+				"17FE00B72D2FB419"
+				"76C2DA229771D66E"
+				"52ECD3E6F792EB85"
+				"5AD5E8EFA4F2366A"
+				"74D733E083FBDCF9"
+				"610D5AFEA1B46C7E"
+				"11C4DF90BB56853C"
+				"113EC55CB6FA2143"
+				"0DBEDE9EB0F6793D"
+				"2345F60B2D9B1E2F"
+			]
+			description: ["魔理沙：居然能完成这么多食物的制作，也是不容易啊，辛苦你了，我最近捡到一些天上掉下来的东西，俺寻思也没人要啊就拿走了，好像是天子的东西吧？希望她不会来找我麻烦，不如全送给你好了，这样我也省心，反正这些对我来说没什么用"]
+			hide_dependency_lines: true
+			icon: "ae2:logic_processor"
+			id: "39F09888FE174593"
+			rewards: [
+				{
+					count: 16
+					id: "53406F13A2E057BA"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "511B957C89395A1D"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5144917AA8607BC9"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2DF703630510CEF6"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73D8C1C33C6DED2E"
+					item: "megacells:sky_steel_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "089C603402E1F237"
+					item: "chemlib:polyvinyl_chloride_plate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4A2879DFCA9EBDBD"
+					item: "kubejs:youmus_dualswords"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36EB9DF0C46C99A7"
+					item: "kubejs:daiyouseis_bomb"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78BBA3AE17FC74B6"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "78985EC32119E43A"
+					item: "sakuratinker:soul_sakura"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "制作完95种食物后可获得奖励"
+			tasks: [{
+				id: "6009C4CBE5A5CC09"
+				type: "checkmark"
+			}]
+			title: "哇，金色传说"
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["601095BFB131F14E"]
+			description: ["魔理沙：你问我怎么看？我坐扫帚上面看。开个玩笑，总之这次我也没辙，唯一能告诉你的就是，之前我捡到了一些天上掉下来的东西，似乎是天子的，有一部分看起来很值钱的我给卖出去了。剩下的一部分东西嘛，如果你能帮忙做完88种特定食物我就送给你"]
+			id: "4B0A942C8D281519"
+			tasks: [{
+				id: "242BE76E7B662198"
+				type: "checkmark"
+			}]
+			title: "如何看待异变"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "11C4DF90BB56853C"
+			tasks: [{
+				id: "49F61EA87A838287"
+				item: "youkaishomecoming:suigei"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "74D733E083FBDCF9"
+			tasks: [{
+				id: "3C8CB98B6AFF96AF"
+				item: "youkaishomecoming:kappa_village"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "5AD5E8EFA4F2366A"
+			tasks: [{
+				id: "1C7A803E00BBC67C"
+				item: "youkaishomecoming:hakutsuru"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "610D5AFEA1B46C7E"
+			tasks: [{
+				id: "0462E633FA4E4ECC"
+				item: "youkaishomecoming:kiku"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "52ECD3E6F792EB85"
+			tasks: [{
+				id: "73C329FFAD791A10"
+				item: "youkaishomecoming:cold_tofu"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "113EC55CB6FA2143"
+			tasks: [{
+				id: "46487059F333A243"
+				item: "youkaishomecoming:cumberland_loin"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "2345F60B2D9B1E2F"
+			tasks: [{
+				id: "4BE14D4FBF0F82FA"
+				item: "youkaishomecoming:scholar_ginkgo"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			hide_dependency_lines: true
+			id: "0DBEDE9EB0F6793D"
+			tasks: [{
+				id: "7402F145A3F0B657"
+				item: "youkaishomecoming:tomato_sauce_cod"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"对着村民潜行右键就能将其收起来了，可随身携带并且也许还有神秘用途？？？"
+				""
+				"并且除了基础的交易所只能手动交易，其他方块均可自动化"
+			]
+			id: "4360E102FE6814FB"
+			tasks: [{
+				id: "612EF9230D58ECC2"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["将村民和工作方块放入，可进行交易。如果只放村民的话，无法补货"]
+			id: "69C439D4E0A8B825"
+			tasks: [{
+				id: "60795B109CFB3193"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69C439D4E0A8B825"]
+			description: ["可自动化的交易所"]
+			id: "44C00FE4464ECBA8"
+			tasks: [{
+				id: "39ABFB4C29F7A8DB"
+				item: "easy_villagers:auto_trader"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["放入村民+相应农作物，村民可自动种地收获"]
+			id: "09D8EF332D65C1CA"
+			tasks: [{
+				id: "232E20B2225796C2"
+				item: "easy_villagers:farmer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["需要2个村民+足量的村民能接受的食物"]
+			id: "3B5EABDEEC020BAE"
+			tasks: [{
+				id: "73F089FF149DB820"
+				item: "easy_villagers:breeder"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["金苹果+虚弱药水+村民，组合起来就能让村民乖乖听话，交易也会更划算"]
+			id: "5853B7369849D49D"
+			tasks: [{
+				id: "08916F15F606C6D9"
+				item: "easy_villagers:converter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["同样需要一个村民，可自动产出铁"]
+			id: "4E906840EA46B80D"
+			tasks: [{
+				id: "3603BAC5F270F631"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4360E102FE6814FB"]
+			description: ["让小村民能快速生长"]
+			id: "4C9A78C509CC9AE3"
+			tasks: [{
+				id: "485174957511251A"
+				item: "easy_villagers:incubator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+	]
+	title: "魔理沙的小屋"
+}

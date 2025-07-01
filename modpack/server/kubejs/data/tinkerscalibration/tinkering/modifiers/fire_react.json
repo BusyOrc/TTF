@@ -1,0 +1,15 @@
+{
+  "level_display": {
+    "type": "tconstruct:unique",
+    "first_unique": false,
+    "unique_until": 3
+  },
+    "modules": [
+        {
+            "type": "tconstruct:constant_enchantment",
+            "level": 1,
+            "name": "twilightforest:fire_react"
+          }
+    ],
+    "tooltip_display": "always"
+  }

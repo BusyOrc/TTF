@@ -1,0 +1,356 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7937A629337EBDA0"
+	group: "7E2BC7A0DAD568E2"
+	icon: "alexscaves:block_of_azure_neodymium"
+	id: "7937A629337EBDA0"
+	images: [
+		{
+			height: 3.0d
+			image: "alexscaves:block/neodymium/azure_node_side_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "alexscaves:block/neodymium/scarlet_node_side_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"较为简单的敌人，可以使用磁力控制它头上的铁工具攻击远处的生物，可以被盾牌格挡，可以利用磁力飞行，在对抗时尽量使用远程武器。"
+				""
+				"击败后可掉落：粗青钕，粗赤钕和磁流核"
+			]
+			icon: "alexscaves:spawn_egg_teletor"
+			id: "6EF00363B52D3F4F"
+			rewards: [{
+				id: "11591943FD558B53"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.2d
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: "alexscaves:spawn_egg_teletor"
+				id: "351ADB1EF114B991"
+				type: "kill"
+				value: 1L
+			}]
+			title: "磁流灵"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b磁控机兵&r——会吸引附近方块来组成自己身体的奇特敌人，攻击它们的方块身体是无用的，只有攻击它未进入防御姿态时的本体才能对它造成伤害"
+				""
+				"击败后可掉落核心的方块——机铁之心"
+			]
+			id: "5437FDEBBE3AE56A"
+			rewards: [{
+				id: "696AA6E57444484F"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.2d
+			subtitle: "我来组成头部"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:spawn_egg_magnetron"
+				id: "690CA61789BD525A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "磁之心"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"由两部分组成，其中一个部分是蓝色的移动装置，会飞到天花板上操控另一部分红色的攻击装置"
+				""
+				"推荐使用远程手段攻击"
+				""
+				"击败后可掉落配重块和锁链"
+			]
+			id: "3087EC9CE713D4E6"
+			rewards: [{
+				id: "26C0449813E14F3A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.2d
+			subtitle: "死神天降"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: "alexscaves:spawn_egg_boundroid"
+				id: "0C13CE029C765AFB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "弹跳机兵"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b扫描机兵&r不具有攻击能力，但是会扫描其他生物的数据数据并投影出玩家或生物的影像，给附近的生物提供攻击指引"
+				""
+				"击败后掉落扫描机兵零件"
+			]
+			id: "6D8DB1D70842C300"
+			rewards: [{
+				id: "1B93E8BAB38E4E8D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.2d
+			subtitle: "就是你把鬼子引到这儿来的？"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: "alexscaves:spawn_egg_notor"
+				id: "45C6E1FBD542CA71"
+				type: "kill"
+				value: 1L
+			}]
+			title: "斟茶员"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"多个富铁史莱姆会相互融合形成更大的个体，生命和伤害都会更高"
+				""
+				"击败后掉落富铁黏液球，可炼制磁化药水"
+			]
+			icon: "alexscaves:spawn_egg_ferrouslime"
+			id: "52C262BE4985D6F1"
+			rewards: [{
+				id: "427557E842F083A8"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.2d
+			subtitle: "融合，完成！"
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				icon: "alexscaves:spawn_egg_ferrouslime"
+				id: "76DBED60ED8C6973"
+				type: "kill"
+				value: 1L
+			}]
+			title: "富铁史莱姆"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"这个黑暗的群系中到处都分布着发微光的赤钕柱和青钕柱，尖锐的方铅岩锥上放置着危险的特斯拉球作为光照，四处都闪烁着红色的和蓝色的电弧。玩家还可以看到小块的方铅岩从地面飘向天空，仿佛不受重力的影响一般。此外，大量的方铅铁矿石在此生成"
+				""
+				"在这里，你见到了在磁场洞穴中忙着挖洞的&b百百世&r"
+				""
+				"百百世：我天天在这里挖洞，很熟悉这里的地形，既然是磁场洞穴，那你可以叫我百磁王"
+			]
+			icon: "alexscaves:heavyweight"
+			id: "352B187CA7F1DD28"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "6D3D090BF3C1DD25"
+				title: "百磁王"
+				type: "checkmark"
+			}]
+			x: -2.03125d
+			y: -4.4375d
+		}
+		{
+			dependencies: ["352B187CA7F1DD28"]
+			description: ["百百世：在洞穴里寻找赤钕节点，挖掘以后就能得到粗赤钕，可以与铁一起制作赤钕合金锭，也可以熔融作为匠魂材料"]
+			id: "6AAA3DF0F5AD553C"
+			tasks: [{
+				id: "1F974E57816E08AE"
+				item: "alexscaves:raw_scarlet_neodymium"
+				type: "item"
+			}]
+			x: 2.125d
+			y: -5.375d
+		}
+		{
+			dependencies: ["352B187CA7F1DD28"]
+			description: ["粗青钕的获得原理和粗赤钕类似，只需要挖掘青钕节点就可以得到，"]
+			id: "2B917F947CCA887A"
+			tasks: [{
+				id: "72B99C30F19C00B5"
+				item: "alexscaves:raw_azure_neodymium"
+				type: "item"
+			}]
+			x: 2.15625d
+			y: -3.90625d
+		}
+		{
+			dependencies: [
+				"2B917F947CCA887A"
+				"6AAA3DF0F5AD553C"
+			]
+			description: ["这两种材料可以用于制作磁铁或匠魂的工具强化"]
+			icon: "alexscaves:scarlet_neodymium_ingot"
+			id: "1D86ADE253F8D081"
+			rewards: [{
+				id: "3E0D46FC0830CC44"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E899A3C06B3D2B6"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "75ACF5982D21422B"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "赤钕与青钕合金锭"
+			x: 4.8125d
+			y: -4.625d
+		}
+		{
+			dependencies: ["6AAA3DF0F5AD553C"]
+			description: [
+				"需要装在副手，主手手持任意带有磁力的物品，之后长按右键可以使用磁力控制主手的物品来进行远程操作。在无附魔的情况下，最大触及距离为30格。"
+				""
+				"被磁力控制的物品如果击中生物，会对生物造成伤害；如果控制的物品是工具，它会挖掘附近的适宜挖掘的方块。"
+				""
+				"方铅护手类似于玩家左键的延申，伤害数值等同于玩家手持该物品造成的伤害，力量附魔会对其伤害起影响，工具和武器上的附魔也能生效。"
+				""
+				"&b可以直接在附魔台上进行附魔&r"
+			]
+			id: "6ED5F0E85522975E"
+			shape: "pentagon"
+			subtitle: "并非念力驱动"
+			tasks: [{
+				id: "2AFD830A99ACCF1D"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.90625d
+			y: -7.21875d
+		}
+		{
+			dependencies: ["1D86ADE253F8D081"]
+			description: [
+				"手持阻尼盾牌长按右键可以使用并格挡正前方的物理攻击，格挡时会向周围放出电流，电击生物造成持续伤害。"
+				""
+				"开始进行格挡时，盾牌会在空中翻转一周并砸向地面，对周围敌人造成6点伤害，随后才会开始放电。可以通过重磅冲撞附魔来增加此伤害。"
+				""
+				"拥有两种模式，手持阻尼盾牌潜行右击可以切换模式。"
+				""
+				"第一种模式下格挡会发出蓝色电流，对生物持续造成2点伤害并击退。"
+				""
+				"第二种模式下格挡会发出红色电流，对生物持续造成2点伤害并将生物向玩家牵引"
+				""
+				"特别提醒：&c阻尼盾牌敌我不分&r，请不要误伤附近的小动物或者花花草草"
+			]
+			id: "43CE6B74B0EF3192"
+			shape: "pentagon"
+			tasks: [{
+				id: "3DC1630F96DF82DB"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["1D86ADE253F8D081"]
+			description: [
+				"百百世：这是一种采矿的多方块工具，搭建方法非常简单"
+				""
+				"1.放下磁力采石场，此时采石场面朝玩家的一面为物品弹出面，背后则是需与磁力灯搭配使用的采掘面"
+				""
+				"2.在采掘面方向的同一高度上放置四个磁力灯用于划定采掘区域，当四个磁力灯之间都出现电流特效则说明连接成功。"
+				""
+				"注意事项：划定的区域必须为矩形、矩形的一边必须与采石场的采掘面相邻、四个磁力灯必须放置在同一y轴高度上、划定区域不能过小，内部必须有方块可供采掘。"
+				""
+				"3.在划定好的区域内放置磁力采石场粉碎器，随后粉碎器会被激活并开始破坏区域内的方块。破坏的方块会变为掉落物，粉碎器重锤周围的任何掉落物都会被吸附，之后从磁力采石场顶部抛出"
+				"{@pagebreak}"
+				"百百世：（小声）感觉不如动力钻头，感觉不如矿脉锤，感觉不如原，原来的工具"
+			]
+			icon: "alexscaves:quarry_smasher"
+			id: "2F4F599CF1161924"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "65DFE8C3B884F493"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E7367CD368DFCDE"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+				{
+					id: "5C33847B522227D2"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+			]
+			title: "挖掘，启动！"
+			x: 7.34375d
+			y: -4.59375d
+		}
+		{
+			dependencies: ["2B917F947CCA887A"]
+			description: [
+				"百百世：用全系编码器右键对准生物使用后，可以记录生物，同时全息编码器外观发生改变"
+				""
+				"用全息编码器右键全息投影仪，可以显示录入的生物的全息模型，通入红石信号可以使其旋转"
+			]
+			icon: "alexscaves:holocoder"
+			id: "1786C48DFB3DE633"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "59E7E2286CF4D1E3"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+				{
+					id: "545A38ABEB77C454"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.25d
+		}
+	]
+	title: "磁场洞穴"
+}

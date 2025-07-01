@@ -1,0 +1,39 @@
+{  
+    "conditions":
+    [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container":
+    {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients":
+    [
+        {
+            "tag": "forge:foods/meat/raw"
+        },
+        {
+            "tag": "forge:crops/bell_pepper"
+        },
+        {
+            "tag": "forge:crops/rice"
+        },
+        {
+            "tag": "forge:crops/onion"
+        },
+        {
+            "item":"farmersdelight:tomato_sauce"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result":
+    {
+        "item": "thermal:stuffed_pumpkin"
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "sakuratinker:kobold"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:dense"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "sakuratinker:kobold"
+          },
+        {
+          "level": 1,
+          "name": "tconstruct:dense"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,47 @@
+{
+      "sortIndex": 2,
+    "translation_key": "item.tinkers_things.twinblade",
+    "icon": {
+      "item": "tinkers_things:twinblade",
+      "nbt": "{Damage:0,tic_broken:0b,tic_display:true,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+    },
+    "input_slots": [
+      {
+        "filter": {
+          "item": "tconstruct:broad_blade"
+        },
+        "icon": "tconstruct:broad_blade",
+        "translation_key": "item.tconstruct.broad_blade",
+        "x": 48,
+        "y": 26
+      },
+      {
+        "filter": {
+          "item": "tconstruct:tough_handle"
+        },
+        "icon": "tconstruct:tough_handle",
+        "translation_key": "item.tconstruct.tough_handle",
+        "x": 24,
+        "y": 33
+      },
+      {
+        "filter": {
+          "item": "tconstruct:tool_binding"
+        },
+        "icon": "tconstruct:tool_binding",
+        "translation_key": "item.tconstruct.tool_binding",
+        "x": 36,
+        "y": 53
+      },
+      {
+        "filter": {
+          "item": "tconstruct:broad_blade"
+        },
+        "icon": "tconstruct:broad_blade",
+        "translation_key": "item.tconstruct.broad_blade",
+        "x": 12,
+        "y": 62
+      }
+    ]
+
+  }

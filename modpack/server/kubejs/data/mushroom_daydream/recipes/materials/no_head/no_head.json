@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "born_in_chaos_v1:pumpkin_pistol"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:no_head",
+    "amount": 810
+  },
+  "temperature": 999,
+  "time": 20
+}

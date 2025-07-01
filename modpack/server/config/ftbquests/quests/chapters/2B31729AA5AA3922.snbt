@@ -1,0 +1,1400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B31729AA5AA3922"
+	group: "7E2BC7A0DAD568E2"
+	icon: "kubejs:komachis_scythe"
+	id: "2B31729AA5AA3922"
+	images: [
+		{
+			dependency: "7F8E93BFE7E0BF51"
+			height: 10.0d
+			image: "youkaishomecoming:block/water_flow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -14.0d
+		}
+		{
+			height: 5.0d
+			image: "tofucraft:block/animated/water/water_still_19"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -15.5d
+		}
+		{
+			click: "#26A1061C1E4A66F4"
+			height: 1.0d
+			hover: ["来这里收拾背包"]
+			image: "minecraft:block/oak_door_top"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			click: "#26A1061C1E4A66F4"
+			height: 1.0d
+			hover: ["来这里收拾背包"]
+			image: "minecraft:block/oak_door_bottom"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -14.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -15.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -15.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_log"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -18.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -18.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -18.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -16.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_planks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -17.5d
+		}
+		{
+			click: "#7F8E93BFE7E0BF51"
+			dependency: "26A1061C1E4A66F4"
+			height: 4.0d
+			hover: ["上船！我马上就送你去阴间！"]
+			image: "minecraft:item/mangrove_boat"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -14.0d
+		}
+		{
+			height: 5.0d
+			image: "tofucraft:block/animated/water/water_still_19"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependency: "7F8E93BFE7E0BF51"
+			height: 10.0d
+			image: "youkaishomecoming:block/water_flow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependency: "7F8E93BFE7E0BF51"
+			height: 10.0d
+			image: "youkaishomecoming:block/water_flow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependency: "7F8E93BFE7E0BF51"
+			height: 10.0d
+			image: "youkaishomecoming:block/water_flow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependency: "7F8E93BFE7E0BF51"
+			height: 2.0d
+			image: "quark:textures/attribute/reach_distance.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			click: "#208898AA5DCDE85E"
+			height: 1.0d
+			image: "youkaishomecoming:item/food/basic/raw_lamprey"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/salmon"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			click: "#35B3F5F2B9B9B221"
+			height: 0.75d
+			image: "minecraft:item/nautilus_shell"
+			rotation: 0.0d
+			width: 0.75d
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			click: "#2875F8690B21732D"
+			dependency: "7F8E93BFE7E0BF51"
+			height: 4.0d
+			hover: ["什么？什么？发生什么事了？？"]
+			image: "minecraft:item/mangrove_boat"
+			order: 10
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 8.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 1.0d
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 8.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 8.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 8.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 8.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 8.0d
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 3.2d
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 1
+			rotation: 42.0d
+			width: 3.2d
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			click: "#"
+			dependency: "2875F8690B21732D"
+			height: 2.0d
+			hover: ["你那牙齿是怎么长得？"]
+			image: "iceandfire:item/troll_skull"
+			order: 1
+			rotation: 10.0d
+			width: 2.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 1.5d
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 1
+			rotation: 76.0d
+			width: 2.1d
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 1.2d
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 1
+			rotation: 85.0d
+			width: 1.2d
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 3.2d
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 1
+			rotation: 60.0d
+			width: 3.2d
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			click: "#"
+			dependency: "2875F8690B21732D"
+			height: 3.2d
+			hover: ["血炸开花了亲"]
+			image: "biomesoplenty:item/red_maple_leaf_pile"
+			order: 1
+			rotation: 180.0d
+			width: 3.2d
+			x: -9.5d
+			y: 15.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 1.0d
+			image: "minecraft:item/bone"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			click: "#"
+			dependency: "2875F8690B21732D"
+			height: 2.0d
+			hover: ["好大只的僵尸！"]
+			image: "quark:textures/emote/zombie.png"
+			order: 2
+			rotation: -12.0d
+			width: 2.0d
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 1.0d
+			image: "minecraft:item/bone"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			click: "#"
+			dependency: "2875F8690B21732D"
+			height: 1.5d
+			hover: ["感觉能捡回家喂狗"]
+			image: "minecraft:item/bone"
+			order: 2
+			rotation: 90.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			click: "#580B71962D87AE0B"
+			dependency: "2875F8690B21732D"
+			height: 1.0d
+			hover: ["好小只的僵尸！"]
+			image: "quark:textures/emote/zombie.png"
+			rotation: 35.0d
+			width: 1.0d
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			click: "#"
+			dependency: "2875F8690B21732D"
+			height: 4.0d
+			hover: ["船还好没撞烂。不过要是撞烂了……地狱会报销吗？"]
+			image: "quark:item/blossom_boat"
+			order: 10
+			rotation: -20.0d
+			width: 4.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependency: "2875F8690B21732D"
+			height: 4.0d
+			image: "biomesoplenty:block/white_sandstone_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			click: "#5C1C368C85B5C4BB"
+			dependency: "2875F8690B21732D"
+			height: 2.0d
+			hover: ["好，这样就清理干净了"]
+			image: "minecraft:item/diamond_sword"
+			order: 5
+			rotation: 34.0d
+			width: 2.0d
+			x: -3.5d
+			y: 9.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E3867B1F430892C"]
+			description: [
+				"&e“收拾好了，我们出发吧”"
+				""
+				"&c“……为啥？”"
+				""
+				"&e“什么为啥？”"
+				""
+				"&c“你为啥要揣些面包啊水阿火把这种东西啊？！！”"
+				""
+				"&e“欸？可是行李不就是这种吗？带点吃的，带个水桶防止摔落伤害，还有带些火把防止刷怪——”"
+				""
+				"&c“停停停，知道了哥，别塞了哥，这里是幻想乡，不是什么无人迹的荒原。你揣这些根本用不上，还是老老实实跟我下地狱吧”"
+				""
+				"&e“可是这些真的很重要。对，还有盾牌，不然容易被苦力怕炸死———诶诶你别扯我，我走，我走还不行吗？”"
+				""
+				"&c“好啦快点——”"
+				""
+				"&e“不行！我还有我的附魔钻石剑没有带上！我遇到怪会打不过的！你别拉我啊————”"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "26A1061C1E4A66F4"
+			rewards: [
+				{
+					id: "1D0D7243F3AD0EB6"
+					item: "minecraft:mangrove_boat"
+					type: "item"
+				}
+				{
+					id: "04D78690CDF14B13"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "0AB631FB552DA26B"
+					item: "youkaishomecoming:higan_soup"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "0005BB6F4436B6C3"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "178B8723174C7979"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4729DE06AE42E343"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "303C900FCF090282"
+					item: "youkaishomecoming:mochi"
+					type: "item"
+				}
+				{
+					id: "5B873E4A0F2A0E5C"
+					title: "让我揣！让我揣！这些都是生存必备物品阿！是宝贝阿！！！"
+					type: "checkmark"
+				}
+			]
+			title: "出发之前，先揣点东西在身上吧？"
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["26A1061C1E4A66F4"]
+			description: [
+				"&e“痛痛痛……”"
+				""
+				"被红发女孩强硬地拽上了船"
+				""
+				"&c\"谁让你一直磨磨唧唧的。我还忙着赶紧干完活回去睡觉呢\""
+				""
+				"&c“唉，明明是难得的休息日我还要加班……真不知道白玉楼那边突然找你要干嘛”"
+				""
+				"&e“我也不是很清楚，上面也只说了好像是在书里找到什么有意思的东西”"
+				""
+				"&c“有意思的东西？难不成和上次灵梦她们造的那个火箭是差不多的玩意吗？”"
+				""
+				"？？火箭？灵梦她们还做过这么厉害的东西吗？"
+				""
+				"&e“我倒是觉得指明要我这个所谓的“冒险者”的东西，应该算不上是火箭这样的高科技产物吧？那还不如去找荷取小姐她们更靠谱一点”"
+				""
+				"&c“嘘！噤声”"
+				""
+				"&e“欸？什，什么？”"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7F8E93BFE7E0BF51"
+			size: 0.01d
+			tasks: [{
+				disable_toast: true
+				id: "57457159B7CF51EA"
+				title: "彼岸！归航！"
+				type: "checkmark"
+			}]
+			title: "登上死神的渡船"
+			x: -3.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0E3867B1F430892C"]
+			description: ["这啥玩意，我好像在米斯蒂娅的摊位上看见过？"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "208898AA5DCDE85E"
+			rewards: [{
+				id: "2182AD5D0F255A01"
+				item: "youkaishomecoming:raw_lamprey"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "4B5AB411E1E1F457"
+				title: "捞起来吃！"
+				type: "checkmark"
+			}]
+			title: "这鱼长得怪怪的"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0E3867B1F430892C"]
+			description: ["仔细一看，河底好像有个闪亮亮的东西"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "35B3F5F2B9B9B221"
+			rewards: [{
+				id: "32AC8257686C038F"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "4E32222F1E838FAD"
+				title: "我寻思这玩意长得挺漂亮的"
+				type: "checkmark"
+			}]
+			title: "霍，这都有小垃圾捞的"
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7F8E93BFE7E0BF51"]
+			description: [
+				"停下了和红发女孩的拌嘴，才注意到，船已经驶入了一条完全看不见尽头的河"
+				""
+				"&e“发生什么了？”"
+				""
+				"我盯着这一望无际的三途川，正疑惑着为什么红发女孩要突然停下划船的动作"
+				""
+				"我听阿求说过，三途川亡灵渡河也是要交钱的来着？不过我好歹还是活人，用不着交钱吧？"
+				""
+				"不过看她的表情，貌似并不是因为这件事"
+				""
+				"&c“居然是亡灵暴乱吗？偏偏在这个时间……喂！你是叫史蒂夫对吧！”"
+				""
+				"{@pagebreak}"
+				"&e“对，对！”"
+				""
+				"&c“没时间让你悠哉游哉坐船看风景了！拿起你的剑！战士，我们去教训教训这群不知天高地厚的亡灵！”"
+				""
+				"&e“没问题”"
+				""
+				"无需多言，我拔出我的剑，和少女背靠背站在一起"
+				""
+				"&c“放轻松，左右是群不甘心死去的亡灵暴动而已，对你来说应该不会很难。让我看看你的实力吧”"
+				""
+				"&c“准备，要上了！”"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2875F8690B21732D"
+			rewards: [
+				{
+					id: "78EB0D13E9E0D06A"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:emerald_grove"
+						}
+					}
+					title: "那么，开战吧!"
+					type: "item"
+				}
+				{
+					id: "1A4F1502818F126C"
+					title: "如果是超前期玩家，这个可能打不过，可以酌情考虑不打"
+					type: "custom"
+				}
+			]
+			size: 0.01d
+			tasks: [{
+				id: "332CC55E4F1C58B2"
+				title: "我准备好了！"
+				type: "checkmark"
+			}]
+			title: "三途川的暴动"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2875F8690B21732D"]
+			description: [
+				"&c“……你在干什么？”"
+				""
+				"&e“打扫战场阿？这还用问吗？”"
+				""
+				"&c“你也不嫌脏？”"
+				""
+				"&e“从僵尸阿骷髅啥的身上扒点东西下来，这是我的习惯。呐！你瞧，这不就找到好东西了吗！”"
+				""
+				"&c“呕……死人身上的辣条……”"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "580B71962D87AE0B"
+			rewards: [{
+				id: "79B52AF6BB04301A"
+				item: "ltc2:treasure_pepper_jolokia_latiao"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "302ACB678CCCC11C"
+				title: "咦，你还揣着这种东西呐？"
+				type: "checkmark"
+			}]
+			title: "稍微，清扫一下战场"
+			x: 0.5d
+			y: 13.5d
+		}
+	]
+	title: "冥河的摆渡使者"
+}

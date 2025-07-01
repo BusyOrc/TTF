@@ -1,0 +1,36 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "multiply_total",
+        "attribute": "forge:swim_speed",
+        "unique": "tconstruct.modifier.fog_swim",
+        "slots": [
+          "mainhand",
+          "offhand",
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.flying_speed",
+        "unique": "tconstruct.modifier.fog_swim",
+        "slots": [
+          "mainhand",
+          "offhand",
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

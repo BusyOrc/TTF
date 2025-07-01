@@ -1,0 +1,134 @@
+
+{
+	"content": {
+
+        "librarian_rew_bookshelf": {
+            "type": "item",
+            "content": "touhou_little_maid:power_point",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 800
+        },
+
+        "librarian_rew_lantern": {
+            "type": "item",
+            "content": "minecraft:experience_bottle",
+            "amount": {
+                "min": 3,
+                "max": 8
+            },
+            "unitWorth": 950
+        },
+
+        "librarian_rew_ench_book_protect": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:fireproof\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_book_feather_falling": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"domesticationinnovation:bubbling\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_book_respiration": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"domesticationinnovation:health_siphon\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_book_thorns": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:total_recall\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_bookdepth_strider": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500.0,
+            "nbt": "{StoredEnchantments:[{lvl:2s,id:\"domesticationinnovation:vampire\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_book_sharpness": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500.0,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"domesticationinnovation:void_cloud\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_ench_book_frost_walker": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500.0,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"domesticationinnovation:charisma\"}]}",
+            "weightMult": 0.2
+        },
+
+        "librarian_rew_name_tag": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:name_tag",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4500
+        },
+
+        "librarian_rew_name_tag_bargain": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:name_tag",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2500
+        }
+
+	}
+
+}

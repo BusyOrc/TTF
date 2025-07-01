@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot"
+    }
+  ],
+  "level": 1,
+  "result": "mushroom_daydream:no_me",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

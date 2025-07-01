@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CXC",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "X": {
+      "item": "rats:idol_of_ratlantis"
+    },
+    "B": {
+      "item": "create:creative_motor"
+    },
+    "A": {
+      "item": "rats:oratchalcum_ingot"
+    },
+    "C": {
+      "item": "rats:gem_of_ratlantis"
+    }
+  },
+  "result": {
+    "item": "mushroom_daydream:rat_world",
+    "count": 1
+  }
+}

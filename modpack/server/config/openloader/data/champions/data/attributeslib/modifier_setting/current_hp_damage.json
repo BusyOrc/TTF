@@ -1,0 +1,17 @@
+{
+  "attributeType": "attributeslib:current_hp_damage",
+  "conditions": {
+    "affixes": {
+      "values": ["champions:arctic","champions:dampening", "champions:knocking", "champions:reflective", "champions:wounding"]
+    },
+    "entity": [
+"hmag:ender_executor"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.03
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tconstruct:photo"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:snap_crit"
+      }
+
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+
+
+      {
+        "level": 1,
+        "name": "tconstruct:hermit_purple"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:absorption"
+      }
+
+      ]
+    }
+  }

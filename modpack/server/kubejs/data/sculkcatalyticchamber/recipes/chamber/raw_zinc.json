@@ -1,0 +1,27 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "tag": "forge:ingots/zinc"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:sculk_vein"
+    }
+  ],
+  "catalysts": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "chances": 1.0,
+  "results": [
+    {
+      "item": "create:raw_zinc"
+    }
+  ]
+}

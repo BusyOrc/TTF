@@ -1,0 +1,20 @@
+{
+	"is_emf_animation_halt_enabled": true,
+	"emf_animation_halt_blacklist": [],
+	"emf_animation_halt_animation_blacklist": [
+		"seriousplayeranimations:blank_loop"
+	],
+	"emf_force_vanilla_models": [],
+	/* For these entities, apply specific model modifications to their EMF model to adjust it during an EMF animation halt. 
+	   
+	   Refer to the wiki for formatting instructions: https://github.com/Thelnfamous1/Mob-Player-Animator/wiki/EMF-Model-Modifiers. 
+	   
+	   Use a JSON validator such as https://jsonlint.com/ to ensure your JSON strings are correct.
+	*/
+	"emf_model_modifiers": {
+		"minecraft:vindicator": "{\"part_modifiers\":{\"left_arm\":{\"visible\":true,\"animated_group\":[\"leftArm\"]},\"body#EMF_body#EMF_arms_rotation\":{\"visible\":false,\"animated_group\":[\"leftArm\",\"rightArm\"]},\"left_leg#EMF_left_leg\":{\"animated_group\":[\"leftLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_leg#EMF_right_leg\":{\"animated_group\":[\"rightLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_arm\":{\"visible\":true,\"animated_group\":[\"rightArm\"]}}}",
+		"minecraft:pillager": "{\"part_modifiers\":{\"left_leg#EMF_left_leg\":{\"animated_group\":[\"leftLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_leg#EMF_right_leg\":{\"animated_group\":[\"rightLeg\"],\"offset_position\":[0.0,12.0,0.0]}}}",
+		"takesapillage:legioner": "{\"part_modifiers\":{\"left_leg#EMF_left_leg\":{\"animated_group\":[\"leftLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_leg#EMF_right_leg\":{\"animated_group\":[\"rightLeg\"],\"offset_position\":[0.0,12.0,0.0]}}}"
+	},
+	"guess_emf_part_modifier_animated_groups": true
+}

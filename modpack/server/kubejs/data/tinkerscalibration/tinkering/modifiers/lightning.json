@@ -1,0 +1,26 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 3,
+        "operation": "addition",
+        "attribute": "minecraft:generic.attack_knockback",
+        "unique": "tconstruct.modifier.lightning",
+        "slots": [
+          "mainhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.07,
+        "operation": "multiply_total",
+        "attribute": "irons_spellbooks:lightning_spell_power",
+        "unique": "tconstruct.modifier.lightning",
+        "slots": [
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

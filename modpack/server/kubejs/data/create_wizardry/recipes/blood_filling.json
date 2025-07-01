@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "thermal:jar"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:blood"
+    }
+  ],
+  "results": [
+    {
+      "item": "irons_spellbooks:blood_vial"
+    }
+  ]
+}

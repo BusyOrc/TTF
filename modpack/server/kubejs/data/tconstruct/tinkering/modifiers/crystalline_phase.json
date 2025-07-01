@@ -1,0 +1,37 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 2.5,
+      "operation": "add",
+      "stat": "tconstruct:attack_damage",
+      "unique": "tconstruct.modifier.crystalline_phase",
+  "tool": {
+    "type": "mantle:tag",
+    "tag": "tconstruct:modifiable/melee"
+  }
+
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 2.5,
+      "operation": "add",
+      "stat": "tconstruct:projectile_damage",
+      "unique": "tconstruct.modifier.crystalline_phase",
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/ranged"
+      }
+    },
+    {
+      "type": "tconstruct:stat_boost",
+      "each_level": 0.2,
+      "operation": "multiply_base",
+      "stat": "tconstruct:durability",
+      "unique": "tconstruct.modifier.crystalline_phase"
+    }
+
+  ],
+  "tooltip_display": "always"
+}

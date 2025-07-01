@@ -1,0 +1,8 @@
+{
+    "type": "tconstruct:severing",
+    "entity": {
+      "type":  "hmag:crimson_slaughterer"
+      
+    },
+    "result": "minecraft:shroomlight"
+  }

@@ -1,0 +1,28 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 9,
+        "operation": "addition",
+        "attribute": "attributeslib:cold_damage",
+        "unique": "tconstruct.modifier.perfect_freeze",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.09,
+        "operation": "multiply_total",
+        "attribute": "irons_spellbooks:spell_power",
+        "unique": "tconstruct.modifier.perfect_freeze",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

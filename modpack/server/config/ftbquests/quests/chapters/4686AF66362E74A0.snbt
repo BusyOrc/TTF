@@ -1,0 +1,753 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4686AF66362E74A0"
+	group: "70B4907D74D7EF03"
+	icon: "touhou_little_maid:bookshelf"
+	id: "4686AF66362E74A0"
+	images: [
+		{
+			height: 4.0d
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.75d
+			y: -0.75d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/electrocute.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["没有稳定附魔，只能吹出普通泡泡"]
+			image: "supplementaries:item/bubble_blower_using"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/bubble.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/bubble_pop_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/bubble_pop_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/bubble.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/bubble_pop_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/entity/deep_one/bubble.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["有稳定附魔，可以吹出方块泡泡"]
+			image: "supplementaries:item/bubble_blower_using"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 8.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"走进这座在朦胧夜色中有些许窗户泛着微光的血红色洋馆中，一般人很容易迷失在错综复杂的回旋走廊，不能从这一侧打开的门，以及致命的红石陷阱中。但好在有一位魔法使带路，将你领到了一处堆满书籍的地方。"
+				""
+				"“外乡人叫这里&a大图书馆&r，但是我的说法是——&a大书库&r。”神秘的魔法使说道。"
+			]
+			icon: "touhou_little_maid:bookshelf"
+			id: "18AAD55258BE9D87"
+			tasks: [{
+				id: "098F5DB19A24422E"
+				type: "checkmark"
+			}]
+			title: "1 昨天我们攻略了大书库"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18AAD55258BE9D87"]
+			description: [
+				"帕秋莉：法术卷轴是一次性&c消耗品&r，但只要将其魔力融入法术书中，就能&a持续使用&r。"
+				""
+				"烈焰风暴，一个普普通通的法术，等你有了法术书，就可以开始练习基础的魔法。"
+				""
+				"另外，不要看到烈焰风暴就联想到虚无，法力汲取，召唤凤凰，据我所知，这里没有那种法术。但是别的法术一样可以很&l优雅&r。"
+				""
+				"顺便给你科普一下法强的概念。法强或总法强能增强所有法术的效果，与每个派系的法强&d乘法叠加&r"
+			]
+			id: "675426B2C88EB4C0"
+			rewards: [{
+				id: "67E2F1A91E51851E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA37194E1973879"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "2 抄抄抄抄抄写台"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["&m帕奇&r帕琪：“没有法术书可不行，有许多更好的法术书，但这是最容易制作的”"]
+			id: "5036EAD7EE48F378"
+			rewards: [{
+				count: 4
+				id: "408394E0F658847D"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD208F58EB886A5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "3 初学者"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["帕秋莉：你可以手动制作需要的法术卷轴，除此之外，有很多法术需要更多额外材料才能制作"]
+			id: "516CC2BCAE3BCCDE"
+			rewards: [{
+				id: "3DDA37BFCDF2728B"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			subtitle: "那么代价是什么呢"
+			tasks: [{
+				id: "78E4818AB343876E"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "4 卷轴之力，如此美妙"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["“升级卷轴就在这里进行，只需要用&a墨水&r就行，你可以试试升级刚才获得的烈焰风暴，高等级的卷轴想要继续提升，需要更好的墨水。”"]
+			id: "7231A40D7C054B6D"
+			rewards: [{
+				id: "35B01FE9ED517C71"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AF82D2697068B95"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "6 奥术铁砧"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: [
+				"帕秋莉：“把生物放进去，就能提炼出&c猩红精华&r。把你自己放进去也行。提取到锅中以后需要用到&a玻璃瓶&r收集。这是最主要的用途，除此之外，你想用它来炼药也是可行的。炼药锅的下方并不需要热源，这样放只是为了美观而已。”"
+				""
+				""
+				"“不需要的卷轴可以扔进去回收，自己也可以进去回收成猩红精华”"
+				""
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.35.56.png width:190 height:100 align:center}"
+			]
+			id: "17FC1AB6CF9DE594"
+			rewards: [{
+				count: 16
+				id: "4CAE1AD0ECAFA309"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "加点毒蘑菇，再加点旧鞋跟"
+			tasks: [{
+				id: "34F98CC60A142246"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "5 炼金锅"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"516CC2BCAE3BCCDE"
+				"17FC1AB6CF9DE594"
+				"7231A40D7C054B6D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"“前有宝物，所以接下来，挖掘很有用。”"
+				""
+				"“前面需要注意下。”"
+				""
+				"“如果在主世界的话，但是暮色森林”"
+				""
+				"帕秋莉以奇怪的语气说道。"
+				""
+				"{@pagebreak}"
+				"一旁的小恶魔提供了翻译：“主世界往地下深层挖掘可以找到。&a暮色森林&r中有需要用机械才能挖的&a矿脉&r可以挖掘。”"
+			]
+			id: "00E27A58740EFA00"
+			rewards: [{
+				count: 2
+				id: "41FE1AEC1977C815"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "birch"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5FAA77485341CB"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			title: "7 深藏不露"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00E27A58740EFA00"]
+			description: [
+				"“在释放部分法术的时候，可能会遇到&a法术被打断&r的情况，这时候就需要用到这种项链了。”"
+				""
+				"“什么？你说天神下凡？但是这个项链也不加血量和攻击力啊，而且并非魔免，只是能保证法术的持续吟唱而已。”"
+			]
+			id: "750CF460DBC29083"
+			tasks: [{
+				id: "350E2C3C3B862963"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			title: "8 专注！"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00E27A58740EFA00"]
+			description: ["帕秋莉：“这种材料能制作的有用饰品还有很多，但这是最实用的一个。”"]
+			id: "5A2B44CA318C0416"
+			tasks: [{
+				id: "7542D010C66A7DF8"
+				item: "irons_spellbooks:fireward_ring"
+				type: "item"
+			}]
+			title: "9 火焰啊"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00E27A58740EFA00"]
+			description: [
+				"“如果还想获得更强的法术属性，就需要多修炼个人技能。这方面暂时帮不了你了，只能先靠自己。但绝大部分基础的内容都已经教会你了。”"
+				""
+				"“除此之外提升法术本身的等级也很重要，多用墨水提高所用法术的等级，或者直接用墨水制作能撰写的部分法术。”"
+			]
+			id: "69A08E714233AC24"
+			rewards: [{
+				id: "7F0D2C6DAEDA7045"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A07B9D7E74F4AD"
+				title: "10 魔法之力"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18AAD55258BE9D87"]
+			description: ["帕秋莉：“我这里有本不要的法术书，正好最近比较缺少墨水，如果你有的话可以来换”"]
+			id: "36E779D140087165"
+			rewards: [{
+				id: "103E27E9A30DA065"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3D7E8FEDB21F0C20"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			title: "以旧换新"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["“常见于&a古城&r的特殊宝物，能合成远古巫术手稿来学习远古巫术”"]
+			id: "29F9C709292288EE"
+			rewards: [{
+				id: "7A47C9E7C8E3813C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+								index: 0
+								level: 2
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "039E968AC7A6EEDA"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			title: "11 远古知识"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“使用法术&a冲击波&r可以将苦力怕转化为高压苦力怕，之后使用玻璃瓶即可获得雷电瓶。除此之外，也可能作为战利品生成在各处。”"]
+			id: "619D4D382992A18C"
+			rewards: [{
+				id: "17C98BF4D862D0B1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heal"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36FBC5B2B7E921E3"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			title: "12 雷霆之力"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"18AAD55258BE9D87"
+				"52A1E988CD2320F7"
+			]
+			description: [
+				"帕秋莉：既然你从咲夜那里听说了我这里有异变相关的信息，那我就直说了吧，根据一本古书上的记载，内容是这样说的，当大量个体在复杂的虚拟互动关系中丢失主体性时，个体的总和将变为失控的群体，而这部分溢出的能量并不会凭空消失，而是转化为能够催生异常形态变化与抑制原生力量的魔力源泉。"
+				""
+				"听不懂吗？那我换个说法，外界发生的某些事件影响到了幻想乡，让强大的魔物兴起，而许多原本拥有的能力则遭到削弱和抑制，比如说觉的读心"
+				"{@pagebreak}"
+				"至于具体发生了什么事件才导致异变，书上写得也很模糊，可能还要再研究一下。"
+			]
+			hide_text_until_complete: true
+			id: "6B346A99F56A4EE5"
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "622CF82BCF57B57E"
+				type: "checkmark"
+			}]
+			title: "询问帕秋莉关于异变"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CF8AF2437575020"]
+			description: ["做一个泡泡环出来，之后有用。如果需要补充泡泡，可以用肥皂合成"]
+			icon: {
+				Count: 1
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DB7704A00A238EA"
+			tasks: [
+				{
+					id: "2B3800D6A84D877A"
+					item: {
+						Count: 1
+						id: "supplementaries:bubble_blower"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "7B96055D822E94B7"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7DB7704A00A238EA"]
+			description: [
+				"帕秋莉：第二步，给泡泡环用铁砧附魔上稳定"
+				""
+				"这个附魔书在各种地牢中应该都能找到，除此之外，末地城出现的概率可能会略高一些"
+				""
+				"这个附魔的意义在于，让泡泡环能够吹出稳定存在的泡泡方块，在某些特殊的能量汇集点，例如下界的某些地点，这种方块能够聚集能量并且可以用一些方式提取出来"
+			]
+			id: "468C88C4EA840FC0"
+			tasks: [{
+				id: "77F1D9E9BB451E23"
+				type: "checkmark"
+			}]
+			title: "附魔"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["468C88C4EA840FC0"]
+			description: [
+				"帕秋莉：还需要准备&a一个炽焰符文和一个远古树苗&r，&b树苗需要放在副手&r，除此之外，最好给你的盔甲多准备点爆炸抗性和恢复相关道具，试试用黑曜石板给匠魂盔甲打上爆炸防护"
+				""
+				"都准备妥当之后，前往下界寻找这种特殊的自然生成结构（探险家指南针可搜索fumo_nether），尽管目前仍不知道形成的具体原理，但是根据简单的推算，异变产生的大量能量会在这种节点汇集。"
+				""
+				"你需要做的事情很简单，&b来到这种下界fumo结构&r所在地方，吹出来一个泡泡方块，&b主手用炽焰符文左键泡泡方块&r。根据《高等魔法》《魔法流体动力学》和《结构魔法》的相关理论推算，这种行为会将能量和物质相互转化。尽管目前还没有任何实验结果，但是根据能量=魔力×紫传送速度^2，在这个过程中损失的很小一部分魔力也会产生一定的影响。"
+			]
+			icon: "irons_spellbooks:fire_rune"
+			id: "17B8018E470F9D14"
+			rewards: [{
+				id: "6C92B17CB36F1F29"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "00EE5FA4B5EBD180"
+					structure: "ttf:fumo_nether"
+					type: "structure"
+				}
+				{
+					id: "20E20B24FBC90100"
+					item: "irons_spellbooks:fire_rune"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17B8018E470F9D14"]
+			description: ["帕秋莉：这些液体我很需要，可以尽量多拿一些来。我这里有一些你可能需要的东西"]
+			id: "7F3B5F89C3FBB1E6"
+			rewards: [{
+				count: 4
+				id: "5BE96EA45013F8A7"
+				item: "chemlib:strontium_chloride_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E9C3D5F405B35B8"
+				item: "kubejs:ancient_resin_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17B8018E470F9D14"]
+			description: ["帕秋莉：正常获取这些液体可能看起来很困难，实际上一点也不简单，需要树汁提取器+流体精炼机+输入输出的管道或者线缆共同配合才能完成。如果这方面遇到困难的话，或许可以试试这种新方法？"]
+			id: "01BC608A8986D7DB"
+			rewards: [{
+				count: 8
+				id: "76A6CB2EBAC21FF9"
+				item: "chemlib:rubidium_carbonate_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "240734CA00DC2647"
+				item: "kubejs:greatrune_forgery_fluid_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["18AAD55258BE9D87"]
+			description: ["帕秋莉：可能有人试图用一些科技手段来解决异变，但是我提供一条全新的思路，&a不需要用到任何科技与狠活&r"]
+			icon: "quark:glass_item_frame"
+			id: "5CF8AF2437575020"
+			tasks: [{
+				id: "778AEB25ABCB3282"
+				type: "checkmark"
+			}]
+			title: "纯天然零添加"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CF8AF2437575020"]
+			description: [
+				"帕秋莉：找到&b任意一本古卷&r，主手拿古卷右键与&a雪豹&r互动，可以换取得到特殊物品，一个特殊的&m瑞克5代&r外壳5代"
+				""
+				"雪豹通常出现在寒冷的群系"
+				""
+				"古卷可在各处遗迹结构中的战利品箱里发现"
+			]
+			icon: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "57993CA474FA1CED"
+			tasks: [
+				{
+					id: "70C99596466E73C9"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}]
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "0F71175B2E412F29"
+					item: "ae2_mega_things:mega_item_disk_housing"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CF8AF2437575020"]
+			description: [
+				"帕秋莉：前往下界之前先准备好基础的钓鱼工具吧。但是我只会简单和你讲讲情况，想学的话你最好去找擅长寻找食材的"
+				"{ \"text\": \"夜雀老板娘\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783C5E1B7E03669F\" } }"
+				""
+				"顺便一提，&a记得给钓鱼竿附魔&r"
+			]
+			icon: {
+				Count: 1
+				id: "lavafishing:obsidian_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10952F79C0619272"
+			tasks: [
+				{
+					id: "2D91395A98FD665E"
+					item: {
+						Count: 1
+						id: "lavafishing:obsidian_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6696D892DE793CA2"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "4D2C4DCA781626F9"
+					item: "aquaculture:worm_farm"
+					type: "item"
+				}
+				{
+					id: "6CA62E90719C49C7"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "52763093798C16FC"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "05DEABF2E7656B13"
+					item: "aquaculture:obsidian_hook"
+					type: "item"
+				}
+			]
+			title: "熔岩钓鱼"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["10952F79C0619272"]
+			description: [
+				"帕秋莉：下界钓鱼的战利品中有概率收获一种特殊物品——普罗米修斯的恩惠"
+				""
+				"其中有概率开出一些特殊物品。"
+				""
+				"&a幸运&r可以提高钓鱼相关的战利品产出"
+				"{@pagebreak}"
+				"你知道吗：钷元素是用普罗米修斯的名字命名的"
+			]
+			icon: "lavafishing:promethium_ingot"
+			id: "2198DFC1BA14DC10"
+			subtitle: "普罗米修斯：兄弟传火吗？"
+			tasks: [
+				{
+					id: "7FC24B9992958A9D"
+					item: "chemlib:osmium_dust"
+					type: "item"
+				}
+				{
+					id: "7054B0204E6868A0"
+					item: "chemlib:platinum_dust"
+					type: "item"
+				}
+				{
+					id: "027C57BC0E1C2A49"
+					item: "lavafishing:promethium_ingot"
+					type: "item"
+				}
+			]
+			title: "收获"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["空白升级法球如果要用来强化法强的话，需要用到8个对应符文合成升级法球，符文无法通过正常的合成获得，只能通过匠魂浇筑或机械动力注液获得"]
+			id: "202B0571F40E4DC4"
+			tasks: [{
+				id: "160CD2514B5CF0DE"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "大书库(魔法)"
+}

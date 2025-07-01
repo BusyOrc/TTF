@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "stalactites": [
+    "twilightforest:diamond_ore_stalactite",
+    "twilightforest:emerald_ore_stalactite",
+    "twilightforest:lapis_ore_stalactite",
+    "twilightforest:lead_ore_stalactite",
+    "twilightforest:tin_ore_stalactite",
+    "twilightforest:silver_ore_stalactite",
+    "twilightforest:sulfur_niter_ore_stalactite",
+    "twilightforest:nickel_ore_stalactite"
+  ]
+}

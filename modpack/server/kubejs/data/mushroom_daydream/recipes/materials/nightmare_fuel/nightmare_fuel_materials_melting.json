@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mushroom_daydream:nightmare_fuel",
+  "temperature": 999,
+  "result": {
+    "fluid": "mushroom_daydream:nightmare_fuel",
+    "amount": 90
+  }
+}

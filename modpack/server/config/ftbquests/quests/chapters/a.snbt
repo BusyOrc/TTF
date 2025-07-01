@@ -1,0 +1,172 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a"
+	group: "7E2BC7A0DAD568E2"
+	icon: "alexscaves:uranium"
+	id: "6385183010BAA45B"
+	images: [
+		{
+			height: 2.0d
+			image: "thermal:item/flux_capacitor"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -11.4d
+		}
+		{
+			height: 2.0d
+			image: "thermal:item/flux_capacitor_2_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -11.4d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["剧情未完待续"]
+			id: "459FFD58590F0208"
+			subtitle: "怪了，我记得幻想乡人里貌似没有核能吧..."
+			tasks: [{
+				id: "3190A529CCCE72FE"
+				title: "滴滴滴滴 滴滴滴滴！"
+				type: "checkmark"
+			}]
+			x: -9.1d
+			y: -11.4d
+		}
+		{
+			description: [
+				"已经不是普通的蟑螂了，必须出重拳"
+				""
+				"默认为中立状态，但是会主动攻击有&a辐照&r效果的生物，受伤后释放的毒气也会让生物获得辐照"
+				""
+				"喂食硫心蛋糕卷可获得成就【反天灾协议】"
+				""
+				"击杀后掉落：毒化烂泥"
+			]
+			icon: "alexscaves:toxic_paste"
+			id: "46E62E213FB008A4"
+			rewards: [{
+				id: "0739092CEFC3014A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "alexscaves:gammaroach"
+					id: "731D915EF29FBA08"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "592CCAC12E0C8C10"
+					item: "alexscaves:toxic_paste"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46E62E213FB008A4"]
+			description: [
+				"辐照是一种特殊的效果，来源："
+				""
+				"接触伽马蟑螂释放和废料桶以物品形式被摧毁后产生的药水云，被舐脑魔攻击，被撼地斯拉攻击，背包中存在废料桶、铀棒等物品，遭遇核能苦力怕、核能熔炉、核弹所造成的核爆也会被附加辐照效果"
+				""
+				"效果："
+				""
+				"拥有该效果的生物将无法自然回复生命值（玩家在生命值未满情况下会消耗饥饿值到17点而不回复生命值），同时在效果等级大于I时会缓慢扣除实体的生命值。玩家可以通过食用“绿色食品”、硫心蛋糕卷和猛汉午餐肉在辐照状态下恢复生命值。食用以上三种食物，会取得进度[临期食品]。"
+				""
+				"在辐照等级大于III时实体身上发出的绿光将转为蓝光。这致敬了切伦科夫辐射这一物理现象。既当核反应放出的高能粒子以超过介质中光速的速度在介质中移动时，将发出蓝光。该现象可在核反应堆启动等场合中被观测到。"
+				""
+				"[ \"饮用奶桶无法解除该效果，玩家需要已驯服的射线猫吸收以解除该效果。或者通过匠魂的\", { \"text\": \"辐射免疫强化\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6191A07C0BF056F2\" } }, \"来完全抵抗辐射效果\" ]"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tconstruct:necronium"
+				}
+			}
+			id: "41E9DFBECA7B0A3F"
+			tasks: [{
+				id: "22CBF6C7AA2D1D3D"
+				type: "checkmark"
+			}]
+			title: "关于辐照"
+			x: -13.0d
+			y: -9.0d
+		}
+		{
+			description: ["试试挖掘毒化洞穴里的矿物？"]
+			id: "1524CBA1420EFF0E"
+			tasks: [{
+				id: "63ABA55B977EC8B6"
+				item: "chemlib:uranium_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"在毒化洞穴里能见到的特殊亡灵生物，通常用长舌，手臂和背后的废料桶进行攻击，可以施加辐照效果"
+				""
+				"在损失了10点生命值后，舐脑魔会把背后的核废料桶扔出，被扔出的核废料桶会在一段时间内爆炸并变成酸液源。以这种方式生成的酸液只会持续一小段时间。"
+				""
+				"舐脑魔有小概率会饮用背后废料桶中的酸液，并使自己获得时长为20s的抗性提升和力量效果，等级均为一级。"
+				""
+				"无论是饮用还是将废料桶丢出，这么做的舐脑魔都会失去它的废料桶，并且在此次战斗中无法再次使用上述和废料桶有关的攻击。但在脱离战斗状态后，它会尝试拾取方块形式的废料桶并将其背在背上，以便下次战斗使用。"
+				""
+				"击杀后，概率掉落焦化残骸*0-1、“绿色食品”*0-1和腐肉*0-2"
+			]
+			id: "1CF9FAA38854C1F7"
+			rewards: [{
+				count: 4
+				id: "242421748B4EFF01"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			subtitle: "舔食者？"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "57BE6784D9199849"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"一旦核能苦力怕周围有玩家，它就会靠近并开始起爆倒计时，倒计时约为15秒钟，此时核能苦力怕的头部会发出类似核能警示灯的绿光，同时会使周围的核能警报器播放警报声来警告玩家，同时头部上下的金属会不断靠近，当两块金属相撞时，就会发生核爆。"
+				""
+				"一旦爆炸，后果极其严重，会破坏大范围内的绝大部分方块，并且造成上千点持续伤害，并给予辐照效果"
+				""
+				"击败之后掉落0-2个火药和0-1个裂变核心"
+			]
+			id: "12ACA9BDCD094020"
+			rewards: [{
+				count: 5
+				id: "1FFEF2654471AA3D"
+				item: "tconstruct:obsidian_reinforcement"
+				type: "item"
+			}]
+			subtitle: "警告！警告！"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				id: "04AD77CEBC35C007"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+	]
+	title: "盖革计数器的异常"
+}

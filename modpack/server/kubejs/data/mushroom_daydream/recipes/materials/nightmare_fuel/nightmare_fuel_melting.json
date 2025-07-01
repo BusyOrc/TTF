@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mushroom_daydream:knightslime_ingot"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:molten_knightslime",
+    "amount": 90
+  },
+  "temperature": 999,
+  "time": 20
+}

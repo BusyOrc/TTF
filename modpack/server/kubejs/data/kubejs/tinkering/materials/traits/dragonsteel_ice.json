@@ -1,0 +1,16 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:ice"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "tinkerscalibration:ice"
+          }
+      ]
+    }
+  }

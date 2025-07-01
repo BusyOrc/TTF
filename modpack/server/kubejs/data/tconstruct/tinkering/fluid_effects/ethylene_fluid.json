@@ -1,0 +1,31 @@
+{
+    "block_effects": [
+      {
+        "type": "tconstruct:mob_effect_cloud",
+        "effects": [
+          {
+            "effect": "minecraft:weakness",
+            "level": 1,
+            "time": 600
+          },
+          {
+            "effect": "minecraft:nausea",
+            "level": 3,
+            "time": 600
+          },
+          {
+            "effect": "minecraft:slowness",
+            "level": 1,
+            "time": 600
+          }
+        ]
+      }
+    ],
+    "entity_effects": [
+
+    ],
+    "fluid": {
+      "amount": 50,
+      "fluid": "chemlib:ethylene_fluid"
+    }
+  }

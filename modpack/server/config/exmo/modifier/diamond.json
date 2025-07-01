@@ -1,0 +1,18 @@
+{  "type": "CURIOS-ALL",
+"curios1": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:diamond"],
+  "attrGethers": {
+"l2damagetracker:crit_damage": {
+      "weight":24,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

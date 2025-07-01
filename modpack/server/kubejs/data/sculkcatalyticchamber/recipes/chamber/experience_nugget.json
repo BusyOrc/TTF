@@ -1,0 +1,31 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "item": "minecraft:sculk"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "forge:nuggets/gold"
+    }
+  ],
+  "chances": 0.7,
+  "results": [
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{  
+    "conditions":
+    [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container":
+    {
+      "item": "thermal:bell_pepper"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients":
+    [
+        {
+            "tag": "forge:crops/onion"
+        },
+        {
+            "tag": "forge:crops/rice"
+        },
+        {
+            "tag": "forge:foods/meat/raw"
+        },
+        {
+            "item": "thermal:cheese_wedge"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result":
+    {
+        "item": "thermal:stuffed_pepper"
+    }
+  }

@@ -1,0 +1,35 @@
+{
+    "modifier.sakuratinker": {
+        "nether_ghost":"#EE82EE",
+        "guardian_shell":"#FFEC8B",
+        "solid":"#00BFFF",
+        "promotion":"#FF83FA",
+        "kobold":"#C1CDCD",
+        "storm_veil":"#6495ED",
+        "rootedness":"#4EEE94",
+        "energy_infusion":"#97FFFF",
+        "jinx_doll":"#00FF7F",
+        "youkaified":"#FF00FF",
+        "magician":"#BA55D3",
+        "elemental_mastery":"#FFDAB9",
+        "fountain_magic":"#6495ED",
+        "twilight_sparkle":"#B22222",
+        "twilight_remembrance":"#ADFF2F",
+        "armor_twilight_remembrance":"#ADFF2F",
+        "dissloving":"#9C9C9C",
+        "ruination":"#6495ED",
+        "mortal_wound":"#FF6A6A",
+        "reapers_blessing":"#FFA500",
+        "mamba":"#FFC1C1",
+        "shitakuso":"#FF4500",
+        "earth_light":"#F0E68C",
+        "dodge":"#008080",
+        "moon_rabbit":"#FFC0CB",
+        "mary":"#00FFFF",
+        "yumekui":"#4169E1"
+    },
+    "material.sakuratinker": {
+
+
+    }
+}

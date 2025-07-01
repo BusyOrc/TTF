@@ -1,0 +1,42 @@
+{  
+    "conditions":
+    [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container":
+    {
+      "item": "thermal:jar"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients":
+    [
+        {
+            "tag": "forge:crops/peanut"
+        },
+        {
+            "tag": "forge:crops/peanut"
+        },
+        {
+            "tag": "forge:crops/peanut"
+        },
+        {
+            "tag": "forge:crops/peanut"
+        },
+        {
+            "tag": "forge:crops/peanut"
+        },
+        {
+            "tag": "forge:crops/peanut"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result":
+    {
+        "item": "thermal:peanut_butter"
+    }
+  }

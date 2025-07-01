@@ -1,0 +1,202 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 15
+        },
+                {
+          "type": "minecraft:item",
+          "name": "aquaculture:atlantic_cod",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:blackfish",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:pacific_halibut",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:atlantic_halibut",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:atlantic_herring",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:pink_salmon",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:pollock",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:rainbow_trout",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:bayad",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:boulti",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:capitaine",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:synodontis",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:smallmouth_bass",
+          "weight": 21
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:bluegill",
+          "weight": 23
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:brown_trout",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:carp",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:catfish",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:gar",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:minnow",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:muskellunge",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:perch",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:arapaima",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:piranha",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:tambaqui",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:brown_shrooma",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:red_shrooma",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:jellyfish",
+          "weight": 5
+        },
+                {
+          "type": "minecraft:item",
+          "name": "aquaculture:red_grouper",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:tuna",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:leech",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:goldfish",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:box_turtle",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:arrau_turtle",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:starshell_turtle",
+          "weight": 16
+        }      
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

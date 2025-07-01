@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "mushroom_daydream:molten_liga",
+      "amount": 480
+    },
+    {
+      "name": "chemlib:sulfuric_acid_fluid",
+      "amount": 1500
+    },
+    {
+      "name": "chemlib:bromine_fluid",
+      "amount": 720
+    },
+    {
+      "name":"sakuratinker:molten_nihilite",
+      "amount":720
+    }
+  ],
+  "result": {
+    "fluid": "mushroom_daydream:mantle_heimdallr",
+    "amount": 90
+  },
+  "temperature": 1875
+}

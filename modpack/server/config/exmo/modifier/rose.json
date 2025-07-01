@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios4": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:rose"],
+  "RandomNum":"1",
+  "attrGethers": {
+"l2damagetracker:crit_rate": {
+      "weight":24,
+    "value": 0.1,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

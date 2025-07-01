@@ -1,0 +1,21 @@
+{
+  "affixes": [
+    "champions:desecrating",
+    "champions:adaptable"
+  ],
+  "enable": true,
+  "entityBlackList": [
+    "minecraft:pig",
+    "minecraft:zombie"
+  ],
+  "gateway_type": "endless",
+  "setting_id": "champions:wave_2to5",
+  "tier_range": {
+    "max": 5,
+    "min": 2
+  },
+  "wave_range": {
+    "max": 4,
+    "min": 2
+  }
+}

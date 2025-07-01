@@ -1,0 +1,49 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "superheated",
+  "topIngredients": [
+    {
+      "tag": "forge:cobblestone"
+    },
+    {
+      "item": "thermal:phytogro"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ],
+  "catalysts": [
+    {
+      "amount": 100,
+      "fluidTag": "forge:honey",
+      "nbt": {}
+    }
+  ],
+  "chances": 0.5,
+  "results": [
+    {
+      "item": "biomesoplenty:dried_salt",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:apatite_dust",
+      "chance": 0.8
+    },
+    {
+      "item": "hmag:lightning_particle",
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "chance": 0.2
+    }
+  ]
+}

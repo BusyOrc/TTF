@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios2": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:redstone"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.attack_speed": {
+      "weight":24,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_total"
+  }
+  }
+}
+}
+

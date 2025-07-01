@@ -1,0 +1,518 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4AE9DEFBC0ACB3F9"
+	group: "7E2BC7A0DAD568E2"
+	icon: "minecraft:cherry_sapling"
+	id: "4AE9DEFBC0ACB3F9"
+	images: [
+		{
+			click: "#539B6EDBC9C03067"
+			dependency: "1155674CE816A8B5"
+			height: 2.5d
+			hover: ["正在做饭的你，听见了神秘的玻璃破碎音"]
+			image: "tconstruct:block/clear_glass"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			click: "#"
+			dependency: "635FF47147565B79"
+			height: 6.0d
+			hover: [
+				"敬启，史蒂夫先生"
+				"我是白玉楼的庭师，魂魄妖梦"
+				"幽幽子大人貌似在铃奈庵的藏书中发现了很有意思的记载"
+				"由是，幽幽子大人诚挚邀请您，战斗与探险的专家，史蒂夫先生"
+				"来我们白玉楼一叙"
+				"负责接引的摆渡人小姐应该已经在路上了，还请您快些收拾行囊"
+				"另，奉上小小礼物，不成敬意"
+			]
+			image: "minecraft:item/paper"
+			rotation: -30.0d
+			width: 6.0d
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			click: "#539B6EDBC9C03067"
+			color: 131586
+			dependency: "539B6EDBC9C03067"
+			height: 2.0d
+			hover: ["窗户！我的窗户碎了啊啊啊"]
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/dimensional_rift_grow_2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			click: "#635FF47147565B79"
+			dependency: "539B6EDBC9C03067"
+			height: 1.0d
+			hover: ["一片狼藉中，躺着……一封信？"]
+			image: "minecraft:item/map"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["鸦天狗的羽毛……好乱啊"]
+			image: "twilightforest:item/raven_feather"
+			order: 1
+			rotation: 10.0d
+			width: 0.5d
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["鸦天狗的羽毛……好乱啊"]
+			image: "twilightforest:item/raven_feather"
+			order: 1
+			rotation: 10.0d
+			width: 0.5d
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["鸦天狗的羽毛……好乱啊"]
+			image: "twilightforest:item/raven_feather"
+			order: 1
+			rotation: 10.0d
+			width: 0.5d
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			click: "#21906AFE62494B64"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["鸦天狗的羽毛……好乱啊"]
+			image: "twilightforest:item/magic_map_focus"
+			order: 1
+			rotation: -100.0d
+			width: 0.5d
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			click: "#32D42DCB2797469D"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/gray_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			click: "#"
+			dependency: "539B6EDBC9C03067"
+			height: 0.5d
+			hover: ["我辛辛苦苦烧的窗玻璃阿……就这么碎了"]
+			image: "quark:item/clear_shard"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			click: "#3600C26584476026"
+			dependency: "635FF47147565B79"
+			height: 2.0d
+			hover: ["随着信一起掉出来的——超大的礼物盒？"]
+			image: "nffgirls:block/gift_box_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			click: "#26A1061C1E4A66F4"
+			dependency: "0E3867B1F430892C"
+			height: 4.0d
+			hover: ["ok！我收拾好了！"]
+			image: "touhou_little_maid:item/maid_backpack_small"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "minecraft:textures/mob_effect/health_boost.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "tofucraft:item/apricotjerry_bread"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "minecraft:item/water_bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "torchmaster:block/megatorch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "tconstruct:block/brownstone/creeper"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependency: "0E3867B1F430892C"
+			height: 1.0d
+			image: "miners_delight:item/beef_stew_cup"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			click: "#0E3867B1F430892C"
+			dependency: "3600C26584476026"
+			height: 10.5d
+			hover: ["准备进入地狱吧……"]
+			image: "touhou_tinker_fantasy:textures/xiaoding.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["635FF47147565B79"]
+			description: [
+				"这盒子是怎么能塞在这一封小小的信里面的……算了，肯定是八云紫的隙间把戏之类的吧"
+				""
+				"&e“不过居然送来这么珍贵的锻造材料……看来这趟是非去不可了啊”"
+				""
+				"但是说到底，幻想乡居民当然要互帮互助啦！就算不送东西我也会欣然帮助的！送东西这不是贬低我的人格嘛~（悄悄收下）"
+				""
+				"&e“不过说到接应人……欸，不会吧，难道是……那位死神？”"
+				""
+				"很快，就仿佛是要回应起我的想法一样，从背后传来了脚步声"
+				""
+				"鸡皮疙瘩竖起，我僵硬转过头去…………"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "supplementaries:present_magenta"
+			id: "3600C26584476026"
+			rewards: [
+				{
+					count: 6
+					id: "34D9A1EA28EC0C57"
+					item: "kubejs:youmus_dualswords"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5C85C8D2DD7580ED"
+					item: "kubejs:sakura"
+					type: "item"
+				}
+			]
+			size: 0.01d
+			tasks: [{
+				id: "4568D76BFA3A708B"
+				title: "不是哥们，这么大个盒子是怎么塞在信里面的？"
+				type: "checkmark"
+			}]
+			title: "随着信一起掉出来的礼物盒"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1155674CE816A8B5"]
+			description: [
+				"来到幻想乡已经有好长一段时间，你也慢慢适应了这里的生活"
+				""
+				"当然，也包括时不时就会出现的恶作剧的妖精，找上门拼酒的鬼族大姐，还有莫名其妙抓着你就要开始弹幕决斗的战斗狂"
+				""
+				"这些东西对于你来说，已经变成了每天都看见的日常。"
+				""
+				"&e“想必这次也不例外吧”"
+				""
+				"你这么想着，朝着声音的源头走了过去"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "twilightforest:ore_map"
+			id: "539B6EDBC9C03067"
+			size: 0.01d
+			tasks: [{
+				id: "19D1257DAE4F2D77"
+				title: "去看看？"
+				type: "checkmark"
+			}]
+			title: "吵死了！这次又是什么东西啊！"
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7E8F7DC22FB0C928"]
+			description: ["就和你来到幻想乡之后的每一天一样"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "farmersdelight:apple_cider"
+			id: "1155674CE816A8B5"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "73C5386FA4FD1788"
+					title: "就和往常的所有天一样……大概？"
+					type: "checkmark"
+				}
+				{
+					id: "1C24EDF96CA5872E"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+			]
+			title: "平平无奇的休息日"
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["539B6EDBC9C03067"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "635FF47147565B79"
+			invisible: true
+			size: 0.01d
+			tasks: [{
+				id: "563ED5E145EAC800"
+				title: "打开看看？"
+				type: "checkmark"
+			}]
+			title: "奇怪的信"
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1155674CE816A8B5"]
+			description: ["我看见了就是我的！反正她也不要了！"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "21906AFE62494B64"
+			rewards: [{
+				id: "6F8B6C121E7B6F9C"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				disable_toast: true
+				id: "69508503B2212DA7"
+				title: "捡了捡了，这是俺拾嘞"
+				type: "checkmark"
+			}]
+			title: "这一根长得有点不一样？"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3600C26584476026"]
+			description: [
+				"一回头，站在身后的是，听灵梦提起过的，来自地狱的摆渡人"
+				""
+				"血红色的双马尾随风微微摆动，她那闪烁着寒光的巨大镰刀搭在我的脖颈上，仿佛下一秒就能够让我人头落地"
+				""
+				"&e“咕，咕噜”"
+				""
+				"空气一时间陷入死寂，我盯着她那冰冷的双眸，其间的杀意却不似作假"
+				""
+				"所以，魂魄妖梦小姐说的请我来白玉楼一叙，指的就是让这位死神把我杀了拉下地狱吗？"
+				""
+				"还真是……不好笑的笑话……"
+				""
+				"我的手悄悄探入物品栏，握住了那把我最信任的剑"
+				""
+				"&e“送我下地狱……吗？”"
+				""
+				"世界在瞬间寂寥，下一刻就是拔刀之时————"
+				""
+				"{@pagebreak}"
+				"&c“噗，噗哈哈哈哈哈！！”"
+				""
+				"而出乎我的意料，面前的少女突然捧起肚子大笑起来，镰刀也被她收回到了自己身上"
+				""
+				"&e“？？？”"
+				""
+				"感受到脖子上的那种寒意消失掉，我半拔刀的手也停在半空中，场面一时显得十分尴尬。一个做好了全部战斗准备却僵硬在原地的方块人，和对面笑得直不起来腰的红发死神"
+				""
+				"搞，搞什么啊！我这边可是紧张的不得了好吗！"
+				""
+				"拜她所赐，刚才的紧张氛围一下子就烟消云散了……"
+				""
+				"&c“哈哈哈……抱歉抱歉，毕竟平时也不会干到地上接人的这种事，一不小心就想要说说看这种话呢”"
+				""
+				"&c“怎么样？帅不帅？有没有死神的feel？”"
+				""
+				"{@pagebreak}"
+				"&e“那可太有了，你差点给我心脏都吓出来……搞不成你真得来给我收尸来”"
+				""
+				"&c“嘛嘛，不过你这样的冒险大师，胆量应该不至于这么小吧？”"
+				""
+				"&c“不说这些。你东西收拾好了没有？我可是等不及现在就要把你送到彼岸去了”"
+				""
+				"&e“好好，你稍等我一下，我马上就收拾好”"
+				""
+				"什么送到彼岸阿……听着阴间的要死。不过我本来就是要去阴间的白玉楼，所以她说的倒也没错？"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "0E3867B1F430892C"
+			rewards: [{
+				auto: "invisible"
+				id: "6F20D4773E1D86C1"
+				ignore_reward_blocking: true
+				stage: "2"
+				type: "gamestage"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "41482B7D0DC27E45"
+				title: "你，你好呀……？"
+				type: "checkmark"
+			}]
+			title: "红发的摆渡人"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1155674CE816A8B5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "32D42DCB2797469D"
+			rewards: [{
+				count: 2
+				id: "17D8328C6FFB7425"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				disable_toast: true
+				id: "16B7B093671AA617"
+				title: "家伙！咋还掉两块钱呢！"
+				type: "checkmark"
+			}]
+			title: "欸？给我扫出啥玩意了这是"
+			x: -1.5d
+			y: -9.0d
+		}
+	]
+	title: "白玉楼庭的来信"
+}

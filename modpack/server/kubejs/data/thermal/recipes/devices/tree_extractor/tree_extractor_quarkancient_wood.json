@@ -1,0 +1,24 @@
+{
+    "type": "thermal:tree_extractor",
+    "trunk": {
+      "Name": "quark:ancient_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "leaves": {
+      "Name": "quark:ancient_leaves",
+      "Properties": {
+        "persistent": "false"
+      }
+    },
+    "sapling": "quark:ancient_sapling",
+    "min_height": 4,
+    "max_height": 96,
+    "min_leaves": 8,
+    "max_leaves": 192,
+    "result": {
+      "fluid": "kubejs:ancient_resin",
+      "amount": 50
+    }
+  }

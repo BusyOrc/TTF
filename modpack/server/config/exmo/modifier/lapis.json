@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios7": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:lapis"],
+  "RandomNum":"1",
+  "attrGethers": {
+"irons_spellbooks:cast_time_reduction": {
+      "weight":24,
+    "value": 0.2,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

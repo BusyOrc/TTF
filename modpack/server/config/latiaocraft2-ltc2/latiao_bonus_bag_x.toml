@@ -1,0 +1,18 @@
+
+["Item Drop Weight Settings for Latiao Bonus Bag X / 辣条福袋X 物品抽取权重设置"]
+	#Weight: Chiren Chen's Latiao / 权重：赤刃的辣条
+	#Range: 0 ~ 512
+	WeightCHIRENCHENLatiao = 5
+	#Weight: TH_my's Latiao / 权重：裂纹虎克的辣条
+	#Range: 0 ~ 512
+	WeightTHMYLatiao = 5
+	#Weight: SJKD's Latiao / 权重：SJKD的辣条
+	#Range: 0 ~ 512
+	WeightSJKDLatiao = 5
+	#Weight: Mikhail Tapio's Latiao / 权重：北斗余晖的辣条
+	#Range: 0 ~ 512
+	WeightPLRLatiao = 5
+	#Weight: Ginger Meow's Latiao / 权重：姜喵的辣条
+	#Range: 0 ~ 512
+	WeightGINGERMEOWLatiao = 5
+

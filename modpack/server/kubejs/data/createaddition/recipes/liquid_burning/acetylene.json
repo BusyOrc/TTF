@@ -1,0 +1,15 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "forge:acetylene",
+      	"amount": 1000
+	},
+	"burnTime": 36000,
+	"superheated": true,
+	"conditions": [
+	    {
+	        "fluidTag": "forge:acetylene",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+	]
+}

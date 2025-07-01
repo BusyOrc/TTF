@@ -1,0 +1,19 @@
+{
+	id: "5B277B5C34932A65"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "fruitsdelight:pear_with_rock_sugar" }
+		{ item: "farmersdelight:dumplings" }
+		{ item: "aquaculturedelight:halibut_with_tartar_sauce" }
+		{ item: "aquaculturedelight:fish_roll_medley" }
+		{ item: "aquaculturedelight:bass_stew" }
+		{ item: "farmersdelight:stuffed_potato" }
+		{ item: "fruitsdelight:cranberry_muffin" }
+		{ item: "fruitsdelight:blueberry_muffin" }
+		{ item: "tinkers_delight:dessert_medley" }
+		{ item: "tinkers_delight:baked_vegetables_with_cheese" }
+		{ item: "tinkers_delight:piglins_head_meat" }
+	]
+	title: "小伞的美食"
+}

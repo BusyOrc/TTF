@@ -1,0 +1,26 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 3,
+        "operation": "addition",
+        "attribute": "attributeslib:fire_damage",
+        "unique": "tconstruct.modifier.fire",
+        "slots": [
+          "mainhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.20,
+        "operation": "addition",
+        "attribute": "attributeslib:armor_shred",
+        "unique": "tconstruct.modifier.fire",
+        "slots": [
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

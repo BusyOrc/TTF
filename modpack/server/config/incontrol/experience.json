@@ -1,0 +1,15 @@
+[
+    {
+        "difficulty": "easy",
+        "multxp": 0.4
+    },
+    {
+        "difficulty": "normal",
+        "multxp": 0.7
+    },
+    {
+        "difficulty": "hard",
+        "multxp": 2.0
+    }
+
+]

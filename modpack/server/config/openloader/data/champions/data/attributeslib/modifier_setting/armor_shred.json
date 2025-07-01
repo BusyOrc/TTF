@@ -1,0 +1,17 @@
+{
+  "attributeType": "attributeslib:armor_shred",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "touhou_little_maid:fairy"
+    ],
+    "permission": "blacklist"
+  },
+  "enable":  true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.12
+  }
+}

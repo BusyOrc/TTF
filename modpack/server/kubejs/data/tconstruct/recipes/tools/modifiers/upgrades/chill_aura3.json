@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": false,
+    "inputs": [
+      {
+        "item": "minecraft:blue_ice"
+      },
+      {
+        "item": "twilightforest:aurora_block"
+      },
+      {
+        "item": "minecraft:blue_ice"
+      },
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "level": 3,
+    "result": "tinkerscalibration:chill_aura",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

@@ -1,0 +1,883 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "33AB582D572DDE08"
+	group: "398070A2413EA53F"
+	icon: "chemlib:hydrogen"
+	id: "33AB582D572DDE08"
+	images: [
+		{
+			height: 5.92d
+			image: "touhou_tinker_fantasy:textures/renko.png"
+			rotation: 0.0d
+			width: 9.48d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 4.0d
+			image: "alchemistry:block/fission_chamber_controller_on"
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.25d
+			y: -4.5d
+		}
+		{
+			height: 4.0d
+			image: "alchemistry:block/fission_chamber_controller_standby"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.25d
+			y: -4.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["15B593A356DB0432"]
+			description: [
+				"偶然间，你收到了未知来源的信号，起初信号断断续续，无法正常识别，但很快，一些奇怪的文字符号出现在了接收器上，经过翻译后的内容为："
+				""
+				"&c&o有危机，需要解除，制造物品&r&r"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:wireless_receiver"
+			id: "3266C0F04F328BFD"
+			rewards: [{
+				id: "3D5C06F348061B65"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "07213E35040D2612"
+				type: "checkmark"
+			}]
+			title: "10.1 异世界信号"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3266C0F04F328BFD"]
+			description: ["根据信号模糊的要求，似乎需要先制造这些机器才能进行下一步"]
+			hide_until_deps_complete: false
+			icon: "alchemistry:dissolver"
+			id: "14F9C4BBF60EB18C"
+			rewards: [{
+				id: "0052BFAD6476836A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "41705F54E601DE20"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "56D48967D7AA3301"
+					item: "alchemistry:combiner"
+					type: "item"
+				}
+				{
+					id: "41448EDCE6EDE806"
+					item: "alchemistry:atomizer"
+					type: "item"
+				}
+				{
+					id: "050EEFE40DF59C66"
+					item: "alchemistry:compactor"
+					type: "item"
+				}
+				{
+					id: "1B7FDCFEEF68FC76"
+					item: "alchemistry:liquifier"
+					type: "item"
+				}
+			]
+			title: "10.2  神秘机器"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14F9C4BBF60EB18C"]
+			description: [
+				"不知名的戴着zun帽的神秘金发少女：刚才信号有干扰，只能尽量传递简短的信息，希望能理解"
+				""
+				"不知名的神秘黑发少女：长话短说吧，要解决目前的异变，需要做出一样东西，但是以你现在的情况恐怕很难，所以我们会给你具体的指引，跟着指引走应该不会太难。"
+			]
+			hide_until_deps_complete: false
+			icon: "create:redstone_link"
+			id: "05C0F9EA117645C6"
+			rewards: [{
+				id: "7051667680CF1880"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "362EAF414BA2C915"
+				title: "10.3 通讯"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05C0F9EA117645C6"]
+			description: [
+				"梅莉：在我们的时代，包括竹笋，蛋糕等一切物品都可以合成，用到的原材料就是最基本的化学元素，尽管部分合成方法可能与你目前所了解的不同，但不管怎么说，还是以实际生产为准。"
+				""
+				"莲子：而这些机器中最重要的就是&9化学溶解机和化合机&r，前者将物质分解为基本的元素，后者将元素结合成为具体的物质。其余的机器用法相对简单，先略过说重点。在继续进行接下来的步骤之前，请务必在天人那里学会了&a应用能源&r的使用方法，否则可能会很困难"
+				""
+				"{@pagebreak}"
+				"关于炼金化学机器的说明：化学化合机需要先&a筛选配方，锁定&r以后才能正常生产，否则可能产出一些不需要的产物（猜猜看，碳氢氧三种元素有多少种产物）。另外，如果使用AE的话，多亏了模组AE2 Alchemistry Addon，并不需要为每台机器单独锁定配方"
+				""
+				"如果用AE的样板供应器，只需要写好样板，在合成终端下单即可，甚至全程不需要打开机器的UI界面"
+			]
+			hide_until_deps_complete: false
+			icon: "alchemistry:combiner"
+			id: "1E4C0616468508C7"
+			rewards: [{
+				id: "41F2C4F0AEA52330"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "187F4B65DCFCC867"
+				type: "checkmark"
+			}]
+			title: "10.4 机器的介绍"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E4C0616468508C7"]
+			description: [
+				"梅莉：完成了基础的部分后，如果有足够的材料，就可以准备制造进阶设备。具体的搭建方法请参考&a教程书里的多方块结构示意图&r"
+				""
+				"莲子：虽然话是这么说，但是聚变仓的材料需求有点高，可能裂变的要求稍微低一些，但也没那么简单"
+				""
+				"梅莉：好消息是，绝大部分基础材料的生产并不需要用到聚变和裂变，甚至很多都不需要化合机与溶解机，只是部分材料需要用到后者。聚变和裂变并不提供能量，而是消耗能量来获得各种元素，理论上能用聚变生成任意需要的元素"
+			]
+			hide_until_deps_complete: false
+			icon: "alchemistry:fission_chamber_controller"
+			id: "4C8BFEB2E3A8B1CE"
+			rewards: [{
+				id: "10C2F98C1BFEAEEE"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0254D1A5E4CA24A1"
+					item: "alchemistry:fission_chamber_controller"
+					type: "item"
+				}
+				{
+					id: "2170FEEDD7D9A39C"
+					item: "alchemistry:fission_core"
+					type: "item"
+				}
+				{
+					id: "7B04B36E27ADA9B5"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "76566DE6EE4F4D5E"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					id: "385E328680817FEA"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "622DDF9E4FC9C6D6"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+			]
+			title: "10.5 裂变"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C8BFEB2E3A8B1CE"]
+			description: ["梅莉：聚变的要求似乎更高了，虽然说通过聚变理论上能生产几乎所有物品，但机器本身的制作也不简单。搭建的方法和裂变仓类似"]
+			hide_until_deps_complete: false
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "75B973285DF9FADA"
+			rewards: [{
+				id: "6D9E2D12A652D8FC"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3340B6257B2949FC"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+				{
+					id: "30F3E4B37F5F864A"
+					item: "alchemistry:fusion_core"
+					type: "item"
+				}
+			]
+			title: "10.6 聚变"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E4C0616468508C7"]
+			description: [
+				"莲子：到&a云层的高度&r，用&a玻璃瓶&r就可以收集。除此之外，悬赏板里也可能出现作为奖励。后续会有生产配方可以自动化生产。"
+				""
+				"梅莉：下一步是放到&a离心机&r里分离出液态轻云，然后制作&a轻云结晶粉&r"
+			]
+			hide_until_deps_complete: false
+			id: "30944E11FB791BAB"
+			rewards: [{
+				id: "398FF99FCC1F6D99"
+				item: "chemlib:strontium_chloride"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23942565DCA9EA3C"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			title: "10.7 瓶中云"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30944E11FB791BAB"]
+			description: ["梅莉：需要用到的氯化锶刚才已经送你一份了，但是之后的只能自己想办法了"]
+			hide_until_deps_complete: false
+			id: "52A6C6E6114188AC"
+			rewards: [
+				{
+					id: "0305DB17F4606D53"
+					item: "chemlib:rubidium_carbonate_dust"
+					type: "item"
+				}
+				{
+					id: "274FB01CFF5B9EC2"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3179C12910A72540"
+				item: "kubejs:cloud_dust"
+				type: "item"
+			}]
+			title: "10.8 轻云结晶粉"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52A6C6E6114188AC"]
+			description: [
+				"梅莉：接下来是放进&a感应炉&r里，结合另外两种材料，可以将轻云结晶粉变为4份，而多出来的部分就可以转换为液态轻云用于后续生产了。"
+				""
+				"莲子：当然，在这个过程中，氯化锶被消耗掉了，因此需要找到一种方法来补充氯化锶。&a氯元素很常见&r，而锶元素的获得可以通过溶解&c红石&r或者可以考虑使用&a裂变&r的方法。或者，也可以考虑用另一种独特的方法获得——帕秋莉在收集一些特殊流体，并且还愿意用这些重要的化合物来交换"
+				""
+				"除此之外，顺便介绍一下部分毒化洞穴中的特殊物品"
+			]
+			hide_until_deps_complete: false
+			icon: "chemlib:rubidium_carbonate_dust"
+			id: "4AAAF882A3362973"
+			rewards: [{
+				count: 5
+				id: "54F1A33396587132"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78769F5CAA782F92"
+				type: "checkmark"
+			}]
+			title: "10.9 轻云结晶粉增殖"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AAAF882A3362973"]
+			description: [
+				"莲子：好，第一步是用&a探矿杖&r找到一处酸液池，只有在&9海洋群系&r才能发现，这种酸液需要用&a专门的机器&r开采，并且需要一定的手段远程将酸液运回生产基地"
+				""
+				"或者，也可以直接在毒化洞穴中找到酸液池，只要超过1024格就能无限抽取"
+			]
+			hide_until_deps_complete: false
+			icon: "createoreexcavation:vein_finder"
+			id: "306467788D86D34A"
+			rewards: [{
+				id: "7AAB31D836ABA98C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "499A0CEE6C37CBBC"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+				{
+					id: "1EED9A6B77D07CE1"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+			]
+			title: "10.10 探矿"
+			x: 12.899999999999999d
+			y: -2.1d
+		}
+		{
+			dependencies: ["306467788D86D34A"]
+			description: ["梅莉：然后需要一定的&a石油&r储备，需求量不算很大，可以用探矿杖寻找沥青沙的采集点，然后分离沥青沙得到石油，也可以寻找一些天然的小型油田，直接获得石油。收集到以后，还需要持续生产熔融煤炭，液态轻云和酸液，将以上四种液体在小伞的&9匠魂炉&r里提供燃料并混合即可实现&a量产石油&r。其中煤炭可以考虑用木炭缠魂再熔融。"]
+			hide_until_deps_complete: false
+			icon: "thermal:crude_oil_bucket"
+			id: "11ABA6FE870F70B2"
+			rewards: [{
+				id: "32AAA84E57771DDC"
+				item: "createoreexcavation:diamond_drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F6D2EEC1B4CCA0"
+				type: "checkmark"
+			}]
+			title: "10.11 石油滋生霉菌"
+			x: 12.899999999999999d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"11ABA6FE870F70B2"
+				"7FB9451691F81EC4"
+			]
+			description: ["梅莉：将多余的石油精炼得到轻油和重油，两者均有不同的后续生产路线，可以继续精炼得到精炼油，这种液体能让烈焰人燃烧室超级燃烧，也是后续的重要原材料之一"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: "thermal:refined_fuel_bucket"
+			id: "107A77C374F831FF"
+			rewards: [{
+				id: "0DCD01645D706A6D"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38B0BFA2E3636EBA"
+				type: "checkmark"
+			}]
+			title: "10.15 精炼"
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["193F5000614D1946"]
+			description: ["莲子：额外补充一下，硫粉可以通过精炼轻油获得。聚合物板&b主要作用是合成防化套装&r，凑齐一套以后给匠魂装备打上强化，可以彻底免疫辐射"]
+			hide_until_deps_complete: false
+			id: "7FB9451691F81EC4"
+			rewards: [{
+				id: "47A95EE7114631A3"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB619F9B1D6E01E"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			title: "10.14 聚合物板"
+			x: 16.95d
+			y: -2.1d
+		}
+		{
+			dependencies: ["306467788D86D34A"]
+			description: ["梅莉：关于黏液球，其中一种很不错的生产方式是面团和黄绿色染料搅拌，但其他的方法也可以"]
+			hide_until_deps_complete: false
+			id: "193F5000614D1946"
+			rewards: [{
+				id: "1EBDD2322382B861"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "30CD8F23E4DFFA94"
+				item: "alexscaves:toxic_paste"
+				type: "item"
+			}]
+			title: "10.12 酸液后续产物"
+			x: 15.0d
+			y: -2.1d
+		}
+		{
+			dependencies: ["306467788D86D34A"]
+			description: [
+				"莲子：可以使用玻璃瓶在&a毒化洞穴&r中，酸液上方的各种大小的地热通口右键获得，除此之外，用化工机器生产也是一种方法，两者都行"
+				""
+				"如果要用后者的方法，需要先获得氡这种元素，并转化为气态，再注入玻璃瓶中"
+			]
+			hide_until_deps_complete: false
+			id: "0C4B7E1CDFB26243"
+			rewards: [{
+				id: "1C61A705B0F889B2"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2FAD086D16617D"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			title: "10.13 稀有气体"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4AAAF882A3362973"]
+			description: [
+				"梅莉：据说可以通过修建“奇观”来解锁全新的生产方式，不过具体如何修建我们也不是很清楚，也许河童和天子知道"
+				""
+				"莲子：我们只能先给你简单介绍一下相对重要的一些中期产线，后续的生产还需要用到“奇观”。如果确实打算修建奇观的话，化学合成也许能帮上忙"
+			]
+			hide_until_deps_complete: false
+			icon: "minecraft:writable_book"
+			id: "122401BF59015C13"
+			rewards: [{
+				id: "69A238ED2CB0C5FC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "282D236E48CFAC19"
+				type: "checkmark"
+			}]
+			title: "10.16 中期产线"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"122401BF59015C13"
+				"107A77C374F831FF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["莲子：接下来的内容应该不难，需要能够自动化生产一些肾上腺素并且用液化器转为液体，是后续要用到的材料之一。而且不要忘了，液体形态的肾上腺素是可以装进喷流之刃里发射的，临时提升自己或队友的属性效果很好"]
+			hide_until_deps_complete: false
+			id: "620253CD4BDD31E8"
+			rewards: [{
+				count: 5
+				id: "09A937504EFBAB31"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C1AF59F2F63A22B"
+				item: "chemlib:epinephrine"
+				type: "item"
+			}]
+			title: "10.17 肾上腺素"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["122401BF59015C13"]
+			description: [
+				"莲子：这是生产生化构件的起始材料，考虑到部分材料的获取难度，最好先做好充足准备"
+				""
+				"尽管&b幸运水晶+&r获取较为困难，但是材料之一的&b幸运水晶&r听说可以在豆腐世界钓鱼获取"
+			]
+			hide_until_deps_complete: false
+			id: "358C997B5084293B"
+			rewards: [{
+				count: 3
+				id: "173AB02018A5C396"
+				item: "hmag:fortune_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0460DA7DF3AB02"
+				item: "hmag:fortune_crystal_plus"
+				type: "item"
+			}]
+			title: "10.18 幸运水晶+"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["620253CD4BDD31E8"]
+			description: ["梅莉：通常来说唱片的收集都是一个难题，但是好在可以通过收集&a化石&r来偷个懒，这两种唱片有额外的一劳永逸的获得方式，&a化石不会消耗&r。熔融回响可以通过熔融&9幽匿感测体和尖啸体&r来获得"]
+			hide_until_deps_complete: false
+			icon: "minecraft:music_disc_13"
+			id: "20CC06C1E09D72EB"
+			rewards: [{
+				count: 9
+				id: "03B7BF060C57CA5E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B6220D79D01D434"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "454B42FCD9415D6E"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "62546EE989F30393"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			title: "10.19 特殊材料"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["358C997B5084293B"]
+			description: [
+				"莲子：这两种重要材料都需要通过&a考古&r获得，后者生长并被砍伐后掉落的水果是关键材料之一，除此之外，任意样式的&a陶片&r也需要至少3个，之后需要还需要量产，可以利用生化构件来生产陶片"
+				""
+				"[ \"顺便问一下，嗅探兽蛋知道该如何寻找吧？如果有疑问的话，可以去问一下\", { \"text\": \"魔理沙\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3933E02335457909\" } } ]"
+			]
+			hide_until_deps_complete: false
+			icon: "minecraft:torchflower_seeds"
+			id: "748128FD5B6BB908"
+			rewards: [{
+				id: "5F1F87E06B5CE866"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "57B20FF242512A37"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+				{
+					id: "00BF3536BA843F91"
+					item: "quark:ancient_sapling"
+					type: "item"
+				}
+			]
+			title: "10.20 考古"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["748128FD5B6BB908"]
+			description: ["梅莉：在已经生产出生化构件的情况下，可以利用下界之星来生产这种陶片，不会消耗生化构件"]
+			hide_until_deps_complete: false
+			id: "35586F2F16336B0E"
+			rewards: [{
+				id: "63226BFD51012C27"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "3635CB03F6A517F9"
+				item: "minecraft:prize_pottery_sherd"
+				type: "item"
+			}]
+			title: "10.21 陶片生产"
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["748128FD5B6BB908"]
+			description: ["莲子：生产做到了这一步，基本就算完成一大半了"]
+			hide_until_deps_complete: false
+			id: "1FBE24A3DCF6B631"
+			rewards: [{
+				id: "102D3339743DB262"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2134BAA9C5BA1AB6"
+				item: "kubejs:biochem_mechanism"
+				type: "item"
+			}]
+			title: "10.22 生化构件"
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["748128FD5B6BB908"]
+			description: [
+				"莲子：有两种方法均可提取远古树脂，可以将树汁提取器摆在通过&a考古&r获得并种植出的远古树木旁边，或者探索&9Alex洞穴&r收集到另一个品种的远古树苗，这种树无法被直接提取树脂，但掉落的&a星树果&r可以提取树脂"
+				""
+				"梅莉：而这种树脂还需要进一步精炼得到&a大卢恩锻造液&r"
+			]
+			hide_until_deps_complete: false
+			icon: "quark:ancient_leaves"
+			id: "14CFAF1E87D88B11"
+			rewards: [{
+				id: "2F47336514033496"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672BFB2D00E1AFD7"
+				type: "checkmark"
+			}]
+			title: "10.23 远古树脂"
+			x: 20.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["620253CD4BDD31E8"]
+			description: [
+				"击杀闪电苦力怕掉落，除此之外，用玻璃瓶右键去接闪电苦力怕的雷电，再离心也可以得到。"
+				""
+				"还有一种深渊催化的生产方式，还能获得其他各种产物"
+			]
+			hide_until_deps_complete: false
+			id: "5AC18626ECD6C765"
+			rewards: [{
+				id: "29F23EC256B9ED82"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4409203C61402CD3"
+				item: "hmag:lightning_particle"
+				type: "item"
+			}]
+			title: "10.24 雷电粒子"
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14CFAF1E87D88B11"]
+			description: [
+				"莲子：只需要再击败下界合金巨兽获得熔岩动力电池就能浇筑得到这种材料了"
+				""
+				"梅莉：我很好奇，似乎异变带来的不只是幻想乡和外界的生物，还有一些奇怪的东西？"
+				""
+				"莲子：我大概知道是怎么回事了。我了解了一下在另一个世界里发生的事情，似乎和这次外界的异变非常像。也许是这种相似的情况让那个世界的魔力也扩散到了幻想乡"
+				""
+				"梅莉：怎么辉石呢？"
+				"{@pagebreak}"
+				"莲子：真的很巧，在那个世界也有一个组织在召集信徒，企图让众人彻底抛弃自我，全心全意崇拜组织。没有“合格信徒”的说法，只有更加忠诚的信徒。一旦有叛逆的想法，就会遭到其他信徒的围剿。"
+				""
+				"梅莉：我好像知道了，你说的不会是……某个抛弃了过去的躯体，性别模糊，外表分不清男女，想要成神的那位？而且又姓米？"
+				""
+				"莲子：奇怪，你为什么要说“又”呢？"
+			]
+			hide_until_deps_complete: false
+			id: "2287C32997526391"
+			rewards: [{
+				id: "57DE4DFE2C595CC9"
+				item: "lightmanscurrency:coin_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF22FA1033C84D9"
+				item: "kubejs:greatrune"
+				type: "item"
+			}]
+			title: "10.25 大卢恩"
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["122401BF59015C13"]
+			description: ["这种元素只能通过聚变获得，需要先做成锭再压板"]
+			hide_until_deps_complete: false
+			id: "05DD1F89E200F83E"
+			tasks: [{
+				id: "1B35F375F57934AB"
+				item: "chemlib:actinium_plate"
+				type: "item"
+			}]
+			title: "10.26 特殊元素"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05DD1F89E200F83E"
+				"14CFAF1E87D88B11"
+			]
+			description: ["梅莉：很有意思的中间产物呢，本来正常情况下应该挺缺空白符文的吧，但是现在用远古精华注液就可以得到"]
+			hide_until_deps_complete: false
+			id: "33DE50AC6D91137A"
+			rewards: [{
+				id: "1059C078511D67A2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "13D09B00D7E3BC8E"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			title: "10.27 空白符文"
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33DE50AC6D91137A"
+				"1FBE24A3DCF6B631"
+			]
+			description: [
+				"梅莉：恭喜顺利完成，但是很奇怪的是，异变似乎还没有完全得到解决。也许还需要通过修建奇观来完成更多工作"
+				""
+				"莲子：也许该找灵梦再聊聊？总之，还是非常感谢你的协助，不管怎么说，至少事情在往好的方向发展。接下来，你可以利用刚才制作出的物品来进一步制作更多好东西，应该都能起到很大的帮助"
+				""
+				"梅莉：我觉得有点熟悉，好像这种类似的“外界影响”在我们的时代已经发生过很多次了"
+				""
+				"莲子：那为什么还会继续发生呢？"
+				""
+				"梅莉：也许是因为从来没有人意识到，有些事情不是生来就就是对的。如果在过去，人一直被妖怪当做口粮来吃，就能说明这种行为是合理的吗？"
+				"{@pagebreak}"
+				""
+				"莲子：我想，很多事情是会改变的，过去如此，但以后未必。如果说活着的意义不是为了实现某个目标，或单纯为了自己，而是为了一些觉得此事理所应当，不知感激的他人，即使一次异变结束了，未来也还会有更多这样的异变，直到异变一直持续下去，变为常态。"
+			]
+			hide_until_deps_complete: false
+			id: "5312DEC009B729F3"
+			rewards: [{
+				id: "4ACF446F396C9817"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			subtitle: "甚至不是结束的开始，而是开始的结束"
+			tasks: [{
+				id: "38E87D55B520F16F"
+				item: "kubejs:creative_mechanism"
+				type: "item"
+			}]
+			title: "10.28 开端"
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5312DEC009B729F3"]
+			description: [
+				"梅莉：虚空核心符文是末影傀儡的重要能量来源，击败它就能获得"
+				""
+				"如果要寻找的话，可以考虑在主世界要塞里仔细探索，可能就在末地传送门的附近，其次也可以在&b末地探索废弃堡垒的一二层&r"
+			]
+			id: "2B87C0700CF9D0ED"
+			rewards: [{
+				id: "5FB45B978054E51B"
+				item: "touhou_little_maid:smart_slab_empty"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "7A8E4F791748939D"
+				item: "touhou_little_maid:favorability_tool_full"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			description: ["感谢117458866249为整合包提供了新材料贴图，主要为豆腐世界矿脉产出的豆腐贴图"]
+			icon: "kubejs:fantasy_tofu"
+			id: "278E8F7BD7680921"
+			shape: "rsquare"
+			tasks: [{
+				id: "5980A00443D422C8"
+				type: "checkmark"
+			}]
+			title: "关于部分材料贴图"
+			x: -0.09375d
+			y: -4.65625d
+		}
+		{
+			dependencies: ["0C4B7E1CDFB26243"]
+			description: [
+				"梅莉：这种灯很合适作为装饰，除此之外，似乎还有一种很奇特的作用，可以用来制作特殊物品"
+				""
+				"莲子：这个我知道哦，不是早就已经灭绝了的一种生物吗？"
+				""
+				"梅莉：这话可不对，至少没有完全灭绝，只是目前没有任何现存的生物，只有一些留存下来的蛋等待孵化"
+				""
+				"莲子：等一下，我好像知道有一处遗迹，里面正好就有这种蛋，叫sniffer henge"
+			]
+			id: "3CA37B31A84B19F8"
+			rewards: [{
+				count: 4
+				id: "04D4EFBBF58BF478"
+				item: "alexsmobs:soul_heart"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D3D2CCF710D47D9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "alexscaves:radon_lamps"
+						}
+					}
+					title: "Any #alexscaves:radon_lamps"
+					type: "item"
+				}
+				{
+					id: "0D779E6306ECB5AF"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+			]
+			title: "氡灯"
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11ABA6FE870F70B2"]
+			description: ["似乎山童的线上黑市商店里在出售很多物品材料，甚至包括石油"]
+			id: "33FD20251A4EFE00"
+			tasks: [{
+				id: "4D82822CFF831A96"
+				type: "checkmark"
+			}]
+			title: "额外获得方法？"
+			x: 12.899999999999999d
+			y: -7.199999999999999d
+		}
+	]
+	title: "秘封俱乐部"
+}

@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Might&Magic",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "totem_of_undying"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

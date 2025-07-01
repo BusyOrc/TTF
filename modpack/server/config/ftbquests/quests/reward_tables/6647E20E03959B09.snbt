@@ -1,0 +1,52 @@
+{
+	icon: "minecraft:wheat"
+	id: "6647E20E03959B09"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 32, item: "minecraft:carrot" }
+		{ count: 32, item: "minecraft:melon_slice" }
+		{ count: 32, item: "farmersdelight:cabbage" }
+		{ count: 32, item: "farmersdelight:onion" }
+		{ count: 32, item: "minecraft:sweet_berries" }
+		{ count: 32, item: "minecraft:glow_berries" }
+		{ count: 32, item: "minecraft:potato" }
+		{ count: 32, item: "minecraft:beetroot" }
+		{ count: 32, item: "farmersdelight:tomato" }
+		{ count: 32, item: "minecraft:wheat" }
+		{ count: 32, item: "youkaishomecoming:pods" }
+		{ count: 32, item: "youkaishomecoming:coffee_berries" }
+		{ count: 32, item: "youkaishomecoming:tea_leaves" }
+		{ item: "youkaishomecoming:udumbara_flower" }
+		{ count: 64, item: "farmersdelight:straw" }
+		{ count: 32, item: "farmersdelight:rice_panicle" }
+		{ count: 32, item: "supplementaries:flax" }
+		{ count: 32, item: "minecraft:sugar_cane" }
+		{ count: 32, item: "minecraft:kelp" }
+		{ count: 32, item: "minecraft:bamboo" }
+		{ count: 16, item: "minecraft:pumpkin" }
+		{ count: 32, item: "minecraft:cocoa_beans" }
+		{ count: 32, item: "youkaishomecoming:soybean" }
+		{ count: 32, item: "youkaishomecoming:redbean" }
+		{ count: 32, item: "youkaishomecoming:mandrake_root" }
+		{ count: 32, item: "thermal:sadiroot" }
+		{ count: 32, item: "thermal:rice" }
+		{ count: 32, item: "thermal:radish" }
+		{ count: 32, item: "thermal:onion" }
+		{ count: 32, item: "thermal:flax" }
+		{ count: 32, item: "thermal:barley" }
+		{ count: 32, item: "thermal:corn" }
+		{ count: 32, item: "thermal:amaranth" }
+		{ count: 32, item: "thermal:spinach" }
+		{ count: 32, item: "thermal:bell_pepper" }
+		{ count: 32, item: "thermal:eggplant" }
+		{ count: 32, item: "thermal:green_bean" }
+		{ count: 32, item: "thermal:peanut" }
+		{ count: 32, item: "thermal:strawberry" }
+		{ count: 32, item: "thermal:tomato" }
+		{ count: 32, item: "thermal:tea" }
+		{ count: 32, item: "thermal:hops" }
+		{ count: 32, item: "thermal:coffee" }
+	]
+	title: "Corps"
+}

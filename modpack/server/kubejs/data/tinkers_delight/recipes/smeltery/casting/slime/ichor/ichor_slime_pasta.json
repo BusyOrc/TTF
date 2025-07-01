@@ -1,0 +1,19 @@
+{
+  "conditions": [
+  {
+    "type": "forge:mod_loaded",
+    "modid": "tinkerscalibration"
+  }
+],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "farmersdelight:raw_pasta"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "fluid": "tconstruct:ichor",
+    "amount": 500
+  },
+  "result": "tinkers_delight:ichor_slime_pasta",
+  "cooling_time": 60
+}

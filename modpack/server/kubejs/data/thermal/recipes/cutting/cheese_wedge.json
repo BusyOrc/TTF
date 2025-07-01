@@ -1,0 +1,25 @@
+{
+    "conditions":
+    [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "thermal:cheese_wheel"
+      }
+    ],
+    "result": [
+      {
+        "count": 4,
+        "item": "thermal:cheese_wedge"
+      }
+    ],
+    "tool":
+    {
+        "tag": "forge:tools/knives"
+    }
+  }

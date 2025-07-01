@@ -1,0 +1,13 @@
+[
+    {
+        "mob": "hmag:ender_executor",
+        "player": true,
+        "time": "range(21000,23000)",
+        "item": "kubejs:wu_yu_ingot",
+        "itemcount": "1-2/1-3/2-3/2-4",
+        "playerhelditem": 
+           ["touhou_little_maid:hakurei_gohei",
+           "touhou_little_maid:sanae_gohei"]
+      
+      }
+]

@@ -1,0 +1,142 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.5 + 8, 300)"
+		}
+	},
+	"sources": [
+		{
+			"type": "pufferfish_unofficial_additions:harvest_crops",
+			"data": {
+			  "variables": {
+				"crops": {
+				  "operations": [
+					{
+					  "type": "block"
+					},
+					{
+					  "type": "puffish_skills:test",
+					  "data": {
+						"block": "#minecraft:crops"
+					  }
+					}
+				  ]
+				},
+				"dropped_crops": {
+				  "operations": [
+					{
+					  "type": "dropped_crops"
+					}
+				  ]
+				},
+				"dropped_seeds": {
+				  "operations": [
+					{
+					  "type": "dropped_seeds"
+					}
+				  ]
+				},
+				"tools":{
+					"operations":[
+						{
+							"type":"tool"
+						},
+						{
+							"type":"puffish_skills:test",
+							"data":{
+								"item":"#minecraft:hoes"
+							}
+						}
+					]
+				}
+
+
+			  },
+			  
+
+			  
+			  "experience": [
+				{
+				  "condition": "crops",
+				  "expression": "dropped_crops + (dropped_seeds * 0.5)"
+				},
+				{
+					"condition": "crops*tools",
+					"expression": "dropped_crops + (dropped_seeds * 0.5)"
+				}
+
+			  ]
+			}
+		  },
+		  {
+	"type": "puffish_skills:mine_block",
+	"data": {
+		"variables": {
+			"is_ores": {
+				"operations": [
+					{
+						"type": "get_mined_block_state"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"block": "#forge:ores"
+						}
+					}
+				]
+			}			
+		},
+		"experience": [
+			{
+				"condition":"is_ores",
+				"expression": "3"
+			}
+		]
+	}
+},
+{
+	"type": "puffish_skills:fish_item",
+	"data": {
+		"variables": {
+			"is_fish": {
+				"operations": [
+					{
+						"type": "get_fished_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "#fishes"
+						}
+					}
+				]
+			},
+			"is_treasure": {
+				"operations": [
+					{
+						"type": "get_fished_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "#forge:fished_treasure_chest"
+						}
+					}
+				]
+			}			
+		},
+		"experience": [
+			{
+				"condition": "is_fish",
+				"expression": "15"
+			},
+						{
+				"condition": "is_treasure",
+				"expression": "200"
+			}
+		]
+	}
+}
+	]
+}

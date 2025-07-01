@@ -1,0 +1,1056 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2F72D3353F20DC68"
+	group: "4293891DF89E3E58"
+	icon: "mystias_izakaya:donation"
+	id: "2F72D3353F20DC68"
+	images: [{
+		height: 3.0d
+		image: "touhou_tinker_fantasy:textures/mystia.png"
+		rotation: 0.0d
+		width: 5.5d
+		x: 4.5d
+		y: -2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7087617DAA184277"]
+			description: [
+				"米斯蒂娅：开店之前确认一下，你应该已经收集到了大部分农作物了吧？总之思路很简单，先准备好基础的厨具和原材料."
+				""
+				"一共有5种不同的厨具，做好以后先别着急，等下会教你如何制作菜品。"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "mystias_izakaya:steamer"
+				tag: { }
+			}
+			id: "3ED303DD7845B6C9"
+			rewards: [
+				{
+					count: 3
+					id: "7E0DD7F1A2491D67"
+					item: "nightlights:mushroom_lime"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "40B4D70D1DD81CDB"
+					item: "nightlights:fairy_lights_pink"
+					type: "item"
+				}
+				{
+					id: "6CAA2979E2128B4B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71AB03A2122475F2"
+					item: "mystias_izakaya:cooking_range"
+					type: "item"
+				}
+				{
+					id: "4772E52F529850B1"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:cutting_board"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3A41F01809E4F0FE"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:boiling_pot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75F24B5274E66895"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:frying_pan"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "59993CDEFBC7E51F"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:steamer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4AF666CF493B94BD"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:grill"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "3.1 雀食老板娘"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: [
+				"米斯蒂娅：除了自己制作以外，也可以用电话订购需要的食材"
+				""
+				"绿宝石可以更换成夜雀专用的钱币。什么，你问搞这种夜雀专属货币有没有风险？我问过灵梦了，她说她没意见。"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "mystias_izakaya:telephone"
+			id: "23A8D02AFCA82E4A"
+			rewards: [{
+				count: 5
+				id: "3BB20ECD12DCB3D0"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:hai_tai"
+					tag: {
+						cooktime: 0
+						cost: 3
+						ntags: ""
+						tags: "Vegetarian,Fresh"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4B3BBBEDEAC840A6"
+					item: "mystias_izakaya:telephone"
+					type: "item"
+				}
+				{
+					id: "10007F5D7798903B"
+					item: "mystias_izakaya:en_10"
+					type: "item"
+				}
+			]
+			title: "3.2 订购食材"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23A8D02AFCA82E4A"]
+			description: [
+				""
+				"首先摆放好灶，其次&c打开灶&r，将需要用到的&c厨具放到里面&r，直接摆放厨具来制作可能会有一些问题（闪退BUG）"
+				""
+				"然后将刚才给你的5个海苔放到灶里，选好菜品，开始烹饪，就能得到成品。其他菜品的制作方法同理。"
+				""
+				"制作完成后，再给你一个小挑战，用这几种食材制作蓬莱玉枝."
+			]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "mystias_izakaya:hai_xian_wei_cheng_tang"
+				tag: {
+					cooktime: 120
+					cost: 8
+					ingredients: "mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai"
+					ntags: "Greasy"
+					tags: "Economical,Homecooking,Soup,Vegetarian,Large_Portion"
+				}
+			}
+			id: "243EB8DB7EF1DA8B"
+			rewards: [
+				{
+					id: "5F0019161D270887"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:he_niu"
+						tag: {
+							cooktime: 0
+							cost: 40
+							ntags: ""
+							tags: "Meat,Legendary,Premium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "413C153DB61AE2AA"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:san_wen_yu"
+						tag: {
+							cooktime: 0
+							cost: 24
+							ntags: ""
+							tags: "Aquatic,Premium,Fresh"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20EA0923CD9AE5E5"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:zhu_rou"
+						tag: {
+							cooktime: 0
+							cost: 10
+							ntags: ""
+							tags: "Meat"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FD9929A5EFD84CB"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:lu_rou"
+						tag: {
+							cooktime: 0
+							cost: 20
+							ntags: ""
+							tags: "Meat"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B8497CD8522D045"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:zhu_zi"
+						tag: {
+							cooktime: 0
+							cost: 15
+							ntags: ""
+							tags: "Photogenic"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42163EFD4D85C0BE"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:hai_xian_wei_cheng_tang"
+					tag: {
+						cooktime: 120
+						cost: 8
+						ingredients: "mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai,mystias_izakaya:hai_tai"
+						ntags: "Greasy"
+						tags: "Economical,Homecooking,Soup,Vegetarian,Large_Portion"
+					}
+				}
+				type: "item"
+			}]
+			title: "3.3 如何烹饪"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["243EB8DB7EF1DA8B"]
+			description: [
+				"米斯蒂娅：很好，很有文化底蕴。这次需要用到烧烤架，如果无法制作，记得更换厨具。"
+				""
+				"学会了基本的制作以后，剩下的其他菜品制作方法完全一样。请自由发挥吧。"
+				""
+				"这些食材是我&m用剩下的&r，不对，是我刚刚收集到的，你可以自己再添加一些原材料，随意发挥。"
+			]
+			hide_until_deps_complete: false
+			id: "09C5874A9D31ABBF"
+			rewards: [
+				{
+					count: 3
+					id: "0A26946BC9C8B235"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:di_gua"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1441DAC6CF8D0FF8"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:feng_mi"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1147982D5DBBD848"
+					item: {
+						Count: 1
+						id: "mystias_izakaya:huang_you"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0529097206DE3124"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:peng_lai_yu_zhi"
+					tag: {
+						cooktime: 260
+						cost: 124
+						ntags: ""
+						tags: "Expensive,Meat,Premium,Legendary,Cultural_Heritage,Grilled"
+					}
+				}
+				type: "item"
+			}]
+			title: "3.4 进阶"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09C5874A9D31ABBF"]
+			description: ["如果对该模组感兴趣，推荐去steam搜索东方夜雀食堂"]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "mystias_izakaya:huan_tan_hua"
+				tag: { }
+			}
+			id: "5B041CFB02B0C502"
+			rewards: [
+				{
+					count: 8
+					id: "180FBDEDF804DA65"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2A5BEC042674230E"
+					item: "irons_spellbooks:magic_cloth"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1260A5FF8F4AD439"
+				type: "checkmark"
+			}]
+			title: "3.5 夜雀食堂"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: [
+				"图片来自车万游戏《东方夜雀食堂》，在steam上好评如潮"
+				""
+				"额外补充：该模组仍存在部分BUG，在整合包制作过程中，目前已经利用kubejs修复了挖掘该模组方块不掉落物品的BUG，但是还存在闪退的BUG。已经向制作者提交了BUG反馈，后续模组更新后整合包会同步更新，请多关注整合包最新版本。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			id: "6105097F8D3441E6"
+			tasks: [{
+				id: "77B1659E1DA46BD5"
+				type: "checkmark"
+			}]
+			title: "图片来源"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09C5874A9D31ABBF"]
+			description: [
+				"“虽然可以尝试开店，但目前仍可能存在一些困难（BUG）。方法是先制作一些菜品，将其放入物品展示框里，然后用&a账本分别右键&r餐桌和装了菜品的展示框，即可完成绑定。潜行右键账本可打开查看。"
+				""
+				"开店的前提条件是菜单里必须有&a酒水+菜品&r。在账本中选择开店后，相应的桌子会有一定的需求，按照要求将菜品或酒水放入其中即可完成。结账时会根据菜品制作的材料消耗来判定价格。”"
+			]
+			hide_until_deps_complete: false
+			icon: "mystias_izakaya:ledger"
+			id: "6FF42C9F236603AA"
+			tasks: [
+				{
+					id: "54E8DD6D1F914FE6"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+				{
+					id: "0558EA6608258288"
+					item: "mystias_izakaya:ledger"
+					type: "item"
+				}
+				{
+					id: "312F6CB0E7AB8FF7"
+					item: "mystias_izakaya:table"
+					type: "item"
+				}
+			]
+			title: "3.6 如何开店"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23A8D02AFCA82E4A"]
+			description: ["由于通过电话☎购买的方式存在不稳定性，并且为了避免可能的BUG影响游戏的进度，特别增加了机械动力的获得方式。头饰可以通过商店出售的帽子袋开出来"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "03F1E5843629EB8B"
+			tasks: [{
+				id: "238C553505CD34AB"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:reisen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"23A8D02AFCA82E4A"
+				"13D94D115F35344F"
+			]
+			description: ["米斯蒂娅：或许如果觉的读心能力正常发挥的话，是能够找出异变的真凶的。前几天的时候蓝来找过我，似乎是受紫所托，来问了一下关于一些食材的问题。如果是我的话，要找出异变的真凶，我肯定会先去找觉让她试试给紫读心。因为根据我的直觉，一定是紫干的！"]
+			id: "0CBDEFDFEAFE6B4D"
+			rewards: [{
+				id: "6BC9B2D1EA6116F2"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1DB3265BC3882FD8"
+				type: "checkmark"
+			}]
+			title: "关于异变"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CBDEFDFEAFE6B4D"]
+			description: ["米斯蒂娅：这件事可让我头疼了，明明每次都搬走了，结果不知道怎么回事又自己回来了，继续躺在原位，也没看到任何人搬运。还好最近温度低，而且已经做了一定的处理，才没有太多的味道。所以，为什么受伤的总是我？"]
+			id: "1BD65F7BA76B8641"
+			rewards: [{
+				id: "4AE9D657A4D2D6D8"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0EDC723FF426D39C"
+				type: "checkmark"
+			}]
+			title: "询问关于仓库尸体的事情"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"米斯蒂娅：如果想吃点海鲜的话，可以考虑自己养殖一下螃蟹🦀"
+				""
+				"&a小麦，鸡肉或鱼&r均可以繁殖螃蟹🦀"
+				""
+				"在海边螃蟹会比较常见，如果遇到的话，可以用水桶带走"
+			]
+			icon: "quark:crab_shell"
+			id: "179CACF20A68048F"
+			rewards: [{
+				id: "00D70DD80B6933EF"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4881A02E630FEE9C"
+					item: "quark:crab_shell"
+					type: "item"
+				}
+				{
+					id: "2483FE523CC6F736"
+					item: "quark:crab_leg"
+					type: "item"
+				}
+			]
+			title: "螃蟹"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"这几种龟🐢可以使用各种&b花&r来繁殖，击杀后可获得相应物品形态的龟🐢"
+				""
+				"并且都可以在主世界钓鱼获得，除此之外，其他主世界能获得的鱼类现在也无需到特定群系钓鱼，所有群系都能获得"
+			]
+			icon: "aquaculture:box_turtle"
+			id: "520862DBF29287DD"
+			rewards: [{
+				id: "571252D44AF4C3E6"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "21F97671612AF00E"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					id: "3C6433EB93065BDD"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+				{
+					id: "618704F3760E2343"
+					item: "aquaculture:starshell_turtle"
+					type: "item"
+				}
+			]
+			title: "龟龟"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"水龟比较特殊，常见于水边，可用海草繁殖得到水龟蛋"
+				""
+				"可放置于地上来孵化出小水龟，但是注意会被踩碎"
+				""
+				"放置后需要用精准采集附魔工具才能挖掘获取"
+				""
+				"水龟可以用水桶运输"
+			]
+			icon: "alexsmobs:terrapin_egg"
+			id: "720DEAF3B2B739E6"
+			rewards: [{
+				id: "2C985F0ED9953417"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E3172A88C05457B"
+				item: "alexsmobs:terrapin_egg"
+				type: "item"
+			}]
+			title: "水龟"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: ["米斯蒂娅：也许以前也尝试过钓鱼，只要有相关经验都好说，整体思路基本一样。首先，钓鱼竿分为很多种（JEI中@aqua与@lava可搜索到），这里先给你一个比较基础的鱼竿吧，可以随便试试，或者拿给女仆用也行"]
+			icon: {
+				Count: 1
+				id: "aquaculture:iron_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "783C5E1B7E03669F"
+			rewards: [{
+				id: "3FA87F25903AF522"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+						Inventory: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B14332FFE140777"
+				type: "checkmark"
+			}]
+			title: "新式钓鱼"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["783C5E1B7E03669F"]
+			description: [
+				"米斯蒂娅：在正式开始之前，最好先准备好钓具盒，以及相关的物品"
+				""
+				"打开钓具盒，将鱼竿放进去，你会发现可以给鱼竿安装配件，蚯蚓比较特殊，等下再说。目前先准备好这些东西，我有个多的鱼钩就先送给你了"
+			]
+			icon: "aquaculture:tackle_box"
+			id: "4DB3A2535118E8BD"
+			rewards: [{
+				id: "25DCA73D1714FABE"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FE37A7BA823E1D3"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "0D487B3E02B49908"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "5ED2FA9FB4599CC4"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+				{
+					id: "67292E248A677347"
+					item: "aquaculture:worm_farm"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DB3A2535118E8BD"]
+			description: [
+				"米斯蒂娅：蚯蚓需要在蚯蚓农场里获得，获得的方法&a和堆肥桶非常类似&r，只需要先放入可堆肥的物品，空手右键即可获取蚯蚓。如果要给钓鱼竿添加蚯蚓，只需要将鱼竿放入钓具盒中，再放入蚯蚓即可。多余的蚯蚓也可以存入钓具盒"
+				""
+				"尽管蚯蚓是可选项，但是为了能顺利钓上宝物，成为资深钓鱼佬🎣，建议还是给鱼竿准备一下蚯蚓"
+			]
+			id: "5DEEE4DC9BC90BF3"
+			tasks: [{
+				id: "081D984B5DACF362"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DB3A2535118E8BD"]
+			description: ["米斯蒂娅：如果你运气足够好的话，能够在钓到这种珍宝，不过需要注意一下是否为开放水域"]
+			id: "2298A84ACC1C417B"
+			rewards: [
+				{
+					count: 3
+					id: "655119DBE2157607"
+					item: "youkaishomecoming:roasted_lamprey"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53CE3F38AFDA591B"
+					item: "youkaishomecoming:lions_head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "473898EC7C5C68CD"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DB3A2535118E8BD"]
+			description: [
+				"米斯蒂娅：想要获得这种内含宝物的宝箱吗？那你需要去下界的熔岩海里钓鱼了，而且需要提前做好准备"
+				""
+				"鱼竿和鱼钩和正常的钓鱼竿不同，需要特殊材质的，也只有用这种黑曜石鱼竿和鱼钩才能在下界的熔岩中钓鱼。普通的黑曜石鱼钩还可以合成其他更好的，有特殊效果的黑曜石鱼钩，但是必须使用黑曜石鱼钩作为基础，&b其他类型鱼钩会直接沉底&r，无法在熔岩钓鱼。"
+			]
+			icon: "lavafishing:prometheus_bounty"
+			id: "28801AC6C519D95C"
+			rewards: [
+				{
+					id: "4B1CABA1F2E17FB8"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4495566A0CF30E6F"
+					item: "tinkers_delight:spiral_bread_with_chocolate_filling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7045EEDE6597A9A5"
+					item: "lavafishing:prometheus_bounty"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "7A9E32246221DC3C"
+					item: {
+						Count: 1
+						id: "lavafishing:obsidian_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FC7F5F49D1EEF8"
+					item: "aquaculture:obsidian_hook"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: ["米斯蒂娅：也许你已经了解过嗅探兽在森林群系挖掘的产物，但你是否好奇过嗅探兽在其他群系会发现什么呢？谜底马上揭晓"]
+			id: "5806146AF7515466"
+			tasks: [{
+				id: "11DE805480B24441"
+				type: "checkmark"
+			}]
+			title: "特殊作物？"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: [
+				"嗅探兽在森林群系可挖掘到"
+				""
+				"种子可正常种植在耕地上，但是正常情况只会生长到43%的进度就不会继续生长，但是会持续结果"
+				""
+				"在周围有足够空间的情况下对其进行催熟，可让其继续生长变为姬海棠树，并且树叶会继续结出姬海棠果"
+			]
+			id: "0E4B7B4A0DCB0D3D"
+			rewards: [{
+				id: "18FA29FEECEB03B6"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "2ED1CD780F559711"
+				item: "immortalers_delight:himekaido_seed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: ["嗅探兽在丛林挖掘可得到，种子可以直接种植在泥土类方块上。之后会逐渐变粗并且生长到三格高开花，第二格会缓慢结出4个棱蕉串，挖掘后掉落若干珍珠棱蕉。珍珠棱蕉可继续种在有空位的茎上，并且可以手动继续放置种子来让其高度增加"]
+			id: "508AA74FEDDD8B29"
+			rewards: [{
+				id: "4444AE538E850A91"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "08079155C13B5381"
+				item: "immortalers_delight:pearlipearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: [
+				"在河流群系可挖掘得到，但是需要在河流上手动铺一片草地"
+				""
+				"需要种植在1格深的水中，否则不会正常生长"
+			]
+			id: "5E1A608874F3B337"
+			rewards: [{
+				id: "4DB015585E3CD574"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "04DDCBE9E60A7389"
+				item: "immortalers_delight:contains_tea_leisamboo"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: [
+				"嗅探兽在平原群系可挖掘到"
+				""
+				"可种植在耕地上生长为白垩玉黍"
+			]
+			id: "6DA7E5EE91A09580"
+			rewards: [{
+				id: "769ED80E0FC5565D"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "5E18527FB770105E"
+				item: "immortalers_delight:evolutcorn_grains"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: [
+				"这个需要将嗅探兽送到绯红森林，并且还要人造一片草地才能让嗅探兽挖掘"
+				""
+				"种子可种植在灵魂沙，灵魂土和耕地上"
+				""
+				"但是需要注意：靠近成熟植株时会受到瓦斯的伤害，请尽可能远离"
+			]
+			id: "0B57E2867E6CF6A2"
+			rewards: [{
+				id: "6A30CFA4A7B345F5"
+				type: "xp"
+				xp: 180
+			}]
+			tasks: [{
+				id: "33E5919DD3420696"
+				item: "immortalers_delight:kwat_wheat_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0B57E2867E6CF6A2"]
+			description: [
+				"米斯蒂娅：不过也有处理的办法，戴着这个可以减少瓦斯的影响"
+				""
+				"所需材料中，最重要的部分有两种获取方法："
+				"匠魂浇筑生产"
+				"猪灵交易"
+			]
+			id: "53A59A726D32D07D"
+			rewards: [
+				{
+					count: 2
+					id: "33B77B6C062433B2"
+					item: "storagedrawers:acacia_full_drawers_4"
+					type: "item"
+				}
+				{
+					id: "6843281180690DD1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "487EB5573395982E"
+				item: {
+					Count: 1
+					id: "immortalers_delight:golden_fabric_veil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5806146AF7515466"]
+			description: [
+				"如果需要制作一些特殊的饮料🥤，需要用到这种机器"
+				""
+				"使用方法很简单，提供&b青金石&r作为能源，然后按照相应配方来生产即可"
+			]
+			id: "3505AB4249759ADD"
+			rewards: [{
+				count: 4
+				id: "551E40FE30E3F9C7"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DEFA9BC8F4ED974"
+				item: "immortalers_delight:enchantal_cooler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5DEEE4DC9BC90BF3"]
+			description: [
+				"鲦鱼和水蛭也能作为鱼饵，均能增加钓到鱼的概率"
+				""
+				"水蛭还可用于酿造瞬间治疗药水。"
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:minnow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2579AC4A0C8D72CF"
+			tasks: [
+				{
+					id: "76DD6298ACA0C205"
+					item: {
+						Count: 1
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3131F4A5B9CA8516"
+					item: {
+						Count: 1
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "其他鱼饵"
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: [
+				"米斯蒂娅：推荐一个好用的牛奶来源，罐中牛能够持续不断地产生牛奶，制作方法也很简单，用一个铁砧将一头牛压进奶罐里就可以了"
+				""
+				"铁砧需要稍微放高点，否则无法起作用"
+			]
+			id: "4853D93985B91C69"
+			rewards: [
+				{
+					id: "7F280A9FC3254582"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "6050F1E1EA5C7BC6"
+					item: "youkaishomecoming:raw_lamprey"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41D3EC82BBDF1287"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"如需远程传输嗅探兽，推荐使用传送石板，任何生物踩上去即可被传送"
+				""
+				"方法：放置好后，右键打开石板，将其中的共鸣碎片放到另一个传送石板UI面板里其中任意一个槽位即可"
+				""
+				"如果想让A石板能传送生物到B石板，则需要将B石板的碎片放入A石板内。如果比较混乱，只需要记住一点：无脑交换2个石板的碎片。"
+			]
+			id: "6740479F4EA3F7F6"
+			tasks: [
+				{
+					id: "17DE614ABAC25663"
+					item: "waystones:warp_plate"
+					type: "item"
+				}
+				{
+					id: "2D8589A16851D371"
+					item: {
+						Count: 1
+						id: "waystones:attuned_shard"
+						tag: {
+							AttunedToWaystone: [I;
+								76871238
+								1601587502
+								-1729509585
+								-1395674751
+							]
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3ED303DD7845B6C9"]
+			description: ["小碎骨：最近缺一些基础食材，如果有的话可以和我交换一点东西。另外我可不是无限收购，只要这些就足够了。"]
+			id: "04151AE497BC345A"
+			rewards: [
+				{
+					count: 3
+					id: "41DFB46496CF4A50"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "26046AEA09FCADE4"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "24903729016347EC"
+					item: { Count: 32, id: "tofucraft:seeds_soybeans" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "2DE8519D31757F6E"
+					item: { Count: 64, id: "farmersdelight:raw_pasta" }
+					type: "item"
+				}
+			]
+			title: "收购食材"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
+	title: "夜雀食堂"
+}
