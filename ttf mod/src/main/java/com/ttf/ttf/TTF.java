@@ -56,9 +56,7 @@ public class TTF {
         TTFItems.ITEMS.register(modEventBus);
         TTFItems.TINKER_ITEMS.register(modEventBus);
         TTFGroups.CREATIVE_MODE_TABS.register(modEventBus);
-        TTFBlocks.BLOCKS.register(modEventBus);
         TTFFluids.FLUIDS.register(modEventBus);
-        TTFEffects.EFFECT.register(modEventBus);
         TTFModifiers.MODIFIERS.register(modEventBus);
     }
 
