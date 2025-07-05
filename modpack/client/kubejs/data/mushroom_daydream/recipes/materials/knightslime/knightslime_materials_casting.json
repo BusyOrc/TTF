@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "tconstruct:molten_knightslime",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "output": "mushroom_daydream:knightslime"
+}

@@ -1,0 +1,2701 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0D06F519823043C6"
+	group: "70B4907D74D7EF03"
+	icon: "ae2:blue_smart_cable"
+	id: "0D06F519823043C6"
+	images: [
+		{
+			click: "#43F301A1EBCE3923"
+			height: 10.5d
+			hover: ["天气之子，简称天子"]
+			image: "touhou_tinker_fantasy:textures/tenshi.png"
+			rotation: 0.0d
+			width: 8.2d
+			x: -3.25d
+			y: -5.75d
+		}
+		{
+			alpha: 180
+			click: "#0D46E2E307E3D248"
+			height: 3.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "ae2:block/crafting/16k_storage"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 2.0d
+			image: "ae2:block/crafting/256k_storage"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			hover: ["赛特斯石英"]
+			image: "ae2:item/certus_quartz_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			hover: ["充能赛特斯石英"]
+			image: "ae2:item/certus_quartz_crystal_charged"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			hover: ["充能器或特斯拉线圈"]
+			image: "createaddition:block/tesla_coil/lightning"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			click: "#03EB6EFA4DDFF8E8"
+			height: 1.0d
+			hover: ["奇点"]
+			image: "ae2:item/singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["末影珍珠或末影粉"]
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			click: "#03EB6EFA4DDFF8E8"
+			height: 1.0d
+			hover: [
+				"量子缠绕态奇点"
+				"我们意念合一"
+			]
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			click: "#03EB6EFA4DDFF8E8"
+			height: 1.0d
+			hover: [
+				"量子缠绕态奇点"
+				"我们意念合一"
+			]
+			image: "ae2:item/quantum_entangled_singularity"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			height: 1.2d
+			image: "quark:textures/particle/magnet_plus.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.503571428571412d
+			y: -9.726190476190478d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.5d
+			y: -12.0d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["BOOM!"]
+			image: "ae2:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.789285714285697d
+			y: -9.392857142857146d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.836904761904748d
+			y: -10.202380952380953d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			click: "#7EA5110C1435A142"
+			height: 1.2d
+			hover: [
+				"量子链接仓"
+				"将量子缠绕态奇点放入其中"
+			]
+			image: "ae2:block/quantum_link"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -6.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: -8.0d
+		}
+		{
+			click: "#"
+			height: 1.2d
+			hover: ["量子环"]
+			image: "ae2:block/quantum_ring"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 15.0d
+			width: 4.0d
+			x: 16.36071428571428d
+			y: -7.86904761904762d
+		}
+		{
+			click: "#04E69995C5F90640"
+			height: 2.0d
+			hover: [
+				"量子桥卡"
+				"将成对缠绕奇点的其中一个放入其中"
+				"不过记得先将量子桥卡放入无线终端"
+				"再打开终端放入奇点"
+			]
+			image: "ae2wtlib:item/quantum_bridge_card"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: -20.0d
+			width: 3.0d
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			click: "#547EA3B86B7F02FE"
+			height: 2.0d
+			hover: [
+				"无线终端"
+				"量子桥卡放入其中"
+			]
+			image: "ae2:item/wireless_terminal"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.122619047619047d
+			y: -12.059523809523807d
+		}
+		{
+			height: 3.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
+			order: 2
+			rotation: 30.0d
+			width: 1.0d
+			x: 21.0d
+			y: -9.5d
+		}
+		{
+			height: 3.0d
+			hover: [
+				"利用无线终端+量子桥卡"
+				"任意维度均可访问该AE网络"
+				"可在任意维度下单AE生产，或存放拿取物品"
+			]
+			image: "ae2:block/controller_lights"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 22.5d
+			y: -9.5d
+		}
+		{
+			click: "#"
+			height: 1.5d
+			hover: ["AE的线缆"]
+			image: "ae2:part/cable/core/dense_smart/green"
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			click: "#"
+			height: 1.5d
+			hover: ["AE的线缆"]
+			image: "ae2:part/cable/core/dense_smart/green"
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.503571428571455d
+			y: -4.345238095238095d
+		}
+		{
+			click: "#450DD99BA1F5BDDA"
+			height: 2.0d
+			hover: [
+				"赛特斯石英母岩"
+				"（被晶体催生器加速，正在生长石英）"
+			]
+			image: "ae2:block/chipped_budding_quartz"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/large_quartz_bud"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/medium_quartz_bud"
+			rotation: 90.0d
+			width: 2.0d
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/quartz_cluster"
+			order: -90
+			rotation: -90.0d
+			width: 2.0d
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			click: "#18988832E624AF7A"
+			height: 2.0d
+			hover: [
+				"晶体催生器"
+				"电力可由AE线缆提供"
+				"AE线缆的电力可来源于ME控制器"
+				"ME控制器的电力可用其他模组提供"
+				"其他模组包括：热力的能源炉，机械动力的发电机"
+			]
+			image: "ae2:block/growth_accelerator_side_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.9797619047619435d
+			y: -7.8214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/flint_and_steel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			height: 4.0d
+			image: "advanced_ae:block/crafting/quantum_core_nucleus"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			height: 4.0d
+			image: "advanced_ae:block/quantum_crafter_grid_on"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: 5.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F698C6A49F609BD"]
+			description: [
+				"天子：小心点，我手上可是有一把会冒火的直剑。哦，原来不是灵梦啊，那好说。不好意思有点反应过度，毕竟刚刚处理完大闹有顶天的孙美天，她现在已经被压到妖怪之山下面了，而且六根已经被瓜分了，等500年就能出来。"
+				""
+				"不知你之前有没有看到地上的&a陨石坑&r，那是我不小心搞出来的，希望没有影响到你，总之，有需要的话我可以教你关于天界的各种知识，这些东西可是很复杂的，多看多学。"
+				""
+				"尽管天人科技应该是最强的，而且不是baka说的那种最强，但是见多识广总没坏处，建议你再去看看更多教学吧"
+				""
+				"{ \"text\": \"物流与仓储\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"22253443F259226E\" } }"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "wstweaks:lava_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43F301A1EBCE3923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47288689E7F93800"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3915520144B5E38F"
+				title: "7.1 并非并非非想非非想天之女"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F301A1EBCE3923"]
+			description: [
+				"第一步，找到陨石坑里面的这种方块，然后挖掉，获得4种模板"
+				""
+				"顺便一提，这种石头其实是叫天石（sky stone）哦，毕竟是来自有顶天的石头。&a这只是其中一种起步的方法，另一种方法是通过村民交易获取模板等物品&r。"
+				""
+				"另外，&b这可不是普通的石头，这是有用的石头，是能制作各种材料的石头&r"
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_13.59.10.png width:190 height:100 align:center}"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "611808BA662F5CEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1614556895432BE4"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "ae2:mysterious_cube"
+				id: "7B01865356E3B356"
+				observe_type: 0
+				timer: 0L
+				title: "观察神秘方块"
+				to_observe: "ae2:mysterious_cube"
+				type: "observation"
+			}]
+			title: "7.2 注意看"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"611808BA662F5CEF"
+				"75012FC22E8B8A3F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"赛特斯石英充能以后可以用来合成母岩或者福鲁伊克斯水晶，对于母岩来说，除了无瑕母岩以外的母岩最终都会随着晶体生长而变为普通的方块，虽然无瑕母岩也是可以制作的，但可以之后再说。"
+				""
+				""
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.12.00.png width:190 height:100 align:center}"
+				"这是新式充能方式，用到了机械动力的&a特斯拉线圈&r"
+				""
+				"&bpipez模组因为有严重BUG已移除，图片里的管道可以用热力的能量管道代替&r"
+				"{@pagebreak}"
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.12.38.png width:190 height:100 align:center}"
+				""
+				"这是传统的充能方式，放入AE的充能器中，推荐搭配各种物流手段（除了AE自己的方式，甚至也可以用机械动力的溜槽，漏斗）来实现自动化"
+				""
+				"{@pagebreak}"
+				"另外，&c非精准采集&r挖掘母岩都会导致母岩&c降级&r，而无瑕母岩挖掘后必定降级，因此想要收集的话，可以考虑使用对应的生产方法来直接合成无瑕母岩。"
+				""
+				"关于母岩生长出的晶体簇，未生长完成时挖掘获得的是粉，而生长完成后挖掘获得的是赛特斯石英，后者可以经过粉碎轮变成粉末形态。"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "19BF7B860DB28E29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E64E19EE791C357"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "529A896CB9F1FE7C"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "7.3 充能"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BF7B860DB28E29"]
+			description: [
+				"这种材料的生产需要将充能赛特斯石英，红石和下界石英放进水里，除了用于合成生产，也可以作为匠魂材料使用"
+				""
+				"我这里有几个桃子🍑，虽然吃了不能长生不老，但是多吃点总没错，就送给你了"
+			]
+			hide_until_deps_complete: false
+			id: "00E2CB13C62FDFEE"
+			rewards: [{
+				count: 8
+				id: "48225803C76724C4"
+				item: "fruitsdelight:peach"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70971A454714DA4D"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "7.4 福鲁伊克斯水晶"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00E2CB13C62FDFEE"]
+			description: [
+				"这是最基础的线缆，后续线缆的合成都需要用到，除此之外也是很多重要设备的原材料"
+				""
+				"关于线缆部分，记住2点即可："
+				"1.只有&b粗线和细线&r的区别，粗线能传递32频道，细线最多只能传递8个"
+				"2.粗线通常不能直连设备，细线可以，前者像动脉而后者像毛细血管"
+				"3.除了粗细以外，其他特征主要是装饰作用+不同颜色隔离线缆避免连在一起"
+				""
+				"另外，AE的线缆只能用来连接自己的各种设备，&b无法连接其他的机器设备&r"
+				""
+				"ME线缆的特点是几乎什么都能传递，不同于其他的线缆，ME线缆不光能传递基本的电力（通常仅限ME网络内部，通过P2P通道可以间接传递给其他机器），还能传递流体，物品，甚至部分模组的气体，几乎所有能想到的关于物流的内容都能传递。"
+			]
+			hide_until_deps_complete: false
+			id: "537552962A22FB7B"
+			rewards: [{
+				id: "47E421DE4F84318D"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC7845609347EFF"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "7.5 基础线缆"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: [
+				"许多AE的设备都会消耗一个频道，就像运作中的机械会消耗一份应力，电气设备需要消耗一份电力，而频道需要用线缆传递"
+				""
+				"AE的官方指导书里提到：如果不熟悉频道的机制，可以所有线缆全部都用智能线缆，方便查看频道数量。但是考虑到成本问题，实际上只需要在“分岔口”和起始点的地方使用智能线缆即可"
+			]
+			hide_until_deps_complete: false
+			id: "3545A451C22448F2"
+			rewards: [{
+				count: 8
+				id: "12462C147D8FADCF"
+				item: "fruitsdelight:peach"
+				type: "item"
+			}]
+			tasks: [{
+				id: "141FA5B0402CC102"
+				type: "checkmark"
+			}]
+			title: "7.6 什么是频道"
+			x: 4.35d
+			y: 1.3499999999999999d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: [
+				"自然生长的母岩生长速度其实很慢，建议使用这种设备来加快晶体的生长过程，供电后放在母岩旁边即可，一个母岩可连接多个催生器，能多倍加速"
+				""
+				"催生器还能催生其他的母岩以及农作物"
+			]
+			hide_until_deps_complete: false
+			id: "18988832E624AF7A"
+			rewards: [{
+				id: "47A3CAB78E49B5CE"
+				item: "fruitsdelight:peach_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E011875494DD67C"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			title: "7.7 晶体催生"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3816D4F839749CA6"]
+			description: [
+				"ME网络中频道的来源，类似于给设备供电的发电机。如果不连接控制器，一个网络中最多仅能传输8个频道。虽然ME控制器其实兼顾&b供电和供应频道&r两种功能。每个面能提供32个频道，摆放时存在一定限制，具体可以看一下教程书里对应的思索部分"
+				""
+				"如果只追求基础的线网搭建，只需要做到以下即可："
+				""
+				"控制器连细线，细线连AE的各种设备（无法连接其他模组的设备），发电设备连控制器供应电力"
+				""
+				"这样摆线，&b频道可能很紧张&r，但是能保证在刚开始上手的时候不至于完全无法入门。入门的第一步其实是&a让产线动起来&r，只要能动就是好产线"
+			]
+			hide_until_deps_complete: false
+			id: "0D46E2E307E3D248"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E081EEDDC274FE9"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "494DB7122B6D9F18"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "7.10 ME控制器"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: ["其中硅板的使用量最大，因为需要和其他基础板材结合生产后续材料。生产方法不止一种，可以选择自己最喜欢的一种方法"]
+			hide_until_deps_complete: false
+			icon: "ae2:printed_silicon"
+			id: "43516C9503523081"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46FDF26E335AA21E"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3BD99FA9E5AC0131"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "3FDB7020F5690179"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "122C0D6AD2BF94BB"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "34115894304A6A72"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			title: "7.8 基础板材"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"43516C9503523081"
+				"537552962A22FB7B"
+			]
+			dependency_requirement: "one_completed"
+			description: ["完成这一步，后面就只剩下合成了"]
+			hide_until_deps_complete: false
+			icon: "ae2:logic_processor"
+			id: "3816D4F839749CA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6548E59B44B8CAE1"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "28E77E16E34DB288"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "5EA461CEA802AAAD"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "6EB63B056B852F03"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "7.9 处理器"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16DAB76BCCF3813A"
+				"1DB669A1777AA545"
+				"458422215D2ADA44"
+			]
+			description: ["理论上用非无瑕的母岩也能实现自动化生产所有AE的东西，但用无瑕母岩总归是要省心一些，而且还有部分合成和造石机生产需&a要用到无瑕母岩&r"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "450DD99BA1F5BDDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B34E9BCE738185F"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "322703402FB071D4"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			title: "7.11 无瑕母岩"
+			x: 3.375d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0D46E2E307E3D248"]
+			description: [
+				"比那名居天子：或许你还有许多问题，比如说如何在一个网络里连2048个频道，如何搭建P2P网络传递频道，再问下去要直接化身十万个为什么"
+				""
+				"[我建议多看看教程和思索，但是如果你真的愿意深入了解，&a还有很多需要学习的东西&r，比如说，各种"
+				"{ \"text\": \"具体的例子\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1175B445A5FD46FE\" } }"
+				""
+				"另外我听说有个很神秘的俱乐部，最好去看看怎么个事儿，或许对你有帮助"
+			]
+			hide_until_deps_complete: false
+			id: "4DF1B2E472B02830"
+			rewards: [{
+				count: 8
+				id: "2E631BA23E227E67"
+				item: "fruitsdelight:kiwi"
+				type: "item"
+			}]
+			subtitle: "并非毕业"
+			tasks: [{
+				id: "360D22C2A713FD41"
+				type: "checkmark"
+			}]
+			title: "7.12 AE毕业？"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DF1B2E472B02830"]
+			description: [
+				"天子：做一个无线接收器，也许能找到一些线索。"
+				""
+				"不过无线接收器本身没有什么特别的作用，直接用来制作后续物品就行了。另外，这个无线接收器可是制作&b量子桥卡&r的重要材料"
+			]
+			hide_until_deps_complete: false
+			id: "15B593A356DB0432"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49202A7A1458CFBC"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E32EC6596240395"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			title: "7.13 无线接收器"
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D46E2E307E3D248"]
+			hide_until_deps_complete: false
+			id: "3D23578203E76906"
+			rewards: [{
+				id: "698606F26826123B"
+				item: "fruitsdelight:kiwi_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ED57E67FD3186A5"
+				type: "checkmark"
+			}]
+			title: "7.14 入门"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"天子：破坏面板会持续破坏面向的方块，但是有一个特性，当且仅当此网络中有足够的储存空间时才会破坏该方块，换句话说，如果当前网络中无法储存赛特斯石英粉，而只能储存赛特斯石英，破坏面板会等到晶簇完全生长后才破坏并收集赛特斯石英，做自动化的时候很有用。"
+				""
+				"成型面板则相反，会持续放置方块，用处相对少一些，更推荐使用&aME主动成型面板&r，能够配置过滤，无需再单独设置子网"
+				""
+				"{@pagebreak}"
+				""
+				"{image:touhou_tinker_fantasy:textures/ae_crystal1.png width:190 height:100 align:center}"
+				"图中为一个简单的4催生器加速赛特斯石英母岩的情况，上面是一个破坏面板，但是由于目前&a网络中没有存储空间&r，所以破坏面板不工作，这一点&c非常重要&r"
+				""
+				"{@pagebreak}"
+				""
+				"{image:touhou_tinker_fantasy:textures/ae_crystal2.png width:190 height:100 align:center}"
+				"这张图中展示了如何让破坏面板&c收集并且只收集&r赛特斯石英，而不是石英粉。这只是其中一种方法。原理如下："
+				""
+				""
+				"{@pagebreak}"
+				"如下图所示，这个限类桶的设置中特别设置了只接受这两种物品，即使物品空了，也会有一个虚影，表示只接受该物品。需要先放好物品，然后在“记忆”里面点击第一个按钮即可。该限类桶通过“&a存储总线&r”接入ME网络中"
+				""
+				"{image:touhou_tinker_fantasy:textures/ae1.png width:200 height:100 align:center}"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:annihilation_plane"
+			id: "79BC809DD4B06127"
+			rewards: [{
+				id: "63D197018B785D8B"
+				item: "simplehats:rabbitears"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62DA4E84A246A958"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "7779DB8D90E183B2"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+				{
+					id: "6A573DF6F36EFC5C"
+					item: "expatternprovider:active_formation_plane"
+					type: "item"
+				}
+			]
+			title: "7.15 面板"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7460A9CBB9212DE8"
+				"61208489A3727A15"
+			]
+			description: [
+				"基础的终端分为3种，合成，样板编码和样板管理。"
+				""
+				"&a合成终端&r可方便合成，拿取各种物品，是最常用的终端"
+				""
+				"&a样板编码终端&r可编写样板并放入样板供应器里"
+				""
+				"&a样板管理终端&r可以让你将样板远程放入样板供应器，不需要再跑过去放置了"
+				""
+				"&a扩展样板管理终端&r则提供了更多的内容，推荐使用"
+				""
+				"不同终端合成可以得到&a通用终端&r，可以在不同终端之间切换，具体能切换的终端取决于你合成用到的终端类型，换句话说，&c只需要把以上几种终端合成到一起&r（样板管理终端推荐用扩展的），就能得到三合一的通用终端，可随时&9任意切换&r"
+				""
+				"如果只是想在家无线访问ME网络，使用&a无线访问点&r和可选的无线信号📶增幅器就够了，超远距离和跨维度则需要量子环"
+				""
+				"合成终端里下单时，可以直接中键对应物品，或者&bJEI里收藏的物品&r来下单"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2wtlib:wireless_universal_terminal"
+			id: "547EA3B86B7F02FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77361AAF6DBB7CF1"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3C541797DC431A9D"
+					item: "ae2wtlib:wireless_universal_terminal"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "7D5ACEF40BEE724B"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			title: "7.16 无线终端"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["547EA3B86B7F02FE"]
+			description: [
+				"天子：奇点在AE中主要是用来生成一对的纠缠奇点并放入量子环中或装了量子卡的无线终端里，获得方式有很多，自己选一种喜欢的吧"
+				""
+				"奇点和末影珍珠扔在地上通过TNT爆炸即可获得&a纠缠奇点&r，在量子环中需要放入纠缠奇点。"
+			]
+			hide_until_deps_complete: false
+			id: "03EB6EFA4DDFF8E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AFB7C98829A1A03"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DABB8E93E727BB6"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			title: "7.17 奇点"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03EB6EFA4DDFF8E8"]
+			description: [
+				"天子：将8个量子环围着量子链接仓放置即可形成量子环结构，具体请看图，&a需要连入ME网络中，消耗频道和电力，并且电力消耗并不低&r"
+				""
+				"在两个相距很远的激活量子环中放入成对&a纠缠奇点&r即可实现远距离连接的ME网络，也可以制作量子卡并放入无线终端中，以实现任意距离访问ME网络"
+				""
+				""
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.14.17.png width:200 height:100 align:center}"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:quantum_link"
+			id: "7EA5110C1435A142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "042AB6281B9AF5B5"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "1BE14E4CFDB09461"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "42C5E1ADBC6EB8F9"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "7.18 量子环"
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["348EF2B3721119C8"]
+			description: [
+				"天子：这是相当&a重要的设备&r。在做好合成单元多方块结构（CPU）以后，将样板供应器放在分子装配室或者任意生产机器旁，做好供应材料的物流后，可以放入编写好的样板，在终端里就可以自动合成所需物品"
+				""
+				"{@pagebreak}"
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.09.09.png width:280 height:150 align:center}"
+				""
+				"如图所示，热力机器的顶部设置为了输入输出模式，而这个简单ME网络中，有足够的储存空间，有样板供应器（里面放写好了配方的样板），有电力供应，还有对应的处理机器（放在样板供应器下方），在合成终端里下单即可让ME网络自动发送物品进入机器。&b图中的pipez管道有严重BUG已移除，可用热力的能量管道代替&r"
+				"{@pagebreak}"
+				""
+				""
+				"{image:touhou_tinker_fantasy:textures/thermal1.png width:90 height:100 align:center}"
+				""
+				"这是热力机器的设置，根据样板供应器放置的位置来设置输入输出是哪个面，&b该例子中样板供应器在顶部，所以将顶部按照如图设置&r。并且记得&a打开左侧的自动输入输出选项。如果你不知道设置的是哪个面，可以关闭UI界面，直接看机器对应的面，那个面也会有变化"
+				""
+				"&r"
+				"{@pagebreak}"
+				"核心原理非常简单："
+				"1.如果放在分子装配室或者能支持输入输出的单方块机器旁边，下单以后会自动供应材料给旁边的机器，机器完工以后如果能正常输出材料给样板供应器的话，等接收到足够的输出成品后，就会自动判定生产已经完成，不再占用CPU"
+				""
+				"2.如果部分特殊的生产需要额外处理和分配样板供应器所提供的材料，可以考虑用ME子网络，pipez的管道或者LaserIO的物流方式，将物品分配到需要的位置，等完工以后再将物品运送到样板供应器以完成生产。"
+				""
+				"3.部分涉及到概率的特殊情况，需要借助&a合成卡&r"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:pattern_provider"
+			id: "1CE3EA2EC9C3218A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "256F3CF545CC5281"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "1BB701C18886AD0C"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "3869D284CF1DFB66"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0EC24FE9C1B1B9D1"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "7.20 样板供应器"
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"天子：在正式开始自动化以前，需要先至少制作一个&a合成存储器&r，这是最基本的合成处理单元多方块结构，或称CPU，一个CPU必须为&b长方体结构&r（只有一个合成存储器方块也算），其余的有效方块可以用来充数"
+				""
+				"合成监控器可以在其上显示当前的合成状态方便查看，并行处理单元可增加并行合成的能力"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:1k_crafting_storage"
+			id: "348EF2B3721119C8"
+			rewards: [
+				{
+					id: "69DB5718AB009793"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "48380C0DDB1054DE"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "1CFD34E39B2B3480"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4698957D77DD484E"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "7D7E66070F87B86C"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "7.19 CPU"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CE3EA2EC9C3218A"]
+			description: [
+				"天子：对于&9并非&r100%成功的生产配方，如果需要自动化，可以将&a合成卡放入标准发信器&r中，左侧模式选择“发出信号以合成”，这样的话在终端里选择合成相应物品时，标准发信器就会发出红石信号，以方便控制相应生产设备的运行，等需要的成品已经制作足够以后，发信器就会停止红石信号。"
+				""
+				"关于红石信号如何控制机器的问题，需要根据具体的情况单独设计。这部分内容为原版MC的红石电路，略，不难看出，同理可得，易得，感兴趣可自证。"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:crafting_card"
+			id: "7CCB00FEB7DA9C4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7A011107B1827B"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5ECE15015CDBC778"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+				{
+					id: "28C038ECE0D9C167"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "7.21 概率合成"
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"天子：输入总线将容器内的物品输入到ME网络中，而输出总线则相反。存储总线比较特殊，可以同时输入输出，并且可以搭配其他仓储模组一起使用，三者均可选择物品过滤。"
+				""
+				"触发总线是收到红石信号才连通线缆，反相触发总线则相反，收到红石信号会切断线缆。配合红石信号，ME标准发信器，可以方便地控制网络的通断"
+				""
+				"{@pagebreak}"
+				""
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.17.02.png width:230 height:120 align:center}"
+				""
+				"图中为一个存储总线的应用例子，通过连接抽屉的控制器，可以读取所有抽屉的物品，在终端里也能看到并拿取相应物品。如果需要控制输入输出的过滤，请在存储总线的GUI设置中调整"
+				"{@pagebreak}"
+				""
+				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.17.16.png width:350 height:180 align:center}"
+				""
+				"终端里的物品展示，可以看到抽屉的物品被成功读取"
+			]
+			hide_until_deps_complete: false
+			icon: "ae2:import_bus"
+			id: "296CAB7CDF48DD3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CC9F095CF338286"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "035C0628A0A661F9"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "01E2E291E188C06A"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "1916485B0C097E3A"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "096AA0C517982C46"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+				{
+					id: "604538B1E90379AE"
+					item: "ae2:inverted_toggle_bus"
+					type: "item"
+				}
+			]
+			title: "7.22 总线"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: ["ME驱动器搭配存储元件可以在小空间内存放大量物品或流体，方便管理"]
+			hide_until_deps_complete: false
+			id: "6663A2C41DE69B58"
+			rewards: [
+				{
+					id: "1AE135F422AAB992"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "753974F16C925A39"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_4k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F4F05C9170A0B60"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "7.23 物品存储"
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6663A2C41DE69B58"]
+			description: [
+				"在元件工作台内可以调控每个存储元件的&a过滤&r，方便控制物品的存放"
+				""
+				"无需电力，也无需频道"
+			]
+			hide_until_deps_complete: false
+			id: "339F51CE0D9E3803"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "166E18C64CAE111F"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AFD445305A1669A"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["79BC809DD4B06127"]
+			description: [
+				"{image:touhou_tinker_fantasy:textures/ae2.png width:100 height:100 align:center}"
+				"法二:也可以通过设置存储总线的过滤（将物品栏的物品放入进行标记，或者JEI里拖动对应物品或流体），如果选择法二，就不需要使用限类桶，普通容器亦可，只需要保证&a该网络是独立的子网&r，和其他网络没有直接相连的即可。否则可能会将物品存入主网络中其他的容器里。"
+				""
+				"法三：&a课后习题&r，使用抽屉上锁功能实现类似的功能"
+				"法四：&a课后习题&r，使用存储元件+元件工作台实现类似功能"
+				""
+				"完成的课后习题请提交到有顶天的2号办公室"
+			]
+			hide_until_deps_complete: false
+			id: "40370E2E92900A91"
+			tasks: [{
+				id: "0CE691E8450F6F22"
+				type: "checkmark"
+			}]
+			title: "法二"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"如果要构建子网络，要么让线缆尽量隔开（下策），要么子网线缆和主网相连的地方全部用石英纤维隔开（中策），还可以将线缆染色，并且使用石英纤维&a传递且只传递&r电力（上策）"
+				""
+				"这一点相当重要：石英纤维传递且只传递电力给其他ME网络，意味着完全不需要给子网单独供电的同时，还能轻松构建出单独的ME子网络。"
+				""
+				"{image:touhou_tinker_fantasy:textures/ae3.png width:150 height:150 align:center}"
+				"这两条不同颜色的线缆不会相连，但是可以使用石英纤维连接，这样右侧蓝色线缆所在网络也能接收到电力，一个创造发电机就能给多个不同子网供电。"
+			]
+			hide_until_deps_complete: false
+			id: "4F3FA44CC73A4A6E"
+			tasks: [{
+				id: "4E18D6ED21AF2037"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40370E2E92900A91"]
+			description: ["利用AE的ME网络和子网，以及刚才所学到的存储总线的过滤的使用方式，在一个子网中完成&a热力精炼油&r的提取，并且通过一定的手段控制产出，&a不要让产物无限堆积&r"]
+			hide_until_deps_complete: false
+			id: "43E4E8956D9428CA"
+			tasks: [{
+				id: "5CDF01BC4E4DBCB9"
+				title: "作业"
+				type: "checkmark"
+			}]
+			title: "家庭作业"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19BF7B860DB28E29"]
+			description: [
+				"荧光液需要用到&a发光浆果&r，这种作物的量产可以考虑用地灵殿的“有机灌注器”"
+				""
+				"要获得荧光液，将发光浆果&a在工作盆里搅拌&r即可，无需加热"
+			]
+			hide_until_deps_complete: false
+			id: "16DAB76BCCF3813A"
+			tasks: [{
+				count: 8L
+				id: "4A3015F9E62B87DA"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19BF7B860DB28E29"]
+			description: ["母岩分为不同的品质等级，随着晶体生长，大部分母岩都会&c逐渐损耗&r（无瑕母岩除外），但是可以通过将&a母岩和充能赛特斯石英放入水中&r来获得更好品质的母岩"]
+			hide_until_deps_complete: false
+			id: "1DB669A1777AA545"
+			tasks: [{
+				id: "2BEA4542501A0FC2"
+				item: "ae2:flawed_budding_quartz"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19BF7B860DB28E29"]
+			description: ["可由普通的黑曜石缠魂得到"]
+			hide_until_deps_complete: false
+			id: "458422215D2ADA44"
+			tasks: [{
+				id: "1690D408A934AA4D"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["547EA3B86B7F02FE"]
+			description: [
+				"磁力卡：将拾起的物品直接送入ME网络，可配置过滤"
+				""
+				"量子桥卡：搭配量子桥，安装成对奇点后，可与相连的ME网络无视距离和维度传输物品（ME网络所在区块需要强加载）"
+				"{@pagebreak}"
+				"因未知原因，这个附属模组的物品无法在JEI里查到，但是配方均正常，可借助FTB任务来进行查找与合成，如果有需要，可对着物品按A键收藏在JEI里"
+				""
+				"同时又因为未知原因，有时候又可以在JEI里查到这些物品，但是至少能靠FTB任务来查相应物品"
+			]
+			icon: "ae2wtlib:quantum_bridge_card"
+			id: "04E69995C5F90640"
+			rewards: [{
+				count: 8
+				id: "7936E1EA3F90BDDA"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BE773F712C14115"
+					item: "ae2wtlib:magnet_card"
+					type: "item"
+				}
+				{
+					id: "09CEB6F9F3031E08"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+			]
+			title: "量子桥卡"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"04E69995C5F90640"
+				"7EA5110C1435A142"
+			]
+			description: [
+				"很抱歉需要你帮忙处理一下这里的情况，毕竟孙美天将这里破坏得太厉害了，十万天兵天将都没能拦住，目前缺少一些修复相关的材料，如果你能提供的话感激不尽。我这里正好有一些从地面收集到的宝物，可以作为谢礼"
+				""
+				"说来惭愧，之前收拾东西的时候发现缺了不少，估计是大闹天庭的时候被打下去掉到了地面，但我后来去地面找了一圈，也没看见东西，估计是被谁拿走了吧，会是谁呢"
+			]
+			icon: "ae2:quantum_ring"
+			id: "0735447815DC7DEF"
+			rewards: [
+				{
+					count: 4
+					id: "0F7CA1E895DF7CAD"
+					item: "alexsmobs:soul_heart"
+					type: "item"
+				}
+				{
+					id: "217123D02EE20612"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "5372802C795EE838"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "10DE4E58BC8932A7"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "2357601850F01CA4"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "60DE27CD390F563E"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "4C5CE5445077FA74"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "008E41600391E53F"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "45F415A51526467B"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "天庭的善后工作"
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F3FA44CC73A4A6E"]
+			description: ["只是想要在同一维度远程连接线缆，不想到处飞线？用这个吧，虽然不能跨维度，这方面比不过量子环，但是在同一维度非常好用，还可以&b染色&r，染色后只会连接同一颜色的无线连接器"]
+			icon: "expatternprovider:wireless_connect"
+			id: "244BBB8A6FB2A97F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5278DADAD0B0A17F"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "002B028E7641A46C"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "4563456688A7494D"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: ["想要大规模生产AE的材料？试试这种新型的拓展机器，可以一次生产⑨个"]
+			id: "4EE9F48DCF23F9D7"
+			tasks: [{
+				id: "64343F8A0F6E2C44"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1CE3EA2EC9C3218A"]
+			description: [
+				"嫌样板供应器能放的样板数量太少？试试这个新型设备吧，大容量，管够！"
+				""
+				"如果已经放置了普通的样板供应器，可以用这个送你的道具潜行右键来升级得到扩展版本的"
+			]
+			id: "253E804B0D79593E"
+			rewards: [
+				{
+					id: "67EB21492B6F9B88"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "1D40B2AF0CED6993"
+					item: "expatternprovider:pattern_provider_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44D3C44195CFC0CF"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0735447815DC7DEF"]
+			description: ["天子：利用最新的压缩技术，能为你新增一条腰带栏位，也是作为帮助我的谢礼之一"]
+			id: "45BDDA7B2E66A6DE"
+			rewards: [{
+				command: "/curios add belt @s 1"
+				elevate_perms: true
+				id: "3C41CDF63B4BAE64"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3904D1D1356CBF1E"
+				type: "checkmark"
+			}]
+			title: "额外腰带"
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"天子：ME接口本质上是一个能同时容纳流体和物品的箱子，并且设置好过滤和数量以后会试图快速地从当前网络中调取相应流体或物品来填充自己，直到满足设定好的数量需求为止。同时，如果不设置任何过滤并且以迷你形态放置，用在连接主网和子网上面，可以让主网读取子网的物品，或者传递物品，具体还是看看思索吧"
+				""
+				"&2曾经&r这个设备还可以用来当做样板供应器——放置样板，自动给机器发送材料，但是目前这个功能已经单独拆分出来了，就是现在样板供应器的功能"
+			]
+			icon: "ae2:interface"
+			id: "3104F957941650DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3969D70EE9F0582F"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4093F3E0C5A59961"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "732AA32913FA6E0E"
+					item: "ae2:cable_interface"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CE3EA2EC9C3218A"]
+			description: [
+				"天子：如果你遇到需要使用化学化合机等化工相关机器，&a无需打开机器界面&r来查找，锁定配方，只需要将一个&a样板供应器&r放在旁边，然后放入写好的与机器相关的样板，接着在合成终端里直接下单，就能自动完成合成任务。机器甚至都不需要打开，完全不用去管"
+				""
+				"忘记了如何写样板？打开样板编码终端，界面的右侧放入空白样板，然后用JEI来自动填充配方，如果确认无误，点击空白样板下方的⬇箭头即可"
+				""
+				"{@pagebreak}"
+				"当然，如果你确实有需要的话，在化学化合机的机器内搜索时必须使用英文才能正常搜到相应产物，而众所周知，化学品的英文可没有甲乙丙丁戊己庚辛壬癸这么简单，希望人没事"
+			]
+			icon: "alchemistry:combiner"
+			id: "3FB8C6C50D422439"
+			rewards: [
+				{
+					count: 2
+					id: "0889B29BBB07409C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "54FF8EFE96882CF0"
+					item: "sakuratinker:soul_sakura"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "简单方便的方法"
+			tasks: [{
+				id: "51632C380D25884C"
+				type: "checkmark"
+			}]
+			title: "关于AE与化学化合机等机器"
+			x: 10.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4DF1B2E472B02830"]
+			description: [
+				"天子：光说不练假把式，你肯定也很好奇，这么复杂的一套技术，是如何解决更复杂问题的呢？本来正常的各种机器运作就已经很复杂了，还要学这么多东西，但是绝对不是南辕北辙，而是&b先苦后甜&r"
+				""
+				"天人有句古话，叫“兮实例者魏骏杰”，意思是说，要从实际的例子里学习"
+			]
+			hide_dependent_lines: true
+			icon: "ae2:sky_stone_brick"
+			id: "1175B445A5FD46FE"
+			rewards: [{
+				id: "4BB8A5412795FA0F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "不要当假老练"
+			tasks: [{
+				id: "457050C6D95A5107"
+				type: "checkmark"
+			}]
+			title: "实际练习"
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1175B445A5FD46FE"]
+			description: [
+				"天子：首先，假设在比较远的B点和目前所在的A点之间有一条ME线缆，这条线缆同时也承担了其他的任务，但是在本例子中都可以忽略不计，只要频道没有超过上限"
+				""
+				"然后你需要将电力从A点供应到B点去，但是热力的能量管道数量有限，而且这样飞线也很麻烦，怎么办呢？很简单，将能量管道连到ME线缆上面，用P2P传递过去即可"
+				""
+				"这时候肯定又会遇到问题，能量管道无法直接和ME线缆相连，这时候就需要拿出&bP2P通道&r，将朝外的那一面连接能量管道，黑色的另一面连接ME线缆，这就是P2P的输入端。细心的你肯定会发现，直接合成得到的MEP2P通道还是无法和能量管道连接，但是背面确实可以连接ME线缆"
+				""
+				"{@pagebreak}"
+				"这时候就需要拿出任意能够进行调谐的道具，就以热力的通量电容为例吧，如果你想了解具体有哪些物品可以用来调谐，可以JEI里查找P2P，然后查看相应类型P2P通道的获得方法"
+				""
+				"用通量电容右键P2P通道，即可让其变为能源P2P通道，顾名思义，可以传递电力。在B点也放置同样的P2P通道，方法完全一样，A点是怎么放的，B点就怎么放，没有任何区别，只是B点作为输出端不需要调谐，和A点的P2P通道建立连接以后会自动变成能源P2P通道"
+				""
+				"这里推荐使用&b高级内存卡&r，拿在手上右键A点所在的P2P通道，然后点击B点处的通道处的连接！好了，如果一切正常的话，此时&aA点的能量就可以借由ME线缆到达B点&r。如果只看这一点你可能觉得ME线缆无非就是代替了能量管道，但是，ME线缆还能同时传递多个P2P（物品，流体，红石信号等等），并且还能连接其他AE的设备，这么看来，ME线缆其实相当于是起到了&a万能线缆&r的作用。原来需要514种不同线缆的情况，现在只需要少量的ME线缆（前提是频道数量足够）"
+			]
+			icon: {
+				Count: 1
+				id: "betterp2p:advanced_memory_card"
+				tag: {
+					gui: 3b
+					selectedIndex: { }
+				}
+			}
+			id: "02AF7C912CF21FA8"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A73D964A535F0EC"
+					item: {
+						Count: 1
+						id: "betterp2p:advanced_memory_card"
+						tag: {
+							gui: 3b
+							selectedIndex: { }
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0375BBF74F3478EE"
+					item: { Count: 2, id: "ae2:me_p2p_tunnel" }
+					type: "item"
+				}
+			]
+			title: "例子1：利用P2P传递电力"
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1175B445A5FD46FE"]
+			description: [
+				"天子：不要忘了，热力机器的第一步是配置侧面的输入输出选项，只需要打开机器界面，在右侧展开子菜单就能看到每个面的情况，其中正面无法调整为输入输出，但是其他面均可。建议在大部分情况下，如果没有额外需要，只需要将输入和输出放在同一个面即可，并且记得打开自动输入和自动输出的选项"
+				""
+				"虽然第一步看起来步骤很简单，但是非常重要，可不要来问为什么管道无法和机器连接了"
+				""
+				"第二步，如果只是简单的单配方生产，例如铁锭做成铁板，只需要将样板供应器放在热力机器旁，需要紧靠着机器已经调整为“输入+输出”的那个面，放入写好的样板，完工"
+				""
+				"第三步，超简单的下单工作。需要在合成终端里进行，并且如果已经有一些此类道具，左键是拿取而非下单的情况，可用鼠标中键进行下单"
+			]
+			icon: "thermal:rf_coil_storage_augment"
+			id: "2D50515D0480C126"
+			size: 1.5d
+			tasks: [{
+				id: "59547BF1B8173EB5"
+				type: "checkmark"
+			}]
+			title: "例子2：热力机器的自动化"
+			x: 21.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1175B445A5FD46FE"]
+			description: [
+				"天子：首先来分析一下，精炼油到底需要经历多少步骤才能得到"
+				""
+				"假设只需要精炼油，其他无关的副产物实际生产时可单独存放，或者销毁掉"
+				""
+				"首先通过查看配方，轻油和重油都可以在流体精炼机里得到精炼油"
+				""
+				"然后再看轻油和重油的情况——两者都是通过石油获得的，假设石油无限供应的话，算上沥青的处理，一共只需要3台流体精炼机+1台热解炉就能顺利完成这一套流程。我猜你最关心的问题是如何布线，因为流体精炼机的副产物还有好几种，答案很简单，既然学会了AE的方法，那就用AE强大的ME线缆构建子网来布线。原因很简单，ME线缆什么东西都能传递，只需要在同一个网络中即可，而你只需要关心末端连接了哪些机器和容器"
+				""
+				"用ME线缆+输入输出和存储总线的话就不用担心物品，流体的管道会纠缠在一起无法处理，接下来就以此为基础分析一下如何构建子网"
+				""
+				"{@pagebreak}"
+				"首先，ME网络的子网最重要的一个基本结构就是用主网的存储总线接在迷你版的ME接口上，并且用石英纤维隔开ME接口所在的网络与主网的同时维持电力供应"
+				""
+				"如果不知道这种结构是如何构建的，可以找到ME接口并且开始“思索”"
+				""
+				"要让石油进入子网，可以考虑单独主网用一个输出总线给子网的其中一台流体精炼机供应，这样的话只要连接得当，两者的ME网络也是保持各自独立的。接下来在子网内准备3个液体储罐并且均贴上存储总线（设置好过滤，分别为轻油，重油和精炼油），另外可以考虑准备一些容器，例如3个1X1的抽屉+一个抽屉控制器并且贴上存储总线（建议分别保持沥青，焦油和硫粉的锁定状态），3台精炼机贴上输入总线（无需过滤），其中2台分别贴上设置了轻油和重油过滤的输出总线。"
+				""
+				"剩下的热解炉是为了处理沥青，当然也需要贴上沥青过滤的输出总线加上无过滤的输入总线"
+				"{@pagebreak}"
+				"经过简单的计算可得，一共消耗了11个频道，超过了无控制器情况下的上限，因此需要额外在子网里加一个ME控制器"
+				""
+				"那么问题来了，有没有一种办法可以让子网无需ME控制器呢？留待读者自证"
+			]
+			icon: "thermal:refined_fuel_bucket"
+			id: "3969296B84AE5078"
+			size: 1.5d
+			tasks: [{
+				id: "593538258F791251"
+				type: "checkmark"
+			}]
+			title: "例子3：利用子网来处理精炼油"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1175B445A5FD46FE"]
+			description: [
+				"天子：还在为套娃配方的合成而发愁吗？现在你不用担心了"
+				""
+				"推荐使用新型的装配矩阵，非常好用，但是材料消耗可能略多一些，好处在于一旦建好就不必再发愁了"
+				""
+				"装配矩阵的本质是多个样板供应器与分子装配室，加上一些加速卡的组合，但是这些组合被替换为了另外的一些方块，另外组装形式也有一定要求——必须满足边长在3到7之间，内部实心，且内部至少有一个样板核心与合成核心"
+			]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "0FDD0CCAB9A6AA64"
+			size: 1.5d
+			tasks: [{
+				id: "6615BAC7CFC66487"
+				type: "checkmark"
+			}]
+			title: "例子4：合成全自动"
+			x: 21.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FDD0CCAB9A6AA64"]
+			description: [
+				"天子：只需要记住一些很简单的道理就能彻底搞懂装配矩阵"
+				""
+				"框架一定要放在框架上"
+				""
+				"墙壁一定要放在墙壁上"
+				""
+				"核心一定要放在核心（矩阵的内部），而且核心里一定要有样板与合成核心，不过速度核心是可选的（而且最多生效5个）"
+				""
+				"核心一定不能留空"
+				""
+				"要用AE合成一定要有合成单元（CPU）"
+				""
+				"需要频道的设备一定要有频道"
+				""
+				"需要用电的设备一定要有电"
+				""
+				"复杂的大规模合成一定要用AE"
+			]
+			icon: "expatternprovider:assembler_matrix_frame"
+			id: "153D1F16AD5F5E4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "520E5A45D8DC2928"
+					table_id: 6021782249763501993L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "4715F0A3DAFD2C70"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "07301A759CCD26C6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "3BEA8F71AADEA815"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "42EBC86C935DBEF3"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "797446D2A8C65A0A"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "0D789C1BE424C81F"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "2CA4B2814250F1A5"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+			]
+			title: "进入矩阵"
+			x: 21.75d
+			y: 3.0d
+		}
+		{
+			description: [
+				"随身携带或者装备在饰品栏里的时候，无线终端用快捷键可直接打开，但是快捷键&c不能和其他的快捷键重复&r，否则不会生效"
+				""
+				"默认按键为N，如果没有反应，可在设置里自行调整"
+			]
+			id: "689896C1F2EF603F"
+			subtitle: "一些特殊说明"
+			tasks: [{
+				id: "0C2B260E2CD7180B"
+				type: "checkmark"
+			}]
+			title: "关于快速打开无线终端"
+			x: 25.5d
+			y: -12.0d
+		}
+		{
+			description: ["对于装配矩阵的每个面，还可以用装配矩阵玻璃来代替墙壁"]
+			id: "2D409DFA2A6DAB08"
+			tasks: [{
+				id: "7EDC7591B7A1176E"
+				item: "expatternprovider:assembler_matrix_glass"
+				type: "item"
+			}]
+			title: "装配矩阵玻璃"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["153D1F16AD5F5E4D"]
+			description: [
+				"天子：如果发现装配矩阵无法正常工作，请首先检查内部是否被相应的方块填满不留空（样板，合成，速度核心）"
+				""
+				"[ \"其次，如果能够正常打开界面放入样板（这一步推荐用样板管理终端进行），但是提示没有\", { \"text\": \"CPU\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"348EF2B3721119C8\" } }, \"，则需要再额外建造CPU才能正常工作\" ]"
+			]
+			id: "0BFAEF87139FE7EC"
+			tasks: [{
+				id: "60C6E1415B8BE67D"
+				type: "checkmark"
+			}]
+			title: "无法运行？"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BFAEF87139FE7EC"]
+			description: ["如果需要快速将工作台合成相关的样板快速放入装配矩阵中，可以采用这样的方式：将写好的样板作为输出总线的过滤（输出到装配矩阵里），加上模糊卡调整到75%，之后的其他合成相关样板只需要直接塞入AE网络，即可被自动输出到装配矩阵"]
+			id: "72371DA596023DF1"
+			tasks: [{
+				id: "3D1AA9027E53DB3E"
+				type: "checkmark"
+			}]
+			title: "快速放入样板"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43F301A1EBCE3923"]
+			description: ["大部分AE的设备可以按W思索，但是&a由于附属模组的问题，线缆会缺失连接纹理&r，这是正常情况。如果对AE有任何疑问，推荐在AE指南中查看介绍（对着AE的设备长按G打开）"]
+			id: "4BA5DA8ADA5676C1"
+			tasks: [{
+				id: "540EE1D4663023B0"
+				type: "checkmark"
+			}]
+			title: "AE思索介绍"
+			x: -2.55d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: ["可以临时缓存大量物品或者流体，适合作为产线的缓存中转"]
+			id: "266CE40B712687B7"
+			rewards: [{
+				id: "2804DCE538B300EB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "43EBEEEA74DDB6E7"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3104F957941650DA"]
+			description: ["唯一的区别是可配置更多的物品或流体设置"]
+			id: "74593CFA7E59F2E1"
+			rewards: [{
+				id: "353C78449020A7F8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D8306B3396F2068"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: ["可以同时执行4个压印工作，内部UI有按钮可调整堆叠数量，当和样板供应器搭配使用时，将物品堆叠数量调整为1或许能规避部分问题"]
+			id: "6714AF6DA8C2F537"
+			rewards: [{
+				id: "2B3A747C5DCBBD3D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3F09F98567AEDA3E"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["537552962A22FB7B"]
+			description: ["同时进行4个充能工作，4倍的效率"]
+			id: "6943D6691CFE4070"
+			rewards: [{
+				id: "46ED8579BAA1175F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3538DC09D29FD6A3"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["296CAB7CDF48DD3B"]
+			description: ["当且仅当目标容器能完整接收所有配置好的物品时，该总线才会发送物品，只要有任何物品无法进入容器（因为堆叠已满等问题），该总线都不会发送任何物品。非常适合部分需要精准控制物品数量的生产场合"]
+			id: "1E1C03049215CEC8"
+			tasks: [{
+				id: "186EF21055ACF09E"
+				item: "expatternprovider:precise_export_bus"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43F301A1EBCE3923"]
+			description: [
+				"天子：这是第二种起步的方法，村民交易"
+				""
+				"只需要准备好工作方块——充能器，就可以在村民那里购买到所有的4种压印模板和相应的基础材料。当然，正常情况下一个村民肯定是不足以购买到所有压印模板的，但是有的是村民愿意干！"
+				""
+				"两种起步方法任选其一即可，&a完成任意一个均可开启下一个任务&r"
+			]
+			id: "75012FC22E8B8A3F"
+			tasks: [
+				{
+					id: "668265915B453AAA"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "67255C84EA1198D7"
+					item: "easy_villagers:villager"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "不需要找陨石的方法"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["想要获得更多的陨石？只需要将这三种材料放入感应炉里就能让陨石超级加倍"]
+			icon: "ae2:sky_dust"
+			id: "28DDD0FE1AAEA364"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "10507A69C510FC47"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "5E4038660A5E6C66"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2EC596C33BD387AA"
+					item: { Count: 2, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			title: "量产陨石"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43F301A1EBCE3923"]
+			description: ["天子：你说找不到陨石？这也很正常，毕竟被灵梦退治过了，最近我也收敛了一些，没有扔太多的陨石。如果需要寻找的话，只需要将指南针放入有电力的充能器，就能获得陨石罗盘，然后根据陨石罗盘寻找即可"]
+			id: "661B0A10209F0A7C"
+			tasks: [{
+				id: "40DBD8E25382D8FA"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["661B0A10209F0A7C"]
+			description: ["没有电怎么办？也不用担心，木质曲柄连接充能器，只需要化身苦工摇一摇就能获得陨石罗盘"]
+			id: "0168FF5AA90B60C3"
+			tasks: [{
+				id: "14FFA3BA0DF39867"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"除了黑市买电，还可以制作一些备用的发电设备，当然了，效率不保证"
+				""
+				"使用方法：接入ME网络，但是每个网络只能接入一个"
+			]
+			id: "38078EDB47248ABE"
+			tasks: [{
+				id: "1CBD7709A8E52393"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			title: "AE突然没有电？"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"虽然名字不像是发电的，但确实也能给AE发电"
+				""
+				"消耗燃料发电，可以安装能源卡，加速卡"
+			]
+			id: "627BA84B7A3FEECE"
+			tasks: [{
+				id: "09232F3B1A0C0F7E"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"合成终端可以放置在ME线缆上面接入ME网络，用法和tom存储的合成终端类似"
+				""
+				"推荐进一步合成制作无线通用终端"
+			]
+			id: "7460A9CBB9212DE8"
+			tasks: [{
+				id: "272257FA1FC5AD2B"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D23578203E76906"]
+			description: [
+				"样板编码终端并不能进行正常合成，但是在UI界面里对应槽位放入面板以后可以编写样板"
+				""
+				"推荐进一步合成制作无线通用终端"
+			]
+			id: "61208489A3727A15"
+			tasks: [{
+				id: "39F732D7CFA7AA85"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7EA5110C1435A142"
+				"74593CFA7E59F2E1"
+				"244BBB8A6FB2A97F"
+				"253E804B0D79593E"
+			]
+			description: [
+				"天子：利用量子压缩技术，可以增加一个额外的戒指槽位，别问，问就是量子力学"
+				""
+				"但是这项科技的前置技术比较多，你能都顺利完成吗？"
+			]
+			hide_dependency_lines: true
+			icon: "jewelcraft:golden_ring_amethyst"
+			id: "369E180B6214B63E"
+			rewards: [{
+				command: "/curios add ring @s 1"
+				elevate_perms: true
+				id: "799020B7598D2788"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0F177278D4C329FC"
+				type: "checkmark"
+			}]
+			title: "额外戒指位"
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0D46E2E307E3D248"]
+			description: [
+				"除了可以兼容部分AE物品的制作以外，还能制作一些独特配方，想要更进一步，在这个领域继续深耕的话，这台设备是起步的基础"
+				""
+				"但是&c这些新配方无论是能源消耗还是材料消耗都相当多，除非已经积累了足够的资源，否则不建议现在开始发展&r"
+				""
+				"尤其是，如果还没有实现合成自动化，直接开始这条线的话难度会相当高"
+			]
+			id: "7A31EA65F2DFAE46"
+			rewards: [{
+				id: "63846B49F464C34B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "比进阶更进阶"
+			tasks: [{
+				id: "5647B3323D624E0C"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3BFD63B701AD72D1"]
+			description: [
+				"新的模板，新的开始"
+				""
+				"也意味着新的物品"
+				""
+				"需要用到破碎奇点才能制作"
+			]
+			id: "4D3253526FA9D32D"
+			rewards: [{
+				id: "788F44EC176D3B3E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "326F734E3E4435B5"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A31EA65F2DFAE46"]
+			description: ["可在反应仓里生产获得，消耗的能量非常高"]
+			id: "3BFD63B701AD72D1"
+			rewards: [{
+				id: "0ADC226E7CF87CAB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "779B72D03FA7E88B"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A31EA65F2DFAE46"]
+			id: "4402F7CDB9D23684"
+			rewards: [{
+				id: "1165DE6EF597B603"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "17D8EEEDF69B71DB"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4402F7CDB9D23684"
+				"4D3253526FA9D32D"
+			]
+			description: ["需要用到量子合金与特殊的量子压印模板"]
+			id: "37B84E694E2CC9A2"
+			rewards: [{
+				id: "39C5C090AA063010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "396DEA8147F317F7"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37B84E694E2CC9A2"]
+			description: [
+				"天子：扩展压印器或者反应仓能一次处理4个，相比压印器效率更高"
+				""
+				"量子处理器是后续需要的原材料，你该不会到这种时候了还在想着手搓吧？"
+			]
+			id: "26B843D7157AA4E9"
+			rewards: [{
+				id: "40BC1FFA93E19C57"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7A7D9F0772DA1793"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: [
+				"非常简单的一步，需要用外壳完全覆盖里面的其他方块，不过最大结构只能造7X7"
+				""
+				"外壳一定要放在外面的壳！"
+			]
+			id: "5F13E1FBC4EAD003"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "360D08F99DEFF965"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47ED21A172C1820C"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["26B843D7157AA4E9"]
+			description: [
+				"天子：接下来就该搞点有意思的东西了——量子计算机"
+				""
+				"这种多方块结构的搭建&a有点类似于装配矩阵&r，但是区别在于部分方块的数量有限制，而且外壳所允许的材料有且仅有 &a量子计算机外壳&r"
+				""
+				"&b其余的方块（核心除外）只能放置于内部&r，且不允许留空，如果需要额外填充，则需要用量子合成单元来填补"
+			]
+			icon: "alexsmobs:straddlite_block"
+			id: "4BFEBE04214AA85A"
+			tasks: [{
+				id: "3C402AC8B982C4CD"
+				type: "checkmark"
+			}]
+			title: "矩阵革命"
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: ["唯一的注意事项：多方块结构内部只能放一个这种方块"]
+			id: "0E832F9B9CCA1DDC"
+			rewards: [{
+				id: "4018D49A902DB3D9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "4EDFD131396DEA04"
+				item: "advanced_ae:quantum_multi_threader"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: ["增加8个并行线程，且可被所有合成任务共享，推荐大量配置该方块"]
+			id: "612CF32E27898C6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "656F07CF30C61B7E"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DB61455A56D0DB4"
+				item: "advanced_ae:quantum_accelerator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: ["两种合成存储器，可放置多个，功能和常规的CPU类似"]
+			id: "16152AE358C1402E"
+			rewards: [{
+				id: "607B1ACA85610011"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "54CCCFB4233C9478"
+					item: "advanced_ae:quantum_storage_128"
+					type: "item"
+				}
+				{
+					id: "705F821982E71F5B"
+					item: "advanced_ae:quantum_storage_256"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: [
+				"用法1：能够独立构成一个量子计算机，也就是只需要一个方块就能形成量子计算机结构。但是线缆只能连接顶部或底部"
+				""
+				"用法2：放入量子计算机结构的内部，作为其中的强力运算大脑使用"
+			]
+			id: "74494D4F3F91C2F2"
+			rewards: [{
+				id: "2C5B0064F6E5C05C"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			subtitle: "所谓全息……"
+			tasks: [{
+				id: "0050D609545D5A8C"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: ["唯一的注意事项：多方块结构内部只能放一个这种方块"]
+			id: "5A433114A5E511C0"
+			rewards: [{
+				id: "6BADC87027DAC5C0"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "56E86CCF7CB419F7"
+				item: "advanced_ae:data_entangler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["612CF32E27898C6C"]
+			description: [
+				"&b和量子计算机没有太大关系&r，只需要接入ME网络即可。但是功能相当强大，可以快速大量合成物品，并且可以设置保持特定物品在某一数量。支持递归合成，流体替换。"
+				""
+				"如果需要使用，必须提前写好需要持续合成的样板并将其放入量子合成器"
+				""
+				"底部的按钮：&a合成，启动！&r"
+				"或者停用该样板对应的合成"
+				""
+				"扳手样式按钮：配置启动的条件"
+			]
+			id: "5BDAD062DD8EE973"
+			rewards: [{
+				id: "6419F31639219229"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CB69008441723FA"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4BFEBE04214AA85A"]
+			description: ["无作用，仅用于填补内部的空缺，以满足多方块结构的要求"]
+			id: "6538D6EC73CC0BA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60C763F48AA7D823"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47831C5201116F7B"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"方便显示特定物品的数量，但是无法进行任何针对物品的操作"
+				"空手/持有物品右键可以清空/设置特定物品的过滤显示，潜行右键可锁定，避免误操作"
+				""
+				"流体需要手持桶右键两次才能设定"
+			]
+			id: "65288A3E7827CEB9"
+			tasks: [{
+				id: "50AA3290F1F6D2E6"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["65288A3E7827CEB9"]
+			description: ["增加了新功能：类似抽屉一样可以快速拿取/存入物品。每次左键拿取都是拿1组，而且数量不足的话还会触发合成"]
+			id: "05D60814A63561E4"
+			tasks: [{
+				id: "5B9562F7CFCC7CF7"
+				item: "ae2:conversion_monitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["65288A3E7827CEB9"]
+			description: ["新增功能：监控物品或流体变化数量"]
+			id: "0E0A65D0F30E71EC"
+			tasks: [{
+				id: "7AE44F1D9673271D"
+				item: "advanced_ae:throughput_monitor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0E0A65D0F30E71EC"]
+			description: ["调整监控的模式"]
+			id: "1F783F293E0FAEF6"
+			tasks: [{
+				id: "542AF9D30B7CF14D"
+				item: "advanced_ae:throughput_monitor_configurator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"253E804B0D79593E"
+				"1E59CCE064C2291F"
+				"23FDFF149D8685DE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["可容纳更多样板"]
+			id: "014295EBA9A82339"
+			rewards: [{
+				id: "7540F853BC71C814"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F509ACC5C5B98CF"
+				item: "advanced_ae:adv_pattern_provider"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1CE3EA2EC9C3218A"]
+			description: ["在样板供应器的基础之上，额外增加了新功能：实现特定面输入特定原材料，可以用来专治河童的那些合成配方"]
+			id: "0E16BCF9CE3BCFA7"
+			rewards: [
+				{
+					id: "33490D0EA7A58F30"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "6D3085B35776BDBD"
+					item: "thermal:peanut_butter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E07215F328BD607"
+				item: "advanced_ae:small_adv_pattern_provider"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["253E804B0D79593E"]
+			description: ["无需将原有的样板供应器拆下来，直接就能升级"]
+			id: "23FDFF149D8685DE"
+			rewards: [{
+				id: "2BEDFC1127DCE2F0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0AF865ABF0693148"
+				item: "advanced_ae:adv_pattern_provider_upgrade"
+				type: "item"
+			}]
+			x: 5.241666666666653d
+			y: -16.452380952380956d
+		}
+		{
+			dependencies: ["0E16BCF9CE3BCFA7"]
+			description: [""]
+			id: "1E59CCE064C2291F"
+			rewards: [{
+				id: "5552EBA28AC3FE78"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51E029400C9E481B"
+				item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+				type: "item"
+			}]
+			x: 3.5273809523809376d
+			y: -14.261904761904766d
+		}
+		{
+			dependencies: [
+				"0E16BCF9CE3BCFA7"
+				"014295EBA9A82339"
+			]
+			description: [
+				"天子：那么问题来了，能够配置不同原料从不同方向输入的样板供应器，该如何写配方呢？"
+				""
+				"对着这个道具开始思索（按G开启俺寻思模式），也许很快就能知道"
+			]
+			id: "64ABE64BB8020D5E"
+			rewards: [{
+				id: "31B888DF7F1F551F"
+				item: {
+					Count: 1
+					id: "tconstruct:chestplate_plating"
+					tag: {
+						Material: "kubejs:koishi"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D98CD1379A24EF3"
+				item: "advanced_ae:adv_pattern_encoder"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0D46E2E307E3D248"]
+			description: ["需要配置过滤器，配置以后，符合过滤条件的执行输出总线的操作（输出到特定容器），不符合的则执行输入（进入ME网络）"]
+			id: "293E8EEA4D5A69D3"
+			rewards: [{
+				id: "4F128E443121967B"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "612FDCCA7E0A9A3A"
+				item: "advanced_ae:import_export_bus_part"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D46E2E307E3D248"]
+			description: ["精确控制输出，使容器内物品数量不会超过设定的数量上限，推荐按G开始寻思"]
+			id: "20E249038D93E9F1"
+			rewards: [{
+				id: "6FCCC28534E5D731"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4EA928F40ADD5B47"
+				item: "advanced_ae:stock_export_bus_part"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+	]
+	title: "有顶天(AE)"
+}

@@ -1,0 +1,60 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.2 + 20, 180)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					},
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"is_summoned":{
+						"operations":[
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "as_entity"
+							},							
+							{
+								"type":"puffish_skills:has_tag",
+								"data":{
+									"tag":"irons_spellbooks:summons"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+					"condition":"!is_summoned",
+					"expression":"(dropped_xp + max_health / 15)/2"
+				}
+				],
+				"anti_farming": {
+					"limit_per_chunk": 30,
+					"reset_after_seconds": 750
+				}
+			}
+		}
+	]
+}

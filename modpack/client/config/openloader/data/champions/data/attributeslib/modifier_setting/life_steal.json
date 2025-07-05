@@ -1,0 +1,17 @@
+{
+  "attributeType": "attributeslib:life_steal",
+  "conditions": {
+    "affixes": {
+      "values": ["champions:reflective", "champions:molten"]
+    },
+    "entity": [
+      "hmag:ender_executor"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.12
+  }
+}

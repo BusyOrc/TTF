@@ -1,0 +1,60 @@
+
+[Jewelry]
+	#Should golden jewelry work on Piglins?
+	"Golden Blesses" = true
+	#Armor Rating of Iron Jewelry
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Iron Protects" = 3.0
+	#Knockback Resistance of Copper Jewelry
+	#Range: 0.0 ~ 1.0
+	"Copper Resists" = 0.1
+	#Should unique jewelry pieces be added to loot tables?
+	"Unique Jewelry" = true
+
+["Enchantment Bonuses"]
+	#Swimming Speed bonus from the Aquamarine Enchantment as a percentage
+	#Range: > 0
+	Swimmer = 35
+	#Movement Speed bonus from the Alexandrite Enchantment as a percentage
+	#Range: > 0
+	"Alex's Speed" = 15
+	#Reach bonus from the Alexandrite Enchantment
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Alex's Reach" = 1.5
+	#Step-Up bonus from the Alexandrite Enchantment
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Alex's Step" = 0.5
+	#Attack Speed bonus from the Infused Enchantment as a percentage
+	#Range: > 0
+	Infusion = 25
+	#Fortune bonus from the Heliodor Enchantment
+	#Range: > 0
+	"Heliodor's Fortune" = 1
+	#Looting bonus from the Heliodor Enchantment
+	#Range: > 0
+	"Heliodor's Looting" = 1
+	#Luck bonus from the Heliodor Enchantment
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Heliodor's Luck" = 1.0
+
+["Enchantment Abilities"]
+	#Magnetic's range for teleporting items to the player
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Magnetic = 16.0
+	#Satisfication's minimum hunger amount for the player
+	#Range: 0 ~ 16
+	"Never Go Hungry" = 8
+	#Empowered's Vanilla Critical Damage Bonus as a percentage
+	#Range: > 0
+	Critical = 20
+	#Empowered's Random Critical Damage Bonus as a percentage
+	#Range: > 0
+	"Random Critical" = 12
+	#Empowered's Random Critical Chance as a percentage
+	#Range: 0 ~ 100
+	"Random Chance" = 7
+	#Should Empowered allow random critical hits?
+	"Fair & Balanced" = true
+	#Should Empowered allow vanilla critical hits?
+	"Bonk!" = true
+

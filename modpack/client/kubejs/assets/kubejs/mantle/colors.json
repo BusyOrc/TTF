@@ -1,0 +1,32 @@
+{
+    "modifier.kubejs": {
+
+    },
+    "material.kubejs": {
+        "brass" : "#DAA520",
+        "baka":"#6495ED",
+        "daiyousei":"#00FF00",
+        "doremy":"#4B0082",
+        "dragonsteel_fire":"#C71585",
+        "dragonsteel_ice":"#87CEFA",
+        "dragonsteel_lightning":"#6A5ACD",
+        "fluix_crystal":"#8A2BE2",
+        "greatrune":"#FFD700",
+        "hifuu":"#191970",
+        "iridium":"#4B0082",
+        "polyvinyl_chloride_plate":"#1E90FF",
+        "reisen":"#FFB6C1",
+        "youmu":"#40E0D0",
+        "sky_steel":"#1C1C1C",
+        "komachi":"#00F5FF",
+        "reimu":"#EE0000",
+        "evil_crystal":"#828282",
+        "sakura":"#EE82EE",
+        "koishi":"#54FF9F",
+        "tofu":"#FFFAFA",
+        "mist":"#E0FFFF",
+        "himekaido":"#FF83FA",
+        "wu_yu":"#FFA500",
+        "seija":"#FFA1A7B1"
+    }
+}

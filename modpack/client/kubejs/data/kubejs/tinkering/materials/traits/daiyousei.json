@@ -1,0 +1,24 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:overheal"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:fog_swim"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "tinkerscalibration:yousei"
+        },
+        {
+          "level": 1,
+          "name": "tconstruct:fog_swim"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,33 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "catalysts": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "chances": 0.5,
+  "results": [
+    {
+      "item": "minecraft:sculk_sensor"
+    }
+  ]
+}

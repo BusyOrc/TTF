@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+          "structure": "ttf:fumo_nether",
+          "weight": 1
+        }
+
+    ],
+    "placement": {
+        "salt": 61249468,
+        "spacing": 28,
+        "separation": 15,
+        "type": "minecraft:random_spread"
+      }
+}

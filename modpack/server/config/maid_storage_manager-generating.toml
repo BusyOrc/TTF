@@ -1,0 +1,85 @@
+
+[maid_storage_manager]
+
+	[maid_storage_manager.craft]
+		enable = true
+
+	[maid_storage_manager.smithing]
+		enable = true
+
+	[maid_storage_manager.furnace]
+		enable = true
+
+	[maid_storage_manager.stone_cutting]
+		enable = true
+
+	[maid_storage_manager.altar]
+		enable = true
+
+	[maid_storage_manager.brewing]
+		enable = true
+		count = 3
+
+	[maid_storage_manager.watering]
+		enable = true
+		bucket = true
+		bottle = true
+
+	[maid_storage_manager.stripping]
+		enable = true
+
+[create]
+
+	[create.pressing]
+		enable = true
+
+	[create.compacting]
+		enable = true
+
+	[create.mixing]
+		enable = true
+
+	[create.milling]
+		enable = true
+
+	[create.crushing]
+		enable = true
+		count = 16
+
+	[create.fan]
+		enable = true
+		count = 8
+		splashing = true
+		haunting = true
+		smoking = true
+		blasting = true
+		replace_furnace = true
+
+	[create.item_application]
+		enable = true
+
+	[create.deploying]
+		enable = true
+
+[ae2]
+
+	[ae2.inscriber]
+		enable = true
+
+	[ae2.charger]
+		enable = true
+
+	[ae2.item_transform]
+		enable = true
+
+[ars_nouveau]
+
+	[ars_nouveau.imbuement]
+		enable = true
+
+	[ars_nouveau.enchanting_apparatus]
+		enable = true
+
+	[ars_nouveau.enchantment]
+		enable = true
+

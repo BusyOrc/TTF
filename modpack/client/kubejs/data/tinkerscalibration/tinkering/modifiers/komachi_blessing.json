@@ -1,0 +1,11 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+        {
+            "type": "tconstruct:constant_enchantment",
+            "flat": 1,
+            "name": "majruszsenchantments:death_wish"
+          }
+    ],
+    "tooltip_display": "always"
+  }

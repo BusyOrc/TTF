@@ -1,0 +1,39 @@
+
+["Common / 一般设置"]
+	#Allow the Wandering Traders to sell items from Latiao Craft 2 / 流浪商人是否会贩卖本模组的物品
+	WanderingTraderSell = true
+	#The Evil Sword can use skill / 衰恶之剑是否可以使用技能
+	EvilSwordSkill = true
+	#Minimum Undying Dust count obtained after consuming Undying Latiao / 通过食用不死辣条获取不死粉尘的最小数量
+	#Range: 0 ~ 127
+	MinUndyingDustCount = 5
+	#Maximum Undying Dust count obtained after consuming Undying Latiao / 通过食用不死辣条获取不死粉尘的最大数量
+	#Range: 1 ~ 128
+	MaxUndyingDustCount = 10
+	#The count of enchanted books obtained after consuming Enchanter Latiao / 通过食用附魔师辣条可获取附魔书的数量
+	#Range: 1 ~ 128
+	EnchanterBookCount = 5
+	#Are the enchanted books obtained from consuming Enchanter Latiao always at its maximum level / 通过食用附魔师辣条获取的附魔书是否为最大等级
+	#true: fixed maximum level | false: random level / true：固定最大等级 | false：随机等级
+	EnchanterBookLevel = true
+	#Does Latiao Mending work on items in armor slots? / “辣条修补”是否对护甲槽的物品生效
+	LatiaoMendingArmor = true
+
+["Mob Drop / 生物掉落"]
+	#Allow the Warden to drop items from Latiao Craft 2 / 监守者是否会掉落本模组的物品
+	WardenDrop = true
+	#Allow the Strider Traders to drop items from Latiao Craft 2 / 炽足兽是否会掉落本模组的物品
+	StriderDrop = true
+
+["Pepper Fertilizer / 辣椒催生粉"]
+	#Minimum wild pepper count when using Pepper Fertilizer / 使用辣椒催生粉生成的野生辣椒最小数量
+	#Range: 0 ~ 24
+	MinWildPepperCountFertilizer = 5
+	#Maximum wild pepper count when using Pepper Fertilizer / 使用辣椒催生粉生成的野生辣椒最大数量
+	#Range: 1 ~ 25
+	MaxWildPepperCountFertilizer = 8
+	#Wild Pepper Generation Bias with Pepper Fertilizer / 野生辣椒生成概率因子
+	#The higher this value is, the closer the number of peppers generated with fertilizer will be to the maximum / 此值越大，则使用辣椒催生粉生成的野生辣椒数量越接近最大值。
+	#Range: 0.01 ~ 0.99
+	WildPepperGenChanceFetilizer = 0.25
+

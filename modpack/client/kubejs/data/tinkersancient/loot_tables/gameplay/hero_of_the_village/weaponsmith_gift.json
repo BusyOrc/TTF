@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_head_sand_cast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_head_red_sand_cast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_handle_sand_cast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_handle_red_sand_cast"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

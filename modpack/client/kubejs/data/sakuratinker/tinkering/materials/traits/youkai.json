@@ -1,0 +1,17 @@
+
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "sakuratinker:youkaified"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "sakuratinker:youkaified"
+      }
+    ]
+  }
+}

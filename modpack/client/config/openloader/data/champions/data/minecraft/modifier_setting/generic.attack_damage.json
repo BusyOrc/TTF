@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.attack_damage",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "touhou_little_maid:fairy"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": false,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 1
+  }
+}

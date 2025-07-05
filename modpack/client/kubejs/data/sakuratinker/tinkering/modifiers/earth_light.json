@@ -1,0 +1,22 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "irons_spellbooks:mana_regen",
+          "operation": "addition",
+          "value": 5.0
+        },
+        {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "operation": "addition",
+          "value": 2.0
+        }
+      ],
+      "name": "sakuratinker:earth_light"
+    }
+  ],
+  "tooltip_display": "always"
+}

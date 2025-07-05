@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 0
+	#The name of the modpack
+	modpackName = "东方匠魂传"
+	#The version of the modpack
+	modpackVersion = "Beta-2.0.4"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

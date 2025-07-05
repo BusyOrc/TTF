@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:fire_charge"
+      },
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:coal"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:fire_react",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

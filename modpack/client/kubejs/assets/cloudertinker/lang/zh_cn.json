@@ -1,0 +1,332 @@
+{
+  "block.cloudertinker.laomo_block": "牢墨块",
+
+  "effect.cloudertinker.hongwen": "红温",
+
+  "effect.cloudertinker.evilmarecurse": "恶魇之咒",
+  "effect.cloudertinker.shildfreeze": "护盾冷却",
+  "effect.cloudertinker.armorbroken": "碎裂铠甲",
+  "effect.cloudertinker.resentmentbrand": "愤怨烙印",
+
+  "fluid.cloudertinker.molten_laomo": "熔融牢墨",
+  "fluid.cloudertinker.molten_fiery": "熔融炽铁",
+  "fluid.cloudertinker.molten_knightmetal": "熔融骑士金属",
+  "fluid.cloudertinker.molten_evilmare": "熔融恶魇",
+  "fluid.cloudertinker.molten_bloodshed": "熔融喋血",
+  "fluid.cloudertinker.molten_prublaze": "熔融逐耀",
+  "fluid.cloudertinker.molten_minogold": "熔融米诺金",
+  "fluid.cloudertinker.molten_minodiamond": "熔融米诺钻石",
+  "fluid.cloudertinker.molten_phantom": "熔融幻影",
+  "fluid.cloudertinker.molten_fierdistear": "熔融炽厄之泪",
+  "fluid.cloudertinker.molten_forestgem": "熔融寒霜结晶",
+  "fluid.cloudertinker.molten_timering": "熔融时光",
+  "fluid.cloudertinker.molten_orescore": "熔融矿物精粹",
+  "fluid.cloudertinker.molten_changeheart": "熔融变化源质",
+  "fluid.cloudertinker.molten_sorteye": "信息流",
+
+  "item.cloudertinker.laomo": "牢墨",
+  "item.cloudertinker.colairon_ingot": "可乐铁锭",
+  "item.cloudertinker.evilmare_ingot": "恶魇锭",
+  "item.cloudertinker.bloodshed_ingot": "喋血锭",
+  "item.cloudertinker.dectird_ingot": "衰朽锭",
+  "item.cloudertinker.prublaze_ingot": "逐耀锭",
+  "item.cloudertinker.minogold_ingot": "米诺金锭",
+  "item.cloudertinker.minodiamond_gem": "米诺钻石",
+  "item.cloudertinker.hydra_scale": "凶兽鳞片",
+  "item.cloudertinker.phantom_ingot": "幻影锭",
+  "item.cloudertinker.fierdistear": "炽厄之泪",
+  "item.cloudertinker.forest_gem": "寒霜结晶",
+  "item.cloudertinker.timering": "时光之轮",
+  "item.cloudertinker.orescore": "矿石之核",
+  "item.cloudertinker.changeheart": "变化之心",
+  "item.cloudertinker.sorteye": "辨识之眼",
+
+  "item.cloudertinker.iron_cookie": "铁粒曲奇饼",
+  "item.cloudertinker.obsidian_cookie": "黑曜石铁饼",
+  "item.cloudertinker.cola_bottle": "可乐瓶",
+
+  "item.cloudertinker.fortification_scepter_core": "护盾核心",
+  "item.cloudertinker.zombie_scepter_core": "僵尸核心",
+  "item.cloudertinker.lifedrain_scepter_core": "吸血核心",
+  "item.cloudertinker.twilight_scepter_core": "黄昏核心",
+
+  "item.cloudertinker.molten_fiery_bucket": "熔融炽铁桶",
+  "item.cloudertinker.molten_knightmetal_bucket": "熔融骑士金属桶",
+  "item.cloudertinker.molten_evilmare_bucket": "熔融恶魇桶",
+  "item.cloudertinker.molten_bloodshed_bucket": "熔融喋血桶",
+  "item.cloudertinker.molten_prublaze_bucket": "熔融逐耀桶",
+  "item.cloudertinker.molten_minogold_bucket": "熔融米诺金桶",
+  "item.cloudertinker.molten_minodiamond_bucket": "熔融米诺钻石桶",
+  "item.cloudertinker.molten_phantom_bucket": "熔融幻影桶",
+  "item.cloudertinker.molten_fierdistear_bucket": "熔融炽厄之泪桶",
+  "item.cloudertinker.molten_forestgem_bucket": "熔融寒霜结晶桶",
+  "item.cloudertinker.molten_timering_bucket": "熔融时光桶",
+  "item.cloudertinker.molten_orescore_bucket": "熔融矿物精粹桶",
+  "item.cloudertinker.molten_changeheart_bucket": "熔融变化源质桶",
+  "item.cloudertinker.molten_sorteye_bucket": "信息流桶",
+
+  "itemGroup.cloudertinker.materials": "浮云工坊-材料",
+  "itemGroup.cloudertinker.others": "浮云工坊-杂项",
+
+  "material.cloudertinker.text": "测试工具",
+
+  "material.cloudertinker.raven_feather": "渡鸦羽毛",
+  "material.cloudertinker.raven_feather.encyclopedia": "辨识方向的有效手段",
+  "material.cloudertinker.raven_feather.flavor": "与其拿它干这个，或许我们更应该拿它找路",
+
+  "material.cloudertinker.timering": "时光",
+  "material.cloudertinker.timering.encyclopedia": "春夏秋冬，白昼黑夜",
+  "material.cloudertinker.timering.flavor": "朝菌不知晦朔",
+
+  "material.cloudertinker.orescore": "矿物精粹",
+  "material.cloudertinker.orescore.encyclopedia": "什么嘛...还得自己挖",
+  "material.cloudertinker.orescore.flavor": "融合了各类矿物的精华，但仍需人工寻找矿脉",
+
+  "material.cloudertinker.changeheart": "变化源质",
+  "material.cloudertinker.changeheart.encyclopedia": "关于暮色森林入侵主世界这档子事",
+  "material.cloudertinker.changeheart.flavor": "利用转化环境的能力，我们可以更好的适应这个环境或者更好的去争夺地盘",
+
+  "material.cloudertinker.sorteye": "信息",
+  "material.cloudertinker.sorteye.encyclopedia": "关合并同类项！",
+  "material.cloudertinker.sorteye.flavor": "虽然看不到，但是你能明白面前的生物是什么种类，或许这就是分类的原理",
+
+  "material.cloudertinker.red_thread": "红线",
+  "material.cloudertinker.red_thread.encyclopedia": "至少有些魔法气息在上面",
+  "material.cloudertinker.red_thread.flavor": "米诺陶迷宫中发现到的丝线，看起来...就像红色的线？",
+
+  "material.cloudertinker.nagascale": "娜迦鳞片",
+  "material.cloudertinker.nagascale.encyclopedia": "“剥鳞之时”",
+  "material.cloudertinker.nagascale.flavor": "这头巨兽能如此迅速行动的秘密来自于鳞片上的咒文，现在这股力量归我们了",
+
+  "material.cloudertinker.steeleaf": "钢叶",
+  "material.cloudertinker.steeleaf.encyclopedia": "加速同调，但不能同调召唤",
+  "material.cloudertinker.steeleaf.flavor": "当多枚叶片聚在一起时它们会同步周围的魔法力量来修复自身，或许这能让这种脆弱的材料变得“坚硬无比”",
+
+  "material.cloudertinker.fiery": "炽铁",
+  "material.cloudertinker.fiery.encyclopedia": "烧红的烙铁都没这玩意热",
+  "material.cloudertinker.fiery.flavor": "无论是九头蛇的血还是暮色恶魂的眼泪，都具有独特的魔力能够与铁发生反应，得到这种炽热无比的材料",
+
+  "material.cloudertinker.knightmetal": "骑士金属",
+  "material.cloudertinker.knightmetal.encyclopedia": "“刚毅不屈”",
+  "material.cloudertinker.knightmetal.flavor": "从地精要塞的各种破铜烂铁中提炼出来的金属，它们曾经的主人是骑士不假，不过它现在的魔力只有微弱的一点了",
+
+  "material.cloudertinker.colairon": "可乐铁",
+  "material.cloudertinker.colairon.encyclopedia": "可以廉价的解决温饱问题",
+  "material.cloudertinker.colairon.flavor": "碳酸怎么不是酸了，改变金属性质很合理吧",
+
+  "material.cloudertinker.evilmare": "恶魇",
+  "material.cloudertinker.evilmare.encyclopedia": "来自黄昏的诅咒",
+  "material.cloudertinker.evilmare.flavor": "施加恶咒",
+
+  "material.cloudertinker.bloodshed": "喋血",
+  "material.cloudertinker.bloodshed.encyclopedia": "血腥味十足的生意",
+  "material.cloudertinker.bloodshed.flavor": "渴求着你的/其他人的血",
+
+  "material.cloudertinker.dectird": "衰朽",
+  "material.cloudertinker.dectird.encyclopedia": "闻起来就跟它看起来一样",
+  "material.cloudertinker.dectird.flavor": "统领死灵的力量",
+
+  "material.cloudertinker.prublaze": "逐耀",
+  "material.cloudertinker.prublaze.encyclopedia": "在保护层面还是巫妖玩的更溜",
+  "material.cloudertinker.prublaze.flavor": "强烈的闪光可以保护自己，也可以闪瞎别人",
+
+  "material.cloudertinker.minogold": "米诺金",
+  "material.cloudertinker.minogold.encyclopedia": "魔法力量的加持让它比普通黄金更强",
+  "material.cloudertinker.minogold.flavor": "通过牛头人的特殊冶炼技术得到的黄金，用于制式装备",
+
+  "material.cloudertinker.minodiamond": "米诺钻石",
+  "material.cloudertinker.minodiamond.encyclopedia": "更加耐用并且魔法亲和力更强！",
+  "material.cloudertinker.minodiamond.flavor": "经由米诺菇特殊加工后的钻石，只有特殊个体才有资格使用",
+
+  "material.cloudertinker.hydra_scale": "凶兽鳞片",
+  "material.cloudertinker.hydra_scale.encyclopedia": "鳞片里寄宿着九头蛇的力量，还有欲望！",
+  "material.cloudertinker.hydra_scale.flavor": "虽然九头蛇没能留下任何一块像样的鳞片，但我们找到了方法将它的魔力注入到其他地方",
+
+  "material.cloudertinker.phantom": "幻影",
+  "material.cloudertinker.phantom.encyclopedia": "虽身躯已死，但仍是荣耀的骑士",
+  "material.cloudertinker.phantom.flavor": "锻造幻影骑士铠甲的金属，触摸的感受似乎是“虚无”",
+
+  "material.cloudertinker.fierdistear": "炽厄之泪",
+  "material.cloudertinker.fierdistear.encyclopedia": "一个哭泣的灵魂，一颗悔恨的结晶",
+  "material.cloudertinker.fierdistear.flavor": "凑近一点或许还能听见暮初恶魂那不甘的哀嚎声",
+
+  "material.cloudertinker.arctic_fur": "极地毛皮",
+  "material.cloudertinker.arctic_fur.encyclopedia": "在夏天反过来穿其实也不错",
+  "material.cloudertinker.arctic_fur.flavor": "柔顺的皮毛，比起保暖或许它蕴含的冰霜力量更值得研究",
+
+  "material.cloudertinker.alpha_fur": "雪怪首领毛皮",
+  "material.cloudertinker.alpha_fur.encyclopedia": "它甚至能代替冰块用",
+  "material.cloudertinker.alpha_fur.flavor": "上等而坚韧的皮毛，即使是抚摸外部都能感觉到寒冷",
+
+  "material.cloudertinker.forestgem": "寒霜结晶",
+  "material.cloudertinker.forestgem.encyclopedia": "凌冽寒风之精华",
+  "material.cloudertinker.forestgem.flavor": "由女皇遗物残留的气息加上极低的温度再借助一下魔力屏障的力量，我们最终提炼出来了寒霜的精华",
+
+  "material.cloudertinker.thorn_rose": "荆棘玫瑰",
+  "material.cloudertinker.thorn_rose.encyclopedia": "于死岩中绽放的生命之花",
+  "material.cloudertinker.thorn_rose.flavor": "这些因魔法力量而生长的荆棘过于强悍，只能烧掉。但它们开出的花坚韧度就刚刚好",
+
+  "modifier.cloudertinker.laomochuji": "牢墨出击",
+  "modifier.cloudertinker.laomochuji.description": "详细描述",
+  "modifier.cloudertinker.laomochuji.flavor": "词条标题",
+
+  "modifier.cloudertinker.twilight": "暮光",
+  "modifier.cloudertinker.twilight.description": "位于暮色森林维度时采掘速度＋2，位于其他维度时攻击伤害＋2",
+  "modifier.cloudertinker.twilight.flavor": "“那微弱的光芒便是暮色森林的祝福”",
+
+  "modifier.cloudertinker.precipitate": "积沉",
+  "modifier.cloudertinker.precipitate.description": "根据已损失的血量提升近程工具的采掘速度",
+  "modifier.cloudertinker.precipitate.flavor": "“最后的逃亡计划”",
+
+  "modifier.cloudertinker.precipitatearmor": "积沉",
+  "modifier.cloudertinker.precipitatearmor.description": "血量<50%时根据已损失的血量提升迅捷药水效果",
+  "modifier.cloudertinker.precipitatearmor.flavor": "“这就是我的逃跑路线！”",
+
+  "modifier.cloudertinker.synergy": "同调",
+  "modifier.cloudertinker.synergy.description": "快捷栏里有钢叶的时候自我修复",
+  "modifier.cloudertinker.synergy.flavor": "“看！没有苔藓！”",
+
+  "modifier.cloudertinker.stalwart": "坚毅",
+  "modifier.cloudertinker.stalwart.description": "手持近程工具成功暴击击中生物后，有10%概率获得10秒抗性提升效果",
+  "modifier.cloudertinker.stalwart.flavor": "“勇猛无畏”",
+
+  "modifier.cloudertinker.superheat": "过热",
+  "modifier.cloudertinker.superheat.description": "对着火的敌人造成的伤害提升35%",
+  "modifier.cloudertinker.superheat.flavor": "“升高温度！",
+
+  "modifier.cloudertinker.fire_react": "炽焰反制",
+  "modifier.cloudertinker.fire_react.description": "受击时每级点燃对方1秒，如果对方已经着火则会每级反射5%的伤害",
+  "modifier.cloudertinker.fire_react.flavor": "鉴定为纯纯的烧鸡",
+
+  "modifier.cloudertinker.cuttinggirl": "断鸡少女",
+  "modifier.cloudertinker.cuttinggirl.description": "攻击有概率进行要害打击，造成额外魔法伤害并施加虚弱缓慢，有时会掉落一份小鸡炖蘑菇",
+  "modifier.cloudertinker.cuttinggirl.flavor": "坤坤是MVP",
+
+  "modifier.cloudertinker.lichcurse": "§1巫妖之咒",
+  "modifier.cloudertinker.lichcurse.description": "你的攻击伤害的50%会被转换为魔法伤害，你的箭矢额外造成当前生命值20%的额外魔法伤害",
+  "modifier.cloudertinker.lichcurse.flavor": "武器上铭刻的咒文在暮光的祝福下闪闪发光",
+
+  "modifier.cloudertinker.lichprotect": "§1巫妖之护",
+  "modifier.cloudertinker.lichprotect.description": "生命值大于50%免疫虚弱、缓慢、中毒、凋零",
+  "modifier.cloudertinker.lichprotect.flavor": "护甲上铭刻的咒文在暮光的祝福下闪闪发光",
+
+  "modifier.cloudertinker.clousetodusk": "黄昏将至",
+  "modifier.cloudertinker.clousetodusk.description": "箭矢会对敌人施加等同于词条等级的“恶魇之咒”。每级每秒受到3点凋零伤害和1秒同等级缓慢虚弱",
+  "modifier.cloudertinker.clousetodusk.flavor": "“黄昏之杖的权能”",
+
+  "modifier.cloudertinker.clousetoduskarmor": "黄昏将至",
+  "modifier.cloudertinker.clousetoduskarmor.description": "受击会对敌人施加等同于词条等级的“恶魇之咒”",
+  "modifier.cloudertinker.clousetoduskarmor.flavor": "“黄昏之杖的权能”",
+
+  "modifier.cloudertinker.sacrificeblood": "祭血",
+  "modifier.cloudertinker.sacrificeblood.description": "右键会割伤自己以获得力量效果，如已经拥有力量效果则提升等级和延长持续时间。首次获得力量时的血量小号与力量等级、重复使用延长的时间与词条等级成正比",
+  "modifier.cloudertinker.sacrificeblood.flavor": "“血祭帝皇，颅献金座！”",
+
+  "modifier.cloudertinker.drawblood": "汲血",
+  "modifier.cloudertinker.drawblood.description": "受击时每一级词条会吸取攻击者生命值用于治疗你并施加缓慢III",
+  "modifier.cloudertinker.drawblood.flavor": "大部分情况下和受伤减少没啥区别",
+
+  "modifier.cloudertinker.fashionbody": "塑尸",
+  "modifier.cloudertinker.fashionbody.description": "你的攻击有10%的概率召唤一只忠于你的僵尸并施加5秒中毒2。每提升一级词条都会提升10%召唤概率和1级中毒",
+  "modifier.cloudertinker.fashionbody.flavor": "亡者归来",
+
+  "modifier.cloudertinker.twilightprotece": "暮光守护",
+  "modifier.cloudertinker.twilightprotece.description": "右键会获得类似护盾权杖的护盾并获得1分钟“护盾冷却”，期间仅可通过“护盾权杖”获得类似效果",
+  "modifier.cloudertinker.twilightprotece.flavor": "“护盾之杖的权能”",
+
+  "modifier.cloudertinker.prublazeshadow": "逐耀之影",
+  "modifier.cloudertinker.prublazeshadow.description": "你的箭矢命中时会施加失明并给予你迅捷并提升等级，你和对手的每一级迅捷和失明都会增加10%伤害",
+  "modifier.cloudertinker.prublazeshadow.flavor": "闪瞎他！然后开溜！",
+
+  "modifier.cloudertinker.immortalguardian": "不朽守护",
+  "modifier.cloudertinker.immortalguardian.description": "受击会获得类似护盾权杖的护盾并获得5分钟“护盾冷却”",
+  "modifier.cloudertinker.immortalguardian.flavor": "刚毅护盾！",
+
+  "modifier.cloudertinker.minotaurcharge": "§b哞菇冲撞",
+  "modifier.cloudertinker.minotaurcharge.description": "冲刺时造成1.5倍伤害",
+  "modifier.cloudertinker.minotaurcharge.flavor": "不要停下来啊！！！",
+
+  "modifier.cloudertinker.hydrabitten": "野蛮撕咬",
+  "modifier.cloudertinker.hydrabitten.description": "饱食度高于6时会额外造成火焰伤害并恢复少许饱食度，反之造成大量伤害并补满饱食度",
+  "modifier.cloudertinker.hydrabitten.flavor": "看给孩子饿的，都开始咬人了",
+
+  "modifier.cloudertinker.hydrafire": "烈焰爆炎",
+  "modifier.cloudertinker.hydrafire.description": "你的箭矢会造成爆炸,饱食度在不低于10时伤害、爆炸能力都会随饱食度提高并消耗饱食度（优先消耗饱和度）且会产生火焰，对主目标的爆炸伤害降低但受词条加成",
+  "modifier.cloudertinker.hydrafire.flavor": "“妈的，跟你爆了”",
+
+  "modifier.cloudertinker.hydralife": "超回复力",
+  "modifier.cloudertinker.hydralife.description": "饱食度>10且血量<=50%时会加速消耗饱食度加速生命恢复，但只要饱食度<10便会获得缓慢虚弱",
+  "modifier.cloudertinker.hydralife.flavor": "看来九头蛇不会跑的原因找到了",
+
+  "modifier.cloudertinker.knight_honorable": "骑士荣耀",
+  "modifier.cloudertinker.knight_honorable.description": "受击会获得短暂力量，攻击会获得短时间最高3级的抗性提升，多出的词条等级会获得5秒伤害吸收",
+  "modifier.cloudertinker.knight_honorable.flavor": "暮光的照耀下你感觉骑士们的荣耀与你同在",
+
+  "modifier.cloudertinker.breakphantom": "破影",
+  "modifier.cloudertinker.breakphantom.description": "隐身时攻击会清除自身隐身效果，造成双倍伤害并造成对方移动速度和护甲值减少",
+  "modifier.cloudertinker.breakphantom.flavor": "谁家地下城",
+
+  "modifier.cloudertinker.phantom": "幻影",
+  "modifier.cloudertinker.phantom.description": "25%概率减少25%受到伤害，处于隐身效果时会消耗30%的时长翻倍概率和减伤额度",
+  "modifier.cloudertinker.phantom.flavor": "虚无缥缈，如影随形",
+
+  "modifier.cloudertinker.resentment": "积怨",
+  "modifier.cloudertinker.resentment.description": "受击会积攒怨念（最多200层）并对敌人施加“愤怨烙印”。怨念会随时间减少\n多件装备的积攒和扣除速率叠加\n[愤怨烙印]:每秒都会点燃持有者",
+  "modifier.cloudertinker.resentment.flavor": "记仇ing",
+
+  "modifier.cloudertinker.relieveresentment": "迁怒",
+  "modifier.cloudertinker.relieveresentment.description": "穿戴时近战伤害会根据怨念层数提高\n若目标具有[愤怨烙印]则会尝试扩散到周围生物",
+  "modifier.cloudertinker.relieveresentment.flavor": "报仇雪恨！",
+
+  "modifier.cloudertinker.readyboom": "一触即发",
+  "modifier.cloudertinker.readyboom.description": "怨念>100时，你的箭矢会消耗怨念引爆目标半径4范围内的[愤怨烙印]，爆炸半径为4",
+  "modifier.cloudertinker.readyboom.flavor": "杀手皇后第一炸弹！",
+
+  "modifier.cloudertinker.nodienoend": "不死不休",
+  "modifier.cloudertinker.nodienoend.description": "根据怨念提升护甲值，最高20点",
+  "modifier.cloudertinker.nodienoend.flavor": "你也.....别想活着！！",
+
+  "modifier.cloudertinker.chillaura": "凛寒气场",
+  "modifier.cloudertinker.chillaura.description": "受击时会冰冻你的敌人",
+  "modifier.cloudertinker.chillaura.flavor": "Let it go！Let it go！",
+
+  "modifier.cloudertinker.foresttought": "凛冰之触",
+  "modifier.cloudertinker.foresttought.description": "你的攻击会冰冻你的敌人",
+  "modifier.cloudertinker.foresttought.flavor": "“就像冬天把手伸进衣领一样”",
+
+  "modifier.cloudertinker.forestcraft": "寒气炼成",
+  "modifier.cloudertinker.forestcraft.description": "不在主手和装备时积攒寒气",
+  "modifier.cloudertinker.forestcraft.flavor": "“冰冻三尺非一日之寒”",
+
+  "modifier.cloudertinker.forestsword": "覆霜之刃",
+  "modifier.cloudertinker.forestsword.description": "攻击消耗寒气并根据寒气层数提高伤害和施加的霜冻效果",
+  "modifier.cloudertinker.forestsword.flavor": "冰刃刺骨",
+
+  "modifier.cloudertinker.forestbomb": "冰结爆破",
+  "modifier.cloudertinker.forestbomb.description": "箭矢消耗寒气并根据寒气层数和箭矢基础伤害造成寒冰爆炸和施加的霜冻效果",
+  "modifier.cloudertinker.forestbomb.flavor": "一天不止能用三次",
+
+  "modifier.cloudertinker.forestaround": "寒气释放",
+  "modifier.cloudertinker.forestaround.description": "随机冻结周围生物，受击时消耗寒气冻结周围所有生物并减少受到伤害",
+  "modifier.cloudertinker.forestaround.flavor": "通俗来讲就是漏气了",
+
+  "modifier.cloudertinker.seektraces": "寻迹",
+  "modifier.cloudertinker.seektraces.description": "被击中的生物将会发光",
+  "modifier.cloudertinker.seektraces.flavor": "无处可躲！",
+
+  "modifier.cloudertinker.differencebetween": "区别对待",
+  "modifier.cloudertinker.differencebetween.description": "造成伤害时如果目标属于“怪物”，伤害提高25%并减少护甲值；\n如果目标属于“动物”，伤害降低75%并施加“生命恢复”效果",
+  "modifier.cloudertinker.differencebetween.flavor": "怜悯只给值得的家伙",
+
+  "modifier.cloudertinker.habitat": "栖身之所",
+  "modifier.cloudertinker.habitat.description": "位于“魔法森林”群系时获得“饱和”和“抗性提升”效果",
+  "modifier.cloudertinker.habitat.flavor": "长栖宿世导致的",
+
+  "modifier.cloudertinker.territorialstruggle": "领地争夺",
+  "modifier.cloudertinker.territorialstruggle.description": "不位于“魔法森林”群系时造成伤害提升50%并降低目标移速\n但自己也会短暂虚弱和饥饿",
+  "modifier.cloudertinker.territorialstruggle.flavor": "现在咱就是入侵物种！",
+
+  "modifier.cloudertinker.timeflies": "飞逝如梭",
+  "modifier.cloudertinker.timeflies.description": "每秒获得迅捷和急迫并有10%概率清除全身装备冷却",
+  "modifier.cloudertinker.timeflies.flavor": "Made in heaven!!"
+}

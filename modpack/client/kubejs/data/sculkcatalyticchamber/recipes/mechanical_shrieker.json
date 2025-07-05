@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "W": {
+      "tag": "tconstruct:congealed_slime"
+    },
+    "Y": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "P": {
+      "item": "thermal:rf_coil"
+    },
+    "L": {
+      "item": "create:large_cogwheel"
+    }
+  },
+  "pattern": [
+    " S ",
+    "WYP",
+    " L "
+  ],
+  "result": {
+    "item": "sculkcatalyticchamber:mechanical_shrieker"
+  },
+  "show_notification": true
+}

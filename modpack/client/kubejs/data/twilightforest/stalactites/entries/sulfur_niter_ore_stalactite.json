@@ -1,0 +1,15 @@
+{
+  "blocks": [
+    {
+      "block": "thermal:niter_ore",
+      "weight": 3
+    },
+    {
+      "block": "thermal:sulfur_ore",
+      "weight": 2
+    }
+  ],
+  "max_length": 6,
+  "size_variation": 0.3,
+  "weight": 4
+}

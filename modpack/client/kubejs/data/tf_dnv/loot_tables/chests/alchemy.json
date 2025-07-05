@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 30,
+                "min": 10
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 10
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 20
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "chemlib:lead",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 20
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "chemlib:gold",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

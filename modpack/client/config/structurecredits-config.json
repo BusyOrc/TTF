@@ -1,0 +1,17 @@
+{
+  "active": true,
+  "showOnlyOneTime": false,
+  "chatMessage": false,
+  "showCreator": true,
+  "customStructureName": {
+    "ttf:fumo_overworld": "东方匠魂传:主世界fumo",
+    "ttf:fumo_nether": "东方匠魂传:下界fumo"
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+
+  ]
+}

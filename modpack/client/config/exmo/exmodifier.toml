@@ -1,0 +1,56 @@
+#Time interval for refresh (in seconds)
+#Range: > 0
+refresh_time = 1
+#Enable compact tooltip display
+compact_tooltip = true
+#Number of level system additions
+#Range: > 0
+add_level_system_count = 1
+#Number of allowed entries to add
+#Range: > 0
+canAddEntry = 3
+#Enable debug mode
+Debug = false
+#Show debug information in logs
+DebugInInfo = false
+#Enable first slot addition
+FirstAddSlots = false
+#Enable statistics tracking
+Statistics = false
+#Replace old entries on refresh
+RefreshReplaceOld = false
+#Enable ExMoTooltipRenderInRight
+ExMoTooltipRenderInRight = false
+#Enable ALWAYS_DISPLAY_MODIFIER_NAME_UNDER_ITEM_NAME
+ALWAYS_DISPLAY_MODIFIER_NAME_UNDER_ITEM_NAME = false
+#Enable ENTRY COLOR
+ENTRY_COLOR = true
+#Enable ENTRY FOLD
+ENTRY_FOLD = true
+#Enable ENTRY LINE
+ENTRY_LINE = true
+#Enable ENTRY_SHOW_UNDER_LEVEL(need open ENTRY_FOLD)
+ENTRY_SHOW_UNDER_LEVEL = true
+#Enable ELEMENT_DEBUG
+ELEMENT_DEBUG = false
+#refine max count
+#Range: > 0
+MAX_REFINE = 5
+#refine max count
+#Range: 0.0 ~ 1.7976931348623157E308
+REFINE_EFFECT = 0.1
+#open refine system
+REFINE_SYSTEM = false
+#alaways display star tooltip
+REFINE_ALAWAYS_DISPLAY_TOOLTIP = false
+#refine need same star
+REFINE_NEED_SAME_STAR = false
+#THE REFINE ADD ATTRIBUTE
+REFINE_ATTRIBUTE = "minecraft:generic.attack_damage"
+#ELEMENT_SUMMON_DEBUG
+ELEMENT_SUMMON_DEBUG = false
+#USE_NEW_DAMAGE_FORMULA
+USE_NEW_DAMAGE_FORMULA = true
+#AUTO_WEAPON_ELEMENT
+AUTO_WEAPON_ELEMENT = false
+

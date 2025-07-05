@@ -1,0 +1,2575 @@
+{
+	id: "3804F72C11DF0B92"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hakurei_reimu_type_b"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kirisame_marisa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:rumia"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:daiyousei"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:cirno"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hong_meiling"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:koakuma"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:patchouli_knowledge_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:patchouli_knowledge"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:izayoi_sakuya"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:remilia_scarlet"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:remilia_scarlet_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:flandre_scarlet"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:cirno_tan"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kirisame_marisa_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hakurei_reimu_type_b_1720614ea46709023787aae005df1134"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hakurei_reimu_type_b_716c27087f2716348835e7775121532f"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:reimu_hakurei"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hakurei_reimu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:cirno_tan"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:satsuki_rin"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:letty_whiterock"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:chen"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:alice_margatroid"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:lily_white"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:lily_black"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:lyrica_prismriver"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:lunasa_prismriver"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:merlin_prismriver"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:kirisame_marisa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hakurei_reimu_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:cirno_maid"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:konpaku_youmu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:saigyouji_yuyuko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yakumo_ran"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yukari_yakumo"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ibuki_suika"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:wriggle_nightbug"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:mystia_lorelei"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:keine_kamishirasawa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:keine_kamishirasawa_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tewi_inaba"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:reisen_udongein_inaba"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yagokoro_eirin"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:houraisan_kaguya"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:fujiwara_no_mokou"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:medicine_melancholy"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kazami_yuka"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yuuka_old"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:onozuka_komachi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:shikieiki_yamaxanadu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:minoriko_aki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:aki_sizuha"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kagiyama_hina"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kawasiro_nitori"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:inubashiri_momizi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kochiya_sanae"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yasaka_kanako"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:moriya_suwako"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:nagae_iku"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hinanawi_tenshi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kisume"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kurodani_yamame"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:mizuhashi_parsee"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hoshiguma_yugi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:komeiji_satori"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kaenbyou_rin"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:reiuji_utsuho"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:komeiji_koishi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:nazrin"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tatara_kogasa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kumoi_ichirin"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:murasa_minamitsu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:toramaru_shou"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hijiri_byakuren"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:houjuu_nue"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:himekaidou_hatate"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kasodani_kyouko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:miyako_yoshika"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kaku_seiga"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:soga_no_toziko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:mononobe_no_futo"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:toyosatomimi_no_miko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hutatsuiwa_mamizou"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hata_no_kokoro"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:wakasagihime"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:sekibanki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:imaizumi_kagerou"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tsukumo_benben"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tsukumo_yatsuhashi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kijin_seija"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:sukuna_shinmyoumaru"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:horikawa_raiko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:usami_sumireko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:seiran"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ringo"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:doremy_sweet"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kisin_sagume"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:clownpiece"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:junko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hecatia_lapislazuli"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yorigami_jyoon"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yorigami_shion"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:eternity_larva"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:sakata_nemuno"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:komano_aunn"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yatadera_narumi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:nishida_satono"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:teireid_mai"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:matara_okina"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ebisu_eika"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ushizaki_urumi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:niwatari_kutaka"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kitcho_yachie"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:joutougu_mayumi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:haniyasushin_keiki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kurokoma_saki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:toutetsu_yuma"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:goutokuzi_mike"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:komakusa_sannyo"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tamatsukuri_misumaru"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:kudamaki_tsukasa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:iizunamaru_megumu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tenkyu_chimata"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:himemushi_momoyo"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:son_biten"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:mitsugashira_enoko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tenkajin_chiyari"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yomotsu_hisami"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:nippaku_zanmu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:morichika_rinnosuke"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:tokiko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:syameimaru_aya"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:sunny_milk"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:star_sapphire"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:luna_child"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:watatsuki_no_toyohime"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:watatsuki_no_yorihime"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:reisen"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:hieda_no_akyuu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ibaraki_kasen"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:ibaraki_kasen_2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:motoori_kosuzu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:miyadeguchi_mizuchi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:miyoi_okunoda"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:usami_renko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:maribel_hearn"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:yamashiro_takane"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:shanghai_doll"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:singyoku2"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:singyoku3"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:mima"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:kikuri"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:konngara"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yuugen_magan"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:elis"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:sariel"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:genjii"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:rika"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:meira"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:ellen"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:kotohime"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:kana_anaberal"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:rikako_asakura"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:chiyuri_kitashirakawa"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yumemi_okazaki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:ruukoto"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:orange"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:kurumi"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:elly"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:mugetsu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:gengetsu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:sara"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:louise"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:alice"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yuki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:mai"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yumeko"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:shinki"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:trump_king"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			weight: 0.25f
+		}
+		{ item: "youkaishomecoming:spell_yukari_butterfly", weight: 0.25f }
+		{ item: "youkaishomecoming:spell_yukari_laser", weight: 0.25f }
+		{ item: "youkaishomecoming:spell_mystia", weight: 0.225f }
+		{ item: "youkaishomecoming:spell_sanae", weight: 0.25f }
+		{ item: "youkaishomecoming:spell_marisa", weight: 0.25f }
+		{ item: "youkaishomecoming:spell_reimu", weight: 0.25f }
+	]
+	title: "FUMO"
+}

@@ -1,0 +1,35 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "thermal:invar_block"
+      },
+      {
+        "item": "ltc2:hotaurum_block"
+      },
+      {
+        "item": "thermal:invar_block"
+      },
+      {
+        "item": "lavafishing:promethium_ingot"
+      },
+      {
+        "item": "aquaculture:neptunium_ingot"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:iron_curtain",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          },
+          {
+            "tag": "tconstruct:modifiable/held"
+          }
+    ]
+  }

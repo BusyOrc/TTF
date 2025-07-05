@@ -1,0 +1,26 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 773661255,
+    "separation": 16,
+    "spacing": 48
+  },
+  "structures": [
+    {
+      "structure": "twilight_treehouses:treehouse_abode",
+      "weight": 1
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_cabin",
+      "weight": 1
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_chalet",
+      "weight": 1
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_lodge",
+      "weight": 1
+    }
+  ]
+}

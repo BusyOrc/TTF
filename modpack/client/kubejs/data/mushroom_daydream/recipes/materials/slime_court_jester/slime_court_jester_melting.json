@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mushroom_daydream:slime_court_jester"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:molten_slime_court_jester",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 20
+}

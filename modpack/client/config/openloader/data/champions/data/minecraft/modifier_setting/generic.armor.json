@@ -1,0 +1,18 @@
+{
+  "attributeType": "minecraft:generic.armor",
+  "conditions": {
+    "affixes": {
+      "values": [
+      ]
+    },
+    "entity": [
+      "touhou_little_maid:fairy"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 6.0
+  }
+}

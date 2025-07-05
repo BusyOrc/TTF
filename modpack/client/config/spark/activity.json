@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ElysiaTopaz",
+      "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
+    },
+    "time": 1749722318388,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A7CpWC8OHM"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElysiaTopaz",
+      "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
+    },
+    "time": 1749462175173,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0hbfDsmDav"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElysiaTopaz",
+      "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
+    },
+    "time": 1749299344270,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VaxepXgFTD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElysiaTopaz",
+      "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
+    },
+    "time": 1747186738897,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jvobCmQl2a"
+    }
+  }
+]

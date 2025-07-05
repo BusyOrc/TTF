@@ -1,0 +1,21 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "check_trait_level": true,
+    "inputs": [
+      {
+        "item": "ltc2:hotaurum_ingot"
+      },
+      {
+        "item": "ltc2:hotaurum_upgrade_smithing_template"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:hotaurum",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": {
+      "tag": "tconstruct:modifiable/durability"
+    }
+  }

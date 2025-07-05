@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tf_dnv:dungeon_shroom",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:mycelium",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_mushroom_block",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brown_mushroom_block",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:mushroom_stem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:huge_mushgloom",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 50,
+                "min": 25
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:huge_mushgloom_stem",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

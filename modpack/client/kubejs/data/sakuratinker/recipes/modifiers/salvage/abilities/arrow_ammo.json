@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "modifier": "sakuratinker:arrow_ammo",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+      "tag": "tconstruct:modifiable/ranged/bows"
+    }
+}

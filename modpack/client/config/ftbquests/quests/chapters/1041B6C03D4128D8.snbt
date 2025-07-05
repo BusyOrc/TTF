@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1041B6C03D4128D8"
+	group: "7E2BC7A0DAD568E2"
+	icon: "minecraft:bookshelf"
+	id: "1041B6C03D4128D8"
+	images: [
+		{
+			click: "#7E8F7DC22FB0C928"
+			height: 3.0d
+			image: "quark:textures/attribute/max_health.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			click: "#3C148841CE40D820"
+			height: 9.0d
+			hover: ["大家好啊，我是洞穴概论说的道理"]
+			image: "alexscaves:item/cave_book"
+			rotation: 0.0d
+			width: 9.0d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			click: "#1155674CE816A8B5"
+			dependency: "7E8F7DC22FB0C928"
+			height: 2.5d
+			hover: ["欢迎来到史上最甜蜜的童话世界！"]
+			image: "alexscaves:textures/mob_effect/sugar_rush.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 2.5d
+			image: "alexscaves:block/candy_cane"
+			rotation: 0.0d
+			width: 2.5d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 1.0d
+			image: "supplementaries:item/candy_christmas"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 4.0d
+			image: "alexscaves:block/wafer_cookie_block"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 1.2d
+			image: "alexscaves:block/candy_cane"
+			rotation: -26.0d
+			width: 1.2d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 1.2d
+			image: "alexscaves:block/candy_cane"
+			rotation: 64.0d
+			width: 1.2d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/candy_background.png"
+			order: -2
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 1.0d
+			image: "supplementaries:item/candy_christmas"
+			rotation: -76.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "7E8F7DC22FB0C928"
+			height: 1.0d
+			image: "supplementaries:item/candy_christmas"
+			rotation: 46.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/magic_arrow.png"
+			rotation: -135.0d
+			width: 2.0d
+			x: 1.0d
+			y: 7.25d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/magic_arrow.png"
+			rotation: -135.0d
+			width: 2.0d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			alpha: 100
+			height: 6.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			height: 6.0d
+			hover: ["警告：侦测到在途的聚变打击"]
+			image: "alexscaves:misc/advancement/toxic_midground"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/irradiated.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			height: 0.5d
+			image: "alexscaves:item/hazmat_mask"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.1d
+			y: 19.2d
+		}
+		{
+			height: 0.5d
+			image: "alexscaves:item/hazmat_chestplate"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.1d
+			y: 19.4d
+		}
+		{
+			height: 0.5d
+			image: "alexscaves:item/hazmat_leggings"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.1d
+			y: 19.7d
+		}
+		{
+			height: 0.5d
+			image: "alexscaves:item/hazmat_boots"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 2.1d
+			y: 19.9d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/tremorzilla_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.3d
+			y: 19.3d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["16F275B78212A43E"]
+			description: [
+				"关掉本任务框之后，你会发现你找不到这个任务咯"
+				"（只要点击黄心就可以回来了）"
+				"这个地方就是alex章节的总目录了，不过话虽如此，我还是会强行限制你的游玩顺序（为了剧情plz）"
+				"你的第一站将会是————糖果龋洞！"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7E8F7DC22FB0C928"
+			rewards: [{
+				id: "7E9A565A49E77140"
+				item: {
+					Count: 1
+					id: "minecraft:apple"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"GOOD APPLE!!!!!\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "0B237479D0F4FD30"
+				title: "原来如此……"
+				type: "checkmark"
+			}]
+			title: "太棒了！你已经学会基础的图片点击了！"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E8F7DC22FB0C928"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3C148841CE40D820"
+			rewards: [{
+				id: "4E411A56783013B2"
+				item: {
+					Count: 1
+					id: "create:honeyed_apple"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"《洞穴概论》\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "3BEF9F53BB41D278"
+				title: "不给！"
+				type: "checkmark"
+			}]
+			title: "我会送你一本洞穴概论……才怪"
+			x: 8.5d
+			y: -3.0d
+		}
+	]
+	title: "章节目录"
+}

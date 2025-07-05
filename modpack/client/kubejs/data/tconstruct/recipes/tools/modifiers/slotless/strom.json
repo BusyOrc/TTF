@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "thermal:blitz_powder"
+      },
+      {
+        "item": "thermal:blitz_powder"
+      },
+      {
+        "item": "thermal:blitz_powder"
+      },
+      {
+        "tag": "forge:rosin"
+      },
+      {
+        "tag": "forge:rosin"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:storm",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

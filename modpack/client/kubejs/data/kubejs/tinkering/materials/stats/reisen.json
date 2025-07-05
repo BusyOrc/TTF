@@ -1,0 +1,65 @@
+{
+    "stats": {
+    "sakuratinker:charm_chain": {
+      "armor": 0.25,
+      "arrow_damage": 0.5,
+      "damage": 0.2,
+      "health": 16,
+      "movement_speed": 0.1,
+      "toughness": 0.2
+    },
+    "sakuratinker:charm_core": {},      
+      "tconstruct:binding": {},
+      "tconstruct:grip": {
+        "accuracy": 0.7,
+        "durability": 0.63,
+        "melee_damage": 4.5
+      },
+      "tconstruct:handle": {
+        "durability": 0.3,
+        "melee_damage": 0.0,
+        "melee_speed": 0.1,
+        "mining_speed": 0.12
+      },
+      "tconstruct:head": {
+        "durability": 426,
+        "melee_attack": 1.5,
+        "mining_speed": 5.2,
+        "mining_tier": "minecraft:diamond"
+      },
+      "tconstruct:limb": {
+        "accuracy": 0.75,
+        "draw_speed": 0.43,
+        "durability": 721,
+        "velocity": 0.5
+      },
+      "tconstruct:maille": {},
+      "tconstruct:plating_boots": {
+        "armor": 5.0,
+        "durability": 684,
+        "knockback_resistance": 0.03,
+        "toughness": 1.5
+      },
+      "tconstruct:plating_chestplate": {
+        "armor": 8.4,
+        "durability": 1008,
+        "knockback_resistance": 0.05,
+        "toughness": 2.4
+      },
+      "tconstruct:plating_helmet": {
+        "armor": 5.1,
+        "durability": 694,
+        "knockback_resistance": 0.02,
+        "toughness": 2.0
+      },
+      "tconstruct:plating_leggings": {
+        "armor": 7.1,
+        "durability": 847,
+        "knockback_resistance": 0.02,
+        "toughness": 1.8
+      },
+      "tconstruct:plating_shield": {
+        "durability": 595
+      }
+    }
+  }

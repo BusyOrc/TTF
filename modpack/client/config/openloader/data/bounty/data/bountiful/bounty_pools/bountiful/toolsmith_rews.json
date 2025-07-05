@@ -1,0 +1,62 @@
+
+{
+	"content": {
+
+        "toolsmith_rew_th1": {
+            "type": "item",
+            "content": "youkaishomecoming:red_ball_danmaku",
+            "amount": {
+                "min": 2,
+                "max": 5
+            },
+            "unitWorth": 800
+        },
+        "toolsmith_rew_tc2": {
+            "type": "item",
+            "content": "youkaishomecoming:red_ball_danmaku",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 1200
+        },
+        "toolsmith_rew_tc3": {
+            "type": "item",
+            "content": "youkaishomecoming:lime_butterfly_danmaku",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1400
+        },
+        "toolsmith_rew_tc4": {
+            "type": "item",
+            "content": "youkaishomecoming:pink_star_danmaku",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 1500
+        },
+        "toolsmith_rew_tc5": {
+            "type": "item",
+            "content": "youkaishomecoming:black_bubble_danmaku",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1800
+        },
+        "toolsmith_rew_tc6": {
+            "type": "item",
+            "content": "youkaishomecoming:cyan_laser",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1800
+        }
+
+	}
+
+}

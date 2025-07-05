@@ -1,0 +1,36 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "topIngredients": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "catalysts": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "chances": 0,
+  "results": [
+    {
+      "item": "minecraft:sculk",
+      "count": 3
+    }
+  ]
+}

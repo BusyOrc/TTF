@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "ltc2:latiao"
+      },
+      {
+        "tag": "forge:vegetables/pepper"
+      },
+      {
+        "item": "ltc2:latiao"
+      },
+      {
+        "item": "createaddition:biomass_pellet"
+      },
+      {
+        "item": "createaddition:biomass_pellet"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:lt_repair",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/durability"
+          }
+    ]
+  }

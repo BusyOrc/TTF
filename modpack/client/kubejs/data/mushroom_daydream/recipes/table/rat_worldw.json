@@ -1,0 +1,89 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "'rats:oratchalcum_ingot'"
+    },
+    "transitionalItem": {
+      "item": "create:incomplete_precision_mechanism"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          },
+          {
+            "item": "rats:idol_of_ratlantis"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          },
+          {
+            "item": "create:brass_casing"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "create:creative_motor"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "rats:gem_of_ratlantis"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "rats:oratchalcum_ingot"
+          }
+        ],
+        "results": [
+          {
+            "item": "create:incomplete_precision_mechanism"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "mushroom_daydream:rat_world",
+        "chance": 100.0
+      }
+    ],
+    "loops": 1
+  }

@@ -1,0 +1,17 @@
+{
+    "color": "E0FFFF",
+    "fallbacks": [
+        "metal"
+    ],
+    "generator": {
+        "supported_stats": [
+            "tconstruct:head",
+            "tconstruct:handle",
+            "tconstruct:extra",
+            "tconstruct:repair_kit",
+            "tconstruct:plate",
+            "tconstruct:binding",
+            "tconstruct:collar"
+        ]
+    }
+}

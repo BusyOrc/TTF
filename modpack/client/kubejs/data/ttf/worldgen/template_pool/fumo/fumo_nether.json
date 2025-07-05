@@ -1,0 +1,53 @@
+{
+    "name": "ttf:fumo/fumo_nether",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "ttf:fumo/yamaxanadu",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "ttf:fumo/suika_sit",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "ttf:fumo/suika_stand",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "ttf:fumo/yamaxanadu",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "ttf:fumo/mizuchi",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+
+    ]
+  }
+  

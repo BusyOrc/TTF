@@ -1,0 +1,25 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "superheated",
+  "topIngredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:scute"
+    }
+  ],
+  "catalysts": [
+    {
+      "item": "touhou_little_maid:kappa_compass"
+    }
+  ],
+  "chances": 0.2,
+  "results": [
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ]
+}

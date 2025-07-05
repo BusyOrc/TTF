@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios5": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:onyx"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.armor": {
+      "weight":4,
+    "value": 5,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

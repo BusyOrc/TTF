@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "sakuratinker:charm_chain": {
+      "armor": 0.1,
+      "arrow_damage": -0.2,
+      "damage": 0.2,
+      "health": 9,
+      "movement_speed": 0.2,
+      "toughness": 0.1
+    },
+    "sakuratinker:charm_core": {},
+    "sakuratinker:energy_unit": {
+      "durability": 0.7,
+      "energy_storage": 80000
+    },
+    "sakuratinker:flag": {
+      "attack_buff_time": 360,
+      "charge_time": 120,
+      "defence_buff_time": 80,
+      "range": 50
+    },
+    "sakuratinker:fox_mask_core": {},
+    "sakuratinker:fox_mask_main": {},
+    "sakuratinker:laser_medium": {
+      "cooldown": 0.7,
+      "range": 80.0
+    },
+    "tconstruct:binding": {},
+    "tconstruct:grip": {
+      "accuracy": 0.5,
+      "durability": 0.3,
+      "melee_damage": 5.0
+    },
+    "tconstruct:handle": {
+      "durability": 0.6,
+      "melee_damage": 0.25,
+      "melee_speed": 0.25,
+      "mining_speed": -0.05
+    },
+    "tconstruct:head": {
+      "durability": 1862,
+      "melee_attack": 8.0,
+      "mining_speed": 6.0,
+      "mining_tier": "minecraft:netherite"
+    },
+    "tconstruct:limb": {
+      "accuracy": 0.6,
+      "draw_speed": 0.5,
+      "durability": 1200,
+      "velocity": 0.5
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 3.0,
+      "durability": 1560,
+      "knockback_resistance": 0.25,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 7.0,
+      "durability": 1920,
+      "knockback_resistance": 0.25,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 5.0,
+      "durability": 1320,
+      "knockback_resistance": 0.25,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 6.0,
+      "durability": 1800,
+      "knockback_resistance": 0.25,
+      "toughness": 5.0
+    }
+  }
+}

@@ -1,0 +1,136 @@
+
+{
+	"content": {
+
+        "mapper_rew_map": {
+            "type": "item",
+            "content": "minecraft:map",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000
+        },
+
+        "mapper_rew_item_frame": {
+            "type": "item",
+            "content": "hmag:evil_crystal_fragment",
+            "amount": {
+                "min": 7,
+                "max": 15
+            },
+            "unitWorth": 600.0
+        },
+
+        "mapper_rew_black_dye": {
+            "type": "item",
+            "content": "thermal:sulfur",
+            "amount": {
+                "min": 3,
+                "max": 7
+            },
+            "unitWorth": 300.0
+        },
+
+        "mapper_rew_pink_banner": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "thermal:cinnabar",
+            "amount": {
+                "min": 2,
+                "max": 7
+            },
+            "unitWorth": 1000.0
+        },
+
+        "mapper_rew_light_blue_banner": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "thermal:cured_rubber",
+            "amount": {
+                "min": 5,
+                "max": 7
+            },
+            "unitWorth": 500.0
+        },
+
+        "mapper_rew_flower_pattern": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:flower_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+
+        "mapper_rew_globe_pattern": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:globe_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+
+        "mapper_rew_piglin_pattern": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:piglin_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "mapper_rew_creeper_pattern": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:creeper_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "mapper_rew_skull_pattern": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "minecraft:skull_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "mapper_rew_mojang_pattern": {
+            "type": "item",
+			"rarity": "LEGENDARY",
+            "content": "minecraft:mojang_banner_pattern",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+
+        "mapper_rew_recovery_compass": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "minecraft:recovery_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        }
+
+	}
+
+}

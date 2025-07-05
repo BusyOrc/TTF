@@ -1,0 +1,21 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "addition",
+        "attribute": "attributeslib:dodge_chance",
+        "unique": "tconstruct.modifier.dodge",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

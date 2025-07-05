@@ -1,0 +1,22 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+      {
+        "type": "tconstruct:effect_immunity",
+        "effect": "minecraft:weakness"
+      },
+      {
+        "type": "tconstruct:stat_boost",
+        "each_level": -0.1,
+        "operation": "multiply_base",
+        "stat": "tconstruct:armor"
+      },
+      {
+        "type": "tconstruct:stat_boost",
+        "each_level": -0.2,
+        "operation": "multiply_base",
+        "stat": "tconstruct:durability"
+      }
+    ],
+    "tooltip_display": "always"
+  }

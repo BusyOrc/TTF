@@ -1,0 +1,362 @@
+{
+	"k7len44t50fjo0du": {
+		"definition": "starter",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"2njlp5ariw70erdo": {
+		"definition": "stamina",
+		"x": -73.9008344562721,
+		"y": 0,
+		"root": false
+	},
+	"j3212y9bt7p7cblq": {
+		"definition": "stamina",
+		"x": 73.9008344562721,
+		"y": 0,
+		"root": false
+	},
+	"kc0aau5tqf5tra3c": {
+		"definition": "+5%pickaxe_speed",
+		"x": -129.32646029847615,
+		"y": 96,
+		"root": false
+	},
+	"16mhwv02ow6e0zyd": {
+		"definition": "+5%shovel_speed",
+		"x": 129.32646029847615,
+		"y": 96,
+		"root": false
+	},
+	"s6xvtjfoypkd51kk": {
+		"definition": "+5%pickaxe_speed",
+		"x": 129.32646029847615,
+		"y": -96,
+		"root": false
+	},
+	"awlu4mffjdra46m1": {
+		"definition": "+5%shovel_speed",
+		"x": -129.32646029847615,
+		"y": -96,
+		"root": false
+	},
+	"7e2ied2yg7lajmjj": {
+		"definition": "+5%fallreduction",
+		"x": -184.75208614068023,
+		"y": 0,
+		"root": false
+	},
+	"ws83u68zc0ynxhra": {
+		"definition": "+5%fallreduction",
+		"x": 184.75208614068023,
+		"y": 0,
+		"root": false
+	},
+	"hobqcthb33j4rssx": {
+		"definition": "fortune",
+		"x": -332.55375505322445,
+		"y": 0,
+		"root": false
+	},
+	"9fuy9iqg3neqewvu": {
+		"definition": "+2%resis",
+		"x": -387.9793808954285,
+		"y": -96,
+		"root": false
+	},
+	"4de652tbc07xecm0": {
+		"definition": "+2%resis",
+		"x": -387.9793808954285,
+		"y": 96,
+		"root": false
+	},
+	"8ohbxbmb1j389338": {
+		"definition": "+0.5step",
+		"x": 295.6033378250884,
+		"y": 0,
+		"root": false
+	},
+	"njf98sn86nb03cm7": {
+		"definition": "+1reach",
+		"x": 351.02896366729243,
+		"y": -96,
+		"root": false
+	},
+	"i7lfhap0m6x5ccwb": {
+		"definition": "+5%mhp",
+		"x": 351.02896366729243,
+		"y": 96,
+		"root": false
+	},
+	"rh28jealkrj3xz18": {
+		"definition": "fortune",
+		"x": 0,
+		"y": -192,
+		"root": false
+	},
+	"ost31njvgjcd08t1": {
+		"definition": "fortune",
+		"x": 0,
+		"y": 192,
+		"root": false
+	},
+	"cljql831iwd726ts": {
+		"definition": "+5%pickaxe_speed",
+		"x": -203.22729475474824,
+		"y": -224,
+		"root": false
+	},
+	"va9l4beyepiii6cy": {
+		"definition": "+5%pickaxe_speed",
+		"x": -203.2272947547483,
+		"y": 224,
+		"root": false
+	},
+	"shj6eed25kro01lq": {
+		"definition": "+5%shovel_speed",
+		"x": 203.2272947547483,
+		"y": -224,
+		"root": false
+	},
+	"l2casd1j042d5lwt": {
+		"definition": "+5%shovel_speed",
+		"x": 203.22729475474824,
+		"y": 224,
+		"root": false
+	},
+	"6v72lnfwe5klynkz": {
+		"definition": "+2%resis",
+		"x": -129.32646029847615,
+		"y": -352,
+		"root": false
+	},
+	"dx1kszu15dhina0g": {
+		"definition": "stamina",
+		"x": -129.3264602984762,
+		"y": 352,
+		"root": false
+	},
+	"mkh644gxhcvhuc1x": {
+		"definition": "stamina",
+		"x": 129.32646029847615,
+		"y": 352,
+		"root": false
+	},
+	"euhc3lj0j9j2g0cj": {
+		"definition": "+5%mhp",
+		"x": 0,
+		"y": 384,
+		"root": false
+	},
+	"0ade7o8a3beabpaf": {
+		"definition": "+2%resis",
+		"x": 129.3264602984762,
+		"y": -352,
+		"root": false
+	},
+	"214bn01zj23x13di": {
+		"definition": "+5%fallreduction",
+		"x": 0,
+		"y": -384,
+		"root": false
+	},
+	"rdpffs6o48y4tooh": {
+		"definition": "+5regeneration",
+		"x": -295.6033378250884,
+		"y": -192,
+		"root": false
+	},
+	"lzfyg1ch5x0zu0js": {
+		"definition": "+5regeneration",
+		"x": 295.6033378250884,
+		"y": -192,
+		"root": false
+	},
+	"fv3bxnm8pjruldco": {
+		"definition": "health+3",
+		"x": 295.6033378250884,
+		"y": 192,
+		"root": false
+	},
+	"uwm5xia9omojde7d": {
+		"definition": "health+3",
+		"x": -295.6033378250884,
+		"y": 192,
+		"root": false
+	},
+	"xzyeng0d99fss4cn": {
+		"definition": "health+3",
+		"x": 277.12812921102034,
+		"y": 288,
+		"root": false
+	},
+	"voxvqzwrh665ug9i": {
+		"definition": "health+3",
+		"x": 387.97938089542845,
+		"y": 224,
+		"root": false
+	},
+	"zci2py7pe54ajio6": {
+		"definition": "health+3",
+		"x": -387.97938089542845,
+		"y": 224,
+		"root": false
+	},
+	"htus0siunjyv1iaf": {
+		"definition": "health+3",
+		"x": -277.12812921102034,
+		"y": 288,
+		"root": false
+	},
+	"65hse7qnrt1ay8ic": {
+		"definition": "health+3",
+		"x": -369.5041722813604,
+		"y": 320,
+		"root": false
+	},
+	"ooh7yoob3fkmf0b0": {
+		"definition": "health+3",
+		"x": 369.50417228136047,
+		"y": 320,
+		"root": false
+	},
+	"zgroftshml2m1ll5": {
+		"definition": "+5regeneration",
+		"x": -517.3058411939047,
+		"y": 192,
+		"root": false
+	},
+	"bnqcu15a4ij9zxc4": {
+		"definition": "+5regeneration",
+		"x": 517.3058411939046,
+		"y": 192,
+		"root": false
+	},
+	"6bwxtu919b6zclea": {
+		"definition": "stamina",
+		"x": -480.35542396576864,
+		"y": 0,
+		"root": false
+	},
+	"zg215b4rh2etva43": {
+		"definition": "fortune",
+		"x": -424.9297981235645,
+		"y": -224,
+		"root": false
+	},
+	"xkuu1ze5r8toeos4": {
+		"definition": "fortune",
+		"x": 387.97938089542845,
+		"y": -224,
+		"root": false
+	},
+	"qdbb02il5ytnnoi6": {
+		"definition": "+3%dmg_reduction",
+		"x": -535.7810498079726,
+		"y": -160,
+		"root": false
+	},
+	"bb1im9xbcjlmtzfu": {
+		"definition": "+3%dmg_reduction",
+		"x": 498.8306325798366,
+		"y": -160,
+		"root": false
+	},
+	"gyeq1ijdu1c09360": {
+		"definition": "+3%dmg_reduction",
+		"x": -572.7314670361087,
+		"y": 96,
+		"root": false
+	},
+	"bzl77lrfwc0gouju": {
+		"definition": "+3%dmg_reduction",
+		"x": 572.7314670361087,
+		"y": 96,
+		"root": false
+	},
+	"61qahymybzcnjap7": {
+		"definition": "stamina",
+		"x": 443.40500673763256,
+		"y": 0,
+		"root": false
+	},
+	"on0q820uw17hkzox": {
+		"definition": "health+3",
+		"x": -609.6818842642448,
+		"y": -32,
+		"root": false
+	},
+	"pdy0y2r23u0gfhg9": {
+		"definition": "health+3",
+		"x": 609.6818842642448,
+		"y": -32,
+		"root": false
+	},
+	"hcz81svw8pc3wgcb": {
+		"definition": "health+3",
+		"x": 461.88021535170066,
+		"y": -352,
+		"root": false
+	},
+	"o4ui6yx6xhmfm51y": {
+		"definition": "health+3",
+		"x": -314.0785464391564,
+		"y": -352,
+		"root": false
+	},
+	"y52oamngfyggfa6z": {
+		"definition": "health+3",
+		"x": -498.8306325798366,
+		"y": -352,
+		"root": false
+	},
+	"mpxlqq2q9za9hwxr": {
+		"definition": "health+3",
+		"x": -203.22729475474824,
+		"y": -480,
+		"root": false
+	},
+	"givnvryy1pc82o3q": {
+		"definition": "health+3",
+		"x": 203.2272947547483,
+		"y": -480,
+		"root": false
+	},
+	"r9k8wfu5665u7x1s": {
+		"definition": "+5%fallreduction",
+		"x": -277.1281292110203,
+		"y": 416,
+		"root": false
+	},
+	"tpb3rvqbng0sqeec": {
+		"definition": "+5%fallreduction",
+		"x": 277.12812921102034,
+		"y": 416,
+		"root": false
+	},
+	"zt5ifzqqwaftwumd": {
+		"definition": "+5%mhp",
+		"x": 0,
+		"y": -512,
+		"root": false
+	},
+	"2xq12ti7pqebn56m": {
+		"definition": "+2%resis",
+		"x": -369.5041722813604,
+		"y": -448,
+		"root": false
+	},
+	"3le7sbo9gjth4hgg": {
+		"definition": "+2%resis",
+		"x": 369.5041722813605,
+		"y": -448,
+		"root": false
+	},
+	"57xfk951i2dcjcs8": {
+		"definition": "health+3",
+		"x": 314.07854643915636,
+		"y": -352,
+		"root": false
+	}
+}

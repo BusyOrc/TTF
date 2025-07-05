@@ -1,0 +1,17 @@
+{
+  "attributeType": "attributeslib:arrow_velocity",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.1
+  }
+}

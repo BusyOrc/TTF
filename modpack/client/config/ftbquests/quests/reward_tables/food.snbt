@@ -1,0 +1,70 @@
+{
+	icon: {
+		Count: 1
+		id: "mystias_izakaya:yan_huang_gua"
+		tag: {
+			cooktime: 120
+			cost: 16
+			ntags: ""
+			tags: "Economical,Good_With_Alcohol,Salty,Small_Portion,Vegetarian"
+		}
+	}
+	id: "631935F87A0B6B50"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "mystias_izakaya:hong_dou_da_fu"
+				tag: {
+					cooktime: 140
+					cost: 28
+					ntags: ""
+					tags: "Japanese,Sweet,Small_Portion"
+				}
+			}
+		}
+		{ count: 3, item: "aquaculturedelight:catfish_barbecue" }
+		{ count: 5, item: "aquaculturedelight:raw_fish_fillet_roll" }
+		{ count: 6, item: "aquaculturedelight:cooked_small_turtle_meat" }
+		{ count: 3, item: "farmersdelight:noodle_soup" }
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "mystias_izakaya:fan_tuan"
+				tag: {
+					cooktime: 100
+					cost: 6
+					ntags: ""
+					tags: "Economical,Vegetarian,Homecooking,Filling,Japanese"
+				}
+			}
+		}
+		{ count: 4, item: "farmersdelight:grilled_salmon" }
+		{ count: 3, item: "fruitsdelight:mango_salad" }
+		{ count: 3, item: "miners_delight:pasta_with_veggieballs" }
+		{ count: 3, item: "delightful:field_salad" }
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "mystias_izakaya:yan_huang_gua"
+				tag: {
+					cooktime: 120
+					cost: 16
+					ntags: ""
+					tags: "Economical,Good_With_Alcohol,Salty,Small_Portion,Vegetarian"
+				}
+			}
+		}
+		{ count: 3, item: "delightful:stuffed_cantaloupe" }
+		{ count: 4, item: "delightful:wrapped_cantaloupe" }
+		{ count: 4, item: "delightful:salmonberry_ice_cream" }
+		{ count: 5, item: "fruitsdelight:fig_chicken_stew" }
+	]
+	title: "河童美食"
+	use_title: true
+}

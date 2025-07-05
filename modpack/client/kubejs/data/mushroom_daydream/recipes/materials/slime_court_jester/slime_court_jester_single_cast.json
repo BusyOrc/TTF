@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "mushroom_daydream:molten_slime_court_jester",
+    "amount": 90
+  },
+  "result": "mushroom_daydream:slime_court_jester",
+  "cooling_time": 200
+}

@@ -1,0 +1,37 @@
+Ponder.registry((event) => {
+	event.create(['ae2:interface','ae2:cable_interface'])
+		.scene(
+            "kubejs:interface",
+			"ME接口",
+			"kubejs:interface", 
+			(scene, utils) => {
+                scene.showBasePlate()
+                scene.idle(20)
+                scene.world.showSection([1, 1, 1, 7, 7, 8], Direction.DOWN)
+                scene.idle(20)
+                scene.text(60, "ME接口内部可存储⑨种流体或物品，可以配置需要请求哪些物品").attachKeyFrame()
+                scene.idle(70)
+                scene.text(60, "配置完成后，会不断请求需要的流体或物品，直到内部存储的数量满足要求为止")
+                scene.idle(70)
+                scene.text(80, '但是如果§b不配置物品需求§r，用§f存储总线§r接在ME接口上，可以起到类似于仓库管理器的作用', [5, 1.5, 2.5])
+                scene.idle(90)
+                scene.text(60, '能够在主网络中调取其中的所有物品', [5, 1.5, 2.5])
+                scene.idle(70)
+                scene.text(50, '记得用§b石英纤维§r做到仅传输电力，不传输频道来构建子网', [5.5, 2.5, 2.5])
+                scene.idle(60)
+                scene.addKeyframe()
+                scene.text(70, '但是完整方块的ME接口§b会传递频道，无法构建子网§r。需要通过无序合成得到迷你版的ME接口。', [3.5, 1.5, 5.5])
+                scene.idle(80)
+                scene.text(50, '这是连接了ME接口的样板供应器，注意这里同样要用迷你版的ME接口', [6.5, 1.5, 4.5])
+                scene.idle(60)
+                scene.text(80, '这种连接方式可以让请求生产时的生产材料自动进入ME接口所在的库存中，和刚才提到的情况非常类似', [6.5, 1.5, 4.5])
+                scene.idle(90)
+                scene.text(60, '并且需要库存内有足够空间才会继续发送材料', [6.5, 1.5, 4.5])
+                scene.idle(70)
+                scene.addKeyframe()
+                scene.text(60, "加入合成卡后：如果配置的物品数量不足，会自动请求合成")
+                scene.idle(70)
+                scene.text(60, "加入模糊卡后：可配置耐久度过滤，或完全忽略物品NBT")
+                scene.idle(70)
+            })
+        })

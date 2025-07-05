@@ -1,0 +1,23 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "blade1":  "tinkers_things:item/tool/twinblade/blade1_broken",
+    "handle": "tinkers_things:item/tool/twinblade/handle",
+    "blade2":  "tinkers_things:item/tool/twinblade/blade2_broken",
+    "grip":   "tinkers_things:item/tool/twinblade/grip",
+    
+    "large_blade1":  "tinkers_things:item/tool/twinblade/large/blade1_broken",
+    "large_handle": "tinkers_things:item/tool/twinblade/large/handle",
+    "large_blade2":  "tinkers_things:item/tool/twinblade/large/blade2_broken",
+    "large_grip":   "tinkers_things:item/tool/twinblade/large/grip"
+  },
+  "large": true,
+  "large_offset": [4, -4],
+  "parts": [
+    { "name": "blade2",  "index": 2 },
+    { "name": "blade1",  "index": 0 },
+    { "name": "handle", "index": 1 },
+    { "name": "grip",   "index": 3 }
+  ]
+}

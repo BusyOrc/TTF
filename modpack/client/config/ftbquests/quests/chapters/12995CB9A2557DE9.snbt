@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "12995CB9A2557DE9"
+	group: "7E2BC7A0DAD568E2"
+	icon: "alexscaves:immortal_embryo"
+	id: "12995CB9A2557DE9"
+	images: [{
+		click: "#481BEC0C032B0418"
+		height: 2.0d
+		hover: ["上床躺一下吧"]
+		image: "ftblibrary:icons/bed"
+		rotation: 0.0d
+		width: 2.0d
+		x: -4.0d
+		y: -7.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481BEC0C032B0418"]
+			description: [
+				"收拾妥当，准备充分，那就出发吧"
+				""
+				"不过，该往哪里走呢？"
+			]
+			icon: "maid_storage_manager:no_access"
+			id: "0AAB10B569C3E660"
+			shape: "hexagon"
+			tasks: [{
+				id: "155DFB9550DA571E"
+				type: "checkmark"
+			}]
+			title: "出发！"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["玩了这么久的东方匠魂传，该休息了"]
+			icon: "minecraft:red_bed"
+			id: "481BEC0C032B0418"
+			rewards: [{
+				auto: "enabled"
+				command: "/dialog show cave1"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "78EF489E30E70B68"
+				silent: true
+				title: "并非休息"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3B25BEBE907A25AA"
+				type: "checkmark"
+			}]
+			title: "上床休息"
+			x: -4.0d
+			y: -5.9d
+		}
+		{
+			dependencies: ["0AAB10B569C3E660"]
+			description: ["荷取：我正好需要一些材料，手上也正好有一些渊海陷窟的洞穴石板，给我材料的话可以交换"]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			id: "127F204C3B78FE76"
+			rewards: [{
+				count: 20
+				id: "23EE5C8DAAA34B42"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "7B06FA48D1EA140C"
+					item: { Count: 48, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "29288D8628A3044B"
+					item: { Count: 128, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			title: "划算的交易"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"荷取：不管是自己收集还是和我交换获得洞穴石板，都可以破译得到手稿"
+				""
+				"使用手稿+8张纸就能合成得到相应群系的地图了，或者直接右键使用来增加对相应洞穴的了解也可以"
+				""
+				"有了地图，这下不怕不知道方向了，直接出发吧！"
+			]
+			id: "66C41B668BC57CB3"
+			tasks: [{
+				id: "26ABA03A93DB3650"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AAB10B569C3E660"]
+			id: "7ABE77072A50F348"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:abyssmarine"
+				id: "484E686182A3BF22"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			description: ["给海底的海猪喂食黏土球/淤泥/泥巴以后，可以帮忙挖掘，有概率得到海洋玻璃碎片（制作潜水艇原材料之一），珍珠或者海雪"]
+			id: "198F587A4EBDF0A3"
+			rewards: [{
+				count: 3
+				id: "1FF0C7C9C0578E6A"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48C3CB53E2957829"
+				type: "checkmark"
+			}]
+			title: "免费劳力？"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			description: [
+				"荷取：似乎以前留下过一种制造潜水艇的方法，但是我觉得还是别管那种方法了，把这些材料都给我，我给你&d寻思&r一个潜水艇出来"
+				""
+				"不过需要注意，潜水艇一旦放下就无法回收为物品，如果受损，使用铜锭可以修复"
+			]
+			icon: "alexscaves:submarine"
+			id: "148562EFAC45C6F2"
+			rewards: [
+				{
+					command: "/dialog show submarine"
+					elevate_perms: true
+					id: "69C46A3016014C76"
+					title: "潜水艇建造完成"
+					type: "command"
+				}
+				{
+					id: "76BAB4EC957C7583"
+					item: {
+						Count: 1
+						id: "alexscaves:submarine"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"海底40k\"}"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "5B0A643E7A2D3F0E"
+					item: { Count: 32, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "72BD74BE2056F63F"
+					item: { Count: 24, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "16BFA911B18597B2"
+					item: { Count: 8, id: "create:andesite_funnel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "264EFEB7DE71DF87"
+					item: { Count: 12, id: "create:brass_casing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					id: "0A0C73B3E76F56C2"
+					item: { Count: 6, id: "minecraft:copper_block" }
+					type: "item"
+				}
+			]
+			title: "更划算的交易？"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AAB10B569C3E660"]
+			description: ["哆来咪：想不想要探女的祝福，别误会，一定会让探女狠狠骂你的，保证物有所值"]
+			id: "056696994F153E01"
+			rewards: [{
+				command: "/dialog show kagume"
+				elevate_perms: true
+				id: "56DF6A76F6912ACA"
+				title: "探女的祝福"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6992DE2698FB7BD8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "探女的祝福"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			description: ["和深潜者交易的货币，需要放在特殊的祭坛上才能进行交易"]
+			id: "4F81BC3102C4F631"
+			rewards: [{
+				id: "71C5113E92F0708B"
+				item: "thermalendergy:endergy_upgrade_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E22736AAAD13065"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F81BC3102C4F631"]
+			description: [""]
+			id: "54A25FFB3CE0DCE2"
+			tasks: [{
+				id: "16EAC1858E9A33F1"
+				type: "checkmark"
+			}]
+			title: "未完待续"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "深海的呼唤"
+}

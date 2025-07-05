@@ -1,0 +1,31 @@
+{
+    "block_effects": [
+      {
+        "type": "tconstruct:mob_effect_cloud",
+        "effects": [
+          {
+            "effect": "minecraft:nausea",
+            "level": 1,
+            "time": 100
+          },
+          {
+            "effect": "minecraft:poison",
+            "level": 1,
+            "time": 200
+          },
+          {
+            "effect": "minecraft:weakness",
+            "level": 2,
+            "time": 200
+          }
+        ]
+      }
+    ],
+    "entity_effects": [
+
+    ],
+    "fluid": {
+      "amount": 50,
+      "fluid": "chemlib:nitric_oxide_fluid"
+    }
+  }

@@ -1,0 +1,17 @@
+{
+  "attributeType": "attributeslib:healing_received",
+  "conditions": {
+    "affixes": {
+      "values": ["champions:lively"]
+    },
+    "entity": [
+      "hmag:alraune"
+    ],
+    "permission": "whitelist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 1.0
+  }
+}

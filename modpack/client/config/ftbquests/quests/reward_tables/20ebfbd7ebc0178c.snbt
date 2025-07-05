@@ -1,0 +1,20 @@
+{
+	id: "20EBFBD7EBC0178C"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 32, item: "minecraft:gravel" }
+		{ count: 32, item: "minecraft:sand" }
+		{ count: 32, item: "minecraft:clay" }
+		{ count: 32, item: "minecraft:diorite" }
+		{ count: 32, item: "minecraft:andesite" }
+		{ count: 32, item: "minecraft:granite" }
+		{ count: 32, item: "minecraft:calcite" }
+		{ count: 16, item: "minecraft:bricks" }
+		{ count: 32, item: "minecraft:stone_bricks" }
+		{ count: 32, item: "minecraft:netherrack" }
+		{ count: 32, item: "minecraft:glass" }
+		{ count: 32, item: "minecraft:white_wool" }
+	]
+	title: "奇奇怪怪的方块"
+}

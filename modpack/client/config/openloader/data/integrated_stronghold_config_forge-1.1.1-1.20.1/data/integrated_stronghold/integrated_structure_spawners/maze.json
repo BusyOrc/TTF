@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "hmag:crimson_slaughterer",
+      "weight": 12
+    },
+    {
+      "name": "hmag:ender_executor",
+      "weight": 20
+    },
+    {
+      "name": "quark:forgotten",
+      "weight": 5
+    }
+  ]
+}

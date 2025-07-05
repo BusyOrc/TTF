@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_amethyst_bronze",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:magma",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "mushroom_daydream:molten_slime_court_jester",
+    "amount": 90
+  },
+  "temperature": 1000
+}

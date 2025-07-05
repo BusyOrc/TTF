@@ -1,0 +1,10 @@
+{
+ "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "never_should_exist" 
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 0,
+  "hidden": false
+}

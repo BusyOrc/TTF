@@ -1,0 +1,69 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+        {
+            "type": "tconstruct:requirements",
+            "display_modifiers": [
+              {
+                "level": 1,
+                "name": "tconstruct:unbreakable"
+              }
+            ],
+            "requirement": {
+                
+                  "type": "tconstruct:has_modifier",
+                  "check": "all",
+                  "modifier": {
+                    "type": "tconstruct:single",
+                    "modifier": "tconstruct:unbreakable"
+                  }
+                
+              
+            },
+            "translation_key": "modifier.tconstruct.iron_curtain.requirements"
+          },
+      {
+        "type": "tconstruct:protection",
+        "damage_source": "mantle:can_protect",
+        "each_level": 2
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.15,
+        "operation": "addition",
+        "attribute": "attributeslib:prot_shred",
+        "unique": "tconstruct.modifier.prot_shred",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 6.0,
+        "operation": "addition",
+        "attribute": "attributeslib:prot_pierce",
+        "unique": "tconstruct.modifier.prot_pierce",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.60,
+        "operation": "addition",
+        "attribute": "l2damagetracker:crit_damage",
+        "unique": "tconstruct.modifier.snap_crit",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

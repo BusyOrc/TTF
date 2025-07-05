@@ -1,0 +1,20 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tconstruct:enderference"
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:doremy"
+      }
+    ],
+    "perStat":{
+      "sakuratinker:charm":[
+        {
+          "level":1,
+          "name":"sakuratinker:yumekui"
+        }
+      ]
+    }
+}

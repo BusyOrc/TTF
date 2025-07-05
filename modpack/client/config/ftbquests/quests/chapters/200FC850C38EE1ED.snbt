@@ -1,0 +1,1838 @@
+{
+	autofocus_id: "78A752907E6D0E8F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "200FC850C38EE1ED"
+	group: "70B4907D74D7EF03"
+	icon: "thermal:signalum_glass"
+	id: "200FC850C38EE1ED"
+	images: [
+		{
+			height: 12.0d
+			image: "touhou_tinker_fantasy:textures/satori.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			click: "#65A92D6BAE272CE4"
+			height: 4.0d
+			hover: ["流体单元"]
+			image: "thermal:block/cells/fluid_cell_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			alpha: 180
+			click: "#609C738A0F0B222C"
+			height: 4.0d
+			hover: ["感应炉"]
+			image: "thermal:block/machines/machine_smelter_active"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			click: "#78A752907E6D0E8F"
+			height: 3.0d
+			image: "thermal:block/tinker_bench_n"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			height: 4.1d
+			hover: [
+				"地灵殿坐落于熔岩海上方"
+				"先天机械动力圣体"
+			]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 4.13d
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			height: 3.0d
+			image: "thermal:block/machines/machine_insolator_active"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 4.1d
+			image: "quark:block/andesite_bricks"
+			rotation: 0.0d
+			width: 4.13d
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			height: 4.1d
+			image: "quark:block/andesite_bricks"
+			rotation: 0.0d
+			width: 4.13d
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 4.13d
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 4.13d
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			height: 4.1d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 4.13d
+			x: 11.0d
+			y: 15.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F698C6A49F609BD"]
+			description: [
+				"古明地觉：我从灵梦那里听说了你的情况，正好我这里缺少一些&m苦力&r人手，如果不介意的话，可以跟着学习一下这些新式机器的使用方法"
+				""
+				"不要纠结为什么地灵殿有这些机器，毕竟地灵殿的运转也是需要设备的"
+			]
+			hide_until_deps_complete: false
+			id: "2E620B5A91921B5C"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "73ACC5E965375C84"
+				title: "6.1 地灵殿之主"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E620B5A91921B5C"]
+			description: [
+				"{ \"text\": \"物流与仓储\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"22253443F259226E\" } }"
+				""
+				"觉：先确认一下，这里的内容都看完了吗？最好先了解清楚基本情况再来继续学习。"
+				""
+				"这是非常基础的材料，金属磨成粉以后可以做成各种合金粉，再经过烧制就能得到合金。当然，这只是用热力机器生产的方法，还有其他造合金的方法，但是都不会太难——比如说&b利用匠魂炉造合金&r，只不过需要额外的&c熔融和浇筑步骤&r"
+				""
+				"殷钢粉记得多做一些，再烧制得到锭，之后的机器需要用到"
+				""
+				"所有类似的机器都需要打开机器界面，在右侧&a调整输入和输出面&r，否则其他管道&c无法连接机器&r"
+				""
+				"[ \"你肯定还有一些问题，但是正好我知道一位精通这方面技术的天人，你也可以去找她问问情况，\", { \"text\": \"了解更多细节\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1CE3EA2EC9C3218A\" } } ]"
+			]
+			hide_until_deps_complete: false
+			icon: "thermal:machine_pulverizer"
+			id: "12F63DF0E7D92057"
+			rewards: [{
+				count: 3
+				id: "27038C1E9C4870C3"
+				item: "thermal:invar_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13DBB8E370607768"
+					item: "thermal:machine_pulverizer"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2108530D78C4AB45"
+					item: "thermal:iron_dust"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "536E4F203AD6DC78"
+					item: "thermal:nickel_dust"
+					type: "item"
+				}
+			]
+			title: "6.2 磨粉机"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12F63DF0E7D92057"]
+			description: [
+				"觉：这是&a非常重要&r的机器之一，材料之一的殷钢可以通过刚才教你的制合金方法来制作。其他的操作方法大同小异，如果还有疑问的话可以多调整一下机器内右侧输入和输出之类的选项。"
+				""
+				"越是遇到不会的东西，越是要大胆尝试事物的边界，这样才知道所谓的“正常范围”是什么样的范围。"
+				""
+				"我知道一个幻想乡内流传的谚语"
+				"&b如果你去寺子屋上慧音老师的课从来没有迟到过，说明你去得太早了&r"
+				""
+				"这句话本质上是在说，如果试探的范围不够，是无法摸清事物边界的"
+			]
+			hide_until_deps_complete: false
+			id: "609C738A0F0B222C"
+			rewards: [{
+				id: "5D4546D6F98D3D12"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34BBCA7E34B110B9"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			title: "6.3 感应炉"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E620B5A91921B5C"]
+			description: ["地灵殿发电的方式有很多，主要是各种能源炉，也可以用机械动力提供的发电设备来发电"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: "thermal:dynamo_magmatic"
+			id: "45E3CBEB47ED01EF"
+			rewards: [{
+				id: "118E601511FDA6CD"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65E6ED4EC832A4C4"
+				type: "checkmark"
+			}]
+			title: "6.6 电力"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E620B5A91921B5C"]
+			description: [
+				"传输电力，物品和流体可以使用热力管道和laserIO，也可以用天子提供的应用能源的方法，还可以用河童的设备来运输，比如说传送带，动力臂等等，以及最近河建集团新研发的一些设备"
+				""
+				"能量管道无需任何额外操作，只需要正确连接发电设备即可自动传输能量"
+				""
+				"这种流体管道则需要额外加装伺服器，至于更多的内容介绍，猜你想要："
+				""
+				"{ \"text\": \"物流与仓储\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"22253443F259226E\" } }"
+			]
+			hide_until_deps_complete: false
+			icon: "laserio:laser_connector"
+			id: "066184617033CE8E"
+			rewards: [
+				{
+					id: "7D79C112FA4F3321"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					id: "7B8C8151DADD7C9B"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+				{
+					id: "53AFA62DD12D8125"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4003641CEC0E3253"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "572511A986A8CF6F"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+				{
+					id: "2964F2CB5AD448AD"
+					item: "thermal:servo_attachment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34084931F37A2467"
+				type: "checkmark"
+			}]
+			title: "6.7 物流"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["609C738A0F0B222C"]
+			description: ["觉：其他机器的使用方法也同样简单，只需要供电，按需供应材料即可完成生产，可以加入升级来提高效率，或者部分配方可以加入催化剂提高产物的产量。真的很简单，连我家阿空都能学会。"]
+			hide_until_deps_complete: false
+			icon: "thermal:machine_insolator"
+			id: "4365FCED0C6DEA6B"
+			rewards: [
+				{
+					count: 16
+					id: "7A7175333BE6C4EA"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "700B5ED7B1353B7C"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2DF19921292F8ACB"
+					item: "thermal:machine_insolator"
+					type: "item"
+				}
+				{
+					id: "10D9E9348935B3F6"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+				{
+					id: "387D40432DD7D04A"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+				{
+					id: "26A2C107F1F4170C"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
+			title: "6.4 更多机器"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			description: [
+				"这些是不需要电力就能运作的重要采集设备，可能目前不一定用得上，但是以后会用上的。"
+				""
+				"值得说明的是树汁提取器，如果要让其正常工作，树木最好尽量不要破坏树叶。树苗原生长位置的原木旁边可以放置多台树汁提取器同时工作。并且注意&a提取器摆放的朝向不能朝着树木&r，就像脸不能埋土里面，从外面要能看到提取器的“脸”，其他3个方向均可."
+				"{@pagebreak}"
+				""
+				"{image:touhou_tinker_fantasy:textures/tree1.png width:100 height:100 align:center}"
+				"如图所示，这样的情况就是正常工作状态，方块上会显示提取液体的颜色"
+			]
+			hide_until_deps_complete: false
+			icon: "thermal:device_tree_extractor"
+			id: "41AA8D42F7ABE173"
+			rewards: [
+				{
+					count: 5
+					id: "78DB7AD4FAFB7C7B"
+					item: "thermal:pbj_sandwich"
+					type: "item"
+				}
+				{
+					id: "6857129C4FF457B1"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C3B621F31DAD794"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "4AE60D1E594EB728"
+					item: "thermal:device_hive_extractor"
+					type: "item"
+				}
+				{
+					id: "4D35C6B5B3B68CCE"
+					item: "thermal:device_fisher"
+					type: "item"
+				}
+			]
+			title: "6.5 采集设备"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["609C738A0F0B222C"]
+			description: [
+				"觉：搭配AE使用时，记得将样板供应器那一面调整为输入+输出的模式"
+				""
+				"&a所有热力机器均可添加能匹配的升级&r，不要忘了，包括各种发电机，添加升级以后能大幅提高发电量"
+			]
+			hide_until_deps_complete: false
+			icon: "thermal:machine_speed_augment"
+			id: "27F31F5CA9C9C89C"
+			rewards: [{
+				count: 2
+				id: "6962150C5E3E7370"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B8579DF3A5820B3"
+				type: "checkmark"
+			}]
+			title: "6.8 机器使用事项"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27F31F5CA9C9C89C"]
+			description: [
+				"觉：尽管这些升级确实很强力，但是在没有相应物资供应的情况可没办法制作，无资不行"
+				""
+				"秋穰子：说到这个填馅南瓜，在东方匠魂传里，有热力与农夫乐事的版本。"
+				"热力的放下后与蛋糕相同 直接右键就可以食用了，农夫乐事的才需要拿着碗去承装。"
+			]
+			hide_until_deps_complete: false
+			id: "364F89AB448B5C0B"
+			rewards: [{
+				count: 3
+				id: "29E9E22BD4C6B9AB"
+				item: "thermal:stuffed_pumpkin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF416E37C32C1B6"
+				item: "thermalendergy:endergy_upgrade_1"
+				type: "item"
+			}]
+			title: "6.9 高级升级"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			description: [
+				"觉：这种化肥比骨粉强得多，使用时概率不消耗，并且在有机灌注器里也能提供很高的生产效率"
+				""
+				"有多种合成配方，其中合成所需的磷灰石与硝石除了正常挖掘矿物，还可以通过挖掘&b深层铜锌矿脉&r来获得"
+				""
+				"至于沙子的大量获得方式，你需要去找河童"
+			]
+			hide_until_deps_complete: false
+			id: "1D257A3A5C0271DC"
+			rewards: [{
+				id: "4CA10BE5C48FC047"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03BDF99D53840B05"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			title: "6.11 强力化肥"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["609C738A0F0B222C"]
+			description: ["循环升级适合用于&a有机灌注器&r等产物需要重新放回输入端的机器，例如产物中的树苗，苔藓块等"]
+			hide_until_deps_complete: false
+			icon: "thermal:machine_cycle_augment"
+			id: "376661169399F340"
+			rewards: [{
+				count: 3
+				id: "1EAE6EAA131AC25B"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D1A22DEA6EB7F55"
+				type: "checkmark"
+			}]
+			title: "6.10 循环升级"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["376661169399F340"]
+			description: ["方便的经验存储道具，如果要提高存储量，可附魔扩容"]
+			hide_until_deps_complete: false
+			id: "3CC8F2873F612F3B"
+			rewards: [
+				{
+					count: 32
+					id: "715F2C64B4783808"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D6918B03C8E7852"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "32CF0332428E5C05"
+					item: "thermal:lead_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20993EFAAEF9D6F8"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "6.12 经验存储"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			description: [
+				"如果已经顺利完成了河童的任务，方法之一是使用蒸汽引擎搭配交流发电机来提供电力，一台满功率蒸汽引擎的应力足够供应前期绝大部分机械动力应力需求加上交流发电机"
+				""
+				"发电量取决于输入的转速"
+			]
+			hide_until_deps_complete: false
+			id: "1C257204696374D2"
+			rewards: [{
+				count: 4
+				id: "78474BE0987BD2AA"
+				item: "thermal:green_bean_pie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E3683FD6240925C"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			title: "6.13 交流发电机"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["066184617033CE8E"]
+			description: [
+				"可储存大量液体的储罐，可以安装升级（组件）来提高容量"
+				""
+				"破坏以后可以保存其中的流体，为数不多不能保存流体的容器是陨石储罐"
+			]
+			hide_until_deps_complete: false
+			id: "65A92D6BAE272CE4"
+			rewards: [{
+				count: 3
+				id: "30926B69A04F2471"
+				item: "fruitsdelight:lychee_cherry_tea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "370712A80AA1CF0F"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			description: [
+				"沥青沙或石油均可分离得到&a沥青&r——石油提炼中的副产物之一，可以继续处理得到重油等原料。"
+				""
+				"石油处理方面，思路并不复杂，只需要处理好各种管线的输入输出即可，用AE的管道+子网通常能更好地处理。"
+				""
+				"而最终的目的是得到&6精炼油&r，可作为烈焰人燃烧炉超级燃烧的燃料。"
+			]
+			hide_until_deps_complete: false
+			id: "01AA00478E36BA01"
+			rewards: [{
+				id: "497F80D9DD32A9EF"
+				item: "tofucraft:tofu_buns_burger"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F01F6D0EC5977D7"
+				item: "thermal:bitumen"
+				type: "item"
+			}]
+			title: "6.14 石油化工"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01AA00478E36BA01"]
+			description: [
+				"酸液，液态轻云+熔融煤炭+少量石油即可得到大量石油"
+				""
+				"如果不想走这么一大圈流程，也可以考虑寻找&a沥青沙的矿脉&r，通过分离沥青沙得到石油"
+			]
+			hide_until_deps_complete: false
+			icon: "thermal:oil_sand"
+			id: "0DAEE6C25BC22454"
+			rewards: [{
+				id: "4A243EB0A9F9B891"
+				item: "tofucraft:kinako_bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "095585B9F020ECD3"
+				item: "thermal:oil_sand"
+				type: "item"
+			}]
+			title: "6.15 石油量产"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CC8F2873F612F3B"]
+			description: ["热力或精妙背包的经验值需要使用&a经验转子&r转化为液态经验才能用于后续配方"]
+			hide_until_deps_complete: false
+			id: "2228D0846B5B0F59"
+			rewards: [{
+				count: 32
+				id: "43406D0044BE3513"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52FEBF45659AEC27"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			description: [
+				"这是消耗熔岩获得电力的设备，所有热力的发电机&a基础发电量经过改进以后都有所不同&r，而且消耗的资源也各不相同，可按需选择。而且别忘了，加装升级以后发电量很可观"
+				""
+				"大部分基础发电量都在120左右，部分发电机的发电量可能会更高"
+			]
+			hide_until_deps_complete: false
+			id: "4C01A831D0833100"
+			rewards: [{
+				id: "23DC1B6C30BB2991"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C664B50913ECAE4"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["609C738A0F0B222C"]
+			description: ["利用小恶魔的能力，你应该能瞬间将阿卡什宝典变为这本书，书中记载了许多内容，但是只讲重点的话，其实内容并不复杂。还剩下一些没提到的，优先级较低的内容可以自行查阅。"]
+			hide_until_deps_complete: false
+			id: "31A0B26DCD8C4218"
+			tasks: [{
+				id: "6740D41612535C67"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			description: ["自动吸收周围的掉落物，很适合用在部分特殊场合，例如养鸡，推荐安装范围升级"]
+			id: "0CF4339171AED9C1"
+			rewards: [{
+				count: 5
+				id: "244C6536AF963F79"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "吸吸吸吸吸吸吸吸"
+			tasks: [{
+				id: "5BE56EA2FD5FBDCC"
+				item: "thermal:device_collector"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"可以从附近的机器中提取经验，不耗电，可以不安装任何升级也能正常工作，但是被提取的机器本身需要安装知识浓缩器（例如红石熔炼炉）"
+				""
+				"知识聚集器本身的作用只是搬运经验并储存起来，经验还是需要由其他机器提供"
+			]
+			icon: "thermal:device_xp_condenser"
+			id: "3ED51E8FBF24076D"
+			rewards: [{
+				count: 5
+				id: "5137A5A33E3D36DA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "我们不生产经验，只是经验的搬运工"
+			tasks: [
+				{
+					id: "657E28A8107159DE"
+					item: "thermal:device_xp_condenser"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "5C58ED9A1647D254"
+					item: "thermal:xp_storage_augment"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"一次只能给一个物品&a充电&r，但是主要作用在于给热力的&a工具安装强化升级&r，例如通量电钻，电锯等"
+				""
+				"在界面中可以切换模式，默认模式为充电模式，可以给包括AE便携终端在内的各种物品&b充电&r，而第二种模式则只能给热力的工具使用，能安装各种强化，强化的效果在工具拿下来后才会生效"
+				""
+				"还有一个作用是给药水箭袋和药水注射器&a灌注药水&r"
+				""
+				"最后，还有一点值得一说的是——工匠工作台可以给各种热力机器，包括另一个工匠工作台添加组件以提高效率（尽管常见的做法是：放置机器方块后，右键打开GUI界面，在右侧放入组件）"
+			]
+			id: "78A752907E6D0E8F"
+			rewards: [{
+				count: 5
+				id: "1ADF4FBABDF5582A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "各种工具都需要用到！"
+			tasks: [{
+				id: "254ED736DC641190"
+				item: "thermal:tinker_bench"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"可以&b给大量设备快速充电&r，搭配通量线圈，整合组件升级能提高充电效率"
+				""
+				"并且可以自动化输入与输出，自动化才是真正的高效率"
+			]
+			id: "20747BE2F2173A74"
+			rewards: [{
+				count: 5
+				id: "32709A6153EDE536"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "高效率充电"
+			tasks: [{
+				id: "599F352A65B79939"
+				item: "thermal:charge_bench"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"可随身携带的充电设备，能自动给身上的装备供电，只需要按对应的切换键即可切换供电模式（默认V）。第一次使用时需要拿在手上&a潜行右键才能启动&r，否则不会自动充电"
+				""
+				"可以&a附魔扩容&r，能大幅提高容量"
+			]
+			id: "4231FBEE84E72188"
+			rewards: [{
+				count: 5
+				id: "7D6C09C426920F1F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "随身充电宝"
+			tasks: [{
+				id: "501641CEFDB30FF5"
+				item: {
+					Count: 1
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"这一类升级通常很适合用在充电相关设备上面，例如能量灌注器，通量电容等，可以有效提高充电的效率或续航能力"
+				""
+				"同一个机器上面这三种升级只能装一个"
+			]
+			icon: "thermal:rf_coil_augment"
+			id: "3BD3267AFF39D5FB"
+			rewards: [{
+				count: 5
+				id: "0C355E67220C4BBE"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "742EAAB4CEE12EEA"
+					item: "thermal:rf_coil_augment"
+					type: "item"
+				}
+				{
+					id: "293881A2FB451877"
+					item: "thermal:rf_coil_storage_augment"
+					type: "item"
+				}
+				{
+					id: "045360F2C2FFAC50"
+					item: "thermal:rf_coil_xfer_augment"
+					type: "item"
+				}
+			]
+			title: "通量线圈"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"整合组件可以用在几乎所有热力机器或工具上面，能直接让机器效率变为相应倍数，例如发电机能直接产出对应倍数的电力，并且和其他不同类的升级可乘法叠加，但是整合组件不同倍数的&a无法叠加，只取最高等级&r"
+				""
+				"例如，同时安装一个X2的整合组件，一个X4的整合组件，仅X4的生效，X2的完全无效，但是其他的升级依然有效，例如增加100%能源炉效率这样的升级"
+			]
+			id: "5945F313AC7AAA2E"
+			rewards: [{
+				count: 5
+				id: "05C8D75B0D464551"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33525327E4610DA1"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			title: "整合组件"
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			description: ["来自传送门2的彩蛋，同时也是某个法国公司的服务器，用法和通量电容一样"]
+			id: "16D529A66EC04DF0"
+			rewards: [{
+				count: 5
+				id: "2BA772C004BBE14E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "并非GLaDOS"
+			tasks: [{
+				id: "02951BFABA953C4F"
+				item: {
+					Count: 1
+					id: "thermal:rf_potato"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"可以附魔扩容的热力“小工具”，理论贮液上限应该是3000+B（升级拉满的情况下）"
+				""
+				"默认按V改变装填/吸收的状态，潜行右键可以开启自动将其中的液体填充到装备上"
+				""
+				"对着其他容器储罐使用，可以一次性放出所有液体或者装填尽可能多的液体。如果对着热力的流体单元使用时发现每次只能移动1B的液体，请在流体单元设置里将单次移液的限制调高，默认为1B"
+			]
+			id: "1089400B3F8E1254"
+			rewards: [{
+				count: 5
+				id: "708D951ACCC05B8D"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E0516D42CCCCA29"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"可附魔扩容，右键可给生物&6注射药水&r，潜行右键给自己注射，可以开启自动注射，这样会自动给自己注射药水（如生命恢复，夜视，水下呼吸等）"
+				""
+				"填充药水可在&b工匠工作台&r进行，并且同样可以安装各种强化升级提高容量和药水等级，持续时间"
+			]
+			id: "24F61EF13288A0BF"
+			rewards: [{
+				count: 5
+				id: "465224FEC0CA340A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63779D7249D12DD5"
+				item: {
+					Count: 1
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"可附魔扩容，仅支持装填原版默认箭矢，如果在工匠工作台灌注了药水，用弓箭时会自动给箭矢涂上药水，并且可以安装各种升级，除了能让药水时间延长的整合组件，还可以安装&a炼金放大器和炼金延长器&r，和整合组件叠加之后能让药水时间超级加倍，并且各种升级都能提高药水存储量和箭矢的存储量，实际箭矢容量远远不止初始的80"
+				""
+				"装填箭矢的方法："
+				"副手拿&a原版默认&r的➹，主手拿箭袋，右键即可"
+				""
+				"&b可惜的是，目前版本并不支持匠魂或者其他模组的弓，仅支持原版的弓&r"
+			]
+			id: "339154248AF620F3"
+			rewards: [{
+				count: 5
+				id: "73F9436674B77087"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25E7C8579CBE6A2B"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			description: ["增加部分机器的工作范围，可叠加，也可以用在工具上，例如通量钻头，可增加挖掘范围（可使用配置按键灵活调整）"]
+			icon: "thermal:area_radius_augment"
+			id: "44BFC42E7CC166CE"
+			rewards: [{
+				count: 5
+				id: "4EA9735B99A9AB18"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "287B3D1B320C6467"
+					item: "thermal:area_radius_augment"
+					type: "item"
+				}
+				{
+					id: "7821B7E4C366D8AD"
+					item: "thermalendergy:melodic_range_augment"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			description: ["各种工具或储罐都能安装扩容储罐升级，可提高流体容量"]
+			id: "07568516240EB3B9"
+			rewards: [{
+				count: 5
+				id: "34CFC7E8F37F32AA"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "166D1461B2A46C59"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"可过滤物品或流体，如果传输过程中不方便过滤的话，可以考虑在机器上安装过滤"
+				""
+				"最主要的用途是给真空箱或销毁器安装，方便筛选"
+			]
+			icon: "thermal:item_filter_augment"
+			id: "0BDA8F55A68D67FB"
+			rewards: [{
+				count: 5
+				id: "73B325ECA466538A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0912CE84DB04E90B"
+					item: "thermal:item_filter_augment"
+					type: "item"
+				}
+				{
+					id: "731C5AB02BA9694A"
+					item: "thermal:fluid_filter_augment"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"自动销毁任何输入的流体或者物品（可通过安装升级来过滤）"
+				""
+				"手动放入的需要点击按钮才能销毁"
+			]
+			id: "43D89DC41F636358"
+			rewards: [{
+				count: 5
+				id: "6541BAF8CBCD21F7"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6B7BF1A3AB8BC2"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			description: ["本身并不具备主动传输流体的功能，需要其他方式来主动提供流体传输，视窗可以看到其中的流体，其余无区别"]
+			icon: "thermal:fluid_duct"
+			id: "3BD26C0D066A14B7"
+			rewards: [{
+				count: 5
+				id: "321666210355C0BC"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "206BFFC59DACB97E"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+				{
+					id: "38DDB444FDAA1FB1"
+					item: "thermal:fluid_duct_windowed"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"搭配流体管道使用，主动抽取流体"
+				""
+				"值得注意的是，需要放在输入端口处，和流体储罐等容器相连，而不是侧面"
+				""
+				"涡轮伺服器的&a速率更快&r，但过滤选项更少"
+			]
+			icon: "thermal:servo_attachment"
+			id: "074965FC1AEE0A17"
+			rewards: [{
+				count: 5
+				id: "2D95760E12E38721"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54417737391F84D8"
+					item: "thermal:servo_attachment"
+					type: "item"
+				}
+				{
+					id: "1774B789167A5BF0"
+					item: "thermal:turbo_servo_attachment"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"能量管道能自动传输电力"
+				""
+				"红石通量单元可存储电力，&a输入和输出电力都需要在界面中调整相应面的设置&r，否则无法正常连接管道.而且红石通量单元也可以附魔扩容"
+			]
+			icon: "thermal:energy_duct"
+			id: "09831B9D786B3C6E"
+			rewards: [{
+				count: 5
+				id: "3E97C4674F3992C2"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54E7BC69209A8A89"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					id: "7626A99E593205A7"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D257A3A5C0271DC"]
+			description: ["这四种孢子的用法都是一样的，制作出来后，可以在有机灌注器中批量生产，多余的部分则可以烧制得到对应的物品——&a红石，荧石，火药，黏液球&r"]
+			icon: "thermal:redstone_mushroom_spores"
+			id: "6A9CFE9A15243269"
+			rewards: [{
+				id: "6971F2527116D8BB"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1512D2341D30AA3E"
+					item: "thermal:redstone_mushroom_spores"
+					type: "item"
+				}
+				{
+					id: "748EFDF9B4955AB9"
+					item: "thermal:glowstone_mushroom_spores"
+					type: "item"
+				}
+				{
+					id: "1D35F58A355BD967"
+					item: "thermal:gunpowder_mushroom_spores"
+					type: "item"
+				}
+				{
+					id: "742EDF0D6AA251F2"
+					item: "thermal:slime_mushroom_spores"
+					type: "item"
+				}
+			]
+			title: "孢子"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1BD65F7BA76B8641"
+				"6DF6D21D6A2D86FA"
+				"0735447815DC7DEF"
+			]
+			description: [
+				"觉：既然你已经完成了大部分主要的内容，也帮了不少忙，我想请你来做一个见证。目前我请来了与异变相关有嫌疑的人——紫，天子和咲夜，根据部分热心群众的说法，这三位曾经在尸体被发现前出现在了这个房间附近，而且都有能力捣鬼。除此之外，米斯蒂娅作为仓库管理者，同时也是第一个发现者，也被请到了这里。"
+				""
+				"觉：如果放到以前，我肯定能立刻找出真凶，但是很可惜，这次异变的力量让我的读心能力大幅下降，目前我唯一能判断的是，异变真凶，以及与尸体出现有关的人员一定就在目前的仓库里！本来我还想着挨个单独读心来排查嫌疑，但我目前的读心能力已经消失得差不多了，看来只能用传统的问话方式了，都有意见吗？"
+				"{@pagebreak}"
+				"紫：我没意见"
+				""
+				"天子：不对，我一直在天庭处理孙美天大闹天庭后留下的废墟，那个孙美天还偷吃了我好几个蟠桃。这期间，我顺便抽空教了史蒂夫一些关于天界科技的知识，根本没来地面。总不能是孙美天化作的六件法器导致的异变吧？"
+				""
+				"觉：我知道天界科技有一种物件叫“空间塔”，或许不一定是你直接干的，但是可能始作俑者正好利用了空间塔来搬运尸体，否则很难神不知鬼不觉做到这一点"
+				""
+				"咲夜：和我有什么关系？我只是来雀食吃吃饼，顺便给家里的吸血鬼买点食材而已。"
+				""
+				"觉：只是来吃吃饼？我看不一定，要知道，上一个和你有同样能力的吸血鬼最喜欢干的事情就是时停搬运东西，你有重大嫌疑"
+				""
+				"{@pagebreak}"
+				"觉：说回紫，最近也有人看到你的式神出现在雀食附近，有什么想说的吗？"
+				""
+				"紫：只是拜托外卖骑手——蓝来雀食拿外卖，仅此而已"
+				""
+				"觉：但是你的隙间能力同样可以用来搬运，而且你前科相当多，也不能排除嫌疑。总之再总结一下吧，目前紫，咲夜，天子都有可能是幕后黑手"
+			]
+			hide_text_until_complete: true
+			icon: "simplehats:bigeyes"
+			id: "7FA7F55B879E5492"
+			rewards: [{
+				count: 4
+				id: "2D635273A90E7BE4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "此时，在夜雀的仓库里（完成后可查看文本）"
+			tasks: [{
+				id: "38709C10AC969AF6"
+				type: "checkmark"
+			}]
+			title: "读心术"
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7FA7F55B879E5492"]
+			description: [
+				"觉：似乎是我考虑得不周全，既然读心能力失效了，那就要尽量严谨一些。准确来说，目前这个仓库的所有人都有嫌疑，甚至包括米斯蒂娅，史蒂夫和我自己。首先从米斯蒂娅开始吧，虽然你是尸体的发现者，但是既然你熟悉环境，同样有可能趁人不注意，将尸体从哪个暗道里运送回仓库"
+				""
+				"米斯蒂娅：冤枉啊，我每天起早贪黑就为了做点小生意，从来都不敢干这些事情，我只要能把小店给经营好就已经很知足了。更何况发生这种事情还会连累我的生意。"
+				""
+				"觉：似乎有一定道理，既然没有作案动机的话，还是先从别的方面开始入手吧，对于我自己来说，是没有作案时间的。每天在家里处理事情，最近阿空也受到异变影响了，我得亲自监督避免托卡马克反应堆出现事故，我拖鞋都没换就忙着来这里。关于这一点，地灵殿附近的鬼跟阿燐可以作证。"
+				"{@pagebreak}"
+				"觉：至于史蒂夫，尽管你声称自己和异变，以及仓库的尸体完全无关，即使所说的都是真心话，但还存在一种可能性——曾经的记忆被消除了一部分。道理也很简单，如果记忆被完全抹除，除了在这个世界上留下的痕迹，没有任何事物能够直接证明，或者让自身相信发生过的事"
+			]
+			hide_text_until_complete: true
+			icon: "fruitsdelight:pear"
+			id: "6E6232455FAEFC6B"
+			rewards: [{
+				count: 8
+				id: "3E31B3008197E6A4"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "一斤鸭梨！"
+			tasks: [{
+				id: "131C9F81FEABF723"
+				type: "checkmark"
+			}]
+			title: "有异议"
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6E6232455FAEFC6B"]
+			description: ["尽管自己也可能是异变的真凶，但是作为调查团队的重要成员，你仍然需要询问其他3位有嫌疑的人员以调查出真相"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "4B348B24C0715A99"
+			tasks: [{
+				id: "10C5EAAC228EA7FD"
+				type: "checkmark"
+			}]
+			title: "思索"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B348B24C0715A99"]
+			description: ["咲夜：我当时确实对此毫不知情，最近我也没有使用时停的能力，原因很简单，我的能力暂时被某种力量抑制了，可能和觉的情况类似。但是如果想了解情报的话，我倒是知道一点信息——也许帕秋莉知道关于这次异变的一些信息，你可以去询问一下"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:knife"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "45337b3f-c6cd-4585-afb2-f38a923086cc"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:iron"
+						"tconstruct:iron"
+						"tconstruct:iron"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:magnetic"
+						}
+						{
+							level: 1
+							name: "tconstruct:antiaquatic"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:durability": 0.8f
+						"tconstruct:mining_speed": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 4.4f
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:durability": 220.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 7.2000003f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "52A1E988CD2320F7"
+			rewards: [{
+				id: "08E70959BD0D56E7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3D4D323AFD9EFCDB"
+				type: "checkmark"
+			}]
+			title: "询问咲夜"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B348B24C0715A99"]
+			description: ["紫：好吧，其实事情发生时确实能有人为我作证，证明我当时并不在米斯蒂娅的仓库。而且顺便一提，我的隙间能力目前仅能进行短途折越，没办法从家里直接到达米斯蒂娅的仓库。至于证明人嘛，当然是人里的小男孩。当时蓝被我派出去买东西了，不过你可以放心，她也与此事无关，我只是单纯把她调走方便做事而已。"]
+			hide_text_until_complete: true
+			icon: "touhou_little_maid:wireless_io"
+			id: "2DD8B5957957E80B"
+			rewards: [{
+				id: "085E0A82BC6C4D9B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4DACB4BC1CE2E77A"
+				type: "checkmark"
+			}]
+			title: "询问紫"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B348B24C0715A99"]
+			description: ["天子：刚才就和你说了，我还在忙着收拾孙美天留下的烂摊子呢，但是我最近正好发现，这天庭一片混乱的时候，库房里的一些空间塔元件丢失了。上一个烂摊子还没收拾完呢，现在也很难追查下落。但是我有一个办法，我听说纳兹琳寻找宝塔通常会使用一个特殊设备，如果能帮我做一套这种设备的话，也许我能找到丢失的元件。顺便再帮我做个通量电容，这样方便移动使用"]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "scannable:scanner"
+				tag: { }
+			}
+			id: "075CEB42E5DC780E"
+			rewards: [{
+				id: "6FADD072ADA264EE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6F5815558A546DDE"
+					item: {
+						Count: 1
+						id: "scannable:scanner"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4A0C0119C7005709"
+					item: "scannable:block_module"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "07D839360645C2FD"
+					item: {
+						Count: 1
+						id: "thermal:flux_capacitor"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "询问天子"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41AA8D42F7ABE173"]
+			description: [
+				"觉：为了调查，我想邀请一些有嫌疑的人员来米斯蒂娅的仓库，但是天子说她还有很多工作没忙完，暂时脱不开身，这方面我也理解，没办法强行把她抓过来。因此只能先麻烦您去"
+				"{ \"text\": \"帮她一把\", \"underlined\": \"true\", \"color\":\"green\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"0735447815DC7DEF\" } }"
+				""
+				"完成以后，我们在仓库里见面。"
+			]
+			id: "6DF6D21D6A2D86FA"
+			tasks: [{
+				id: "64DAF38B31235A68"
+				type: "checkmark"
+			}]
+			title: "关于天子"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2DD8B5957957E80B"
+				"075CEB42E5DC780E"
+				"52A1E988CD2320F7"
+				"6B346A99F56A4EE5"
+			]
+			description: [
+				"在尚未得知事件真相时，所有人的心情都像泡在熔岩海里一样焦躁"
+				""
+				"觉：所以你问了帕秋莉，她是这样说的啊，来自外界的影响吗？事情还挺奇怪的，但是这让我想起以前遇到过的事情，有一些狂热粉丝曾经留下过这样的发言，嗯，具体怎么说呢，大概意思是，想当我的……犬走椛？或许这两者看似毫不相关的事情之间也有联系吧，我猜的"
+				""
+				"天子：好了，还是说回正题吧，多亏了史蒂夫提供的扫描器，我现在可以追查丢失的空间存储元件所在位置了，之前已经排查过嫌疑最大的魔理沙，但是她说已经把东西放在自助寄售点给卖出去了，而且不知道是谁买的"
+				"{@pagebreak}"
+				"天子：其他地方我都排查过了，接下来我查一下这里吧，我看看啊，居然扫描器有反应了，位置就在仓库里——地面上的……尸体上？"
+				""
+				"咲夜：等等，你是说……不会吧"
+				""
+				"地上的“尸体”开始缓缓爬了起来，并且撕掉了身上的伪装，由于伪装得实在太好，甚至好到让人反胃，以至于没有人会去怀疑这具尸体竟然是伪装的"
+				""
+				"觉：宫出口瑞灵？难怪之前都没有人察觉"
+				""
+				"咲夜：没错，被瑞灵附身后的人是没有被附身期间的记忆的，再加上这个时间点天庭刚被孙美天搅得一团乱，自顾不暇，灵梦也忙着退治异变的时机，利用买来的空间存储元件搭配空间塔，附身他人搬运自己伪装好的“尸体”易如反掌。"
+				"{@pagebreak}"
+				"瑞灵：猜对了，只可惜最后还是输给了科技的力量，我没想到还能用到这种东西"
+				""
+				"觉：那么，这一切都是你在捣鬼，包括这次异变？"
+				""
+				"瑞灵：不，异变不是我干的。我只是利用了一下异变，毕竟根据魔力守恒定律，失去的魔力不会消失，只是转移到了其他地方，我只是利用了一下这些多余的溢出四散的魔力罢了。"
+				"{@pagebreak}"
+				"觉：所以你只是为了好玩才这样？那你知道异变是怎么回事吗？"
+				""
+				"瑞灵：在利用这些魔力时，我感受到了很多不一样的气息，和以往都不一样。一部分魔力似乎受到了来自外界的干扰才变得这么紊乱，在尝试探查外界干扰的时候，看到的东西非常奇怪。"
+				""
+				"觉：为什么奇怪？"
+				""
+				"瑞灵：因为这些外界的干扰竟然是人的尊严破碎以后弥漫在空中的碎片，而且量还相当之大。"
+				""
+				"咲夜：尊严破碎？就像我给家里的吸血鬼当女仆一样？"
+				""
+				"瑞灵：差不多吧，可能更严重一些。而且这种情况，上次发生还是在我当年是巫女的时候，但是据我所知，在外界，人作为商品被贩卖的时代已经结束很多年了，这种情况不应该这么常见才对。很可惜，我并不知道解决办法。"
+				"{@pagebreak}"
+				"此时灵梦正好也赶到了"
+				""
+				"灵梦：好了，废话少说，你跟我走一趟，回你的旧地狱去吧。走之前把你身上的东西拿出来，空间存储组件和空间塔过于危险，我来保管，其他的东西就送给史蒂夫吧"
+				""
+				"说完，灵梦掏出10块黑曜石和一个打火石，将瑞灵送回了旧地狱"
+			]
+			hide_text_until_complete: true
+			icon: "ae2:spatial_storage_cell_2"
+			id: "4F6FC1D2FCA5F22C"
+			rewards: [
+				{
+					count: 5
+					id: "3CFA692989A1A27E"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7F6057AC7322CCD8"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "18CCA4AE76E9F1AD"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "兜兜转转又回到了仓库"
+			tasks: [{
+				id: "18A9FE9ABC9DE2E8"
+				type: "checkmark"
+			}]
+			title: "重新排查"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D257A3A5C0271DC"]
+			description: ["类似于TNT的触发方式，但是不会造成破坏，而是大范围催熟作物"]
+			hide_dependency_lines: true
+			id: "286A5D71B6AB4832"
+			tasks: [{
+				id: "5A7B28CF747C5705"
+				item: "thermal:phyto_tnt"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D257A3A5C0271DC"]
+			description: ["这是投掷物版本的植育一号，可以大范围催熟作物"]
+			hide_dependency_lines: true
+			id: "70430E203D77010B"
+			tasks: [{
+				id: "39EB922B80FDF216"
+				item: "thermal:phyto_grenade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			description: ["觉：农作物太多，需要更多肥料来进行后续生产？试试批量堆肥器，可以同时处理多份农作物的堆肥"]
+			id: "17E5FB5A9EE37B0C"
+			rewards: [{
+				count: 4
+				id: "76FC60E670C13595"
+				item: "thermal:compost"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D7CA05DF2F50EBB"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E620B5A91921B5C"]
+			description: ["高效率的挖掘设备，可以替代镐子和铲子，通过加装相应的升级，可以切换为范围挖掘"]
+			id: "00359C86EE9897F0"
+			tasks: [{
+				id: "6C9A073B4682C3C7"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E620B5A91921B5C"]
+			description: ["高效率的伐木工具，安装升级可解锁范围砍伐"]
+			id: "4F14CE8B4305F6B7"
+			tasks: [{
+				id: "026577D37ACBA8D8"
+				item: {
+					Count: 1
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"觉：这些能源炉的特点是，当输出能够畅通无阻的情况下能以高效率发电，当输出受阻的情况下仍会继续消耗材料发电（也会凭空浪费材料），但是效率会大幅降低"
+				""
+				"为了最大程度提高能源炉的发电效率，可以用部分缓存设备来将多余的电力存起来，比如说红石通量单元"
+				""
+				"顺便再提醒一下吧，红石通量单元也是可以放在附魔台进行附魔的，如果再额外加装升级的话，还能进一步提升传输效率和存储量"
+			]
+			icon: {
+				Count: 1
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+			id: "1C2A6A8CC8A5F788"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "762B7A642CA56DDC"
+				table_id: 4036622934681258898L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "34DB6067A2649060"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "关于热力的能源炉"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			id: "20C0DA5754A038A5"
+			tasks: [{
+				id: "774D7E1FA93A17CF"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			id: "5988020B5C3462AD"
+			tasks: [{
+				id: "66433CEE1CD6D21C"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			id: "67B34E1CEA55812A"
+			tasks: [{
+				id: "45552FF9727B3965"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			id: "4CDE2A33A64012DF"
+			tasks: [{
+				id: "299CB1724CBA16F1"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45E3CBEB47ED01EF"]
+			id: "169272E5357DC6DC"
+			tasks: [{
+				id: "7ECAF657F9EB087D"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+	]
+	title: "地灵殿(热力)"
+}

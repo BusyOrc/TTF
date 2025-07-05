@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/honey"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/zinc"
+          }
+        }
+      ]
+    }
+  ],
+  "input": "mushroom_daydream:bee_man",
+  "result": {
+    "amount": 90,
+    "fluid": "tconstruct:honey"
+  },
+  "temperature": 605
+}

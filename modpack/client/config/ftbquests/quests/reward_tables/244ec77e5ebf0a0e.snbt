@@ -1,0 +1,36 @@
+{
+	id: "244EC77E5EBF0A0E"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 32, item: "minecraft:oak_log" }
+		{ count: 32, item: "minecraft:spruce_log" }
+		{ count: 32, item: "minecraft:birch_log" }
+		{ count: 32, item: "minecraft:acacia_log" }
+		{ count: 32, item: "minecraft:cherry_log" }
+		{ count: 32, item: "minecraft:jungle_log" }
+		{ count: 32, item: "minecraft:mangrove_log" }
+		{ count: 32, item: "minecraft:dark_oak_log" }
+		{ count: 32, item: "quark:azalea_log" }
+		{ count: 32, item: "quark:blossom_log" }
+		{ count: 32, item: "biomesoplenty:fir_log" }
+		{ count: 32, item: "biomesoplenty:pine_log" }
+		{ count: 32, item: "biomesoplenty:maple_log" }
+		{ count: 32, item: "biomesoplenty:redwood_log" }
+		{ count: 32, item: "biomesoplenty:mahogany_log" }
+		{ count: 32, item: "biomesoplenty:jacaranda_log" }
+		{ count: 32, item: "biomesoplenty:palm_log" }
+		{ count: 32, item: "biomesoplenty:willow_log" }
+		{ count: 32, item: "biomesoplenty:dead_log" }
+		{ count: 32, item: "biomesoplenty:magic_log" }
+		{ count: 32, item: "biomesoplenty:umbran_log" }
+		{ count: 32, item: "biomesoplenty:hellbark_log" }
+		{ count: 32, item: "biomesoplenty:empyreal_log" }
+		{ count: 32, item: "thermal:rubberwood_log" }
+		{ count: 32, item: "twilightforest:twilight_oak_log" }
+		{ count: 32, item: "twilightforest:canopy_log" }
+		{ count: 32, item: "twilightforest:mangrove_log" }
+		{ count: 32, item: "twilightforest:dark_log" }
+	]
+	title: "木材"
+}

@@ -1,0 +1,19 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "each_level": 3.0,
+      "operation": "addition",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ],
+      "unique": "tconstruct.modifier.revitalizing"
+    }
+  ],
+  "tooltip_display": "always"
+}

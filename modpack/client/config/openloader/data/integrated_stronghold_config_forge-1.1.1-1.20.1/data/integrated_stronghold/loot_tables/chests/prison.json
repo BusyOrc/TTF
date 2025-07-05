@@ -1,0 +1,769 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第85天\n\n\\\"},
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"在议会作证说我是那个在下界探险时把 \\\"},
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"推进熔岩的人。这明显是谎言！是\\\"},
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"干的！\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"我无法相信议会认为我会把我最好的朋友推进熔岩里。 \\\"},
+                {\\\"text\\\":\\\"他们会为此付出代价的！\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "囚犯日记 #1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第120天\n\n\\\"},
+                {\\\"text\\\":\\\"今天我因为从厨房里偷蛋糕被议会送进了监狱。\\\"},
+                {\\\"text\\\":\\\"我不否认我确实偷了。但是进监狱？！就为了一个蛋糕？？！！\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"有时候议会太过火了。\\\"},
+                {\\\"text\\\":\\\"我希望他们快点投票把我放了，而不是让我被关一周。\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "囚犯日记 #2",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第203天\n\n\\\"},
+                {\\\"text\\\":\\\"我尝试闯进研究实验室并摧毁对小行星的研究。 \\\"},
+                {\\\"text\\\":\\\"必须阻止这些研究员，他们在接触的是他们完全不懂的黑暗力量。\\\"},
+                {\\\"text\\\":\\\"他们会把我们全害死的......\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "囚犯日记 #3",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§kREDACTED\\\"},
+                {\\\"text\\\":\\\"§l的日记\n第280天\n\n\\\"},
+                {\\\"text\\\":\\\"我之所以被送到这里，是因为我拒绝相信他们那些会飞的神秘垃圾：至高无上者。\\\"},
+                {\\\"text\\\":\\\"我不相信他们真的亲眼看见她了。\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"我甚至不相信她真的存在！ \\\"},
+                {\\\"text\\\":\\\"我觉得研究员们就是在藉此合理化他们的危险实验。 \\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "囚犯日记 #4",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"计日表\n\n\\\"},
+                {\\\"text\\\":\\\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \\\"},
+                {\\\"text\\\":\\\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \\\"},
+                {\\\"text\\\":\\\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII \\\"},
+                {\\\"text\\\":\\\"IIIII IIIII IIIII IIIII IIIII IIIII IIIII IIIII II\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "囚犯日记 #5",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:honeyed_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Pickaxe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Sword",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Chestplate",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },  
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Axe",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "supplementaries:slingshot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "quark:trowel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                 "min": 0.3,
+                 "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:enderman_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:candle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:black_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_purple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:candle_holder_black",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 16
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15    
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:zinc_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

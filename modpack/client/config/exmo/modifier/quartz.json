@@ -1,0 +1,19 @@
+{  "type": "CURIOS-ALL",
+"curios3": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:quartz"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.movement_speed": {
+      "weight":24,
+    "value": 0.15,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"multiply_total"
+  }
+  }
+}
+}
+

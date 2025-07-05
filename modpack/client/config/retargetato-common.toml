@@ -1,0 +1,11 @@
+
+#Targetato
+[General]
+	#Use 'B' for blacklist, use any other word(s) (e.g.  I love you, PotatoBoy) for whitelist
+	listType = "B"
+	mobList = ["hmag:zombie_girl", "hmag:husk_girl", "hmag:skeleton_girl", "hmag:wither_zombie_girl", "hmag:creeper_girl", "hmag:stray_girl", "hmag:melty_monster", "hmag:cursed_doll", "hmag:jack_frost", "hmag:dullahan", "hmag:banshee", "hmag:alraune", "hmag:slime_girl", "hmag:magical_slime", "hmag:monolith", "hmag:crimson_slaughterer", "hmag:imp", "hmag:necrotic_reaper", "hmag:ender_executor"]
+
+["Advanced Filter"]
+	filteredMobList = ["minecraft:piglin", "minecraft:piglin_brute"]
+	filteredTargetList = ["minecraft:wither_skeleton", "minecraft:wither_skeleton"]
+

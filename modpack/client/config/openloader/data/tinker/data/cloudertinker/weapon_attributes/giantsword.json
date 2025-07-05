@@ -1,0 +1,39 @@
+{
+    "attributes": {
+      "attack_range": 5.5,
+      "two_handed": true,
+      "pose": "bettercombat:pose_two_handed_heavy",
+      "attacks": [
+        {
+          "hitbox": "HORIZONTAL_PLANE",
+          "damage_multiplier": 0.9,
+          "angle": 180,
+          "upswing": 0.5,
+          "animation": "bettercombat:two_handed_slash_horizontal_right",
+          "swing_sound": {
+            "id": "bettercombat:claymore_swing"
+          }
+        },
+        {
+            "hitbox": "HORIZONTAL_PLANE",
+            "damage_multiplier": 0.9,
+            "angle": 180,
+            "upswing": 0.5,
+            "animation": "bettercombat:two_handed_slash_horizontal_left",
+            "swing_sound": {
+              "id": "bettercombat:claymore_swing"
+            }
+          },
+        {
+          "hitbox": "VERTICAL_PLANE",
+          "damage_multiplier": 1.5,
+          "angle": 0,
+          "upswing": 0.5,
+          "animation": "bettercombat:two_handed_slam_heavy",
+          "swing_sound": {
+            "id": "bettercombat:claymore_stab"
+          }
+        }
+      ]
+    }
+  }

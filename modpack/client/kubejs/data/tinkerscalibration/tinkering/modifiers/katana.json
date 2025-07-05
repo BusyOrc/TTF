@@ -1,0 +1,28 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 8,
+        "operation": "addition",
+        "attribute": "attributeslib:armor_pierce",
+        "unique": "tconstruct.modifier.katana",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.20,
+        "operation": "addition",
+        "attribute": "attributeslib:armor_shred",
+        "unique": "tconstruct.modifier.katana",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

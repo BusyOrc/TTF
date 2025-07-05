@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0D9C63BA76E0FF6F"
+	group: "756D1B6269D2C725"
+	icon: "modulargolems:candy_mixture"
+	id: "0D9C63BA76E0FF6F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["1670123577D44C28"]
+			description: ["第一次进入游戏时触发，之后不再触发。可按ESC提前关闭"]
+			disable_toast: true
+			icon: "touhou_little_maid:power_point"
+			id: "3FAB4795DBD93F1B"
+			rewards: [{
+				command: "/dialog show gensokyo_start"
+				elevate_perms: true
+				id: "602A0E3AC11B00A2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4A7FDAB4B768A692"
+				title: "灵梦介绍"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1670123577D44C28"]
+			description: ["小伞的第一个任务"]
+			disable_toast: true
+			icon: "tconstruct:seared_table"
+			id: "1E091CCAAA8720D5"
+			rewards: [{
+				command: "/dialog show kogasa"
+				elevate_perms: true
+				id: "4961B3676713B4C0"
+				type: "command"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "0E2E79A8FC8BF01C"
+				title: "小伞介绍"
+				type: "checkmark"
+			}]
+			title: "小伞介绍"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["为了方便查看对话，这里的所有对话没有设置前置任务，但是&b提前查看对话可能会因为缺少上下文信息而无法理解部分剧情&r，或造成部分剧透的情况。建议在之后的任务中完成了相应任务，触发了对话以后再来这里回顾"]
+			hide_dependent_lines: true
+			icon: "alexscaves:candy_cane"
+			id: "1670123577D44C28"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FBA0C1616F6E9E1"
+				title: "提示"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1670123577D44C28"]
+			description: ["给荷取材料，寻思出潜水艇以后触发"]
+			icon: "alexscaves:submarine"
+			id: "5ECAA0A563F0AF71"
+			rewards: [{
+				command: "/dialog show submarine"
+				elevate_perms: true
+				id: "3ECCC872815E9CB0"
+				title: "潜水艇建造完成"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4FD6351A6BE756C6"
+				type: "checkmark"
+			}]
+			title: "潜水艇完成"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1670123577D44C28"]
+			description: ["深海的呼唤第一个任务"]
+			icon: "minecraft:red_bed"
+			id: "740A8B75E44EA82C"
+			rewards: [{
+				command: "/dialog show cave1"
+				elevate_perms: true
+				id: "7F28AC6D19526C56"
+				title: "休息"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4E76F5A5B47D6118"
+				type: "checkmark"
+			}]
+			title: "上床休息"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1670123577D44C28"]
+			description: ["深海的呼唤章节，给哆来咪金币，让探女给予祝福"]
+			icon: "minecraft:milk_bucket"
+			id: "3FAECDD06FFC3A64"
+			rewards: [{
+				command: "/dialog show kagume"
+				elevate_perms: true
+				id: "1DFD6C1469CE2625"
+				title: "探女的祝福"
+				type: "command"
+			}]
+			tasks: [{
+				id: "59824031E0C47F39"
+				type: "checkmark"
+			}]
+			title: "探女的祝福"
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+	title: "对话回顾"
+}

@@ -1,0 +1,23 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "flat": 0.2,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.movement_speed",
+        "unique": "tconstruct.modifier.unconscious",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      },
+      {
+        "type": "tconstruct:effect_immunity",
+        "effect": "minecraft:slowness"
+      }
+    ],
+    "tooltip_display": "always"
+  }

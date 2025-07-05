@@ -1,0 +1,42 @@
+{  
+    "conditions":
+    [
+        {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+        }
+    ],
+    "type": "farmersdelight:cooking",
+    "container":
+    {
+      "item": "minecraft:bowl"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients":
+    [
+        {
+            "tag": "forge:crops/carrot"
+        },
+        {
+            "tag": "forge:crops/potato"
+        },
+        {
+            "tag": "forge:crops/barley"
+        },
+        {
+            "tag": "forge:crops/onion"
+        },
+        {
+            "tag": "forge:crops/radish"
+        },
+        {
+            "item":"farmersdelight:tomato_sauce"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result":
+    {
+        "item": "thermal:hearty_stew"
+    }
+  }

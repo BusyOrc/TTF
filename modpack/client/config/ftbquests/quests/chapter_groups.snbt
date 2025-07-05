@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "4293891DF89E3E58", title: "序章" }
+		{ id: "70B4907D74D7EF03", title: "道中" }
+		{ id: "7E2BC7A0DAD568E2", title: "洞穴奇遇" }
+		{ id: "398070A2413EA53F", title: "终章" }
+		{ id: "756D1B6269D2C725", title: "EXTRA" }
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "modifier.tconstruct": {
+    "portal":"#E0FFFF",
+    "unconscious":"#B0E2FF",
+    "tofu_kungfu":"#E8E8E8",
+    "crystalline_phase":"#FFA500",
+    "photo":"#DAA520",
+    "hermit_purple":"#BF3EFF",
+    "snap_crit":"#FF4040",
+    "thermal_engineer":"#EEC900",
+    "radiation_immune":"#EEAD0E",
+    "latiao":"#EE4000",
+    "twilight_world":"#CD96CD",
+    "fog_swim":"#C0FF3E",
+    "lt_repair":"#F37459",
+    "hotaurum":"#FF7F00",
+    "iron_curtain":"#C0FF3E",
+    "lichking":"#EE4054" ,
+    "mambaout":"#40E0D0"   
+    
+    },
+    "material.tconstruct": {
+
+    }
+}

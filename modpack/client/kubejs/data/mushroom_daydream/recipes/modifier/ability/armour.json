@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:iron_chestplate"
+    }
+  ],
+  "result": "mushroom_daydream:armour",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

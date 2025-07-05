@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:gear_of_war"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:mambaout"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mushroom_daydream:ultra_ancient"
+      },
+    {
+      "level": 1,
+      "name": "tconstruct:mambaout"
+    }
+    ]
+  }
+}

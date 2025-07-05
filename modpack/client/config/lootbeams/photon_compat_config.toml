@@ -1,0 +1,16 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[fxEnable]
+enableFX = false
+affectAllBeam = false
+baseFX = "lootbeams:common"
+affectStrategy = "Merge"
+byItemName = {  }
+
+[fxControl]
+ifThisNameShouldBeReplacedColor = [
+    [ "halo", { replaceAlpha = true, replaceColor = true } ],
+    [ "haloVertical", { replaceAlpha = true, replaceColor = true } ],
+    [ "rarityParticle", { replaceAlpha = false, replaceColor = true } ]
+]

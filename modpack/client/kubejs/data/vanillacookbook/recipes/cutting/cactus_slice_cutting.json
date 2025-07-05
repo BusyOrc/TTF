@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/shovels"
+  },
+  "result": [
+    {
+      "item": "vanillacookbook:cactus_slice",
+      "count": 2
+    }
+  ]
+}

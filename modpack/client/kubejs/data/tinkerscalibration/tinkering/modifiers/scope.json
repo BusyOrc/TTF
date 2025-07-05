@@ -1,0 +1,18 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.2,
+        "operation": "addition",
+        "attribute": "attributeslib:arrow_damage",
+        "unique": "tconstruct.modifier.scope",
+        "slots": [
+      "mainhand",
+      "offhand"
+        ]
+  
+      }
+    ],
+    "tooltip_display": "always"
+  }

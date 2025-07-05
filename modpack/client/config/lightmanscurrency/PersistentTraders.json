@@ -1,0 +1,540 @@
+{
+  "Traders": [
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "trade1",
+      "Name": "山城高岭黑市",
+      "OwnerName": "山城高岭",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:string",
+            "Count": 64
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:phantom_membrane",
+            "Count": 8
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "explorerscompass:explorerscompass",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "naturescompass:naturescompass",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 6
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "tconstruct:modifier_crystal",
+            "Count": 1,
+            "Tag": "{modifier:\"tconstruct:luck\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "tconstruct:modifier_crystal",
+            "Count": 1,
+            "Tag": "{modifier:\"tinkerscalibration:coin_repair\"}"
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 1
+              },
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "sophisticatedbackpacks:backpack",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:ender_pearl",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 6
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "create:rotation_speed_controller",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "minecraft:spider_eye",
+            "Count": 6
+          },
+          "BarterItem": {
+            "ID": "lightmanscurrency:coin_chocolate_emerald",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "irons_spellbooks:arcane_essence",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "twilightforest:naga_scale",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "irons_spellbooks:cinder_essence",
+            "Count": 2
+          },
+          "BarterItem": {
+            "ID": "twilightforest:alpha_yeti_fur",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "ae2:fluix_dust",
+            "Count": 8
+          },
+          "BarterItem": {
+            "ID": "cloudertinker:lifedrain_scepter_core",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "ae2:logic_processor",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "cloudertinker:fortification_scepter_core",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "ae2:engineering_processor",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "cloudertinker:twilight_scepter_core",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "ae2:calculation_processor",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "cloudertinker:zombie_scepter_core",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "chemlib:epinephrine_bucket",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "cataclysm:koboleton_bone",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "alchemistry:fission_core",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "cataclysm:infernal_forge",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "alchemistry:fusion_core",
+            "Count": 1
+          },
+          "BarterItem": {
+            "ID": "cataclysm:gauntlet_of_guard",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:redstone_block",
+            "Count": 9
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "waystones:sandy_waystone",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 9
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:andesite",
+            "Count": 32
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "mushroom_daydream:legend_paper",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_diamond",
+                "Amount": 6
+              },
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 4
+              },
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 8
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "minecraft:emerald_block",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "SALE",
+          "SellItem": {
+            "ID": "minecraft:emerald_block",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "trade2",
+      "Name": "大书库",
+      "OwnerName": "帕秋莉",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "chemlib:strontium_chloride_dust",
+            "Count": 4
+          },
+          "BarterItem": {
+            "ID": "kubejs:ancient_resin_bucket",
+            "Count": 1
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "chemlib:rubidium_carbonate_dust",
+            "Count": 8
+          },
+          "BarterItem": {
+            "ID": "kubejs:greatrune_forgery_fluid_bucket",
+            "Count": 1
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "trade3",
+      "Name": "博丽神社",
+      "OwnerName": "博丽灵梦",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "BarterItem": {
+            "ID": "kubejs:fantasy_tofu",
+            "Count": 1
+          },
+          "SellItem": {
+            "ID": "minecraft:rabbit_foot",
+            "Count": 2
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "BarterItem": {
+            "ID": "kubejs:gap_tofu",
+            "Count": 1
+          },
+          "SellItem": {
+            "ID": "alexsmobs:soul_heart",
+            "Count": 1
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lctech:fluid_trader",
+      "ID": "fluid1",
+      "Name": "地灵殿流体仓储间",
+      "OwnerName": "古明地觉",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_diamond",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Product": {
+            "id": "thermal:crude_oil",
+            "amount": 1000
+          },
+          "Quantity": 1,
+          "TradeRules": []
+        },
+        {
+          "TradeType": "SALE",
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_netherite",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Product": {
+            "id": "sakuratinker:molten_soul_sakura",
+            "amount": 1000
+          },
+          "Quantity": 1,
+          "TradeRules": []
+        }
+      ]
+    },
+    {
+      "Type": "lctech:energy_trader",
+      "ID": "t2",
+      "Name": "地灵殿能源间",
+      "OwnerName": "古明地觉",
+      "Trades": [
+        {
+          "TradeType": "SALE",
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Quantity": 150000,
+          "TradeRules": []
+        },
+        {
+          "TradeType": "SALE",
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_iron",
+                "Amount": 5
+              },
+              {
+                "Coin": "lightmanscurrency:coin_copper",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          },
+          "Quantity": 900000,
+          "TradeRules": []
+        }
+      ]
+    }
+  ],
+  "Auctions": []
+}

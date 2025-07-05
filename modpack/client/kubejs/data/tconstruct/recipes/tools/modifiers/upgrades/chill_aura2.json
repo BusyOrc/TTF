@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": false,
+    "inputs": [
+      {
+        "item": "minecraft:packed_ice"
+      },
+      {
+        "item": "thermal:blizz_powder"
+      },
+      {
+        "item": "minecraft:packed_ice"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      },
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "level": 2,
+    "result": "tinkerscalibration:chill_aura",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

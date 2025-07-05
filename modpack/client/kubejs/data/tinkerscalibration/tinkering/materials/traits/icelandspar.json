@@ -1,0 +1,15 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "name": "tinkerscalibration:birefringent",
+        "level": 1
+      }
+    ],"tconstruct:armor": [
+      {
+        "name": "tinkerscalibration:birefringent_armor",
+        "level": 1
+      }
+    ]
+  }
+}

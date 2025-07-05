@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mushroom_daydream:no_head"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:no_head",
+    "amount": 90
+  },
+  "temperature": 999,
+  "time": 20
+}

@@ -1,0 +1,20 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:fire"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "tinkerscalibration:igneous_armor"
+          },
+        {
+          "level": 1,
+          "name": "tconstruct:scorch_protection"
+        }
+      ]
+    }
+  }

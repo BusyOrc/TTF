@@ -1,0 +1,875 @@
+{
+  "description": "深海",
+  "id": "cave1",
+  "start": "1",
+  "title": "Cave Ocean",
+  "entries": [
+    {
+      "id": "1",
+      "next": "2",
+      "speaker": {
+        "text": " "
+      },
+      "text": {
+        "text": "半夜，@i睡得正香的时候，荷取突然爬到了床上，甚至直接光着身子钻进了被子里。"
+      }
+    },
+    {
+      "id": "2",
+      "next": "3",
+      "portraits": [
+        {
+          "animationType": "BOUNCE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "盟友@i救命，我昨晚梦到了脏东西，我那床不能要了。"
+      }
+    },
+    {
+      "id": "3",
+      "next": "4",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "@i",
+        "color": "white"
+      },
+      "text": {
+        "text": "梦到了什么？不对，你衣服呢？"
+      }
+    },
+    {
+      "id": "4",
+      "next": "5",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "你懂什么，这是光学迷彩，而且我习惯裸睡，怎么了？还是讲讲我刚才做的那个梦吧。"
+      }
+    },
+    {
+      "id": "5",
+      "next": "5.5",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text":["我梦见自己在一片深海，那里抬头往上看不到任何光线，往下也完全看不到㡳，只能看到无穷无尽的黑暗海洋。",
+        "其中还有一些很吓人的东西突然钻出来，就像鱼一样，但是又有一些人的特征，只不过看到我就马上溜了。"]
+    },
+    {
+      "id": "5.5",
+      "next": "6",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": [
+        "我一直往下游，不知道过了多久，终于到了海底，但是这里的情况更加奇怪，我甚至还看到了一个祭坛，不知道干什么用的。",
+        "另外还有一些海底的小动物在刨海底的泥沙。我想看清楚点是怎么回事，就把头灯打开了，结果——呜呜"]
+      
+    },
+    {
+      "id": "6",
+      "next": "7op",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "结果我一打开头灯，一条体型巨大，嘴里长满牙齿的大鱼朝我扑了过来，把我一口吃掉了，然后我就醒了。"
+      }
+    },
+    {
+      "id": "7op",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p7.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "我现在还是有点害怕，盟友你要保护我。"
+      },
+      "options":[
+        {
+          "text":"我会保护你的",
+          "target":"A1"
+        },
+        {
+          "text":"一边儿呆着去",
+          "target":"A2"
+        }
+      ]
+    },
+    {
+      "id": "A1",
+      "next": "8",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p10.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "好耶，有盟友在我身边，我也不害怕了。"
+      }
+    },
+    {
+      "id": "A2",
+      "next": "8",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p14.png",
+          "position": "CENTER"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "baka，不理你了，下次应力过载可别来问我怎么办。"
+      }
+    },
+    {
+      "id": "8",
+      "next": "9",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "SLIDE_IN_FROM_BOTTOM",
+          "brightness": 1,
+          "path": "40401344_p6.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": " "
+      },
+      "text": {
+        "text": "妖梦突然又从旁边冒出来，也一起钻进了被窝。"
+      }
+    },
+    {
+      "id": "9",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p6.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "我听了这种梦也有点害怕，让我躲一躲。我也忘穿衣服了你不介意吧。"
+      },
+      "options":[
+        {
+          "text":"这不对吧？",
+          "target":"A3"
+        },
+        {
+          "text":"哇多么好的机会啊",
+          "target":"A4"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "next": "10",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p12.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "我看你是想被双剑给斩了是不是？我说对就对，给我往里面挤挤。"
+      }
+    },
+    {
+      "id": "A4",
+      "next": "10",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p18.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "算你识相，不过先把你的手从我判定点上面拿开。"
+      }
+    },
+    {
+      "id": "10",
+      "next": "11",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "好，接下来继续来谈正事。幽幽子大人最近很想吃点海鲜，于是拜托我调查一下附近海鲜市场的情况，但是我发现大部分的海鲜以前都已经买过了，我想找点新鲜食材。正好我在旁边“使用”桌角的时候听到你们在聊什么海里的东西，所以就过来了。"
+      }
+    },
+    {
+      "id": "11",
+      "next": "12",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "等等？怎么个使用法？"
+      }
+    },
+    {
+      "id": "12",
+      "next": "13",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "总之，偷听了你说的梦之后，根据我的印象，这种地方应该是真实存在的，而我正好在寻找食材，所以或许可以……"
+      }
+    },
+    {
+      "id": "13",
+      "next": "14",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "red"
+      },
+      "text": {
+        "text": "全部退治！"
+      }
+    },
+    {
+      "id": "14",
+      "next": "15",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": " "
+      },
+      "text": {
+        "text": "不知道什么时候，灵梦也悄悄也钻到了床上。"
+      }
+    },
+    {
+      "id": "15",
+      "next": "16",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "red"
+      },
+      "text": {
+        "text": "没错，这种地方一听就知道邪气很重，不管有没有问题，先退治了再说。"
+      }
+    },
+    {
+      "id": "16",
+      "next": "17",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "等等，你怎么也来床上和我挤？别抢啊。而且也别动不动就退治，根据我的直觉，也许祭坛可以用来和那些海底人形生物交易，如果要去探索的话，可以试试寻找一下珍珠，再把珍珠放在祭坛上面。这种亮晶晶的东西不管是什么生物都应该很喜欢。"
+      }
+    },
+    {
+      "id": "17",
+      "next": "18",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "red"
+      },
+      "text": {
+        "text": "你也是想被退治了？我想要干的事情你可拦不住，我说退治就退治。"
+      }
+    },
+    {
+      "id": "18",
+      "next": "19",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "那就比一比谁更厉害吧，我雄起的楼观剑不会输。"
+      }
+    },
+    {
+      "id": "19",
+      "next": "20",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": " "
+      },
+      "text": ["当晚，床承受了这辈子都未曾承受过的压力，小玉，中玉，大玉，激光，蝴蝶弹幕飞得到处都是，甚至还有大量来自STG版面底部的偷袭弹幕。",
+        "就连一般路过的末影龙看了都要说：年轻人（？）的STG弹幕射击游戏玩得可真花。\n",
+      "事后，魔理沙突然又不知道从哪里钻了出来，比较奇怪的是，黑白色裙子有一部分都湿透了。"]
+      
+    },
+    {
+      "id": "20",
+      "next": "21",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39261304_p16.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "雾雨魔理沙",
+        "color": "yellow"
+      },
+      "text": {
+        "text": "这裙子嘛，当然是因为下雨了才湿成这样的，嗯没错，是局部暴雨。"
+      }
+    },
+    {
+      "id": "21",
+      "next": "22",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39261304_p16.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "red"
+      },
+      "text": {
+        "text": "但是现在是晴天啊。"
+      }
+    },
+    {
+      "id": "22",
+      "next": "23",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39261304_p16.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "雾雨魔理沙",
+        "color": "yellow"
+      },
+      "text":["众所周知，我是一名经常骑着扫帚飞行的魔法使，不小心飞到高处的云里面，因为那里下雨而被淋湿了也很合理吧。",
+        "好了，总之我想说的是，我还了解更多关于这个地方的信息，顺便分享一下。这个群系的海底有一种叫做海猪的生物，非常可爱。还可以给它喂黏土球、淤泥或泥巴，这样就会帮你在海底刨出点东西——其中就包括可以和那些海底人形生物交易的珍珠。"]
+      
+    },
+    {
+      "id": "23",
+      "next": "24",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39261304_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "好耶，一本万利的收入，好，那就赶紧出发吧。"
+      }
+    },
+    {
+      "id": "24",
+      "next": "25",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39261304_p16.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "雾雨魔理沙",
+        "color": "yellow"
+      },
+      "text": {
+        "text": "你刚才不是才害怕得不得了吗？还要人家保护，羞死个人。"
+      }
+    },
+    {
+      "id": "25",
+      "next": "26",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39261304_p16.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text":["好汉不提当年勇，不对，好像这说法不合适，哎呀你干嘛啊，哎哟。",
+        "不过你倒是提醒我了，记得也要小心那些海底生物，可能它们天然就对外来者有一定敌意，只是我猜的话，多与它们交易几次，应该就能缓解和它们的紧张关系吧。反正交易只需要把珍珠放祭坛上面，也不用去近距离接触它们。"]
+    },
+    {
+      "id": "26",
+      "next": "27",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39261304_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "red"
+      },
+      "text": {
+        "text": "不要忘了，还有一种生物需要专门退治——那条大鱼。再大的鱼也只是鱼而言，在我弹幕的面前可说不准能活几秒钟。根据梦境得到的线索，也许这种鱼有趋光性？"
+      }
+    },
+    {
+      "id": "27",
+      "next": "28",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "等等，为什么荷取的梦会和实际情况这么像，尤其是在她完全没去过的情况下？难道说，难道说——"
+      }
+    },
+    {
+      "id": "28",
+      "next": "29",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p7.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text":"难道说，哆来咪得了MVP？我是躺赢狗？"
+      
+    }
+  ]
+
+}

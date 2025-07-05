@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gobber2:gobber2_ingot_end"
+  },
+  "base": {
+    "item": "gobber2:dragon_star"
+  },
+  "result": {
+    "item": "mushroom_daydream:dragon_gobber"
+  },
+  "template": {
+    "item": "gobber2:gobber2_links_end"
+  }
+}

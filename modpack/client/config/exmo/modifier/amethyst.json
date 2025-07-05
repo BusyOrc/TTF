@@ -1,0 +1,20 @@
+{  "type": "CURIOS-ALL",
+"curios8": {
+  "weight": 4,
+  "isRandom":true,
+  "OnlyTags":["jewelcraft:amethyst"],
+  "RandomNum":"1",
+  "attrGethers": {
+
+  "puffish_attributes:magic_resistance": {
+      "weight":12,
+    "value": 0.12,
+    "slot": "auto",
+    "autoUUID": true,
+    "autoName":true,
+    "operation":"add"
+  }
+  }
+}
+}
+

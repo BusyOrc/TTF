@@ -1,0 +1,30 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.15,
+        "operation": "addition",
+        "attribute": "l2damagetracker:crit_rate",
+        "unique": "tconstruct.modifier.snap_crit",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ],
+        "tooltip_style": "percent"
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.30,
+        "operation": "addition",
+        "attribute": "l2damagetracker:crit_damage",
+        "unique": "tconstruct.modifier.snap_crit",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ],
+        "tooltip_style": "percent"
+      }
+    ],
+    "tooltip_display": "always"
+  }

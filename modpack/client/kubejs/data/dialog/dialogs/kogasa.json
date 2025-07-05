@@ -1,0 +1,156 @@
+{"id": "kogasa",
+  "title": "小伞",
+  "description": "小伞的介绍。",
+  "start": "start",
+  "entries":[
+    {
+    "id": "start",
+      "animationType": "FADE_IN",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":["咱好恨呐~~~~什么？居然没有被吓到吗？",
+   "那不行，你必须帮我做一下打造装备的工作，不然我会天天在路边来吓你。好的，都是开玩笑的，只是听说你可能在匠魂方面遇到一些问题，所以我专门来亲自解答一下疑惑。"],
+      "portraits": [
+        {"path": "35917852_p0.png", "position": "RIGHT", "brightness": 1.0, "animationType": "FADE_IN"}
+      ]
+    },
+    {
+    "id": "intro1",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":["首先简单介绍一下吧，首先你需要做一个部件制造台，然后做一些模具+材料用来制作基础的部件。",
+      "还有一些部件是必须浇筑才能获得的，但是目前先不管吧。将模具和材料放到部件制造台里面，选择需要的部件就可以了。"],
+      "display_items": [
+        {
+          "count": 1,
+          "item": "tconstruct:part_builder",
+          "nbt": ""
+        },
+        {
+          "count": 1,
+          "item": "tconstruct:pattern",
+          "nbt": ""
+        }
+      ],
+      "portraits": [
+        {"path": "35917852_p14.png", "position": "RIGHT", "brightness": 1.0}
+      ]
+    },
+    {
+    "id": "intro1",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":"有了合适的部件，就可以放到工匠站或者工匠砧里面组合得到相应的工具了。如果之后有更合适的部件，也可以随时替换，如果工具不需要了，还可以放到部件制造台上面拆掉。",
+      "display_items": [
+        {
+          "count": 1,
+          "item": "tconstruct:tinker_station",
+          "nbt": ""
+        }
+      ],
+      "portraits": [
+        {"path": "35917852_p0.png", "position": "RIGHT", "brightness": 1.0}
+      ]
+    },
+    {
+    "id": "intro2",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":"工匠砧需要掌握制造合金的技巧才能制作，因此先用工匠站作为例子吧。在工匠站上还可以给工具添加强化，并且可以查看每种类型的工具所需部件。然后根据需要的部件在部件制造台上面制作，或者在铸件台上浇筑。",
+      "display_items": [
+        {
+          "count": 1,
+          "item": "tconstruct:tinker_station",
+          "nbt": ""
+        }
+      ],
+      "portraits": [
+        {"path": "35917852_p0.png", "position": "RIGHT", "brightness": 1.0}
+      ]
+    },
+    {
+    "id": "intro3",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":"不过还有很多工具部件只能通过浇筑获得，在此之前就需要先制作一些砖泥。然后将砖泥1:1烧制得到焦黑砖，推荐尽快采用熔融浇筑的方法来制作焦黑砖或焦黑类方块，因为这样产量可以翻倍。",
+      "display_items": [
+        {
+          "count": 1,
+          "item": "tconstruct:grout",
+          "nbt": ""
+        },
+        {
+          "count": 1,
+          "item": "tconstruct:seablue_brick",
+          "nbt": ""
+        }
+      ],
+      "portraits": [
+        {"path": "35917852_p0.png", "position": "RIGHT", "brightness": 1.0}
+      ]
+    },
+    {
+    "id": "intro4",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text":"或许你还有不明白的地方？还需要介绍更多内容吗？",
+      "display_items": [
+        {
+          "count": 1,
+          "item": "tconstruct:grout",
+          "nbt": ""
+        },
+        {
+          "count": 1,
+          "item": "tconstruct:seablue_brick",
+          "nbt": ""
+        }
+      ],
+      "portraits": [
+        {"path": "35917852_p0.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "options":[
+        {
+          "text":"完全不懂，想要了解更多",
+          "target":"more1"
+        },
+        {
+          "text":"已经在1分钟内完全学会了",
+          "target":"end"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text": "这次虽然吓了你，但是我下次还会继续来吓你，再见喽。",
+      "portraits": [
+        {"path": "35917852_p0.png"}
+      ],
+      "endDialog":true
+    },
+    {
+      "id": "more1",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text": "那就继续讲讲关于熔融和浇筑的方法吧。",
+      "portraits": [
+        {"path": "35917852_p0.png"}
+      ]
+    },
+    {
+      "id": "more2",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text": "熔融需要用到焦黑融化炉，或者多方块结构冶炼炉和熔铸炉。焦黑熔化炉和普通的熔炉很像，但区别在于下方需要放置装有流体燃料的储罐或者焦黑加热器。而冶炼炉和熔铸炉比较特殊，前者可以制造合金而后者不行，但后者有特殊熔融产出。",
+      "portraits": [
+        {"path": "35917852_p0.png"}
+      ]
+    },
+    {
+      "id": "more3",
+      "speaker": {"translate": "dialog.gensokyo.speaker.kogasa", "color": "blue"},
+      "text": "另外你应该还有几本书可以作为参考，如果还有不懂的可以看看书上怎么写的。剩下的内容我相信你可以学会的哦。",
+      "portraits": [
+        {"path": "35917852_p0.png"}
+      ],
+      "endDialog":true
+    }
+  ]
+
+
+
+
+}

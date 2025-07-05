@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.attack_speed",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": false,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.0
+  }
+}

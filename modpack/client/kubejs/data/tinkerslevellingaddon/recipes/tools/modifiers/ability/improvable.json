@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "hmag:evil_crystal"
+    },
+    {
+      "item": "supplementaries:cog_block"
+    },
+    {
+      "item": "hmag:evil_crystal"
+    },
+    {
+      "item": "touhou_little_maid:shrine"
+    },
+    {
+      "item": "touhou_little_maid:garage_kit"
+    }
+  ],
+  "level": 1,
+  "result": "tinkerslevellingaddon:improvable",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  }
+}

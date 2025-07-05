@@ -1,0 +1,17 @@
+{
+	icon: "minecraft:beef"
+	id: "4C1BF8DEC507E259"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 32, item: "minecraft:beef" }
+		{ count: 32, item: "minecraft:porkchop" }
+		{ count: 32, item: "minecraft:mutton" }
+		{ count: 32, item: "minecraft:chicken" }
+		{ count: 32, item: "minecraft:rabbit" }
+		{ count: 32, item: "delightful:raw_goat" }
+		{ count: 32, item: "aquaculturedelight:small_turtle_meat" }
+		{ count: 8, item: "minecraft:honey_bottle" }
+	]
+	title: "Meats"
+}

@@ -1,0 +1,48 @@
+
+["Item Drop Weight Settings for Latiao Bonus Bag Y / 辣条福袋Y 物品抽取权重设置"]
+	#Weight: Powerful Latiao / 权重：辣条
+	#Range: 0 ~ 512
+	WeightLatiao = 5
+	#Weight: Powerful Latiao / 权重：至尊辣条
+	#Range: 0 ~ 512
+	WeightPepperRedLatiao = 5
+	#Weight: Numbness Latiao / 权重：麻辣辣条
+	#Range: 0 ~ 512
+	WeightPepperGreenLatiao = 5
+	#Weight: Callous Latiao / 权重：黑冷辣条
+	#Range: 0 ~ 512
+	WeightPepperBlackLatiao = 5
+	#Weight: Refreshing Latiao / 权重：甜辣辣条
+	#Range: 0 ~ 512
+	WeightPepperSweetLatiao = 5
+	#Weight: Cooling Latiao / 权重：爽辣辣条
+	#Range: 0 ~ 512
+	WeightPepperYellowLatiao = 5
+	#Weight: Explosion Latiao / 权重：爆辣辣条
+	#Range: 0 ~ 512
+	WeightPepperJalapenoLatiao = 5
+	#Weight: Iced Latiao / 权重：冰镇辣条
+	#Range: 0 ~ 512
+	WeightPepperFrostLatiao = 5
+	#Weight: Vengeance Latiao / 权重：死神辣条
+	#Range: 0 ~ 512
+	WeightPepperJolokiaLatiao = 5
+	#Weight: Bloody Latiao / 权重：血魔辣条
+	#Range: 0 ~ 512
+	WeightPepperBloodyLatiao = 5
+	#Weight: Iced Latiao / 权重：悲怨辣条
+	#Range: 0 ~ 512
+	WeightPepperComplainedLatiao = 5
+	#Weight: Cleanse Latiao / 权重：净化辣条
+	#Range: 0 ~ 512
+	WeightCleanseLatiao = 5
+	#Weight: Underground Oil Latiao / 权重：地沟油辣条
+	#Range: 0 ~ 512
+	WeightUndergroundOilLatiao = 5
+	#Weight: Enchanted Diamond Latiao / 权重：附魔钻石辣条
+	#Range: 0 ~ 512
+	WeightEnchantedDiamondLatiao = 5
+	#Weight: Enchanted Netherite Latiao / 权重：附魔下界合金辣条
+	#Range: 0 ~ 512
+	WeightEnchantedNetheriteLatiao = 5
+

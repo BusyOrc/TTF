@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "candycraftce:marshmallow_planks"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "mushroom_daydream:cotton_candy_wood"
+}

@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "tag": "forge:ingots/signalum"
+      },
+      {
+        "tag": "forge:ingots/lumium"
+      },
+      {
+        "tag": "forge:ingots/enderium"
+      },
+      {
+        "tag": "forge:rosin"
+      },
+      {
+        "tag": "forge:rosin"
+      }
+    ],
+    "level": 1,
+    "result": "tconstruct:thermal_engineer",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

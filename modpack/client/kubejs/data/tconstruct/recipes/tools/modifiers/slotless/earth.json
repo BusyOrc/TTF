@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "thermal:basalz_powder"
+      },
+      {
+        "item": "thermal:basalz_powder"
+      },
+      {
+        "item": "thermal:basalz_powder"
+      },
+      {
+        "tag": "forge:rosin"
+      },
+      {
+        "tag": "forge:rosin"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:earth",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

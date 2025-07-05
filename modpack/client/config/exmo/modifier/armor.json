@@ -1,0 +1,68 @@
+{  "type": "ARMOR",
+"prot_pierce": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["tconstruct:modifiable/armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"attributeslib:prot_pierce": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[-4,-2,2,4],
+    "mayValuesWeight":[2,4,4,1],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"prot_shred": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["tconstruct:modifiable/armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"attributeslib:prot_shred": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[-0.1,-0.05,0.03,0.05,0.08],
+    "mayValuesWeight":[4,6,4,4,1],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"armor": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["tconstruct:modifiable/armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.armor": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[-4,-2,1,2,4],
+    "mayValuesWeight":[4,6,4,2,1],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"toughness": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["tconstruct:modifiable/armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.armor_toughness": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[-4,-2,1,3,5],
+    "mayValuesWeight":[4,6,4,2,1],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+}
+
+
+}

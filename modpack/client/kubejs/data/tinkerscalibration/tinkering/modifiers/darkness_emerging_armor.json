@@ -1,0 +1,32 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 10,
+        "operation": "addition",
+        "attribute": "minecraft:generic.armor",
+        "unique": "tconstruct.modifier.darkness_emerging_armor",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.2,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.max_health",
+        "unique": "tconstruct.modifier.darkness_emerging_armor",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

@@ -1,0 +1,16 @@
+{
+    "level_display": "tconstruct:no_levels",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "flat": 1,
+        "operation": "addition",
+        "attribute": "attributeslib:elytra_flight",
+        "unique": "tconstruct.modifier.elytra",
+        "slots": [
+          "chest"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": false,
+    "inputs": [
+      {
+        "tag": "youkaishomecoming:danmaku/bubble"
+      },
+      {
+        "item": "irons_spellbooks:frosted_helve"
+      },
+      {
+        "tag": "youkaishomecoming:danmaku/bubble"
+      },
+      {
+        "item": "irons_spellbooks:rare_ink"
+      },
+      {
+        "item": "irons_spellbooks:rare_ink"
+      }
+    ],
+    "level": 3,
+    "result": "sakuratinker:danmaku_ball",
+    "slots": {
+      "upgrades": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/melee/weapon"
+          }
+    ]
+  }

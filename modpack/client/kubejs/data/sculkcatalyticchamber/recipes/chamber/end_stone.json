@@ -1,0 +1,25 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "heated",
+  "topIngredients": [
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "catalysts": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "chances": 0.02,
+  "results": [
+    {
+      "item": "minecraft:end_stone"
+    }
+  ]
+}

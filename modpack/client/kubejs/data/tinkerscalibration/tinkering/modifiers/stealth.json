@@ -1,0 +1,20 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 1.25,
+        "operation": "addition",
+        "attribute": "puffish_attributes:stealth",
+        "unique": "tconstruct.modifier.stealth",
+        "slots": [
+            "feet",
+            "legs",
+            "chest",
+            "head"
+        ]
+  
+      }
+    ],
+    "tooltip_display": "always"
+  }

@@ -1,0 +1,55 @@
+[
+    {
+        "dimension": "minecraft:overworld",  
+        "minheight": 16,
+        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider"],
+        "result": "deny"
+    },
+    {
+        "mob": ["touhou_little_maid:fairy"],
+        "result": "allow",
+        "healthmultiply": 0.4,
+        "damagemultiply": 5.8,
+        "maxheight":32,
+        "dimension": "minecraft:overworld",  
+        "potion": "minecraft:invisibility,90000,1",
+        "random":0.5
+
+    },
+    {
+        "random":0.7,
+        "dimension": "minecraft:overworld",  
+        "result": "allow",
+        "maxheight": 24,
+        "healthmultiply": 0.7,
+        "damagemultiply": 2.0,
+        "mob":["hmag:crimson_slaughterer","hmag:imp", "hmag:ender_executor", "hmag:necrotic_reaper"],
+        "potion": [
+            "minecraft:invisibility,90000,2",
+            "minecraft:speed,90000,2"
+    ]
+    },
+    {
+        "random":0.75,
+        "biome": "twilightforest:dark_forest",  
+        "result": "allow",
+        "healthmultiply": 0.7,
+        "damagemultiply": 2.0,
+        "mob":["hmag:skeleton_girl","hmag:kobold", "hmag:ender_executor", "hmag:necrotic_reaper"],
+        "potion": [
+            "minecraft:invisibility,90000,2",
+            "minecraft:speed,90000,2"
+    ]
+    },
+    {
+        "random":0.2,
+        "dimension": "minecraft:the_nether",  
+        "result": "allow",
+        "healthmultiply": 0.6,
+        "damagemultiply": 1.5,
+        "mob":["hmag:crimson_slaughterer","hmag:imp", "hmag:ender_executor", "hmag:wither_skeleton_girl", "hmag:skeleton_girl", "hmag:kasha"],
+        "potion": ["minecraft:invisibility,90000,2",
+    "minecraft:speed,90000,0"
+    ]
+    }
+  ]

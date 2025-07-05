@@ -1,0 +1,34 @@
+{
+    "loader": "tconstruct:tool",
+    "parent": "forge:item/default-tool",
+    "textures": {
+      "blade1":  "tinkers_things:item/tool/twinblade/blade1",
+      "handle": "tinkers_things:item/tool/twinblade/handle",
+      "blade2":  "tinkers_things:item/tool/twinblade/blade2",
+      "grip":   "tinkers_things:item/tool/twinblade/grip",
+      
+      "large_blade1":  "tinkers_things:item/tool/twinblade/large/blade1",
+      "large_handle": "tinkers_things:item/tool/twinblade/large/handle",
+      "large_blade2":  "tinkers_things:item/tool/twinblade/large/blade2",
+      "large_grip":   "tinkers_things:item/tool/twinblade/large/grip"
+    },
+    "large": true,
+    "large_offset": [4, -4],
+    "parts": [
+      { "name": "blade2",  "index": 3 },
+      { "name": "blade1",  "index": 0 },
+      { "name": "handle", "index": 1 },
+      { "name": "grip",   "index": 2 }
+    ],
+    "overrides": [
+      {
+        "predicate": { "tconstruct:charging": 2 },
+        "model": "tinkers_things:item/twinblade/blocking"
+      },
+      {
+        "predicate": { "tconstruct:broken": 1 },
+        "model": "tinkers_things:item/twinblade/broken"
+      }
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.2,
+        "operation": "addition",
+        "attribute": "l2damagetracker:crit_damage",
+        "unique": "tconstruct.modifier.crit_dmg",
+        "slots": [
+          "mainhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

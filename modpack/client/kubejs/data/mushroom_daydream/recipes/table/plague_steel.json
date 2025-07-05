@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "A": {
+      "item": "minecraft:spider_eye"
+    },
+    "C": {
+      "item": "rats:plague_essence"
+    }
+  },
+  "result": {
+    "item": "mushroom_daydream:plague_steel",
+    "count": 1
+  }
+}

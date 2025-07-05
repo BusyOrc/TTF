@@ -1,0 +1,100 @@
+{
+    "material.kubejs.brass": "黄铜",
+    "material.kubejs.brass.encyclopedia": "铜锌合金，简单好用",
+        "material.kubejs.brass.armor": "铜锌合金，简单好用",
+    "material.kubejs.fluix_crystal": "福鲁伊克斯水晶",
+    "material.kubejs.fluix_crystal.encyclopedia": "这种材料的研究已经走入了仅剩经验公式的领域",
+        "material.kubejs.fluix_crystal.melee": "这种材料的研究已经走入了仅剩经验公式的领域",
+    "material.kubejs.polyvinyl_chloride_plate.encyclopedia": "优质材料之一，具有良好的强度和刚性",
+        "material.kubejs.polyvinyl_chloride_plate.armor": "优质材料之一，具有良好的强度和刚性",
+    "material.kubejs.polyvinyl_chloride_plate": "聚氯乙烯片",
+
+    "material.kubejs.iridium": "铱",
+    "material.kubejs.iridium.encyclopedia": "力学性能可靠",
+        "material.kubejs.iridium.armor": "力学性能可靠",
+    "material.kubejs.dragonsteel_lightning": "龙霆钢",
+     "material.kubejs.dragonsteel_lightning.encyclopedia": "电能激荡！",
+          "material.kubejs.dragonsteel_lightning.armor": "电能激荡！",
+    "material.kubejs.dragonsteel_ice": "龙霜钢",
+     "material.kubejs.dragonsteel_ice.encyclopedia": "低温能使自己和敌人冷静",
+          "material.kubejs.dragonsteel_ice.armor": "低温能使自己和敌人冷静",
+    "material.kubejs.dragonsteel_fire": "龙炎钢",
+    "material.kubejs.dragonsteel_fire.encyclopedia": "传说有人试图埋地躲岩浆，但是被这种材料制裁了",
+        "material.kubejs.dragonsteel_fire.armor": "传说有人试图埋地躲岩浆，但是被这种材料制裁了",
+
+        "material.kubejs.greatrune": "大卢恩",
+            "material.kubejs.greatrune.encyclopedia": "埋藏的远古力量被唤醒了",
+        "material.kubejs.greatrune.armor": "埋藏的远古力量被唤醒了",
+
+        "material.kubejs.reisen":"铃仙",
+        "material.kubejs.reisen.flavor": "悲苦医学生铃仙",
+        "material.kubejs.reisen.encyclopedia":"铃仙自愿献出自己的精华液体，生产过程中没有任何铃仙受到伤害",
+        "material.kubejs.reisen.ranged":"铃仙自愿献出自己的精华液体，生产过程中没有任何铃仙受到伤害",
+        
+        "material.kubejs.youmu":"妖梦",
+        "material.kubejs.youmu.flavor": "二刀流，启动",
+        "material.kubejs.youmu.encyclopedia":"这剑斩不断的东西，根本不存在",
+        "material.kubejs.youmu.melee":"这剑斩不断的东西，根本不存在",
+        "material.kubejs.baka":"baka⑨",
+        "material.kubejs.baka.flavor": "你才是baka",
+    "material.kubejs.baka.encyclopedia":"幻想乡最强：在所有东方三月精登场角色中有冰晶翅膀是三月精朋友的妖精里，⑨是最强的",
+    "material.kubejs.baka.melee":"幻想乡最强：在所有东方三月精登场角色中有冰晶翅膀是三月精朋友的妖精里，⑨是最强的",
+
+    "material.kubejs.doremy":"梦貘",
+    "material.kubejs.doremy.flavor": "吾好梦中杀人",
+"material.kubejs.doremy.encyclopedia":"仿生史蒂夫会梦到电子梦貘吗？",
+"material.kubejs.doremy.melee":"仿生史蒂夫会梦到电子梦貘吗？",
+
+"material.kubejs.daiyousei":"大妖精",
+"material.kubejs.daiyousei.flavor": "Bomb+1",
+"material.kubejs.daiyousei.encyclopedia":"妖精与生命之力息息相关",
+"material.kubejs.daiyousei.melee":"妖精与生命之力息息相关",
+
+"material.kubejs.hifuu":"秘封",
+"material.kubejs.hifuu.flavor": "广重36号必吃榜",
+"material.kubejs.hifuu.encyclopedia":"传说在另一个世界，事实上物理学已经开始迎来了其终结的时代，已经进入到了解释和哲学的时代。",
+"material.kubejs.hifuu.melee":"传说在另一个世界，事实上物理学已经开始迎来了其终结的时代，已经进入到了解释和哲学的时代。",
+
+"material.kubejs.sky_steel":"陨钢",
+
+"material.kubejs.reimu":"灵梦",
+"material.kubejs.komachi":"小町",
+
+"material.kubejs.evil_crystal":"邪恶水晶",
+"material.kubejs.evil_crystal.flavor": "就像是活的一样",
+
+"material.kubejs.sakura":"幽幽子",
+"material.kubejs.sakura.flavor": "除了吃就是吃",
+"material.kubejs.sakura.encyclopedia":"不要停下来啊（指吃东西）。",
+"material.kubejs.sakura.melee":"不要停下来啊（指吃东西）。",
+
+"material.kubejs.koishi":"恋恋",
+"material.kubejs.koishi.flavor": "514",
+"material.kubejs.koishi.encyclopedia":"材料消耗:乙烯，一氪一氪，产物：514",
+"material.kubejs.koishi.melee":"材料消耗:乙烯，一氪一氪，产物：514",
+
+
+"material.kubejs.tofu":"豆腐",
+"material.kubejs.tofu.flavor": "很软，但是很硬",
+"material.kubejs.tofu.encyclopedia":"伤害越高，伤害越低",
+"material.kubejs.tofu.melee":"伤害越高，伤害越低",
+
+"material.kubejs.mist":"迷雾",
+"material.kubejs.mist.flavor": "在迷雾中的东西是什么？",
+"material.kubejs.mist.encyclopedia":"防空警报响起，迷雾笼罩一切",
+"material.kubejs.mist.melee":"防空警报响起，迷雾笼罩一切",
+
+"material.kubejs.himekaido":"姬海棠果",
+"material.kubejs.himekaido.flavor": "24岁，是鸦天狗",
+"material.kubejs.himekaido.encyclopedia":"拥有最强替身的鸦天狗，擅长用念写攻击敌人，能用替身防御末影类敌人的攻击",
+"material.kubejs.himekaido.melee":"拥有最强替身的鸦天狗，擅长用念写攻击敌人，能用替身防御末影类敌人的攻击",
+
+"material.kubejs.wu_yu":"雾於",
+"material.kubejs.wu_yu.flavor": "你见过凌晨四点的幻想乡吗",
+"material.kubejs.wu_yu.encyclopedia":"即使光芒已然黯淡，战斗仍未停歇",
+
+"material.kubejs.seija":"鬼人正邪",
+"material.kubejs.seija.flavor": "所谓下克上，就是以弱胜强",
+"material.kubejs.seija.encyclopedia":"越弱小，越强大。尽管敌人很强，但是越强的敌人越是要努力战胜。"
+
+}

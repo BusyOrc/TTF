@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "mushroom_daydream:dark_thing",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "output": "mushroom_daydream:dark_thing"
+}

@@ -1,0 +1,20 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:sweet"
+    },
+    {
+      "level": 1,
+      "name": "mushroom_daydream:soft"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mushroom_daydream:sweet"
+      }
+    ]
+  }
+}

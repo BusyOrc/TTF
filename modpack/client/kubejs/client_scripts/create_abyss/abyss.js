@@ -1,0 +1,50 @@
+Ponder.registry((event) => {
+	event.create([
+'sculkcatalyticchamber:chamber','sculkcatalyticchamber:mechanical_shrieker'
+		])
+		.scene(
+			"kubejs:abyss",
+			"深渊催化",
+			"kubejs:abyss", 
+			(scene, utils) => {
+				scene.showBasePlate()
+				scene.addKeyframe()
+				scene.idle(20)
+                scene.world.showSection([1, 1, 1, 4, 7, 4], Direction.DOWN)
+				scene.idle(20)
+				scene.overlay.showOutline("red", {}, [2, 2, 2, 2, 6, 2], 50)
+				scene.text(60, '这是深渊催化生产的§b最基本结构', [2.5, 3, 2.5])
+				scene.idle(70)
+				scene.text(60, '深脉激发器需要接入动力才能正常运转', [2.5, 6.5, 2.5])
+				scene.idle(70)
+				scene.addKeyframe()
+				scene.text(50, '深渊催化釜分为三个不同的原料存放位置', [2.5, 2.5, 2.5])
+				scene.overlay.showOutline("red", {}, [2, 2, 2, 2, 4, 2], 50)
+				scene.idle(60)
+				scene.text(70, '中间部分为催化剂，根据配方情况，催化剂可能会在生产中被消耗', [3.5, 2.5, 3.5])
+				scene.overlay.showOutline("red", {}, [2, 3, 2], 70)
+				scene.idle(80)
+				scene.rotateCameraY(-90)
+				scene.idle(15)
+				scene.text(50,"部分配方可能需要烈焰人燃烧室加热才能工作",[2.5, 1.5, 2.5])
+				scene.overlay.showOutline("red", {}, [2, 1, 2], 50)
+				scene.idle(60)
+				scene.rotateCameraY(90)
+				scene.idle(15)
+				scene.addKeyframe()
+				scene.text(60,"如需自动输出，可在下方放置分液池，工作盆，或农夫乐事的篮子",[3.5,1.5,2.5])
+				scene.idle(70)
+				scene.text(60,"和工作盆一样，会自动过滤产物，不会输出原料",[3.5,1.5,2.5])
+				scene.idle(70)
+				scene.text(70, '同样支持配方过滤，在这里用过滤器或物品右键即可设置', [2.5, 2.4, 2.5])
+				scene.showControls(70, [2.7, 2.4, 2.5], "right") 
+                .rightClick().withItem("create:filter") 
+				scene.overlay.showOutline("red", {}, [2, 2, 2], 70)
+				scene.idle(80)
+				scene.addKeyframe()
+				scene.text(80, '输入原料方面，可使用动力臂直接放入物品，或使用各种模组的管道，总线等方式', [1.5, 1.5, 1.5])
+				scene.idle(90)
+				scene.idle(20)
+			})
+})
+

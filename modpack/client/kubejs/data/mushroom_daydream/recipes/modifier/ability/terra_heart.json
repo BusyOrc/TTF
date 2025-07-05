@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+
+        {
+          "item": "create:sturdy_sheet"
+        },
+        {
+          "item": "artifacts:crystal_heart"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      
+    
+  ],
+  "level": 3,
+  "result": "mushroom_daydream:terra_heart",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.attack_knockback",
+  "conditions": {
+    "affixes": {
+      "values": ["champions:molten"]
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 1.0
+  }
+}

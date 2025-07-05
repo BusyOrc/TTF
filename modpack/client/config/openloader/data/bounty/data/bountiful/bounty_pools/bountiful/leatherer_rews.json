@@ -1,0 +1,126 @@
+
+{
+	"content": {
+
+        "leatherer_rew_leather_chest": {
+            "type": "item",
+            "content": "thermal:basalz_rod",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1200
+        },
+
+        "leatherer_rew_leather_legs": {
+            "type": "item",
+            "content": "thermal:blitz_rod",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1200
+        },
+
+        "leatherer_rew_leather_helm": {
+            "type": "item",
+            "content": "thermal:blizz_rod",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 1200
+        },
+
+        "leatherer_rew_turtle_helmet": {
+            "type": "item",
+            "rarity": "rare",
+            "content": "minecraft:turtle_helmet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1800,
+            "nbt": "{Damage:0}",
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:scute"
+                }
+            ]
+        },
+
+        "leatherer_rew_leather_boots": {
+            "type": "item",
+            "content": "thermal:machine_speed_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+
+        "leatherer_rew_leather_horse_armor": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:machine_efficiency_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+
+        "leatherer_rew_saddle": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:machine_catalyst_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "leatherer_rew_thermal1": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:machine_output_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "leatherer_rew_thermal2": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:item_filter_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "leatherer_rew_thermal3": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:xp_storage_augment",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "leatherer_rew_thermal4": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "thermal:upgrade_augment_1",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        }
+	}
+
+}

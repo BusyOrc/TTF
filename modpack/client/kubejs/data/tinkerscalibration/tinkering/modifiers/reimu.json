@@ -1,0 +1,44 @@
+{
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "attributeslib"
+      }
+    ],
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.movement_speed",
+        "unique": "tconstruct.modifier.reimu",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "addition",
+        "attribute": "l2damagetracker:crit_rate",
+        "unique": "tconstruct.modifier.reimu",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

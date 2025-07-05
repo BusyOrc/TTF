@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mushroom_daydream:dark_thing"
+  },
+  "result": {
+    "fluid": "mushroom_daydream:dark_thing",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 20
+}

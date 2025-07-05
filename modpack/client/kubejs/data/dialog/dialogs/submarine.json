@@ -1,0 +1,133 @@
+{
+  "description": "潜艇",
+  "id": "submarine",
+  "start": "1",
+  "title": "潜艇",
+  "entries":[
+    {
+      "id": "1",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+        "text": "这潜艇漂亮滴很呢，名字我已经钦定了，我要叫它海底40k。"
+      
+    },
+    {
+      "id": "2",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "40401344_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "什么？这名字是怎么来的？"
+      }
+    },
+    {
+      "id": "3",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "河城荷取",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "我听说，既然有人可以用潜艇航行20k格的距离，那我可不能落后，我要航行40k！"
+      }
+    },
+    {
+      "id": "4",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "39486261_p4.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "40401344_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "博丽灵梦",
+        "color": "aqua"
+      },
+      "text": {
+        "text": "快省省吧，早点退治完早点收工。"
+      }
+    },
+    {
+      "id": "5",
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "38255785_p0.png",
+          "position": "LEFT"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 0.5,
+          "path": "39486261_p4.png",
+          "position": "CENTER"
+        },
+        {
+          "animationType": "NONE",
+          "brightness": 1,
+          "path": "40401344_p0.png",
+          "position": "RIGHT"
+        }
+      ],
+      "speaker": {
+        "text": "魂魄妖梦",
+        "color": "blue"
+      },
+      "text": {
+        "text": "说得对，幽幽子大人现在已经饿了吧，我也要赶紧完成获取食材的任务。"
+      }
+    }
+  ]
+}

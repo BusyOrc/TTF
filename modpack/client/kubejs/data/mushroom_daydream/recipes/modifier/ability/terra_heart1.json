@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    
+        {
+          "item": "artifacts:crystal_heart"
+        },
+        {
+          "item": "minecraft:honey_block"
+        }
+      
+    
+  ],
+  "level": 1,
+  "result": "mushroom_daydream:terra_heart",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

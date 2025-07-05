@@ -1,0 +1,2072 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "71DC5E6828675599"
+	group: "70B4907D74D7EF03"
+	icon: "create:wrench"
+	id: "71DC5E6828675599"
+	images: [
+		{
+			height: 4.0d
+			image: "touhou_tinker_fantasy:textures/nitori.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.535714285714292d
+			y: 3.470238095238088d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.357142857142861d
+			y: 3.5059523809523796d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.964285714285722d
+			y: 0.077380952380949d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.892857142857153d
+			y: 6.934523809523803d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.357142857142861d
+			y: 0.077380952380949d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -10.321428571428584d
+			y: 6.934523809523803d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.500000000000014d
+			y: 6.8988095238095255d
+		}
+		{
+			alpha: 180
+			height: 4.0d
+			image: "minecraft:block/sculk_shrieker_bottom"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.535714285714292d
+			y: 0.077380952380949d
+		}
+		{
+			height: 1.0d
+			image: "create:item/crushed_raw_copper"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/crushed_raw_gold"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/crushed_raw_iron"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/raw_gold_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/raw_iron_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/raw_copper_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/experience_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/experience_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/experience_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			click: "#5ED06DB0B69685D7"
+			height: 1.0d
+			hover: ["聚氯乙烯片（不消耗）"]
+			image: "chemlib:item/polyvinyl_chloride_plate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			click: "#11164DBB2F269C76"
+			height: 1.0d
+			hover: ["磨制玫瑰石英"]
+			image: "create:item/polished_rose_quartz"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			hover: ["玫瑰石英"]
+			image: "create:item/rose_quartz"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			hover: ["砂纸（消耗耐久）"]
+			image: "create:item/sand_paper"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			click: "#7B4FB9B6A9F9822E"
+			height: 1.0d
+			hover: ["机械手"]
+			image: "create:item/brass_hand"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			hover: [
+				"玫瑰石英碎块"
+				"下界部分群系挖掘可获得"
+			]
+			image: "biomesoplenty:item/rose_quartz_chunk"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["钻石砂纸（更耐用）"]
+			image: "createaddition:item/diamond_grit_sandpaper"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/experience_nugget"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			height: 2.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			hover: ["熔岩"]
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/fan_blades"
+			order: 1
+			rotation: 0.0d
+			width: 0.7d
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			hover: ["鼓风机"]
+			image: "create:block/fan_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/gravel"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "armourers_workshop:block/dye-table/water_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/fan_blades"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["鼓风机"]
+			image: "create:block/fan_side"
+			rotation: 180.0d
+			width: 2.0d
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/soul_sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "armourers_workshop:block/dye-table/water_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "create:block/fan_blades"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["鼓风机"]
+			image: "create:block/fan_side"
+			rotation: 180.0d
+			width: 2.0d
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/glass"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: 13.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F698C6A49F609BD"]
+			description: [
+				"荷取：盟友，欢迎来到河童的机械动力大学习课堂。这里我会教你一些&a最基础&r的内容，如果忘了也没关系，后面的进阶课堂会把很多基础内容给回顾一遍。"
+				""
+				"还是从准备阶段开始说起吧，先按照我手下几个车间师傅的要求收集足够的材料，我们再开始正式讲解。"
+				""
+				"记住，文字永远没有比动画还要来得易懂，如果你有一些关于机械动力的疑问，&l&a在物品栏对该物品按住W的思索&r大部分都能解决你的问题。"
+				"如果你有需求，可以到我们工厂进行进一步的课程。"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "create:wrench"
+			id: "62E8123EDAA89644"
+			progression_mode: "flexible"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "04C4583CE5354AEC"
+				type: "checkmark"
+			}]
+			title: "5.1 河城荷取的机械动力课堂"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62E8123EDAA89644"]
+			description: [
+				"生产车间里的河童师傅：作为起步，建议还是收集一些基础材料然后自己制作。虽然经常能在野外拾到别人不要的车间设备，但是如果不熟悉的话，自己先动手制作一下比较合适。"
+				""
+				"我们生产讲究的原则是"
+				""
+				"&l埋头苦干，专注生产"
+				"&l宁可事前检查，不可事后返工"
+				"&l吃得苦中苦，方为人上人"
+				"&l速度抢出成绩，实力代表尊严"
+				"&l勤勤恳恳做事，加班加点干活&r"
+				""
+				"{@pagebreak}"
+				"抢晴天、抓阴天"
+				"羊毛细雨当好天"
+				"月亮底下当白天"
+				"晴天一天顶两天"
+				"大雨顶着干"
+				"小雨就当冒冒汗"
+				"白天干，晚上干"
+				"逢年过节接着干"
+				"大雨当锻炼"
+				"小雨当出汗"
+				"夏天当春天"
+				"冬天当秋天"
+				"白天黑夜连轴转"
+				"一年干满730"
+			]
+			icon: "create:andesite_alloy"
+			id: "60B00CE2ED8BED79"
+			rewards: [
+				{
+					count: 16
+					id: "44ECCA984D0E5AF7"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5775AF859F87B094"
+					item: "create:brass_scaffolding"
+					type: "item"
+				}
+			]
+			subtitle: "要努力，抓效率"
+			tasks: [
+				{
+					count: 64L
+					id: "75800B7191E04E81"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7C45E1B10B746E53"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "7F8E566E4E73387C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					title: "Any #forge:ingots/iron"
+					type: "item"
+				}
+				{
+					id: "7D406F537D799E7C"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "5.2 车间打下手"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: ["荷取：如果材料已经足够了，就可以开始第一步了，金属压片。虽然手摇也是一种办法，但推荐你制作一些风帆或水车作为动力"]
+			icon: "create:iron_sheet"
+			id: "5B6B2730F5AC6BFB"
+			rewards: [
+				{
+					count: 8
+					id: "4CD4724E9F9649ED"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "70F6B3581FF7AEF7"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48349154BAA1DF2A"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "340A0F4837D7F1AD"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			title: "5.3 金属压片"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: ["为了性能考虑，请勿堆叠太多"]
+			icon: "create:white_sail"
+			id: "1DABD56E20ACB562"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "252658AA02CA1AA1"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1D443AC480D64265"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "010C15A45CE42146"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "1D7EC3E6B61BF39F"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "5.4 基础应力来源"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B6B2730F5AC6BFB"]
+			description: [
+				"荷取：光有生产设备，没有维护工具可不行。好消息是，万能的扳手使用起来非常简单，旋转方块，拆除机械都很容易。&a其他模组的扳手同样可以胜任工作，包括潜行右键拆除方块等功能均可用于机械动力的方块，扳手🔧大一统"
+				"&r"
+				"&m秦始皇狂喜"
+				"&r"
+				"&7&o还好一个扳手就能解决所有机械相关问题，不需要四五个扳手，丝锥，角磨机，铝棒，钢棒，撬棍，牵车，车床，机床，游标卡尺，深度尺，水平仪，台钳轮番上阵……&r&r"
+			]
+			icon: "create:goggles"
+			id: "6634B8616116325D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77707817A620D0CB"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			subtitle: "矿同文，🔧扳同轨时代，来临了"
+			tasks: [
+				{
+					id: "6F6D040E62091873"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:wrenches"
+						}
+					}
+					title: "Any #forge:wrenches"
+					type: "item"
+				}
+				{
+					id: "58245E1873E5FB10"
+					item: "create:goggles"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "5.5 河童必备"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B6B2730F5AC6BFB"]
+			description: ["虽然鼓风机并非基础机械生产过程中必备的东西，但做出来也方便冶炼矿物，处理食物，甚至以圆石为基础获取更多矿物"]
+			icon: "create:encased_fan"
+			id: "4226BBC6D61830DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15FDA17D3676EF0C"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70429153D9B7E78A"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "5.6 鼓风机"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B6B2730F5AC6BFB"]
+			description: ["重要的生产设备，以后可能不只需要一个，但目前最重要的就是利用搅拌生产安山合金，减少一半的材料消耗"]
+			icon: "create:mechanical_mixer"
+			id: "30D18748B2636BFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7884F5EB33621306"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "71479CE64B5C5B69"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "3D6AE1FFEAC1602B"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "5.7 动力搅拌器"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D18748B2636BFE"]
+			description: [
+				"黄铜可是很重要的材料，在发展初期，如果你没有办法获得烈焰人燃烧室，也可以用&b小伞的匠魂炉&r来制作合金，或者用&b地灵殿科技&r制作，甚至还可以学魔理沙&b去野外拾"
+				"&r"
+				"没错哦，我听说野外有个很大的工匠城堡，里面有大量的黄铜块和机壳"
+			]
+			icon: "create:brass_ingot"
+			id: "41FCA9730DE6AE9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A03B9ADC22A9259"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "530A5ED96E635A88"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/brass"
+						}
+					}
+					title: "Any #forge:ingots/brass"
+					type: "item"
+				}
+				{
+					id: "71FFADFDD76BDFB4"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "5.8 黄铜"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4226BBC6D61830DF"
+				"41FCA9730DE6AE9D"
+			]
+			description: [
+				"这下不用担心木头房子被熔岩烧掉了，但是吹出来的热风依然很危险"
+				""
+				"除此之外，鼓风机触媒还有一个好处是可以很方便地利用蓝图打印，这下不用担心蓝图没办法打印流体了"
+			]
+			id: "3D80DE8B566DB530"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B84A9AB01F020C3"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2626255842E4C97F"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			title: "5.9 鼓风机触媒"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["41FCA9730DE6AE9D"]
+			description: ["不要忘了，动力合成器即使没有塞满物品，也是可以用&a红石信号&r直接激活合成的"]
+			id: "4B8E9A6985461DB6"
+			rewards: [{
+				count: 8
+				id: "498A53A1FB70299C"
+				item: "infinitybuttons:oak_large_button"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B0F48A62852D52C"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "5.10 动力合成器"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B8E9A6985461DB6"]
+			description: [
+				"荷取：这是很重要的设备，尽可能快地做出来的话，能节省很多工夫"
+				""
+				"用处相当多，除了粉碎矿物获取经验颗粒，还能够粉碎很多其他东西，例如圆石，沙砾，甚至村民"
+				""
+				"虽然我没什么意见，但是乱吃村民肉的话可能会引来灵梦哦"
+			]
+			id: "2C1A78B17B8366F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5878D4D31DD52094"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "434F0BA743A30CC4"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "5.11 粉碎轮"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"41FCA9730DE6AE9D"
+				"716189CB491C2E04"
+			]
+			description: [
+				"这也是一个很好用的东西，不再需要额外的齿轮进行变速，可以根据需要从1到256RPM中任意变速"
+				"&o&7就算制作很麻烦也不要给我去山童那边买！"
+			]
+			id: "59EC7C1FA56F37B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A683DAEA446907A"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E93B5D745F267AA"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "5.15 转速控制器"
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["11164DBB2F269C76"]
+			description: ["有了机械手以后,各种需要手动进行的工作现在都可以交给机械手完成了，可以开始偷懒了"]
+			id: "7B4FB9B6A9F9822E"
+			rewards: [
+				{
+					id: "54ADA4B9BF4B73C3"
+					item: "logicchips:and_gate"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3FC978DA3A5F6E1D"
+					item: "logicchips:gate_frame"
+					type: "item"
+				}
+				{
+					id: "5E91DD95A4801721"
+					item: "logicchips:xor_gate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E88BBADA741AD93"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "5.13 机械手"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D18748B2636BFE"]
+			description: [
+				"制作高级机械必不可少的一步，另外，玫瑰石英的获得方法不止一种"
+				""
+				"要磨制的话，只需要一手拿玫瑰石英，另一只手拿砂纸即可，如果不想自己干活，机械手可以代劳"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "11164DBB2F269C76"
+			tasks: [
+				{
+					id: "4900570227153B70"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "4FABE04748C01295"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+			]
+			title: "5.12 玫瑰石英"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B4FB9B6A9F9822E"]
+			description: ["河童需要的精密构件都是自动化生产的，我想应该不会有人试图手搓吧？"]
+			id: "716189CB491C2E04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE5AC4C4A2E2563"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56F1C8DB305122B9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "5.14 精密构件"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: [
+				"安山机壳是重要基础材料之一，后面会用到很多的"
+				""
+				"置物台可以放置物品，方便加工"
+			]
+			icon: "create:andesite_casing"
+			id: "58EF44A067C4C733"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D7D47D745E07E00"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "6D4CD0D815D4B463"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "431CAC7E0A5B8767"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "5.16 安山机壳"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58EF44A067C4C733"]
+			description: ["基础用法很简单，就是用来改变旋转轴方向的，水平和竖直的基本都会用到，可以通过自身合成的方法相互转换"]
+			icon: "create:gearbox"
+			id: "270D724CEA6EC57F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0468017D67665D80"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4D328641B5D0A805"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "7FAB80AA9718091B"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "5.17 十字齿轮箱"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2C1A78B17B8366F8"
+				"59EC7C1FA56F37B3"
+				"29401E5DFB054BF4"
+			]
+			description: ["荷取：俗话说，修行在个人，除了我介绍过的一些东西，还有别的机械可以根据个人需求来使用，还有很多灵活的用法确实很难全部教给盟友。总之多看多动手，就知有没有。"]
+			icon: "thermal:gold_gear"
+			id: "104413CB356457C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "345C50648CACABDF"
+					table_id: 7140798025488362320L
+					type: "random"
+				}
+				{
+					id: "2E89A0D2C56CE4BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "45B728898F66023D"
+				type: "checkmark"
+			}]
+			title: "5.20 基础修行完成"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A08C7AFC709D349"]
+			description: ["蒸汽引擎提供的应力可不是前期的水车风帆能比的，做一到两个满级的蒸汽引擎，几乎不会再缺应力了"]
+			icon: "create:steam_engine"
+			id: "29401E5DFB054BF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "781CE1E428E2D77E"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "67002B6296551C22"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "71BDCB19B9E35EFC"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "5.19 高效率"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: [
+				"提供固体燃料或熔岩等液体燃料后，可以放在工作盆下方加热，也可以放在有蒸汽引擎的铜储罐下方提供热量。后期可别再大规模用风力和水力提供应力了"
+				""
+				"利用&a空烈焰人燃烧室&r，有三种方法捕获烈焰人："
+				"1.直接右键烈焰人"
+				"2.右键烈焰人刷怪笼，但这种刷怪笼并不稳定，随时会消失"
+				"3.烈焰血浇筑"
+			]
+			id: "3A08C7AFC709D349"
+			rewards: [{
+				count: 16
+				id: "08D843520D24F500"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24A9FB7B30BDBA1A"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "5.18 烈焰人"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B6B2730F5AC6BFB"]
+			description: [
+				"荷取：这些机械同样很有用，尽管我听说可以用更先进科技完成同样的事情，但欣赏这种风格的机械工作也是一种乐趣"
+				""
+				"值得注意的是，动力锯可以增产木板，移动结构上的动力钻头可以很方便地挖矿开山，动力收割机可以自动化收割农田，记得使用哦"
+			]
+			icon: "create:mechanical_saw"
+			id: "00F4ED662131EEAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A3AEB7861BBD0C5"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "31E385E312A8AC5B"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "01BE450DF375D19E"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "093CD99E9BB52793"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			title: "5.21 有用的机械"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["716189CB491C2E04"]
+			description: [
+				"这可是好东西，如果只用机械的方式来管理各种输入输出，动力臂就是实现的最优解"
+				""
+				"需要&a先选择输入和输出&r位置，接着再放置才能正常工作"
+			]
+			id: "76BB94817DF90F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E53AFB7D0A1951C"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27284E1B51F321FD"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "5.22 大手"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62E8123EDAA89644"]
+			description: ["荷取：要是有黄瓜的话可以给我，这里有一些好东西可以和你交换"]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "468A7D8747B27D15"
+			rewards: [
+				{
+					count: 3
+					id: "6006E39775F22124"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0E5F39CBFFC760BE"
+					item: "jewelcraft:iron_amulet_onyx"
+					type: "item"
+				}
+				{
+					id: "65D1950FE428716F"
+					item: "jewelcraft:copper_ring_redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5D5BBD3A140DE982"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:huang_gua"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "黄瓜"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6634B8616116325D"]
+			description: ["自动化永远好过手动搭建，有了蓝图大炮就可以到处“借鉴”其他人做的蓝图了"]
+			icon: "create:schematicannon"
+			id: "38B9D5E57F79683B"
+			rewards: [
+				{
+					id: "4E4EDDE17D5BFDB1"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "24E3754D5D46E6FD"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "3B510492DB5E2375"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7005D99631ABB16B"
+				type: "checkmark"
+			}]
+			title: "5.23 蓝图仙人"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38B9D5E57F79683B"]
+			description: [
+				"利用粉碎轮粉碎圆石，鼓风机洗涤沙砾，沙子或灵魂沙，均能无限生产基础矿物。可以自己搭建产线，也可以当蓝图仙人"
+				""
+				"[ \"你问怎么当蓝图仙人？答案很简单，\", { \"text\": \"来这里\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2979138B701CF89D\" } } ]"
+			]
+			icon: "minecraft:raw_gold"
+			id: "4D7D3D19D69BA7D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6868887C103E458A"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AEE8BCFBB539184"
+				type: "checkmark"
+			}]
+			title: "5.24 矿物生产"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["716189CB491C2E04"]
+			description: ["远程传输物品必备，但是需要注意，&a应力无法跨维度传输&r，物品和流体可以，或许，在面对跨维度传输应力的时候（如暮色森林矿脉），可以考虑现场起一个锅炉？"]
+			icon: "createendertransmission:energy_transmitter"
+			id: "70C55E32FA3F75C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07CE323D63B98E1D"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "可以远程传输"
+			tasks: [
+				{
+					id: "08214183CD238AFA"
+					item: "createendertransmission:energy_transmitter"
+					type: "item"
+				}
+				{
+					id: "46624382D1867FF7"
+					item: "createendertransmission:item_transmitter"
+					type: "item"
+				}
+				{
+					id: "4AD2DA340319BF99"
+					item: "createendertransmission:fluid_transmitter"
+					type: "item"
+				}
+			]
+			title: "末影传输"
+			x: 12.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07C7D24E8B039703"]
+			description: ["这些是第二部分的材料，同样很多需要到深暗之域收集，而黏液块可以四处寻找一些空岛，上面有很多，或者自己利用配方制作4个黏液球然后合成黏液块"]
+			icon: "minecraft:sculk_shrieker"
+			id: "619408BC706FC463"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DEAF481FAFB73B0"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7E86FA8F61F56302"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "646CDA23F03D45CD"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5C8D65D1928F79BF"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					id: "43E9D9DAB30E5366"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "04AB3074125B3767"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:congealed_slime"
+						}
+					}
+					title: "Any #tconstruct:congealed_slime"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["619408BC706FC463"]
+			id: "45E84555BBD9EA9C"
+			rewards: [{
+				id: "28F761A67D141AE8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "63306AEC6651C801"
+				item: "sculkcatalyticchamber:mechanical_shrieker"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["184520DF25279CD1"]
+			id: "64080493C1ABB143"
+			rewards: [{
+				id: "17E99C03E7D3D070"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3E198F643414D8F1"
+				item: "sculkcatalyticchamber:chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07C7D24E8B039703"]
+			description: [
+				"机器分为两个部分，这是第一个部分需要的材料，你可以到地下的&a深暗之域&r中使用&a精准采集&r收集一些幽匿相关的方块"
+				""
+				"如果是匠魂工具想要获得精准采集效果，需要添加&a丝触强化&r"
+				""
+				"{ \"text\": \"丝触\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25594747F2D266C5\" } }"
+				"（点击跳转）"
+			]
+			icon: "minecraft:sculk_sensor"
+			id: "184520DF25279CD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "072D1DB7B6D7E51C"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "17691B347D3631BE"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "00CF8DF3A59FFBF3"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B46908563CBB1A6"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "4ADA3FD2C0CFED72"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: ["河城荷取：我要告诉你一个好消息和一个坏消息。先说坏消息，根据部分地质勘探河童在一线传回的信息，似乎很多地方的地下都被&c深暗之域&r所侵蚀了；好消息是，我们可以利用这些被侵蚀的方块来制作全新的机器，解锁全新的生产方式——&a深渊催化&r。话不多说，如果你愿意的话，就马上开始吧"]
+			icon: "tconstruct:greenheart_sign"
+			id: "07C7D24E8B039703"
+			rewards: [{
+				id: "58FA8FDC4DC033B8"
+				item: "jewelcraft:golden_amulet_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50898009D1C6544B"
+				type: "checkmark"
+			}]
+			title: "好消息与坏消息"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"64080493C1ABB143"
+				"45E84555BBD9EA9C"
+			]
+			description: [
+				"河城荷取：推荐一些好用的配方吧，首先是&a邪恶水晶&r只需要普通加热可以制作，只需要一些基础的材料"
+				""
+				"其次，如果收集齐了凋零骷髅头，但是担心自己打不过，可以利用深渊催化来直接获取凋灵的材料——&a下界之星&r，虽然要论直接成本的话肯定不如自己击败凋灵，但是至少比较安全"
+				""
+				"另外，根据研究发现，利用这种奇特的深渊力量能将普通的石头变为&a绿宝石&r，也值得利用一下"
+				""
+				"如果想获得&a龙首&r来强化匠魂工具，利用深渊催化来制作龙首也是一个好办法，毕竟不需要亲自前往末地"
+			]
+			icon: "minecraft:sculk_vein"
+			id: "3701F615908B845F"
+			rewards: [{
+				id: "0B918F65B9030F15"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E919D15911A5E03"
+				type: "checkmark"
+			}]
+			title: "深渊催化，启动"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D7D3D19D69BA7D7"]
+			description: [
+				"第一步是&b自动生产&r足够多的圆石，可以用&a造石机或者无限圆石元件&r，也可以用传统的刷石机来生产所需圆石。第三种方法推荐看看蓝图站各种分享的蓝图，但还是推荐前两种方式。"
+				""
+				"一定要记得自动化哦，纯手工生产已经退环境了"
+			]
+			icon: "minecraft:cobblestone"
+			id: "157D6100AC5E66D8"
+			rewards: [{
+				count: 64
+				id: "419AE420C2B1246B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			subtitle: "圆石不是原石，戏说不是胡说"
+			tasks: [{
+				id: "13F1581A2DF4D575"
+				type: "checkmark"
+			}]
+			title: "生产第一步"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["157D6100AC5E66D8"]
+			description: [
+				"地灵殿的黑科技，除了生产圆石，还可以用酸液+熔岩+底部放置无瑕母岩来生产安山岩"
+				""
+				"除此之外，玄武岩，深板岩，黑石也都可以生产"
+			]
+			id: "1B0D044E68BCAC27"
+			tasks: [{
+				id: "7D1013021DF17110"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["157D6100AC5E66D8"]
+			description: ["有顶天的黑科技，不愧是天人，轻易就做到了河童做不到的事情"]
+			id: "299C161661B9DE46"
+			tasks: [{
+				id: "16911370A816F3B8"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["157D6100AC5E66D8"]
+			description: ["有了圆石以后，如果要生产例如铁，金，石英这样的矿物，至少也要粉碎一次，所以在做这一步之前，记得先把一对粉碎轮给做出来。"]
+			icon: "create:crushing_wheel"
+			id: "0A08DCD22D6A070A"
+			shape: "square"
+			size: 1.2d
+			tasks: [{
+				id: "4E91F31F67838ADC"
+				title: "粉碎粉碎再粉碎"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["60B00CE2ED8BED79"]
+			description: ["迷你版的粉碎轮，一定程度上能代替粉碎轮的部分工作，例如研磨小麦，木炭，花花草草，但是无法研磨圆石或矿物之类的物品，而且效率其实并不高，只是成本很低。最终还是需要换粉碎轮的。"]
+			id: "5B9C35D241DA7458"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40A2CF03CAC64486"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7803BE011AF51CB5"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11164DBB2F269C76"]
+			description: ["这种材料可以在无消耗的情况下生产磨制玫瑰石英，这样在大规模生产的时候就不需要大量砂纸了"]
+			id: "5ED06DB0B69685D7"
+			rewards: [{
+				id: "192FDC2E4C1AED7A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "03C3D0A74B8DE9E7"
+				item: "chemlib:polyvinyl_chloride_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A08DCD22D6A070A"]
+			description: [
+				"圆石粉碎一次以后得到的是沙砾，从这一步开始有几个分支选项"
+				""
+				"首先，如果需要燧石（比如提供给地灵殿的热力机器作为催化剂），可以直接洗涤，这种方式生产燧石效率最高，还能得到铁粒"
+				""
+				"其次，可以继续粉碎一次，得到沙子，同时也有一定概率获得燧石，虽然效率比直接洗涤要差一些"
+			]
+			id: "7108F565C7F1109D"
+			size: 1.5d
+			tasks: [{
+				id: "6B16D218A610CA90"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7108F565C7F1109D"]
+			description: [
+				"这一步得到燧石和铁粒，不需要的产物可以送进热力的销毁器中。洗涤要用鼓风机进行，应该没有忘记吧？"
+				""
+				"{ \"text\": \"点击跳转销毁器\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43D89DC41F636358\" } }"
+				""
+				"完成了这一步，至少机械动力方法的无限铁产线就已经完工了，剩下的就是提高生产效率的问题了"
+			]
+			id: "18392816377059E4"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5285F9B1B1B86429"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "79F760EC04D3B4B0"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "沙砾洗涤"
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7108F565C7F1109D"]
+			description: [
+				"如果将沙砾继续送进粉碎轮里进行粉碎，得到的产物种类会更丰富，黏土，沙子和燧石都能得到，同样的，如果需要销毁多余产物，可送入销毁器"
+				""
+				"{ \"text\": \"点击跳转\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43D89DC41F636358\" } }"
+				""
+				"从这一步开始就有好几个分支，首先是直接用于各种配方的合成——这一步自然不必多说"
+				""
+				"其次则是烧制成玻璃，也相对简单"
+				""
+				"第三，可以洗涤得到黏土，如果你需要额外黏土产出的话可以考虑这一步"
+				""
+				"第四，可以&a缠魂得到灵魂沙&r，接下来重点讲解这一步"
+			]
+			id: "7A4706BDDB7492E6"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0C649BC15424E808"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "38587F265E8D7766"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "14B7F09A49D3E5DC"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "沙砾粉碎"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A4706BDDB7492E6"]
+			description: [
+				"沙子→烧制→玻璃"
+				""
+				"沙子→洗涤→黏土"
+			]
+			id: "51D3207C3C7509B3"
+			tasks: [
+				{
+					id: "62CCCE44A53DC645"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "24D51FC352665E97"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			title: "沙子烧制与洗涤"
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A4706BDDB7492E6"]
+			description: [
+				"灵魂沙对于机械动力最重要的步骤就是继续洗涤——得到&a石英和金粒&r"
+				""
+				"这也是机械动力无限石英与金粒的来源"
+			]
+			id: "73516DB002F2579A"
+			size: 1.5d
+			tasks: [{
+				id: "47F84E450141CF72"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			title: "沙子缠魂"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["73516DB002F2579A"]
+			description: [
+				"完成了这一步，算上之前的成果，目前你已经可以利用这些机械设备来自动化无限产出铁，金，燧石，玻璃，黏土以及石英了"
+				""
+				"剩下还有不少矿物没办法无限产出，但是可以去寻找可通过机械挖掘的矿脉，对于机械动力来说，最重要的就是&a铜锌深层矿脉&r，只要找到，就能无限获得铜和锌这两种重要资源"
+			]
+			id: "154F33F8FDC10C9D"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1FD44FC3C5B8CED8"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "2D90F7F0FDDD21B8"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			title: "灵魂沙洗涤"
+			x: 22.52380952380952d
+			y: 2.5833333333333357d
+		}
+		{
+			dependencies: ["07C7D24E8B039703"]
+			description: [
+				"以下为一线勘探河童所记录的日志内容："
+				""
+				"时间：未知"
+				"地点：深暗之域边缘"
+				"这里一片漆黑，只有发光苔藓有微弱的光芒，在深度y=0往下的区域似乎能遇到一些危险的隐身妖精，部分人员被袭击了，但这还不是最关键的。这里的幽匿感染情况非常严重，继续深入探索会非常危险，领队提议马上返程。"
+				"{@pagebreak}"
+				"时间：未知"
+				"地点：深暗之域中心"
+				"奇怪，明明我们是朝着远离深暗之域的方向返程的，但是走了一段时间后却来到了中心地带，目前暂时没有遇到什么危险，但是根据仪器显示，这里的部分方块有奇异的力量，似乎能在某种程度上利用能量来催生得到新的物质"
+				""
+				"时间：正午"
+				"地点：水草丰美之地"
+				"我应该还在地底，但是很奇怪，似乎能看到草原之上阳光照射下的鲜花。或许，这些幽匿的力量不止能侵蚀方块……"
+			]
+			id: "35EAF18D474EF985"
+			shape: "diamond"
+			tasks: [{
+				id: "56822C9B941586C7"
+				type: "checkmark"
+			}]
+			title: "密探来报"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7108F565C7F1109D"]
+			description: [
+				"荷取：如果你想要大量红石的话恐怕来错地方了，虽然粉碎的铁矿石洗涤也能得到红石粉，但是效率并不一定高，产出也是个问题"
+				""
+				"[ \"如果确实需要大量红石/荧石，你应该去\", { \"text\": \"地灵殿\", \"underlined\": \"true\",\"color\":\"green\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E620B5A91921B5C\" } }, \"看看情况\" ]"
+			]
+			icon: "minecraft:redstone"
+			id: "3A9C5B766FCE2193"
+			tasks: [{
+				id: "00AD58CF239FEA3E"
+				type: "checkmark"
+			}]
+			title: "红石？"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["154F33F8FDC10C9D"]
+			description: ["石英与圆石合成即可得到闪长岩"]
+			id: "3FF3CF230D7BCDF2"
+			tasks: [{
+				id: "7A3E5855294D4422"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			title: "闪长岩合成"
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FF3CF230D7BCDF2"]
+			description: ["闪长岩与圆石合成可得到安山岩"]
+			id: "59B7FA7CCC0A9495"
+			tasks: [{
+				id: "30BD70C5048BBE64"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FF3CF230D7BCDF2"]
+			description: ["闪长岩与石英合成可得花岗岩"]
+			id: "6BC7BAD41C2A77E8"
+			tasks: [{
+				id: "0B485AAC4882675C"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A08DCD22D6A070A"]
+			description: [
+				"荷取：接着还是来讲讲正常情况下如何获得烈焰蛋糕🎂来让烈焰人超级燃烧吧，虽然其实你可以考虑用别的方法获得超级燃烧，例如小伞介绍的魔法燃料，或者利用地灵殿的热力机器生产精炼油"
+				""
+				"首先，粉碎下界岩则可获得余烬面粉，除了用来制作烈焰蛋糕，还可以制作辣条"
+			]
+			icon: "create:cinder_flour"
+			id: "4BF9529243515777"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E5F6097B6D5C1E7"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7979B2CF34BC9C6A"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "22FC75508D614858"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			title: "余烬面粉"
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4BF9529243515777"]
+			description: ["余烬面粉与糖，生物质搅拌可得到液体燃料生物乙醇，可让烈焰人&b超级燃烧&r"]
+			icon: "createaddition:biomass"
+			id: "411BE9C99F88891A"
+			tasks: [
+				{
+					id: "7311B5CDBA7C3CAB"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "157D15F403C78609"
+					item: "createaddition:biomass"
+					type: "item"
+				}
+			]
+			title: "生物乙醇"
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4BF9529243515777"]
+			description: [
+				"继续生产下界岩——将余烬面粉和圆石+熔岩搅拌即可得到下界岩，这个过程中，下界岩的数量是在增加的，而消耗的是圆石与熔岩"
+				""
+				"四舍五入，熔岩与圆石等于无限，于是下界岩等于无限，而余烬面粉等于无限"
+				""
+				"但是&a需要注意在循环中控制停产，避免无限消耗资源或制造大量掉落物&r"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "0470B6E9658C97E1"
+			tasks: [
+				{
+					id: "73FB96165B05D834"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "46C9592D92ADFA7B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "循环"
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4BF9529243515777"]
+			description: [
+				"&b余烬面粉+糖+鸡蛋&r，辊压后即可得到烈焰蛋糕胚"
+				""
+				"糖的推荐来源：甘蔗经过粉碎轮粉碎或者&a甜菜根&r粉碎"
+				""
+				"蛋的推荐来源：当然是哥哥下的🥚蛋，但是理论上其他的🥚也可以用于合成配方"
+			]
+			icon: "create:blaze_cake_base"
+			id: "16CBE654B61E7BED"
+			tasks: [
+				{
+					id: "6AF389380D9E8E9B"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "5AFB13AB98636930"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "475557A662F458BE"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+			]
+			title: "烈焰蛋糕胚"
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["16CBE654B61E7BED"]
+			description: [
+				"下一步，用熔岩注液即可得到烈焰蛋糕，这就算完成了"
+				""
+				"如果要让烈焰蛋糕自动送入烈焰人燃烧室，推荐用动力臂"
+			]
+			id: "7F0F2E257EEC77C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "387AA4BD41F65C8D"
+				table_id: 7140798025488362320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03D3FA5E378BC23E"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["62E8123EDAA89644"]
+			description: ["荷取：如果缺少合适的动力源，甚至可以让女仆来摇手柄"]
+			id: "66503ED9F06F8418"
+			tasks: [{
+				id: "7D79E46AD6EDF90A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B6B2730F5AC6BFB"]
+			description: ["主要用途：制作金属线/棍和给烈焰人的吸管"]
+			hide_dependency_lines: true
+			id: "6175E25446DDAD20"
+			rewards: [{
+				count: 4
+				id: "3861BF9C483D15B0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E565A086572220"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6175E25446DDAD20"]
+			description: ["可以与所有类型的线缆相连（指各种线轴上的线缆），但是传输能量的速率较低"]
+			id: "78FF95855FA349E9"
+			rewards: [{
+				id: "3BF45589BA9339A8"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2F9D979B244E9088"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6175E25446DDAD20"]
+			description: ["线缆是机械动力提供的传输电力的方式。线轴需要有线缆才能右键连接器来传输电力，线缆没有触电风险，可在短距离内实现点对点的电力传输。同时连接器也分为小型和大型的，区别在于传输电力的效率不同"]
+			id: "0FC333F58459291E"
+			rewards: [{
+				id: "456BC794F9A054DB"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "14D5D6456AF0669B"
+				item: "createaddition:spool"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FC333F58459291E"]
+			description: [
+				"无法连接大型连接器"
+				""
+				"使用方法：右键两个连接器即可建立连接"
+			]
+			id: "2781B5D256FF39BA"
+			rewards: [{
+				id: "7A8AF8917F71560B"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2FF1FFEDC11FBA59"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FC333F58459291E"]
+			description: [""]
+			id: "3796D6B5EF1721B8"
+			rewards: [{
+				id: "7F4AFF5FF655F0E9"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "26ACD65D4E90859C"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2781B5D256FF39BA"]
+			description: ["主要用途：装饰"]
+			id: "1A60ECC993E33131"
+			rewards: [{
+				id: "0B2375068EC457E4"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "56E30B3F8F73517A"
+				item: "createaddition:festive_spool"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FC333F58459291E"]
+			id: "0A11253A9D4CC8E8"
+			rewards: [{
+				id: "10CF791F2A2E7D49"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "603205C4EFE2E68F"
+				item: "createaddition:electrum_spool"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6175E25446DDAD20"]
+			description: ["传输能量的速率较高，但仅能用金线缆/琥珀金线缆连接"]
+			id: "371546688FEF7E21"
+			rewards: [{
+				id: "02B7C610DCE64293"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "1F1052EC459D62B8"
+				item: "createaddition:large_connector"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78FF95855FA349E9"]
+			description: ["可用作装饰，除此之外和小型连接器功能一样"]
+			id: "4491AD85AE1B317C"
+			rewards: [{
+				id: "4380717A1D8B9E55"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "67BBA9F8D73369B0"
+				item: "createaddition:small_light_connector"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+	]
+	title: "河童居处(机械动力)"
+}

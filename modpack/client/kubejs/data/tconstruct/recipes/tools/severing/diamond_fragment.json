@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:severing",
+    "entity": {
+      "types":  [
+        "hmag:hornet",
+    "hmag:alraune",
+    "hmag:cursed_doll"
+    ]
+      
+    },
+    "result": "hmag:diamond_fragment"
+  }

@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "kubejs:magic_fuel",
+      	"amount": 1000
+	},
+	"burnTime": 24000,
+	"superheated": true
+}

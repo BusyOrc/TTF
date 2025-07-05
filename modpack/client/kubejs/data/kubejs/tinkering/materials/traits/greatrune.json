@@ -1,0 +1,28 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tinkerscalibration:nano_machine"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:ruination"
+      }
+
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+
+
+      {
+        "level": 1,
+        "name": "tinkerscalibration:nano_machine_armor"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:solid"
+      }
+
+      ]
+    }
+  }

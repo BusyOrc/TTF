@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "attributeslib"
+    }
+  ],
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 3,
+      "operation": "addition",
+      "attribute": "attributeslib:prot_pierce",
+      "unique": "tconstruct.modifier.riot_shield",
+      "slots": [
+
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+
+    },
+    
+    {
+      "type": "tconstruct:attribute",
+      "each_level": -0.1,
+      "operation": "addition",
+      "attribute": "attributeslib:dodge_chance",
+      "unique": "tconstruct.modifier.riot_shield",
+      "slots": [
+
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+    }
+  ],
+  "tooltip_display": "always"
+}

@@ -1,0 +1,29 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": false,
+    "inputs": [
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "tinkers_thinking:magma_crystal"
+      },
+      {
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "level": 2,
+    "result": "tinkerscalibration:fire_react",
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable/armor"
+          }
+    ]
+  }

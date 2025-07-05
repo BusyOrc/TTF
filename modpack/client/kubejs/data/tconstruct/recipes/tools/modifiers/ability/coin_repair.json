@@ -1,0 +1,32 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "tag": "quark:hollow_logs"
+      },
+      {
+        "item": "lightmanscurrency:coin_gold"
+      },
+      {
+        "item": "lightmanscurrency:coin_iron"
+      },
+      {
+        "item": "lightmanscurrency:coin_copper"
+      },
+      {
+        "item": "touhou_little_maid:power_point"
+      }
+    ],
+    "level": 1,
+    "result": "tinkerscalibration:coin_repair",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+
+          {
+            "tag": "tconstruct:modifiable"
+          }
+    ]
+  }

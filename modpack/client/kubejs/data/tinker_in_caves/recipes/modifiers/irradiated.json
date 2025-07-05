@@ -1,0 +1,44 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "alexscaves",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/uranium",
+      "amount_needed": 4
+    },
+    {
+      "item": "alexscaves:acid_bucket",
+      "amount_needed": 1
+    },
+    {
+      "tag": "forge:ingots/uranium",
+      "amount_needed": 4
+    },
+    {
+      "item": "alexscaves:radon_bottle",
+      "amount_needed": 4
+    },
+    {
+      "item": "alexscaves:radon_bottle",
+      "amount_needed": 4
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/melee/primary"
+    },
+    {
+      "tag": "tconstruct:modifiable/ranged/bows"
+    }
+  ],
+  "allow_crystal": true,
+  "result": "tinker_in_caves:irradiated",
+  "level": {
+    "max": 5
+  }
+}

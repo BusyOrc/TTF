@@ -1,0 +1,25 @@
+[
+    {
+      "action": "settings",
+      "level": 1
+    },
+    {
+      "action": "sell",
+      "item": "chemlib:yttrium_dust",
+      "amount": 1,
+      "price": [15, 20],
+      "maxUses": 12
+    },
+    {
+        "action": "settings",
+        "level": 2
+    },
+    {
+      "action": "sell",
+      "item": "chemlib:tungsten_dust",
+      "amount": 1,
+      "price": [15, 20],
+      "maxUses": 12
+    }
+  ]
+  

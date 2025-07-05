@@ -1,0 +1,2042 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "448BFD1F42AD221F"
+	group: "4293891DF89E3E58"
+	icon: "minecraft:blaze_powder"
+	id: "448BFD1F42AD221F"
+	images: [
+		{
+			height: 15.0d
+			image: "touhou_tinker_fantasy:textures/yuuma.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -21.0d
+			y: -2.5d
+		}
+		{
+			click: "#09497ED994426DE8"
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			height: 6.0d
+			hover: ["第一份辣条（？）！"]
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 6.0d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			click: "#09497ED994426DE8"
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			click: "#09497ED994426DE8"
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ltc2:item/unprocessed_latiao"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 6.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 6.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/unprocessed_latiao"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			click: "#4E24E3C559524B5F"
+			height: 1.0d
+			hover: ["想学更进阶的吗？"]
+			image: "ltc2:item/latiao"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			click: "#67CFA387F0684C1C"
+			height: 1.0d
+			image: "ltc2:item/wheat_powder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			click: "#745A6413D1A86045"
+			height: 2.0d
+			image: "ltc2:block/underground_oil_ore"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			click: "#745A6413D1A86045"
+			height: 2.0d
+			image: "ltc2:block/salt_ore"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: -7.8d
+		}
+		{
+			click: "#745A6413D1A86045"
+			height: 2.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: -90.0d
+			width: 2.0d
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			click: "#0FB95E9ACD7D768F"
+			height: 2.0d
+			image: "ltc2:item/mortar"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			click: "#2D638937058FD863"
+			height: 3.0d
+			hover: ["不要的辣条不要丢，这样做，隔壁小孩都馋哭了！"]
+			image: "ltc2:block/latiao_oven_on"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			click: "#6B752449DA50B4CE"
+			height: 3.0d
+			hover: ["材料磨手酸了？看看这个！"]
+			image: "ltc2:block/mill_on"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			click: "#2DD6CE4CB6B07A16"
+			height: 3.0d
+			hover: ["给辣条一点“灵魂注入！”"]
+			image: "ltc2:block/flavouring_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			click: "#6558F41737F46D20"
+			height: 3.0d
+			hover: ["都是辣条了，怎么能少了“辣”！"]
+			image: "ltc2:item/pepper_jalapeno"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			click: "#4C13AC1E0A191427"
+			height: 3.0d
+			hover: ["比下界合金更强！火辣辣的合金！"]
+			image: "ltc2:item/hotaurum_ingot"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			click: "#20955A83FA2F73EB"
+			height: 3.0d
+			hover: ["特殊效果？"]
+			image: "create:textures/gui/clipboard.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			click: "#5424F1DFBA4BF069"
+			height: 2.0d
+			hover: ["升级！"]
+			image: "ltc2:item/hotaurum_upgrade_smithing_template"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			click: "#0E4E65F4645B52E6"
+			height: 2.0d
+			hover: ["火辣辣的心啊，火辣辣的情！"]
+			image: "ltc2:item/hotaurum_chestplate"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			click: "#69BA64AC3475243C"
+			height: 3.0d
+			hover: ["沟槽的抽卡还在追我"]
+			image: "ltc2:item/latiao_bonus_bag_z"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.625d
+			y: 13.125d
+		}
+		{
+			click: "#11B13E6BDF07E4AE"
+			height: 1.0d
+			hover: ["嘟嘟哒嘟哒嘟"]
+			image: "ltc2:item/evil"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.09375d
+			y: 11.65625d
+		}
+		{
+			click: "#4C190281665C5C17"
+			height: 1.0d
+			hover: ["绯红之王！"]
+			image: "ltc2:item/time_traveler_watch_day"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.125d
+			y: 15.125d
+		}
+		{
+			click: "#61EDCE2A16285878"
+			height: 1.0d
+			hover: ["他喝下了蓬莱药！"]
+			image: "ltc2:item/undying_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.125d
+			y: 13.125d
+		}
+		{
+			click: "#13815399A0EA95DD"
+			height: 2.0d
+			hover: ["带有不祥预感的植物...."]
+			image: "ltc2:item/sculk_mint"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0625d
+			y: 10.84375d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0625d
+			y: 11.65625d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0625d
+			y: 12.5d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.21875d
+			y: 10.84375d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.21875d
+			y: 11.6875d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.21875d
+			y: 12.5d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.40625d
+			y: 12.5d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.40625d
+			y: 11.65625d
+		}
+		{
+			alpha: 150
+			height: 1.0d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.40625d
+			y: 10.84375d
+		}
+		{
+			click: "#01497BC011F2FDD4"
+			height: 1.0d
+			hover: ["你需要我的帮助吗.mp3"]
+			image: "ltc2:item/enchanter_latiao"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.21875d
+			y: 11.6875d
+		}
+		{
+			click: "#3A8CAB50032C1B9C"
+			height: 2.0d
+			hover: ["不想满世界跑找辣椒？看看这个。"]
+			image: "ltc2:item/pepper_fertilizer"
+			order: 1
+			rotation: 0.0d
+			width: 1.9d
+			x: 7.75d
+			y: -3.53125d
+		}
+		{
+			click: "#546608EBFCD31C1B"
+			height: 2.0d
+			hover: ["找不到经验修补吗？看这边！"]
+			image: "ltc2:item/guidebook"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.9375d
+			y: -7.90625d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_sweet_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_complained_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_bloody_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_frost_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_green_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_white_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_red_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "ltc2:block/peppers_jolokia_stage7"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒转换仪式！"]
+			image: "tofucraft:block/animated/water/water_still_9"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: [" 辣焱玉"]
+			image: "ltc2:item/pyrospicy_jade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["需转换的物品"]
+			image: "minecraft:item/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["需转换的物品"]
+			image: "minecraft:item/netherite_upgrade_smithing_template"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: [" 辣金升级锻造模板"]
+			image: "ltc2:item/hotaurum_upgrade_smithing_template"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["需转换的物品"]
+			image: "minecraft:item/bone_meal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["辣椒催生粉"]
+			image: "ltc2:item/pepper_fertilizer"
+			rotation: 0.0d
+			width: 0.9375d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["需转换的物品"]
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			click: "#59B0C56EA1B666FD"
+			height: 1.0d
+			hover: ["可能的成品"]
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			click: "#68BF18C4FB01835B"
+			height: 3.0d
+			image: "artifacts:item/villager_hat"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			click: "#3C1544CD83C88386"
+			height: 3.0d
+			hover: ["我好奇这吃起来怎么样...?"]
+			image: "minecraft:item/dragon_breath"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 8.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F698C6A49F609BD"]
+			description: [
+				"饕餮尤魔：别紧张，是你自己掉进来旧地狱的，我可没兴致还专门拉个方块人过来吃了。"
+				"嗯？你说我手上这是什么？噢，这东西似乎是跟异变一起进来的，貌似是外面现在流行的小吃叫做什么辣条的"
+				"味道挺不错的，这貌似还有本配方"
+				"&7注：本章任务大多需要点击图片进行查看，如果卡任务了多多点击图片吧！&r"
+			]
+			hide_until_deps_complete: false
+			id: "45E915836FC01460"
+			tasks: [{
+				id: "20DD2B30941C5E65"
+				title: "初见刚欲同盟组长，好想要被吃了怎么办，在线等 急！"
+				type: "checkmark"
+			}]
+			title: "初见刚欲同盟组长，好像要被吃了怎么办，在线等，急！"
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["45E915836FC01460"]
+			description: [
+				"什么，你想做做看？啊。随你了 这本书你自己拿去看了吧 反正我早就看透了。"
+				"在这下面一个人干啥几乎不会有人打扰，能做的事挺多的"
+				"哈？你想要我帮你解答问题？你这人别太得寸进尺啊！ 啊？有好东西当报酬？"
+				"行吧行吧，到时候做出来了可别少了我这份啊，旧地狱这环境不适合做这东西，不然我早就多做点了。"
+			]
+			hide_until_deps_complete: false
+			id: "51E1D895D57D8A94"
+			rewards: [{
+				id: "3A2717D262A7AAA6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ltc2:guidebook"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "地狱厨房 幻想乡第一季开拍？"
+			tasks: [{
+				id: "1854DDE30182EDF6"
+				title: "教练，我想做辣条！"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51E1D895D57D8A94"]
+			description: [
+				"饕餮尤魔：首先辣条的原材料不是特别复杂 去上面旧地狱上方找点早就该死又死命活着不想去找那个&a阎&9魔&f的&2生物"
+				"&f屠了他们拿他们的血肉，处理一下就是半成品了。"
+				"什么？你问我知道原材料了怎么还吃的下去，我什么都吃你觉得我还会在意这个？"
+			]
+			hide_dependency_lines: true
+			icon: "ltc2:unprocessed_latiao"
+			icon_scale: 0.1d
+			id: "09497ED994426DE8"
+			rewards: [{
+				count: 16
+				id: "45E63EE9D1D82EA5"
+				item: "ltc2:wheat_powder"
+				type: "item"
+			}]
+			size: 1.0E-7d
+			tasks: [
+				{
+					count: 6L
+					id: "125FA4F257EA2FC5"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "61B1B45F899B6148"
+					item: "ltc2:unprocessed_latiao"
+					type: "item"
+				}
+			]
+			title: "震惊！辣条的原材料居然是！？"
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"饕餮尤魔：呐，配方跟面粉在这，半成品的辣条再用大量面粉去搓洗就差不多是正常可食用了"
+				"如果你有点洁癖的话 可以再搓洗多次，据说辣条的品质会直线上升，反正对于我来说都没差就是了"
+			]
+			id: "67CFA387F0684C1C"
+			size: 1.0E-6d
+			tasks: [{
+				count: 2L
+				id: "6211249865EB3574"
+				item: "ltc2:latiao"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51E1D895D57D8A94"]
+			description: [
+				"饕餮尤魔：你在挖取矿物时可能会看到下面两个矿物"
+				"&l{image:ltc2:block/underground_oil_ore width:25 height:25 align:middle}"
+				"{image:ltc2:block/salt_ore width:25 height:25 align:middle}"
+				"分别是\"地沟油\"矿跟盐矿，各自有深层版本。 "
+				"&l"
+				"{@pagebreak}"
+				"虽然说是地沟油，但其实还是能拿来用的 "
+				"在破坏后会掉落固态地沟油，能够直接当作燃料使用，每个能够烧制&a9个物品"
+				"&f再熔炉进行&a烧制&f后会成为精炼地沟油，燃烧时间为地沟油的&c两倍&f，为&a18个物品！"
+				"&f并且精炼地沟油能够拿来为你的辣条&l&c精心调味&f&r，提味过后的辣条通常会给予你&e特殊效果&f"
+				"这个我们之后再提。"
+				""
+				"{@pagebreak}"
+				"盐破坏后会掉落盐，可拿来直接使用，也可使用&e研钵&f加工成精盐"
+				"盐可为你调味的辣条的特殊效果&a增加一级&f"
+				"精盐则可以变为&c增加两级&f"
+				"看不懂？没事，之后提到调味是我会再跟你讲的。"
+			]
+			hide_dependency_lines: true
+			id: "745A6413D1A86045"
+			rewards: [{
+				id: "4CC4BFF72E606E01"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0E-6d
+			tasks: [{
+				id: "059F043BD0A949F8"
+				title: "地沟油？只是种说法！"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09497ED994426DE8"]
+			description: [
+				"饕餮尤魔：你问我面粉哪里来？....哈？这东西不就是小麦在手上捏一下就好了吗？"
+				"你说你没有那般握力,你搁这骗&e星熊&f啊 你身上的东西重量是正常人能抗动的吗？"
+				"好了好了，服了你了，做个&a研钵&f就能把小麦磨成粉了，当然你也能用其他方式 我这边只跟你讲最简单的方式。"
+				"研钵这东西不只能磨小麦，大多数辣条会用到的调味料粉几乎都能用到，除了俩个材料因为高危险性所以不能手磨"
+				"分别是&8凋零玫瑰&f与&c火爆辣椒&f，别担心，后续会有相应的器械能处理的。"
+			]
+			hide_dependency_lines: true
+			id: "0FB95E9ACD7D768F"
+			rewards: [{
+				id: "4B3C34399EE50341"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0E-5d
+			tasks: [{
+				id: "78C1C34EA8D69CE8"
+				item: {
+					Count: 1
+					id: "ltc2:mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "大力出奇迹"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"67A8F34B0735E93F"
+				"647453DC656FC3A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"饕餮尤魔：这东西功用就跟它的名字一样，&a专门生产&f其他特殊口味辣条的熔炉。"
+				"都说是熔炉了，肯定是要用燃料来工作的。"
+				"注意一下，辣条有分品质的，通常来说 你放入的辣条是什么品质，做好的辣条就是&a更好的一阶品质&r。"
+				"但是有些特殊的辣条，像是&b钻石辣条&f就需要&a上等&f品质的辣条才能制作"
+				"而且产出的&b钻石辣条&f也会固定是&d佳肴&f品质"
+				""
+				"再补充一点，如果需要的话，也可以考虑用河童和地灵殿的机器来制作辣条，分别需要&a搅拌盆+搅拌器&r和&a感应炉&r"
+			]
+			hide_until_deps_complete: false
+			id: "2D638937058FD863"
+			rewards: [{
+				id: "047FAC9576C43502"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.0E-4d
+			tasks: [{
+				id: "6AE488422EF8A2F3"
+				item: "ltc2:latiao_oven"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"67A8F34B0735E93F"
+				"647453DC656FC3A5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"饕餮尤魔：研磨机可以 透过消耗燃料，自动帮你磨制调料或是面粉，而且通常是&a两倍产出."
+				"&f而且之前和你提过的危险材料：&7凋零玫瑰&f与&c火爆辣椒&f也能透过这台器械成功磨粉"
+			]
+			hide_until_deps_complete: false
+			id: "6B752449DA50B4CE"
+			rewards: [{
+				id: "49B0BE7ADD03636C"
+				type: "xp"
+				xp: 30
+			}]
+			size: 0.001d
+			tasks: [{
+				id: "5AFFB69099D8E3DC"
+				item: "ltc2:mill"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"647453DC656FC3A5"
+				"67A8F34B0735E93F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"饕餮尤魔：调味台也是顾名思义，专门为你的辣条调味的工作台"
+				""
+				"调味的前提是这个辣条能被调味，你能够在背包里&a按着Shift&f滑鼠移上去查看辣条，有着&a可被调料&f词条的辣条才能使用调味台的合成"
+				""
+				"基本调味料之前与你讲过的，效果分别是"
+				""
+				"糖：增加效果持续时间"
+				"蜂蜜：增加效果持续时间，比糖更强！(与糖互斥）"
+				"盐：增加效果等级1级，如果是&a精盐&f会增加2级。"
+				"幽匿薄荷：增加额外调味料上限为两种。"
+				""
+				"基础调味料能够共存在同一辣条里。"
+				"&7需要本身食用后带状态效果的辣条才能使用盐糖进行调味。"
+				""
+				"{@pagebreak}"
+				"额外调味料基本为各类辣椒粉，或是一些特殊物品。"
+				"{image:ltc2:textures/gui/flavouring.png width:25 height:25 align:center fit:true}"
+				"画面中的四个放上&a辣条&f&b &r基础调味料&f &9额外调味料&f即可"
+				""
+				"{@pagebreak}"
+				"如果你不喜欢调味所带来的效果的话 可以在调味台里使用面粉与辣条合成，能够去除所有调味。"
+			]
+			hide_until_deps_complete: false
+			id: "2DD6CE4CB6B07A16"
+			rewards: [{
+				id: "0B319803AE1396E9"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.0E-4d
+			subtitle: "适量是多少？就是适量！"
+			tasks: [{
+				id: "691BF93521022FF7"
+				item: "ltc2:flavouring_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"饕餮尤魔：好了，这就是&a最基础的辣条了&f。你问为什么跟我手上的颜色明显不一样？"
+				"我手上的又不是原味的，辣条这东西口味千千万，每个口味也不一样好吧。"
+				"你想学其他口味的&a制作方法&f？哎行吧行吧 反正现在也没啥事情了。"
+			]
+			id: "4E24E3C559524B5F"
+			rewards: [{
+				count: 8
+				id: "4FD0696CED1B3991"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			size: 1.0E-4d
+			tasks: [{
+				id: "70AF0D358F0E89A0"
+				title: "辣条种类千千万，各类调料占一半"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4E24E3C559524B5F"
+				"70AF0D358F0E89A0"
+			]
+			description: [
+				"饕餮尤魔：接下来各种口味的辣条&a或多或少都会用到&f这些器械，先做出来肯定不是坏事。"
+				"你还在这看我干啥，去做啊。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "67A8F34B0735E93F"
+			tasks: [{
+				id: "647453DC656FC3A5"
+				title: "辣条会用到的三大工作方块"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["野生红辣椒通常生长在风袭森林、平原和炎热的生物群系"]
+			hide_dependency_lines: true
+			id: "524D2311269DBF36"
+			tasks: [{
+				id: "795572F29EA4D080"
+				item: "ltc2:pepper_red"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["青椒通常生长在白桦树林、樱花树林、草甸、和湿润的生物群系"]
+			hide_dependency_lines: true
+			id: "7B0E085760570100"
+			tasks: [{
+				id: "7D512562C54BF25D"
+				item: "ltc2:pepper_green"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["白胡椒通常生长在黑森林、沼泽、河畔和热带草原生物群系"]
+			hide_dependency_lines: true
+			id: "35AFA76A9B02761A"
+			tasks: [{
+				id: "1D589E766E9537C4"
+				item: "ltc2:pepper_white"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["种植的白胡椒在生长阶段抵达71%-86%时手动采收即可获得黑胡椒"]
+			hide_dependency_lines: true
+			id: "5C7586BCA1B6BEBC"
+			tasks: [{
+				id: "1AEC53B1BDB48CC5"
+				item: "ltc2:pepper_black"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["甜椒通常生长在繁花森林、向日葵平原和炎热的生物群系"]
+			hide_dependency_lines: true
+			id: "407D74930C880C05"
+			tasks: [{
+				id: "5C7385B84CD3049E"
+				item: "ltc2:pepper_sweet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["在收获成熟的甜椒植株后，有 40% 的概率会收获到黄灯笼椒"]
+			hide_dependency_lines: true
+			id: "4B14F4C739C9FA88"
+			tasks: [{
+				id: "21A85E7D5A5797FF"
+				item: "ltc2:pepper_yellow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: [
+				"血魔椒通常生长在绯红森林生物群系"
+				"只能&a种植在灵魂沙/灵魂土/绯红菌岩上&f。"
+				"血魔椒由于高辣度，即使是碰触到也会感觉到&6灼烧&f"
+			]
+			hide_dependency_lines: true
+			id: "4FD966B07F5C9A5A"
+			tasks: [{
+				id: "53FB4450148F7D78"
+				item: "ltc2:pepper_bloody"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: [
+				"悲怨椒通常生长在诡异森林生物群系。"
+				"悲怨椒只能&a种植在灵魂沙/灵魂土/诡异菌岩上&f。"
+				""
+				"悲怨椒会向所有触碰到的生物施加虚弱效果"
+			]
+			hide_dependency_lines: true
+			id: "3BFFD8EADAD5AFD3"
+			tasks: [{
+				id: "134A247127337C4B"
+				item: "ltc2:pepper_complained"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E24E3C559524B5F"]
+			description: [
+				"既然都说是辣条了，辣这个元素可是必不可少的。"
+				"各种辣椒会出现在各种不同温度的群系"
+				"什么，你问我不同的温度群系怎么看?"
+				"啊...啊....."
+				"&l啊麻烦死了！"
+				"{ \"text\": \"你去找秋姐妹他们会跟你讲的，别烦我这点！\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"718C148BB0792DCE\" } }"
+			]
+			hide_dependency_lines: true
+			id: "6558F41737F46D20"
+			rewards: [{
+				count: 3
+				id: "1F0B5EE9D0C94CDF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			size: 1.0E-4d
+			tasks: [{
+				id: "733DE2B27C73A02C"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "辣椒在哪儿"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: [
+				"魔鬼椒生长在下界所有群系中，由于其无法种植在绯红菌岩和诡异菌岩上，所以你大多数时候只能在&a灵魂沙峡谷&f才能见到它"
+				"只能&a种植在灵魂沙/灵魂土上&f。"
+				"魔鬼椒由于高辣度，即使是碰触到也会感觉到&6灼烧&f"
+			]
+			hide_dependency_lines: true
+			id: "3246D80C7CF44647"
+			tasks: [{
+				id: "4A3A3D7D47C0B370"
+				item: "ltc2:pepper_jolokia"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["拿着&a火药&f对&c成熟的辣椒&f&a右键&f后，有60%的概率收获火爆辣椒，否则无事发生。"]
+			hide_dependency_lines: true
+			id: "56E296AB8A588149"
+			subtitle: "这可不会烧了你的一列草坪"
+			tasks: [{
+				id: "52DFF79DAD70B292"
+				item: "ltc2:pepper_jalapeno"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"饕餮尤魔：得特殊跟你讲一下这种辣条，这种辣条据说&a压缩再烧制&f后有着不输下界合金的强度，而且貌似还会带有特殊效果"
+				"做不做看你的决定就是了。"
+			]
+			id: "4C13AC1E0A191427"
+			rewards: [{
+				id: "491E2B965D2A8154"
+				item: "ltc2:hotaurum_ingot"
+				type: "item"
+			}]
+			size: 1.0E-4d
+			tasks: [{
+				count: 9L
+				id: "3E71DE775D98F8AD"
+				item: "ltc2:hotaurum_latiao"
+				type: "item"
+			}]
+			title: "比下界合金更强！火辣辣的合金！"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"饕餮尤魔：有些辣条会给你&c负面&f或是&a正面&f的效果，我这边给你举例一些你可能没看过的效果"
+				"剩下你得自己去探索了。"
+				"&e洁净（Purifying）&f：拥有此效果期间不会获得任何负面效果，可由使用&d净化辣条&f或是含&d净化粉&f调味的辣条获得。"
+				"&4 注意，妖怪化会被该效果清除。"
+				""
+				"&e爆炸防护（Blast Resistance）&f：收到的爆炸伤害降低，效果随等级提升，如果效果等级至少3级以上则改为免疫爆炸伤害。"
+				"可由食用&c爆辣辣条&f，或是含&c火爆辣椒粉&f的辣条获得。"
+				""
+				"&e火力十足（Raged Fire）&f：拥有此效果的生物在攻击时，会&6点燃攻击目标&f（效果等级x2)秒 如果同时拥有&e火辣&f效果，或是处于燃烧状态，那么造成的伤害&a翻倍&f。"
+				"可由食用&8死神辣条&f、&8附魔下界合金辣条&f和&c炽热辣条&f，或是含&c魔鬼椒粉&f调味的辣条获得。"
+				""
+				"{@pagebreak}"
+				"&e经验杀手 (Experience Plunderer)&f：拥有此效果后，在击杀生物后会额外掉落经验球，掉落的经验球受效果等级影响。"
+				"可由食用&6地沟油辣条&f，或是含&6精炼地沟油&f或是&9附魔之瓶&f调味的辣条获得。"
+				""
+				"&e不死庇佑 (Undying Benediction)&f：拥有此效果期间死亡，则原地复活，将生命值恢复到最大值，并移除自身所有负面效果和此效果。该效果无法叠加生效。"
+				"可由食用&6不死&a辣条&f，或是含&6不死&a粉尘&f调味的辣条获得。"
+				""
+				"&e嗜血 (Blood Sucker)&f：拥有此效果时，造成伤害可&c吸血&f，吸血比例与效果等级相关。"
+				"可由&c血魔辣条&f，或是含&c血魔椒粉&f调味的辣条获得"
+				""
+				"&e熔岩漫步者 (Lava Walker)&f：拥有此效果在&6熔岩&f上行走时，会在脚下生成黑石"
+				"可有食用&6烈焰粉或是熔岩芥末&f所调味的辣条获得"
+				""
+				"&e坚冰防御（Cryo shield）&f：拥有此效果受到攻击时可以&a对攻击者附加缓速效果&r，如果受到火辣，燃烧或是投射物效果可以把&a部分伤害反弹&r给攻击者"
+				"{@pagebreak}"
+				"&c火辣 (Hot)负面效果&f：如果效果为1级，则每秒对玩家造成伤害，不致死，如果大于1级则&a伤害翻倍且会导致死亡&f"
+				" 玩家在拥有此效果可&b免疫细雪带来的冰冻伤害&f。"
+				"如果拥有该效果的为其他生物，则效果与玩家获得2级效果一致。"
+				"可由食用各类辣椒概率，或是碰触到&c魔鬼椒/血魔椒&f获得。"
+				""
+				"&c诅咒 (Curse)负面效果&f：拥有此效果的玩家如果攻击任何生物实体，无论&c血量多寡一律设置成一心&f（2点）"
+				"无法通过牛奶消除，只能食用&d净化辣条&f解除或是等待持续时间结束"
+				"可由食用&4邪恶辣条&f获得"
+			]
+			id: "20955A83FA2F73EB"
+			rewards: [{
+				id: "3EBC66C7BBEB2133"
+				item: "ltc2:pepper_red"
+				type: "item"
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "673E060CBDAA95A2"
+				type: "checkmark"
+			}]
+			title: "吃个辣条还有好处？"
+			x: 0.0d
+			y: 7.1875d
+		}
+		{
+			dependencies: ["4C13AC1E0A191427"]
+			description: [
+				"饕餮尤魔：在你做出所谓的辣金后，你还需要锻造模板才能做出装备"
+				"而辣金装备所需的锻造模板比较特殊，获取第一个需要一个下界合金的锻造模板"
+				"然后像下图一样在一格水池旁摆上一圈的&a任意的野生辣椒&f 如果没有的话需要携带剪刀去剪取野生生成的辣椒"
+				""
+				"放好后将下界合金的锻造模板&a丢入&f水池中"
+				"{image:touhou_tinker_fantasy:textures/pepper.png width:175 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"如果成功会听到音效与火焰粒子，无论成功失败，野生辣椒皆会转换成枯木且下方方块也会转换成砂土。"
+				"你放心，锻造模板的成功率是&m&61000%&f&r100%"
+				"有了第一个就能像是下界合金模板一样一换二了。"
+			]
+			hide_dependency_lines: true
+			id: "5424F1DFBA4BF069"
+			size: 1.0E-4d
+			tasks: [{
+				id: "69023CF933318B88"
+				title: "升级！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C13AC1E0A191427"]
+			description: [
+				"辣金升级的装备都有共同点，即有着比&a下界合金更高的耐久跟效果&f 并且会被猪灵主动捡起。"
+				"和下界合金一样，不会被熔岩烧毁"
+				"并且，还带有额外效果"
+				"&b防具&f：至少装备一件的情况下猪灵变为中立单位，也不会收到冷冻伤害"
+				"&a工具&f：在进行攻击时皆有20%给攻击目标施加5秒的&c火辣&f效果"
+			]
+			hide_dependency_lines: true
+			id: "0E4E65F4645B52E6"
+			size: 0.001d
+			tasks: [{
+				id: "2E0B8E206865AF7F"
+				title: "火辣辣的心啊，火辣辣的情！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D638937058FD863"]
+			description: [
+				"你可能注意到有些辣条没有任何的合成配方，那是因为那些辣条或多或少有着&a强力的效果&f"
+				"获得途径只有一个，那就是在结构中的宝箱当中获取&a辣条福袋&f后抽取"
+				"分别有三种"
+				""
+				"装着贡献者辣条的&e辣条福袋X&f，各个都有着强力的效果"
+				" 可在&a废弃矿井&f、&a地牢&f、&a堡垒遗迹藏宝室&f和&a疣猪兽棚的宝箱&f找到。"
+				""
+				""
+				"装着臻藏品级辣条的&c辣条福袋Y&f，可使原版的效果时长延长至高达&a15分钟&f，同时回复的饥饿度饱食度也更高！"
+				"可在&a丛林神庙&f、&a沙漠神殿&f、&a埋藏的宝藏&f和&a堡垒遗迹桥&f的宝箱找到、"
+				""
+				""
+				"装着圣馐品级辣条的&6辣条福袋Z&f，包含的个个都是带有强力道具或是效果的辣条。"
+				"可在&a远古城市&f、&a末地城&f和&a堡垒遗迹藏宝室&f的宝箱找到。"
+			]
+			hide_dependency_lines: true
+			id: "69BA64AC3475243C"
+			rewards: [{
+				id: "583DE4902D46D33A"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.01d
+			tasks: [{
+				id: "5A94BE4F04088272"
+				title: "沟槽的抽卡还在追我"
+				type: "checkmark"
+			}]
+			x: -11.4375d
+			y: 13.40625d
+		}
+		{
+			dependencies: ["69BA64AC3475243C"]
+			description: [
+				"不死粉尘：调味用，可为调味后的辣条给予&e不死庇佑&f效果。"
+				"食用不死辣条或是研磨不死图腾可以获得。"
+				"不死辣条只能从辣条福袋Z当中获取"
+			]
+			hide_dependency_lines: true
+			id: "61EDCE2A16285878"
+			rewards: [{
+				id: "5B21EA0BC1D78D10"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.01d
+			subtitle: "是不死图腾，他出了一个不死图腾！"
+			tasks: [{
+				id: "34A96FD603B384B9"
+				item: "ltc2:undying_dust"
+				type: "item"
+			}]
+			x: -9.09375d
+			y: 13.1875d
+		}
+		{
+			dependencies: ["69BA64AC3475243C"]
+			description: [
+				"时间旅人的表盘：右键可以改变昼夜，有着120点耐久，可附魔经验修补。"
+				"可通过食用时间辣条获得"
+				"时间辣条只能透过辣条福袋Z获取"
+			]
+			hide_dependency_lines: true
+			id: "4C190281665C5C17"
+			rewards: [{
+				id: "27188339047142B6"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.01d
+			subtitle: "我很怀疑这是不是从假面骑士时王那顺来的"
+			tasks: [{
+				id: "661C9283232A3D50"
+				item: {
+					Count: 1
+					id: "ltc2:time_traveler_watch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "绯红之王！"
+			x: -9.15625d
+			y: 15.15625d
+		}
+		{
+			dependencies: ["69BA64AC3475243C"]
+			description: [
+				"万恶之源：可用于将辣金剑升级成本模组最强武器&a衰恶之剑&f"
+				"由食用邪恶辣条获取"
+				"邪恶辣条只能透过辣条福袋Z获取"
+			]
+			hide_dependency_lines: true
+			icon: "ltc2:evil_latiao"
+			id: "11B13E6BDF07E4AE"
+			rewards: [{
+				id: "70BD66A7B1FEBCBC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.01d
+			tasks: [
+				{
+					id: "0CAB8E100BF2AB09"
+					item: "ltc2:evil"
+					type: "item"
+				}
+				{
+					id: "165C67B379BB97B9"
+					item: "ltc2:evil_latiao"
+					type: "item"
+				}
+			]
+			title: "唯一用处"
+			x: -9.0625d
+			y: 11.625d
+		}
+		{
+			dependencies: [
+				"0E4E65F4645B52E6"
+				"69BA64AC3475243C"
+				"20955A83FA2F73EB"
+			]
+			description: [
+				"饕餮尤魔：就这些啦，也没有啥更多的东西了，无非就是辣条自动化什么的，那种东西你自己去问河童他们。"
+				"记得你说好的报酬啊，不然我可会把你吞噬掉的"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "58BED5CAFA121AA1"
+			rewards: [{
+				id: "0D1CDF472D7EA8DA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DE7206A1CF0EF15"
+				title: "大功告成"
+				type: "checkmark"
+			}]
+			x: 9.3125d
+			y: 0.53125d
+		}
+		{
+			dependencies: ["58BED5CAFA121AA1"]
+			description: [
+				"我看看....."
+				"嗯？做的挺不错嘛，怎么说，有兴趣来刚欲同盟当个厨子？"
+				"没有？啧，行吧 之后如果有多的辣条可以过来跟我换，我可以给你点好东西。"
+				"(每个版本大概都会加入新交易）"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "495EA23CBEEF0910"
+			rewards: [
+				{
+					id: "38711DCDF41F2298"
+					item: "ltc2:latiao_bonus_bag_x"
+					type: "item"
+				}
+				{
+					id: "3DDA8183377273FC"
+					item: "ltc2:latiao_bonus_bag_y"
+					type: "item"
+				}
+				{
+					id: "3816BDF1B19601D0"
+					item: "ltc2:latiao_bonus_bag_z"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "38D6AACCFDF4417F"
+					item: "ltc2:delicacy_pepper_complained_latiao"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4897E99BA16DE3C2"
+					item: "ltc2:diamond_latiao"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "11009CC52F6ADB75"
+					item: "ltc2:evil_latiao"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6E0C82002F9A3334"
+					item: "ltc2:treasure_cleanse_latiao"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B605C775EBD1102"
+					item: "ltc2:delicacy_underground_oil_latiao"
+					type: "item"
+				}
+			]
+			title: "大吃特吃！"
+			x: 11.3125d
+			y: 0.53125d
+		}
+		{
+			dependencies: ["58BED5CAFA121AA1"]
+			description: [
+				"饕餮尤魔：刚欲同盟仓库就这些东西，你看上哪个就直接拿走吧。"
+				"记得之后补上报酬就好。"
+				"嗯？辣条算哪门子的报酬？唉仓库里面那些东西抢一抢就有了，辣条这玩意还不一定有呢。"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "0D2EADBC39D5D39D"
+			tasks: [{
+				id: "3268E33BAE9CEB1C"
+				title: "以物易物"
+				type: "checkmark"
+			}]
+			x: 11.3125d
+			y: 2.03125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "minecraft:oak_log"
+			id: "25BE95891F383507"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69152C14DF9282D6"
+				table_id: 2616247779118221838L
+				type: "choice"
+			}]
+			subtitle: "基本辣条换基本素材，别耍赖！"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0846E943233DE042"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:ordinary_latiao_base"
+					}
+				}
+				title: "Any #ltc2:ordinary_latiao_base"
+				type: "item"
+			}]
+			title: "基本辣条换取木材"
+			x: 13.5625d
+			y: 0.53125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: ["我相信你石头储量肯定够，所以我就不放了。"]
+			hide_dependency_lines: true
+			icon: "minecraft:sand"
+			id: "7EFE7AD4C470FED1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2084F8E41253F24F"
+				table_id: 2372266533532473228L
+				type: "choice"
+			}]
+			subtitle: "基本辣条换基本素材，别耍赖！"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "3172939C69648A97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:ordinary_latiao_base"
+					}
+				}
+				title: "Any #ltc2:ordinary_latiao_base"
+				type: "item"
+			}]
+			title: "基本辣条换取其他方块"
+			x: 13.5625d
+			y: 2.03125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "tconstruct:seared_bricks"
+			id: "10A7C133C1FF66B6"
+			rewards: [{
+				count: 32
+				id: "6ECDC25430F7CC7C"
+				item: "tconstruct:seared_bricks"
+				type: "item"
+			}]
+			subtitle: "唉反正我这用不上，给你了"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "03E44321F87024F3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:flavourable_latiao"
+					}
+				}
+				title: "Any #ltc2:flavourable_latiao"
+				type: "item"
+			}]
+			title: "貌似是铁匠铺用的玩意"
+			x: 15.8125d
+			y: 0.53125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [
+				"饕餮尤魔：你等等，这个可不能让你随便拿了，虽然我们用不上但我还是知道矿物的重要性的。"
+				"你用抽的算了。"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "2326FB14555E8C7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "289C22002DE4BAD0"
+				table_id: 7730550622846439684L
+				type: "random"
+			}]
+			subtitle: "这玩意你得用抽的，不然就给我吃保底！"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "1FF1D723C38DBA51"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:ordinary_latiao_base"
+					}
+				}
+				title: "Any #ltc2:ordinary_latiao_base"
+				type: "item"
+			}]
+			title: "基本辣条换取矿物"
+			x: 13.5625d
+			y: 3.53125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [
+				"饕餮尤魔：什么?你真的很缺这种矿物？ 不行。"
+				"我是说，得加qia啊呸 ，加辣条。"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "31581778FAC6018C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37B34E3515F19EF3"
+				table_id: 7730550622846439684L
+				type: "choice"
+			}]
+			subtitle: "保底魅力时刻"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "3C4D27E51BDDEE84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:ordinary_latiao_base"
+					}
+				}
+				title: "Any #ltc2:ordinary_latiao_base"
+				type: "item"
+			}]
+			title: "基本辣条换取矿物"
+			x: 13.5625d
+			y: 4.53125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "create:andesite_alloy"
+			id: "39F9EADBCE21A171"
+			rewards: [{
+				count: 16
+				id: "290A86F8FB14F5FF"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "唉反正我这用不上，给你了"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "77C529BBA721DA62"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:flavourable_latiao"
+					}
+				}
+				title: "Any #ltc2:flavourable_latiao"
+				type: "item"
+			}]
+			title: "貌似是河童那边的素材"
+			x: 15.8125d
+			y: 2.03125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: ["拿走拿走，畜生界跟旧地狱这边看起来像是能种吗？"]
+			hide_dependency_lines: true
+			icon: "minecraft:wheat_seeds"
+			id: "6E1FE66F67D7F15E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30464BBEA633473C"
+				table_id: 622697450414953736L
+				type: "choice"
+			}]
+			subtitle: "唉无所谓了，反正用不着"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7B7B6F1DF06F354A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:ordinary_latiao_base"
+					}
+				}
+				title: "Any #ltc2:ordinary_latiao_base"
+				type: "item"
+			}]
+			title: "种子？我这怎么会有种子？"
+			x: 13.5625d
+			y: 6.03125d
+		}
+		{
+			dependencies: ["6558F41737F46D20"]
+			description: ["寒霜椒生长在较寒冷的群系。"]
+			hide_dependency_lines: true
+			id: "0ADCDFA3234D8510"
+			tasks: [{
+				id: "720CD205E89D5790"
+				item: "ltc2:pepper_frost"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BA64AC3475243C"]
+			description: ["附魔师辣条：使用后获取虚弱效果并获取&a辣条修复V&r附魔书，除此之外还会额外获得任意9个&a最高等级的附魔书&r"]
+			hide_dependency_lines: true
+			id: "01497BC011F2FDD4"
+			size: 0.1d
+			subtitle: "芝士就是力量"
+			tasks: [{
+				id: "6AD196F9654F5E70"
+				item: "ltc2:enchanter_latiao"
+				type: "item"
+			}]
+			x: -6.1875d
+			y: 11.6875d
+		}
+		{
+			description: [
+				"饕餮尤魔：如果你不想要满地图找野生辣椒的话，可以做点辣椒催生粉"
+				"拿着催生粉对地板右键后会在&a5x5的范围内生成5-8株野生辣椒&r，需要&a其下方方块为对应的方块&r（如下界的辣椒需要灵魂沙）"
+				""
+				"所以只要你的骨头够多你可以不用再满世界到处跑了。"
+				""
+				""
+				"记得用&a剪刀剪取一些野生辣椒&r，我还有个重要的事情得跟你讲。"
+			]
+			id: "3A8CAB50032C1B9C"
+			size: 0.01d
+			tasks: [{
+				id: "24C12E8C16779506"
+				item: "ltc2:pepper_fertilizer"
+				type: "item"
+			}]
+			x: 7.8125d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DD6CE4CB6B07A16"]
+			description: [
+				"饕餮尤魔：如果你你觉得单一调味粉给的效果不够，你&a想要同时获得更多效果&r而又不想要吃好几个辣条的话。"
+				""
+				"幽匿薄荷是你的选择。"
+				""
+				"作为调味料时会使该辣条获得清凉风味，有清凉风味的辣条可以同时接受两种不同的额外调味粉（需要分两次调味）"
+				""
+				"至于怎么获取？去打某个&9找人全靠听声音的原版地底生物&r就会掉了。"
+			]
+			hide_dependency_lines: true
+			id: "13815399A0EA95DD"
+			size: 0.01d
+			subtitle: "鱼翅熊掌？我选择ALL！"
+			tasks: [{
+				id: "2C9F89FF649E8C1D"
+				title: "我全都要.jpg"
+				type: "checkmark"
+			}]
+			x: -4.6875d
+			y: 5.0d
+		}
+		{
+			description: [
+				"饕餮尤魔：辣条工艺给你的附魔新增了一种全新的附魔&e【辣条修复】&r"
+				""
+				"简单来说，附上后放置在你的副手，当你&a食用辣条后会回复副手装备的耐久度&r"
+				""
+				"总共有着1到5等的辣条修复，你在&a附魔台只能取得最高4等的辣条修复&r。"
+				""
+				""
+				"{ \"text\": \"最高等级的辣条修复需要你去找附魔师的作品\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01497BC011F2FDD4\" } }"
+			]
+			id: "546608EBFCD31C1B"
+			size: 0.01d
+			tasks: [{
+				id: "0CC9D492536983BB"
+				title: "经验修补？辣条修补！"
+				type: "checkmark"
+			}]
+			x: -3.78125d
+			y: -7.90625d
+		}
+		{
+			description: [
+				"饕餮尤魔：辣条工艺新增了两种全新村民职业，分别为&a辣条王子&r与&a调味师&r"
+				"而与他们交易你会用到&a辣焱玉&r这种特殊的宝石。"
+				""
+				"而这种宝石只有两种获取方式，接下来要介绍的特殊方式就是其中一种：【辣椒转换仪式】。"
+				"&7注意，辣椒转换仪式是一次性的。"
+				""
+				"想要创造这种结构需要你在一格水的周围全部放下&a野生的辣椒植株&r"
+				"像是之前记录的这张图一样。"
+				"{image:touhou_tinker_fantasy:textures/pepper.png width:150 height:100 align:center}"
+				"&7辣椒种类没有限制，可以都用同样或是不同样的"
+				""
+				"当然，你要用哪种野生辣椒植株都是无所谓的，只要他是&a辣条工艺的野生辣椒&r就可以了。"
+				""
+				"你问我野生的辣椒植株哪里拿？&e 剪刀是个好东西。&r"
+				"{@pagebreak}"
+				"随后往水里投入所需要转换的素材就可以了"
+				""
+				"需要特别注意的是，&a转换并非100%成功&r，当你投入物品后听到&m铁砧&r音效且冒出火焰粒子即为转换成功，反之则失败。"
+				"&7如果失败并不会消耗转换的物品"
+				""
+				"但是无论是否成功 方块都会发生以下变化"
+				"辣椒植株：变为枯萎的灌木。但会掉落相应的辣椒"
+				"植株下方土地：变为砂土"
+				"水：写作干枯，&m但实际上不会发生变化&r"
+				"{@pagebreak}"
+				"当前可转化的配方如下："
+				""
+				"绿宝石/绿宝石砖  >  辣焱玉/辣焱玉砖 &a 95%概率&r"
+				""
+				"骨粉  >  2x辣椒催生粉 &a 85%概率&r"
+				""
+				"火爆辣椒粉  >  4x火药 &a 85%概率&r"
+				""
+				"远古升级锻造模板  >  辣金升级锻造模板 &m&61000%&r&a100%概率&r"
+				""
+				"恒星整合组件 > 南星（匠魂材料） &a50%概率&r"
+				""
+				"马玉灵块 > 矿物树苗 &410%概率&r"
+			]
+			id: "59B0C56EA1B666FD"
+			size: 0.01d
+			tasks: [{
+				id: "1CFEF6670F0793EE"
+				title: "辣椒转换仪式"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"饕餮尤魔：为你介绍辣条工艺新增的两种村民交易类别"
+				"&a辣条王子&r与&e调味师&r。"
+				"{@pagebreak}"
+				"&a辣条王子：&f工作方块为辣条烤炉，提供以下交易内容"
+				""
+				"绿宝石(钱币）交换各种可合成辣条"
+				""
+				"辣焱玉交换各种可合成辣条"
+				""
+				"辣条交换辣焱玉"
+				""
+				"当&a辣条王子&f的等级来到大师时，&a必定给出辣条福袋Y的交易选项！&r"
+				""
+				"{@pagebreak}"
+				"&e调味师：&r工作方块为调味台，提供以下交易内容"
+				""
+				"绿宝石（钱币）交换各种可合成调味粉"
+				""
+				"辣焱玉交换各种可合成调味粉"
+				""
+				"调味粉交换辣焱玉"
+				""
+				"当&e调味师&r的等级来到大师时，&e必定给出幽匿薄荷的交易选项！&r"
+			]
+			id: "68BF18C4FB01835B"
+			size: 0.01d
+			tasks: [{
+				id: "05DDAD50D83E4B4F"
+				item: "ltc2:pyrospicy_jade"
+				type: "item"
+			}]
+			title: "“热腾腾”的宝石"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2DD6CE4CB6B07A16"]
+			description: [
+				"饕餮尤魔：在你将一些特殊材料作为调味料参入辣条后，食用会发生一些特殊事件。这些效果的强度与你食用的辣条等级，辣条效果相关。目前可触发的事件有这些..."
+				""
+				"&5末龙&r：在原地生成与辣条食用获得效果相同的滞留药水云。&m谁家广域化&r"
+				"&7透过添加龙息获得"
+				""
+				"&e治疗：&r回复玩家一定量的血量。"
+				"&7透过添加闪烁的西瓜片获得"
+				""
+				"&d净化：&f清除玩家身上所有负面效果。"
+				"&7透过添加净化粉获得"
+				"&4 注意，妖怪化会被该效果清除。"
+				""
+				"&1回响：&f传送到上一个死亡地点，如果不曾死亡则传送到出生点。"
+				"&7透过添加回响碎片获得。"
+				""
+				"&6点燃：&f点燃自身一段时间。"
+				"&7透过添加燧石获得。"
+				""
+				"&9经验：&f赋予一定量的经验。"
+				"&7透过添加经验瓶获得。"
+				"{@pagebreak}"
+				"目前还有三种效果无法获取。"
+				"&e雷击：&f如果头顶没有方块，则在原地生成一道闪电。"
+				"&7透过添加？？？获得。 "
+				""
+				"&8矿化：&f将脚下的石头/深板岩/下界岩转换为随机矿石。"
+				"&7透过添加？？？获得。"
+				""
+				"铁卫：生成一个铁傀儡"
+				"&7透过添加？？？获得。"
+			]
+			hide_dependency_lines: true
+			id: "3C1544CD83C88386"
+			size: 0.01d
+			tasks: [{
+				id: "5B5FD5DADBEB423C"
+				title: "随机事件"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			description: ["矿石树苗现在也可以用玛玉灵块+辣椒转换仪式来获取了，但是概率很低，只有10%"]
+			id: "54AE0C1B0F0713BD"
+			shape: "rsquare"
+			tasks: [{
+				id: "6613B4D30256BE71"
+				item: "twilightforest:mining_sapling"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "ae2:certus_quartz_crystal"
+			id: "4D1DB9E4121F962B"
+			rewards: [{
+				count: 32
+				id: "6D3038F9112BD240"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			subtitle: "唉反正我这用不上，给你了"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "51A07C71AD53F507"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:flavourable_latiao"
+					}
+				}
+				title: "Any #ltc2:flavourable_latiao"
+				type: "item"
+			}]
+			title: "貌似是天什么人那边的素材"
+			x: 15.8d
+			y: 3.6d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D2EADBC39D5D39D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:arcane_essence"
+			id: "7C814FE71E84A9F9"
+			rewards: [{
+				count: 8
+				id: "4F2C58EDBB071434"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			subtitle: "唉反正我这用不上，给你了"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "58A28D98F779130C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ltc2:flavourable_latiao"
+					}
+				}
+				title: "Any #ltc2:flavourable_latiao"
+				type: "item"
+			}]
+			title: "貌似是魔法使那边的素材"
+			x: 15.75d
+			y: 4.65d
+		}
+	]
+	title: "血池地狱遗址(辣条)"
+}

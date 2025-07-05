@@ -1,0 +1,42 @@
+{
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "attributeslib"
+      }
+    ],
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.08,
+        "operation": "multiply_total",
+        "attribute": "minecraft:generic.max_health",
+        "unique": "tconstruct.modifier.yousei",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+  
+      },
+      
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.25,
+        "operation": "addition",
+        "attribute": "attributeslib:prot_shred",
+        "unique": "tconstruct.modifier.yousei",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

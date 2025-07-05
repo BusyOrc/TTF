@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "hmag:ender_executor",
+      "weight": 12
+    },
+    {
+      "name": "hmag:banshee",
+      "weight": 12
+    },
+    {
+      "name": "hmag:crimson_slaughterer",
+      "weight": 5
+    }
+  ]
+}

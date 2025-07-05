@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "07BC96063B44095F"
+	group: "756D1B6269D2C725"
+	icon: "armourers_workshop:skin-library"
+	id: "07BC96063B44095F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["第一步是制作造型方块，这是很多后续合成配方的基础材料，其次是使用造型方块制作时装模板，后续会用到"]
+			icon: "armourers_workshop:skin-cube"
+			id: "054A7E7F9C4C41B8"
+			rewards: [{
+				count: 8
+				id: "0764655923A85B0F"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2B92B3BBE1059800"
+					item: "armourers_workshop:skin-cube"
+					type: "item"
+				}
+				{
+					id: "19E43F73FD9A9E44"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["054A7E7F9C4C41B8"]
+			description: [
+				"资源库是读取本地文件中的时装，而全球资源库则是可以获取其他玩家分享的，制作完成的时装并下载到本地文件"
+				""
+				"下载好以后，在资源库里放入时装模板，选择想要的时装点击加载即可"
+				""
+				"加载好的时装可以被安装到盔甲或武器上，也可以直接装备在身上（ctrl+p），推荐使用后者的方法，即直接装备，因为可以随意切换"
+			]
+			icon: "armourers_workshop:skin-library"
+			id: "3441BA058015CEA0"
+			rewards: [{
+				count: 4
+				id: "449B296F2C33903B"
+				item: "quark:azalea_bookshelf"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "335665B63D830804"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "3805201F2714240E"
+					item: "armourers_workshop:skin-library-global"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3441BA058015CEA0"]
+			description: ["使用镶嵌工作台，可以镶嵌时装到特定物品上，如果想移除的话使用肥皂即可"]
+			icon: "armourers_workshop:skinning-table"
+			id: "2A051090E45ACBB4"
+			rewards: [{
+				id: "32B3006F2D524350"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "3026C42DA54C8B9F"
+					item: "armourers_workshop:soap"
+					type: "item"
+				}
+				{
+					id: "45CC0A63886C19FE"
+					item: "armourers_workshop:skinning-table"
+					type: "item"
+				}
+			]
+			title: "镶嵌与移除"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3441BA058015CEA0"]
+			description: ["可以给模特换上任意服装作为装饰"]
+			icon: "armourers_workshop:mannequin"
+			id: "689B82624402EAB8"
+			rewards: [{
+				count: 5
+				id: "07CBD036AA54A86C"
+				item: "tconstruct:cobalt_reinforcement"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DE82371081FE14B"
+					item: "armourers_workshop:mannequin"
+					type: "item"
+				}
+				{
+					id: "258E25B9206161AC"
+					item: "armourers_workshop:mannequin-tool"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3441BA058015CEA0"]
+			description: [
+				"部分时装为特定的装饰方块，这些装饰方块本身并没有任何功能，但是可以将其链接到其他的功能方块上来让其获得其他方块的功能（例如：箱子，机械动力的机器，AE的机器）"
+				""
+				"创建链接方法：先右键需要链接的功能方块，例如箱子，或热力的机器，然后再右键时装方块。链接完成后，右键时装方块即可打开相应的功能方块UI"
+				""
+				"所有时装通常仅起到装饰作用，并无其他用途，但是在特定情况下可以&a让建筑内部更加美观的同时兼顾功能性&r"
+			]
+			icon: "armourers_workshop:armourers-hammer"
+			id: "2FC609FFD0BF7CBB"
+			rewards: [{
+				count: 5
+				id: "50C467D922369E8B"
+				item: "tconstruct:cobalt_reinforcement"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "545A7390FBE6A055"
+					item: "armourers_workshop:armourers-hammer"
+					type: "item"
+				}
+				{
+					id: "0CF5D3155C33D56C"
+					item: "armourers_workshop:linking-tool"
+					type: "item"
+				}
+			]
+			title: "方块连连看"
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "时装工坊"
+}

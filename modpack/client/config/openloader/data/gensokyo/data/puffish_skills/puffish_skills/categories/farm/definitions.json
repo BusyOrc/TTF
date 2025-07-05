@@ -1,0 +1,366 @@
+{
+	"starter": {
+		"title": "+10%挖掘速度",
+		"description": "消耗技能点：§a1\n§d战斗的胜负有时候在棋局外。\n",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"cost":1,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+				
+			}
+		],
+		"metadata": {
+			"icon": "x8d0hit3cvhjbho6"
+		}
+	},
+	"fortune": {
+		"title": "+1时运",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"cost":18,
+		"description":"消耗技能点：§a18",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fortune",
+					"value": 1,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"stamina": {
+		"title": "+20%耐力",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "alexsmobs:orcas_might"
+			}
+		},
+		"cost":2,
+		"description":"消耗技能点：§a2",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+				
+			}
+		]
+	},
+	"+2%resis": {
+		"title": "+2%抗性",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"cost":12,
+		"description":"消耗技能点：§a12",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"+5%shovel_speed": {
+		"title": "+10%铲子挖掘速度",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":5,
+		"description":"消耗技能点：§a5",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+				
+			}
+		]
+	},
+	"+5%pickaxe_speed": {
+		"title": "+10%镐子挖掘速度",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"description":"消耗技能点：§a6",
+		"cost":6,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+				
+			}
+		]
+	},
+	"+0.5step": {
+		"title": "+0.5抬腿高度",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":9,
+		"description":"消耗技能点：§a9",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:step_height_addition",
+					"value": 0.5,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"+1reach": {
+		"title": "+1触及距离",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":10,
+		"description":"消耗技能点：§a5",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "create:extendo_grip"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:entity_reach",
+					"value": 1,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"+5%mhp": {
+		"title": "+5%最大生命值",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":15,
+		"description":"消耗技能点：§a7",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "modulargolems:gold"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+				
+			}
+		]
+	},
+	"+5%fallreduction": {
+		"title": "+5%摔落伤害减免",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":4,
+		"description":"消耗技能点：§a4",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 0.05,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"+5regeneration": {
+		"title": "+6最大生命值",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":15,
+		"description":"消耗技能点：§a8",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "minecraft:regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	},
+	"health+3": {
+		"title": "+3最大生命值",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"cost":8,
+		"description": "消耗技能点：§a5",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "172tw34zcx9g6pa7"
+		}
+	},
+	"+3%dmg_reduction": {
+		"title": "+3%总伤害减免",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"cost":20,
+		"description":"消耗技能点：§a10",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "l2damagetracker:damage_reduction",
+					"value": -0.03,
+					"operation": "addition"
+				}
+				
+			}
+		]
+	}
+
+}

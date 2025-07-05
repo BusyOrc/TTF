@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "tconstruct:knightslime_ingot"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "mushroom_daydream:knightslime"
+}

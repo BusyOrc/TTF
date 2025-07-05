@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "hmag:crimson_slaughterer",
+      "weight": 15
+    },
+    {
+      "name": "hmag:melty_monster",
+      "weight": 10
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+
+[common]
+	#Allow the Wandering Traders to sell items from Latiao Craft 2.
+	WanderingTrader = true
+	#Allow the Warden to drop items from Latiao Craft 2.
+	WardenDrop = true
+	#Allow the Strider Traders to sell items from Latiao Craft 2.
+	StriderDrop = true
+	#The Evil Sword can use skill
+	EvilSwordSkill = true
+	#The count of enchanted books obtained after consuming Enchanter Latiao
+	#Range: 1 ~ 100
+	EnchanterBookCount = 10
+

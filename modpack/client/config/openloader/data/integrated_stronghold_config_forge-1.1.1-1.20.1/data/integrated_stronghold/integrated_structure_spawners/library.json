@@ -1,0 +1,12 @@
+{
+  "mobs": [
+    {
+      "name": "hmag:necrotic_reaper",
+      "weight": 10
+    },
+    {
+      "name": "hmag:imp",
+      "weight": 10
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+
+#List of entity configurations
+[[entities]]
+	entity = "minecraft:creeper"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:knocking", "champions:wounding", "champions:paralyzing", "champions:molten"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:silverfish"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:creeper_girl"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:knocking", "champions:wounding", "champions:paralyzing", "champions:molten"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:ender_dragon"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:molten", "champions:reflective"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:wither"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "touhou_little_maid:fairy"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:reflective","champions:magnetic"]
+	affixList = ["champions:magnetic", "champions:reflective",
+ "champions:hasty", "champions:dampening", "champions:paralyzing"]
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "hmag:crimson_slaughterer"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:lively"]
+	affixList = ["champions:arctic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:alraune"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:enkindling"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:hornet"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:reflective"]
+	affixList = ["champions:hasty"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:melty_monster"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:wounding"]
+	affixList = ["champions:arctic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:necrotic_reaper"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:snow_canine"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:arctic"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:dullahan"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:harpy"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:knocking"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:drowned_girl"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:hasty"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:ender_executor"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:molten", "champions:lively"]
+	affixList = ["champions:infested", "champions:magnetic", "champions:arctic", "champions:enkindling"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:banshee"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:wither_skeleton_girl"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:zombie_girl"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:jiangshi"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:skeleton_girl"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:jack_frost"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:arctic", "champions:adaptable"]
+	affixList = ["champions:enkindling"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:slime_girl"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:imp"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:hasty"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+
+[[entities]]
+	entity = "twilightforest:naga"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:knocking", "champions:wounding"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:lich"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:reflective", "champions:adaptable"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:minoshroom"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:dampening", "champions:adaptable"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:hydra"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:enkindling", "champions:adaptable"]
+	affixList = ["champions:magnetic","champions:dampening"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:knight_phantom"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:lively", "champions:adaptable"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:ur_ghast"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:lively", "champions:adaptable"]
+	affixList = ["champions:magnetic","champions:dampening"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:alpha_yeti"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["champions:arctic", "champions:adaptable"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "twilightforest:snow_queen"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:arctic", "champions:adaptable","champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ender_guardian"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ignis"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:dampening", "champions:lively"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:netherite_monstrosity"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:molten", "champions:lively"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:the_harbinger"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:paralyzing", "champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:the_leviathan"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:hasty", "champions:wounding"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+
+[[entities]]
+	entity = "cataclysm:ancient_remnant"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:wounding"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:maledictus"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:kobolediator"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:scylla"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:dampening"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:tofu_gandlem"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:tofucreeper"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:tofu_golem"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:tofuspider"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:shudofuspider"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "tofucraft:tofuslime"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "hmag:ghastly_seeker"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+
+[[entities]]
+	entity = "meetyourfight:swampjaw"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["champions:adaptable","champions:knocking"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "meetyourfight:bellringer"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "meetyourfight:dame_fortuna"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "meetyourfight:rosalyne"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:warden"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:naga"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:ferrous_wroughtnaut"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:umvuthi"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:frostmaw"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:bluff"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "irons_spellbooks:keeper"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "irons_spellbooks:dead_king_corpse"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "irons_spellbooks:archevoker"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "irons_spellbooks:necromancer"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+

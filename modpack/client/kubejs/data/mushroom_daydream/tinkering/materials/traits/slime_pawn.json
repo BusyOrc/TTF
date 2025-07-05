@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:upgrading"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mushroom_daydream:overmarch"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:overslime"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+
+["Frost Pepper / 霜寒椒"]
+	#Does the Frost Pepper crop freeze nearby entities / 霜寒椒植株是否会冰冻附近生物
+	EffectCropPepperFrost = true
+	#Does the Wild Frost Pepper freeze nearby entities / 野生霜寒椒是否会冰冻附近生物
+	EffectWildPepperFrost = true
+
+["Naga Jolokia / 魔鬼椒"]
+	#Does the Naga Jolokia crop apply the Hot effect to nearby entities / 魔鬼椒植株是否会向附近生物施加火辣效果
+	EffectCropPepperJolokia = true
+	#Does the Wild Naga Jolokia apply the Hot effect to nearby entities / 野生魔鬼椒是否会向附近生物施加火辣效果
+	EffectWildPepperJolokia = true
+
+["Bloody Pepper / 血魔椒"]
+	#Does the Bloody Pepper crop apply the Hot effect to nearby entities / 血魔椒植株是否会向附近生物施加火辣效果
+	EffectCropPepperBloody = true
+	#Does the Wild Bloody Pepper apply the Hot effect to nearby entities / 野生血魔椒是否会向附近生物施加火辣效果
+	EffectWildPepperBloody = true
+
+["Complained Pepper / 悲怨椒"]
+	#Does the Complained Pepper crop apply the Weakness effect to nearby entities / 悲怨椒植株是否会向附近生物施加虚弱效果
+	EffectCropPepperComplained = true
+	#Does the Wild Complained Pepper apply the Weakness effect to nearby entities / 野生悲怨椒是否会向附近生物施加虚弱效果
+	EffectWildPepperComplained = true
+
+["Jalapeno / 火爆辣椒"]
+	#Chance to obtain Jalapeno by igniting a Red Pepper Plant with Gunpowder / 通过火药点燃红辣椒植株获取火爆辣椒的概率
+	#Range: 0.01 ~ 1.0
+	JalapenoObtainedChance = 0.6
+	#Minimum Jalapeno count obtained by igniting a Red Pepper Plant with Gunpowder / 通过火药点燃红辣椒植株获取火爆辣椒的最小数量
+	#Range: 0 ~ 127
+	MinJalapenoCount = 2
+	#Maximum Jalapeno count obtained by igniting a Red Pepper Plant with Gunpowder / 通过火药点燃红辣椒植株获取火爆辣椒的最大数量
+	#Range: 1 ~ 128
+	MaxJalapenoCount = 4
+	#Chance to obtain Jalapeno by igniting a Wild Red Pepper with Gunpowder / 通过火药点燃野生红辣椒获取火爆辣椒的概率
+	#Range: 0.01 ~ 1.0
+	JalapenoObtainedChanceWild = 0.6
+	#Count obtained by igniting a Wild Red Pepper with Gunpowder / 通过火药点燃野生红辣椒获取火爆辣椒的数量
+	#Range: 0 ~ 128
+	JalapenoCountWild = 1
+

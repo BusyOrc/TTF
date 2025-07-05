@@ -1,0 +1,14 @@
+
+  {
+    "type": "tconstruct:modifier_salvage",
+    "modifier": "sakuratinker:magic_shield",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+
+      {
+        "tag": "tconstruct:modifiable/armor"
+      }
+    ]
+  }

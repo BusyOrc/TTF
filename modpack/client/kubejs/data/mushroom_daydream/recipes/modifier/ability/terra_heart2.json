@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+
+        {
+          "item": "artifacts:crystal_heart"
+        },
+        {
+          "item": "minecraft:sculk_shrieker"
+        }
+
+  ],
+  "level": 2,
+  "result": "mushroom_daydream:terra_heart",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

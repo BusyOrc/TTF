@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3D5B1E0E3DF4CEED"
+	group: "70B4907D74D7EF03"
+	icon: "touhou_little_maid:wireless_io"
+	id: "3D5B1E0E3DF4CEED"
+	images: [
+		{
+			alpha: 170
+			height: 17.0d
+			image: "touhou_tinker_fantasy:textures/yukari.png"
+			rotation: 0.0d
+			width: 26.0d
+			x: -14.75d
+			y: 0.5d
+		}
+		{
+			click: "https://www.mcmod.cn/post/2433.html"
+			height: 2.0d
+			hover: ["点击前往MC百科"]
+			image: "create:block/chain_signal_box"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.5d
+			y: 12.0d
+		}
+		{
+			click: "https://www.mcmod.cn/post/2433.html"
+			height: 5.0d
+			image: "touhou_little_maid:item/wireless_io"
+			order: -1
+			rotation: -45.0d
+			width: 5.0d
+			x: -16.5d
+			y: 12.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B27A51B1B48D320"]
+			description: [
+				"&d紫：那么先自我介绍一下,幻想乡的贤者之一 八云紫。"
+				"&d这次的异变需要你的协助，在这段期间需要你的帮助了  当然也不会让你做白工的&r"
+				""
+				"&d我这里就给予你机械动力所谓的火车相关概念与烈焰人燃烧室的更多运用吧....."
+			]
+			icon: "create:track"
+			id: "0875FC210DC8E7B1"
+			rewards: [{
+				id: "6499D7E5D065629E"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "我寻思你这（指图片）也不是火车吧？"
+			tasks: [{
+				id: "0188163A7080EEFB"
+				title: "我能给你的不止所谓的“火车”。"
+				type: "checkmark"
+			}]
+			x: -27.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0875FC210DC8E7B1"]
+			description: [
+				"&d紫：首先，这个坚固板的配方你看一眼。这个用量相对没有这么大，但是是火车这个结构的关键道具。"
+				"&d也是我接下来要和你讲述的燃烧室用法必不可少的物品之一。"
+				""
+				"&d制作好后对着&e黄铜机壳&d使用就能使其成为&e列车机壳&d了。"
+				""
+				"&d我让我的式神来跟你讲其他用法好了，主要是我懒~"
+			]
+			id: "4DC8A3E20077C809"
+			rewards: [{
+				count: 12
+				id: "722D84FF233750A4"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "767E3A287292FD84"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "原材料"
+			x: -27.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4DC8A3E20077C809"]
+			description: [
+				"&e蓝：你好，我叫做八云蓝，是紫大人的式神。"
+				""
+				"&e那么我就不进行所谓的废话了，紫大人命令我教导你关于机械动力附属：附魔工业的相关教学，我尽量简洁的让你听懂。"
+				""
+				"&e这个模组可以使你实现特定附魔大量生产自动化，更能实现突破上限的附魔。"
+				""
+				"&e首先先把这个附魔指南制作出来吧，这个物品是你的第一步。"
+			]
+			id: "62173C241A09F8E6"
+			subtitle: "虽然很好用，但是这包你能使用到的机会很小。"
+			tasks: [{
+				id: "7A9370D72F794D3D"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			title: "知识就是力量"
+			x: -31.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4DC8A3E20077C809"]
+			description: [
+				"&6橙：你好，我叫做橙！嗯？为什么不叫做八云橙？我也不知道！"
+				""
+				"&6总而言之蓝大人叫我来跟你说明关于机械动力：中央厨房的部分"
+				"&6.....(翻笔记），嗯！是叫做这个附属模组没错！"
+				""
+				"&6总而言之先做出这个所谓的【烹饪指南】吧！"
+				""
+				"{@pagebreak}"
+				"&6橙：跟蓝大人一样，按着对烈焰人燃烧室下蹲右键可以让燃烧室转变为炉灶！"
+				""
+				"&6可以右键进入GUI设定配方（可以使用JEI设定），并且变为炉灶后&a动力臂也可以对上方的厨锅互动了！"
+				"&6并且炉灶还是可以进入燃烧或是超级燃烧模式！进入这两个模式还能为厨锅的烹饪加速！"
+				"&m&7拿来熔炼金属的温度拿来做菜。。。。"
+				""
+				"&6不止厨锅，就算炉灶本身也能在进入燃烧模式进行肉类的烹饪，但要注意如果进入超级燃烧模式的话把上方的肉类都烧掉了！"
+			]
+			id: "523CE426076F44A5"
+			rewards: [{
+				count: 8
+				id: "39351DAE353485D4"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "悲报：妖怪们的归家的厨具目前尚无法自动化。"
+			tasks: [{
+				id: "627075D02093B93E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				tags: ["cooking_guide"]
+				type: "item"
+			}]
+			title: "这是什么？豪吃！"
+			x: -27.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4DC8A3E20077C809"]
+			description: [
+				"&d紫：想要火车能够到处跑，轨道是必须的，每一格都需要一个列车轨道铺设"
+				""
+				"&d所以我非常建议你活用从河童那边学到的知识来创造产线。"
+				""
+				"&d放置了第一个轨道后可以&a右键轨道进入批量铺设模式&d，然后在目标点右键即可批量铺设（消耗等量轨道）"
+				""
+				"&d这个模式下轨道可以进行单次最高90度的转弯，且如果副手有着方块会在轨道下方是空气方块的情况下铺设。"
+				"&o&7如果副手使用机械动力的金属梁铺设的话可以获得完美贴合轨道的装饰，但是金属梁会没有碰撞方块，仅为模型。"
+				""
+				""
+				"&d轨道也可以在合理的范围内向上或是向下铺设呢。"
+				""
+				"{@pagebreak}"
+				"&e特殊机制【白给的轨道！】:"
+				"&d你的轨道末端如果是下界传送门的话，会在下界也出现一小段的轨道方便铺设，且&a经过这个轨道的火车会直接进入下界&d（如传送实体般瞬间传送。）"
+			]
+			id: "7239188031B8BCAF"
+			subtitle: "整地的时间到了"
+			tasks: [{
+				count: 32L
+				id: "2590296815770A70"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "伟大航道"
+			x: -23.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6574539106FD5221"]
+			description: [
+				"&d紫：那么这些知识够用了，我们先来创造你的第一台火车吧。"
+				""
+				"&d首先使用列车站选择创建列车选项，接着附近的轨道会有&a蓝色高亮处&d，使用列车机壳对其&a右键可以创建转向架&d，也就是你火车的底盘，底盘当然可以不止一个。"
+				""
+				"&d接下来记得在&a上方放上一个列车驾驶台&d，以及你所喜爱的火车设计，记得&a使用强力胶将所有方块连接起来&d。"
+				""
+				"&d都建造完后就可以进入列车站的GUI选择完成建造了。这时候你的火车应该就能开了。"
+				""
+				"&d&a单纯将火车的停在列车站附近是无法将火车拆解的&d，需要你在&a靠近列车站的时候按住跳跃键&d，这时火车会自己缓慢入站而不需要你控制。停好后火车会自动将上方的列车门打开，可以在&a列车站上更改使哪个方向的门打开&d。"
+			]
+			icon: "create:steam_whistle"
+			id: "2DCE16BBB2EB0755"
+			rewards: [{
+				id: "4176EF1FBC7AF6D7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "25B54A792BB7624C"
+				title: "我是！火车王！"
+				type: "checkmark"
+			}]
+			title: "幻想乡没有巴士，但有火车了"
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7239188031B8BCAF"]
+			description: [
+				"&d紫：需要建设在火车上使用，可以供玩家使用或是特定条件下的实体使用"
+				""
+				"&d每个火车必须&a需要至少一个列车驾驶台才能创建成功&d，玩家本身可以直接右键进入操作模式。"
+				""
+				"&d进入操作模式后无法移动，经验条会更改显示为速度条，按下移动键可以移动火车，可以透过&a滚轮控制速度上限&d。"
+				"&7列车的移动方向取决于列车驾驶台的方位。"
+				""
+				"&d除了玩家，列车驾驶台前可以放上坐垫或是烈焰人燃烧室，坐垫上的生物或是燃烧室里的烈焰人能够在&a满足特定条件下帮助你驾驶火车&d。"
+				""
+				"&d若是你的火车结构上包含蒸汽笛可以使用crtl键鸣笛"
+				"&7关于火车的隐藏进度有着很多。给我点钱我考虑给你点提示。"
+			]
+			id: "3B05543954ECBD34"
+			tasks: [{
+				id: "5C7B04451F33FC53"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B05543954ECBD34"]
+			description: [""]
+			id: "49232E5A27671053"
+			optional: true
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2E0E860A3D914715"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			title: "你真给啊"
+			x: -20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["49232E5A27671053"]
+			description: [
+				"&d紫：有三个隐藏进度，我不会直接告诉你，但是会给你提示。"
+				""
+				"&a1.&d如果你不遵守自己设置的信号规则的话。。。。"
+				""
+				"&a2.&d如果你的列车出车祸并且有生命离世的话。。。。"
+				""
+				"&a3.&d如果你的列车又出车祸但是这次不是跟人而是跟车的话。。。。"
+				""
+				"&d看我干什么，我能给你的提示就这些了。"
+			]
+			hide_text_until_complete: true
+			id: "062C656F6B20956F"
+			optional: true
+			subtitle: "可公开的情报："
+			tasks: [{
+				id: "15EB5D3E08010CAD"
+				title: "那我也不好藏着掖着了"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3B05543954ECBD34"]
+			description: [
+				"&d紫：列车站需要你先右键附近的列车设定为停靠点。随后可以放置在附近的任何位置。"
+				""
+				"&d放置好后右键打开GUI，在列车站上无火车停靠时只能选择创建列车选项。"
+				""
+				"&d创建完成后可以再次打开列车站的GUI选择完成组装，这时的火车会从方块转变为&a动态结构。"
+				""
+				"&d如果有火车在列车上停靠。则列车站的选项改为拆解列车，&a该列车会从动态结构返回方块化。"
+			]
+			id: "6574539106FD5221"
+			rewards: [{
+				id: "32B49528A4651562"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "下一站：“幻想乡”。"
+			tasks: [{
+				id: "4A0D9D2C2A08991A"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2DCE16BBB2EB0755"]
+			description: [
+				"&d紫：火车有着以下特性，记得不止这些，&a动态结构能够做到的火车当然做到。"
+				""
+				"&a1.&d火车行驶中，如果轨道末端是下界传送门的话可以直接传送到下界，且下界也会有少许的铁轨以防脱轨。"
+				""
+				"&a2.&d火车如果行驶途中&a进入未被加载的区块并不会停止行驶，而是会继续根据行程列表继续行驶&d，但是火车上的器械不会工作请注意。"
+				""
+				"&a3.&d 火车进站时同样可以使用移动接口进行补货或是卸货的操作，发挥你的想象力。"
+			]
+			id: "20AAAA611780D7CE"
+			tasks: [{
+				id: "3E4755DE6C7B6DDC"
+				title: "火车的特性。"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20AAAA611780D7CE"]
+			description: [
+				"&d紫：将时刻表交给司机就可以使火车自己根据&a时刻表上的指令自行行驶。"
+				""
+				"&d你说哪来的司机？，&a坐在坐垫上或是有烈焰人的燃烧室在列车控制器前都能算是司机"
+				"&d别问他们怎么识字的，问就是机械动力的神之力。"
+				""
+				"&d时刻表能够拿在手上设置指令，指令包含："
+				"&e前往特定列车站，在车站等待数秒，玩家是否入座，是否有货物进入，限制最高速度等....完全可自定义。"
+				""
+				"&d且可以设定为循环模式，即司机会&m996不对，是全年无休的&r&d重复时刻表上的指令。"
+			]
+			id: "111631C4441CD76B"
+			rewards: [{
+				count: 16
+				id: "4B082CBF48E1314C"
+				item: "thermal:nickel_ingot"
+				type: "item"
+			}]
+			subtitle: "总不可能有那么多朋（倪）友（哥）帮你开火车是吧。"
+			tasks: [{
+				id: "39F2688E5ED67EBF"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["111631C4441CD76B"]
+			description: [
+				"&d紫：火车是个典型的实作大于理论的东西，我能教给你的都教给你了，接下来你得自己研究了"
+				""
+				"&d对了 这是这次异变的定金，现在开始你能使用一小部分的隙间了，不过大概只能拿来存放一些小东西吧。"
+				"&7实际为多一个背饰，也就是可以多放一个背包。"
+				""
+				"&d嗯？你研究完就去地灵殿一趟吧，那儿的女主人似乎也在找你呢。我先走了"
+			]
+			icon: "touhou_little_maid:wireless_io"
+			id: "7BF49635489C7E41"
+			rewards: [
+				{
+					count: 32
+					id: "506FE2A56C119FC5"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					command: "/curios add back @s 1"
+					elevate_perms: true
+					id: "4C26428309BD8993"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "火车本身东西并不多。"
+			tasks: [{
+				id: "3C3FE5C2045CF7F1"
+				title: "就这样吧"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2DCE16BBB2EB0755"]
+			description: [
+				"&d紫：很简单，当火车经过列车侦测器面对的轨道时列车侦测器会发出红石信号，仅此而已。"
+				""
+				"&d你也可以对列车侦测器加入过滤器让其侦测到装有特定物品的列车经过才发出红石讯号。"
+			]
+			id: "7FABCD35AB23C066"
+			rewards: [{
+				id: "29B3B083A963CE11"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "火车专用的侦测器，仅此而已。"
+			tasks: [{
+				id: "0ADA3BEED5DF6F0D"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2DCE16BBB2EB0755"]
+			description: [
+				"&d紫：我只能跟你大致介绍，这个包含的讯息太多了，说完异变都结束了。"
+				""
+				"&d先拿着对轨道右键可以设定目标，随后需放置在附近。"
+				""
+				"&d放置后&a司机们&d无法违背列车信号机所设定的方向（具体方向可以查看轨道箭头）"
+				"&d但是可以设置反方向的另一个列车信号机来使该轨道为双向均可行驶。"
+				""
+				"&d可以列车信号机前后的轨道分别视为一段区间，并&a保证一段区间只会有一台列车防止车祸&d。如果后方有列车前来则会使该列车停下直到前方区间无列车后才会行驶"
+				""
+				"&d列车信号机包含的资讯很多，除了查看思索与这条任务，&l我强烈建议你去查询MC百科关于铁路信号系统介绍。"
+				""
+				"&d在这，我帮你开好捷径了，不过我的力量也被异变削弱了，需要你自己前往。"
+			]
+			id: "1CE92DD3B48B3FB0"
+			rewards: [{
+				id: "59EC4EEC14AE9F1D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "这肯定说不完。"
+			tasks: [{
+				id: "60A7E088B762FB81"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["62173C241A09F8E6"]
+			description: [
+				"&e蓝：我相信我不用多说什么，你应该也能猜到这个是干什么的。"
+				""
+				""
+				"&e用法与河童那的分液池基本一致，唯一多的功能为你可以站在上方来使祛魔池吸收你的经验。"
+			]
+			id: "4A5760BA99445AFF"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "51BCE27CA12CD028"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			subtitle: "魔力剥夺？技能剥夺！"
+			tasks: [{
+				id: "78D1B7431B2B123E"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -31.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["62173C241A09F8E6"]
+			description: [
+				"&e蓝：对着烈焰人燃烧室下蹲右键刚刚制作的附魔指南就会使这个燃烧室变为附魔室"
+				""
+				"&e附魔室右键可以进入GUI，在这页面可以放入你想要的附魔书。该附魔书不会消耗（无法从JEI拖入请注意）"
+				""
+				"&e接下来给&a附魔室输入液态经验就可以工作了&e，拿着你需要的装备（匠魂装备无法附魔请注意）"
+				""
+				"&e右键配置好的附魔室就可以使烈焰人开始附魔你的装备，它会消耗液体经验来将配置中的附魔&a复制到你的装备上&e（如果可行）"
+				""
+				"&e如果需要复制附魔书的话请使用接下来要跟你介绍的机器。"
+			]
+			icon: "create:blaze_burner"
+			id: "55AC31966E0F765F"
+			rewards: [{
+				id: "7EDE0CA54E08DC9A"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "我参透了附魔，你输了！"
+			tasks: [{
+				id: "6441B8FDAAAD195E"
+				title: "他的知识量在增长。"
+				type: "checkmark"
+			}]
+			title: "比雾之湖那只妖精聪明。"
+			x: -34.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55AC31966E0F765F"]
+			description: [
+				"&e蓝：输入机械动力：附魔工业的液态经验后，打印机可以帮助你&a复制附魔书或是火车时刻表与命名牌。"
+				""
+				"&e或是可以输入墨水来复印撰写过的书本。"
+				""
+				"&e要复制物品的话需要拿着母版对着打印机右键，接下来放入相应的物品 可为下方的物品复印与母版相同的附魔/行程/命名。"
+				""
+				"&e同样可以复刻夸克模组的古卷，但是需要&b超经验&e。"
+				"&7别急，马上跟你介绍超经验是什么。"
+			]
+			id: "386FDF6CD39B39F4"
+			subtitle: "本质上可以简略为：Crtl+C，Crtl+V。"
+			tasks: [{
+				id: "54E675157BC8EAB7"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -36.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["386FDF6CD39B39F4"]
+			description: [
+				"&e蓝：我相信聪明的你应该不用我说明怎么制作了。我就只简单说明一下他的功用。"
+				""
+				"&e如前文所说，可以配合打印机复制古卷。"
+				""
+				"&e跟可以配合附魔室使用，这样附魔出来的装备会比设定的等级更高一等"
+				""
+				"&e所以你可以先使用古卷升级附魔书再给附魔室使用，创造出原版只能做到时运三，现在能够做到&l量产时运五这种逆天强力效果"
+				""
+				"&e附魔工业差不多就这些了，少，但是实用。"
+				"&e好了，我还有大概&a300多件事情要在今天之内做完&e我就不在这打扰了，如果还想学习更多的话可以去找找橙做自动化料理的部分。"
+			]
+			id: "642FD9D6FB7E4073"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4139447A2299DDB2"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "超越寻常经验，即为超经验！"
+			x: -39.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["523CE426076F44A5"]
+			description: [
+				"&6橙：然后机械动力：中央厨房本身有带来几点变化..."
+				"&6(翻笔记...更用力的翻笔记...)"
+				"&6啊有了，我看看.."
+				"&a1.&6 机械手现在能够使用小刀处理砧板的配方了"
+				""
+				"&a2.&6 动力收割机能够收割农夫乐事的植物了，包含菌落！"
+				""
+				"&a3.&6 把大部分的派修改成农夫乐事的派，即需要容器承装。"
+				""
+				"&a4.&6 篮子现在可以与传送带和动力臂交互！   "
+				""
+				"&6就是这些！我这也没有可以教给你的了！想要知道更多可以去看看其他地方喵！"
+				"&o&7（偷偷把笔记踢走）"
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "7021142C8F9A80F5"
+			rewards: [{
+				id: "6D0B459A9914A62A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E16C15383589296"
+				type: "checkmark"
+			}]
+			title: "机械动力：中央厨房带来的变化！"
+			x: -27.0d
+			y: 15.25d
+		}
+		{
+			dependencies: ["20AAAA611780D7CE"]
+			description: [
+				"&d紫：简单来说 就是邮箱。"
+				"&d放下前需要先右键列车站绑定站点，再放置"
+				"&d放置后可以设定站点名称。"
+				""
+				"&d如果列车上的包裹&e地址&d於邮箱名称相同，则会自动&m&7隙间般的&r&d卸货，反之则会自动送上列车。"
+				""
+				"&7注意：必须要有已配置好的物流网络才可使用，并且列车带有一定的置物台。"
+			]
+			id: "342B68BC80B7132D"
+			subtitle: "於机械动力6.0加入，现在有外卖小哥了！"
+			tasks: [{
+				id: "623B8D3EC346E507"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:postboxes"
+					}
+				}
+				title: "Any #create:postboxes"
+				type: "item"
+			}]
+			title: "邮箱！不是幽香更不是优香！"
+			x: -11.0d
+			y: 10.5d
+		}
+	]
+	title: "艮之境-【八云住所】"
+}

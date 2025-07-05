@@ -1,0 +1,43 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "heatRequirement": "superheated",
+  "topIngredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "catalysts": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "chances": 1.0,
+  "results": [
+    {
+      "item": "minecraft:nether_star",
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+
+["Item Drop Weight Settings for Latiao Bonus Bag Z / 辣条福袋Z 物品抽取权重设置"]
+	#Weight: Evil Latiao / 权重：邪恶辣条
+	#Range: 0 ~ 512
+	WeightEvilLatiao = 5
+	#Weight: Time Latiao / 权重：时间辣条
+	#Range: 0 ~ 512
+	WeightTimeLatiao = 5
+	#Weight: Poseidon Latiao / 权重：海神辣条
+	#Range: 0 ~ 512
+	WeightPoseidonLatiao = 5
+	#Weight: Undying Latiao / 权重：不死辣条
+	#Range: 0 ~ 512
+	WeightUndyingLatiao = 5
+	#Weight: Enchanter Latiao / 权重：附魔师辣条
+	#Range: 0 ~ 512
+	WeightEnchanterLatiao = 5
+

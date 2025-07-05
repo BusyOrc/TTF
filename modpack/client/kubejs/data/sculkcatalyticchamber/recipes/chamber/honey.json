@@ -1,0 +1,34 @@
+{
+  "type": "sculkcatalyticchamber:chamber",
+  "topIngredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "bottomIngredients": [
+    {
+      "tag": "minecraft:fox_food"
+    },
+    {
+      "tag": "minecraft:fox_food"
+    },
+    {
+      "tag": "minecraft:fox_food"
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "chances": 1.0,
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "create:honey",
+      "nbt": {}
+    }
+  ]
+}
