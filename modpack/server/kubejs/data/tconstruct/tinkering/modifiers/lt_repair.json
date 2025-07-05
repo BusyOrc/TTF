@@ -3,7 +3,7 @@
     "modules": [
         {
             "type": "tconstruct:constant_enchantment",
-            "level": 5,
+            "level": 20,
             "name": "ltc2:latiao_mending"
           }
     ],

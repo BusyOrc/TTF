@@ -91,8 +91,8 @@ for(let i of fxxking_knives){event.remove({output:i})}
 //	event.remove({ output: /.*fillet_knife:.*/ })
 
 let aae=
-['advanced_ae:quantum_upgrade_base', 'minecraft:campfire', 'immortalers_delight:oxidized_ancient_stove',
-	 'nethersdelight:blackstone_stove', 'advanced_ae:quantum_helmet','advanced_ae:quantum_chestplate','advanced_ae:quantum_leggings',
+['advanced_ae:quantum_upgrade_base',  
+	 'advanced_ae:quantum_helmet','advanced_ae:quantum_chestplate','advanced_ae:quantum_leggings',
 	'advanced_ae:quantum_boots', 'advanced_ae:swim_speed_card', 'advanced_ae:night_vision_card', 'advanced_ae:flight_drift_card',
 	 'advanced_ae:recharging_card', 'advanced_ae:pick_craft_card', 'advanced_ae:portable_workbench_card', 'advanced_ae:attack_speed_card',
 	  'advanced_ae:walk_speed_card', 'advanced_ae:sprint_speed_card', 'advanced_ae:step_assist_card', 'advanced_ae:jump_height_card',

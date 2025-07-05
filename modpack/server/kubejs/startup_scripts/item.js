@@ -27,9 +27,23 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:beta').displayName("β-河氏体").rarity("epic")
 	event.create('kubejs:gamma').displayName("γ-比氏体").rarity("epic")
 	event.create('kubejs:omega').displayName("ω-雾氏体").rarity("epic")
-	
+
+
+
+
 
 
 	event.create('kubejs:incom_polymer_plate').displayName("半成品聚合物板")
 
 })
+
+
+ItemEvents.modification(event => {
+
+
+	event.modify('simpletomb:grave_key', item => {
+    item.rarity = 'RARE'
+    item.attackDamage=18
+  })
+
+  })

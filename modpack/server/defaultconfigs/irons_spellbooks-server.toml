@@ -1467,15 +1467,15 @@
 		AllowCrafting = true
 
 	[Spells."traveloptics:shadowed_miasma"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:eldritch"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
-		AllowCrafting = true
+		ManaCostMultiplier = 100.0
+		SpellPowerMultiplier = 0.001
+		CooldownInSeconds = 450.0
+		AllowCrafting = false
 
 	[Spells."traveloptics:violent_skreech"]
 		Enabled = true
