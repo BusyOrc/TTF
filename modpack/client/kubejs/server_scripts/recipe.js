@@ -438,8 +438,10 @@ event.shaped('mbd2:tofu_input',
   }
 )
 
+
+
 let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
-     'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine', 'mbd2:border_stablizer']
+     'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine', 'mbd2:border_stablizer', 'mbd2:solar_panel']
 
 for(let i of controllers){
 event.recipes.minecraft.stonecutting(i,'create_wizardry:arcane_casing')

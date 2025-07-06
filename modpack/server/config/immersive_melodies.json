@@ -3,7 +3,7 @@
   "getBufferDelay": 75,
   "maxAudibleDistance": 16,
   "instrumentVolumeFactor": 0.8,
-  "perceivedLoudnessAdjustmentFactor": 0.30,
+  "perceivedLoudnessAdjustmentFactor": 0.3,
   "mobInstrumentFactors": {
     "minecraft:skeleton": 0.1,
     "minecraft:wither_skeleton": 0.1,

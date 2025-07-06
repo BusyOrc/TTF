@@ -7,6 +7,7 @@ event.recipes.create.haunting('minecraft:rotten_flesh','#forge:foods/meat/raw')
 event.recipes.create.splashing(['minecraft:blaze_powder',Item.of('minecraft:blaze_powder').withChance(0.3)],'biomesoplenty:burning_blossom')
 event.recipes.create.filling('alexscaves:radon_bottle',[Fluid.of('chemlib:radon_fluid',250),'minecraft:glass_bottle'])
 
+
 event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose_quartz', 'chemlib:polyvinyl_chloride_plate']).keepHeldItem()
 
 //event.recipes.create.filling('youkaishomecoming:blood_bottle',[Fluid.of('biomesoplenty:blood',250),'minecraft:glass_bottle'])
@@ -63,7 +64,13 @@ event.custom(
         "nbt": {}
       },
       {
-        "item": "createaddition:biomass_pellet"
+        "item": "thermal:sawdust"
+      },
+      {
+        "item": "thermal:sawdust"
+      },
+      {
+        "item": "thermal:sawdust"
       }
     ],
     "results": [
@@ -254,69 +261,7 @@ event.recipes.create.sequenced_assembly(
     event.recipes.createDeploying(ICM, [ICM, 'quark:diamond_heart'])
   
 ]).transitionalItem(ICM).loops(5)
-/*
-//创哥
-event.recipes.create.mechanical_crafting('createaddition:creative_energy', [
-  'NSSSN',
-  'SDAVS',
-  'SACAS',
-  'SUAFS',
-  'NSSSN'
-], {
-A: 'createaddition:alternator',
-C: 'kubejs:creative_mechanism',
-S: 'ae2:singularity',
-N: '#forge:storage_blocks/netherite',
-D:'quark:diamond_heart',
-V:'cataclysm:void_core',
-U:'cataclysm:cursium_block',
-F:'cataclysm:music_disc_the_leviathan'
-})
 
-event.recipes.create.mechanical_crafting('create:creative_blaze_cake', [
-  'NSSSN',
-  'SKDMS',
-  'SACES',
-  'SOFRS',
-  'NSSSN'
-], {
-A: 'vanillacookbook:glow_berry_cake',
-D: 'tconstruct:magma_cake',
-E: 'tconstruct:ender_cake',
-F: 'nffgirls:soul_cake',
-C: 'kubejs:creative_mechanism',
-S: 'ae2:singularity',
-N:'create:blaze_cake_base',
-K:'irons_spellbooks:keeper_flamberge',
-M:'cataclysm:ancient_metal_block',
-O:'cataclysm:monstrous_horn',
-R:'alexscaves:resistor_shield'
-})
-
-*/
-
-/*
-//重油轻油洗矿
-event.recipes.create.mixing([
-  '2x chemlib:rubidium_carbonate_dust',
-  Item.of('create:raw_zinc_block').withChance(0.98),
-  Item.of('thermal:raw_lead_block').withChance(0.98),
-  Item.of('thermal:raw_tin_block').withChance(0.98),
-  '5x tconstruct:debris_nugget',
-  Fluid.of('thermal:ender',1000)
-
-],['alexscaves:polymer_plate',Fluid.of('thermal:heavy_oil',500)]).superheated()
-
-event.recipes.create.mixing([
-  '3x chemlib:strontium_chloride_dust',
-  Item.of('tconstruct:raw_cobalt_block').withChance(0.2),
-  Item.of('thermal:raw_silver_block').withChance(0.98),
-  Item.of('thermal:raw_nickel_block').withChance(0.98),
-  Item.of('minecraft:raw_copper_block').withChance(0.98),
-  Fluid.of('thermal:glowstone',1000)
-
-],['alexscaves:polymer_plate',Fluid.of('thermal:light_oil',500)]).superheated()
-*/
 //CD
 event.recipes.create.deploying('minecraft:music_disc_cat',['netmusic:music_cd','betterarcheology:ocelot_fossil']).keepHeldItem()
 event.recipes.create.deploying('minecraft:music_disc_13',['netmusic:music_cd','betterarcheology:creeper_fossil']).keepHeldItem()
@@ -343,16 +288,8 @@ C:'minecraft:rabbit_hide',
 D:'simplehats:rabbitonhead',
 E:'minecraft:rabbit_foot'
 })
-/*
-event.recipes.create.mixing(
-  ['8x minecraft:gold_nugget', '11x minecraft:iron_nugget', '5xtconstruct:debris_nugget',Item.of('tconstruct:debris_nugget').withChance(0.5), '6x minecraft:rotten_flesh'],
-  ['4x quark:moss_paste', 'easy_villagers:villager', Fluid.of('alexscaves:acid',1000), Fluid.of('thermal:heavy_oil',500)]).superheated()
-*/
 
 
-
-
-//event.recipes.create.mixing(Fluid.of("kubejs:magic_fuel",1000),["touhou_little_maid:power_point", "irons_spellbooks:arcane_essence"]).heated()
 
 event.custom(
   {

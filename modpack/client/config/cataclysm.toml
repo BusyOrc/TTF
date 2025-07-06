@@ -594,13 +594,13 @@
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 1.0
+	ScyllaHealthMultiplier = 2.5
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 1.0
+	ScyllaDamageMultiplier = 1.5
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Scylla's prevent attacks from far away Range" = 10.0
+	"Scylla's prevent attacks from far away Range" = 12.0
 	#Scylla's Spear Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Spear Damage" = 14.0
@@ -618,19 +618,19 @@
 	"Scylla's Anchor Damage" = 16.0
 	#Scylla's Healing with out target
 	#Range: 0.0 ~ 1000000.0
-	"Scylla NatureHealing" = 25.0
+	"Scylla NatureHealing" = 50.0
 	#Scylla's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	"Scylla DamageCap" = 22.0
+	"Scylla DamageCap" = 200.0
 	#Scylla's DamageTime
 	#Range: 0 ~ 100
 	"Scylla DamageTime" = 25
 	#Scylla's HP Damage
 	#Range: 0.0 ~ 1000000.0
-	"Scylla's HP Damage" = 0.05
+	"Scylla's HP Damage" = 0.1
 	#Scylla's Spin HP Damage
 	#Range: 0.0 ~ 1000000.0
-	"Scylla's Spin Hp Damage" = 0.07
+	"Scylla's Spin Hp Damage" = 0.14
 	#Scylla's Lightning Storm HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.04

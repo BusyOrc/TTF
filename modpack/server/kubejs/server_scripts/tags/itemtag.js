@@ -189,7 +189,9 @@ for(let i of tr_latiaos)
 event.add('forge:treasure_latiao',i)
 }
 
-event.add("tconstruct:modifiable/held",["mushroom_daydream:gun","mushroom_daydream:tachi","mushroom_daydream:longjian"])
+event.add("tconstruct:modifiable/held",["mushroom_daydream:gun","mushroom_daydream:tachi","mushroom_daydream:longjian","sakuratinker:swift_sword"])
+event.add("tconstruct:modifiable/melee/weapon",["mushroom_daydream:gun","mushroom_daydream:tachi",
+    "mushroom_daydream:longjian","sakuratinker:swift_sword"])
 event.add('forge:salt_blocks',['ltc2:refined_salt_block', 'ltc2:salt_block', 'tofucraft:salt_block'])
 
 event.add("forge:raw_materials/nihilite", 'sakuratinker:nihilite_raw_ore')

@@ -261,15 +261,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["钻石砂纸（更耐用）"]
-			image: "createaddition:item/diamond_grit_sandpaper"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
 			image: "create:item/experience_nugget"
 			rotation: 0.0d
 			width: 1.0d
@@ -1793,27 +1784,6 @@
 			]
 			title: "余烬面粉"
 			x: 15.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4BF9529243515777"]
-			description: ["余烬面粉与糖，生物质搅拌可得到液体燃料生物乙醇，可让烈焰人&b超级燃烧&r"]
-			icon: "createaddition:biomass"
-			id: "411BE9C99F88891A"
-			tasks: [
-				{
-					id: "7311B5CDBA7C3CAB"
-					item: "minecraft:sugar"
-					type: "item"
-				}
-				{
-					id: "157D15F403C78609"
-					item: "createaddition:biomass"
-					type: "item"
-				}
-			]
-			title: "生物乙醇"
-			x: 18.0d
 			y: 13.0d
 		}
 		{

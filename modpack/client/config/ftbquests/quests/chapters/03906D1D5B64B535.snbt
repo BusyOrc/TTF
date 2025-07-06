@@ -33,7 +33,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2D97609AFEA7E2BE"]
+			dependencies: [
+				"2D97609AFEA7E2BE"
+				"6216B7A02E75F9A1"
+			]
 			description: [
 				"灵梦：似乎每天都有外乡人穿越到这里，我已经见怪不怪了，总之还是简单介绍一下。"
 				""

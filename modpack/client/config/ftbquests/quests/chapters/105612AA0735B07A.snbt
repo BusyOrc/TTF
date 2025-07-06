@@ -887,16 +887,10 @@
 		}
 		{
 			dependencies: ["4EEF2A8AEE39570B"]
-			description: ["在工作盆里加热搅拌即可"]
-			icon: "createaddition:biomass_pellet"
+			description: ["锯末加上这两种材料在工作盆里加热搅拌即可"]
+			icon: "minecraft:nether_wart"
 			id: "5FEC865F45EB089F"
 			tasks: [
-				{
-					count: 16L
-					id: "1221849D27644611"
-					item: "createaddition:biomass_pellet"
-					type: "item"
-				}
 				{
 					count: 16L
 					id: "3464B79C49EA8DCF"
@@ -915,11 +909,7 @@
 		}
 		{
 			dependencies: ["5AC71C43FAF1FE17"]
-			description: [
-				"“&a生物质&r的来源相当丰富，不论是多余的木棍还是别的花，农作物加上&a种子油&r都能得到生物质。种子油则只需要任意种子辊压一次即可获得。这种规模的生产就别再手动了，如果还不会的话再去学一下教程。”"
-				""
-				"“生物质最重要的作用是制造&a生物质颗粒&r，除此之外也可以制造生物乙醇作为烈焰人燃烧炉提供&b超级燃烧&r的燃料之一”"
-			]
+			description: ["&a锯末&r，顾名思义，当然要从木材获取，除了磨粉机磨原木之外，锯木机加工生产木板的时候顺便也能产出锯末"]
 			id: "4EEF2A8AEE39570B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -928,9 +918,9 @@
 				type: "random"
 			}]
 			tasks: [{
-				count: 16L
-				id: "7D284480537335B5"
-				item: "createaddition:biomass"
+				count: 32L
+				id: "4E9576A28DB3AD9F"
+				item: { Count: 32, id: "thermal:sawdust" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -2662,6 +2652,8 @@
 				"这种花通过河童的鼓风机&b洗涤&r的话，可以获得烈焰粉，而烈焰粉是可以熔融来得到&c烈焰血&r的"
 				""
 				"如果想要熔融灵浆块却发现缺少烈焰血的话，推荐找一点这种花作为起步材料"
+				""
+				"另外，通过多方块配方产出的烈焰血更多"
 			]
 			id: "42FFAD5AD425A3CA"
 			rewards: [
@@ -2673,8 +2665,8 @@
 				}
 				{
 					count: 4
-					id: "7B726EF933380C63"
-					item: "storagedrawers:bamboo_full_drawers_1"
+					id: "0FC21811B9EFA89B"
+					item: "functionalstorage:cherry_4"
 					type: "item"
 				}
 			]

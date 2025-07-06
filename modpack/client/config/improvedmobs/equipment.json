@@ -207,6 +207,10 @@
     "minecraft:shield": [
       8399,
       1.1255897
+    ],
+    "minecraft:totem_of_undying":[
+      32000,
+      1.0
     ]
   },
   "FEET": {

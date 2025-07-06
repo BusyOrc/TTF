@@ -1,11 +1,14 @@
 {
     "block.mbd2.tofu_input":"多方块输入接口",
-    "block.mbd2.aqua":"水族馆",
-    "block.mbd2.touhou_shrine":"博丽祭坛",
-    "block.mbd2.patch":"不动的大图书馆",
-    "block.mbd2.small_tofu_shrine":"小型豆腐祭坛",
-    "block.mbd2.big_tofu_shrine":"大型豆腐祭坛",
+    "block.mbd2.aqua":"水族馆控制器",
+    "block.mbd2.touhou_shrine":"博丽祭坛控制器",
+    "block.mbd2.patch":"不动的大图书馆控制器",
+    "block.mbd2.small_tofu_shrine":"小型豆腐祭坛控制器",
+    "block.mbd2.big_tofu_shrine":"大型豆腐祭坛控制器",
     "block.mbd2.border_stablizer":"博丽结界稳定器",
+    "block.mbd2.solar_panel":"太阳能板控制器",
+
+
     "mbd2.aqua":"水族馆",
     "mbd2.patch":"不动的大图书馆",
     "mbd2.touhou_shrine":"博丽祭坛",

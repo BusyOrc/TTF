@@ -235,7 +235,7 @@
 			}
 		},
 		"cost":15,
-		"description":"消耗技能点：§a7",
+		"description":"消耗技能点：§a15",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -291,7 +291,7 @@
 			}
 		},
 		"cost":15,
-		"description":"消耗技能点：§a8",
+		"description":"消耗技能点：§a15",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -319,7 +319,7 @@
 			}
 		},
 		"cost":8,
-		"description": "消耗技能点：§a5",
+		"description": "消耗技能点：§a8",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -343,7 +343,7 @@
 			}
 		},
 		"cost":20,
-		"description":"消耗技能点：§a10",
+		"description":"消耗技能点：§a20",
 		"icon": {
 			"type": "item",
 			"data": {

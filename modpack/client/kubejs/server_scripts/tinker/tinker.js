@@ -49,7 +49,24 @@ ServerEvents.recipes(event => {
           }
     )
 
+    //湿海绵
+    event.custom(
+        {
+            "type": "tconstruct:casting_basin",
+            "cast": {
+              "item": "minecraft:sponge"
+            },
+            "cast_consumed": true,
+            "cooling_time": 20,
+            "fluid": {
+              "amount": 1000,
+              "fluid": "minecraft:water"
+            },
+            "result": "minecraft:wet_sponge"
+          }
+    )
 
+event.recipes.create.filling("minecraft:wet_sponge",[Fluid.of("minecraft:water",1000),"minecraft:sponge"])
 
 event.custom(
   {

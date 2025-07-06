@@ -31,46 +31,6 @@
 			y: -2.5d
 		}
 		{
-			height: 2.0d
-			image: "storagedrawers:block/drawers_bamboo_front_2"
-			rotation: 0.0d
-			width: 2.0d
-			x: 4.0d
-			y: 7.0d
-		}
-		{
-			height: 2.0d
-			image: "storagedrawers:block/drawers_cherry_front_1"
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.0d
-			y: 7.0d
-		}
-		{
-			height: 2.0d
-			image: "storagedrawers:block/drawers_jungle_front_4"
-			rotation: 0.0d
-			width: 2.0d
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			height: 2.0d
-			image: "storagedrawers:block/drawers_bamboo_front_4"
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.0d
-			y: 9.0d
-		}
-		{
-			height: 2.0d
-			image: "storagedrawers:item/empty_pulled_drawer"
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: 9.5d
-		}
-		{
 			click: "#61EFB763D2CC53A9"
 			height: 2.0d
 			image: "laserio:item/laser_wrench"
@@ -744,20 +704,22 @@
 				""
 				"其次，还可以细分成1X1,1X2和2X2的，单位空间内总的存储容量在不安装升级的情况下是固定的，对于1X1的完整方块抽屉来说是32组物品（不论是32X16个末影珍珠还是32组原木），只是随着划分的区域不同，每个区域存储的数量也不一样"
 				""
-				"手持物品对着抽屉右键可放入物品，左键拿取1个，潜行左键拿取1组"
+				"手持物品对着抽屉右键可放入物品，左键可拿出物品"
+				""
+				"由于液体抽屉存在大量BUG，已禁用"
 			]
-			icon: "storagedrawers:bamboo_full_drawers_4"
+			icon: "functionalstorage:oak_4"
 			id: "05D96B47A90AB7BE"
 			tasks: [{
-				id: "6073619E4A433834"
+				id: "639CDBA3C4B9E9C0"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "storagedrawers:drawers"
+						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Any #storagedrawers:drawers"
+				title: "Any #functionalstorage:drawer"
 				type: "item"
 			}]
 			title: "抽屉"
@@ -767,63 +729,60 @@
 		{
 			dependencies: ["05D96B47A90AB7BE"]
 			description: [
-				"如果要同时访问多个抽屉，为了推荐使用抽屉控制器"
+				"如果要同时访问多个抽屉，为了推荐使用控制器"
 				""
 				"手持物品右键控制器可直接将物品放入有空位的抽屉，空手右键双击控制器可将身上与抽屉所存相同的物品放入抽屉内"
 				""
-				"正常情况下控制器&a必须和抽屉相连&r，未直接相连的抽屉不会被判定为属于抽屉组，无法通过控制器互动"
+				"正常情况下控制器&a不必和抽屉相连&r，而只需要使用连接工具即可将控制器连接到抽屉，不过存在一个限制——最远连接半径为12"
 				""
-				"如果要远程连接，可使用桥接方块或者远程升级"
+				"链接工具的使用方法：潜行右键，如果对着空气潜行右键为切换模式"
 			]
+			icon: "functionalstorage:storage_controller"
 			id: "26B1A6886D29E0EB"
-			tasks: [{
-				id: "628F23C690A18FF8"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31C2CA3B05F674A7"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "367A70DE5C2046D2"
+					item: {
+						Count: 1
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
-			description: ["与抽屉组相连的情况下，可&a另起炉灶&r输入和输出物品，物品同样能进入抽屉或者从抽屉内提取物品，避免所有物流都集中在抽屉控制器附近"]
+			description: ["在使用连接工具与抽屉组相连的情况下，可&a另起炉灶&r输入和输出物品，物品同样能进入抽屉或者从抽屉内提取物品，避免所有物流都集中在抽屉控制器附近"]
 			id: "4CD964E946FA8DF4"
 			tasks: [{
-				id: "30E677C6F94FEE2B"
-				item: "storagedrawers:controller_slave"
+				id: "31B9343926994505"
+				item: "functionalstorage:controller_extension"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["26B1A6886D29E0EB"]
-			description: ["如果抽屉和控制器有一小段距离，可使用桥接方块连接起来，这样也能被判断为属于同一个抽屉组"]
-			icon: "storagedrawers:oak_trim"
-			id: "261BF63351A7BB67"
-			tasks: [{
-				id: "436EB118FFAFBC31"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "storagedrawers:trim"
-					}
-				}
-				title: "Any #storagedrawers:trim"
-				type: "item"
-			}]
-			title: "桥接方块"
-			x: -4.5d
+			x: -3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["05D96B47A90AB7BE"]
-			description: ["可自定义抽屉不同面的材质，仅提供装饰作用"]
+			description: [
+				"可通过合成来自定义抽屉外观，仅提供装饰作用，没有任何实际作用"
+				""
+				"有多种不同的镶框抽屉，也就意味着能自定义包括控制器在内的各种抽屉方块"
+				""
+				"工作台中合成时只能都放在第一行才能正常合成"
+			]
 			id: "0C3FB5E46E136D94"
 			tasks: [{
-				id: "4ACE6B29DE4CEB66"
-				item: "storagedrawers:framing_table"
+				id: "1476B7CE1FDDCFE1"
+				item: "functionalstorage:framed_2"
 				type: "item"
 			}]
 			x: -4.5d
@@ -832,168 +791,7 @@
 		{
 			dependencies: ["26B1A6886D29E0EB"]
 			description: [
-				"主要介绍相对重要的升级，其他升级可通过JEI查看"
-				""
-				"提示：虽然根据描述，转换升级可自动转换兼容矿物词典的物品（例如低版本里可能有七八种不同模组的铜锭），但在高版本中矿物词典的概念已经日薄西山，并且本整合包统一了所有的矿物，不会出现多种同名称矿物的情况，因此&a该升级可忽略&r"
-				""
-				"并且根据MC百科评论区说法，似乎1.16.5该升级已经无用"
-			]
-			hide_dependent_lines: true
-			id: "1CBE9927C2BCBE50"
-			tasks: [{
-				id: "5CEB0BDA4D11E706"
-				item: "storagedrawers:upgrade_template"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["仅能让单个抽屉远程连接控制器，需要先右键控制器绑定以后再安装到抽屉上"]
-			id: "1AA8AC81D1F96EE7"
-			tasks: [{
-				id: "2CDDEA76C5CB7DFC"
-				item: "storagedrawers:remote_upgrade"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["其他方面同远程升级，但是可以将相连的抽屉作为一个抽屉组一起远程连到控制器上"]
-			id: "0C3D04BB4E4FE3AA"
-			tasks: [{
-				id: "3608C9ADAFD92611"
-				item: "storagedrawers:remote_group_upgrade"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["可以方便地查看大概还差多少物品抽屉会塞满，进度条的形式比起数字形式更易懂"]
-			id: "126881D08AF83548"
-			tasks: [{
-				id: "0896759BB9B97D40"
-				item: "storagedrawers:fill_level_upgrade"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["推荐用在部分持续产出的物品存储上，避免部分物品的过剩导致其他物品停产，或者过多的物品堆积占用大量空间"]
-			id: "6D55EEAE594E1150"
-			tasks: [{
-				id: "490D84C005B4BA4F"
-				item: "storagedrawers:void_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["仅为装饰作用，但也能方便查看物品"]
-			id: "57ACEC653714F63E"
-			tasks: [{
-				id: "1ED620411AB9DF07"
-				item: "storagedrawers:illumination_upgrade"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			description: ["这几个堆叠升级相对来说性价比很高，推荐使用"]
-			id: "5395D488C4312343"
-			tasks: [{
-				id: "24519CDD385D1DDD"
-				item: "storagedrawers:iron_storage_upgrade"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			id: "00E073DDD08134FF"
-			tasks: [{
-				id: "6B9E4D2890F48B7D"
-				item: "storagedrawers:gold_storage_upgrade"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1CBE9927C2BCBE50"]
-			id: "6A2484B5352B3589"
-			tasks: [{
-				id: "415FC7DE4DFEE33A"
-				item: "storagedrawers:emerald_storage_upgrade"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["26B1A6886D29E0EB"]
-			description: [
-				"还有其他种类的钥匙，但大部分情况下作用不能说完全没有，也只能说可以忽略不计"
-				""
-				"而绑定钥匙的功能则相当强，可以&a锁定抽屉&r，让其对应格子只能填充相应物品（即使该物品已经消耗光了，再重新输入时也只会填充到对应格子），&b如果是之前没有装任何物品的空格子，则无法自动填充，只能通过手动的方式&r"
-				""
-				"但是只要在锁定状态下装填过物品，下次就一定会继续装填该物品，不会出现铁锭进入本来该装金锭的抽屉格子里这种情况"
-			]
-			id: "3E6FCA84B243B701"
-			tasks: [{
-				id: "2BB76CD6A112CD88"
-				item: "storagedrawers:drawer_key"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["26B1A6886D29E0EB"]
-			description: ["如果要将抽屉某一格的物品转移到另外的抽屉里，可以使用抽屉分离器，直接分离出其中某一格的抽屉，对于1X1,1X2,2X2的抽屉均有效，手持分离出来的抽屉塞到空的位置即可（对于格子的大小无要求，例如2X2抽屉分离出来的单独抽屉可以塞到空的1X1抽屉内，只要物品不超出上限即可）"]
-			id: "6E2D426984F7B94E"
-			tasks: [{
-				id: "354C584F7C7BAC2C"
-				item: "storagedrawers:drawer_puller"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["6E2D426984F7B94E"]
-			description: ["如果弄丢了一格抽屉，导致有空缺，也可以单独制作分离式抽屉来填补"]
-			id: "4A73029939A8619B"
-			tasks: [{
-				id: "6248832D66DF497C"
-				item: {
-					Count: 1
-					id: "storagedrawers:detached_drawer"
-					tag: {
-						StorageMult: 32
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["26B1A6886D29E0EB"]
-			description: [
-				"压缩抽屉的作用很特殊，可以将输入的物品自动压缩或解压成对应的变体，甚至包括一些正常情况下很难处理的变体，例如："
+				"&b简易&r压缩抽屉的作用很特殊，可以将输入的物品自动压缩或解压成对应的变体，甚至包括一些正常情况下很难处理的变体，例如："
 				""
 				"红砖 和 红砖块"
 				"黏土 和 黏土块"
@@ -1001,7 +799,7 @@
 				""
 				"物品本质上是以薛定谔形态存在于抽屉内，也就是同时以 &m生与死的境界&r 红砖和红砖块的形态存在，&a但是总量不变，物质守恒&r，放进去多少物品，最终提取出来的一定是同样的物品或者相应的物品压缩变体"
 				""
-				"2级的压缩抽屉只能处理成对形态的物品，对于铁锭，金锭需要3级压缩抽屉才能完整收纳，&a否则只会收纳铁锭/铁块，不会有铁粒&r"
+				"简易压缩抽屉只能处理&l成对&r形态的物品，对于铁锭，金锭需要压缩抽屉才能完整收纳，&a否则只会收纳铁锭/铁块，不会有铁粒&r"
 			]
 			id: "62BC1C2E8959ED12"
 			rewards: [{
@@ -1010,8 +808,8 @@
 				xp_levels: 3
 			}]
 			tasks: [{
-				id: "2C61741873A3375E"
-				item: "storagedrawers:compacting_drawers_2"
+				id: "31C7E2DB71A2BE11"
+				item: "functionalstorage:simple_compacting_drawer"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1027,25 +825,12 @@
 				xp_levels: 3
 			}]
 			tasks: [{
-				id: "78F75645B43A7B23"
-				item: "storagedrawers:compacting_drawers_3"
+				id: "0808F11F2D9C3AD7"
+				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
 			x: 0.5d
 			y: 7.0d
-		}
-		{
-			dependencies: ["3E6FCA84B243B701"]
-			description: ["如果需要管理多把钥匙🔑，推荐使用钥匙环"]
-			id: "4665DE83185CFE84"
-			tasks: [{
-				id: "684842B2A6EF70B2"
-				item: "storagedrawers:keyring"
-				match_nbt: false
-				type: "item"
-			}]
-			x: -6.0d
-			y: 8.5d
 		}
 		{
 			description: ["最基础的部件之一，需要先制作未成形的逻辑芯片然后&a烧制&r得到"]
@@ -1106,7 +891,7 @@
 			}]
 			title: "激光节点"
 			x: -2.25d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["58BC2A0ADF73ACF9"]
@@ -1932,6 +1717,233 @@
 			}]
 			x: 17.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["05D96B47A90AB7BE"]
+			description: ["大部分抽屉配方都是一样的，但是&b橡木抽屉有特殊配方&r，即使用1个/2个/4个箱子制作可以得到3种不同的橡木抽屉，消耗材料更少，而且配方简单好记"]
+			id: "333202E5FFD34B4D"
+			tasks: [
+				{
+					id: "43FA77D6C6E66F49"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "452927940060E347"
+					item: "functionalstorage:oak_2"
+					type: "item"
+				}
+				{
+					id: "04F2557CBBF54500"
+					item: "functionalstorage:oak_4"
+					type: "item"
+				}
+			]
+			title: "特殊配方"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05D96B47A90AB7BE"]
+			description: [
+				"单独配置抽屉的工具，对着空气潜行右键可以切换不同的模式"
+				""
+				"如果要使用，只需对着抽屉潜行右键"
+				""
+				"主要的作用还是用来&a锁定抽屉&r"
+			]
+			id: "438300A2220BDA37"
+			tasks: [{
+				id: "6A0115186A439AF3"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			description: ["使抽屉获得类似漏斗的吸入物品的能力"]
+			id: "2C4FBB63D4FE295A"
+			tasks: [{
+				id: "13C9ACC23AB831FD"
+				item: "functionalstorage:puller_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			description: ["让抽屉可从旁边的容器里输入物品"]
+			id: "419498C3C959C04D"
+			tasks: [{
+				id: "5281AE18F18B2650"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			description: ["输出物品到旁边容器"]
+			id: "221D8C043F6AB508"
+			tasks: [{
+				id: "2467593B0B49A037"
+				item: "functionalstorage:pusher_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26B1A6886D29E0EB"]
+			description: [
+				"给抽屉安装升级需要空手潜行右键才能打开抽屉的界面，共4个升级槽"
+				""
+				""
+				"控制器也能安装升级，作用是扩大控制抽屉的范围"
+			]
+			id: "686124C84B60F31D"
+			rewards: [{
+				count: 4
+				id: "41B42411B74DC845"
+				item: "fruitsdelight:persimmon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "278EC9DB9884A618"
+				type: "checkmark"
+			}]
+			title: "抽屉的升级"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			id: "00B0F12F01359112"
+			tasks: [{
+				id: "3EC2FADD1A704CA4"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			id: "40FC55DDEA3A0009"
+			tasks: [{
+				id: "3C795F511E68F0BE"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			id: "23B60B320B0BEE05"
+			tasks: [{
+				id: "02DD92BF5A90422B"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			id: "4D10A2EA45BB3542"
+			tasks: [{
+				id: "1B83D7F73A9E8FF4"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			description: ["销毁多余物品，可用于部分需要持续生产的产线，以避免部分产物过多而导致产线停止工作"]
+			id: "0618D5609FE20438"
+			tasks: [{
+				id: "687B3F971959878B"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["686124C84B60F31D"]
+			description: ["抽屉本身就能输出红石信号，此升级的作用是针对有多格的抽屉（1X2和2X2），可选择某一格进行信号输出"]
+			id: "6EC6C4768D39DAEA"
+			tasks: [{
+				id: "4A6AD62DD801B8F0"
+				item: {
+					Count: 1
+					id: "functionalstorage:redstone_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["26B1A6886D29E0EB"]
+			description: [
+				"特殊抽屉，需要用连接工具左键点击A抽屉来保存频率，然后潜行右键A抽屉和另一个末影抽屉B来建立连接"
+				""
+				"成功建立连接的成对末影抽屉可以互通物品"
+				""
+				"可能物品GUI显示会存在一定问题"
+			]
+			id: "4F8507A187A91CFA"
+			rewards: [{
+				id: "09F873A42687E8AA"
+				item: "thermal:rubberwood_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D6218CC1F7F7FCC"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"需要特别说明的物品：可以储存最多4096件不可堆叠物品。不能打开它，它没有GUI。只能使用自动化来插入和提取。"
+				""
+				"军械柜不支持储存控制器连接，无法通过连接工具进行配置"
+				""
+				"军械柜可以被AE的ME存储总线检索到，且可以通过提高优先级的方式让物品优先进入军械柜"
+				""
+				"AE的网络链接到一个军械柜且优先级较高时，向网络中输入物品会自动将不可堆叠的物品输入到军械柜并在网络中显示，同时可以进行取出放入的交互"
+				""
+				"换句话说，各种仅能堆叠1个的物品才可以进入军械柜，这也是军械柜的意义所在"
+				""
+				"使用建议：用ME存储总线连入ME网络，并且将优先级调整到最高（以保证各种装备，武器等不可堆叠物品能优先进入其中）"
+			]
+			id: "1998E3CDACEDEE7C"
+			rewards: [{
+				id: "7AF9D49093CB8322"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0C635DED0752BBF1"
+				item: "functionalstorage:armory_cabinet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
 		}
 	]
 	title: "物流与仓储"

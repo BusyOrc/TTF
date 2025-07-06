@@ -217,7 +217,7 @@
 				""
 				"在安装新版整合包后，除了转移存档，记得也要转移xaero地图相关缓存文件和已经调整好的options文件，config等文件除非确认可以动，否则尽量不要动"
 				""
-				"整合包安装了超分辨率模组，可以提高低配电脑的帧数，但是考虑到有一些显示BUG，默认关闭状态，有需要的可以根据个人情况启用"
+				"如果需要调整按键的配置，有visual keybinder模组，可以在可视化界面调整每个按键的情况，点击相应的按键即可查看有哪些功能应用了该按键"
 				""
 				"X+C和R+C分别能打开tweakerge和IPN的配置界面，并调整按键，这两个模组的按键无法在系统按键设置里直接调整，需要用前面提到的组合键进到相应的界面"
 			]
@@ -609,34 +609,438 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["6216B7A02E75F9A1"]
+			description: ["以下哪个角色最符合“雾中游泳程度的能力”，“（二创中）琪露诺的好伙伴”这样的描述呢？"]
+			icon: "ars_nouveau:glyph_dispel"
 			id: "0B648EFABB53E90D"
 			max_completable_dependents: 1
 			tasks: [{
 				id: "407064BE713CC7F1"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			title: "问题1"
+			x: -8.5d
 			y: 10.5d
 		}
 		{
 			dependencies: ["0B648EFABB53E90D"]
+			icon: "kubejs:daiyouseis_bomb"
 			id: "441A595A189A0EAF"
 			tasks: [{
 				id: "3CD19ADD6DC5E990"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 10.5d
+			title: "大妖精"
+			x: -7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0B648EFABB53E90D"]
+			icon: "simplehats:julydouble"
 			id: "1739DED6C2997A08"
 			tasks: [{
 				id: "586B06D71CA23F8E"
 				type: "checkmark"
 			}]
+			title: "克劳恩皮丝"
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2D97609AFEA7E2BE"]
+			description: [
+				"你能否正确回答车万角色的相关问题呢？如果回答正确的话有&a丰厚奖励&r"
+				""
+				"但是，机会只有一次，&c如果回答错误的话，没有再次选择的机会&r"
+			]
+			icon: "ars_technica:glyph_fuse"
+			id: "6216B7A02E75F9A1"
+			shape: "rsquare"
+			subtitle: "建议谨慎选择"
+			tasks: [{
+				id: "328E3F690C46DD64"
+				type: "checkmark"
+			}]
+			title: "车万角色大家一起来答一答"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D9ADB4C592C6499"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid_old:yuuka_old"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			id: "5FD2AADF95761C81"
+			tasks: [{
+				id: "36A2F9DE71C7C8E5"
+				type: "checkmark"
+			}]
+			title: "偶像造形术"
 			x: -6.0d
-			y: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3D9ADB4C592C6499"]
+			icon: {
+				Count: 1
+				id: "youkaishomecoming:koishi_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FFA656CFEE1CD3C"
+			tasks: [{
+				id: "0B2B378923DEA82E"
+				type: "checkmark"
+			}]
+			title: "无意识"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6216B7A02E75F9A1"]
+			description: ["以下哪个选项与埴安神袿姬的能力有关？"]
+			icon: "ars_nouveau:glyph_rune"
+			id: "3D9ADB4C592C6499"
+			max_completable_dependents: 1
+			tasks: [{
+				id: "13FEF2F9EBA1E084"
+				type: "checkmark"
+			}]
+			title: "问题2"
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["57A461CE47B6DD80"]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "179CE2C30264EC7E"
+			tasks: [{
+				id: "36538C389985992D"
+				type: "checkmark"
+			}]
+			title: "十六夜咲夜"
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57A461CE47B6DD80"]
+			icon: "youkaishomecoming:lime_ball_danmaku"
+			id: "4FE152A9E97AC711"
+			tasks: [{
+				id: "4E9F428F9D7B64A7"
+				type: "checkmark"
+			}]
+			title: "东风谷早苗"
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6216B7A02E75F9A1"]
+			description: ["以下哪个选项中的角色在东方的官方STG作品（包括小数点作品）中出场次数更多？"]
+			icon: "ars_nouveau:glyph_grow"
+			id: "57A461CE47B6DD80"
+			max_completable_dependents: 1
+			tasks: [{
+				id: "664A8FF1A813B415"
+				type: "checkmark"
+			}]
+			title: "问题3"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3D9ADB4C592C6499"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:sanae_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AF6C43C3CC44F08"
+			tasks: [{
+				id: "6AC8A9D361861E13"
+				type: "checkmark"
+			}]
+			title: "奇迹之力"
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57A461CE47B6DD80"]
+			icon: "touhou_little_maid:broom"
+			id: "640A25C3B6F2136C"
+			tasks: [{
+				id: "55BCE209A551E35E"
+				type: "checkmark"
+			}]
+			title: "雾雨魔理沙"
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["441A595A189A0EAF"]
+			description: [
+				"奖励内容：一套太阳能多方块结构，将控制器放在地上，物品栏里装着其他所需材料，直接用建造器右键即可完成多方块的建造。"
+				""
+				"太阳能多方块仅在白天产生电力，推荐使用储能设备将多余电力存起来"
+			]
+			hide_until_deps_complete: true
+			id: "45C4F08277EDDC62"
+			rewards: [
+				{
+					id: "0FD1A530F85B122C"
+					item: "mbd2:solar_panel"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 9
+					id: "4025208CDFE85AD1"
+					item: "expatternprovider:silicon_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 9
+					id: "5885D147E8547ED8"
+					item: "create:framed_glass"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "02C3DF17571D9758"
+					item: "tconstruct:gold_bars"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7E2C5AD60E282F3D"
+					item: "mbd2:mbd_gadgets"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27ABB8C0917EF4A8"
+					item: "thermal:energy_duct"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4F6A75FADF8B4174"
+				type: "checkmark"
+			}]
+			title: "奖励"
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5FD2AADF95761C81"]
+			description: [
+				"使用方法：控制器连接线缆，终端放置于线缆上，线缆连接驱动器和能源元件，驱动器里面放磁盘"
+				""
+				"这样只需要打开合成终端，就能将物品都存入其中"
+				""
+				"能源元件的作用是存储电力，例如太阳能多方块所提供的电力"
+				""
+				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
+			]
+			hide_until_deps_complete: true
+			id: "69808FAB3B02FC08"
+			rewards: [
+				{
+					count: 2
+					id: "5193D1B734AF1D72"
+					item: "ae2:controller"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "359B7EBE085298A6"
+					item: "ae2:drive"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "03F8443B379E3C42"
+					item: {
+						Count: 1
+						id: "ae2things:disk_drive_16k"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "18E700584E25FFD7"
+					item: "ae2:crafting_terminal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C5F59089EBA415D"
+					item: "ae2:fluix_glass_cable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7194EF1D21DBDA14"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "604502C48CE5C4F2"
+				type: "checkmark"
+			}]
+			title: "奖励"
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["640A25C3B6F2136C"]
+			description: [
+				"奖励道具的用法较为复杂，推荐按W思索，按G在指南中查看使用方法。主要作用：传输各种物品，流体，方便进行自动化"
+				""
+				"样板需要在样板编码终端里进行配方编码，随后放入样板供应器中，等待给机器发配材料。换句话说，只是相当于一个自动搬运工，给机器搬运材料，然后收回产物。"
+				""
+				"在合成终端里下单相应物品即可实现自动生产"
+				""
+				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
+			]
+			hide_until_deps_complete: true
+			id: "7D60534E9538FECE"
+			rewards: [
+				{
+					id: "35DE1E33852F687F"
+					item: "ae2:pattern_encoding_terminal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B1C53C6F981BA39"
+					item: "ae2:import_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "06CF983C66423F66"
+					item: "ae2:export_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79AEBA233C792428"
+					item: "ae2:storage_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "72FFF24E2D524B5C"
+					item: "ae2:blank_pattern"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63AC74673D0949A9"
+					item: "ae2:pattern_provider"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F7C064086A6E087"
+				type: "checkmark"
+			}]
+			title: "奖励"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1739DED6C2997A08"]
+			description: [
+				"克劳恩皮丝是东方Project系列中的官方角色，首次登场于东方绀珠传，担任绀珠传的五面Boss。"
+				""
+				"正确答案为：大妖精"
+			]
+			id: "55C0A12A9B564684"
+			tasks: [{
+				id: "0EF19617FADC2056"
+				type: "checkmark"
+			}]
+			title: "回答错误"
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5AF6C43C3CC44F08"
+				"6FFA656CFEE1CD3C"
+			]
+			description: [
+				"袿姬拥有创造偶像程度的能力，是东方Project系列中的官方角色，首次登场于东方鬼形兽，作为鬼形兽的六面Boss登场。"
+				""
+				"正确答案为：偶像造形术"
+			]
+			id: "5DF6D03F2FF307F9"
+			tasks: [{
+				id: "68E5A972B9AA9000"
+				type: "checkmark"
+			}]
+			title: "回答错误"
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4FE152A9E97AC711"
+				"179CE2C30264EC7E"
+			]
+			description: [
+				"正确答案：雾雨魔理沙。雾雨魔理沙几乎出现在了每一部官方STG作品中，作为主角组之一，登场次数遥遥领先！"
+				""
+				"而咲夜，早苗在许多部作品里并未登场"
+			]
+			id: "116454BDEDDF9871"
+			tasks: [{
+				id: "461CC2B86E0EAB8A"
+				type: "checkmark"
+			}]
+			title: "回答错误"
+			x: -1.5d
+			y: 15.0d
 		}
 	]
 	title: "整合包介绍"

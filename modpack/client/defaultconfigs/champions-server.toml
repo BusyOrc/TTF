@@ -127,13 +127,13 @@
 	[affixes.lively]
 		#The amount of health per second regeneration
 		#Range: 0.0 ~ 1.7976931348623157E308
-		livelyHealAmount = 40.0
+		livelyHealAmount = 60.0
 		#Multiplier to health regeneration when not aggressive
 		#Range: 1.0 ~ 1.7976931348623157E308
-		livelyPassiveMultiplier = 10.0
+		livelyPassiveMultiplier = 25.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
-		livelyCooldown = 3
+		livelyCooldown = 30
 
 	[affixes.molten]
 		#Set to true to have Molten champions not be damaged by water
@@ -156,14 +156,14 @@
 		reflectiveMaxPercent = 0.7
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 120
+		reflectiveMax = 300
 		#Set to true to enable deadly reflected strikes
-		reflectiveLethal = true
+		reflectiveLethal = false
 
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.1
+		magneticStrength = 0.02
 
 	[affixes.wounding]
 		#The percent chance that an attack will wound targets

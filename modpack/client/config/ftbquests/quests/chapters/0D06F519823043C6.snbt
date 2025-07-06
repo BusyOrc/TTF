@@ -71,9 +71,10 @@
 			y: 3.5d
 		}
 		{
+			click: "#"
 			height: 1.0d
-			hover: ["充能器或特斯拉线圈"]
-			image: "createaddition:block/tesla_coil/lightning"
+			hover: ["充能器"]
+			image: "ae2:block/charger"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
@@ -480,6 +481,8 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "3915520144B5E38F"
 				title: "7.1 并非并非非想非非想天之女"
@@ -529,15 +532,11 @@
 			description: [
 				"赛特斯石英充能以后可以用来合成母岩或者福鲁伊克斯水晶，对于母岩来说，除了无瑕母岩以外的母岩最终都会随着晶体生长而变为普通的方块，虽然无瑕母岩也是可以制作的，但可以之后再说。"
 				""
-				""
-				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.12.00.png width:190 height:100 align:center}"
-				"这是新式充能方式，用到了机械动力的&a特斯拉线圈&r"
-				""
 				"&bpipez模组因为有严重BUG已移除，图片里的管道可以用热力的能量管道代替&r"
 				"{@pagebreak}"
 				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.12.38.png width:190 height:100 align:center}"
 				""
-				"这是传统的充能方式，放入AE的充能器中，推荐搭配各种物流手段（除了AE自己的方式，甚至也可以用机械动力的溜槽，漏斗）来实现自动化"
+				"这是基础的充能方式，放入AE的充能器中，推荐搭配各种物流手段（除了AE自己的方式，甚至也可以用机械动力的溜槽，漏斗）来实现自动化"
 				""
 				"{@pagebreak}"
 				"另外，&c非精准采集&r挖掘母岩都会导致母岩&c降级&r，而无瑕母岩挖掘后必定降级，因此想要收集的话，可以考虑使用对应的生产方法来直接合成无瑕母岩。"
@@ -920,7 +919,9 @@
 			dependencies: [
 				"7460A9CBB9212DE8"
 				"61208489A3727A15"
+				"78B3C2822BE5035E"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"基础的终端分为3种，合成，样板编码和样板管理。"
 				""
@@ -2134,7 +2135,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: [
 				"合成终端可以放置在ME线缆上面接入ME网络，用法和tom存储的合成终端类似"
 				""
@@ -2150,7 +2150,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: [
 				"样板编码终端并不能进行正常合成，但是在UI界面里对应槽位放入面板以后可以编写样板"
 				""
@@ -2695,6 +2694,42 @@
 			}]
 			x: 14.5d
 			y: 2.5d
+		}
+		{
+			description: ["天子：你肯定觉得做一个包含所有所需终端的通用终端很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"]
+			icon: "meetyourfight:violet_bloom"
+			id: "78B3C2822BE5035E"
+			rewards: [{
+				id: "70185CBBA8D13949"
+				item: {
+					Count: 1
+					id: "ae2wtlib:wireless_universal_terminal"
+					tag: {
+						crafting: 1b
+						ex_pattern_access: 1b
+						internalMaxPower: 4800000.0d
+						pattern_access: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "119D319F2F277518"
+					item: { Count: 3, id: "ae2:fluix_pearl" }
+					type: "item"
+				}
+				{
+					id: "4AFFF1B6226BCC9F"
+					item: "meetyourfight:violet_bloom"
+					type: "item"
+				}
+			]
+			title: "以物易！物！"
+			x: 9.5d
+			y: -4.0d
 		}
 	]
 	title: "有顶天(AE)"
