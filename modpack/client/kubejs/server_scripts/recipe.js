@@ -438,12 +438,76 @@ event.shaped('mbd2:tofu_input',
   }
 )
 
+event.shaped('3x solarflux:mirror',
+  [
+    'AAA',
+    'BCB'
+  ],
+  {
+    A:'minecraft:glass',
+    B:'ae2:matter_ball',
+    C:'ae2:printed_silicon'
+  }
+)
+event.shaped('2x solarflux:sp_6',
+  [
+    'AAA',
+    'BCB',
+    'BDB'
+  ],
+  {
+    A:'solarflux:photovoltaic_cell_4',
+    B:'solarflux:sp_5',
+    C:'thermal:lumium_block',
+    D:'advanced_ae:quantum_alloy'
+  }
+)
+event.shaped('2x solarflux:sp_7',
+  [
+    'AAA',
+    'BCE',
+    'BDE'
+  ],
+  {
+    A:'solarflux:photovoltaic_cell_5',
+    B:'solarflux:sp_5',
+    C:'thermal:invar_block',
+    D:'advanced_ae:quantum_alloy_block',
+    E:'solarflux:sp_tf.fiery'
+  }
+)
+event.shaped('2x solarflux:sp_8',
+  [
+    'AAA',
+    'BDE',
+    'BDE'
+  ],
+  {
+    A:'solarflux:photovoltaic_cell_6',
+    B:'solarflux:sp_7',
+    D:'advanced_ae:quantum_alloy_plate',
+    E:'solarflux:sp_tf.carminite'
+  }
+)
+
+
+
+
 
 
 let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
-     'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine', 'mbd2:border_stablizer', 'mbd2:solar_panel']
+     'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine', 'mbd2:border_stablizer']
 
 for(let i of controllers){
 event.recipes.minecraft.stonecutting(i,'create_wizardry:arcane_casing')
 }
+
+
+
+
+
+
+
+
+
 })

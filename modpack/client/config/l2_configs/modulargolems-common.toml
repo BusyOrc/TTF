@@ -50,6 +50,8 @@ humanoidGolemSlot = 5
 dogGolemSlot = 4
 #Send force removal message
 sendForceRemovalMessage = true
+#All blockable boss attacks will be able to break shields
+bossBreakShield = true
 
 [modifiers]
 	#Percentage damage reflection per level of thorn

@@ -53,6 +53,7 @@
   },
   "lightmanscurrency": {
     "model_variant": true,
+    "model_variant.locked": false,
     "paygate": true
   },
   "champions": {
@@ -112,6 +113,9 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "hammerlib": {
+    "root": true
   },
   "jadeaddons.lootr": {
     "info": true

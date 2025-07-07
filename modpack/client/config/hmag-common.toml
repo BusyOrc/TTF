@@ -8,7 +8,6 @@
 	ogreAttackBabyTurtles = true
 	enableOgreDestroyBlocks = true
 	spiderNestSummonCaveSpider = true
-	enableMeltyMonsterSetFire = true
 	cursedDollBurnsInDaylight = true
 	kashaAttackVillagers = true
 	kashaAttackBabyTurtles = true
@@ -24,13 +23,13 @@
 	monolithAttackGolems = true
 	monolithAttackVillagers = true
 	monolithAttackIllagers = true
-	#Range: 0.0 ~ 32.0
+	#Range: 0.0 ~ 64.0
 	monolithTargetDistance = 12.0
-	#Range: 0.0 ~ 32.0
+	#Range: 0.0 ~ 64.0
 	monolithBeamAttackDistance = 15.0
-	#Range: 0.0 ~ 32.0
+	#Range: 0.0 ~ 64.0
 	monolithRoarAttackDistance = 3.0
-	#Range: 0.0 ~ 32.0
+	#Range: 0.0 ~ 64.0
 	monolithRoarAttackRange = 2.5
 	crimsonSlaughtererAttackAnimals = true
 	crimsonSlaughtererAttackVillagers = true
@@ -49,6 +48,8 @@
 	giantMummyAttackVillagers = true
 	giantMummyAttackBabyTurtles = true
 	enableGiantMummyDestroyBlocks = true
+	#Range: 0.0 ~ 1.0
+	meltyMonsterSetFireChance = 0.008
 
 	[entity.spawn]
 		#Range: 0.0 ~ 1.0
@@ -89,45 +90,45 @@
 			savagefangSpawnChance = 0.8
 
 		[entity.spawn.height]
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			surfaceMobSpawnMinHeight = 48
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			koboldSpawnMaxHeight = 48
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			lichSpawnMaxHeight = -1
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			ogreSpawnMaxHeight = -1
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			spiderNestSpawnMaxHeight = -1
-			#Range: -1024 ~ 1024
+			#Range: > -2147483648
 			necroticReaperSpawnMaxHeight = 54
 
 [item]
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel0 = 1800
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel1 = 1800
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel2 = 1800
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel3 = 1600
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel4 = 1400
-	#Range: 0 ~ 240000
+	#Range: > 0
 	insomuniaFruitCooldownLevel5 = 1200
 
 [enchantment]
-	#Range: 1 ~ 10
+	#Range: > 1
 	healthBoostMaxLevel = 5
 	healthBoostIsTreasure = true
 	healthBoostIsTradeable = true
 	healthBoostIsDiscoverable = true
-	#Range: 1 ~ 10
+	#Range: > 1
 	waterAspectMaxLevel = 5
 	waterAspectIsTreasure = false
 	waterAspectIsTradeable = true
 	waterAspectIsDiscoverable = true
-	#Range: 1 ~ 10
+	#Range: > 1
 	antiAirMaxLevel = 5
 	antiAirIsTreasure = false
 	antiAirIsTradeable = true
