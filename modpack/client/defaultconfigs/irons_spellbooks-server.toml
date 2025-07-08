@@ -63,7 +63,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -73,7 +73,7 @@
 		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 0.5
+		ManaCostMultiplier =1
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 30.0
 		AllowCrafting = true
@@ -85,7 +85,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 0.9
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -97,7 +97,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.2
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -108,7 +108,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.5
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 18.0
 		AllowCrafting = true
 
@@ -119,7 +119,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 0.8
-		SpellPowerMultiplier = 1.2
+		SpellPowerMultiplier = 1.05
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -129,7 +129,7 @@
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 1.5
 		SpellPowerMultiplier = 0.7
 		CooldownInSeconds = 8.0
 		AllowCrafting = true
@@ -141,7 +141,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -152,7 +152,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.5
-		SpellPowerMultiplier = 1.2
+		SpellPowerMultiplier = 1.15
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -163,7 +163,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.5
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -174,7 +174,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.8
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
@@ -186,7 +186,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
+		SpellPowerMultiplier = 1.3
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -241,7 +241,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 0.5
-		SpellPowerMultiplier = 3.0
+		SpellPowerMultiplier = 1.8
 		CooldownInSeconds = 16.0
 		AllowCrafting = true
 
@@ -274,7 +274,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -285,7 +285,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
+		SpellPowerMultiplier = 1.5
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -296,7 +296,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
+		SpellPowerMultiplier = 1.5
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -307,7 +307,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 80.0
 		AllowCrafting = true
 
@@ -330,7 +330,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -341,7 +341,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -352,7 +352,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -362,7 +362,7 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 1.5
 		SpellPowerMultiplier = 0.7
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
@@ -374,7 +374,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.3
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 45.0
 		AllowCrafting = true
 
@@ -385,7 +385,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.2
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
@@ -396,7 +396,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -407,7 +407,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.2
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -418,7 +418,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -429,7 +429,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
@@ -440,7 +440,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 0.7
-		SpellPowerMultiplier =1.4
+		SpellPowerMultiplier =1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -452,7 +452,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.3
-		SpellPowerMultiplier = 1.8
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -474,7 +474,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
@@ -485,7 +485,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.4
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 2.0
 		AllowCrafting = true
 
@@ -518,7 +518,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -551,7 +551,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 1.2
 		AllowCrafting = true
 
@@ -629,7 +629,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 0.8
-		SpellPowerMultiplier = 1.4
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 8.0
 		AllowCrafting = true
 
@@ -651,7 +651,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 2.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -683,8 +683,8 @@
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 2.2
-		SpellPowerMultiplier = 2.5
+		ManaCostMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 16.0
 		AllowCrafting = true
 
@@ -711,6 +711,17 @@
 		CooldownInSeconds = 35.0
 		AllowCrafting = true
 
+	[Spells."traveloptics:echo_of_the_abyss"]
+		Enabled = true
+		School = "traveloptics:aqua"
+		MaxLevel = 2
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 540.0
+		AllowCrafting = false
+
 	[Spells."irons_spellbooks:planar_sight"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -729,7 +740,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -751,7 +762,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.6
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -763,7 +774,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.2
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
@@ -774,7 +785,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.3
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
@@ -796,7 +807,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 2.5
-		SpellPowerMultiplier = 2.2
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -818,7 +829,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier =2.0
+		SpellPowerMultiplier =1.35
 		CooldownInSeconds = 8.0
 		AllowCrafting = true
 
@@ -829,7 +840,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.0
+		SpellPowerMultiplier = 1.3
 		CooldownInSeconds = 30.0
 		AllowCrafting = true
 
@@ -851,7 +862,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.4
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 3.0
 		AllowCrafting = true
 
@@ -862,7 +873,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.5
-		SpellPowerMultiplier = 2.0
+		SpellPowerMultiplier = 1.5
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
@@ -884,7 +895,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 35.0
 		AllowCrafting = true
 
@@ -896,7 +907,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier =1.4
+		SpellPowerMultiplier =1.2
 		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
@@ -907,7 +918,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
@@ -929,7 +940,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.5
+		SpellPowerMultiplier = 1.25
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -940,7 +951,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.2
-		SpellPowerMultiplier = 2.5
+		SpellPowerMultiplier = 1.5
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -951,7 +962,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.1
+		SpellPowerMultiplier = 1.1
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
@@ -962,7 +973,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 0.8
-		SpellPowerMultiplier = 2.2
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 0.5
 		AllowCrafting = true
 
@@ -984,7 +995,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.2
-		SpellPowerMultiplier = 2.4
+		SpellPowerMultiplier = 1.4
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -995,7 +1006,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.6
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -1040,7 +1051,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.8
+		SpellPowerMultiplier = 1.25
 		CooldownInSeconds = 6.0
 		AllowCrafting = true
 
@@ -1051,7 +1062,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 2.2
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
@@ -1062,7 +1073,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.2
-		SpellPowerMultiplier =1.6
+		SpellPowerMultiplier =1.35
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
@@ -1073,7 +1084,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier =1.6
+		SpellPowerMultiplier =1.2
 		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
@@ -1084,7 +1095,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.3
+		SpellPowerMultiplier = 1.25
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
@@ -1106,7 +1117,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.8
+		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
@@ -1142,7 +1153,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 360.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:meteor_storm"]
 		Enabled = true
@@ -1164,7 +1175,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 17.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:annihilation"]
 		Enabled = true
@@ -1175,18 +1186,18 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 90.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:aerial_collapse"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:nature"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
+		ManaCostMultiplier = 3
+		SpellPowerMultiplier = 0.1
 		CooldownInSeconds = 45.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:venomous_rift"]
 		Enabled = true
@@ -1208,7 +1219,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 900.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:swirl"]
 		Enabled = true
@@ -1230,7 +1241,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 22.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:primal_pack"]
 		Enabled = true
@@ -1241,7 +1252,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 480.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:earthshatter"]
 		Enabled = true
@@ -1264,7 +1275,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:lingering_strain"]
 		Enabled = true
@@ -1275,7 +1286,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	#irons_spellbooks:ender
 	[Spells."traveloptics:rune_swirl"]
@@ -1306,10 +1317,10 @@
 		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
-		AllowCrafting = true
+		ManaCostMultiplier = 1.8
+		SpellPowerMultiplier = 0.9
+		CooldownInSeconds = 60.0
+		AllowCrafting = false
 
 	[Spells."traveloptics:vortex_punch"]
 		Enabled = true
@@ -1317,10 +1328,10 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
+		ManaCostMultiplier = 1.5
+		SpellPowerMultiplier = 1.2
 		CooldownInSeconds = 15.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:orbital_void"]
 		Enabled = true
@@ -1342,7 +1353,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 330.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	#irons_spellbooks:ice
 	[Spells."traveloptics:cursed_revenants"]
@@ -1365,7 +1376,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 18.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:halberd_horizon"]
 		Enabled = true
@@ -1376,7 +1387,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:cursed_blast"]
 		Enabled = true
@@ -1398,7 +1409,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 360.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:sticky_steed_summon"]
 		Enabled = true
@@ -1409,7 +1420,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 1200.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:void_devourer"]
 		Enabled = true
@@ -1442,7 +1453,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:reversal"]
 		Enabled = true
@@ -1450,10 +1461,10 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
-		AllowCrafting = true
+		ManaCostMultiplier = 1.8
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 6.0
+		AllowCrafting = false
 
 	[Spells."traveloptics:the_forgotten_beast"]
 		Enabled = true
@@ -1530,7 +1541,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 420.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:sword_of_the_ancients"]
 		Enabled = true
@@ -1541,7 +1552,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 330.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:nullflare"]
 		Enabled = true
@@ -1552,7 +1563,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 30.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:nocturnal_swarm"]
 		Enabled = true
@@ -1566,7 +1577,7 @@
 		AllowCrafting = true
 
 	[Spells."traveloptics:vigor_siphon"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:blood"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
@@ -1574,7 +1585,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 60.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:eek"]
 		Enabled = true
@@ -1607,7 +1618,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 270.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:rapid_laser"]
 		Enabled = true
@@ -1629,7 +1640,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 540.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:em_pulse"]
 		Enabled = true
@@ -1640,7 +1651,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 45.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."traveloptics:death_laser"]
 		Enabled = true
@@ -1652,3 +1663,25 @@
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
+
+	[Spells."traveloptics:floodgate"]
+		Enabled = false
+		School = "traveloptics:aqua"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 2
+		SpellPowerMultiplier = 0.1
+		CooldownInSeconds = 1800.0
+		AllowCrafting = false
+
+	[Spells."traveloptics:blackout"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.8
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = false

@@ -41,7 +41,7 @@
 	#Range: > 0
 	OwnerMaxMaidNum = 2147483647
 	#These items cannot be placed in the maid backpack
-	MaidBackpackBlackList = ["sakuratinker:tinker_arrow"]
+	MaidBackpackBlackList = []
 	#The entity that the maid will not recognize as targets for attack
 	MaidAttackIgnore = ["dummmmmmy:target_dummy", "nffgirls:hmag_zombie_girl", "nffgirls:hmag_skeleton_girl", "nffgirls:hmag_husk_girl", "nffgirls:hmag_creeper_girl", "nffgirls:hmag_ender_executor", "nffgirls:hmag_stray_girl", "nffgirls:hmag_wither_skeleton_girl", "nffgirls:hmag_drowned_girl", "nffgirls:hmag_hornet", "nffgirls:hmag_necrotic_reaper", "nffgirls:hmag_banshee", "nffgirls:hmag_ghastly_seeker", "nffgirls:hmag_kobold", "nffgirls:hmag_imp", "nffgirls:hmag_harpy", "nffgirls:hmag_slime_girl", "nffgirls:hmag_jiangshi", "nffgirls:hmag_dullahan", "nffgirls:hmag_dodomeki", "nffgirls:hmag_alraune", "nffgirls:hmag_glaryad", "nffgirls:hmag_crimson_slaguhterer", "nffgirls:hmag_cursed_doll", "nffgirls:hmag_redcap", "nffgirls:hmag_melty_monster", "nffgirls:hmag_nightwalker", "nffgirls:hmag_jack_frost"]
 	#The entity that the maid will not hurt when in ranged attack

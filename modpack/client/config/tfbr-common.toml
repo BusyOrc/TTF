@@ -5,7 +5,7 @@
 	naga_entity = "twilightforest:naga"
 
 ["Lich resurrection"]
-	lich_trophy_block = "createaddition:honey_cake"
+	lich_trophy_block = "thermal:spice_cake"
 	lich_ring_block = "create:brass_block"
 	lich_entity = "twilightforest:lich"
 
