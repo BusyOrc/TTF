@@ -1,0 +1,6 @@
+{
+  "fluid": "thermal:refined_fuel",
+  "burnTime": 40,
+  "superHeat": true,
+  "amountConsumedPerTick" : 4
+}

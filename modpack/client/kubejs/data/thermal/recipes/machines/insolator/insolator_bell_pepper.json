@@ -1,0 +1,15 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "ltc2:pepper_sweet"
+  },
+  "result": [
+    {
+      "item": "ltc2:pepper_sweet",
+      "chance": 2.5
+    }
+  ],
+  "energy_mod": 3.5,
+  "water_mod": 2.5,
+  "experience": 0.4
+}

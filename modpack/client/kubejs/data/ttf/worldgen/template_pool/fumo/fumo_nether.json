@@ -32,15 +32,6 @@
       {
         "weight": 1,
         "element": {
-          "location": "ttf:fumo/yamaxanadu",
-          "processors": "minecraft:empty",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
           "location": "ttf:fumo/mizuchi",
           "processors": "minecraft:empty",
           "projection": "rigid",

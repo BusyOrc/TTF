@@ -1,0 +1,203 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:recycle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:weak",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:wither",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:emerald",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:pickup",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:pickup_mending",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:talented",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:size_upgrade",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:slow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:speed",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:sponge",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:float",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:gold",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:quartz",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:netherite",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        },
+        {
+          "function": "minecraft:limit_count",
+          "limit": {
+            "type": "minecraft:uniform",
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7,
+                "max": 13
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_template",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:empty_upgrade",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

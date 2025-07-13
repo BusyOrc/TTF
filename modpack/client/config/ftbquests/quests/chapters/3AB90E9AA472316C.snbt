@@ -1144,6 +1144,7 @@
 				""
 				"&a如果你能发现更优秀的搭配，认为我的推荐不够好，那你应该也不需要看我的推荐了&r，而如果你不知道该如何搭配匠魂材料，那看我的推荐也能稳定退治所有异变"
 			]
+			icon: "farmersdelight:canvas_sign"
 			id: "5E07CD36D8831A86"
 			size: 2.0d
 			tasks: [{
@@ -2969,7 +2970,7 @@
 		{
 			dependencies: ["516D1539751E6B2B"]
 			description: ["参考娜迦，摆放方式完全相同，只是&a需要的物品不一样&r，其他BOSS的情况也类似"]
-			icon: "createaddition:honey_cake"
+			icon: "thermal:spice_cake"
 			id: "4D5AA3ECB960382E"
 			rewards: [{
 				count: 4
@@ -2980,14 +2981,14 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "7742DE4D20B2ED04"
-					item: "createaddition:honey_cake"
-					type: "item"
-				}
-				{
 					count: 8L
 					id: "075EE04C402C0E7C"
 					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "55CB30E4CE2C4747"
+					item: "thermal:spice_cake"
 					type: "item"
 				}
 			]
@@ -3512,6 +3513,218 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "akashictome:tome"
+				tag: {
+					"akashictome:data": {
+						ae2: {
+							Count: 1b
+							id: "ae2:guide"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.ae2.guide\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.guide\"}]}"
+								}
+							}
+						}
+						alchemistry: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"alchemistry.patchouli.book_name\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"alchemistry.patchouli.book_name\"}]}"
+								}
+								"patchouli:book": "alchemistry:alchemistry_book"
+							}
+						}
+						alexsmobs: {
+							Count: 1b
+							id: "alexsmobs:animal_dictionary"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.alexsmobs.animal_dictionary\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.alexsmobs.animal_dictionary\"}]}"
+								}
+							}
+						}
+						ars_nouveau: {
+							Count: 1b
+							id: "ars_nouveau:worn_notebook"
+						}
+						irons_spellbooks: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"Iron's Guidebook\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Iron's Guidebook\"}]}"
+								}
+								"patchouli:book": "irons_spellbooks:iss_guide_book"
+							}
+						}
+						laserio: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "laserio:laseriobook"
+							}
+						}
+						ltc2: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.ltc2.guidebook\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ltc2.guidebook\"}]}"
+								}
+								"patchouli:book": "ltc2:guidebook"
+							}
+						}
+						modulargolems: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "modulargolems:golem_guide"
+							}
+						}
+						nffgirls: {
+							Count: 1b
+							id: "nffgirls:mob_dictionary"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.nffgirls.mob_dictionary\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.nffgirls.mob_dictionary\"}]}"
+								}
+							}
+						}
+						solcarrot: {
+							Count: 1b
+							id: "solcarrot:food_book"
+						}
+						tconstruct: {
+							Count: 1b
+							id: "tconstruct:materials_and_you"
+							tag: {
+								mantle: {
+									book: {
+										current_page: "intro.introduction"
+									}
+								}
+							}
+						}
+						tconstruct_0: {
+							Count: 1b
+							id: "tconstruct:puny_smelting"
+							tag: {
+								"akashictome:definedMod": "tconstruct_0"
+							}
+						}
+						tconstruct_1: {
+							Count: 1b
+							id: "tconstruct:tinkers_gadgetry"
+							tag: {
+								"akashictome:definedMod": "tconstruct_1"
+							}
+						}
+						tconstruct_2: {
+							Count: 1b
+							id: "tconstruct:mighty_smelting"
+							tag: {
+								"akashictome:definedMod": "tconstruct_2"
+							}
+						}
+						tconstruct_3: {
+							Count: 1b
+							id: "tconstruct:fantastic_foundry"
+							tag: {
+								"akashictome:definedMod": "tconstruct_3"
+							}
+						}
+						tconstruct_4: {
+							Count: 1b
+							id: "tconstruct:encyclopedia"
+							tag: {
+								"akashictome:definedMod": "tconstruct_4"
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.tconstruct.encyclopedia\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tconstruct.encyclopedia\"}]}"
+								}
+								mantle: {
+									book: {
+										current_page: ""
+									}
+								}
+							}
+						}
+						thermal: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "thermal:guidebook"
+							}
+						}
+						tofucraft: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.tofucraft.tofu_book\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tofucraft.tofu_book\"}]}"
+								}
+								"patchouli:book": "tofucraft:tofu_book"
+							}
+						}
+						touhou_little_maid: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"patchouli.touhou_little_maid.book.name\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"patchouli.touhou_little_maid.book.name\"}]}"
+								}
+								"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+							}
+						}
+						twilightdelight: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "twilightdelight:twilight_guide"
+							}
+						}
+					}
+					"akashictome:is_morphing": 1b
+				}
+			}
 			id: "3CD2BBDE618E89A7"
 			tasks: [{
 				id: "60B37D51B0A30734"
@@ -3691,6 +3904,7 @@
 				""
 				"似乎建筑中的特色是大量的水流交通，但是我不关心这些，我只想要退治那家伙"
 			]
+			hide_dependency_lines: true
 			id: "0F7F872B61EE4BE8"
 			rewards: [
 				{
@@ -3725,7 +3939,7 @@
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
-			description: ["可制作盾牌与特殊武器"]
+			description: ["可制作盾牌与特殊武器，或者与天子交换特殊元件"]
 			id: "4FDDE14FB190E5CC"
 			tasks: [{
 				id: "351EE473A42FE8C9"
@@ -3737,7 +3951,7 @@
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
-			description: ["仅能从斯库拉身上掉落，可制作特殊武器"]
+			description: ["仅能从斯库拉身上掉落，可制作特殊武器，或者与天子交换特殊元件"]
 			id: "41298C51AD1E8DCE"
 			tasks: [{
 				id: "39CD817315D531F3"

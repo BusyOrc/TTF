@@ -1,4 +1,5 @@
 {
+	autofocus_id: "36E4DFB433353F9E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3E17FFF47D9B99E2"
@@ -1455,8 +1456,8 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 6.625d
-			y: -2.125d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -2051,33 +2052,6 @@
 			title: "家里的终极工作台belike："
 			x: 9.45d
 			y: -10.575d
-		}
-		{
-			dependencies: ["3AC4A0C1655BEE88"]
-			description: [
-				"荷取：这玩意是机械动力与电力相关的附属模组带的器械，有些整合包不一定有，"
-				"&o&7&m你没有锅炉你做什么轧机"
-				""
-				"轧机与动力锯一样需要应力从侧边输入。"
-				""
-				"这玩意可以把你的金属压制成杆或是线，或是把竹子压制成&e吸管&f。"
-				"金属杆子跟线在本整合包基本上只能用于合成该附属模组的物品（如电动马达，特斯拉线圈等，）"
-				""
-				"吸管可以给予燃烧室中的烈焰人，使他们&a除了物品燃料以外，还可以接受液体的燃料！&f（如本包特有的魔法燃料，热力机械的石油等)"
-				""
-				"还可以透过流体管道实现自动喂食！"
-			]
-			id: "417F1363B2B54BB2"
-			shape: "diamond"
-			size: 2.0d
-			subtitle: "轧机？吸管制造机！"
-			tasks: [{
-				id: "7F74B7B31178EC6F"
-				item: "createaddition:rolling_mill"
-				type: "item"
-			}]
-			x: 6.5625d
-			y: -4.0625d
 		}
 		{
 			dependencies: ["730EE4C7091E189F"]

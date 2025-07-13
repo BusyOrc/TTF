@@ -1,0 +1,186 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"tconstruct:hepatizon\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"tconstruct:cobalt\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"tconstruct:amethyst_bronze\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"mowziesmobs:wroughtnaut\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"iceandfire:lightning_dragonsteel\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"iceandfire:ice_dragonsteel\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"iceandfire:fire_dragonsteel\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"tconstruct:manyullyn\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"modulargolems:netherite\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"cataclysm:witherite\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"cataclysm:ignitium\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"cataclysm:cursium\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"create:railway\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"alexscaves:magnetic\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"tconstruct:rose_gold\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modulargolems:metal_golem_arm",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{golem_material:\"modulargolems:sculk\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

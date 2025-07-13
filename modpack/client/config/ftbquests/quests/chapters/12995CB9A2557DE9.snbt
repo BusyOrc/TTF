@@ -25,6 +25,7 @@
 				""
 				"不过，该往哪里走呢？"
 			]
+			hide_until_deps_complete: true
 			icon: "maid_storage_manager:no_access"
 			id: "0AAB10B569C3E660"
 			shape: "hexagon"
@@ -155,8 +156,8 @@
 				type: "checkmark"
 			}]
 			title: "免费劳力？"
-			x: -2.0d
-			y: 1.5d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7ABE77072A50F348"]
@@ -229,7 +230,7 @@
 			]
 			title: "更划算的交易？"
 			x: -2.0d
-			y: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0AAB10B569C3E660"]
@@ -253,7 +254,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7ABE77072A50F348"]
+			dependencies: [
+				"5D88F9AFB290ECA3"
+				"198F587A4EBDF0A3"
+			]
 			description: ["和深潜者交易的货币，需要放在特殊的祭坛上才能进行交易"]
 			id: "4F81BC3102C4F631"
 			rewards: [{
@@ -266,11 +270,11 @@
 				item: "alexscaves:pearl"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4F81BC3102C4F631"]
+			dependencies: ["105F71094AF03A91"]
 			description: [""]
 			id: "54A25FFB3CE0DCE2"
 			tasks: [{
@@ -278,7 +282,339 @@
 				type: "checkmark"
 			}]
 			title: "未完待续"
-			x: 2.0d
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			id: "5D88F9AFB290ECA3"
+			tasks: [{
+				id: "7FB63401A3B2E535"
+				item: "alexscaves:mussel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5C8DF6217891839A"]
+			icon: "alexscaves:abyssal_altar"
+			id: "0520AAE28B3989F3"
+			tasks: [{
+				id: "454B5AAF581C1C85"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:abyssal_altar"
+				type: "observation"
+			}]
+			title: "渊海祭坛"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F81BC3102C4F631"]
+			id: "5C8DF6217891839A"
+			subtitle: "后续麻烦插入图片"
+			tasks: [
+				{
+					id: "560A8936F6A11EA1"
+					title: "深潜者们"
+					type: "checkmark"
+				}
+				{
+					advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+					criterion: ""
+					id: "4F794C262177E4BF"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9747F02DB2B259"]
+			id: "3C987E352CC5F78E"
+			tasks: [{
+				id: "203A4F216DE4E959"
+				item: "alexscaves:lanternfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C987E352CC5F78E"]
+			id: "4222EEF207A5FA58"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deepsight"
+				criterion: ""
+				id: "57DE0D2C15BE887D"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0520AAE28B3989F3"]
+			id: "7C67D732112BD8EB"
+			tasks: [{
+				id: "6769DA6E950F0B4E"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0520AAE28B3989F3"]
+			id: "3DD9104318D07891"
+			tasks: [{
+				id: "12C26DA2652E06B6"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0520AAE28B3989F3"]
+			id: "744063F47F30FCA0"
+			tasks: [{
+				id: "19BA66768569D661"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0520AAE28B3989F3"]
+			id: "7FA09E110162575C"
+			tasks: [{
+				id: "56FE4E915E991D74"
+				item: {
+					Count: 1
+					id: "alexscaves:gazing_pearl"
+					tag: {
+						HasReputation: 1b
+						LastReputationTimestamp: 9099648L
+						Reputation: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"744063F47F30FCA0"
+				"7C67D732112BD8EB"
+				"3DD9104318D07891"
+				"7FA09E110162575C"
+			]
+			id: "13A44F1A87BBB217"
+			secret: true
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_one_items"
+				criterion: ""
+				id: "13A1380F94CEA00D"
+				secret: true
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0520AAE28B3989F3"]
+			id: "2CD95AC549C22D97"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
+				criterion: ""
+				id: "5761E9B7283AC6F5"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4222EEF207A5FA58"]
+			id: "00A407F22F23FEA1"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "50B5480FAA2454BA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00A407F22F23FEA1"]
+			id: "111ADABF5653C98D"
+			subtitle: "充满生机的胚胎"
+			tasks: [{
+				id: "4ADE164D7D9EC602"
+				item: "alexscaves:immortal_embryo"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00A407F22F23FEA1"]
+			id: "6B242FD5066C30C4"
+			subtitle: "精密的造物"
+			tasks: [{
+				id: "3194DB527BB59F56"
+				item: "alexscaves:enigmatic_engine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6B242FD5066C30C4"
+				"111ADABF5653C98D"
+			]
+			id: "105F71094AF03A91"
+			tasks: [{
+				id: "7E65397BAB63F26E"
+				title: "也许还缺少某些关键"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D88F9AFB290ECA3"]
+			id: "54104C00B568D4D7"
+			tasks: [
+				{
+					id: "509F1DC76ADE6159"
+					item: "alexscaves:cooked_mussel"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cooked_mussel"
+					criterion: ""
+					id: "16E4C55D083E42D9"
+					type: "advancement"
+				}
+			]
+			title: "这是你哪个叔叔？"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4222EEF207A5FA58"]
+			id: "5EB9041BB8851C33"
+			tasks: [{
+				id: "44118BE6556A85E0"
+				item: "alexscaves:game_controller"
+				type: "item"
+			}]
+			title: "泰坦尼克号DLC"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			id: "5B9747F02DB2B259"
+			tasks: [{
+				id: "334434D011A67B45"
+				title: "渊海的其他居民"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B9747F02DB2B259"]
+			id: "302E7D233DA4EA6D"
+			tasks: [{
+				id: "3329B6B780D547E5"
+				item: "alexscaves:tripodfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B9747F02DB2B259"]
+			id: "30DACB6E47F11AC9"
+			tasks: [{
+				id: "2E893C2BC61D5A20"
+				item: "alexscaves:sea_pig"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"302E7D233DA4EA6D"
+				"3C987E352CC5F78E"
+				"30DACB6E47F11AC9"
+			]
+			id: "1CC035D69466AE24"
+			tasks: [{
+				id: "2D7BDB368C470556"
+				item: "alexscaves:deep_sea_sushi_roll"
+				type: "item"
+			}]
+			title: "深海之味"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4222EEF207A5FA58"]
+			id: "5D9EC0C4F292EB88"
+			tasks: [{
+				id: "78F44D63933A806B"
+				title: "那是什么"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ABE77072A50F348"]
+			id: "3EB8FDE3E9C95E6C"
+			tasks: [
+				{
+					id: "22FBE4D4CE94A316"
+					item: "alexscaves:depth_charge"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/defeat_mine_guardian"
+					criterion: ""
+					id: "273CF24C37C22C01"
+					type: "advancement"
+				}
+			]
+			title: "他们昨天没扫雷！"
+			x: 0.0d
 			y: 0.0d
 		}
 	]

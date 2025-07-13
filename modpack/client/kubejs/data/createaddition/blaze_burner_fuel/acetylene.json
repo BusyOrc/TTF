@@ -1,0 +1,6 @@
+{
+  "fluid": "chemlib:acetylene_fluid",
+  "burnTime": 40,
+  "superHeat": true,
+  "amountConsumedPerTick" : 10
+}

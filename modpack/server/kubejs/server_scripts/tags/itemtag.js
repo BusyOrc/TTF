@@ -25,7 +25,8 @@ ServerEvents.tags('item', event => {
 
     ])
 
-
+    event.add("forge:storage_blocks/flax","supplementaries:flax_block")
+    event.add("forge:storage_blocks/rice",'tofucraft:rice_block')
     event.add('forge:stoves',['refurbished_furniture:light_stove', 'twilightdelight:maze_stove',
          'nethersdelight:blackstone_stove', 'tinkers_delight:scorched_stove_on',
          'tinkers_delight:seared_stove_on', 'farmersdelight:stove', 'ends_delight:end_stove'])
@@ -203,7 +204,9 @@ let casts=['tconstruct:patterns/reusable', 'tconstruct:patterns', 'eminecraft:pi
     'tconstruct:casts/gold', 'tconstruct:casts'
 ]
 
-
+event.add("forge:crops/pepper_red",['tofucraft:chili',"mystias_izakaya:la_jiao"])
+event.add("forge:vegetables/tomato","mystias_izakaya:xi_hong_shi")
+event.add("forge:crops/bell_pepper","ltc2:pepper_sweet")
 for(let cast of casts)
 {
     event.add(cast,'tinkersancient:swasher_head_cast')

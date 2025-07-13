@@ -1,0 +1,6 @@
+{
+  "fluid": "chemlib:hydrogen_fluid",
+  "burnTime": 100,
+  "superHeat": false,
+  "amountConsumedPerTick" : 2
+}

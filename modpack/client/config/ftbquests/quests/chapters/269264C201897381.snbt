@@ -653,7 +653,7 @@
 				""
 				"但是，机会只有一次，&c如果回答错误的话，没有再次选择的机会&r"
 			]
-			icon: "ars_technica:glyph_fuse"
+			icon: "supplementaries:present_lime"
 			id: "6216B7A02E75F9A1"
 			shape: "rsquare"
 			subtitle: "建议谨慎选择"
@@ -797,49 +797,28 @@
 		{
 			dependencies: ["441A595A189A0EAF"]
 			description: [
-				"奖励内容：一套太阳能多方块结构，将控制器放在地上，物品栏里装着其他所需材料，直接用建造器右键即可完成多方块的建造。"
-				""
-				"太阳能多方块仅在白天产生电力，推荐使用储能设备将多余电力存起来"
+				"奖励内容：2块太阳能,16能量管道"
+				"太阳能白天产生512rf/t电力，推荐使用储能设备将多余电力存起来"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:starby_gift"
+				tag: { }
+			}
 			id: "45C4F08277EDDC62"
 			rewards: [
-				{
-					id: "0FD1A530F85B122C"
-					item: "mbd2:solar_panel"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 9
-					id: "4025208CDFE85AD1"
-					item: "expatternprovider:silicon_block"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 9
-					id: "5885D147E8547ED8"
-					item: "create:framed_glass"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "02C3DF17571D9758"
-					item: "tconstruct:gold_bars"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7E2C5AD60E282F3D"
-					item: "mbd2:mbd_gadgets"
-					team_reward: true
-					type: "item"
-				}
 				{
 					count: 16
 					id: "27ABB8C0917EF4A8"
 					item: "thermal:energy_duct"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A742F4A5931D2F2"
+					item: "solarflux:sp_5"
 					team_reward: true
 					type: "item"
 				}
@@ -865,6 +844,11 @@
 				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:starby_gift"
+				tag: { }
+			}
 			id: "69808FAB3B02FC08"
 			rewards: [
 				{
@@ -935,6 +919,11 @@
 				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ars_nouveau:starby_gift"
+				tag: { }
+			}
 			id: "7D60534E9538FECE"
 			rewards: [
 				{
@@ -995,6 +984,7 @@
 				""
 				"正确答案为：大妖精"
 			]
+			icon: "minecraft:red_glazed_terracotta"
 			id: "55C0A12A9B564684"
 			tasks: [{
 				id: "0EF19617FADC2056"
@@ -1014,6 +1004,7 @@
 				""
 				"正确答案为：偶像造形术"
 			]
+			icon: "minecraft:red_glazed_terracotta"
 			id: "5DF6D03F2FF307F9"
 			tasks: [{
 				id: "68E5A972B9AA9000"
@@ -1033,6 +1024,7 @@
 				""
 				"而咲夜，早苗在许多部作品里并未登场"
 			]
+			icon: "minecraft:red_glazed_terracotta"
 			id: "116454BDEDDF9871"
 			tasks: [{
 				id: "461CC2B86E0EAB8A"

@@ -166,7 +166,7 @@
 	EnderguardianBlockBreaking = false
 	#Guardian's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Guardian's prevent attacks from far away Range" = 12.0
+	"Guardian's prevent attacks from far away Range" = 8.0
 	#Guardian's gravity Punch Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Guardian's gravity Punch Hp Damage" = 0.05
@@ -227,7 +227,7 @@
 	"Monstrosity's attack Hp Damage" = 0.08
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Monstrosity's prevent attacks from far away Range" = 18.0
+	"Monstrosity's prevent attacks from far away Range" = 8.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = false
 	#Monstrosity's DamageTime
@@ -289,7 +289,7 @@
 ["The Prowler"]
 	#The Prowler's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"The Prowler's prevent attacks from far away Range" = 16.0
+	"The Prowler's prevent attacks from far away Range" = 8.0
 	#Prowler's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
 	ProwlerHealthMultiplier = 1.0
@@ -315,7 +315,7 @@
 	"Harbinger's laser damage" = 10.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"The Harbinger's prevent attacks from far away Range" = 12.0
+	"The Harbinger's prevent attacks from far away Range" = 8.0
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	"The Harbinger DamageCap" = 120.0
@@ -408,7 +408,7 @@
 	AncientRemnantNatureHealing = 10.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ancient Remnant's prevent attacks from far away Range" = 14.0
+	"Ancient Remnant's prevent attacks from far away Range" = 8.0
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 200.0
@@ -473,7 +473,7 @@
 	MaledictusDamageMultiplier = 1.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Maledictus's prevent attacks from far away Range" = 12.0
+	"Maledictus's prevent attacks from far away Range" = 8.0
 	#Maledictus's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	MaledictusNatureHealing = 10.0
@@ -600,7 +600,7 @@
 	ScyllaDamageMultiplier = 1.5
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Scylla's prevent attacks from far away Range" = 12.0
+	"Scylla's prevent attacks from far away Range" = 8.0
 	#Scylla's Spear Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Spear Damage" = 14.0

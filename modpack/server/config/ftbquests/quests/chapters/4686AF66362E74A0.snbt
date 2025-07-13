@@ -83,6 +83,7 @@
 		}
 		{
 			click: "#"
+			color: 12368127
 			height: 2.0d
 			hover: ["有稳定附魔，可以吹出方块泡泡"]
 			image: "supplementaries:item/bubble_blower_using"
@@ -90,6 +91,30 @@
 			width: 2.0d
 			x: -2.0d
 			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/manabloom/stage3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/manabloom/stage4"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/spell_sensor_fast"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 11.0d
 		}
 	]
 	order_index: 7
@@ -104,12 +129,14 @@
 			]
 			icon: "touhou_little_maid:bookshelf"
 			id: "18AAD55258BE9D87"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "098F5DB19A24422E"
 				type: "checkmark"
 			}]
 			title: "1 昨天我们攻略了大书库"
-			x: -2.0d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -369,7 +396,7 @@
 			}]
 			title: "以旧换新"
 			x: -4.0d
-			y: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["675426B2C88EB4C0"]
@@ -587,7 +614,11 @@
 		}
 		{
 			dependencies: ["18AAD55258BE9D87"]
-			description: ["帕秋莉：可能有人试图用一些科技手段来解决异变，但是我提供一条全新的思路，&a不需要用到任何科技与狠活&r"]
+			description: [
+				"帕秋莉：可能有人试图用一些科技手段来解决异变，但是我提供一条全新的思路，&a不需要用到任何科技与狠活&r"
+				""
+				"（待完善）"
+			]
 			icon: "quark:glass_item_frame"
 			id: "5CF8AF2437575020"
 			tasks: [{
@@ -595,7 +626,7 @@
 				type: "checkmark"
 			}]
 			title: "纯天然零添加"
-			x: -2.0d
+			x: -4.0d
 			y: 1.5d
 		}
 		{
@@ -640,7 +671,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -699,7 +730,7 @@
 			]
 			title: "熔岩钓鱼"
 			x: -4.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["10952F79C0619272"]
@@ -733,7 +764,7 @@
 				}
 			]
 			title: "收获"
-			x: -6.5d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -747,6 +778,2063 @@
 			}]
 			x: 2.0d
 			y: -4.0d
+		}
+		{
+			description: [
+				"创建世界时便会送给你，记载了全部的知识"
+				""
+				"（新存档）将阿卡什宝典切换为该书籍即可查看，旧存档则需要手动合成一下，推荐再与阿卡什宝典继续合成，将教程书收纳进其中"
+				""
+				"&d关于新生魔艺任务的说明&r："
+				"任务使用了整合包CTI（工匠技艺革新）的相关任务作为基础进行修改制作而成，&l已取得相关作者同意&r。在此特别感谢每一位创作者的努力"
+			]
+			hide_dependency_lines: true
+			id: "004BC1B51DF71387"
+			rewards: [{
+				icon: "ars_nouveau:sourceberry_bush"
+				id: "2013D0B1F5D1C48E"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2576F2AA8B295757"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "从一本笔记开始"
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2B13F1544715D4C4"]
+			description: [
+				"创建世界时会生成4种不同的至高木，所有生物群系都有可能生成。每种至高木都需要收集，但前期只需要一种木头"
+				""
+				"布鲁斯帽：装饰品"
+			]
+			id: "4EDE275E9D1D40A0"
+			rewards: [{
+				id: "7FD9C61C52DD4ED7"
+				item: "starbunclemania:star_hat"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "1B1AA78D1A70A258"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Any #forge:logs/archwood"
+				type: "item"
+			}]
+			title: "接下来是找到一些树"
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["004BC1B51DF71387"]
+			description: [
+				"制作一本初级法术书，&d它仅能释放等级1的魔符&r，更高级的魔符需要更高级的法术书来释放，后续可以制作。"
+				""
+				"手持法术书的情况下，默认&d按C打开法术书&r，&d按V打开法术选取界面&r，&d鼠标点击或按Z/X切换上一个/下一个法术&r，退出法术选择界面后按&d右键施放当前选取的法术&r。"
+				""
+				"&0&m把书染成绿色后总觉得有些熟悉&r"
+			]
+			id: "2B13F1544715D4C4"
+			rewards: [{
+				id: "7981511D880FEE93"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "核心物品"
+			tasks: [{
+				id: "007B356CC93F2EC9"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "尝试一下法术吧"
+			x: -10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2B13F1544715D4C4"]
+			description: [
+				"首先在你&d手持法术书未打开&r时你会发现屏幕左下角有一个紫色长条，那是你的&d魔力值&r。施放法术需要&d消耗魔力&r，越复杂的魔法消耗越多。"
+				""
+				"接着按C打开法术书，不能看到不同的魔符被分在了不同区域，其中："
+				""
+				"最中间的部分充满了&d魔符&r，你的&d全部法术由它们构成&r；"
+				""
+				"右侧的编号从1到10，意味着你可以在一本书内编辑&d最多10个法术&r；"
+				""
+				"点击魔符后他会出现在最下方的长条内，这个&d长条内的魔符会组合成你本次编辑的法术&r；"
+				""
+				"左边的长条是功能性菜单；"
+				""
+				"最下方同样有一个紫色魔力条，当你编辑法术时他会显示&d这个法术消耗的魔力值&r。"
+			]
+			icon: "minecraft:writable_book"
+			id: "5A3390049782DA27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23CD856C6FC7BA77"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "法术书的界面介绍"
+			tasks: [{
+				id: "0657BEC3F4398B7B"
+				type: "checkmark"
+			}]
+			title: "我该怎样编写法术?"
+			x: -10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5A3390049782DA27"]
+			description: [
+				"&e所有的法术都以形态魔符开始&r，后面的魔符则可以自由搭配来达到你想要的效果。"
+				""
+				"举例：按C打开法术书，依次选择:&d弹射物→伤害→右下角的制作&r。"
+				""
+				"制作后退出界面，手持法术书右键，你就可以发出一道紫色光束来伤害触碰到的敌人了。"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:starbuncle_charm"
+				tag: { }
+			}
+			id: "1C5CF92FE545162A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C6C887651F9CD7"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "编写法术的要领"
+			tasks: [{
+				id: "5CEEEC5D6D64D903"
+				type: "checkmark"
+			}]
+			title: "简单的法术示例"
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4EDE275E9D1D40A0"]
+			description: [
+				"&e抄写台&r，用来&d制作魔符&r和给&d法术羊皮纸&r及各种魔法工具写入由魔符构成的法术。"
+				""
+				"&e手持法术书&r&d右键&r可以打开他的GUI，选择&d你想要制作的魔符&r，下方会提示所需的原料，将原料&d右键提供给抄写台&r，一段有趣的动画过后，魔符制作完成，此时&d拿起魔符再右键&r，你便学会了这种法术，可以在你的&d法术书&r里使用它了！"
+				""
+				"注意，&e魔符学习的越多，你的魔力上限就越高&r！"
+			]
+			id: "470A698F7EC80221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "552EEC57F6C841F0"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "学习魔符可以增加你的魔力上限！"
+			tasks: [{
+				id: "3A86829A0DBE2F66"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "解锁更多魔符！"
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["470A698F7EC80221"]
+			description: [
+				"&6鼠标悬停在魔符上按shift可以查看魔符的效果。&r"
+				""
+				"&d魔符&r分为三大种类：&e形态，增强，效果&r。"
+				""
+				"&d形态魔符&r:任何法术的&e第一个魔符&r必须是形态魔符，一般有且仅有一个。它决定了&d法术的形态&r，例如弹射物或是作用于施法者自身。"
+				""
+				"&d增强魔符&r：&e必须跟在其他魔符的后面&r，它会将自身的&e增强效果&r运用于法术链中位于&e自身左侧的第一个&r可作为目标的魔符，例如把他放在伤害魔符右侧可以增加伤害。"
+				""
+				"&d效果魔符&r：&e为法术提供不同的效果&r，如伤害，挖掘等等。"
+				""
+				"下面的是一些有趣的魔符，更多魔符搭配当然需要自己探索才有乐趣"
+			]
+			icon: "ars_nouveau:blank_glyph"
+			id: "1DCEBE924553DABD"
+			shape: "diamond"
+			tasks: [{
+				id: "78293074DD4068E2"
+				title: "魔符的种类"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["470A698F7EC80221"]
+			description: ["为了退治异变，对他们使用炎拳吧！"]
+			icon: "ars_nouveau:wilden_stalker_se"
+			id: "328CE0529C3E8488"
+			rewards: [
+				{
+					id: "4809D92F01165AEA"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "3EBF1BD7EB245116"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "12889591E29362F6"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			subtitle: "会掉落合成魔符所需的物品"
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					id: "5D7FB3CA7ABD25DE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					id: "5432D229161AB602"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					id: "4FEDFC84D0E0DCAB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "三种需要退治的生物"
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["470A698F7EC80221"]
+			description: [
+				"将&d青金石&r或&d紫水晶&r放入灌注室中可以缓慢地吸收自然环境中的魔源来合成魔源宝石。"
+				""
+				"灌注室的合成虽然&d不需要魔源&r，但是提供的魔源能为合成&e加速&r。可以消耗以其为中心5×5×5内魔源罐的魔源快速合成。"
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "420E774A446BE5F3"
+			rewards: [
+				{
+					id: "2749BDEEB18E4964"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "117F5B0FEB0DC660"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "392979E513791DC3"
+					table_id: 1404081237954801511L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			subtitle: "重要的基础物品"
+			tasks: [{
+				id: "365A246A93C213A8"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "合成魔源宝石和精华"
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["420E774A446BE5F3"]
+			description: [
+				"&d魔源&r，是新生魔艺独特的类似能量的物质。"
+				""
+				"你可以&d使用魔源加速灌注室的合成&r，后续的&d附魔装置&r、&d法术炮塔&r等也需要魔源。"
+				""
+				"下面是几种魔源的获得方式。"
+			]
+			icon: "ars_nouveau:agronomic_sourcelink"
+			id: "048F95BD85B41085"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2676E44DD0EEB1A2"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "就像能量一样"
+			tasks: [{
+				id: "3E3D71702245C508"
+				type: "checkmark"
+			}]
+			title: "产出魔源！"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"火山魔源通道能通过&d燃烧可燃物&r产生魔源。"
+				""
+				"燃烧&d至高木原木&r能产生更多魔源，其中烈焰至高木产生的最多。可以燃烧一切熔炉能作为燃料的可燃物。冷却时间只与可燃物本身的燃烧时间有关，例如一个原木为1秒，一个煤炭块为5秒。"
+				""
+				"注：火山魔源通道不时会将通道下方的3x3空间内的&e石头转换为岩浆块&r，将&e岩浆块转换为熔岩&r。这个转换的快慢取决于通道近期产生热量的多寡。"
+			]
+			id: "320FFDC86A1B8D1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "280994745EC7DC7D"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "燃烧物品"
+			tasks: [{
+				id: "44CBF71728749999"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.75d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"在以&d农艺魔源通道&r为圆心，15格为半径的球内，&d任意作物或树苗自然生长时&r产生魔源，使用骨粉或法术催熟则无法产生。"
+				""
+				"如果在此范围内有两个或以上农艺魔源通道，只有一个生效，其余将失效。"
+				""
+				"魔法植物，包括法师之花、魔源浆果丛和&d至高木树苗&r的生长会产生额外魔源。"
+			]
+			id: "3DC8463FB1361D8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A2E66E54C6AF77"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "作物生长"
+			tasks: [{
+				id: "77C6B0F587FD9555"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"从附近的&d生物死亡和动物繁殖&r中产生魔源。"
+				""
+				"除此之外，生死魔源通道还会以一秒/次的频率从幼年动物中被动地产生魔源，并加速它们的成长。"
+				""
+				"每个生死魔源通道的每次从附近的幼年动物中产生魔源时，都会加快该幼年动物25秒的生长时间。"
+			]
+			id: "466691DC3A4E4776"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "777ECF4B015A36A8"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "动物生长和死亡"
+			tasks: [{
+				id: "2053D5FB7BBC439E"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.75d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"通过&d消耗相邻药水罐的药水&r产生魔源。取决于药水的复杂度，不同药水的魔源的产生量也不同。药水的等级、合成链的长度、药水含有效果的数量都会产生额外的魔源。"
+				""
+				"对于复杂度较高的药水，推荐使用薇克精和药水混合器。"
+			]
+			id: "5514483CF158193F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54B34DEFD08B1EC5"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "吸收药水"
+			tasks: [{
+				id: "43707387482A29F4"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 17.25d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"利用附近&d掉落的食物&r产生魔源，食物营养越多，产生的魔源越多。&d魔源浆果&r产生的魔源比其他一般食物多得多。"
+				""
+				"另外，菌丝魔源通道还会&e将其下方3x3空间内的草方块或泥土转换为菌丝&r，空间足够的话甚至还会在其上种植蘑菇。最后，菌丝魔源通道会从周围一格的奥术基座&e自动抽取食物&r。"
+			]
+			id: "7A7021FBABDE5C1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AFDE70836AF360D"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 1.5d
+			subtitle: "吸收食物"
+			tasks: [{
+				id: "093CBEBD8F8CC57E"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.25d
+		}
+		{
+			description: [
+				"放置在魔源合成设备&d(附魔装置和灌注室等)&r四周用于&e摆放合成材料&r。"
+				""
+				"注意：在灌注配方中，奥术基座上的材料&e不消耗&r。"
+			]
+			id: "0AD1AFA5D01CA409"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "012428ADB27F7857"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "合成一些精华去制作魔符！"
+			tasks: [{
+				id: "699B02CD421C4991"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "拓展合成"
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: [
+				"魔源罐能存储&d附近魔源通道收集到的魔源&r，而这些魔源能用于给&d&r灌注室和附魔装置供能，进一步制作魔符和饰品。要使用魔源罐中的魔源，只需要&d将其放在魔源消耗设备附近&r。"
+				""
+				"罐中的魔源可以使用桶来运输，魔源罐&e本身也能被破坏并带走&r，&e不会导致魔源流失&r。"
+			]
+			id: "53E917831F2D3A9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D2BBF2EF73C9D57"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "自动储存周围通道中的魔源"
+			tasks: [{
+				id: "254333ECDE084BE8"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "储存魔源！"
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["53E917831F2D3A9B"]
+			description: [
+				"可以在&d魔源罐&r和&d其它魔源中继器&r之间传输魔力。"
+				""
+				"要从魔源罐中抽取魔力，需使用&d支配之杖&r先&e右击魔源罐&r，再&e右击魔源中继器&r。"
+				""
+				"要将魔力从&e中继器&r传输到&e另一个中继器&r或&e魔源罐&r，先&e右击中继器&r，再&e右击传输的目标&r。一个中继器&e最多&r只能连接到30格内的目标。使用&d支配之杖&r&e潜行右击中继器&r可断开所有连接。"
+				""
+				"&d支配之杖&r在后续的附魔装置中制作。"
+			]
+			icon: "ars_nouveau:relay"
+			id: "38A50014E40F8C90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "745BB9FFB3D99F31"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "不仅有基础款，还能通过附魔装置升级"
+			tasks: [{
+				id: "1E4FB52EBB06E431"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			title: "运输魔源！"
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["38A50014E40F8C90"]
+			description: ["操作方式和魔源中继器相似，但它支持同时传输魔力到多个魔源罐内。分流器的吞吐量比中继器大得多，它会将流量在所有目标魔源罐间平分。"]
+			id: "28F40AAB7594877C"
+			rewards: [{
+				id: "2AA826EAA3F7AE1D"
+				type: "xp"
+				xp: 128
+			}]
+			tasks: [{
+				id: "4D7EF81194AC86A6"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["38A50014E40F8C90"]
+			description: [
+				"操作与魔源中继器分流型类似，但可以无视距离向另一个折跃型中继器传输魔源。"
+				""
+				"如果传送距离超过了30格，有概率对魔源造成损耗。"
+			]
+			id: "097DE9351AF23DE8"
+			rewards: [{
+				id: "71CA729DEFB1057A"
+				type: "xp"
+				xp: 128
+			}]
+			tasks: [{
+				id: "71014F045C5B68D6"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38A50014E40F8C90"]
+			description: ["操作方式和魔源中继器相似，但可以无需连接将魔源存放到五格内的魔源罐中。"]
+			id: "744B3806AAE78A02"
+			rewards: [{
+				id: "45B4033EE6485A49"
+				type: "xp"
+				xp: 128
+			}]
+			tasks: [{
+				id: "3F3CDC6758EDFD86"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38A50014E40F8C90"]
+			description: ["操作方式和魔源中继器相似，但可以无需连接自动从五格内的魔源罐中抽取魔源。"]
+			id: "3046B11A92D6B3C7"
+			rewards: [{
+				id: "1CF59C84A44701A3"
+				type: "xp"
+				xp: 128
+			}]
+			tasks: [{
+				id: "079A4154BF37DEC0"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["53E917831F2D3A9B"]
+			description: [
+				"&d附魔装置&r能利用&d基座&r和&d附近的魔源&r进行合成。与灌注台不同，&d附魔装置&r工作时所有的&e额外物品均会被消耗&r。"
+				""
+				"要想让附魔装置正常工作，其&d下方必须放置奥术核心&r，周围放置不同数量的&d奥术基座&r。部分需要魔源的附魔仪式还需要装置周围有&d魔源罐&r。"
+				""
+				"&d奥术核心&r为中心,7*7的矩形范围内，需要摆放&d任意数量的奥术基座或是奥术平台&r来使用附魔装置，位置不限，此时搭建的结构相当于模组的工作台。"
+				""
+				"附魔装置能够进行&e魔法盔甲升级、物品的制作、附魔书的产出&r这三种合成。"
+				""
+				"&e右键附魔装置&r能够用紫色的光高亮周围能够参与该附魔装置合成的&d奥术基座和奥术平台&r，范围外的则不会高亮。"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "62D29C1E3C05CD0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6549BD7A4F9CE3C9"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "升级魔法护甲，制作物品和高等级附魔书！"
+			tasks: [
+				{
+					id: "40E7E31A10C20C1E"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "5BB1D7384350A4E4"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "独特的附魔系统"
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			description: [
+				"该作物生长会为农艺魔源通道产出更多魔源，还会产出&d法术纤维&r，这是制作魔法盔甲的必要物品。"
+				""
+				"收获的法师之花如果要最大程度地获取纤维，推荐使用&a砧板切割配方&r而不是直接合成"
+			]
+			icon: "ars_nouveau:magebloom_crop"
+			id: "126ECCE56E87503C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "482B69BA81BACAA1"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "获得法师之花纤维"
+			tasks: [
+				{
+					id: "03ECC633627B32E6"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "615B7016AD6B6FEE"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			id: "63252E4C698E7F70"
+			subtitle: "提升你的魔力量"
+			tasks: [{
+				id: "3645E2AEA2CE2E5B"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			id: "014A2D5038151E10"
+			subtitle: "让你的魔力恢复更快"
+			tasks: [{
+				id: "732DC75236ED4034"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1B911976B163FD3C"]
+			hide_dependency_lines: false
+			id: "012AE9C191C78EB4"
+			subtitle: "降低更多法术成本"
+			tasks: [{
+				id: "6A28D76AA6FC8DE6"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			hide_dependency_lines: false
+			id: "1B911976B163FD3C"
+			subtitle: "降低法术成本"
+			tasks: [{
+				id: "244FC92BEFB6CB83"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2B13F1544715D4C4"]
+			id: "3291E554A48D5293"
+			rewards: [{
+				icon: "ars_nouveau:sourceberry_bush"
+				id: "53D428A72452C29B"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "能释放等级2及以下的魔符"
+			tasks: [{
+				id: "46474E4E7D1351E0"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3291E554A48D5293"]
+			id: "1BCD6B3728FC540B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D34D887F4366901"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "能释放等级3及以下的魔符"
+			tasks: [{
+				id: "5363CED95EE77EAB"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0AD1AFA5D01CA409"]
+			description: [
+				"&6鼠标悬停在仪式之板上按shift可以查看仪式之板的效果。&r"
+				""
+				"手持&d仪式之板&r对其右击后按照仪式要求来启动对应仪式。大部分仪式可以直接&e空手右击&r启动，但也有些仪式可以&e放入相应物品来改变效果&r。破坏仪式火盆可以取回物品。"
+				""
+				"在运行需要魔源的仪式时，会从以其为中心13×13×13范围内的&d魔源罐&r抽取魔源来维持工作。"
+			]
+			id: "6EEB0383390322ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B3A8920D9E95F62"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "进行各种不同的仪式丰富你的魔法之旅"
+			tasks: [{
+				id: "693ADB92219E6A86"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6EEB0383390322ED"]
+			description: [
+				"允许使用者将&d仪式火盆&r的仪式绑定到新的位置。&d一个中继器可以绑定多个火盆&r。"
+				""
+				"要进行连接，使用&d支配之杖&r点击&d仪式火盆&r，再&d点击中继器&r。魔源将在原本火盆的位置被消耗。"
+				""
+				"火盆与中继器的绑定距离不超过15格。"
+			]
+			id: "189524E2E641B3B4"
+			shape: "diamond"
+			tasks: [{
+				id: "0D15B65342FF7349"
+				item: "ars_nouveau:brazier_relay"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			description: [
+				"&d①&r手持该物品分别右击魔源罐与魔源中继器来建立链接。先右击的设备为输出端，潜行右击中继器可清除其所有链接"
+				""
+				"&d②&r手持该物品分别右击星宝石兽与容器来建立链接，容器需要潜行右击。先右击的目标为取出端，潜行右击星宝石兽可清除其所有链接。"
+				""
+				"&d③&r先后右击星宝石兽和魔花床可以进行绑定，使星宝石兽在闲置时前往绑定魔花床处休息。"
+			]
+			id: "7160E32243EF956E"
+			subtitle: "管理你的魔源设备，控制星宝石兽"
+			tasks: [{
+				id: "54BAA7D25B994B8D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			id: "2C9BFFAB383122D7"
+			rewards: [{
+				id: "1AE6C6BA51BAE740"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "配合雨德花有奇效！"
+			tasks: [{
+				id: "634A36386FE33758"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 19.5d
+		}
+		{
+			id: "0299D55DC0A3CF74"
+			shape: "diamond"
+			tasks: [{
+				id: "4C261CE2430447F2"
+				item: "ars_nouveau:ritual_burrowing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			id: "58C86C5EFB3632C1"
+			shape: "diamond"
+			tasks: [{
+				id: "4BC6EF71AAD0FA9E"
+				item: "ars_nouveau:ritual_challenge"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 21.0d
+		}
+		{
+			id: "4A9D32A93EA474CF"
+			shape: "diamond"
+			tasks: [{
+				id: "65E051821B402140"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 21.0d
+		}
+		{
+			id: "1D50F2640458A1B8"
+			shape: "diamond"
+			tasks: [{
+				id: "6DE018944229EBDC"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			id: "4F0BD6D37B1C754C"
+			shape: "diamond"
+			tasks: [{
+				id: "4BACB4F46D03A912"
+				item: "ars_nouveau:ritual_disintegration"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.0d
+		}
+		{
+			id: "12BF593E7E124DE6"
+			shape: "diamond"
+			tasks: [{
+				id: "32BCFE2CB3DC80A0"
+				item: "ars_nouveau:ritual_sunrise"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.5d
+		}
+		{
+			id: "58953C6282A9F7E9"
+			shape: "diamond"
+			tasks: [{
+				id: "4B5F9626080658D8"
+				item: "ars_nouveau:ritual_conjure_island_plains"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.0d
+		}
+		{
+			id: "73A3BB13CDEBC6F8"
+			shape: "diamond"
+			tasks: [{
+				id: "5ED741282F428C03"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.5d
+		}
+		{
+			id: "05EC1D41334F841C"
+			shape: "diamond"
+			tasks: [{
+				id: "4757320F3E7E97CB"
+				item: "ars_nouveau:ritual_restoration"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 20.0d
+		}
+		{
+			id: "0A0F263B2F13B038"
+			shape: "diamond"
+			tasks: [{
+				id: "6D8E384F3534C7A7"
+				item: "ars_nouveau:ritual_animal_summon"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 20.0d
+		}
+		{
+			id: "092F44C1B6DC3A44"
+			shape: "diamond"
+			tasks: [{
+				id: "098674EA0BE13BF8"
+				item: "ars_nouveau:ritual_forestation"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 20.5d
+		}
+		{
+			id: "4586FAD7AA0A8580"
+			shape: "diamond"
+			tasks: [{
+				id: "1DCD15073ABC19A7"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			id: "54D7AC9A942F7919"
+			shape: "diamond"
+			tasks: [{
+				id: "6C90163C7CE1CDB1"
+				item: "ars_nouveau:ritual_moonfall"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 21.0d
+		}
+		{
+			id: "780A48CAE097D342"
+			shape: "diamond"
+			tasks: [{
+				id: "7ABC073133A5CBB1"
+				item: "ars_nouveau:ritual_containment"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 21.0d
+		}
+		{
+			id: "7AFC8A6860535937"
+			shape: "diamond"
+			tasks: [{
+				id: "5BB40D024B86FB56"
+				item: "ars_nouveau:ritual_scrying"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			id: "6FC5270ED6E68C90"
+			shape: "diamond"
+			tasks: [{
+				id: "57FC3D8A18345310"
+				item: "ars_nouveau:ritual_gravity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 19.0d
+		}
+		{
+			id: "566611F301D751F9"
+			shape: "diamond"
+			tasks: [{
+				id: "23564EF8C3ACCABA"
+				item: "ars_nouveau:ritual_flowering"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.5d
+		}
+		{
+			id: "5645C1B09F0BF6AD"
+			shape: "diamond"
+			tasks: [{
+				id: "75498EA08570AD17"
+				item: "ars_nouveau:ritual_sanctuary"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			id: "11F14939DA72239C"
+			shape: "diamond"
+			tasks: [{
+				id: "471AFA57362FE679"
+				item: "ars_nouveau:ritual_fertility"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			id: "1BBD8C4BAE1F7D42"
+			shape: "diamond"
+			tasks: [{
+				id: "1B7EF2AFC894F8B2"
+				item: "ars_nouveau:ritual_overgrowth"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			id: "561FAB6BA59EB6AA"
+			shape: "diamond"
+			tasks: [{
+				id: "20FC694E84D8EB7C"
+				item: "ars_nouveau:ritual_conjure_island_desert"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			id: "286B345EB6C180AA"
+			shape: "diamond"
+			tasks: [{
+				id: "0254A4EBD6262468"
+				item: "ars_nouveau:ritual_harvest"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			id: "121FE0415C57A3CF"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "可以召唤荒野奇美拉！打败它来合成强大的物品！"
+			tasks: [{
+				id: "6AC035900453E67A"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"作为魔法模组怎么能没有使魔呢？"
+				""
+				"新生魔艺中的使魔既可以帮你实现自动化，也可以帮你战斗。&d同时也非——常可爱~&r"
+				""
+				"每一个使魔都有自己独特的召唤方式。使魔可以通过&e绑定手稿&r被你用法术书随时召唤出来协助战斗，也可以留在家中帮你合成需要的物品，&e完成你所需要的自动化&r。"
+				""
+				"&e这里仅介绍自动化环节。&r"
+			]
+			icon: "ars_nouveau:ritual_animal_summon"
+			id: "029068998879B2F8"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "签订契约成为魔法少女吧"
+			tasks: [{
+				id: "636356F0CD97F914"
+				type: "checkmark"
+			}]
+			title: "可爱的小家伙们"
+			x: 3.5d
+			y: 20.0d
+		}
+		{
+			description: [
+				"在&d女巫半血以下时对其施展解除魔法&r可获得薇克精碎片。薇克精碎片在附魔装置中可以合成为薇克精护符。"
+				""
+				"使用薇克精护符对炼药锅右击可召唤你的薇克精。薇克精可以&e消耗魔源&r为你自动合成物品。要&e决定合成哪种物品&r，只需&e手持这种物品或方块右击薇克精的炼药锅&r。"
+				"{@pagebreak}"
+				"薇克精会&e根据附近容器的内容自动决定合成的原料&r，你不需要指示配方的具体材料。"
+				""
+				"例如，如果你想合成木棍，薇克精为了完成配方，会自行从附近的箱子获取木板进行混搭。每次合成都需要&e少量的魔源&r，这些魔源会会自动从附近魔源罐抽取。给炼药锅提供红石信号会停止合成。"
+				""
+				"薇克精也会使用附近的药水罐和物品&e自动合成药水&r，而过程中的水由薇克精自身提供。如果合成时需要另一种药水作为基底，薇克精会从附近的药水罐抽取基底药水。合成完成时，薇克精会向附近药水罐输出3剂药水。"
+				""
+				"尝试合成粗制药水的过程：首先&6放下一个空药水罐，使用粗制的药水右击薇克精坩埚，然后在附近的箱子提供下界疣。&r"
+				"{@pagebreak}"
+				"你可以对库存和坩埚使用&e支配之杖&r来为薇克精进行指定。如果有指定的库存，薇克精将&e不再从附近的未指定库存拿取物品，而是仅和指定的库存进行交互&r。"
+			]
+			id: "5B46D43C0875FE8D"
+			rewards: [{
+				id: "181F7AF6958F5DBE"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "帮助自动合成，机制有些复杂？"
+			tasks: [{
+				id: "5E53543535B82AAD"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"给予野生星宝石兽&e金粒&r可以获得&e星宝石兽碎片&r。"
+				""
+				"在附魔装置中使用星宝石兽碎片来合成&e星宝石兽护符&r，对着&e地面&r使用星宝石兽护符可召唤出已驯服的星宝石兽。"
+				""
+				"星宝石兽会&e拾取附近的掉落物并将其放到附近的容器内&r。星宝石兽还会收获附近完全长成的魔源浆果丛，它不会受到浆果丛的伤害。"
+				""
+				"&6要让星宝石兽向目标箱子放置物品，先对星宝石兽，再对目标容器使用支配之杖。要从容器中拿出物品，则是先对容器，再对星宝石兽使用支配之杖。&r"
+				""
+				"对星宝石兽使用不同的物品卷轴可以实现过滤物品的效果，由于稍显冗杂详情请查询新生魔艺指导书。"
+			]
+			id: "4819E9D168ABCE58"
+			shape: "diamond"
+			subtitle: "帮你运输物品"
+			tasks: [{
+				id: "50D079CF0E94D771"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			description: [
+				"在野生风转草旁&e生长树木&r获得风转草碎片，在附魔装置中可以合成&e风转草护符&r。"
+				""
+				"对任意花朵使用风转草护符可将其转化为&e风转草之花&r并在一段粒子效果后召唤&e风转草&r。"
+				""
+				"被你召唤的风转草会在你的世界&e设定一个家&r，同时开始产出它们附近的&e自然材料&r，如&e木头、作物、种子和花&r。"
+				""
+				"召唤出的风转草必须要开心才会有效率地产出材料，而且她们的情绪是根据家中自然材料的数量和多样性决定的。你可以对风转草使用方块来得知风转草是否喜欢这种方块。"
+				""
+				"&6只有在风转草之花附近有箱子时才能产生物品，否则将会有物品产生的动画效果，但实际上没有物品产生。&r"
+			]
+			id: "7C842F12BC736135"
+			rewards: [{
+				id: "0C1C946CC7465774"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "获得自然资源"
+			tasks: [{
+				id: "25631A7F62123795"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			description: [
+				"德格米常被目击到在跟随并照料周边的动物。它们能在&e任何&r生物群系发现，尽管有些少见。"
+				""
+				"在野生德格米旁放下&e荒野之角&r可以向它表示友好，随后它会掉落&e德格米碎片&r。"
+				"{@pagebreak}"
+				"在附魔装置中使用&e德格米碎片&r合成&e德格米护符&r，随后&6右键苔石&r即可召唤出你的德格米。此时苔石会变成德格米石阵。想&e召唤更多的德格米&r只需用德格米护符再次&6右击石阵&r。"
+				""
+				"德格米的工作范围是以家为中心任意方向10格内，它会利用该区域来&e产出附近任何实体的掉落物&r。其工作效率取决于幸福度。幸福度可以通过&e增加家中的实体数量和实体种类&r来提高。"
+				""
+				"围绕石阵工作的每个德格米都会间歇性的为生产进度作出贡献。当&e达到了最大进度&r，石阵会&e生产出物品和经验宝石&r，并将其&6存入相邻容器&r。每次生产后，石阵都需要&6吸取魔源重新充能&r。掉落物和经验宝石的数量取决于德格米的幸福度和对应实体的经验值。"
+				""
+				"要让德格米开始工作，必须&6紧贴石阵放置一个箱子和一个有魔源的魔源罐&r。"
+				"{@pagebreak}"
+				"也就是说，&d只要供给魔源，德格米能够源源不断的为你产生生物掉落物。&r"
+			]
+			id: "61800058E061BE74"
+			rewards: [{
+				id: "6381FBFE227C235F"
+				item: "minecraft:mossy_cobblestone"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "为你产生生物掉落物的德爷！"
+			tasks: [{
+				id: "506475CAA3DC6448"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			description: [
+				"书龙是一种乐于助人的生物，它们能&d配合存储讲台管理你的物品&r。"
+				""
+				"对着&e存储讲台&r使用&e书龙护符&r即可召唤他。"
+				""
+				"想让书龙帮你管理物品，首先你应该建造&e存储讲台&r，然后在上面使用&e书龙护符&r来召唤书龙。&e书龙的数量&r决定了&e可以被讲台访问的容器数量&r。"
+				""
+				"想让容器(比如箱子)被讲台访问，首先使用&e支配之杖&r&6shift右键容器&r，再&6右键讲台&r，这时你会发现一只讲台上的书龙飞向你的容器，此时&e存储讲台就可以访问该容器内的物品了&r，也就达到了统一管理的效果。"
+				""
+				"&6容器与讲台的连接范围是30格。&r"
+			]
+			id: "41D1F35F90C8CD26"
+			rewards: [{
+				id: "3ADF0D9022756D2D"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "帮你管理物品"
+			tasks: [{
+				id: "098995AE2E930F18"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"紫晶傀儡会&e种植并收获家附近的紫水晶&r。在&e紫水晶母岩&r旁施展&e启蒙仪式&r可以制造紫晶傀儡，其死亡后会掉落紫晶傀儡护符。"
+				""
+				"对&e方块&r使用紫晶护符可以召唤紫晶傀儡。在让紫晶傀儡符进行紫晶种植前，必须先设定它们的家园。手持&e支配之杖&r，先&e右击傀儡&r再&e右击方块&r，紫晶傀儡就会将&e方块10格内视为家园&r。"
+				""
+				"设定家园后，紫晶傀儡会开始种植紫水晶。它们会&d将紫水晶块转换成紫水晶母岩、收获紫水晶簇、加快母岩产生晶芽的速度、拾取并存储紫水晶碎片。&r"
+				""
+				"如果紫晶傀儡的&e家园&r被设定在&e容器&r上，它们会将捡起的紫水晶碎片存放进去。而如果家园没有设定在容器上，它们则只会忽略地上的物品。"
+			]
+			id: "5A288C3D0CA2405C"
+			rewards: [{
+				id: "1633F9B01A753EDA"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "帮你收获水晶"
+			tasks: [{
+				id: "517671F06DD16AE7"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			id: "060FC0F7B2D016BA"
+			shape: "diamond"
+			tasks: [{
+				id: "17013C696C1D9385"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 16.5d
+		}
+		{
+			description: [
+				"炮塔能在&d通入红石信号&r时朝所在的方向自动施法，就像&e发射器&r一样。"
+				""
+				"炮塔施放的法术由&d加装给他的法术羊皮纸&r来决定，并且它&d只接受触摸和弹射物形态的法术&r。施法时，&e炮塔会从附近的魔源罐抽取魔源。&r"
+				""
+				"&e只要炮塔旁边有物品容器，炮塔就有拾取物品和放置方块的能力。&r"
+			]
+			id: "1F8D5E1781D65555"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E630DE1CB1979E4"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "红石激活法术"
+			tasks: [{
+				id: "3FFD4593FFB0424F"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "想尝试下自动化吗？"
+			x: 13.0d
+			y: 14.5d
+		}
+		{
+			id: "75012DC49BD10809"
+			shape: "diamond"
+			tasks: [{
+				id: "4E1FB98B532B16AD"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			id: "674015561EF0EE06"
+			shape: "diamond"
+			tasks: [{
+				id: "3C3CBE6BA7DD260F"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			id: "68A129A431007B8E"
+			shape: "diamond"
+			tasks: [{
+				id: "390E9D08798D7D27"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			id: "378F9F91FAB24843"
+			shape: "diamond"
+			tasks: [{
+				id: "3DBC791294C41367"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 17.0d
+		}
+		{
+			id: "23A729A418146B92"
+			shape: "diamond"
+			tasks: [{
+				id: "7885A47C4C87D962"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			id: "05B937CA52C3226F"
+			shape: "diamond"
+			tasks: [{
+				id: "2C19B39607764A04"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			description: [
+				"当弹射物法术射向此方块时，该法术会被重定向，向着此方块的面朝该方向射出。"
+				""
+				"法术转向时，法术棱镜会向附近的侦测器发出信号。"
+			]
+			id: "07DB3B5ABC26B2A6"
+			rewards: [{
+				id: "2BF2FC6EF15B2296"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "重定向法术"
+			tasks: [{
+				id: "662DD4A83154653D"
+				item: "ars_nouveau:spell_prism"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["470A698F7EC80221"]
+			description: [
+				"拿在主手右键，消耗经验（消耗的经验根据魔符的数量增加）将自己所学的魔符抄进注解手抄本里，他人获得后右键可学会其中记录的魔符，使用后会被消耗。"
+				""
+				"&0&m没朋友怎么办(哭)&r"
+			]
+			id: "7DAB8FD1766A1131"
+			rewards: [{
+				id: "39E18D6788076CF1"
+				type: "xp"
+				xp: 66
+			}]
+			subtitle: "给你的朋友用用吧"
+			tasks: [{
+				id: "7960E9F01B50D36B"
+				item: {
+					Count: 1
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["126ECCE56E87503C"]
+			description: [
+				"新生魔艺的所有魔法盔甲都能&d额外增加魔力上限和魔力再生速度&r，穿齐他们来增加你的魔力上限，使魔力恢复更快！"
+				""
+				"不仅如此，这些魔法盔甲还可以通过&d安装纤维获得额外的能力&r，甚至可以帮你免死！"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:sorcerer_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4EA1F22038B563E7"
+			subtitle: "增加魔力，获取能力"
+			tasks: [{
+				id: "59008CFA4A0AAAE9"
+				type: "checkmark"
+			}]
+			title: "新生魔艺的特殊装备"
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6468040E298C572C"]
+			description: [
+				"改衣台，可以在你制作的魔法盔甲上&d加装纤维&r。"
+				""
+				"&e右键&r将你的盔甲放上去，左边显示了你盔甲的&d纤维槽数量和等级&r，最高级别的会优先显示在上方。再次&e手持纤维右键&r将你制作的纤维放上去后即可将纤维升级装在盔甲上，盔甲也就获得了对应的能力。想要&d拿下纤维&r只需&e再次右键&r即可。"
+				""
+				"部分纤维在&d高等级的纤维槽&r上能够&e提升效果&r，还有部分纤维&d只能装在特定等级的纤维槽&r上。"
+			]
+			id: "44161DF1D6F67F3F"
+			shape: "gear"
+			subtitle: "就像为盔甲安装插件"
+			tasks: [{
+				id: "3EEEA09A1A443DB7"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			title: "改造你的盔甲"
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4EA1F22038B563E7"]
+			description: [
+				"新生魔艺共有三套盔甲：初学者套装，法师套装，大法师套装(实际是战斗法师套装)。"
+				""
+				"三种套装能增加的&d魔力上限&r和&d魔力再生速度&r是相同的，不同之处只有&d耐久&r以及自带的&d纤维槽&r和&d护甲值&r。"
+				""
+				"每一件盔甲都可以在&d附魔装置&r上升级。共有&d两个&r等级，每个等级都需要&d消耗不同的材料和魔源&r。第一级升级需要消耗两个&e烈焰棒&r，第二级升级需要消耗两个&e末影珍珠&r和&e紫颂果&r。每一次升级都可以让盔甲&d纤维槽的数量增加和等级增高&r。"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "2CA715810DA06B11"
+			rewards: [
+				{
+					count: 2
+					id: "7CC9B486F662789E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02CF0A3292F5AE5C"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "2A7522EE20B04DEE"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			subtitle: "通过附魔装置升级"
+			tasks: [{
+				id: "49AAB7822F047835"
+				title: "升级你的魔法盔甲！"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2CA715810DA06B11"]
+			description: [
+				"种植&d法师之花&r能够得到&d法师之花纤维&r，法师之花纤维能够合成&d空白纤维&r，空白纤维再&d经过附魔装置&r可以变成拥有各种效果的纤维。"
+				""
+				"纤维有着多种多样的效果，但最棒的一定是&e不死之纤维&r和&e修复之纤维&r了。"
+			]
+			id: "6468040E298C572C"
+			rewards: [
+				{
+					id: "3C9672D2FDAE21E6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "5E35E36890947758"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			subtitle: "永生与不灭？"
+			tasks: [{
+				id: "4AE1D8A2DA9A44E5"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			title: "获得纤维"
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4B429128F68C2877"]
+			description: ["对实体造成伤害前对实体施放自身的法术，会在法术链开头添加触摸，结尾添加强化。可被附魔。"]
+			id: "6947486200B21231"
+			rewards: [{
+				id: "007DF26A323A514F"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "2D2D8987D1850E19"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4B429128F68C2877"]
+			description: ["对实体造成伤害前对实体施放自身的法术，若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			id: "0D97D2E971C0AF42"
+			rewards: [{
+				id: "1CFBDCA47CFCE52E"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "0BE2F8E036864E36"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4B429128F68C2877"]
+			description: ["成功防御时，对自身添加魔力再生和法术伤害提升Buff。可被附魔，但不可写入法术。"]
+			id: "2FBC62E6069F2EBE"
+			rewards: [{
+				id: "03D7011FF0778D48"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "70B26C5270E21557"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4B429128F68C2877"]
+			description: ["施放对自身起效的法术的专精工具。右键施放法术，会在法术链开头添加自身。施放法术的消耗会被降低，而对自身生效的Buff的持续时间会增加。"]
+			id: "00FFBAF807B0CD08"
+			rewards: [{
+				id: "456C24691611D817"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "6B47ADF370FBA741"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4B429128F68C2877"]
+			description: ["对实体造成伤害前对实体施放自身的法术，魔力会在上箭时被扣除。若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			id: "1DFCE31DE8E4C33A"
+			rewards: [{
+				id: "5800E7059DF34126"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "4CF741F820EA210C"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			description: [
+				"这些装备可以在抄写台写入法术，还可以吸取魔力来自我修复，但它们只能被写入&e不含形态魔符的法术&r。"
+				""
+				"那么如何抄写法术呢？首先&d在你的法术书里编写好一串法术点击制作&r，然后&d按V选择你刚刚制作的法术&r，将&d想要写入法术的工具放在抄写台上&r，手持刚刚配置好的法术书&dshift右键抄写台&r，法术就被抄写在工具上了。"
+			]
+			id: "4B429128F68C2877"
+			subtitle: "运用你的法术书"
+			tasks: [{
+				id: "2832409284380B3A"
+				title: "一些武器和工具"
+				type: "checkmark"
+			}]
+			title: "如何抄写法术？"
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			description: ["使用法师之花纤维制作。"]
+			id: "6DBC903E33BD145B"
+			rewards: [{
+				id: "08262FC2BC4824D9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "52076543ADFC5B35"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			title: "制作羊皮纸"
+			x: 14.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6DBC903E33BD145B"]
+			description: ["拿着羊皮纸右键抄写台，随后用设置好法术的法术书按住Shift右键抄写台，法术书上的法术便会誊写在羊皮纸上。"]
+			id: "2EAE97CEC7F970A3"
+			rewards: [{
+				id: "2A6EADAE85E1497B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "10BDD67DF931AF63"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "将法术抄写上去！"
+			x: 15.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			description: ["摧毁经过的所有法术弹射物。"]
+			id: "44962FFCC6B03E09"
+			rewards: [{
+				id: "344BB8AA2B04BA65"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "摧毁法术！"
+			tasks: [{
+				id: "120710B9E965F264"
+				item: "ars_nouveau:void_prism"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			description: ["与基础炮塔相比，魔源消耗量减少了一半。"]
+			id: "33EDB57B56510DAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CAA56BDC120522A"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "降低魔源消耗"
+			tasks: [{
+				id: "095697DCC5DE7246"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			description: [
+				"定时法术炮塔会&d定时自动施法&r，默认施法间隔为1秒，而且能通过&e右键点击&r炮塔增加。&e左键点击&r炮塔则会减少这一间隔。"
+				""
+				"潜行时，每次点击增加/减少的时间间隔增大到10秒。"
+				""
+				"对炮塔使用&d支配之杖&r可以锁定间隔，防止被意外修改。"
+				""
+				"将间隔改至0秒或者通入红石信号会关闭炮塔 。"
+			]
+			id: "224769040E7F3301"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257C1C9CE049FE93"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "自动施法"
+			tasks: [{
+				id: "04DED1DC3F37973D"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F8D5E1781D65555"]
+			id: "5F71CEC99D067A2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DCC47E9142B40D7"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "三百六十度旋转"
+			tasks: [{
+				id: "2792C9BF301B6C8D"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["420E774A446BE5F3"]
+			id: "409BC38E95ECD815"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F43E7ABD2C83E43"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			subtitle: "同样是重要的基础材料"
+			tasks: [{
+				id: "1E03312A981D8D3C"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4EDE275E9D1D40A0"]
+			description: [
+				"打开群系指南针，搜索：&d至高木森林&r（这次是中文）"
+				""
+				"就能找到包含大量至高木的群系"
+			]
+			id: "5F2C5291512AD65C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0894C8460D156478"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FA32AF4065A4F7C"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "快速寻找大量木头"
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"62D29C1E3C05CD0E"
+				"048F95BD85B41085"
+			]
+			description: ["允许魔源转为 AE 能量为 ME 网络供能，如果要传输魔源，可以使用支配之杖从魔源罐处输送魔源"]
+			id: "515D1E3F69597DF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67684CE42735B91A"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A530F506CBDB778"
+				item: "arseng:source_acceptor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["515D1E3F69597DF8"]
+			description: ["可以通过自身合成来转换为AE中常见的迷你形态"]
+			id: "74B4A03A4836BEA0"
+			tasks: [{
+				id: "30317A293100C8C0"
+				item: "arseng:cable_source_acceptor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["048F95BD85B41085"]
+			description: ["消耗流体（熔岩）以产生魔源，高效的魔源产出"]
+			id: "48AECB97038EC3EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484930E911502756"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57879C856658BA85"
+				item: "starbunclemania:fluid_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			id: "01D6280A2D4377DC"
+			shape: "diamond"
+			tasks: [{
+				id: "1151FFB300DCFDA2"
+				item: "starbunclemania:glyph_place_fluid"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			id: "278A197047566864"
+			shape: "diamond"
+			tasks: [{
+				id: "7D932EBDE2D1E2E2"
+				item: "starbunclemania:glyph_pickup_fluid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.5d
+		}
+		{
+			description: [
+				"让星宝石兽可以运输能量"
+				""
+				"&m能量管道：请你好好地看着我&r"
+			]
+			id: "28A7840F4A68D375"
+			shape: "diamond"
+			tasks: [{
+				id: "692A5D4159E6A637"
+				item: "starbunclemania:star_battery"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			description: [
+				"让星宝石兽可以运输流体"
+				""
+				"AE：？"
+			]
+			id: "6FB5D36BF4EBB3C4"
+			shape: "diamond"
+			tasks: [{
+				id: "1BE7F681D6D75746"
+				item: "starbunclemania:star_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			description: [
+				"让星宝石兽展现浣熊的本性，销毁周围地上的掉落物"
+				""
+				"但是，为什么不选择提前做好产线，严格控制掉落物呢？或者使用销毁器来清理多余物品"
+			]
+			hide_until_deps_complete: false
+			id: "2DDD7BE7B9E9FA23"
+			shape: "diamond"
+			tasks: [{
+				id: "77CD7A1C517028FF"
+				item: "starbunclemania:star_bin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["38A50014E40F8C90"]
+			description: ["将魔源罐中的魔源凝聚为稳定的流体，极其重要的设备"]
+			id: "54B7370E8DAD098A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65652F4C039DB4AE"
+					table_id: 1404081237954801511L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A93A8DA060A1FC2"
+					table_id: 6021782249763501993L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55EA91F29C1BA41E"
+					table_id: 3534121561611772206L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "214DCB741FBB7818"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["62D29C1E3C05CD0E"]
+			description: ["想要在AE中存储魔源吗？除了转化为流体这种方式，还可以试试使用特殊的元件，从1K到256K，如果已经了解过AE的话应该并不陌生。这是制作所需的基础材料"]
+			id: "5603850A77CB0917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2649551116223625"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31A557CF385CE6FB"
+				item: "arseng:source_cell_housing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["420E774A446BE5F3"]
+			description: ["先给自己一个小目标，比如说，自动化制作半组魔源宝石"]
+			id: "673D7C5A5AB5775E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7354617660E9981D"
+				table_id: 1404081237954801511L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "5E1B5E0EBED0C29A"
+				item: { Count: 32, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			title: "小目标"
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5514483CF158193F"]
+			id: "3A3F8D3D861B5284"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "38ACCA34AD89D322"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 17.25d
 		}
 	]
 	title: "大书库(魔法)"

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "22253443F259226E"
 	group: "756D1B6269D2C725"
-	icon: "toms_storage:ts.inventory_connector"
+	icon: "ae2:controller"
 	id: "22253443F259226E"
 	images: [
 		{
@@ -20,14 +20,6 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 3.0d
-			y: -2.5d
-		}
-		{
-			height: 2.0d
-			image: "toms_storage:block/inventory_connector"
-			rotation: 0.0d
-			width: 2.0d
-			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -114,67 +106,6 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"存储方块方面，只推荐使用这两个方块，其余方块的功能要么有上位替代（例如合成终端优于存储终端），要么更推荐使用其他物流模组来完成相应功能"
-				""
-				"存储整合器：贴着任意容器放置，与这个容器连成一片的其他容器都会被纳入存储范围中"
-				""
-				"合成终端：贴着存储整合器放置，右键即可打开界面，能看到相连容器的所有物品"
-				""
-				"推荐的容器：木桶，不推荐大量使用箱子等实体方块来存放物品，容易造成卡顿"
-			]
-			icon: "toms_storage:ts.inventory_connector"
-			id: "120CDE46E6F6ECE0"
-			rewards: [{
-				id: "69D6B100F3F36305"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [
-				{
-					id: "592DFE39917555A5"
-					item: "toms_storage:ts.inventory_connector"
-					type: "item"
-				}
-				{
-					id: "1BAFE62685DDAF8E"
-					item: "toms_storage:ts.crafting_terminal"
-					type: "item"
-				}
-			]
-			title: "汤姆存储"
-			x: -3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["120CDE46E6F6ECE0"]
-			description: ["可以远程访问终端，但是必须指向并看着要访问的终端，并且中间不能有障碍物，相对来说用处很小"]
-			id: "6DE57D1D095BCB2F"
-			tasks: [{
-				id: "58241BF1659C7AA2"
-				item: "toms_storage:ts.wireless_terminal"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["6DE57D1D095BCB2F"]
-			description: [
-				"更高级的终端，并且通过在旁边建造信标，能够实现远距离甚至跨维度（需要4级信标）访问"
-				""
-				"很多时候可作为AE无线终端的替代品，但缺点是汤姆存储无法访问AE里的物品，而后者则可以访问前者的物品（存储总线）"
-			]
-			id: "22AA5EAD83F73CC9"
-			tasks: [{
-				id: "49D593CB68907EA3"
-				item: "toms_storage:ts.adv_wireless_terminal"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -6.0d
-		}
 		{
 			description: [
 				"使用方法：默认B键打开饰品栏里的背包或者物品栏里的第一个背包，如果随身携带了多个，也可以鼠标指向需要打开的背包然后按B键打开"
@@ -364,34 +295,11 @@
 				type: "item"
 			}]
 			title: "精妙存储的容器"
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"271E31DB740B7C2A"
-				"61623C20C4A7E85E"
-			]
-			description: [
-				"手持任意物品右键即可将物品存入所连接的容器里，空手双击右键可存入所有同类型物品。例如，所连接容器里只存放5个铁锭，物品栏里有10个铁锭，空手双击右键只会存入10个铁锭，不会存入其他物品"
-				""
-				"需要用存储工具连接该模组的任意容器，&b无法连接原版容器或其他模组容器&r"
-			]
-			id: "24882C9408B53A51"
-			rewards: [{
-				id: "41C14281C3664EA5"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "672380DF193017E5"
-				item: "sophisticatedstorage:controller"
-				type: "item"
-			}]
 			x: 6.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["61623C20C4A7E85E"]
 			description: ["用来控制存储的重要工具，如果没有的话是无法将该模组容器和存储控制器相连接的"]
 			id: "271E31DB740B7C2A"
 			tasks: [{
@@ -404,17 +312,21 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
+				"存储控制器:手持任意物品右键即可将物品存入所连接的容器里，空手双击右键可存入所有同类型物品。例如，所连接容器里只存放5个铁锭，物品栏里有10个铁锭，空手双击右键只会存入10个铁锭，不会存入其他物品"
+				""
+				"需要用存储工具连接该模组的任意容器，&b无法连接原版容器或其他模组容器&r"
+				"{@pagebreak}"
 				"如果需要搭配自动化处理，建议使用存储端口作为自动输入和输出和节点"
 				""
-				"这三种方块可通过自身合成来相互转化，并且&a当且仅当&r紧挨着存储控制器时才不需要存储工具，否则必须使用存储工具来指定连接的存储控制器"
+				"这三种IO方块可通过自身合成来相互转化，并且&a当且仅当&r紧挨着存储控制器时才不需要存储工具，否则必须使用存储工具来指定连接的存储控制器"
 				""
-				"三种方块顾名思义，分别是能够输入和输出，只能输出和只能输入的功能"
+				"三种IO方块顾名思义，分别是能够输入和输出，只能输出和只能输入的功能"
 				""
 				"&b三种端口是为了适配自动化的输入和输出，无法像存储控制器一样直接右键来输入&r"
 			]
@@ -441,12 +353,18 @@
 					item: "sophisticatedstorage:storage_input"
 					type: "item"
 				}
+				{
+					id: "466CDE4FE3393A7C"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
 			]
+			title: "存储IO"
 			x: 4.0d
-			y: -5.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
 				"存储链接同样只能识别精妙存储模组的容器"
 				""
@@ -469,7 +387,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
 				"默认款式的不好看？试试自己来自定义容器每个面的颜色吧"
 				""
@@ -500,7 +418,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
 				"搬家有大量物品需要打包带走？试试包装带，将容器包装好以后挖掘掉落的是包含所装物品的容器"
 				""
@@ -525,11 +443,11 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
 				"和精妙背包一样，精妙存储也有类似的升级，并且可以通过合成相互转换，依然只介绍相对重要的升级"
 				""
@@ -1387,7 +1305,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["24882C9408B53A51"]
+			dependencies: ["61623C20C4A7E85E"]
 			description: [
 				"精妙存储还有一类特殊的容器，限类桶"
 				""
@@ -1411,7 +1329,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2410D7C2C5F2DD19"
+				id: "2FA5E4108BCFE661"
 				item: {
 					Count: 1
 					id: "sophisticatedstorage:limited_barrel_1"
@@ -1427,7 +1345,7 @@
 		}
 		{
 			description: [
-				"由于pipez模组有严重BUG，现已被移除"
+				"由于pipez模组有严重BUG，现已被移除，且不会被重新加入整合包"
 				""
 				"应用能源2的含金量还在增加"
 			]

@@ -16,9 +16,14 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier("minecraft:chests/shipwreck_supply")
     .removeLoot("farmersdelight:rope")
 
-
-
-
-
+    
+  //  event.removeLoot("minecraft:grass",["thermal:tomato_seeds","thermal:onion_seeds"])
+    event
+        .addBlockLootModifier("minecraft:grass")
+        .removeLoot(["thermal:tomato_seeds",
+            "thermal:flax_seeds",
+            "thermal:onion_seeds",
+        "tofucraft:seeds_rice",
+    "thermal:rice_seeds","tofucraft:seeds_chili","thermal:bell_pepper"])
 
     })

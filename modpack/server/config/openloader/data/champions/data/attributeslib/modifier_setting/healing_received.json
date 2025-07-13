@@ -12,6 +12,6 @@
   "enable": true,
   "modifier": {
     "operation": "ADDITION",
-    "value": 1.0
+    "value": 0.4
   }
 }

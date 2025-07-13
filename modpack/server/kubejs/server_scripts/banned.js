@@ -34,7 +34,14 @@ event.remove({id:"cloudertinker:tables/dectird_ingot"})
 event.remove({id:"cloudertinker:tables/prublaze_ingot"})
 event.remove({id:"cloudertinker:tables/evilmare_ingot"})
 event.remove({id:"cloudertinker:tables/bloodshed_ingot"})
-
+event.remove({id:"supplementaries:strings"})
+event.remove({id:"thermal:storage/flax_block"})
+event.remove({id:"supplementaries:flax_block_uncrafting"})
+event.remove({id:"farmersdelight:rice_bag"})
+event.remove({id:"mystias_izakaya:bing_kuai"})
+event.remove({id:"mystias_izakaya:la_jiao"})
+event.remove({id:"tofucraft:seeds_chili"})
+event.remove({id:"mystias_izakaya:xi_hong_shi"})
 
 let silverfish=['minecraft:infested_stone',
 	 'minecraft:infested_stone_bricks', 'minecraft:infested_mossy_stone_bricks',

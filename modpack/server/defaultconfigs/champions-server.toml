@@ -70,7 +70,7 @@
 	[affixes.dampened]
 		#The amount of damage reduction to apply to indirect attacks
 		#Range: 0.0 ~ 1.0
-		dampenedDamageReduction = 0.9
+		dampenedDamageReduction = 0.75
 
 	[affixes.desecrating]
 		#How long (in seconds) between cloud placements
@@ -156,7 +156,7 @@
 		reflectiveMaxPercent = 0.7
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 300
+		reflectiveMax = 100
 		#Set to true to enable deadly reflected strikes
 		reflectiveLethal = false
 

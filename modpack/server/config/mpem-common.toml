@@ -13,7 +13,7 @@
 
 ["实体优化"]
 	#启用实体tick优化
-	enable = true
+	enable = false
 	#水平检测范围(方块)
 	#Range: 1 ~ 256
 	horizontalRange = 64
@@ -32,7 +32,7 @@
 	enable = true
 
 [Entities]
-	optimizeEntities = true
+	optimizeEntities = false
 	#Range: 1 ~ 256
 	horizontalRange = 64
 	#Range: 1 ~ 256
@@ -48,7 +48,7 @@
 	itemWhitelist = ["minecraft:diamond"]
 
 [Messages]
-	sendLoginMessage = true
+	sendLoginMessage = false
 
 ["Progressive Entity Loading Settings"]
 	#Number of entities to load per tick
@@ -75,9 +75,9 @@
 	optimizeEntityAI = true
 	#实体激活范围 (方块) | Entity activation range (blocks)
 	#Range: 16 ~ 128
-	entityActivationRange = 48
+	entityActivationRange = 96
 	#启用死亡实体清理 | Enable dead entity cleanup
-	entityCleanup = false
+	entityCleanup = true
 	#减少远处实体的同步频率 | Reduce entity sync frequency for distant entities
 	reduceEntityUpdates = false
 
@@ -96,6 +96,8 @@
 	itemList = []
 	#是否在合并后的物品上显示堆叠数量 | Whether to show stack count on merged items
 	showStackCount = true
+	#物品优化设置| Item Optimization Settings
+	OpenIO = true
 
 	[item_optimization.stack_size]
 		#启用自定义堆叠大小 | Enable custom stack sizes
@@ -110,7 +112,7 @@
 	#Range: 60 ~ 3600
 	cleanInterval = 600
 	#是否在清理时触发垃圾回收 | Whether to trigger garbage collection during cleanup
-	enableGC = false
+	enableGC = true
 
 #调试设置 | Debug Settings
 [debug]
@@ -168,4 +170,37 @@
 	modBlacklist = []
 	#启用严格的类存在检查 (推荐关闭为稳定性) | Enable strict class existence checking (recommended for stability)
 	strictClassChecking = false
+
+["Metal Renderer Configuration"]
+	#Force Metal renderer even on non-Mac systems
+	forceMetal = false
+
+["Renderer Configuration"]
+	#Enable leaf rendering optimizations
+	enabled = true
+	#Culling depth (1-5)
+	#Higher values = better performance but may cause visual artifacts
+	#Range: 1 ~ 5
+	cullingDepth = 3
+	#Random rejection rate (0.0-1.0)
+	#Prevents visible culling patterns
+	#Range: 0.0 ~ 1.0
+	rejectionRate = 0.15
+
+	["Renderer Configuration"."Ultra Culling"]
+		#启用超激进剔除（对所有方块/实体生效）
+		ultraCulling = false
+		#剔除深度（1-4）
+		#越大剔除越激进，但可能出现bug
+		#Range: 1 ~ 4
+		ultraDepth = 3
+		#仅剔除背向玩家的面（防止正面nothing）
+		ultraBackfaceOnly = 0.95
+
+["Advanced Features"]
+	#Enable mangrove roots optimization
+	optimizeMangrove = true
+	#Use advanced culling algorithm
+	#More precise but slightly slower
+	advancedCulling = true
 

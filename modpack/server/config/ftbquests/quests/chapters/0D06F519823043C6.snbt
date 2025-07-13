@@ -987,7 +987,7 @@
 			}]
 			title: "7.17 奇点"
 			x: 10.5d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["03EB6EFA4DDFF8E8"]
@@ -1023,7 +1023,7 @@
 			]
 			title: "7.18 量子环"
 			x: 13.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["348EF2B3721119C8"]
@@ -1408,7 +1408,7 @@
 			]
 			title: "量子桥卡"
 			x: 9.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -2730,6 +2730,273 @@
 			title: "以物易！物！"
 			x: 9.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["547EA3B86B7F02FE"]
+			description: ["需要安装在无线访问点中，尽管成本较高，但可以让服务器中所有人无视距离访问ME网络"]
+			id: "1D6CC8776D005A6E"
+			shape: "rsquare"
+			tasks: [{
+				id: "1665F7F8C4D86CC0"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D6CC8776D005A6E"]
+			description: ["升级版，可以让服务器中绑定了ME网络（无线访问点）的玩家用无线终端在任何维度访问ME网络"]
+			id: "78D1F728B9670475"
+			shape: "rsquare"
+			tasks: [{
+				id: "6F029678B0ED3F92"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"天子：最近我发现有一些不怀好意的妖怪在海上定居，严重影响了天界的能源发展，必须清理！而我顺便也发现了部分材料的特别之处——可以用来制作特殊的元件，里面包含了无限的流体，除此之外，还可以用其他材料来制作别的无限流体元件，不过只有特定的流体可以制作为无限元件。"
+				""
+				"如果你能找到这些材料，就来找我交换吧"
+			]
+			icon: "alexscaves:acid_bucket"
+			id: "68D20C7705966D34"
+			rewards: [{
+				id: "68DB626C182902AE"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "alexscaves:acid"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "726299EB72C12D1A"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2DADD8D58A12B518"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "09AC259E30AEE465"
+					item: { Count: 4, id: "advanced_ae:quantum_alloy_plate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0869192DA7D9354B"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "578865301807F3F5"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+			]
+			title: "交换无限酸液元件"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			icon: "biomesoplenty:blood_bucket"
+			id: "0B14428B2D39089D"
+			rewards: [{
+				id: "7EBC94011A24BAF2"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "biomesoplenty:blood"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "386CA64851D3FC7C"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "49721806586B6F65"
+					item: { Count: 2, id: "alexscaves:azure_neodymium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2539D5D3ECFE66AD"
+					item: { Count: 8, id: "youkaishomecoming:flesh_feast" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "79335F35F2FA9470"
+					item: "biomesoplenty:blood_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5E6FD1C3063008DA"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+			]
+			title: "无限血元件"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:milk_bucket"
+			id: "712763082B1BEAF5"
+			rewards: [{
+				id: "32ACA28821619F95"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:milk"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "006043AF7D1C591A"
+					item: {
+						Count: 16
+						id: "tconstruct:repair_kit"
+						tag: {
+							Material: "tconstruct:bone"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "6A86742DDAD1BB9B"
+					item: { Count: 16, id: "minecraft:bone_meal" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "502918ADF1089772"
+					item: { Count: 8, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C189E6321893C2E"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3AE1F590C242A9BE"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+			]
+			title: "无限牛奶"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			icon: "tofucraft:bucket_soymilk"
+			id: "6AABD02938E0D7F9"
+			rewards: [{
+				id: "56593451F1307713"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "tofucraft:soymilk"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "7F14E865B55279C3"
+					item: { Count: 4, id: "tofucraft:tofudiamond" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1FF94E38A6B7E55E"
+					item: "tofucraft:bucket_soymilk"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "565A3A6380366C90"
+					item: "kubejs:gap_tofu"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29789B2FEB2E0348"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "3B3954EB32FD4C87"
+					item: { Count: 16, id: "ars_nouveau:source_gem_block" }
+					type: "item"
+				}
+			]
+			title: "无限豆奶"
+			x: 19.5d
+			y: 4.5d
 		}
 	]
 	title: "有顶天(AE)"

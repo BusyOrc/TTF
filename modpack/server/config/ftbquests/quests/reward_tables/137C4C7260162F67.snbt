@@ -1,0 +1,20 @@
+{
+	icon: "ars_nouveau:sourceberry_bush"
+	id: "137C4C7260162F67"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "ars_nouveau:source_berry_pie" }
+		{ item: "ars_nouveau:source_berry_roll", weight: 2.0f }
+		{ item: "ars_nouveau:wilden_horn" }
+		{ item: "ars_nouveau:wilden_spike" }
+		{ item: "ars_nouveau:wilden_wing" }
+		{ count: 2, item: "ars_nouveau:source_gem", weight: 5.0f }
+		{ count: 2, item: "ars_nouveau:magebloom_fiber", weight: 5.0f }
+		{ item: "arsdelight:source_berry_cookie", weight: 8.0f }
+		{ item: "arsdelight:mendosteen_tea", weight: 2.0f }
+		{ item: "arsdelight:unstable_cocktail", weight: 2.0f }
+		{ item: "arsdelight:source_berry_tea", weight: 2.0f }
+	]
+	title: "ars_reward"
+}

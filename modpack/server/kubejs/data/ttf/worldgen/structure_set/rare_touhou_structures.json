@@ -1,0 +1,19 @@
+{
+    "structures": [
+        {
+          "structure": "ttf:homo",
+          "weight": 1
+        },
+        {
+          "structure": "ttf:alice",
+          "weight": 1
+        }
+
+    ],
+    "placement": {
+        "salt": 924797152623,
+        "spacing": 90,
+        "separation": 60,
+        "type": "minecraft:random_spread"
+      }
+}

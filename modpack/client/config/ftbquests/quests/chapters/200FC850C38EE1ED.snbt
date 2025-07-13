@@ -22,7 +22,7 @@
 			image: "thermal:block/cells/fluid_cell_bottom"
 			rotation: 0.0d
 			width: 4.0d
-			x: 18.5d
+			x: 22.5d
 			y: 5.0d
 		}
 		{
@@ -446,7 +446,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4365FCED0C6DEA6B"]
 			description: [
 				"这些是不需要电力就能运作的重要采集设备，可能目前不一定用得上，但是以后会用上的。"
 				""
@@ -489,9 +488,9 @@
 					type: "item"
 				}
 			]
-			title: "6.5 采集设备"
-			x: 7.0d
-			y: -0.5d
+			title: "采集设备"
+			x: 17.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["609C738A0F0B222C"]
@@ -1553,7 +1552,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["41AA8D42F7ABE173"]
+			dependencies: ["4365FCED0C6DEA6B"]
 			description: [
 				"觉：为了调查，我想邀请一些有嫌疑的人员来米斯蒂娅的仓库，但是天子说她还有很多工作没忙完，暂时脱不开身，这方面我也理解，没办法强行把她抓过来。因此只能先麻烦您去"
 				"{ \"text\": \"帮她一把\", \"underlined\": \"true\", \"color\":\"green\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"0735447815DC7DEF\" } }"
