@@ -291,7 +291,9 @@ event.custom({//部件加工台
 
 
 //yyz
-    event.recipes.create.mixing("kubejs:sakura",[Fluid.of("fruitsdelight:lychee_cherry_tea",250), "mystias_izakaya:yin_hua_bu_ding"])
+    event.recipes.create.mixing("kubejs:sakura",[Fluid.of("fruitsdelight:lychee_cherry_tea",250),
+         "mystias_izakaya:yin_hua_bu_ding", 'immortalers_delight:himekaido_chazuke']).superheated()
+         /*
 event.custom({
     "type": "tconstruct:material",
     "ingredient": {
@@ -301,6 +303,8 @@ event.custom({
     "needed": 1,
     "value": 1
 })
+    */
+crtm(event,"sakuratinker:molten_elementium","kubejs:sakura","kubejs:sakura","none","none",90,1060,24)
 
 //棉花糖
 event.custom({

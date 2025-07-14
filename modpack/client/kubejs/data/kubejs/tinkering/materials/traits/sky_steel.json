@@ -2,14 +2,14 @@
     "default": [
       {
         "level": 1,
-        "name": "tinkerscalibration:crit_dmg"
+        "name": "touhoutinkermodifier:crit_dmg"
       }
     ],
     "perStat": {
       "tconstruct:armor": [
         {
                 "level": 1,
-        "name": "tinkerscalibration:riot_shield"
+        "name": "touhoutinkermodifier:riot_shield"
         }
       ]}
   }

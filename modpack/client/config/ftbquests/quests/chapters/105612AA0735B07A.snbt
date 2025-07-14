@@ -4512,6 +4512,35 @@
 			x: 6.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"小伞：有一种特殊的武器的制作流程比较特别，你需要先去暮色森林击败高原上位于云端的巨人获取“巨人剑”，再进行浇筑，才能获得对应的剑刃"
+				""
+				"如果需要铸模，当然还是用熔融金浇筑剑刃"
+			]
+			id: "4F6C9BF94EB6917C"
+			rewards: [{
+				count: 8
+				id: "413084B8A3BB37A3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "24B769D39BA4AED3"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 1.5d
+		}
 	]
 	title: "小伞铁匠铺(匠魂)"
 }

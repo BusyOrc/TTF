@@ -2,22 +2,22 @@
     "default": [
       {
         "level": 1,
-        "name": "tinkerscalibration:overheal"
+        "name": "touhoutinkermodifier:overheal"
       },
       {
         "level": 1,
-        "name": "tconstruct:fog_swim"
+        "name": "touhoutinkermodifier:fog_swim"
       }
     ],
     "perStat": {
       "tconstruct:armor": [
         {
           "level": 1,
-          "name": "tinkerscalibration:yousei"
+          "name": "touhoutinkermodifier:yousei"
         },
         {
           "level": 1,
-          "name": "tconstruct:fog_swim"
+          "name": "touhoutinkermodifier:fog_swim"
         }
       ]
     }

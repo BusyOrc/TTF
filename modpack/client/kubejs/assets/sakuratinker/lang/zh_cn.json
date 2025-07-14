@@ -1,5 +1,7 @@
 {
-
+"modifier.sakuratinker.celestial":"飞行于天际的少女",
+"modifier.sakuratinker.celestial.flavor":"梦想封印警告",
+"modifier.sakuratinker.celestial.description":"获得创造飞行能力",
 
   "modifier.sakuratinker.mamba.description": "生命值高时获得飞行能力，但是生命值过低时失去飞行，临时获得吸血能力，冷却5分钟。",
 
@@ -97,24 +99,13 @@
   "modifier.sakuratinker.evil_eye": "邪眼",
   "modifier.sakuratinker.evil_eye.flavor": "没有一滴血是自己的",
   "modifier.sakuratinker.evil_eye.description": "击杀生物时可恢复生命值。",
+  "fluid.tconstruct.molten_elementium": "熔融🌸",
+  "fluid.tconstruct.flowing_molten_elementium": "流动的熔融🌸",
+  "item.sakuratinker.molten_elementium_bucket": "熔融🌸桶",
+  "modifier.sakuratinker.energy_display": "电量装载",
+  "modifier.sakuratinker.energy_display.flavor": "通电",
+  "modifier.sakuratinker.energy_display.description": "给工具增加电量显示。"
 
-"modifier.sakuratinker.celestial":"飞行于天际的少女",
-"modifier.sakuratinker.celestial.flavor":"梦想封印警告",
-"modifier.sakuratinker.celestial.description":"获得创造飞行能力",
-"modifier.sakuratinker.earth_light":"地球光",
-"modifier.sakuratinker.earth_light.flavor":"还可以从弃牌堆寻回一张牌——如果有弃牌堆的话",
-"modifier.sakuratinker.earth_light.description":"额外增加生命值和法力值恢复",
-"modifier.sakuratinker.dodge":"灵巧少女",
-"modifier.sakuratinker.dodge.flavor":"轻装上阵",
-"modifier.sakuratinker.dodge.description":"减少8点护甲，增加10%闪避率",
-"modifier.sakuratinker.moon_rabbit":"月兔",
-"modifier.sakuratinker.moon_rabbit.flavor":"天赋型选手",
-"modifier.sakuratinker.moon_rabbit.description":"增加箭矢速度，提高60%受治疗量",
-"modifier.sakuratinker.mary":"玛丽小姐",
-"modifier.sakuratinker.mary.flavor":"那再看看你背后呢？",
-"modifier.sakuratinker.mary.description":"增加30%暴击率与70%暴击伤害",
-"modifier.sakuratinker.yumekui":"梦貘",
-"modifier.sakuratinker.yumekui.flavor":"会是另一个梦吗？",
-"modifier.sakuratinker.yumekui.description":"增加20%魔抗，提高30%总经验值获取量"
+
 
 }

@@ -2,14 +2,14 @@
   "default": [
     {
       "level": 1,
-      "name": "tinkerscalibration:darkness_emerging"
+      "name": "touhoutinkermodifier:darkness_emerging"
     }
   ],
   "perStat": {
     "tconstruct:armor": [
       {
         "level": 1,
-        "name": "tinkerscalibration:darkness_emerging_armor"
+        "name": "touhoutinkermodifier:darkness_emerging_armor"
       }
     ]
   }

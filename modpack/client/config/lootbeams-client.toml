@@ -46,7 +46,7 @@
 		#If the Loot Beam should be glowing.
 		glowing_beam = true
 		#If the glow effect should be animated.
-		animate_glow = false
+		animate_glow = true
 
 	#Particle Config
 	["Loot Beams".Particles]
@@ -105,7 +105,7 @@
 		#If items should glow.
 		items_glow = true
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = false
+		all_items = true
 		#If Loot Beams should only be rendered on items with rarity.
 		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)

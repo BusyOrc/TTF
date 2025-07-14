@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:part_builder",
+  "pattern": "cloudertinker:giant_blade",
+  "pattern_item": [
+    {
+      "tag": "tconstruct:patterns/default"
+    },
+    {
+      "item": "cloudertinker:giant_blade_cast"
+    },
+    {
+      "item": "cloudertinker:giant_blade_sand_cast"
+    },
+    {
+      "item": "cloudertinker:giant_blade_red_sand_cast"
+    }
+  ],
+  "cost": 32,
+  "result": {
+    "item": "cloudertinker:giant_blade"
+  }
+}

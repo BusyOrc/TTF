@@ -57,9 +57,6 @@
 		grant_annihilation_recast = true
 
 	[staff_spellbooks.archive_of_abyssal_secrets]
-		#Extra spell slots || Default 10 + 2 built-in
-		#Range: > 4
-		extra_slots = 10
 		#Max Mana || ADDITION || Default 300.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 300.0
@@ -71,9 +68,6 @@
 		eldritch_spell_power = 0.15
 
 	[staff_spellbooks.chronicles_of_the_firelord]
-		#Extra spell slots || Default 10 + 2 built-in
-		#Range: > 3
-		extra_slots = 10
 		#Max Mana || ADDITION || Default 300.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 300.0
@@ -85,9 +79,6 @@
 		eldritch_spell_power = 0.15
 
 	[staff_spellbooks.shellbound]
-		#Extra spell slots || Default 12
-		#Range: > 1
-		extra_slots = 12
 		#Max Mana || ADDITION || Default 200.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 200.0
@@ -99,9 +90,6 @@
 		nature_spell_power = 0.1
 
 	[staff_spellbooks.the_accused_codex]
-		#Extra spell slots || Default 11
-		#Range: > 1
-		extra_slots = 11
 		#Max Mana || ADDITION || Default 300.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 300.0
@@ -113,9 +101,6 @@
 		ice_spell_power = 0.2
 
 	[staff_spellbooks.codec_of_crushing_depths]
-		#Extra spell slots || Default 11
-		#Range: > 1
-		extra_slots = 11
 		#Max Mana || ADDITION || Default 300.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 300.0
@@ -127,9 +112,6 @@
 		aqua_spell_power = 0.15
 
 	[staff_spellbooks.guide_to_watery_whispers]
-		#Extra spell slots || Default 10
-		#Range: > 1
-		extra_slots = 10
 		#Max Mana || ADDITION || Default 200.0
 		#Range: 50.0 ~ 1000.0
 		max_mana = 200.0
@@ -139,4 +121,21 @@
 		#Aqua Spell Power || MULTIPLY_BASE || Default 0.10
 		#Range: 0.0 ~ 1.0
 		aqua_spell_power = 0.1
+
+	[staff_spellbooks.wand_of_final_light]
+		#Damage || Default 11.0
+		#Range: 0.0 ~ 100.0
+		wandOfFinalLightDamage = 11.0
+		#Attack Speed || Default -3.0
+		#Range: -5.0 ~ 5.0
+		wandOfFinalLightAttackSpeed = -3.0
+		#Ender Spell Power || MULTIPLY_BASE || Default 0.2
+		#Range: 0.0 ~ 1.0
+		wandOfFinalLightEnderSpellPower = 0.2
+		#Cooldown Reduction || MULTIPLY_BASE || Default 0.2
+		#Range: 0.0 ~ 1.0
+		wandOfFinalLightCooldownReduction = 0.2
+		#Cast Time Reduction || MULTIPLY_BASE || Default 0.15
+		#Range: 0.0 ~ 1.0
+		wandOfFinalLightCastTimeReduction = 0.15
 
