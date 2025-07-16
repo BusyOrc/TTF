@@ -67,6 +67,14 @@
 					item: "touhou_little_maid:ender_chest_backpack"
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/dialog show gensokyo_start"
+					elevate_perms: true
+					id: "6CCC12ED0EB6F682"
+					silent: true
+					type: "command"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
@@ -109,7 +117,7 @@
 			description: [
 				"灵梦：你似乎还有点疑问，不过暂时不用想那么多，先动起来再说"
 				""
-				"这里还有点东西，直接送你了吧"
+				"这里还有点东西，直接送你了吧，应该能帮上忙"
 				""
 				"弹幕战介绍：为了避免弹幕近距离影响观感（尤其是符卡的大量弹幕），近距离平着发射时弹幕不会显示，为正常情况。弹幕战强化的弹幕也有同样的视效优化，实际伤害不受影响。"
 			]
@@ -134,7 +142,133 @@
 					type: "item"
 				}
 				{
-					id: "42B2C44B6F472327"
+					id: "757B84886B099870"
+					item: {
+						Count: 1
+						id: "tconstruct:sword"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: 0.12d
+								AttributeName: "l2damagetracker:crit_rate"
+								Name: "crit_chance0"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-817445610
+									-343979292
+									-2090969390
+									-1187670283
+								]
+							}]
+							etstlib_tool_uuid: "4a31cb61-a151-42c8-9979-b4b47440c8bb"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "crit_chance"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"kubejs:daiyousei"
+								"kubejs:baka"
+								"tinkers_thinking:cactus"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerscalibration:mossmending"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 2
+									name: "sakuratinker:danmaku_ball"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:overheal"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:fog_swim"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:perfect_freeze"
+								}
+								{
+									level: 1
+									name: "tinkers_thinking:prickly"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 1.1f
+								"tconstruct:mining_speed": 0.625f
+							}
+							tic_persistent: {
+								abilities: -1
+								upgrades: -4
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 1.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:attack_damage": 7.965f
+								"tconstruct:attack_speed": 1.4f
+								"tconstruct:durability": 1793.1376f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:mining_speed": 4.55625f
+								"tconstruct:projectile_damage": 2.5f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinkerscalibration:mossmending"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 2
+									name: "sakuratinker:danmaku_ball"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+								upgrades: 4
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E68100751E5D363"
 					item: {
 						Count: 1
 						id: "tconstruct:travelers_shield"
@@ -157,7 +291,15 @@
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
+									name: "touhoutinkermodifier:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:reflecting"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
 								}
 								{
 									level: 1
@@ -169,6 +311,8 @@
 								"tconstruct:mining_speed": 1.25f
 							}
 							tic_persistent: {
+								abilities: -1
+								defense: -2
 								upgrades: -3
 							}
 							tic_stats: {
@@ -191,7 +335,15 @@
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
+									name: "touhoutinkermodifier:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:reflecting"
+								}
+								{
+									level: 2
+									name: "tconstruct:magic_protection"
 								}
 							]
 							tic_volatile_data: {
@@ -206,29 +358,29 @@
 					type: "item"
 				}
 				{
-					id: "2C475EF3585FC87B"
+					id: "6F041FC2D0E411FD"
 					item: {
 						Count: 1
 						id: "tconstruct:plate_helmet"
 						tag: {
 							Damage: 0
 							ExAttributeModifiers: [{
-								Amount: 1.0d
-								AttributeName: "minecraft:generic.armor_toughness"
-								Name: "ARtoughness0"
+								Amount: -4.0d
+								AttributeName: "minecraft:generic.armor"
+								Name: "armor0"
 								Operation: 0
 								Slot: "head"
 								UUID: [I;
-									1273578378
-									1410745932
-									-1475422399
-									-210673238
+									1472950374
+									-583119745
+									-1224431245
+									1444895278
 								]
 							}]
-							etstlib_tool_uuid: "1aebd0b6-c0e6-4d1a-b475-ad73450f7f02"
+							etstlib_tool_uuid: "853d1707-023c-4fda-b0bf-586e8bad9d7d"
 							exmo_nbt: {
 								ModifierEntry: [{
-									EntryID: "ARtoughness"
+									EntryID: "armor"
 									Level: 1
 								}]
 							}
@@ -240,177 +392,83 @@
 							tic_modifiers: [
 								{
 									level: 1
-									name: "tconstruct:tanned"
+									name: "tinkerslevellingaddon:improvable"
 								}
-								{
-									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "tconstruct:item_frame"
-								}
-								{
-									level: 1
-									name: "tconstruct:turtle_shell"
-								}
-								{
-									level: 1
-									name: "tinkerscalibration:yousei"
-								}
-								{
-									level: 1
-									name: "tconstruct:fog_swim"
-								}
-							]
-							tic_persistent: {
-								defense: -1
-								upgrades: -3
-							}
-							tic_stats: {
-								"tconstruct:armor": 5.0f
-								"tconstruct:armor_toughness": 2.0f
-								"tconstruct:durability": 520.0f
-								"tconstruct:knockback_resistance": 0.05f
-							}
-							tic_upgrades: [
-								{
-									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "tconstruct:item_frame"
-								}
-								{
-									level: 1
-									name: "tconstruct:turtle_shell"
-								}
-							]
-							tic_volatile_data: {
-								abilities: 1
-								defense: 3
-								"tconstruct:soulbound": 1b
-								"tconstruct:total_item_slots": 1
-								upgrades: 3
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "49C08F69136FE630"
-					item: {
-						Count: 1
-						id: "tconstruct:plate_chestplate"
-						tag: {
-							Damage: 0
-							ExAttributeModifiers: [{
-								Amount: 3.0d
-								AttributeName: "minecraft:generic.armor_toughness"
-								Name: "ARtoughness0"
-								Operation: 0
-								Slot: "chest"
-								UUID: [I;
-									-740404970
-									1254310541
-									-1703478059
-									1012356142
-								]
-							}]
-							etstlib_tool_uuid: "d09459ed-7b6e-4786-9e2a-0dfcb17f1b2f"
-							exmo_nbt: {
-								ModifierEntry: [{
-									EntryID: "ARtoughness"
-									Level: 1
-								}]
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"tconstruct:cobalt"
-								"tconstruct:leather"
-							]
-							tic_modifiers: [
 								{
 									level: 1
 									name: "tconstruct:tanned"
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
+									name: "touhoutinkermodifier:lt_repair"
 								}
 								{
 									level: 1
 									name: "tconstruct:emerald"
 								}
 								{
-									level: 2
+									level: 3
 									name: "tconstruct:projectile_protection"
 								}
 								{
 									level: 1
-									name: "tconstruct:shulking"
+									name: "tconstruct:diamond"
 								}
 								{
 									level: 1
-									name: "tconstruct:melee_protection"
+									name: "touhoutinkermodifier:yousei"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:fog_swim"
 								}
 							]
 							tic_multipliers: {
-								"tconstruct:attack_damage": 0.5f
+								"tconstruct:attack_damage": 1.25f
 								"tconstruct:mining_speed": 1.25f
 							}
 							tic_persistent: {
+								abilities: -1
 								defense: -3
 								upgrades: -3
 							}
 							tic_stats: {
 								"tconstruct:accuracy": 0.85f
-								"tconstruct:armor": 8.0f
-								"tconstruct:armor_toughness": 2.5f
-								"tconstruct:durability": 720.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:armor": 6.0f
+								"tconstruct:armor_toughness": 3.0f
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 1155.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
 								"tconstruct:knockback_resistance": 0.05f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:projectile_damage": 2.5f
 							}
 							tic_upgrades: [
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
+									name: "touhoutinkermodifier:lt_repair"
 								}
 								{
 									level: 1
 									name: "tconstruct:emerald"
 								}
 								{
-									level: 2
+									level: 3
 									name: "tconstruct:projectile_protection"
 								}
 								{
 									level: 1
-									name: "tconstruct:shulking"
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
 								}
 							]
 							tic_volatile_data: {
 								abilities: 1
 								defense: 3
 								"tconstruct:rarity": 1
-								"tconstruct:soulbound": 1b
 								upgrades: 3
 							}
 						}
@@ -418,29 +476,29 @@
 					type: "item"
 				}
 				{
-					id: "45DD0D39AAEAEB13"
+					id: "75B388E0D08B37E4"
 					item: {
 						Count: 1
-						id: "tconstruct:plate_leggings"
+						id: "tconstruct:plate_chestplate"
 						tag: {
 							Damage: 0
 							ExAttributeModifiers: [{
-								Amount: 2.0d
-								AttributeName: "minecraft:generic.armor"
-								Name: "ARarmor0"
+								Amount: 0.05d
+								AttributeName: "attributeslib:prot_shred"
+								Name: "prot_shred0"
 								Operation: 0
-								Slot: "legs"
+								Slot: "chest"
 								UUID: [I;
-									939231067
-									-1109638655
-									-1375005909
-									488551140
+									782724545
+									-2103686954
+									-1546958709
+									-1163756268
 								]
 							}]
-							etstlib_tool_uuid: "ebf4479b-41cf-42e4-aa8a-5e66ddead2c6"
+							etstlib_tool_uuid: "d7fe2d1a-2e17-4d21-9a5c-c7ef74d7ec78"
 							exmo_nbt: {
 								ModifierEntry: [{
-									EntryID: "ARarmor"
+									EntryID: "prot_shred"
 									Level: 1
 								}]
 							}
@@ -452,27 +510,140 @@
 							tic_modifiers: [
 								{
 									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
 									name: "tconstruct:tanned"
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
+									name: "touhoutinkermodifier:lt_repair"
 								}
 								{
 									level: 1
 									name: "tconstruct:emerald"
 								}
 								{
-									level: 1
-									name: "tconstruct:protection"
+									level: 4
+									name: "tconstruct:projectile_protection"
 								}
 								{
-									level: 2
+									level: 1
+									name: "tconstruct:diamond"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:mining_speed": 1.25f
+							}
+							tic_persistent: {
+								abilities: -1
+								defense: -3
+								upgrades: -3
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:armor": 6.0f
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:attack_damage": 0.2f
+								"tconstruct:durability": 735.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:projectile_damage": 2.5f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "touhoutinkermodifier:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 3
 									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:rarity": 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19B32D70027C0D29"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							ExAttributeModifiers: [{
+								Amount: -2.0d
+								AttributeName: "minecraft:generic.armor"
+								Name: "armor0"
+								Operation: 0
+								Slot: "legs"
+								UUID: [I;
+									-1357137729
+									458771543
+									-1841210402
+									-1645356919
+								]
+							}]
+							etstlib_tool_uuid: "d5e1cffa-4dcd-42d6-b98f-a6d7ef4e6462"
+							exmo_nbt: {
+								ModifierEntry: [{
+									EntryID: "armor"
+									Level: 1
+								}]
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:seared_stone"
+								"tconstruct:leather"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:lt_repair"
+								}
+								{
+									level: 1
+									name: "tconstruct:emerald"
+								}
+								{
+									level: 3
+									name: "tconstruct:projectile_protection"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:fire_protection"
 								}
 							]
 							tic_multipliers: {
@@ -481,43 +652,46 @@
 							}
 							tic_persistent: {
 								abilities: -1
-								defense: -1
+								defense: -3
 								upgrades: -3
 							}
 							tic_stats: {
 								"tconstruct:accuracy": 0.85f
 								"tconstruct:armor": 4.0f
 								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:durability": 337.5f
-								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:attack_damage": 0.5f
+								"tconstruct:durability": 690.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:mining_speed": 3.0f
+								"tconstruct:projectile_damage": 2.5f
 							}
 							tic_upgrades: [
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
+									name: "touhoutinkermodifier:lt_repair"
 								}
 								{
 									level: 1
 									name: "tconstruct:emerald"
 								}
 								{
-									level: 1
-									name: "tconstruct:protection"
+									level: 3
+									name: "tconstruct:projectile_protection"
 								}
 								{
 									level: 1
-									name: "tconstruct:projectile_protection"
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
 								}
 							]
 							tic_volatile_data: {
 								abilities: 1
 								defense: 3
 								"tconstruct:rarity": 1
-								"tconstruct:soulbound": 1b
 								upgrades: 3
 							}
 						}
@@ -525,29 +699,29 @@
 					type: "item"
 				}
 				{
-					id: "1BEC07F82382E1C4"
+					id: "13711082A9BE97A0"
 					item: {
 						Count: 1
 						id: "tconstruct:plate_boots"
 						tag: {
 							Damage: 0
 							ExAttributeModifiers: [{
-								Amount: 6.0d
-								AttributeName: "attributeslib:prot_pierce"
-								Name: "ARprot_pierce0"
+								Amount: 0.03d
+								AttributeName: "attributeslib:prot_shred"
+								Name: "prot_shred0"
 								Operation: 0
 								Slot: "feet"
 								UUID: [I;
-									103397764
-									-969060559
-									-1509999616
-									-103660101
+									1948256673
+									-1919858138
+									-1564765537
+									902351887
 								]
 							}]
-							etstlib_tool_uuid: "0213545c-db14-4256-8061-5604560fa8ad"
+							etstlib_tool_uuid: "2f7ea430-f6bf-4d14-ad81-94d9057a893f"
 							exmo_nbt: {
 								ModifierEntry: [{
-									EntryID: "ARprot_pierce"
+									EntryID: "prot_shred"
 									Level: 1
 								}]
 							}
@@ -559,7 +733,15 @@
 							tic_modifiers: [
 								{
 									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
 									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:lt_repair"
 								}
 								{
 									level: 1
@@ -567,27 +749,15 @@
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 3
-									name: "tconstruct:projectile_protection"
-								}
-								{
-									level: 1
-									name: "tconstruct:protection"
-								}
-								{
-									level: 1
 									name: "tconstruct:diamond"
 								}
 								{
+									level: 3
+									name: "tconstruct:melee_protection"
+								}
+								{
 									level: 1
-									name: "tinkerscalibration:medicine_borne"
+									name: "touhoutinkermodifier:medicine_borne"
 								}
 							]
 							tic_multipliers: {
@@ -613,172 +783,30 @@
 							tic_upgrades: [
 								{
 									level: 1
+									name: "touhoutinkermodifier:lt_repair"
+								}
+								{
+									level: 1
 									name: "tconstruct:emerald"
 								}
 								{
 									level: 1
-									name: "tconstruct:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
+									name: "tconstruct:diamond"
 								}
 								{
 									level: 3
-									name: "tconstruct:projectile_protection"
+									name: "tconstruct:melee_protection"
 								}
 								{
 									level: 1
-									name: "tconstruct:protection"
-								}
-								{
-									level: 1
-									name: "tconstruct:diamond"
+									name: "tinkerslevellingaddon:improvable"
 								}
 							]
 							tic_volatile_data: {
 								abilities: 1
 								defense: 3
 								"tconstruct:rarity": 1
-								"tconstruct:soulbound": 1b
 								upgrades: 3
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "78BB3F24E50CFA94"
-					item: {
-						Count: 1
-						id: "tconstruct:sword"
-						tag: {
-							Damage: 0
-							ExAttributeModifiers: [{
-								Amount: 0.2d
-								AttributeName: "attributeslib:experience_gained"
-								Name: "ATexperience0"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-1113198278
-									-1932637424
-									-1954083191
-									1136981997
-								]
-							}]
-							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"村好剑\"}"
-							}
-							etstlib_tool_uuid: "d4f580ca-cb70-4598-99db-111c33bc7fb2"
-							exmo_nbt: {
-								ModifierEntry: [{
-									EntryID: "ATexperience"
-									Level: 1
-								}]
-							}
-							tic_broken: 0b
-							tic_materials: [
-								"kubejs:daiyousei"
-								"kubejs:baka"
-								"tinkers_thinking:cactus"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "tconstruct:sharpness"
-								}
-								{
-									level: 1
-									name: "tinkerscalibration:mossmending"
-								}
-								{
-									level: 1
-									name: "tconstruct:emerald"
-								}
-								{
-									level: 1
-									name: "sakuratinker:danmaku_ball"
-								}
-								{
-									level: 1
-									name: "tinkerscalibration:overheal"
-								}
-								{
-									level: 1
-									name: "tconstruct:fog_swim"
-								}
-								{
-									level: 1
-									name: "tinkerscalibration:perfect_freeze"
-								}
-								{
-									level: 1
-									name: "tinkers_thinking:prickly"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_shears"
-								}
-								{
-									level: 1
-									name: "tinkers_thinking:repayed"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.25f
-								"tconstruct:durability": 1.1f
-								"tconstruct:mining_speed": 0.625f
-							}
-							tic_persistent: {
-								abilities: -1
-								"mushroom_daydream:flare": 3.0f
-								upgrades: -4
-							}
-							tic_stats: {
-								"tconstruct:accuracy": 0.85f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:attack_damage": 8.302501f
-								"tconstruct:attack_speed": 1.4f
-								"tconstruct:durability": 1071.2626f
-								"tconstruct:harvest_tier": "minecraft:diamond"
-								"tconstruct:mining_speed": 3.4312499f
-							}
-							tic_upgrades: [
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "tconstruct:sharpness"
-								}
-								{
-									level: 1
-									name: "tinkers_thinking:repayed"
-								}
-								{
-									level: 1
-									name: "tinkerscalibration:mossmending"
-								}
-								{
-									level: 1
-									name: "tconstruct:emerald"
-								}
-								{
-									level: 1
-									name: "sakuratinker:danmaku_ball"
-								}
-							]
-							tic_volatile_data: {
-								abilities: 1
-								"tconstruct:rarity": 1
-								"tconstruct:soulbound": 1b
-								upgrades: 4
 							}
 						}
 					}

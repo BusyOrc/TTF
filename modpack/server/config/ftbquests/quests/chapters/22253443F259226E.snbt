@@ -58,6 +58,7 @@
 			y: -3.5d
 		}
 		{
+			click: "#"
 			height: 2.0d
 			hover: ["左键点击黑曜石"]
 			image: "minecraft:block/obsidian"
@@ -75,7 +76,9 @@
 			y: -2.5d
 		}
 		{
+			click: "#"
 			height: 1.0d
+			hover: ["掉落物形式的红石粉"]
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,6 +86,7 @@
 			y: -3.5d
 		}
 		{
+			click: "#"
 			height: 0.7d
 			hover: ["左键点击黑曜石"]
 			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
@@ -93,6 +97,7 @@
 			y: -5.5d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["左键点击黑曜石"]
 			image: "create:item/brass_hand"
@@ -274,12 +279,6 @@
 				"已经做出来的原版容器可通过与一个红石火把合成来得到相应的精妙存储版本的容器"
 				""
 				"这种容器还有一个特点是打开以后能在左上角看到&a升级栏位&r，而原版容器没有"
-				""
-				"额外补充：&c在没有特别说明的情况下，请勿将该模组的容器进行机械动力的实体化&r，没有相应模组兼容支持的话，会导致物品丢失"
-				""
-				"目前已有模组：智能动态结构存储SmarterContraptionStorage"
-				""
-				"   该模组支持精妙存储和背包的动态结构化，但由于目前版本无法在服务器运行（已反馈BUG等待修复），因此暂时未安装该模组，如果是单人游玩，可在MC百科搜索并自行安装该模组"
 			]
 			id: "61623C20C4A7E85E"
 			tasks: [{

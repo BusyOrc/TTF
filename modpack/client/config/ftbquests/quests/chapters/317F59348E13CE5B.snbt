@@ -5403,7 +5403,15 @@
 								}
 								{
 									level: 1
-									name: "tinkerscalibration:katana"
+									name: "touhoutinkermodifier:guzzlord"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:holymantle"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:katana"
 								}
 								{
 									level: 1
@@ -7012,7 +7020,7 @@
 								}
 								{
 									level: 1
-									name: "tinkerscalibration:katana"
+									name: "touhoutinkermodifier:katana"
 								}
 								{
 									level: 1
@@ -7028,7 +7036,7 @@
 								}
 								{
 									level: 1
-									name: "tinkerscalibration:soul_reaper"
+									name: "touhoutinkermodifier:soul_reaper"
 								}
 								{
 									level: 1
@@ -7037,6 +7045,14 @@
 								{
 									level: 1
 									name: "sakuratinker:nether_ghost"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:guzzlord"
+								}
+								{
+									level: 1
+									name: "touhoutinkermodifier:holymantle"
 								}
 							]
 							tic_persistent: { }

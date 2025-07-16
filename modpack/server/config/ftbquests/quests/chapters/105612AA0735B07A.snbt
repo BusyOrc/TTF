@@ -17,8 +17,8 @@
 			image: "touhou_tinker_fantasy:textures/skr.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: -5.34375d
-			y: 0.0625d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			alpha: 200
@@ -253,7 +253,7 @@
 				type: "checkmark"
 			}]
 			title: "8.1 多多良小伞"
-			x: -1.0d
+			x: -5.3999999999999995d
 			y: 0.0d
 		}
 		{
@@ -369,7 +369,7 @@
 				}
 			]
 			title: "8.2 工匠的起步基础"
-			x: 1.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -384,30 +384,18 @@
 			hide_until_deps_complete: false
 			icon: "tconstruct:pattern"
 			id: "41DEF8DF514E9E26"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5C34EEDF5148EDE6"
-					table_id: 6568354217492425317L
-					type: "random"
-				}
-				{
-					id: "57B22E8F9079F5BB"
-					item: "toms_storage:ts.inventory_connector"
-					type: "item"
-				}
-				{
-					id: "29A1677151EF0702"
-					item: "toms_storage:ts.crafting_terminal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C34EEDF5148EDE6"
+				table_id: 6568354217492425317L
+				type: "random"
+			}]
 			tasks: [{
 				id: "735E9EF1B119AF29"
 				type: "checkmark"
 			}]
 			title: "8.3 部件加工"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -458,8 +446,8 @@
 				}
 			]
 			title: "8.5 额外说明"
-			x: 1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59FD5AB9FF33A87C"]
@@ -605,7 +593,7 @@
 						Count: 1
 						id: "tconstruct:modifier_crystal"
 						tag: {
-							modifier: "tinkerscalibration:coin_repair"
+							modifier: "touhoutinkermodifier:coin_repair"
 						}
 					}
 					type: "item"
@@ -704,8 +692,8 @@
 				}
 			]
 			title: "值得留意的材料"
-			x: 1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5ED241C44B8A8429"]
@@ -737,8 +725,8 @@
 				}
 			]
 			title: "更多材料"
-			x: -1.0d
-			y: 2.0d
+			x: -4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1023,8 +1011,8 @@
 				item: "kubejs:koishi_hat"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B0754F78D5C078A"]
@@ -2279,7 +2267,7 @@
 				type: "checkmark"
 			}]
 			title: "如何搭配匠魂材料"
-			x: 3.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -2634,6 +2622,11 @@
 			]
 			icon: "minecraft:bamboo"
 			id: "4BA9FCEC97B1A80F"
+			rewards: [{
+				id: "015A28973F36682A"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [
 				{
 					id: "1AAC3B38E82A16D2"
@@ -2654,11 +2647,10 @@
 				}
 			]
 			title: "匠魂部件的制作"
-			x: -1.0d
-			y: -2.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["671224459AD2B3C0"]
 			description: [
 				"小伞：能帮我在下界找一下这种花吗，我稍微需要一点"
 				""
@@ -2691,7 +2683,7 @@
 				type: "item"
 			}]
 			title: "火焰花"
-			x: 3.0d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -4139,8 +4131,8 @@
 				item: "tconstruct:venom_bottle"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6B557C22BFBDE30B"]
@@ -4162,8 +4154,8 @@
 				item: "minecraft:wet_sponge"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -4229,8 +4221,8 @@
 				}
 			]
 			title: "强化提取"
-			x: 1.0d
-			y: -4.5d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			description: ["便宜又实用的工具，如果需要将流体放置于世界中，只需要潜行右键即可"]

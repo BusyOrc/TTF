@@ -300,6 +300,7 @@
 			dependencies: ["5C8DF6217891839A"]
 			icon: "alexscaves:abyssal_altar"
 			id: "0520AAE28B3989F3"
+			subtitle: "注意看"
 			tasks: [{
 				id: "454B5AAF581C1C85"
 				observe_type: 0
@@ -315,19 +316,13 @@
 			dependencies: ["4F81BC3102C4F631"]
 			id: "5C8DF6217891839A"
 			subtitle: "后续麻烦插入图片"
-			tasks: [
-				{
-					id: "560A8936F6A11EA1"
-					title: "深潜者们"
-					type: "checkmark"
-				}
-				{
-					advancement: "alexscaves:alexscaves/stalked_by_deep_one"
-					criterion: ""
-					id: "4F794C262177E4BF"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "4F794C262177E4BF"
+				type: "advancement"
+			}]
+			title: "深潜者"
 			x: 1.5d
 			y: -1.0d
 		}
