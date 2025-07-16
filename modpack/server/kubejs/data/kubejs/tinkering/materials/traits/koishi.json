@@ -13,7 +13,7 @@
       "tconstruct:armor": [
           {
             "level": 1,
-            "name": "tconstruct:unconscious"
+            "name": "touhoutinkermodifier:unconscious"
           },
           {
             "level": 1,
@@ -23,7 +23,7 @@
       "sakuratinker:charm":[
         {
         "level":1,
-        "name":"sakuratinker:mary"
+        "name":"touhoutinkermodifier:mary"
       }
     ]
     }

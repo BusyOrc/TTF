@@ -6,14 +6,14 @@
       },
       {
         "level": 1,
-        "name": "tinkerscalibration:doremy"
+        "name": "touhoutinkermodifier:doremy"
       }
     ],
     "perStat":{
       "sakuratinker:charm":[
         {
           "level":1,
-          "name":"sakuratinker:yumekui"
+          "name":"touhoutinkermodifier:yumekui"
         }
       ]
     }

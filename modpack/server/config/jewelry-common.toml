@@ -43,7 +43,7 @@
 	Magnetic = 16.0
 	#Satisfication's minimum hunger amount for the player
 	#Range: 0 ~ 16
-	"Never Go Hungry" = 8
+	"Never Go Hungry" = 14
 	#Empowered's Vanilla Critical Damage Bonus as a percentage
 	#Range: > 0
 	Critical = 20

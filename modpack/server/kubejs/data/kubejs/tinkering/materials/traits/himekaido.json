@@ -2,11 +2,11 @@
     "default": [
       {
         "level": 1,
-        "name": "tconstruct:photo"
+        "name": "touhoutinkermodifier:photo"
       },
       {
         "level": 1,
-        "name": "tconstruct:snap_crit"
+        "name": "touhoutinkermodifier:snap_crit"
       }
 
     ],
@@ -16,7 +16,7 @@
 
       {
         "level": 1,
-        "name": "tconstruct:hermit_purple"
+        "name": "touhoutinkermodifier:hermit_purple"
       },
       {
         "level": 1,

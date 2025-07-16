@@ -1,0 +1,28 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 12,
+        "operation": "addition",
+        "attribute": "attributeslib:armor_pierce",
+        "unique": "tconstruct.modifier.darkness_emerging",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.2,
+        "operation": "addition",
+        "attribute": "minecraft:generic.max_health",
+        "unique": "tconstruct.modifier.darkness_emerging",
+        "slots": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

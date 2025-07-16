@@ -230,7 +230,10 @@
       "cataclysm:ancient_factory",
       "cataclysm:cursed_pyramid",
       "cataclysm:sunken_city",
-      "cataclysm:frosted_prison"
+      "cataclysm:frosted_prison",
+      "ttf:fumo_overworld",
+      "ttf:homo",
+      "ttf:alice"
 
             
     ],

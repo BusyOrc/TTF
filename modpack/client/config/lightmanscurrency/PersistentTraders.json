@@ -97,7 +97,7 @@
           "SellItem": {
             "ID": "tconstruct:modifier_crystal",
             "Count": 1,
-            "Tag": "{modifier:\"tinkerscalibration:coin_repair\"}"
+            "Tag": "{modifier:\"touhoutinkermodifier:coin_repair\"}"
           },
           "Price": {
             "Value": [

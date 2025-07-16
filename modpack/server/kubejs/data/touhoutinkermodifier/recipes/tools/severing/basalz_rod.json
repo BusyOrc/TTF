@@ -1,0 +1,8 @@
+{
+    "type": "tconstruct:severing",
+    "entity": {
+      "type":  "thermal:basalz"
+      
+    },
+    "result": "thermal:basalz_rod"
+  }

@@ -1,0 +1,8 @@
+{
+    "type": "tconstruct:severing",
+    "entity": {
+      "type":  "alexsmobs:soul_vulture"
+      
+    },
+    "result": "alexsmobs:soul_heart"
+  }

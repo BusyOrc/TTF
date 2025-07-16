@@ -1,8 +1,8 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "ttf:touhou_structures/homo",
+  "start_pool": "ttf:homo/homo",
   "size": 7,
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#forge:is_plains",
   "adapt_noise": false,
   "spawn_overrides": {},
   "max_distance_from_center": 114,
@@ -233,7 +233,8 @@
       "cataclysm:cursed_pyramid",
       "cataclysm:sunken_city",
       "cataclysm:frosted_prison",
-      "ttf:fumo_overworld"
+      "ttf:fumo_overworld",
+      "ttf:alice"
 
             
     ],

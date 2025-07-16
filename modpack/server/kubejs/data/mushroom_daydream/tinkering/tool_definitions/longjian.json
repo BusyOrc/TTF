@@ -41,22 +41,22 @@
       "type": "tconstruct:base_stats",
       "stats": {
         "tconstruct:attack_damage": 1,
-        "tconstruct:attack_speed": 0.9
+        "tconstruct:attack_speed": 0.8
       }
     },
     {
       "type": "tconstruct:multiply_stats",
       "multipliers": {
-        "tconstruct:attack_damage": 0.4,
+        "tconstruct:attack_damage": 0.8,
         "tconstruct:attack_speed": 1.0,
-        "tconstruct:durability": 0.6
+        "tconstruct:durability": 0.4
       }
     },
     {
       "type": "tconstruct:modifier_slots",
       "slots": {
         "abilities": 1,
-        "upgrades": 1
+        "upgrades": 2
       }
     },
     {

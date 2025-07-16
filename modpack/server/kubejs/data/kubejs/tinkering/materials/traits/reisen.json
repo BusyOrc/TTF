@@ -2,20 +2,20 @@
     "default": [
       {
         "level": 1,
-        "name": "tinkerscalibration:medicine_borne"
+        "name": "touhoutinkermodifier:medicine_borne"
       }
     ],
     "perStat": {
       "tconstruct:armor": [
         {
             "level": 1,
-            "name": "tinkerscalibration:medicine_borne"
+            "name": "touhoutinkermodifier:medicine_borne"
           }
       ],
       "tconstruct:ranged": [
         {
             "level": 1,
-            "name": "tinkerscalibration:scope"
+            "name": "touhoutinkermodifier:scope"
           },
           {
             "level": 1,
@@ -25,7 +25,7 @@
       "sakuratinker:charm":[
       {
         "level":1,
-        "name":"sakuratinker:moon_rabbit"
+        "name":"touhoutinkermodifier:moon_rabbit"
       }
     ]
     }

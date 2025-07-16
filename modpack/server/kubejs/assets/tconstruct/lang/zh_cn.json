@@ -18,18 +18,7 @@
   "fluid.tconstruct.flowing_molten_cinderslime": "流动熔融余烬黏液",
   "item.tconstruct.molten_cinderslime_bucket": "熔融余烬黏液桶",
 
-    "modifier.tconstruct.tofu_kungfu":"豆腐功夫",
-    "modifier.tconstruct.tofu_kungfu.flavor":"有的是工夫施展功夫",
-    "modifier.tconstruct.tofu_kungfu.description":"攻击使敌人获得短暂虚弱效果",
-
-    "modifier.tconstruct.unconscious":"无意识",
-    "modifier.tconstruct.unconscious.flavor":"也许就在背后",
-    "modifier.tconstruct.unconscious.description":"获得移动速度提升，免疫缓慢效果",
-
-    "modifier.tconstruct.portal":"异界之门",
-    "modifier.tconstruct.portal.flavor":"门里涌现出来的是……",
-    "modifier.tconstruct.portal.description":"奇异的力量让武器对§t末影类生物§r有极强的克制作用，附加缓慢和虚弱效果",
-    "modifier.tconstruct.portal.attack_damage":"对末影类生物伤害",
+    
 
 
     "modifier.tconstruct.workbench": "工作台",
@@ -39,58 +28,7 @@
     "modifier.tconstruct.crafting_table.flavor": "能力全面提升!",
     "modifier.tconstruct.crafting_table.description": "获得背包中的额外工作站和一个能力槽，潜行+护腿互动键打开",
 
-    "modifier.tconstruct.photo": "念写",
-    "modifier.tconstruct.photo.flavor": "手机📱拍屏警告",
-    "modifier.tconstruct.photo.description": "提高对末影和亡灵生物的伤害，攻击临时使上述敌人减少护甲和韧性",
-    "modifier.tconstruct.mambaout": "坠机",
-    "modifier.tconstruct.mambaout.flavor": "致敬传奇BOSS牢先",
-    "modifier.tconstruct.mambaout.description": "在空中时降低大量保护",
-     "modifier.tconstruct.mambaout.resistance": "空中抗性",
-
-    "modifier.tconstruct.hermit_purple": "隐者之紫",
-    "modifier.tconstruct.hermit_purple.flavor": "天狗之羽护体",
-    "modifier.tconstruct.hermit_purple.description": "大幅减少来自末影类敌人的伤害",
-
-    "modifier.tconstruct.snap_crit": "拍屏暴击",
-    "modifier.tconstruct.snap_crit.flavor": "不准用手机拍屏！",
-    "modifier.tconstruct.snap_crit.description": "你的手机📱拍屏攻击对敌人有更高几率造成暴击，并且提高暴击伤害",
-
-    "modifier.tconstruct.thermal_engineer":"热力工程师",
-    "modifier.tconstruct.thermal_engineer.flavor":"厂里老师傅了属于是",
-    "modifier.tconstruct.thermal_engineer.description":"对热力的熟悉让你的工具获得了一个额外能力槽",
-
-    "modifier.tconstruct.radiation_immune":"辐射免疫",
-    "modifier.tconstruct.radiation_immune.flavor":"原来阿空平时都穿这样吗",
-    "modifier.tconstruct.radiation_immune.description":"仅需一次强化即可免疫辐照效果",
-        "modifier.tconstruct.lichking":"汲血",
-    "modifier.tconstruct.lichking.flavor":"都是我的",
-    "modifier.tconstruct.lichking.description":"每级获得5%生命吸取效果",
-
-    "modifier.tconstruct.latiao":"辣条仙人",
-    "modifier.tconstruct.latiao.flavor":"看来你已经成为辣条仙人了",
-    "modifier.tconstruct.latiao.description":"无辣不玩：获得1个能力槽和2个升级槽",
-
-    "modifier.tconstruct.twilight_world":"暮色世界",
-    "modifier.tconstruct.twilight_world.flavor":"于暮色中",
-    "modifier.tconstruct.twilight_world.description":"在熟悉的景色，工具回忆起了过往，获得1个升级槽",
-
-    "modifier.tconstruct.fog_swim":"游泳丁真",
-    "modifier.tconstruct.fog_swim.flavor":"鉴定为：飞雾",
-    "modifier.tconstruct.fog_swim.description":"在雾中游泳程度的能力：提高游泳和飞行速度",
-    "modifier.tconstruct.hotaurum":"辣金强化",
-    "modifier.tconstruct.hotaurum.flavor":"是辣条的麻辣香味！",
-    "modifier.tconstruct.hotaurum.description":"全面大幅提升工具的各种属性",
-    "modifier.tconstruct.hotaurum.requirements":"需要下界合金强化和辣条修补强化作为前置",
-    "modifier.tconstruct.iron_curtain":"铁幕",
-    "modifier.tconstruct.iron_curtain.flavor":"守矢神社与博丽神社之间铁幕高筑",
-    "modifier.tconstruct.iron_curtain.description":"额外提升对所有伤害的防护能力，提高盔甲穿透抗性与盔甲撕裂抗性，提高武器暴击伤害",
-    "modifier.tconstruct.iron_curtain.requirements":"需要不毁强化作为前置",
     
-    "modifier.tconstruct.lt_repair":"辣条修补",
-    "modifier.tconstruct.lt_repair.flavor":"工具已经羽化而登仙",
-    "modifier.tconstruct.lt_repair.description":"将工具放在副手或盔甲栏位时，食用辣条可修复工具",
-    "modifier.tconstruct.hermit_purple.resistance":"对末影生物的抗性",
-    "modifier.tconstruct.photo.attack_damage":"对末影生物的伤害",
 
     "item.tconstruct.cheese_ingot": "工匠奶酪"
 

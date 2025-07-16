@@ -949,35 +949,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["3ED303DD7845B6C9"]
-			description: [
-				"米斯蒂娅：推荐一个好用的牛奶来源，罐中牛能够持续不断地产生牛奶，制作方法也很简单，用一个铁砧将一头牛压进奶罐里就可以了"
-				""
-				"铁砧需要稍微放高点，否则无法起作用"
-			]
-			id: "4853D93985B91C69"
-			rewards: [
-				{
-					id: "7F280A9FC3254582"
-					type: "xp"
-					xp: 150
-				}
-				{
-					count: 4
-					id: "6050F1E1EA5C7BC6"
-					item: "youkaishomecoming:raw_lamprey"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "41D3EC82BBDF1287"
-				item: "cookingforblockheads:cow_jar"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.5d
-		}
-		{
 			description: [
 				"如需远程传输嗅探兽，推荐使用传送石板，任何生物踩上去即可被传送"
 				""

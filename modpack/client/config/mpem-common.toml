@@ -204,3 +204,23 @@
 	#More precise but slightly slower
 	advancedCulling = true
 
+[Performance]
+	#Enable async path tracing for culling
+	asyncTracing = true
+	#Number of threads for path tracing
+	#Range: 1 ~ 8
+	tracingThreads = 2
+	#Max tracing distance in blocks
+	#Range: 1.0 ~ 16.0
+	traceDistance = 6.0
+	#Fallback simple culling distance
+	#Range: 4.0 ~ 32.0
+	fallbackDistance = 16.0
+
+[Leaves]
+	#Use advanced leaf culling algorithm
+	advancedLeafCulling = true
+	#Minimum connected leaves for simple culling
+	#Range: 1 ~ 6
+	minConnections = 2
+
