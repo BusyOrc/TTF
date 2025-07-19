@@ -984,6 +984,7 @@
 				""
 				"正确答案为：大妖精"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_glazed_terracotta"
 			id: "55C0A12A9B564684"
 			tasks: [{
@@ -999,11 +1000,13 @@
 				"5AF6C43C3CC44F08"
 				"6FFA656CFEE1CD3C"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"袿姬拥有创造偶像程度的能力，是东方Project系列中的官方角色，首次登场于东方鬼形兽，作为鬼形兽的六面Boss登场。"
 				""
 				"正确答案为：偶像造形术"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_glazed_terracotta"
 			id: "5DF6D03F2FF307F9"
 			tasks: [{
@@ -1019,11 +1022,13 @@
 				"4FE152A9E97AC711"
 				"179CE2C30264EC7E"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"正确答案：雾雨魔理沙。雾雨魔理沙几乎出现在了每一部官方STG作品中，作为主角组之一，登场次数遥遥领先！"
 				""
 				"而咲夜，早苗在许多部作品里并未登场"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_glazed_terracotta"
 			id: "116454BDEDDF9871"
 			tasks: [{

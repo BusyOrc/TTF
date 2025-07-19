@@ -1022,6 +1022,111 @@
 			x: -4.5d
 			y: -2.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["3DF75BC6785F7251"]
+			description: [
+				"米斯蒂娅：太好了 我刚好缺金枪鱼做大江户！"
+				"                         (本任务提交不会有提示)"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:mutton"
+			id: "0CDB3EF0A846BFC9"
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "1B34CF93A76EDDB3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "汉尼拔.jpg"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "327628663B2A1689"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:foods/meat/raw"
+						}
+					}
+					title: "Any #forge:foods/meat/raw"
+					type: "item"
+				}
+				{
+					elapsedTime: 3600L
+					id: "23E6C65483F5B5AC"
+					title: "每一小时进货一次，我还要点货！"
+					type: "questsadditions:time"
+				}
+			]
+			title: "肉类贩卖"
+			x: -7.25d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3DF75BC6785F7251"]
+			description: [
+				"米斯蒂娅: 太好了，我刚好海苔什么的都快没了！"
+				"                         (本任务提交不会有提示)"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:wheat"
+			id: "165A578F8C239170"
+			require_sequential_tasks: false
+			rewards: [{
+				auto: "no_toast"
+				count: 10
+				id: "3CDE86BC40216E5C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "进货来了"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "39FFB2F3A4E13709"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:crops"
+						}
+					}
+					title: "Any #forge:crops"
+					type: "item"
+				}
+				{
+					elapsedTime: 3600L
+					id: "2E8B9A17BA10AD75"
+					title: "每一小时进货一次，我还要点货！"
+					type: "questsadditions:time"
+				}
+			]
+			title: "农作物换钱"
+			x: -7.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["04151AE497BC345A"]
+			description: ["米斯蒂娅：唏！ 怎么突然订单多了这么多！我撤回我刚刚说的话，你食材有多少来多少！"]
+			icon: "minecraft:apple"
+			id: "3DF75BC6785F7251"
+			subtitle: "撤回撤回！"
+			tasks: [{
+				id: "20550F674C4C0386"
+				title: "唏，可以和解吗"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: -2.0d
+		}
 	]
 	title: "夜雀食堂"
 }

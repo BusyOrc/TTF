@@ -35,6 +35,22 @@
 			x: -16.5d
 			y: 12.0d
 		}
+		{
+			height: 15.0d
+			image: "touhou_tinker_fantasy:textures/yakumoran2.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -36.0d
+			y: 1.5d
+		}
+		{
+			height: 12.0d
+			image: "touhou_tinker_fantasy:textures/cheeeeeeeen.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -31.0d
+			y: 16.5d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]

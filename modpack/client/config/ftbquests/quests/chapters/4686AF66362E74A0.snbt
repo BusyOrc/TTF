@@ -116,6 +116,14 @@
 			x: -4.5d
 			y: 11.0d
 		}
+		{
+			height: 12.0d
+			image: "touhou_tinker_fantasy:textures/patch3.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 1.0d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]
