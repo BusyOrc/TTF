@@ -12,13 +12,6 @@
 		#金块 (default: minecraft:gold_block)
 		goldBlock = "minecraft:gold_block"
 
-[curios]
-
-	#护符设置
-	[curios.charms]
-		#设为true允许装备多件护符
-		allowMultipleCharms = false
-
 [drop]
 
 	#万剑归一掉落配置
@@ -103,4 +96,35 @@
 		#多少tick未受攻击后重置层数 (0表示不重置)
 		#Range: > 0
 		resetTicks = 100
+
+	#厄运人偶配置
+	[modifiers.jinx_doll]
+		#厄运人偶消除buff黑名单
+		debuffBlacklist = ["youkaishomecoming:youkaified"]
+
+["工具配置"]
+
+	#护符设置
+	["工具配置".charms]
+		#设为true允许装备多件护符
+		allowMultipleCharms = false
+
+	#工匠秘典
+	["工具配置"."Tinker spell book"]
+		#设为true允许秘典攻击力计算进法术伤害
+		enableTinkerBookATKBonus = true
+
+	#吸血鬼刀
+	["工具配置"."Vampire knives"]
+		#吸血概率
+		#Range: 0.0 ~ 1.0
+		lifeStealChance = 0.5
+		#一次攻击伤害中的吸取量
+		#Range: 0.0 ~ 10.0
+		lifeStealPercent = 0.1
+		#是否开启最大生命值恢复
+		enableMaxHealthHeal = true
+		#最大生命值恢复系数
+		#Range: 0.0 ~ 10.0
+		maxHealthHealAmount = 0.05
 

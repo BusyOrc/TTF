@@ -4,8 +4,8 @@
 [entity]
 
 	[entity.nightwarden]
-		#Make Nightwarden enter mob battle mode || Mob battle mode disables the spell damage requirement and now he can take damage from every other damage types || Default: false
-		#Mob battle mode has a flat damage cap || Default: false
+		#Make Nightwarden enter mob battle mode || Mob battle mode disables the spell damage requirement and now he can take correct damage from every other damage types
+		#On Mob battle mode he can adapt to ANY damage type over-time and not just Spell damage types || Default: false
 		mob_battle_mode = false
 		#Dynamic damage cap auto calculate required values in all phases, the value here is the highest || Default 40.0
 		#Range: 10.0 ~ 100.0

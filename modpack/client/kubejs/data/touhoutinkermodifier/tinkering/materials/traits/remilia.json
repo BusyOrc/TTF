@@ -1,0 +1,35 @@
+{
+
+        "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:scarletdevil"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:crimsonfantasy"
+        }
+      ],
+      "tconstruct:melee": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:scarletdevil"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:gungnir"
+        }
+      ],
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:scarletdevil"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:youngscarletmoon"
+        }
+      ]
+    }
+  }

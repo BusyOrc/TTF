@@ -11,11 +11,21 @@ BlockEvents.rightClicked("minecraft:reinforced_deepslate", event => {
     }
   })
 
+  BlockEvents.rightClicked(["lootr:lootr_chest","lootr:lootr_barrel"], event => {
+if(event.player.hasEffect("youkaishomecoming:unconscious"))
+{
+    event.player.removeEffect("youkaishomecoming:unconscious")
+}
+//console.log(event.player.nbt["ForgeCaps"]["improvedmobs:player_cap"]["Difficulty"])
+//console.log(event.player.stages.has("challenge_stage"))
+
+  })
+
 PlayerEvents.respawned(event=>{
-    event.player.potionEffects.add("youkaishomecoming:unconscious",600,0,false,true)
+    event.player.potionEffects.add("youkaishomecoming:unconscious",2400,0,false,true)
     event.player.potionEffects.add("minecraft:slow_falling",200,2,false,true)
     event.player.potionEffects.add("minecraft:resistance",60,3,false,true)
-    event.server.runCommand(`say 古明地恋对${event.player.username}说：“菜，就多练”，并给予了短时间无意识效果（强力隐身，但攻击时会消失）`)
+    event.server.runCommand(`say 古明地恋对${event.player.username}说：“菜，就多练”，并给予了短时间无意识效果（强力隐身，但攻击或开箱时会消失）`)
 })
 
 
@@ -26,20 +36,18 @@ PlayerEvents.respawned(event=>{
     && event.target.type!= null && event.item!= null)
         {
             event.player.mainHandItem.count-=1
-            
             event.entity.block.popItem('ae2_mega_things:mega_item_disk_housing')
-            event.server.runCommand(`say ${event.player.username} 试图让雪豹学习古卷，雪豹回馈了奖励并且说：知识雪豹`)
-            
+            event.server.runCommand(`say ${event.player.username} 试图让雪豹学习古卷，雪豹回馈了奖励并且说：知识雪豹`)  
         }
-        else
-        {
+  }
+  )
 
-    if(event.item.nbt != null)
-    {
-         //   console.log(event.item.nbt["tic_modifiers"].toString().includes("tconstruct:photo") ); // 若包含则输出true
-         //   console.log(event.player.getAttributeValue("minecraft:generic.max_health"))
-    }
-            
+  ItemEvents.entityInteracted('item.entity_interact' , event => {
+    if (event.target.type == "minecraft:wolf" && event.player.getHeldItem(event.hand) == 'ars_nouveau:drygmy_shard'
+    && event.target.type!= null && event.item!= null)
+        {
+            event.player.mainHandItem.count-=1
+            event.entity.block.popItem('kubejs:inu')
         }
   }
   )
@@ -87,7 +95,7 @@ PlayerEvents.respawned(event=>{
      {
 
    
-         event.server.runCommand(`say ${event.source.actual.username} 在低血量情况下击杀末影龙，受到了某位天邪鬼的青睐`)
+         event.server.runCommand(`say ${event.source.actual.username} 在特殊条件下击杀末影龙，受到了某位天邪鬼的青睐`)
          event.source.actual.give('4x kubejs:seija')
         
      }

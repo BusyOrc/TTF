@@ -1,0 +1,595 @@
+{
+  "pools": [
+    {
+      "name": "tier#1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "create:andesite_alloy",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:fluix_glass_cable",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:sky_dust",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ltc2:unprocessed_latiao",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone_block",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:printed_calculation_processor",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:printed_engineering_processor",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:printed_logic_processor",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:fluix_covered_cable",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:printed_silicon",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#3",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:blank_pattern",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:basic_card",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:quartz_block",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:fluix_block",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:formation_core",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:annihilation_core",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blaze_powder",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#4",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:advanced_card",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:fluix_pearl",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:cell_component_1k",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:pattern_provider",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:controller",
+          "weight": 6,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#5",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:cell_component_4k",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:fluix_smart_dense_cable",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:flawless_budding_quartz",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "expatternprovider:assembler_matrix_wall",
+          "weight": 6,
+          "count":3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ltc2:delicacy_pepper_white_latiao",
+          "weight": 12,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 5
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

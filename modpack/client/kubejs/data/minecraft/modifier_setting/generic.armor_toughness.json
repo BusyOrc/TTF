@@ -1,0 +1,18 @@
+{
+  "attributeType": "minecraft:generic.armor_toughness",
+  "conditions": {
+    "affixes": {
+      "values": [        
+]
+    },
+    "entity": [
+
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.5
+  }
+}

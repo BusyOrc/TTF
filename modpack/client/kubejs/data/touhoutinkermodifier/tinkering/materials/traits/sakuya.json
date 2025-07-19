@@ -1,0 +1,39 @@
+{
+
+        "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:killerdoll"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:vanhelsingprogeny"
+        }
+      ],
+      "tconstruct:melee": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:jacktheripper"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:vanhelsingprogeny"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:theworld"
+        }
+      ],
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:perfectandelegant"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:pocketwatchofblood"
+        }
+      ]
+    }
+  }

@@ -19,7 +19,9 @@
     "iceandfire",
     "refurbished_furniture",
     "tinkers_thinking",
-    "createaddition"
+    "createaddition",
+    "miners_delight",
+    "hmag"
   ],
   "stoneStrata": [
     "stone",
@@ -51,7 +53,8 @@
     "forge:milk/{material}",
     "forge:cooked_eggs",
     "forge:salt",
-    "forge:ice_cubes"
+    "forge:ice_cubes",
+    "forge:bat_wings"
   ],
   "materials": [
     "lithium",

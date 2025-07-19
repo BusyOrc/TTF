@@ -1,0 +1,26 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:rainbowtaichi"
+      }
+    ],
+    "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:fanghuaxuanlan"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:bengshancaiji"
+        }
+      ],
+      "tconstruct:melee": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:bengshancaiji"
+        }
+      ]
+    }
+  }

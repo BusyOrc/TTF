@@ -196,7 +196,7 @@
 	"EnderGuardianBlockBreaking Z" = 15
 	#EnderGuardian's DamageTime
 	#Range: 0 ~ 100
-	EnderGuardianDamageTime = 30
+	EnderGuardianDamageTime = 0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -219,7 +219,7 @@
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 100.0
+	MonstrosityDamageCap = 200.0
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
@@ -232,7 +232,7 @@
 	monstrosityBlockBreaking = false
 	#Monstrosity's DamageTime
 	#Range: 0 ~ 100
-	MonstrosityDamageTime = 10
+	MonstrosityDamageTime = 0
 	#Lava Bomb of Monstrosity's Duration
 	#Range: 1 ~ 10000
 	LavaBombDuration = 350
@@ -276,7 +276,7 @@
 	IgnisBlockBreaking = false
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
-	IgnisDamageTime = 15
+	IgnisDamageTime = 0
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -326,7 +326,7 @@
 	"The Harbinger's charge attack Hp Damage" = 0.1
 	#Harbinger's DamageTime
 	#Range: 0 ~ 100
-	"The Harbinger DamageTime" = 12
+	"The Harbinger DamageTime" = 0
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -362,7 +362,7 @@
 	LeviathanImmuneOutofWater = true
 	#Leviathan's DamageTime
 	#Range: 0 ~ 100
-	"Leviathan DamageTime" = 15
+	"Leviathan DamageTime" = 0
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -428,7 +428,7 @@
 	"Remnant's EarthQuakeDamage" = 11.0
 	#Ancient Remnant's DamageTime
 	#Range: 0 ~ 100
-	"Ancient Remnant DamageTime" = 12
+	"Ancient Remnant DamageTime" = 0
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -505,7 +505,7 @@
 	MaledictusBlockBreaking = false
 	#Maledictus's DamageTime
 	#Range: 0 ~ 100
-	"Maledictus DamageTime" = 30
+	"Maledictus DamageTime" = 0
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -624,7 +624,7 @@
 	"Scylla DamageCap" = 200.0
 	#Scylla's DamageTime
 	#Range: 0 ~ 100
-	"Scylla DamageTime" = 25
+	"Scylla DamageTime" = 0
 	#Scylla's HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's HP Damage" = 0.1

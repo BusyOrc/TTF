@@ -28,8 +28,18 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:gamma').displayName("γ-比氏体").rarity("epic")
 	event.create('kubejs:omega').displayName("ω-雾氏体").rarity("epic")
 
-
-
+	event.create('kubejs:devil').displayName("小恶魔锭").rarity("epic")
+	event.create('kubejs:flandre').displayName("芙兰锭").rarity("epic")
+	event.create('kubejs:inu').displayName("犬走椛锭").rarity("epic")
+	event.create('kubejs:kosuzu').displayName("本居小铃锭").rarity("epic")
+	event.create('kubejs:meiling').displayName("美铃锭").rarity("epic")
+	event.create('kubejs:paru').displayName("帕露西锭").rarity("epic")
+	event.create('kubejs:patch').displayName("帕琪锭").rarity("epic")
+	event.create('kubejs:remilia').displayName("蕾米锭").rarity("epic")
+	event.create('kubejs:sakuya').displayName("咲夜锭").rarity("epic")
+	event.create('kubejs:sannyo').displayName("山如锭").rarity("epic")
+	event.create('kubejs:wakasagihime').displayName("若鹭姬锭").rarity("epic")
+	
 
 
 
@@ -39,8 +49,6 @@ StartupEvents.registry('item', event => {
 
 
 ItemEvents.modification(event => {
-
-
 	event.modify('simpletomb:grave_key', item => {
     item.rarity = 'RARE'
     item.attackDamage=18

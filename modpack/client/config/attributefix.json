@@ -209,6 +209,17 @@
         "value": 100000000
       }
     },
+    "touhoutinkermodifier:mana_cost_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "exmodifier:max_dodge": {
       "enabled": false,
       "min": {

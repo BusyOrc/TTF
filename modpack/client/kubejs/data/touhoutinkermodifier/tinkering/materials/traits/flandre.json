@@ -1,0 +1,23 @@
+{"perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:andthentherewerenone"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:underredmoon"
+        }
+      ],
+      "tconstruct:melee": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:laevatein"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:underredmoon"
+        }
+      ]
+    }
+  }

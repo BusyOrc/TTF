@@ -12,10 +12,10 @@
         "item": "ltc2:latiao"
       },
       {
-        "item": "createaddition:biomass_pellet"
+        "item": "thermal:sawdust"
       },
       {
-        "item": "createaddition:biomass_pellet"
+        "item": "thermal:sawdust"
       }
     ],
     "level": 1,

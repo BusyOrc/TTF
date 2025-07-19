@@ -112,4 +112,26 @@ event.addAdvanced(Item.of('youkaishomecoming:rumia_hairband'), (item, advanced, 
     text.add(Text.gold("将已经写好的普通样板放入其中，才能进行进一步处理"))
   })
 
+  event.addAdvanced('kubejs:inu', (item, advanced, text) => {
+    text.add(Text.gold("对狼右键使用德格米碎片后获得"))
+  })
+
+  event.addAdvanced('immortalers_delight:empty_bamboo_cup', (item, advanced, text) => {
+    text.add(Text.gold("溪竹茶喝完后剩下的杯子"))
+  })
+  event.addAdvanced('immortalers_delight:contains_tea_leisamboo', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在河流群系的挖掘产物，需要一片人工草地"))
+  })
+  event.addAdvanced('immortalers_delight:himekaido_seed', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在森林群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:pearlipearl', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在丛林群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:evolutcorn_grains', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在平原群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:kwat_wheat_seeds', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在绯红森林群系的挖掘产物，需要一片人工草地"))
+  })
 })
