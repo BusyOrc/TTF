@@ -52,10 +52,25 @@
     "yousei":"#00EE00",
     "overheal":"#00EE00",
     "perfect_freeze":"#00BFFF",
-    "medicine_borne":"#FFB6C1"  
+    "medicine_borne":"#FFB6C1" ,
+    "warrior":"#1E90FF",
+    "companion":"#00FA9A" 
     },
     "material.touhoutinkermodifier": {
-
+        "devil":"#FF4500",
+        "ex_rumia":"#A020F0",
+        "flandre":"#FF6347",
+        "ice_warrior":"#00F5FF",
+        "inu":"#D8BFD8",
+        "kosuzu":"#FF8C00",
+        "meiling":"#FF0000",
+        "paru":"#FFA500",
+        "patch":"#FF00FF",
+        "remilia":"#FF0000",
+        "rumia":"#FF8C00",
+        "sakuya":"#E0FFFF",
+        "sannyo":"#CD5C5C",
+        "wakasagihime":"#00FFFF"
 
     }
 }

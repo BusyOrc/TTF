@@ -64,6 +64,10 @@ event.recipes.thermal.centrifuge('64x chemlib:promethium', 'lavafishing:promethi
 event.recipes.thermal.centrifuge([Fluid.of('thermal:refined_fuel', 200),'2x thermal:rich_slag',
      Item.of('alexscaves:guano').withChance(0.2), 'delightful:animal_fat'],'ltc2:refined_underground_oil').energy(24000)
 
+event.recipes.thermal.insolator(['2x fruitsdelight:pineapple','fruitsdelight:pineapple_sapling'],
+    [Fluid.of("starbunclemania:source_fluid",1840),'fruitsdelight:pineapple_sapling']).energyMod(2.0)
 
+    event.recipes.thermal.insolator('2x biomesoplenty:burning_blossom',
+    [Fluid.of("starbunclemania:source_fluid",400),'biomesoplenty:burning_blossom']).energyMod(4.0)
 
 })

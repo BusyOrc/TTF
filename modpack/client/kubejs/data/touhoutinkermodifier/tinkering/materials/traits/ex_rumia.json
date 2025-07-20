@@ -1,0 +1,34 @@
+{
+    "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:devourdarkness"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:kojisousamadesita"
+        }
+      ],
+      "tconstruct:melee": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:devourdarkness"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:kojisousamadesita"
+        }
+      ],
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:devourdarkness"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:avatarofdarkness"
+        }
+      ]
+    }
+  }

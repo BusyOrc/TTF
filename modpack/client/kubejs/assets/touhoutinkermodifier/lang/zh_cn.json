@@ -206,6 +206,28 @@
     "modifier.touhoutinkermodifier.lt_repair":"辣条修补",
     "modifier.touhoutinkermodifier.lt_repair.flavor":"工具已经羽化而登仙",
     "modifier.touhoutinkermodifier.lt_repair.description":"将工具放在副手或盔甲栏位时，食用辣条可修复工具",
+    "modifier.touhoutinkermodifier.warrior":"勇者",
+    "modifier.touhoutinkermodifier.warrior.flavor":"一定要救出公主呀",
+    "modifier.touhoutinkermodifier.warrior.description":"武器附加额外⑨+⑨+⑨点（27点）冰冷伤害，对敌人造成强力冰冻效果",
+    "modifier.touhoutinkermodifier.companion":"最好的伙伴",
+    "modifier.touhoutinkermodifier.companion.flavor":"这回不再是baka⑨了",
+    "modifier.touhoutinkermodifier.companion.description":"获得⑨%冰系法强",
     "modifier.touhoutinkermodifier.hermit_purple.resistance":"对末影生物的抗性",
-    "modifier.touhoutinkermodifier.photo.attack_damage":"对末影生物的伤害"
+    "modifier.touhoutinkermodifier.photo.attack_damage":"对末影生物的伤害",
+
+    "material.touhoutinkermodifier.devil":"小恶魔",
+    "material.touhoutinkermodifier.ex_rumia":"EX露米娅",
+    "material.touhoutinkermodifier.flandre":"芙兰朵露",
+    "material.touhoutinkermodifier.ice_warrior":"冰之勇者",
+    "material.touhoutinkermodifier.inu":"犬走椛",
+    "material.touhoutinkermodifier.kosuzu":"本居小铃",
+    "material.touhoutinkermodifier.meiling":"红美铃",
+    "material.touhoutinkermodifier.paru":"帕露西",
+    "material.touhoutinkermodifier.patch":"帕秋莉",
+    "material.touhoutinkermodifier.remilia":"蕾米莉亚",
+    "material.touhoutinkermodifier.rumia":"露米娅",
+    "material.touhoutinkermodifier.sakuya":"咲夜",
+    "material.touhoutinkermodifier.sannyo":"驹草山如",
+    "material.touhoutinkermodifier.wakasagihime":"若鹭姬"
+
 }

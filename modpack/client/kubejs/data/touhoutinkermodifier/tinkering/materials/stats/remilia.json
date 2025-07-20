@@ -31,7 +31,7 @@
         "toughness": 3.0
       },
       "tconstruct:plating_chestplate": {
-        "armor": 12,
+        "armor": 13,
         "durability": 1640,
         "toughness": 4.0
       },
@@ -41,7 +41,7 @@
         "toughness": 3.5
       },
       "tconstruct:plating_leggings": {
-        "armor": 10.0,
+        "armor": 9.5,
         "durability": 1480,
         "toughness": 3.5
       },

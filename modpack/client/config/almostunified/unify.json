@@ -3,7 +3,9 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "fruitsdelight",
     "mystias_izakaya",
+    "hmag",
     "supplementaries",
     "youkaishomecoming",
     "farmersdelight",
@@ -20,8 +22,7 @@
     "refurbished_furniture",
     "tinkers_thinking",
     "createaddition",
-    "miners_delight",
-    "hmag"
+    "miners_delight"
   ],
   "stoneStrata": [
     "stone",
@@ -54,7 +55,8 @@
     "forge:cooked_eggs",
     "forge:salt",
     "forge:ice_cubes",
-    "forge:bat_wings"
+    "forge:bat_wings",
+    "forge:fruits/{material}"
   ],
   "materials": [
     "lithium",
@@ -64,6 +66,7 @@
     "pepper_red",
     "onion",
     "flax",
+    "lemon",
     "tomato",
     "milk_bottle",
     "strawberry",
@@ -120,7 +123,8 @@
 "forge:salt":"ltc2",
 "forge:ice_cubes":"youkaishomecoming",
 "forge:crops/onion":"farmersdelight",
-"forge:crops/pepper_red":"ltc2"
+"forge:crops/pepper_red":"ltc2",
+"forge:bat_wings":"miners_delight"
 },
   "customTags": {},
   "tagOwnerships": {},
