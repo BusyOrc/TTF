@@ -6,7 +6,7 @@
         "each_level": 27,
         "operation": "addition",
         "attribute": "attributeslib:cold_damage",
-        "unique": "tconstruct.modifier.warrior_dmg",
+        "unique": "tconstruct.modifier.warrior",
         "slots": [
           "mainhand",
           "offhand"
@@ -14,13 +14,13 @@
       },
       {
         "type": "tconstruct:mob_effect",
-        "effect": "twilightforest:frosty",
+        "effect": "twilightforest:frosted",
         "hooks": [
           "tconstruct:melee_hit",
           "tconstruct:projectile_hit"
         ],
         "level": {
-          "each_level": 1.0
+          "flat": 1
         },
         "time": {
           "each_level": 75.0,

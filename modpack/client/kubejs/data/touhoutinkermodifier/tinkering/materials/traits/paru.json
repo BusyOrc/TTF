@@ -3,6 +3,18 @@
       {
         "level": 1,
         "name": "touhoutinkermodifier:ushinokokumairi"
+      },
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:ushinokokumairishichi"
       }
-    ]
+    ],
+    "perStat":{
+      "tconstruct:armor":[
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:greeneyes"
+        }
+      ]
+    }
   }

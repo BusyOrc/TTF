@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DED",
+    "GAG",
+    "BBB"
+  ],
+  "key": {
+    "D": {
+      "item": "immortalers_delight:crispy_yogurt_rotten_flesh"
+    },
+	"E": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+	"G": {
+      "tag": "forge:storage_blocks/cinderslime"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "quark:blaze_lantern"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:hellish_fortress"
+}

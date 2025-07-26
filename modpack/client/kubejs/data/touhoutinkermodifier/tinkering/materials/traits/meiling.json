@@ -3,6 +3,10 @@
       {
         "level": 1,
         "name": "touhoutinkermodifier:rainbowtaichi"
+      },
+      {
+          "level": 1,
+          "name": "touhoutinkermodifier:bengshancaiji"
       }
     ],
     "perStat": {
@@ -16,10 +20,10 @@
           "name": "touhoutinkermodifier:bengshancaiji"
         }
       ],
-      "tconstruct:melee": [
+      "tconstruct:armor": [
         {
           "level": 1,
-          "name": "touhoutinkermodifier:bengshancaiji"
+          "name": "touhoutinkermodifier:rainbowtaichi"
         }
       ]
     }

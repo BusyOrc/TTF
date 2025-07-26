@@ -93,7 +93,13 @@
     "irons_spellbooks:archevoker",
     "irons_spellbooks:necromancer",
     "cataclysm:kobolediator",
-    "cataclysm:scylla"
+    "cataclysm:scylla",
+    "ars_nouveau:wilden_hunter",
+    "ars_nouveau:wilden_guardian",
+    "ars_nouveau:wilden_stalker",
+    "cataclysm:amethyst_crab",
+    "alexsmobs:centipede",
+    "youkaishomecoming:small_fairy"
 
 
   ]

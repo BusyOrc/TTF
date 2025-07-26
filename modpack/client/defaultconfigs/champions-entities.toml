@@ -495,4 +495,20 @@
 	affixList = []
 	affixPermission = "BLACKLIST"
 
+[[entities]]
+	entity = "cataclysm:amethyst_crab"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "youkaishomecoming:small_fairy"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
 

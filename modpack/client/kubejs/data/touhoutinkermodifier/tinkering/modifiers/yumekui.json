@@ -7,11 +7,13 @@
         {
           "attribute": "puffish_attributes:magic_resistance",
           "operation": "addition",
+          "tooltip_style": "percent",
           "value": 0.2
         },
         {
           "attribute": "attributeslib:experience_gained",
-          "operation": "multiply_total",
+          "operation": "multiply_base",
+          "tooltip_style": "percent",
           "value": 0.3
         }
       ],

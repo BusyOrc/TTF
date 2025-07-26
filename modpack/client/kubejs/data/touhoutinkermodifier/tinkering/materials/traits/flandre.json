@@ -1,18 +1,19 @@
-{"perStat": {
-      "tconstruct:ranged": [
+{
+  "default":[
         {
           "level": 1,
-          "name": "touhoutinkermodifier:andthentherewerenone"
+          "name": "touhoutinkermodifier:laevatein"
         },
         {
           "level": 1,
           "name": "touhoutinkermodifier:underredmoon"
         }
-      ],
-      "tconstruct:melee": [
+  ],
+  "perStat": {
+      "tconstruct:ranged": [
         {
           "level": 1,
-          "name": "touhoutinkermodifier:laevatein"
+          "name": "touhoutinkermodifier:andthentherewerenone"
         },
         {
           "level": 1,

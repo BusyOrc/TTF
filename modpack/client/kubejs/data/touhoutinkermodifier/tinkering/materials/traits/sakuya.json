@@ -1,17 +1,5 @@
 {
-
-        "perStat": {
-      "tconstruct:ranged": [
-        {
-          "level": 1,
-          "name": "touhoutinkermodifier:killerdoll"
-        },
-        {
-          "level": 1,
-          "name": "touhoutinkermodifier:vanhelsingprogeny"
-        }
-      ],
-      "tconstruct:melee": [
+"default":[
         {
           "level": 1,
           "name": "touhoutinkermodifier:jacktheripper"
@@ -23,6 +11,17 @@
         {
           "level": 1,
           "name": "touhoutinkermodifier:theworld"
+        }
+      ],
+        "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:killerdoll"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:vanhelsingprogeny"
         }
       ],
       "tconstruct:armor": [

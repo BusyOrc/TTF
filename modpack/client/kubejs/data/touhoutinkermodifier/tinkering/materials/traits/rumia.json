@@ -1,6 +1,5 @@
 {
-    "perStat": {
-      "tconstruct:ranged": [
+  "default":[
         {
           "level": 1,
           "name": "touhoutinkermodifier:apparitionsstalkthenight"
@@ -10,7 +9,8 @@
           "name": "touhoutinkermodifier:midnightbird"
         }
       ],
-      "tconstruct:melee": [
+    "perStat": {
+      "tconstruct:ranged": [
         {
           "level": 1,
           "name": "touhoutinkermodifier:apparitionsstalkthenight"

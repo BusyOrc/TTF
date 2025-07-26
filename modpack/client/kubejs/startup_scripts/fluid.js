@@ -180,5 +180,9 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0x808080)
     .bucketColor(0x808080)
     .displayName('废水')  
+    event.create('nuclear_fuel')
+    .thickTexture(0x9400D3)
+    .bucketColor(0x9400D3)
+    .displayName('魔力核燃料')  
 
 })

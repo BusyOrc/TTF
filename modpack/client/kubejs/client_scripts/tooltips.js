@@ -134,4 +134,10 @@ event.addAdvanced(Item.of('youkaishomecoming:rumia_hairband'), (item, advanced, 
   event.addAdvanced('immortalers_delight:kwat_wheat_seeds', (item, advanced, text) => {
     text.add(Text.gold("嗅探兽在绯红森林群系的挖掘产物，需要一片人工草地"))
   })
+  event.addAdvanced('touhou_little_maid:garage_kit', (item, advanced, text) => {
+    text.add(Text.gold("任意造型的手办均可用于配方合成"))
+  })
+  event.addAdvanced('irons_spellbooks:blood_upgrade_orb', (item, advanced, text) => {
+    text.add(Text.gold("可与蕾米莉亚交换匠魂材料"))
+  })
 })

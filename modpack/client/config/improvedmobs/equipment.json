@@ -38,10 +38,6 @@
       11095,
       0.0469
     ],
-    "cataclysm:athame": [
-      11095,
-      0.0469
-    ],
     "cataclysm:black_steel_axe": [
       10137,
       1.6320775
@@ -49,18 +45,6 @@
     "cataclysm:black_steel_sword": [
       10224,
       1.5193686
-    ],
-    "cataclysm:final_fractal": [
-      2,
-      23.563541
-    ],
-    "cataclysm:khopesh": [
-      10245,
-      1.4922183
-    ],
-    "cataclysm:zweiender": [
-      2,
-      23.563541
     ],
     "hmag:crimson_bow": [
       8614,
@@ -77,10 +61,6 @@
     "hmag:iron_spear": [
       11095,
       0.0469
-    ],
-    "hmag:nemesis_blade": [
-      7960,
-      6.701589
     ],
     "minecraft:bow": [
       8996,
@@ -196,21 +176,33 @@
     ]
   },
   "OFFHAND": {
+    "alexscaves:glow_ink_bomb": [
+      8000,
+      1.2
+    ],
     "minecraft:ender_pearl": [
       16500,
-      4.0
+      1.0
     ],
     "minecraft:lava_bucket": [
-      12321,
-      3.7269387
+      4000,
+      3.0
     ],
     "minecraft:shield": [
-      8399,
-      1.1255897
+      8500,
+      1.1
     ],
     "minecraft:totem_of_undying": [
       32000,
+      0.5
+    ],
+    "supplementaries:bomb": [
+      12000,
       1.0
+    ],
+    "supplementaries:bomb_blue": [
+      18000,
+      0.7
     ]
   },
   "FEET": {

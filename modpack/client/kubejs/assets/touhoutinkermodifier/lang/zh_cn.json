@@ -140,7 +140,9 @@
 "modifier.touhoutinkermodifier.destroyer_of_world":"世界毁灭者",
 "modifier.touhoutinkermodifier.destroyer_of_world.flavor":"现在我成为了死神",
 "modifier.touhoutinkermodifier.destroyer_of_world.description":"分别增加一个能力槽，升级槽和防御槽。",
-
+"modifier.touhoutinkermodifier.fountain_magic":"魔力之泉",
+"modifier.touhoutinkermodifier.fountain_magic.flavor":"魔力充足，尽管取用",
+"modifier.touhoutinkermodifier.fountain_magic.description":"每级提高10基础法力回复速度和150点最大法力值。",
 "modifier.touhoutinkermodifier.crystalline_phase":"完美晶相",
 "modifier.touhoutinkermodifier.crystalline_phase.flavor":"奇妙的原子排列结构",
 "modifier.touhoutinkermodifier.crystalline_phase.description":"提升工具的伤害和耐久",

@@ -39,7 +39,9 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:sakuya').displayName("咲夜锭").rarity("epic")
 	event.create('kubejs:sannyo').displayName("山如锭").rarity("epic")
 	event.create('kubejs:wakasagihime').displayName("若鹭姬锭").rarity("epic")
-	
+	event.create('kubejs:rumia').displayName("露米娅锭").rarity("rare")
+	event.create('kubejs:ex_rumia').displayName("EX露米娅锭").rarity("epic")
+	event.create('kubejs:ice_warrior').displayName("冰之勇者锭").rarity("epic")
 
 
 

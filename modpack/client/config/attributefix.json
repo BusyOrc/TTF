@@ -264,6 +264,17 @@
         "value": 10000000
       }
     },
+    "nffgirls:nffgirls.critical_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -539,6 +550,17 @@
         "value": 1024
       }
     },
+    "nffgirls:nffgirls.anti_undead": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "tconstruct:generic.safe_fall_distance": {
       "enabled": false,
       "min": {
@@ -627,6 +649,28 @@
         "value": 1000
       }
     },
+    "nffgirls:nffgirls.anti_arthropod": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "nffgirls:nffgirls.persistent_healing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -658,6 +702,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "nffgirls:nffgirls.wither_aspect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:lightning_spell_power": {
@@ -1078,6 +1133,17 @@
         "value": 100
       }
     },
+    "nffgirls:nffgirls.anti_aquatic": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:cooldown_reduction": {
       "enabled": true,
       "min": {
@@ -1087,6 +1153,17 @@
       "max": {
         "default": 100,
         "value": 75
+      }
+    },
+    "nffgirls:nffgirls.water_aspect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:spell_power": {
@@ -1164,6 +1241,17 @@
       "max": {
         "default": 5,
         "value": 1000000
+      }
+    },
+    "nffgirls:nffgirls.health_absorption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "forge:swim_speed": {
@@ -1263,6 +1351,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "nffgirls:nffgirls.looting_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:crit_damage": {
@@ -1452,6 +1551,17 @@
         "value": 4
       }
     },
+    "nffgirls:nffgirls.poison_aspect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:ender_magic_resist": {
       "enabled": false,
       "min": {
@@ -1472,6 +1582,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "nffgirls:nffgirls.xp_gain_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "minecraft:generic.armor": {
@@ -1637,6 +1758,17 @@
       "max": {
         "default": 0.949999988079071,
         "value": 0.949999988079071
+      }
+    },
+    "nffgirls:nffgirls.persistent_ranged_healing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:arrow_damage": {

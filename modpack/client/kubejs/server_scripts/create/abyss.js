@@ -152,12 +152,19 @@ event.custom(
       "topIngredients": [
         {
           "item": "touhou_little_maid:power_point"
+        },
+        {
+          "item": "quark:moss_paste"
+        },
+        {
+          "item": "quark:moss_paste"
         }
 
       ],
       "bottomIngredients": [
         {
-          "item": "irons_spellbooks:arcane_essence"
+          "fluid": "starbunclemania:source_fluid",
+          "amount":1000
         }
       ],
       "catalysts": [
@@ -170,7 +177,7 @@ event.custom(
       "results": [
         {
           "fluid": "kubejs:magic_fuel",
-          "amount":1000
+          "amount":200
         }
       ]
     }
@@ -306,7 +313,47 @@ event.custom(
       ]
     }
 )
-
-
+//ex cirno
+event.custom(
+  {
+      "type": "sculkcatalyticchamber:chamber",
+      "topIngredients": [
+        {
+          "item": 'arsdelight:frostaya_jelly'
+        },
+        {
+          "tag":'youkaishomecoming:frozen_frog'
+        },
+        {
+          "tag":'youkaishomecoming:frozen_frog'
+        },
+        {
+          "tag":'youkaishomecoming:frozen_frog'
+        }
+      ],
+      "bottomIngredients": [
+        {
+          "item": 'youkaishomecoming:fairy_ice_crystal'
+        },
+        {
+          "item": 'youkaishomecoming:fairy_ice_crystal'
+        },
+        {
+          "item": 'youkaishomecoming:fairy_ice_crystal'
+        }
+      ],
+      "catalysts": [
+        {
+          "fluid":"kubejs:molten_bomb",
+          "amount":810
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:ice_warrior"
+        }
+      ]
+    }
+)
 
 })

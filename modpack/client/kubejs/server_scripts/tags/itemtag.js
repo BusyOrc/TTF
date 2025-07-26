@@ -25,6 +25,7 @@ ServerEvents.tags('item', event => {
 
     ])
 
+    event.add('forge:vegetables/cucumber',"mystias_izakaya:huang_gua")
     event.add("forge:storage_blocks/flax","supplementaries:flax_block")
     event.add("forge:storage_blocks/rice",'tofucraft:rice_block')
     event.add('forge:stoves',['refurbished_furniture:light_stove', 'twilightdelight:maze_stove',

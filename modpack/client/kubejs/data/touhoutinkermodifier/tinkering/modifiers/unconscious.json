@@ -4,7 +4,8 @@
       {
         "type": "tconstruct:attribute",
         "flat": 0.2,
-        "operation": "multiply_total",
+        "operation": "multiply_base",
+        "tooltip_style": "percent",
         "attribute": "minecraft:generic.movement_speed",
         "unique": "tconstruct.modifier.unconscious",
         "slots": [

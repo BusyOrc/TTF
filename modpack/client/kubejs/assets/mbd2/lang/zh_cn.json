@@ -7,7 +7,7 @@
     "block.mbd2.big_tofu_shrine":"大型豆腐祭坛控制器",
     "block.mbd2.border_stablizer":"博丽结界稳定器",
     "block.mbd2.solar_panel":"太阳能板控制器",
-    "block.mbd2.nuclear_plant":"核电站控制器",
+    "block.mbd2.nuclear_plant":"古明地反应堆控制器",
 
 
     "mbd2.aqua":"水族馆",
@@ -16,5 +16,12 @@
     "mbd2.tofu_shrine_recipe":"小型豆腐祭坛",
     "mbd2.big_tofu_shrine_recipe":"大型豆腐祭坛",
     "mbd2.border":"博丽结界稳定器",
-    "mbd2.nuclear_plant":"古明地核电站"
+    "mbd2.nuclear_plant":"古明地核电站",
+
+    "recipe_logic.status.idle": "待机",
+    "recipe_logic.status.working": "§a运行§r",
+    "recipe_logic.status.waiting": "§6等待§r",
+    "recipe_logic.status.suspend": "§4停滞§r",
+    "multiblock.unformed": "§6未成形§r",
+    "multiblock.catalyst": "§a需该道具右键§r"
 }

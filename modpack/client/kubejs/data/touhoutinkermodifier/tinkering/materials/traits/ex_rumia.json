@@ -1,6 +1,5 @@
 {
-    "perStat": {
-      "tconstruct:ranged": [
+  "default":[
         {
           "level": 1,
           "name": "touhoutinkermodifier:devourdarkness"
@@ -9,8 +8,9 @@
           "level": 1,
           "name": "touhoutinkermodifier:kojisousamadesita"
         }
-      ],
-      "tconstruct:melee": [
+  ],
+    "perStat": {
+      "tconstruct:ranged": [
         {
           "level": 1,
           "name": "touhoutinkermodifier:devourdarkness"

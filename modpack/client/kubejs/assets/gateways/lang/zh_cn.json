@@ -3,12 +3,13 @@
 "gateways.basic/slime": "第四槐安通道：史莱姆",
 "gateways.basic/enderman": "末影之门",
 
-"gateways.emerald_grove": "动物召唤阵",
-"gateways.overworldian_nights": "亡者之夜",
+"gateways.emerald_grove": "电子羊之梦",
+"gateways.overworldian_nights": "亡者之梦",
 "gateways.hellish_fortress": "第四槐安通道：下界堡垒",
 
 "gateways.endless/blaze": "无尽噩梦",
 "gateways.alexs_hell": "下界迷梦",
+"gateways.wild_hunt": "狂猎之梦",
 "gateways.cataclysm_ender": "灾变终结之梦",
 "gateways.cataclysm_ignis": "焰魔",
 "name.gateways.necrotic_farmer": "亡灵首领",
@@ -18,5 +19,22 @@
 "name.gateways.huge_slime": "变异史莱姆",
 "name.gateways.magicbane_slime": "魔力充盈的史莱姆",
 "name.gateways.acidic_slime": "酸液史莱姆",
-"name.gateways.flaming_enderman": "烈焰末影处刑者"
+"name.gateways.flaming_enderman": "烈焰末影处刑者",
+"tooltip.gateways.num_wave": "%s 波次",
+"reward.gateways.experience": "%s 经验",
+	"tooltip.gateways.num_waves": "%s 波次",
+	"tooltip.gateways.wave": "波次 %s/%s",
+	"tooltip.gateways.entities": "生物: ",
+	"tooltip.gateways.modifiers": "增强: ",
+	"tooltip.gateways.rewards": "奖励: ",
+
+	"tooltip.gateways.num_failures": "%s 惩罚",
+	"tooltip.gateways.num_failure": "%s 惩罚",
+	"tooltip.gateways.failures": "失败惩罚",
+ 	"tooltip.gateways.num_rule": "%s 规则变化",
+	"tooltip.gateways.num_rules": "%s 规则变化",
+	"tooltip.gateways.rules": "规则变化",  
+    "tooltip.gateways.key_rewards": "主要奖励", 
+    "failure.gateways.summon": "召唤 %s",
+    "reward.gateways.summon": "召唤 %s"
 }

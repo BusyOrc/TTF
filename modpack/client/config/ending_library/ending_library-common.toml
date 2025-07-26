@@ -1,0 +1,9 @@
+
+[Time]
+	#if false, disbale the "time stop" settings
+	enableTimeStop = true
+
+[Misc]
+	#Set Edit box max length(for example in Chat Screen).
+	maxEditLength = 512
+

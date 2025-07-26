@@ -7,11 +7,13 @@
         {
           "attribute": "l2damagetracker:crit_rate",
           "operation": "addition",
+          "tooltip_style": "percent",
           "value": 0.3
         },
         {
           "attribute": "l2damagetracker:crit_damage",
           "operation": "addition",
+          "tooltip_style": "percent",
           "value": 0.7
         }
       ],

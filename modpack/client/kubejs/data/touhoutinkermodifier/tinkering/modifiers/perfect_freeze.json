@@ -15,7 +15,8 @@
       {
         "type": "tconstruct:attribute",
         "each_level": -0.09,
-        "operation": "multiply_total",
+        "operation": "multiply_base",
+        "tooltip_style": "percent",
         "attribute": "irons_spellbooks:spell_power",
         "unique": "tconstruct.modifier.perfect_freeze",
         "slots": [

@@ -14,9 +14,10 @@
       {
         "type": "tconstruct:attribute",
         "each_level": 0.07,
-        "operation": "multiply_total",
+        "operation": "multiply_base",
         "attribute": "irons_spellbooks:lightning_spell_power",
         "unique": "tconstruct.modifier.lightning",
+        "tooltip_style": "percent",
         "slots": [
           "mainhand"
         ]

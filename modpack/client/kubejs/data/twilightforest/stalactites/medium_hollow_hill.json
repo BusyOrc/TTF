@@ -1,9 +1,8 @@
 {
   "replace": false,
   "stalactites": [
-    "twilightforest:gold_ore_raw_gold_block_stalactite",
-    "twilightforest:redstone_ore_stalactite",
-    "twilightforest:silver_ore_stalactite",
-    "twilightforest:tin_ore_stalactite"
+    "twilightforest:diamond_ore_stalactite",
+    "twilightforest:tin_ore_stalactite",
+    "twilightforest:lead_ore_stalactite"
   ]
 }

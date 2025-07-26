@@ -41,7 +41,7 @@
                 }
             ],
             "max_wave_time": 1200,
-            "setup_time": 200
+            "setup_time": 80
         },
         {
             "entities": [
@@ -108,7 +108,7 @@
                 }
             ],
             "max_wave_time": 1800,
-            "setup_time": 300
+            "setup_time": 240
         },
         {
             "entities": [
@@ -187,26 +187,26 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:imp",
-                    "rolls": 15
+                    "rolls": 7
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:wither_skeleton_girl",
-                    "rolls": 30
+                    "rolls": 15
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:melty_monster",
-                    "rolls": 15
+                    "rolls": 7
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:crimson_slaughterer",
-                    "rolls": 15
+                    "rolls": 7
                 }
             ],
             "max_wave_time": 3200,
-            "setup_time": 480
+            "setup_time": 240
         },
         {
             "entities": [
@@ -321,21 +321,21 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:crimson_slaughterer",
-                    "rolls": 40
+                    "rolls": 15
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:wither_skeleton_girl",
-                    "rolls": 40
+                    "rolls": 15
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "hmag:melty_monster",
-                    "rolls": 40
+                    "rolls": 15
                 }
             ],
-            "max_wave_time": 5200,
-            "setup_time": 480
+            "max_wave_time": 4800,
+            "setup_time": 240
         }
     ],
     "rewards": [

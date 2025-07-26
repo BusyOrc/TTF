@@ -6,12 +6,14 @@
       "attributes": [
         {
           "attribute": "attributeslib:arrow_velocity",
-          "operation": "multiply_total",
-          "value": 0.1
+          "operation": "multiply_base",
+          "tooltip_style": "percent",
+          "value": 0.15
         },
         {
           "attribute": "attributeslib:healing_received",
           "operation": "multiply_total",
+          "tooltip_style": "percent",
           "value": 0.3
         }
       ],

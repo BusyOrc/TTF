@@ -567,14 +567,14 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:black_hole"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:ender"
 		MaxLevel = 6
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 3.5
-		SpellPowerMultiplier = 0.5
-		CooldownInSeconds = 360.0
+		ManaCostMultiplier =50
+		SpellPowerMultiplier = 0.1
+		CooldownInSeconds = 2880.0
 		AllowCrafting = false
 
 	#irons_spellbooks:ender
@@ -1105,9 +1105,9 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
+		ManaCostMultiplier = 3.0
+		SpellPowerMultiplier = 0.4
+		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:chain_lightning"]
@@ -1684,4 +1684,15 @@
 		ManaCostMultiplier = 1.8
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
+		AllowCrafting = false
+
+	[Spells."traveloptics:supernova"]
+		Enabled = false
+		School = "irons_spellbooks:ender"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 50
+		SpellPowerMultiplier = 0.01
+		CooldownInSeconds = 2880.0
 		AllowCrafting = false

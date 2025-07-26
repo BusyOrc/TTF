@@ -1,0 +1,10 @@
+{
+    "entity.mowziesmobs.naga": "飞蛇",
+    "item.mowziesmobs.naga_fang": "飞蛇毒牙",
+    "item.mowziesmobs.naga_fang.text.0": "用于酿造抗毒药水，飞蛇毒牙匕首或者制作吹镖",
+    "item.mowziesmobs.naga_fang_dagger": "飞蛇毒牙匕首",
+    "item.mowziesmobs.naga_spawn_egg": "飞蛇生成蛋",
+    "config.mowziesmobs.naga": "飞蛇",
+    "config.mowziesmobs.naga_fang_dagger": "飞蛇毒牙匕首",
+    "advancements.mowziesmobs.kill_naga.description": "杀死一只飞蛇"
+}

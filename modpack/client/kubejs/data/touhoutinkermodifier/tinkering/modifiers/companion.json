@@ -4,8 +4,8 @@
       {
         "type": "tconstruct:attribute",
         "each_level": 0.09,
-        "percentage":true,
-        "operation": "addition",
+        "tooltip_style": "percent",
+        "operation": "multiply_base",
         "attribute": "irons_spellbooks:ice_spell_power",
         "unique": "tconstruct.modifier.warrior_pow",
         "slots": [

@@ -43,6 +43,8 @@ event.remove({id:"mystias_izakaya:la_jiao"})
 event.remove({id:"tofucraft:seeds_chili"})
 event.remove({id:"mystias_izakaya:xi_hong_shi"})
 event.remove({id:"mystias_izakaya:ning_meng"})
+event.remove({id:"mystias_izakaya:huang_gua"})
+event.remove({id:"tinkers_thinking:common/crystal/chromatic_crystal"})
 
 let silverfish=['minecraft:infested_stone',
 	 'minecraft:infested_stone_bricks', 'minecraft:infested_mossy_stone_bricks',
@@ -109,7 +111,7 @@ let aae=
 	'functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4','iceandfire:dragonbone_bow','iceandfire:dragonbone_arrow',
 	'iceandfire:gold_pile','iceandfire:silver_pile','iceandfire:copper_pile','lightmanscurrency:coinblock_copper', 'lightmanscurrency:coinblock_iron',
 		 'lightmanscurrency:coinblock_gold','lightmanscurrency:coinblock_emerald', 'lightmanscurrency:coinblock_diamond', 'lightmanscurrency:coinblock_netherite',
-'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron',
+'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron','traveloptics:wand_of_final_light',
 	 'lightmanscurrency:coinpile_gold', 'lightmanscurrency:coinpile_emerald', 'lightmanscurrency:coinpile_diamond', 'lightmanscurrency:coinpile_netherite'
 ]
 

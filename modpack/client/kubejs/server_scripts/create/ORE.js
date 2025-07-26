@@ -12,7 +12,7 @@ event.recipes.createoreexcavation
    
 
 event.recipes.createoreexcavation.vein('{"text": "下界远古矿脉"}', 'minecraft:ancient_debris')
-.placement(24, 8, 1919810).id("kubejs:nether_ancient_vein").alwaysFinite().priority(30).veinSize(7,9.5 )
+.placement(24, 8, 1919810).id("kubejs:nether_ancient_vein").alwaysInfinite().priority(30).veinSize(7,9.5 )
 .biomeWhitelist('minecraft:is_nether') 
 
 event.recipes.createoreexcavation

@@ -10,9 +10,10 @@
       {
         "type": "tconstruct:attribute",
         "each_level": 0.08,
-        "operation": "multiply_total",
+        "operation": "multiply_base",
         "attribute": "minecraft:generic.max_health",
         "unique": "tconstruct.modifier.yousei",
+        "tooltip_style": "percent",
         "slots": [
   
           "feet",
@@ -29,6 +30,7 @@
         "operation": "addition",
         "attribute": "attributeslib:prot_shred",
         "unique": "tconstruct.modifier.yousei",
+        "tooltip_style": "percent",
         "slots": [
   
           "feet",

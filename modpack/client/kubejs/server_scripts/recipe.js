@@ -76,6 +76,12 @@ ServerEvents.recipes(event => {
         ]
       )
 
+      event.shapeless(
+        'tinkers_thinking:chromatic_crystal', 
+        ['tconstruct:ichor_slime_crystal', 'tinkers_thinking:magma_crystal', 'tconstruct:earth_slime_crystal', 'ae2:charged_certus_quartz_crystal',
+           'ae2:fluix_crystal', 'hmag:evil_crystal', 'tconstruct:sky_slime_crystal', 'minecraft:amethyst_shard', 'tconstruct:ender_slime_crystal']
+      )
+
 
       event.shapeless(
         'scannable:chest_module', 
@@ -431,7 +437,7 @@ event.shaped('kubejs:flandre',
     B:'quark:orange_corundum_pane',
     C:'quark:yellow_corundum_pane',
     D:'quark:green_corundum_pane',
-    E:'irons_spellbooks:blood_rune',
+    E:'tinkers_thinking:chromatic_crystal',
     F:'quark:blue_corundum_pane',
     G:'quark:indigo_corundum_pane',
     H:'quark:violet_corundum_pane',
@@ -447,8 +453,32 @@ for(let i of controllers){
 event.recipes.minecraft.stonecutting(i,'create_wizardry:arcane_casing')
 }
 
+event.shaped('4x dimension_of_caves:chimeric_cave_tablet',
+  [
+    'ACA',
+    'CBC',
+    'ACA'
+  ],
+  {
+    A:'advanced_ae:shattered_singularity',
+    B:'ae2:fluix_block',
+    C:'advanced_ae:quantum_processor'
+  }
+)
 
-
+event.shaped('kubejs:meiling',
+  [
+    'RBR',
+    'SDS',
+    'RBR'
+  ],
+  {
+    R:"#hmag:dragon_scales",
+    B:'#minecraft:beds',
+    S:'#comforts:sleeping_bags',
+    D:"supplementaries:netherite_door"
+  }
+)
 
 
 

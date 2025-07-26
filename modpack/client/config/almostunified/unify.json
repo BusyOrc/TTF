@@ -2,9 +2,7 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
-    "crafttweaker",
     "fruitsdelight",
-    "mystias_izakaya",
     "hmag",
     "supplementaries",
     "youkaishomecoming",
@@ -15,14 +13,15 @@
     "ltc2",
     "tconstruct",
     "thermal",
-    "immersiveengineering",
     "chemlib",
     "alexscaves",
     "iceandfire",
     "refurbished_furniture",
     "tinkers_thinking",
     "createaddition",
-    "miners_delight"
+    "miners_delight",
+    "mystias_izakaya"
+    
   ],
   "stoneStrata": [
     "stone",
@@ -56,11 +55,13 @@
     "forge:salt",
     "forge:ice_cubes",
     "forge:bat_wings",
-    "forge:fruits/{material}"
+    "forge:fruits/{material}",
+    "forge:vegetables/cucumber"
   ],
   "materials": [
     "lithium",
     "wheat",
+    "gunpowder",
     "rice",
     "bell_pepper",
     "pepper_red",
@@ -124,7 +125,8 @@
 "forge:ice_cubes":"youkaishomecoming",
 "forge:crops/onion":"farmersdelight",
 "forge:crops/pepper_red":"ltc2",
-"forge:bat_wings":"miners_delight"
+"forge:bat_wings":"miners_delight",
+"forge:vegetables/cucumber":"youkaishomecoming"
 },
   "customTags": {},
   "tagOwnerships": {},

@@ -2,15 +2,9 @@
   "attributeType": "irons_spellbooks:spell_power",
   "conditions": {
     "affixes": {
-      "values": [        
-      "champions:dampening",
-      "champions:desecrating",
-      "champions:enkindling",
-      "champions:hasty",
-      "champions:wounding"]
+      "values": []
     },
     "entity": [
-      "hmag:ender_executor"
     ],
     "permission": "blacklist"
   },

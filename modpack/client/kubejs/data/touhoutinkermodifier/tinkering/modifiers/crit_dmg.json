@@ -5,6 +5,7 @@
         "type": "tconstruct:attribute",
         "each_level": 0.2,
         "operation": "addition",
+        "tooltip_style": "percent",
         "attribute": "l2damagetracker:crit_damage",
         "unique": "tconstruct.modifier.crit_dmg",
         "slots": [

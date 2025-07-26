@@ -18,6 +18,7 @@ if(event.player.hasEffect("youkaishomecoming:unconscious"))
 }
 //console.log(event.player.nbt["ForgeCaps"]["improvedmobs:player_cap"]["Difficulty"])
 //console.log(event.player.stages.has("challenge_stage"))
+//console.log(event.player.getHeldItem)
 
   })
 
@@ -31,12 +32,15 @@ if(event.player.hasEffect("youkaishomecoming:unconscious"))
 
 
 
-
 PlayerEvents.respawned(event=>{
     event.player.potionEffects.add("youkaishomecoming:unconscious",2400,0,false,true)
     event.player.potionEffects.add("minecraft:slow_falling",200,2,false,true)
     event.player.potionEffects.add("minecraft:resistance",60,3,false,true)
     event.server.runCommand(`say 古明地恋对${event.player.username}说：“菜，就多练”，并给予了短时间无意识效果（强力隐身，但攻击或开箱时会消失）`)
+   if( event.player.stages.has("youkai"))
+   {
+    event.player.stages.remove("youkai")
+   }
 })
 
 
@@ -57,12 +61,27 @@ PlayerEvents.respawned(event=>{
     event.player.mainHandItem.count-=1
     event.entity.block.popItem("kubejs:paru")
   }
-  console.log(event.target.type)
+  //console.log(event.target.type)
+
+    if(event.target.type == "entity.youkaishomecoming.remilia_scarlet" && event.player.getHeldItem(event.hand)=="irons_spellbooks:blood_upgrade_orb")
+      if(event.player.mainHandItem.count>=3)
+      {
+        event.player.mainHandItem.count-=3
+        event.entity.block.popItem("kubejs:remilia")
+        var text = Component.red(`成功换取`)
+        event.player.setStatusMessage(text)
+      }
+      else
+      {
+      var text = Component.red(`材料数量不足3个，无法换取`)
+      event.player.setStatusMessage(text)
+      }
+
   }
   )
 
   ItemEvents.entityInteracted('item.entity_interact' , event => {
-    if (event.target.type == "minecraft:wolf" && event.player.getHeldItem(event.hand) == 'ars_nouveau:drygmy_shard'
+    if (event.target.type == "entity.minecraft.wolf" && event.player.getHeldItem(event.hand) == 'ars_nouveau:drygmy_shard'
     && event.target.type!= null && event.item!= null)
         {
             event.player.mainHandItem.count-=1
@@ -110,7 +129,7 @@ PlayerEvents.respawned(event=>{
     if(event.source.getActual() != null)
     {
         const killer=event.source.getActual()
-    if(killer.type="player" && killer.getAttributeValue("minecraft:generic.max_health")<40)
+    if(killer.isPlayer() && killer.getAttributeValue("minecraft:generic.max_health")<40)
      {
 
    
@@ -119,6 +138,37 @@ PlayerEvents.respawned(event=>{
         
      }
 
+    }
+   })   
+
+   EntityEvents.death("youkaishomecoming:rumia", event => {
+  const killer=event.source.getActual()
+  const flag=event.entity.nbt["youkai_flags"]
+    if(event.source.getActual() != null && killer.isPlayer())
+    {
+       
+      if(flag<1)
+      {
+        event.source.actual.give('10x kubejs:rumia')
+        console.log("1 yes")
+      }
+    
+     else
+     { 
+         event.source.actual.give('10x kubejs:ex_rumia')  
+         console.log("2 yes")
+     }
+
+    }
+    else{
+     console.log(flag)
+     console.log(flag<1)
+     console.log(flag>1)
+     console.log(killer.type== "entity.minecraft.player")
+     console.log(event.source.getActual() != null)
+     console.log(killer.type)
+     console.log(killer.isPlayer())
+    // console.log(event.entity.getNbt())
     }
    })   
 
