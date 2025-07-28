@@ -140,4 +140,35 @@ event.addAdvanced(Item.of('youkaishomecoming:rumia_hairband'), (item, advanced, 
   event.addAdvanced('irons_spellbooks:blood_upgrade_orb', (item, advanced, text) => {
     text.add(Text.gold("可与蕾米莉亚交换匠魂材料"))
   })
+  event.addAdvanced('ars_nouveau:summon_focus', (item, advanced, text) => {
+    text.add(Text.gold("强化召唤物，并且将作用于自身的法术应用于召唤物上"))
+  })
+  event.addAdvanced('irons_spellbooks:keeper_flamberge', (item, advanced, text) => {
+    text.add(Text.gold("由远古骑士掉落"))
+  })
+  event.addAdvanced('sakuratinker:fox_mask', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于100点时，可消耗50点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主手需要：破败焰形剑"))
+  })
+
+  event.addAdvanced('immortalers_delight:golden_himekaido', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于120时，可消耗60灵视在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：风暴精华，凋灵合金锭"))
+  })
+
+event.addAdvanced('mbd2:nuclear_plant', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于180点时，可消耗30点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：钻石块，腾炎块"))
+  })
+
+  event.addAdvanced('kubejs:kosuzu', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于150点时，可消耗80点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：远古知识碎片，附魔书"))
+  })
+
+    event.addAdvanced('farmersdelight:straw_bale', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于10点时，可消耗5点灵视与此物品"))
+    text.add(Text.gold("在仪式火盆处兑换随机农作物"))
+  })
+
 })

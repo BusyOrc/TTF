@@ -349,8 +349,18 @@
             "type": "gateways:entity_loot",
             "entity": "hmag:banshee",
             "rolls": 30
+        },
+		{
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add 10",
+            "desc":"灵视+10"
         }
     ],
     "failures": [
+		{
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add -10",
+            "desc":"灵视-10"
+        }
     ]
 }

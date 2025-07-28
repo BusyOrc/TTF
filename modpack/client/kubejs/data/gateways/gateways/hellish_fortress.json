@@ -344,6 +344,11 @@
             "loot_table": "minecraft:chests/nether_bridge",
             "rolls": 20,
             "desc": "rewards.gateways.loot_table.nether_bridge"
+        },
+        {
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add 22",
+            "desc":"灵视+22"
         }
 
     ],
@@ -360,6 +365,11 @@
                 "entity": "hmag:crimson_slaughterer",
                 "count": 3
             }
+        },
+        {
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add -15",
+            "desc":"灵视-15"
         }
     ]
 }

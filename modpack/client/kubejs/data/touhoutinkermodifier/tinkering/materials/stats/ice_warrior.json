@@ -8,7 +8,7 @@
       },
       "tconstruct:handle": {
         "durability": 0.99,
-        "melee_damage": 0.99,
+        "melee_damage": 0.09,
         "melee_speed": 0.09,
         "mining_speed": 0.99
       },
@@ -22,7 +22,7 @@
         "accuracy": 0.09,
         "draw_speed": 0.09,
         "durability": 999,
-        "velocity": 0.99
+        "velocity": 0.09
       }
     }
   }

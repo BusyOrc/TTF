@@ -10,11 +10,6 @@ LootJS.modifiers((event) => {
         .removeLoot('minecraft:powered_rail')
         .removeLoot('minecraft:detector_rail')
 
-
-
-
-
-
 });
 //remove items in loot chests
 

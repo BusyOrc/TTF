@@ -2,11 +2,19 @@
   "type": "minecraft:empty",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "min":1,
+        "max": 2
+      },
+      "bonus_rolls":0.5,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:diamond"
+          "name": "kubejs:remilia"
+        },
+        {
+          "type": "item",
+          "name": "kubejs:patch"
         }
       ]
     }

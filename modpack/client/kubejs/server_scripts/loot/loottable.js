@@ -233,7 +233,7 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier("hmag:entities/stray_girl")
     .addLoot('irons_spellbooks:frozen_bone')
     event.addLootTableModifier("hmag:entities/imp")
-    .addLoot('kubejs:devil').randomChance(0.5)
+    .addLoot('kubejs:devil').randomChance(0.2)
 
     event.addLootTableModifier("hmag:entities/wither_skeleton_girl")
     .addLoot('wstweaks:fragment')

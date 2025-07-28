@@ -465,7 +465,7 @@ event.shaped('4x dimension_of_caves:chimeric_cave_tablet',
     C:'advanced_ae:quantum_processor'
   }
 )
-
+/*
 event.shaped('kubejs:meiling',
   [
     'RBR',
@@ -479,7 +479,7 @@ event.shaped('kubejs:meiling',
     D:"supplementaries:netherite_door"
   }
 )
-
+*/
 
 
 

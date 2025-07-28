@@ -6,4 +6,11 @@ event.recipes.ars_nouveau.enchanting_apparatus(
         15000
     )
 
+event.recipes.ars_nouveau.enchanting_apparatus(
+    ['immortalers_delight:torchflower_curry_rice','youkaishomecoming:sparrow_sake','tconstruct:earth_cake'],
+    'meetyourfight:slicers_dice',
+    "3x kubejs:sannyo",
+    7777
+)    
+
 })

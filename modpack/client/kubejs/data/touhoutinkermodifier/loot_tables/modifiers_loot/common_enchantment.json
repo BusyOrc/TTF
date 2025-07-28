@@ -2,11 +2,16 @@
   "type": "minecraft:empty",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "min":1,
+        "max": 2
+      },
+      "bonus_rolls":0.5,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:coal"
+          "name": "kubejs:sakuya",
+          "functions": []
         }
       ]
     }

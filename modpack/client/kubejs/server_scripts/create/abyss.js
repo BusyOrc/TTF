@@ -319,13 +319,10 @@ event.custom(
       "type": "sculkcatalyticchamber:chamber",
       "topIngredients": [
         {
-          "item": 'arsdelight:frostaya_jelly'
+          "item": 'ars_nouveau:drygmy_charm'
         },
         {
-          "tag":'youkaishomecoming:frozen_frog'
-        },
-        {
-          "tag":'youkaishomecoming:frozen_frog'
+          "item":'irons_spellbooks:ice_upgrade_orb'
         },
         {
           "tag":'youkaishomecoming:frozen_frog'

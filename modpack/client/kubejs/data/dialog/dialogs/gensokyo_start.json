@@ -84,7 +84,7 @@
     {
       "id": "butterfly",
       "speaker": {"translate": "dialog.gensokyo.speaker.reimu", "color": "red"},
-      "text": "这我可不能随便给你，规矩你是知道的，如果你想要的话，就自己来拿。给我准备95种不同食物的话给你蝴蝶结也不是不行。",
+      "text": "这我可不能随便给你，规矩你是知道的，如果你想要的话，就自己来拿。给我准备106种不同食物的话给你蝴蝶结也不是不行。",
       "portraits": [
         {"path": "39486261_p0.png","animationType": "BOUNCE"}
       ],

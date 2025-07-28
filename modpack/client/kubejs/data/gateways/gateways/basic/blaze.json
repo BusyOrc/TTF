@@ -206,8 +206,18 @@
             "type": "gateways:entity_loot",
             "entity": "hmag:melty_monster",
             "rolls": 60
+        },
+		{
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add 12",
+            "desc":"灵视+12"
         }
     ],
     "failures": [
+		{
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add -7",
+            "desc":"灵视-7"
+        }
     ]
 }

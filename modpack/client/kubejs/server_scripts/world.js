@@ -1,8 +1,6 @@
 BlockEvents.rightClicked("minecraft:reinforced_deepslate", event => {
     if(event.item === "minecraft:nether_star") {//右键消耗的物品
  //     event.server.runCommandSilent(`setblock ${event.getBlock().getX()} ${event.getBlock().getY()} ${event.getBlock().getZ()} minecraft:grass_block`)//此处为转换的物品
-      event.server.runCommandSilent(`particle crop_growth_emitter 0 0.65 0 1 ${event.getBlock().getX()} ${event.getBlock().getY() + 1.2} ${event.getBlock().getZ()} 0.25 0.2 0.25 1 100 force`)//此处为执行成功时的粒子效果，这个可以注释掉，没什么意义
-
       event.player.give(Item.of('tofucraft:tofustick', 1))
       event.getItem().setCount(event.item.getCount() - 1)//物品-1
       var text = Component.green(`下界之星被转换为了新的形态`)
@@ -11,15 +9,12 @@ BlockEvents.rightClicked("minecraft:reinforced_deepslate", event => {
     }
   })
 
-  BlockEvents.rightClicked(["lootr:lootr_chest","lootr:lootr_barrel"], event => {
+  BlockEvents.rightClicked(["#lootr:containers","#forge:chests","#forge:barrels"], event => {
 if(event.player.hasEffect("youkaishomecoming:unconscious"))
 {
     event.player.removeEffect("youkaishomecoming:unconscious")
+    event.player.addItemCooldown("youkaishomecoming:koishi_hat",400)
 }
-//console.log(event.player.nbt["ForgeCaps"]["improvedmobs:player_cap"]["Difficulty"])
-//console.log(event.player.stages.has("challenge_stage"))
-//console.log(event.player.getHeldItem)
-
   })
 
   let lemon=['fruitsdelight:lemon', 'fruitsdelight:lemon_jelly', 'fruitsdelight:lemon_jello',
@@ -41,8 +36,15 @@ PlayerEvents.respawned(event=>{
    {
     event.player.stages.remove("youkai")
    }
-})
 
+})
+/*
+PlayerEvents.advancement(event=>{
+  event.player.advancement.has("tconstruct_emergence:bonus_tier_1")
+  event.server.runCommand("say 114514")
+  event.server.runCommand("advancement revoke ElysiaTopaz only tconstruct_emergence:bonus_tier_1")
+})
+  */
 
 
 
@@ -135,7 +137,7 @@ PlayerEvents.respawned(event=>{
    
          event.server.runCommand(`say ${event.source.actual.username} 在特殊条件下击杀末影龙，受到了某位天邪鬼的青睐`)
          event.source.actual.give('4x kubejs:seija')
-        
+
      }
 
     }
@@ -146,7 +148,7 @@ PlayerEvents.respawned(event=>{
   const flag=event.entity.nbt["youkai_flags"]
     if(event.source.getActual() != null && killer.isPlayer())
     {
-       
+      
       if(flag<1)
       {
         event.source.actual.give('10x kubejs:rumia')
@@ -160,16 +162,7 @@ PlayerEvents.respawned(event=>{
      }
 
     }
-    else{
-     console.log(flag)
-     console.log(flag<1)
-     console.log(flag>1)
-     console.log(killer.type== "entity.minecraft.player")
-     console.log(event.source.getActual() != null)
-     console.log(killer.type)
-     console.log(killer.isPlayer())
-    // console.log(event.entity.getNbt())
-    }
+
    })   
 
 
