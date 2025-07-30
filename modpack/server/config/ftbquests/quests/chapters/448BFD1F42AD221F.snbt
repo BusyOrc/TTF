@@ -62,7 +62,9 @@
 			y: -3.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
+			hover: ["未成品辣条"]
 			image: "ltc2:item/unprocessed_latiao"
 			rotation: 0.0d
 			width: 1.0d
@@ -88,24 +90,6 @@
 			y: -3.0d
 		}
 		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "ltc2:item/unprocessed_latiao"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -3.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -3.0d
-		}
-		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
@@ -122,69 +106,6 @@
 			width: 1.0d
 			x: -1.5d
 			y: -3.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -4.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -2.0d
-		}
-		{
-			click: "#67CFA387F0684C1C"
-			height: 1.0d
-			image: "mystias_izakaya:item/mian_fen"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -2.0d
 		}
 		{
 			click: "#745A6413D1A86045"
@@ -662,6 +583,80 @@
 			width: 3.0d
 			x: -4.5d
 			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/wheat_flour"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["未成品辣条"]
+			image: "ltc2:item/unprocessed_latiao"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	order_index: 4

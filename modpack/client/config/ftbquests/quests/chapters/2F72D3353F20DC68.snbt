@@ -691,14 +691,14 @@
 			id: "28801AC6C519D95C"
 			rewards: [
 				{
-					id: "4B1CABA1F2E17FB8"
-					item: "createaddition:chocolate_cake"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "4495566A0CF30E6F"
 					item: "tinkers_delight:spiral_bread_with_chocolate_filling"
+					type: "item"
+				}
+				{
+					id: "65D42FF4426DE814"
+					item: "youkaishomecoming:red_velvet_cake"
 					type: "item"
 				}
 			]
@@ -856,19 +856,11 @@
 				"猪灵交易"
 			]
 			id: "53A59A726D32D07D"
-			rewards: [
-				{
-					count: 2
-					id: "33B77B6C062433B2"
-					item: "storagedrawers:acacia_full_drawers_4"
-					type: "item"
-				}
-				{
-					id: "6843281180690DD1"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6843281180690DD1"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			tasks: [{
 				id: "487EB5573395982E"
 				item: {

@@ -1077,16 +1077,6 @@
 			y: -14.5d
 		}
 		{
-			dependency: "619A44CF2871E61B"
-			height: 4.0d
-			image: "youkaishomecoming:block/ingredient_rack/oak_ingredient_rack_top"
-			order: 3
-			rotation: 90.0d
-			width: 4.0d
-			x: 22.0d
-			y: -14.5d
-		}
-		{
 			click: "#060C6CD63C099102"
 			dependency: "619A44CF2871E61B"
 			height: 7.0d
@@ -2081,12 +2071,6 @@
 				{
 					id: "41C5063905038CF5"
 					item: "quark:soul_bead"
-					type: "item"
-				}
-				{
-					count: 6
-					id: "0CDD9C16C3661F11"
-					item: "createaddition:electrum_nugget"
 					type: "item"
 				}
 			]

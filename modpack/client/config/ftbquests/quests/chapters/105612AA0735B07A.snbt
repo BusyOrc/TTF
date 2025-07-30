@@ -1948,21 +1948,22 @@
 					type: "item"
 				}
 				{
-					id: "2782E5ADC87BB548"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "youkaishomecoming:circle_danmaku"
-						}
-					}
-					title: "Any #youkaishomecoming:circle_danmaku"
+					count: 2L
+					id: "47402F2EAABC4B8F"
+					item: "irons_spellbooks:common_ink"
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "47402F2EAABC4B8F"
-					item: "irons_spellbooks:common_ink"
+					id: "2D665D13BC20D1C5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "youkaishomecoming:danmaku/ball"
+						}
+					}
+					title: "Any #youkaishomecoming:danmaku/ball"
 					type: "item"
 				}
 			]
@@ -2325,7 +2326,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
 				id: "5397E4A4C6A17006"
 				item: "tconstruct:magma_bottle"
 				type: "item"
@@ -2742,12 +2742,6 @@
 					type: "item"
 				}
 				{
-					count: 2L
-					id: "21E3C044B06BC044"
-					item: "createaddition:biomass_pellet"
-					type: "item"
-				}
-				{
 					id: "457E70C8025EC241"
 					item: {
 						Count: 1
@@ -2757,6 +2751,12 @@
 						}
 					}
 					title: "Any #forge:vegetables/pepper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B1A8F98274E3CB4"
+					item: "thermal:sawdust"
 					type: "item"
 				}
 			]
@@ -4120,15 +4120,9 @@
 			description: ["湿海绵用于移除强化时，不会消耗海绵，只会消耗水分"]
 			id: "4F387A7A44CDD0D9"
 			rewards: [{
-				id: "7F2B76F16D9FF288"
-				item: {
-					Count: 1
-					id: "maidsoulkitchen:burn_protect_bauble"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "0AA89D54436BDF8B"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "371C97C843F5D08B"

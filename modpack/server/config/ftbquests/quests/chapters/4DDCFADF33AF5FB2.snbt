@@ -285,6 +285,11 @@
 				"兑换的物品：主要是随机水果种子，有小概率得到幻昙花甚至姬海棠种子"
 			]
 			id: "0CCB1884C25E91FE"
+			rewards: [{
+				id: "4FC264E431259C9D"
+				type: "xp"
+				xp: 12
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "61F013AE35E7C8C9"
@@ -303,6 +308,11 @@
 				"可获得：古明地反应堆控制器"
 			]
 			id: "1430A0375B8DA5DA"
+			rewards: [{
+				id: "7ED5C1CD6DF63E04"
+				type: "xp"
+				xp: 12
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -328,6 +338,11 @@
 				"可获得：狐狸面具"
 			]
 			id: "756AADBE5BCB6B3B"
+			rewards: [{
+				id: "260B0F46C8360618"
+				type: "xp"
+				xp: 12
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "669BAABF1F514F43"
@@ -353,6 +368,11 @@
 				"交换的物品：本居小铃锭"
 			]
 			id: "563F533A0FB83F34"
+			rewards: [{
+				id: "0F6FA8546A7AAEE4"
+				type: "xp"
+				xp: 12
+			}]
 			size: 2.0d
 			tasks: [
 				{
@@ -382,6 +402,11 @@
 				"交易可得：金姬海棠果"
 			]
 			id: "3A383347D6F3719B"
+			rewards: [{
+				id: "4B04C96512E99CE3"
+				type: "xp"
+				xp: 12
+			}]
 			size: 2.0d
 			tasks: [
 				{

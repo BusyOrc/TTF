@@ -419,6 +419,15 @@
 			dependencies: ["4FD91041DF58EB0E"]
 			description: ["帕氏体——帕秋莉·诺蕾姬在某次催情药水的研发过程中发现的材料，虽然实验失败了，但是误打误撞发现了这种材料的制作方法，甚至还有一些特殊的副产物"]
 			id: "51BB5DC63F534547"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 30"
+				elevate_perms: true
+				id: "445FF0B6650452D6"
+				silent: true
+				title: "灵视+30"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "2E883E8E9EB83757"
@@ -432,6 +441,15 @@
 			dependencies: ["4FD91041DF58EB0E"]
 			description: ["河氏体——当然是我河城荷取发现的啦，那天灵梦邀请我来参与稳定器的维护工程，在测试的时候我根据多年的经验，加入了一些奇妙材料，于是得到了河氏体"]
 			id: "7C3093C7AEA14846"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 30"
+				elevate_perms: true
+				id: "23F58B25284E8B8A"
+				silent: true
+				title: "灵视+30"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "66B94546D0EC2BD1"
@@ -457,6 +475,15 @@
 				"比氏体——当然是我发现的材料了，本来我只是想改进一下AE相关设备，随便凑了点材料，您猜怎么着？诶，得到的产物那叫一个地~道~"
 			]
 			id: "5B458AE0C89F6301"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 30"
+				elevate_perms: true
+				id: "7BB317A54AB685DE"
+				silent: true
+				title: "灵视+30"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "3852347C61DF2948"
@@ -473,6 +500,15 @@
 			]
 			description: ["魔理沙：这个我来讲讲吧，最初我也想做催情药水，但是机缘巧合之下虽然没做出来，但是却得到了新的产物。"]
 			id: "59D6AB5AEEE917BC"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 30"
+				elevate_perms: true
+				id: "18482B353267F976"
+				silent: true
+				title: "灵视+30"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "7BBC8ED4C21E6D8E"
@@ -558,6 +594,15 @@
 		{
 			description: ["击杀霜冻巨兽掉落，所在结构（主世界）：Frostmaw Spawn"]
 			id: "3B3FEBDE61625575"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "77B234258564919E"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [{
 				id: "1A8CD20FFBFBD41F"
 				item: {
@@ -575,6 +620,15 @@
 		{
 			description: ["击杀太阳鸟获取，所在结构（主世界）：Umvuthana Grove"]
 			id: "4ED2D7C44ADA7854"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "5CF1ACF6AB64453E"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [{
 				id: "09B070CE1F8BFE07"
 				item: "mowziesmobs:sol_visage"
@@ -586,6 +640,15 @@
 		{
 			description: ["击杀娜迦飞蛇获取，通常在山地生成"]
 			id: "4454D321DD5011D8"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "3DCAC811572C27F5"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2C1357D22835E933"
 				item: "mowziesmobs:naga_fang"
@@ -611,6 +674,15 @@
 				}
 			}
 			id: "1B1AD492B0F8299B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "7E73BD54457C73F1"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7C999EFD6FB1B278"
@@ -641,6 +713,15 @@
 				"这种敌人的绝大部分身体免疫任何攻击，只有攻击背部才能正常造成伤害，而且攻击的次数相当有限，&c高攻速武器在这里可行不太通&r"
 			]
 			id: "356A77395FDA425A"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "2CD11E7DB7CCD0CC"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [{
 				id: "245B36ACAC4FCED2"
 				item: "mowziesmobs:wrought_helmet"
@@ -652,6 +733,15 @@
 		{
 			description: ["海中钓鱼获取，或者用奇观大型豆腐祭坛来生产"]
 			id: "3DBCE3921C128A8B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "213098A29BC66242"
+				silent: true
+				title: "灵视+5"
+				type: "command"
+			}]
 			tasks: [{
 				count: 8L
 				id: "355AB5EC810AA7E7"
@@ -743,6 +833,15 @@
 			]
 			icon: "youkaishomecoming:lamprey_bucket"
 			id: "21CFCBEAA167B850"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "07AA9C08E13D8065"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：产出八目鳗与墨鱼 生产鉕锭"
@@ -794,6 +893,15 @@
 				}
 			}
 			id: "2DAF273B73D9756D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "3FB30372B7E55161"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：制作材料 转换材料。"
@@ -831,6 +939,15 @@
 				}
 			}
 			id: "31EA2B25EDCA3877"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "1796219F10892703"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：刚玉复制 提炼精炼油"
@@ -893,6 +1010,15 @@
 			hide_dependent_lines: true
 			icon: "touhou_little_maid:wireless_io"
 			id: "28A2A2886D8D4E4D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "5C5AE7CE50A0F9EE"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：特殊催化体制作 创造物品制作"
@@ -920,6 +1046,15 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3300927C5AE26645"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "5A8161F592C521DA"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：制造豆腐块 提炼轻油"
@@ -941,6 +1076,15 @@
 				"&7大型豆腐祭坛 主要职责为制造三种龙钢，以及稳定产出的海王锭。"
 			]
 			id: "5A8D8C7D2129F164"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "02B9011E63392635"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "主要职责：小型豆腐祭坛上位替代 龙钢制作  海王锭制作"
@@ -1037,6 +1181,15 @@
 			]
 			icon: "starbunclemania:source_fluid_bucket"
 			id: "38B604C051E27A47"
+			rewards: [{
+				auto: "no_toast"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 15"
+				elevate_perms: true
+				id: "6555E97479927891"
+				silent: true
+				title: "灵视+15"
+				type: "command"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -1056,6 +1209,11 @@
 				"想起【核电轻而易举】"
 			]
 			id: "25D34E4AB0E966CE"
+			rewards: [{
+				id: "6B02E0FA55E27846"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "70E23D5A01796275"
 				item: "kubejs:nuclear_fuel_bucket"

@@ -464,19 +464,12 @@
 			hide_until_deps_complete: false
 			icon: "thermal:device_tree_extractor"
 			id: "41AA8D42F7ABE173"
-			rewards: [
-				{
-					count: 5
-					id: "78DB7AD4FAFB7C7B"
-					item: "thermal:pbj_sandwich"
-					type: "item"
-				}
-				{
-					id: "6857129C4FF457B1"
-					item: "cookingforblockheads:sink"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 5
+				id: "78DB7AD4FAFB7C7B"
+				item: "thermal:pbj_sandwich"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3C3B621F31DAD794"
@@ -1704,6 +1697,19 @@
 			dependencies: ["2E620B5A91921B5C"]
 			description: ["高效率的挖掘设备，可以替代镐子和铲子，通过加装相应的升级，可以切换为范围挖掘"]
 			id: "00359C86EE9897F0"
+			rewards: [{
+				count: 2
+				id: "26270D2F8D60861F"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						accentColor: 1481884
+						mainColor: 1481884
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C9A073B4682C3C7"
 				item: {
@@ -1721,6 +1727,18 @@
 			dependencies: ["2E620B5A91921B5C"]
 			description: ["高效率的伐木工具，安装升级可解锁范围砍伐"]
 			id: "4F14CE8B4305F6B7"
+			rewards: [{
+				id: "6A1565CA4E67DCE6"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_iron_barrel_4"
+					tag: {
+						accentColor: 1908001
+						mainColor: 1908001
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "026577D37ACBA8D8"
 				item: {
@@ -1786,6 +1804,12 @@
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			id: "20C0DA5754A038A5"
+			rewards: [{
+				count: 2
+				id: "2A0138CB2BF6D2D2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "774D7E1FA93A17CF"
 				item: "thermal:dynamo_compression"
@@ -1797,6 +1821,12 @@
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			id: "5988020B5C3462AD"
+			rewards: [{
+				count: 2
+				id: "4497223C6F32EFC6"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66433CEE1CD6D21C"
 				item: "thermal:dynamo_numismatic"
@@ -1808,6 +1838,12 @@
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			id: "67B34E1CEA55812A"
+			rewards: [{
+				count: 2
+				id: "60CB681945CB9E1D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45552FF9727B3965"
 				item: "thermal:dynamo_lapidary"
@@ -1819,6 +1855,12 @@
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			id: "4CDE2A33A64012DF"
+			rewards: [{
+				count: 2
+				id: "04CA72B216B94AF5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "299CB1724CBA16F1"
 				item: "thermal:dynamo_disenchantment"
@@ -1830,6 +1872,12 @@
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			id: "169272E5357DC6DC"
+			rewards: [{
+				count: 2
+				id: "7959309806F7BFB0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ECAF657F9EB087D"
 				item: "thermal:dynamo_gourmand"

@@ -1246,12 +1246,6 @@
 			]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					Parent: {
-						Items: [ ]
-						Size: 15
-					}
-				}
 				id: "laserio:card_holder"
 				tag: {
 					UUID: [I;

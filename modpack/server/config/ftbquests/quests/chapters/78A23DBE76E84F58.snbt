@@ -199,20 +199,18 @@
 			hide_until_deps_visible: false
 			icon: "farmersdelight:stove"
 			id: "7087617DAA184277"
-			rewards: [
-				{
-					count: 8
-					id: "691BB52FC142303C"
-					item: "storagedrawers:oak_full_drawers_4"
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "71AF14E9B17ECC8C"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "jungle"
+					}
 				}
-				{
-					count: 8
-					id: "1E53E6CE31C43776"
-					item: "storagedrawers:oak_full_drawers_1"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C868A250A1BAF62"
 				item: "farmersdelight:stove"
@@ -1176,6 +1174,11 @@
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "301A86CB5AF80153"
+			rewards: [{
+				id: "40011B5783E6505C"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				count: 9L
 				id: "14A87E81B90A594F"

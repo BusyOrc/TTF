@@ -120,6 +120,8 @@
 				"这里还有点东西，直接送你了吧，应该能帮上忙"
 				""
 				"弹幕战介绍：为了避免弹幕近距离影响观感（尤其是符卡的大量弹幕），近距离平着发射时弹幕不会显示，为正常情况。弹幕战强化的弹幕也有同样的视效优化，实际伤害不受影响。"
+				""
+				"另外，你平时能看见的小妖精都是中立的，只会攻击妖怪化的玩家，而且如果用非弹幕伤害击杀，有大概率会触发增援"
 			]
 			icon: {
 				Count: 1
@@ -172,7 +174,7 @@
 							tic_materials: [
 								"kubejs:daiyousei"
 								"kubejs:baka"
-								"tinkers_thinking:cactus"
+								"tconstruct:iron"
 							]
 							tic_modifiers: [
 								{
@@ -205,6 +207,10 @@
 								}
 								{
 									level: 1
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
 									name: "tconstruct:silky_shears"
 								}
 								{
@@ -227,7 +233,7 @@
 								"tconstruct:armor_toughness": 1.0f
 								"tconstruct:attack_damage": 7.2275004f
 								"tconstruct:attack_speed": 1.4399999f
-								"tconstruct:durability": 1741.9053f
+								"tconstruct:durability": 1844.37f
 								"tconstruct:harvest_tier": "minecraft:diamond"
 								"tconstruct:mining_speed": 4.75875f
 								"tconstruct:projectile_damage": 2.5f
@@ -258,96 +264,6 @@
 								abilities: 1
 								"tconstruct:rarity": 1
 								upgrades: 4
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4E68100751E5D363"
-					item: {
-						Count: 1
-						id: "tconstruct:travelers_shield"
-						tag: {
-							Damage: 0
-							etstlib_tool_uuid: "46068a59-0282-48c5-82f6-04393b3ae5f3"
-							tic_broken: 0b
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tconstruct:tanned"
-								}
-								{
-									level: 1
-									name: "tconstruct:emerald"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:reflecting"
-								}
-								{
-									level: 2
-									name: "tconstruct:magic_protection"
-								}
-								{
-									level: 1
-									name: "tconstruct:blocking"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.25f
-								"tconstruct:mining_speed": 1.25f
-							}
-							tic_persistent: {
-								abilities: -1
-								defense: -2
-								upgrades: -3
-							}
-							tic_stats: {
-								"tconstruct:accuracy": 0.85f
-								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:block_amount": 10.0f
-								"tconstruct:block_angle": 90.0f
-								"tconstruct:durability": 300.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:use_item_speed": 0.8f
-							}
-							tic_upgrades: [
-								{
-									level: 1
-									name: "tconstruct:emerald"
-								}
-								{
-									level: 1
-									name: "tconstruct:soulbound"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:lt_repair"
-								}
-								{
-									level: 1
-									name: "tconstruct:reflecting"
-								}
-								{
-									level: 2
-									name: "tconstruct:magic_protection"
-								}
-							]
-							tic_volatile_data: {
-								abilities: 1
-								defense: 2
-								"tconstruct:rarity": 1
-								"tconstruct:soulbound": 1b
-								upgrades: 3
 							}
 						}
 					}
@@ -806,6 +722,12 @@
 							}
 						}
 					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "036807777F6E8506"
+					item: "tconstruct:quartz_shuriken"
 					type: "item"
 				}
 			]
@@ -1454,7 +1376,7 @@
 		}
 		{
 			dependencies: ["13025B20518A9BD2"]
-			description: ["灵梦：暮色森林世界存在结界的封锁，如果未击败前面的BOSS则无法前往挑战后续敌人，但是在我面前玩结界都是班门弄斧，如果你能给我带一些之前我没尝过的食物，就帮你解开&b暮色森林的封锁&r，如何？"]
+			description: ["灵梦：暮色森林世界存在结界的封锁，&a如果未击败前面的BOSS则无法前往挑战后续敌人&r，但是在我面前玩结界都是班门弄斧，如果你能给我带一些之前我没尝过的食物，就帮你解开&b暮色森林的封锁&r，如何？"]
 			id: "0F304CCA2EC8128A"
 			rewards: [{
 				auto: "enabled"
@@ -1551,14 +1473,15 @@
 				type: "random"
 			}]
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "75F9B94CC9F791A2"
 				structure: "ttf:homo"
 				title: "发现红魔馆"
 				type: "structure"
 			}]
-			x: 9.25d
-			y: 1.75d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			id: "24F354B402511BB8"
@@ -1569,14 +1492,15 @@
 				type: "random"
 			}]
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "2C1CFCFC6F46B599"
 				structure: "ttf:alice"
 				title: "发现爱丽丝小屋"
 				type: "structure"
 			}]
-			x: 10.5d
-			y: 1.75d
+			x: 11.5d
+			y: 2.0d
 		}
 	]
 	title: "初遇灵梦"

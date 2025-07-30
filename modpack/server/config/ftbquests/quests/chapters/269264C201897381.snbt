@@ -120,7 +120,7 @@
 				"没特殊情况请不要使用指令/Kill 自己 可能会导致假死的情况发生"
 				"（目前版本没有相关反馈，测试也没有问题，应该已经修复，但仍建议少用）"
 				""
-				"在&a开启作弊模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，目前版本暂无配置选项，作者表示下个版本修复。如果需要开启作弊模式又不想失去游玩乐趣，请注意谨慎操作。"
+				"在&a开启创造模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，正常的使用方法为在工匠砧上面作为材料"
 				""
 				"如果能接受以上问题，可以&a正式开始游戏&r了"
 				""
@@ -218,7 +218,6 @@
 			dependencies: ["2D97609AFEA7E2BE"]
 			description: [
 				"首先根据自己的习惯调整键位，视频设置，是否开启光影"
-				""
 				"在安装新版整合包后，除了转移存档，记得也要转移xaero地图相关缓存文件和已经调整好的options文件，config等文件除非确认可以动，否则尽量不要动"
 				""
 				"如果需要调整按键的配置，有visual keybinder模组，可以在可视化界面调整每个按键的情况，点击相应的按键即可查看有哪些功能应用了该按键"
@@ -673,6 +672,14 @@
 		}
 		{
 			dependencies: ["3D9ADB4C592C6499"]
+			description: [
+				"回答错误"
+				""
+				"袿姬拥有创造偶像程度的能力，是东方Project系列中的官方角色，首次登场于东方鬼形兽，作为鬼形兽的六面Boss登场。"
+				""
+				"正确答案为：偶像造形术"
+			]
+			hide_text_until_complete: true
 			icon: {
 				Count: 1
 				id: "youkaishomecoming:koishi_hat"
@@ -780,8 +787,9 @@
 		{
 			dependencies: ["441A595A189A0EAF"]
 			description: [
-				"奖励内容：2块太阳能,16能量管道"
+				"奖励内容：2块太阳能,32能量管道"
 				"太阳能白天产生512rf/t电力，推荐使用储能设备将多余电力存起来"
+				"使用方法：太阳能板放在能量管道上，能量管道连接控制器给AE供电"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -796,12 +804,6 @@
 					id: "27ABB8C0917EF4A8"
 					item: "thermal:energy_duct"
 					team_reward: true
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4170D72970A3FB6E"
-					item: "solarflux:ae2/energy_upgrade"
 					type: "item"
 				}
 				{
@@ -877,6 +879,7 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "7194EF1D21DBDA14"
 					item: {
 						Count: 1
