@@ -325,7 +325,13 @@
 		}
 		{
 			dependencies: ["2E620B5A91921B5C"]
-			description: ["地灵殿发电的方式有很多，主要是各种能源炉，也可以用机械动力提供的发电设备来发电"]
+			description: [
+				"地灵殿发电的方式有很多，主要是各种能源炉，也可以用机械动力提供的发电设备来发电"
+				""
+				"除此之外，还有一种特殊的发电方式，不过建造所消耗的材料非常多"
+				""
+				"{ \"text\": \"古明地反应堆\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38B604C051E27A47\" } }"
+			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: false
 			icon: "thermal:dynamo_magmatic"

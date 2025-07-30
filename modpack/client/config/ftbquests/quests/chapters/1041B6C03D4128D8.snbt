@@ -17,13 +17,13 @@
 		}
 		{
 			click: "#3C148841CE40D820"
-			height: 9.0d
+			height: 5.0d
 			hover: ["大家好啊，我是洞穴概论说的道理"]
 			image: "alexscaves:item/cave_book"
 			rotation: 0.0d
-			width: 9.0d
-			x: 8.5d
-			y: -3.0d
+			width: 5.0d
+			x: 7.75d
+			y: -2.5d
 		}
 		{
 			click: "#1155674CE816A8B5"
@@ -138,7 +138,7 @@
 		{
 			height: 6.0d
 			hover: ["警告：侦测到在途的聚变打击"]
-			image: "alexscaves:misc/advancement/toxic_midground"
+			image: "alexscaves:textures/misc/advancement/icon/toxic_caves.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: 1.0d
@@ -264,6 +264,39 @@
 			title: "我会送你一本洞穴概论……才怪"
 			x: 8.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"如果要进入全新维度的话，需要用到至少10个嵌合洞穴石板这种方块，搭建成类似下界传送门的样式，再用这种特殊钥匙🔑右键方块即可。在该维度中包含了所有ALEX洞穴的群系，无需寻找，直接就可以开始探索"
+				""
+				"传送门对应方块有两种不同配方，其中洞穴石板需要在地下寻找特殊小屋(&aunderground_cabin&r)搜索其中的木桶方可寻得"
+			]
+			icon: "dimension_of_caves:chimeric_cave_tablet"
+			id: "148AB059FFC7AAF6"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "东方虹龙洞（不是）"
+			tasks: [
+				{
+					id: "42A0A8D26955C181"
+					item: "dimension_of_caves:chimeric_cave_tablet"
+					type: "item"
+				}
+				{
+					id: "01A00926BE1CF0A4"
+					item: {
+						Count: 1
+						id: "dimension_of_caves:cave"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ALEX洞穴全新维度"
+			x: 7.75d
+			y: 4.0d
 		}
 	]
 	title: "章节目录"

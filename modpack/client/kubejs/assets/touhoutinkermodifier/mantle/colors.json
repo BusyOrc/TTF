@@ -1,11 +1,11 @@
 {
     "modifier.touhoutinkermodifier": {
-        "earth_light":"#F0E68C",
-        "dodge":"#008080",
-        "moon_rabbit":"#FFC0CB",
-        "mary":"#00FFFF",
-        "yumekui":"#4169E1",
-        "portal":"#E0FFFF",
+    "earth_light":"#F0E68C",
+    "dodge":"#008080",
+    "moon_rabbit":"#FFC0CB",
+    "mary":"#00FFFF",
+    "yumekui":"#4169E1",
+    "portal":"#E0FFFF",
     "unconscious":"#B0E2FF",
     "tofu_kungfu":"#E8E8E8",
     "crystalline_phase":"#FFA500",
@@ -55,7 +55,8 @@
     "medicine_borne":"#FFB6C1" ,
     "warrior":"#1E90FF",
     "companion":"#00FA9A" ,
-    "fountain_magic":"#FF00FF"
+    "fountain_magic":"#FF00FF",
+    "expelleescanaan":"#00E5EE"
     },
     "material.touhoutinkermodifier": {
         "devil":"#FF4500",
@@ -67,6 +68,7 @@
         "meiling":"#FF0000",
         "paru":"#FFA500",
         "patch":"#FF00FF",
+        "patch_slime":"#FF69B4",
         "remilia":"#FF0000",
         "rumia":"#FF8C00",
         "sakuya":"#E0FFFF",

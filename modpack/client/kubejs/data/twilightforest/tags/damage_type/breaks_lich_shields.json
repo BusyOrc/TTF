@@ -5,14 +5,6 @@
     "minecraft:sonic_boom",
     "twilightforest:lich_bolt",
     "twilightforest:twilight_scepter",
-    "irons_spellbooks:blood_magic",
-    "irons_spellbooks:ender_magic",
-    "irons_spellbooks:evocation_magic",
-    "irons_spellbooks:fire_magic",
-    "irons_spellbooks:holy_magic",
-    "irons_spellbooks:ice_magic",
-    "irons_spellbooks:lightning_magic",
-    "irons_spellbooks:nature_magic",
-    "#forge:is_magic"
+    "#forge:spells"
   ]
 }

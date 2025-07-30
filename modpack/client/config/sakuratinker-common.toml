@@ -12,7 +12,7 @@
 			#下界史莱姆水晶 (default: sakuratinker:slime_crystal_nether)
 			slimeCrystalNether = "sakuratinker:slime_crystal_nether"
 			#金块 (default: minecraft:gold_block)
-			goldBlock = "minecraft:gold_block"
+			goldBlock = "advanced_ae:quantum_alloy_block"
 
 	["兼容配置"."工具配置"]
 

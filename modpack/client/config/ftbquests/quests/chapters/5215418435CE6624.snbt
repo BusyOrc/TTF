@@ -19,6 +19,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["148AB059FFC7AAF6"]
 		description: [
 			"喂喂？听得到吗？"
 			"阿，你能听见啊，太好了！史蒂夫桑"

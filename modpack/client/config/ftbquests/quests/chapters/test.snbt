@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5DC59FDCCE6E5FB7"]
 			description: ["这里的内容并不重要"]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true

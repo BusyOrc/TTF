@@ -170,6 +170,16 @@ StartupEvents.registry('fluid', event => {
     .thickTexture(0x00FFFF)
     .bucketColor(0x00FFFF)
     .displayName('若鹭姬液体')
+
+    event.create('magnetic_cola')
+    .thickTexture(0x3e0000)
+    .bucketColor(0x3e0000)
+    .displayName('磁场可乐')
+
+    event.create('nuclear_soda')
+    .thickTexture(0x00fc00)
+    .bucketColor(0x00fc00)
+    .displayName('核子汽水')
  
     event.create('ore_fluid')
     .thickTexture(0x8B4513)
@@ -179,10 +189,11 @@ StartupEvents.registry('fluid', event => {
     event.create('waste_water')
     .thickTexture(0x808080)
     .bucketColor(0x808080)
-    .displayName('废水')  
+    .displayName('废水')
+    
     event.create('nuclear_fuel')
     .thickTexture(0x9400D3)
     .bucketColor(0x9400D3)
-    .displayName('魔力核燃料')  
+    .displayName('魔力核燃料')
 
 })

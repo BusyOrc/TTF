@@ -1,15 +1,15 @@
 [
     {
         "difficulty": "easy",
-        "multxp": 0.4
-    },
-    {
-        "difficulty": "normal",
         "multxp": 0.7
     },
     {
+        "difficulty": "normal",
+        "multxp": 0.9
+    },
+    {
         "difficulty": "hard",
-        "multxp": 2.0
+        "multxp": 1.8
     }
 
 ]

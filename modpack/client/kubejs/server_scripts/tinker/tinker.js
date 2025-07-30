@@ -249,7 +249,22 @@ event.custom(
       }
     )
 
-
+event.custom(
+    {
+        "type": "tconstruct:casting_basin",
+        "cast": {
+          "item": "kubejs:little_devil"
+        },
+        "cast_consumed": true,
+        "cooling_time": 60,
+        "fluid": {
+          "amount": 1000,
+          "fluid": "starbunclemania:source_fluid"
+        },
+        "result":"kubejs:devil"
+            
+      }
+    )
 
 
 

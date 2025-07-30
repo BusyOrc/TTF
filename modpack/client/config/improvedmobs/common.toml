@@ -27,7 +27,7 @@
 	"Pet Whitelist" = false
 	#Increase difficulty with time
 	#Here untill its back as a gamerule
-	"Difficulty toggle" = true
+	"Difficulty toggle" = false
 	#How the difficulty at a position is calculated. Supported values are: 
 	#GLOBAL: Serverwide difficulty value
 	#PLAYERMAX: Maximum difficulty of players in a 256 radius around the position
@@ -56,7 +56,7 @@
 	#<#minecraft:raiders|ATTRIBUTES> will add all entities in the raiders tag to everything except attributes
 	#<minecraft:sheep|ATTRIBUTES> will add sheep to everything except attributes
 	#<minecraft> disables everything for all minecraft mobs
-	"Entity Configs" = ["alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "aquaculture:minnow", "alexsmobs:centipede_tail", "aquaculture:tambaqui", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "aquaculture:catfish", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "youkaishomecoming:lamprey", "youkaishomecoming:rumia", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "aquaculture:brown_shrooma", "alexsmobs:anaconda", "minecraft:polar_bear", "aquaculture:muskellunge", "aquaculture:bayad", "aquaculture:brown_trout", "simplyswords:battlestandarddark", "minecraft:llama", "minecraft:pig", "aquaculture:bluegill", "minecraft:turtle", "aquaculture:red_shrooma", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "aquaculture:atlantic_halibut", "youkaishomecoming:shrine_maiden", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "youkaishomecoming:star_sapphire", "footwork:dummy", "alexsmobs:gelada_monkey", "minecraft:cod", "aquaculture:gar", "aquaculture:red_grouper", "alexsmobs:mantis_shrimp", "youkaishomecoming:kirisame_marisa", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "alexsmobs:potoo", "quark:stoneling", "minecraft:cow", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:fairy", "aquaculture:rainbow_trout", "alexsmobs:fly", "minecraft:bee", "aquaculture:perch", "alexsmobs:devils_hole_pupfish", "quark:shiba", "simplyswords:battlestandard", "cataclysm:the_baby_leviathan", "alexsmobs:crocodile", "quark:toretoise", "guardvillagers:guard", "alexsmobs:blue_jay", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "youkaishomecoming:yukari", "aquaculture:jellyfish", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "youkaishomecoming:kochiya_sanae", "alexsmobs:rain_frog", "aquaculture:tuna", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "aquaculture:piranha", "alexsmobs:gorilla", "aquaculture:box_turtle", "aquaculture:blackfish", "aquaculture:arapaima", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "quark:crab", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "aquaculture:carp", "alexsmobs:spectre", "alexsmobs:cosmaw", "cataclysm:netherite_ministrosity", "aquaculture:pacific_halibut", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "aquaculture:pollock", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "youkaishomecoming:youkai", "yungscavebiomes:sand_snapper", "youkaishomecoming:komeiji_koishi", "alexsmobs:banana_slug", "dummmmmmy:target_dummy", "aquaculture:arrau_turtle", "alexsmobs:mimic_octopus", "aquaculture:boulti", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "aquaculture:capitaine", "alexsmobs:gazelle", "minecraft:mule", "minecraft:sniffer", "alexsmobs:skunk", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "aquaculture:atlantic_cod", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "aquaculture:synodontis", "minecraft:cat", "minecraft:pufferfish", "aquaculture:starshell_turtle", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "minecraft:fox", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "simplyswords:simplybeeentity", "minecraft:ocelot", "youkaishomecoming:cirno", "alexsmobs:warped_toad", "cataclysm:modern_remnant", "minecraft:chicken", "alexsmobs:giant_squid", "youkaishomecoming:luna_child", "youkaishomecoming:sunny_milk", "minecraft:wolf", "minecraft:panda", "touhou_little_maid:maid|REVERSE|ATTRIBUTES", "modulargolems:humanoid_golem|REVERSE|ATTRIBUTES", "modulargolems:metal_golem|REVERSE|ATTRIBUTES", "modulargolems:dog_golem|REVERSE|ATTRIBUTES"]
+	"Entity Configs" = ["alexsmobs:emu", "alexsmobs:cockroach", "alexsmobs:froststalker", "aquaculture:minnow", "alexsmobs:centipede_tail", "aquaculture:tambaqui", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "aquaculture:pink_salmon", "aquaculture:atlantic_herring", "alexsmobs:moose", "alexsmobs:seal", "minecraft:glow_squid", "alexsmobs:shoebill", "alexsmobs:flutter", "aquaculture:catfish", "alexsmobs:roadrunner", "alexsmobs:laviathan", "minecraft:trader_llama", "youkaishomecoming:lamprey", "youkaishomecoming:rumia", "alexsmobs:terrapin", "alexsmobs:capuchin_monkey", "alexsmobs:endergrade", "minecraft:horse", "aquaculture:brown_shrooma", "alexsmobs:anaconda", "minecraft:polar_bear", "aquaculture:muskellunge", "aquaculture:bayad", "aquaculture:brown_trout", "simplyswords:battlestandarddark", "minecraft:llama", "minecraft:pig", "aquaculture:bluegill", "minecraft:turtle", "aquaculture:red_shrooma", "alexsmobs:alligator_snapping_turtle", "alexsmobs:maned_wolf", "minecraft:sheep", "aquaculture:atlantic_halibut", "youkaishomecoming:shrine_maiden", "youkaishomecoming:remilia_scarlet", "youkaishomecoming:clownpiece", "minecraft:tadpole", "minecraft:goat", "minecraft:dolphin", "alexsmobs:rattlesnake", "youkaishomecoming:star_sapphire", "footwork:dummy", "alexsmobs:gelada_monkey", "minecraft:cod", "aquaculture:gar", "aquaculture:red_grouper", "alexsmobs:mantis_shrimp", "youkaishomecoming:kirisame_marisa", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:raccoon", "alexsmobs:grizzly_bear", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "alexsmobs:potoo", "quark:stoneling", "minecraft:cow", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:fairy", "aquaculture:rainbow_trout", "alexsmobs:fly", "minecraft:bee", "aquaculture:perch", "alexsmobs:devils_hole_pupfish", "quark:shiba", "simplyswords:battlestandard", "cataclysm:the_baby_leviathan", "alexsmobs:crocodile", "quark:toretoise", "guardvillagers:guard", "alexsmobs:blue_jay", "alexsmobs:toucan", "minecraft:salmon", "alexsmobs:sea_bear", "youkaishomecoming:yukari", "aquaculture:jellyfish", "alexsmobs:triops", "minecraft:snow_golem", "alexsmobs:rhinoceros", "minecraft:mooshroom", "alexsmobs:frilled_shark", "alexsmobs:bison", "alexsmobs:anteater", "alexsmobs:mudskipper", "minecraft:villager", "youkaishomecoming:kochiya_sanae", "alexsmobs:rain_frog", "aquaculture:tuna", "alexsmobs:bald_eagle", "alexsmobs:sugar_glider", "supplementaries:red_merchant", "minecraft:rabbit", "minecraft:axolotl", "alexsmobs:blobfish", "aquaculture:piranha", "alexsmobs:gorilla", "aquaculture:box_turtle", "aquaculture:blackfish", "aquaculture:arapaima", "alexsmobs:orca", "alexsmobs:tusklin", "minecraft:strider", "minecraft:parrot", "alexsmobs:leafcutter_ant", "quark:crab", "alexsmobs:cosmic_cod", "alexsmobs:underminer", "alexsmobs:mungus", "alexsmobs:jerboa", "minecraft:bat", "minecraft:wandering_trader", "alexsmobs:caiman", "aquaculture:carp", "alexsmobs:spectre", "alexsmobs:cosmaw", "cataclysm:netherite_ministrosity", "aquaculture:pacific_halibut", "alexsmobs:catfish", "minecraft:frog", "minecraft:iron_golem", "aquaculture:pollock", "alexsmobs:kangaroo", "alexsmobs:comb_jelly", "youkaishomecoming:youkai", "yungscavebiomes:sand_snapper", "youkaishomecoming:komeiji_koishi", "alexsmobs:banana_slug", "dummmmmmy:target_dummy", "aquaculture:arrau_turtle", "alexsmobs:mimic_octopus", "aquaculture:boulti", "alexsmobs:hummingbird", "alexsmobs:elephant", "alexsmobs:bunfungus", "aquaculture:capitaine", "alexsmobs:gazelle", "minecraft:mule", "minecraft:sniffer", "alexsmobs:skunk", "alexsmobs:crow", "minecraft:zombie_horse", "alexsmobs:sunbird", "minecraft:camel", "alexsmobs:flying_fish", "aquaculture:atlantic_cod", "alexsmobs:tasmanian_devil", "alexsmobs:centipede_body", "aquaculture:synodontis", "minecraft:cat", "minecraft:pufferfish", "aquaculture:starshell_turtle", "alexsmobs:stradpole", "alexsmobs:tarantula_hawk", "minecraft:fox", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "minecraft:allay", "minecraft:tropical_fish", "simplyswords:simplybeeentity", "minecraft:ocelot", "youkaishomecoming:cirno", "alexsmobs:warped_toad", "cataclysm:modern_remnant", "minecraft:chicken", "alexsmobs:giant_squid", "youkaishomecoming:luna_child", "youkaishomecoming:sunny_milk", "minecraft:wolf", "minecraft:panda", "touhou_little_maid:maid|REVERSE|ATTRIBUTES", "modulargolems:humanoid_golem|REVERSE|ATTRIBUTES", "modulargolems:metal_golem|REVERSE|ATTRIBUTES", "modulargolems:dog_golem|REVERSE|ATTRIBUTES"]
 	#Any of the following 
 	#[ATTRIBUTES, ARMOR, HELDITEMS, BLOCKBREAK, USEITEM, LADDER, STEAL, GUARDIAN, PARROT, TARGETVILLAGER, NEUTRALAGGRO, PEHKUI]
 	#added here will disable that feature completely.
@@ -129,14 +129,14 @@
 	#Whitelist for blocks, which can be actively broken. 
 	#Usage: id|namespace|#tag. Put "!" infront to exclude blocks. E.g. "minecraft", "minecraft:dirt" or "#minecraft:planks"
 	#Note: If you include common blocks (like grass blocks) the pathfinding can have undesirable results.
-	"Block Break Whitelist" = ["#forge:glass", "#forge:glass_panes", "#minecraft:fence_gates", "#forge:fence_gates", "#minecraft:wooden_doors"]
+	"Block Break Whitelist" = []
 	#Treat Block Whitelist as Blocklist
-	"Breaklist as Blacklist" = false
+	"Breaklist as Blacklist" = true
 	#Use the block breaking sound instead of a knocking sound
 	Sound = true
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0
+	"Breaker Chance" = 0.3
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
@@ -156,11 +156,11 @@
 	"Breaker Sight Ignore" = 0.5
 	#A modifier to the breaking speed
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Breaking Speed Base" = 2.0
+	"Breaking Speed Base" = 1.0
 	#Addition to breaking speed modifier based on difficulty.
 	#Final modifier is base + addition * difficulty
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Breaking Speed Add" = 0.02
+	"Breaking Speed Add" = 0.01
 	#Chance for a mob to be able to steal items from inventory blocks
 	#Range: 0.0 ~ 1.0
 	"Stealer Chance" = 0.0
@@ -170,7 +170,7 @@
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
 	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
 	#Should mobs be able to break block entities? Evaluated before the break list
-	"Break BlockEntities" = false
+	"Break BlockEntities" = true
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
 	"Neutral Aggressive Chance" = 0
@@ -179,10 +179,10 @@
 	"Auto Target List" = []
 	#Difficulty at which mobs are able to break blocks
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Difficulty Break AI" = 0.0
+	"Difficulty Break AI" = 100.0
 	#Difficulty at which mobs are able to steal items
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Difficulty Steal AI" = 0.0
+	"Difficulty Steal AI" = 200.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
 	"Guardian Chance" = 0.0

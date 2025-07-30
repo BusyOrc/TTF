@@ -64,7 +64,7 @@
 	koishiAttackChance = 0.003
 	#Koishi attack damage
 	#Range: 0 ~ 100000000
-	koishiAttackDamage = 120
+	koishiAttackDamage = 90
 	#Number of times player needs to consecutively block Koishi attack to get hat
 	#Range: 0 ~ 100
 	koishiAttackBlockCount = 3

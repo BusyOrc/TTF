@@ -220,10 +220,10 @@
 
 [[entities]]
 	entity = "twilightforest:hydra"
-	minTier = 4
-	maxTier = 5
-	presetAffixes = ["champions:enkindling", "champions:adaptable"]
-	affixList = ["champions:magnetic","champions:dampening"]
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["champions:enkindling"]
+	affixList = ["champions:magnetic","champions:dampening","champions:adaptable"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]

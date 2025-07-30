@@ -9,7 +9,7 @@
 		{
 			dependency: "7F8E93BFE7E0BF51"
 			height: 10.0d
-			image: "youkaishomecoming:block/water_flow"
+			image: "youkaishomecoming:block/fluid/water_flow"
 			rotation: 0.0d
 			width: 4.0d
 			x: -5.5d
@@ -851,7 +851,7 @@
 		{
 			dependency: "7F8E93BFE7E0BF51"
 			height: 10.0d
-			image: "youkaishomecoming:block/water_flow"
+			image: "youkaishomecoming:block/fluid/water_flow"
 			rotation: 0.0d
 			width: 4.0d
 			x: -2.5d
@@ -860,7 +860,7 @@
 		{
 			dependency: "7F8E93BFE7E0BF51"
 			height: 10.0d
-			image: "youkaishomecoming:block/water_flow"
+			image: "youkaishomecoming:block/fluid/water_flow"
 			rotation: 0.0d
 			width: 4.0d
 			x: -5.5d
@@ -869,7 +869,7 @@
 		{
 			dependency: "7F8E93BFE7E0BF51"
 			height: 10.0d
-			image: "youkaishomecoming:block/water_flow"
+			image: "minecraft:block/water_flow"
 			rotation: 0.0d
 			width: 4.0d
 			x: -2.5d

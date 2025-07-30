@@ -170,5 +170,7 @@ event.addAdvanced('mbd2:nuclear_plant', (item, advanced, text) => {
     text.add(Text.gold("灵视大于10点时，可消耗5点灵视与此物品"))
     text.add(Text.gold("在仪式火盆处兑换随机农作物"))
   })
-
+event.addAdvanced('kubejs:seija', (item, advanced, text) => {
+    text.add(Text.gold("除了多方块合成，似乎还有一种特殊的，符合“下克上”原则的获得方式"))
+  })
 })

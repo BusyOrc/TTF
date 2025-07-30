@@ -106,13 +106,11 @@ PlayerEvents.advancement(event=>{
   })
 
   EntityEvents.death("cataclysm:ancient_remnant", event => {
-
     if(event.source.getActual() != null)
     {
         const killer=event.source.getActual()
      if(killer.isPlayer())
      {
-
         let speed=event.source.actual.mainHandItem.nbt["tic_stats"]["tconstruct:attack_speed"]
         if(speed<0.8)
         {
@@ -133,9 +131,6 @@ PlayerEvents.advancement(event=>{
         const killer=event.source.getActual()
     if(killer.isPlayer() && killer.getAttributeValue("minecraft:generic.max_health")<40)
      {
-
-   
-         event.server.runCommand(`say ${event.source.actual.username} 在特殊条件下击杀末影龙，受到了某位天邪鬼的青睐`)
          event.source.actual.give('4x kubejs:seija')
 
      }

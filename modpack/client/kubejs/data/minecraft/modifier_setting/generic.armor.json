@@ -6,13 +6,13 @@
       ]
     },
     "entity": [
-      "touhou_little_maid:fairy"
+      "twilightforest:hydra"
     ],
     "permission": "blacklist"
   },
   "enable": true,
   "modifier": {
     "operation": "ADDITION",
-    "value": 6.0
+    "value": 5.0
   }
 }

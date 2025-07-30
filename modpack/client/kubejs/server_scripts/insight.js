@@ -248,11 +248,44 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier",event=>{
 EntityEvents.death("#forge:bosses",event=>{
 
       const killer=event.source.getActual()
-      const id= killer.username
-      if(event.source.getActual() != null && killer.isPlayer())
-      {
-            event.server.runCommandSilent(`/improvedmobs difficulty player ${id} add 36`)
-      }
+      const id= event.source.getActual().username
+      let addon=0
+      if(killer != null && killer.isPlayer())
+           {
+switch (event.entity.type)
+{
+case "entity.cataclysm.ignis":addon=21;break;
+case "entity.cataclysm.scylla":addon=20;break;
+case "entity.cataclysm.ender_guardian":addon=21;break;
+case "entity.cataclysm.netherite_monstrosity":addon=19;break;
+case "entity.cataclysm.harbringer":addon=18;break;
+case "entity.cataclysm.leviathan":addon=22;break;
+case "entity.cataclysm.ancient_remnant":addon=24;break;
+case "entity.cataclysm.maledictus":addon=24;break;
+case "entity.twilightforest.naga":addon=15;break;
+case "entity.twilightforest.lich":addon=12;break;
+case "entity.twilightforest.minoshroom":addon=10;break;
+case "entity.twilightforest.hydra":addon=15;break;
+case "entity.twilightforest.knight_phantom":addon=10;break;
+case "entity.twilightforest.ur_ghast":addon=9;break;
+case "entity.twilightforest.alpha_yeti":addon=5;break;
+case "entity.twilightforest.snow_queen":addon=15;break;
+case "entity.traveloptics.the_nightwarden":addon=40;break;
+case "entity.traveloptics.enraged_dead_king":addon=32;break;
+case "entity.mowziesmobs.wroughtnaut":addon=18;break;
+case "entity.mowziesmobs.umvuthi":addon=15;break;
+case "entity.mowziesmobs.frostmaw":addon=12;break;
+case "entity.minecraft.wither":addon=10;break;
+case "entity.minecraft.ender_dragon":addon=25;break;
+case "entity.irons_spellbooks.dead_king":addon=25;break;
+case "entity.youkaishomecoming.remilia_scarlet":addon=17;break;
+}
+      event.server.runCommandSilent(`/improvedmobs difficulty player ${id} add ${addon}`)
+}
+// console.log(`${event.entity.getName().string}`);
+// console.log(`${event.entity.getTags().contains("forge:bosses")}`)
+// console.log(`${event.entity.getTags()}`)
+ //console.log(`${event.entity.type}`)
 })
 
 

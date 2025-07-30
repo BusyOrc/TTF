@@ -391,7 +391,7 @@
 		{
 			dependency: "0CE48249ED661708"
 			height: 5.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "tconstruct:block/brownstone/brick"
 			order: -1
 			rotation: 0.0d
 			width: 6.0d
@@ -412,7 +412,7 @@
 			dependency: "0CE48249ED661708"
 			height: 2.0d
 			hover: ["站在大门前的，是一位白发的少女"]
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_side"
+			image: "biomesoplenty:block/brimstone_bricks"
 			order: 3
 			rotation: 0.0d
 			width: 2.0d
@@ -432,7 +432,7 @@
 		{
 			dependency: "0CE48249ED661708"
 			height: 2.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "biomesoplenty:block/brimstone_bricks"
 			order: 2
 			rotation: 0.0d
 			width: 2.0d
@@ -452,7 +452,7 @@
 		{
 			dependency: "0CE48249ED661708"
 			height: 2.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "biomesoplenty:block/brimstone_bricks"
 			order: 2
 			rotation: 0.0d
 			width: 2.0d
@@ -472,7 +472,7 @@
 		{
 			dependency: "0CE48249ED661708"
 			height: 5.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "tconstruct:block/brownstone/brick"
 			order: -1
 			rotation: 0.0d
 			width: 6.0d
@@ -643,7 +643,7 @@
 			dependency: "0CE48249ED661708"
 			height: 2.0d
 			hover: ["站在大门前的，是一位白发的少女"]
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_side"
+			image: "biomesoplenty:block/brimstone_bricks"
 			order: 3
 			rotation: 0.0d
 			width: 2.0d
@@ -1042,7 +1042,7 @@
 		{
 			dependency: "619A44CF2871E61B"
 			height: 4.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "youkaishomecoming:textures/unused/brick_tiles.png"
 			rotation: 0.0d
 			width: 18.0d
 			x: 34.5d
@@ -1051,7 +1051,7 @@
 		{
 			dependency: "619A44CF2871E61B"
 			height: 4.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "tconstruct:block/brownstone/brick_fancy"
 			rotation: 0.0d
 			width: 18.0d
 			x: 34.5d
@@ -1060,7 +1060,7 @@
 		{
 			dependency: "619A44CF2871E61B"
 			height: 4.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "neapolitan:block/chiseled_chocolate_bricks"
 			rotation: 90.0d
 			width: 18.0d
 			x: 22.0d
@@ -1069,7 +1069,7 @@
 		{
 			dependency: "619A44CF2871E61B"
 			height: 4.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_top"
+			image: "tconstruct:block/brownstone/brick"
 			order: 2
 			rotation: 90.0d
 			width: 4.0d
@@ -1079,7 +1079,7 @@
 		{
 			dependency: "619A44CF2871E61B"
 			height: 4.0d
-			image: "youkaishomecoming:block/fine_grid_framed_sikkui_side"
+			image: "youkaishomecoming:block/ingredient_rack/oak_ingredient_rack_top"
 			order: 3
 			rotation: 90.0d
 			width: 4.0d

@@ -126,9 +126,6 @@
 	#玩家短距离移动时减少区块更新
 	#Reduce chunk updates when player moves short distances
 	reduceChunkUpdates = true
-	#过滤冗余方块更新数据包
-	#Filter redundant block update packets
-	filterRedundantBlockUpdates = true
 	#异步区块生成线程数
 	#Number of threads for async chunk generation
 	#Range: 1 ~ 8

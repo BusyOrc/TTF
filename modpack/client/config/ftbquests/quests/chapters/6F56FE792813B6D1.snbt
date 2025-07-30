@@ -51,7 +51,11 @@
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
-			description: ["魔理沙：&b妖精冰晶&r是前期就能获得的好东西。在妖精化状态下可以和琪露诺交易来获取，或者也许还有另外的配方？而琪露诺的小屋通常在寒冷群系"]
+			description: [
+				"魔理沙：&b妖精冰晶&r是前期就能获得的好东西。在妖精化状态下可以和琪露诺交易来获取，或者也许还有另外的配方？而琪露诺的小屋通常在寒冷群系。如果想了解更多材料介绍，应该去找小伞"
+				""
+				"{ \"text\": \"车万材料\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"327CB47AE3CD98AF\" } }"
+			]
 			icon: "youkaishomecoming:fairy_ice_crystal"
 			id: "78D254568DE41DBD"
 			rewards: [{
@@ -191,29 +195,6 @@
 			title: "7 扫帚DA⭐ZE"
 			x: 4.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["47DC58500D8B3CCA"]
-			description: [
-				"魔理沙：使用螺旋桨+任意木板就能制作了，还可以额外添加各种部件，需要添加一种引擎才能启动，虽然是现代化的东西，但是个人感觉不一定有扫帚飞行好用。最重要的是，千万注意不要&c坠机&r了。"
-				""
-				"另外，直升机需要两个螺旋桨，而货运飞机需要4个"
-			]
-			id: "34C6B71570B59FF6"
-			rewards: [{
-				count: 4
-				id: "40AF36EB5A01C3C6"
-				item: "minecraft:magma_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "137515525A326804"
-				item: "simpleplanes:plane_workbench"
-				type: "item"
-			}]
-			title: "8 飞机"
-			x: 2.0d
-			y: 7.0d
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
@@ -382,8 +363,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 7.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["511F0C51DA0FE7C2"]
@@ -471,53 +452,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["34C6B71570B59FF6"]
-			description: [
-				"除了使用熔炉引擎/流体引擎给飞机提供动力，还可以使用&a电力引擎&r，可以搭配充电站提前充电或太阳能板充电"
-				""
-				"扳手可以&b右键飞机来调整装配的物品&r"
-			]
-			icon: "simpleplanes:charging_station"
-			id: "3AF32740BA4AA0E6"
-			rewards: [
-				{
-					id: "282808F8EFA34C4B"
-					item: "minecraft:lava_bucket"
-					type: "item"
-				}
-				{
-					id: "1ECCA79185A23029"
-					item: "sophisticatedbackpacks:battery_upgrade"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "36ED0AB2FDE737E3"
-					item: "simpleplanes:charging_station"
-					type: "item"
-				}
-				{
-					id: "3AF042A2EDB23C96"
-					item: "simpleplanes:electric_engine"
-					type: "item"
-				}
-				{
-					id: "1A0934ECD63EB10E"
-					item: "simpleplanes:solar_panel"
-					type: "item"
-				}
-				{
-					id: "5C3F5DB3BF680E03"
-					item: "simpleplanes:wrench"
-					type: "item"
-				}
-			]
-			title: "电力引擎"
-			x: 4.5d
-			y: 7.0d
-		}
-		{
 			dependencies: ["35E6B0484D3EF7B8"]
 			description: ["“似乎在地下有时候能发现洞穴探索者过去居住的小屋，里面有洞穴勘探台等物品。每一种洞穴都能通过手稿研究解锁相应的介绍。如果要主动寻找洞穴的话，我建议你先寻找一下&a毒化洞穴或者糖果洞穴&r，前者能在其中获得许多有用的东西，后者则有大量的食物可以获取”"]
 			icon: "alexscaves:spelunkery_table"
@@ -554,6 +488,12 @@
 				"如果要寻找嗅探兽蛋的话，提示：嗅探兽英文为sniffer，而你可能恰好有一个探险家指南针，那么该怎么做呢？"
 				"{@pagebreak}"
 				"补充：&a所有包含森林标签&r的群系里嗅探兽均可挖掘出姬海棠果种子。具体的群系名称太多，这里空白太小写不下，省流：&b主世界里长了树的群系&r。"
+				""
+				"另外，用指南针搜索ruins with cherry tree或者immortalers relic也可以找到有嗅探兽蛋的遗迹"
+				""
+				"如果觉得制作金姬海棠果太麻烦，有简单的获取方法"
+				""
+				"{ \"text\": \"灵视交换物品\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A383347D6F3719B\" } }"
 			]
 			icon: "minecraft:sniffer_egg"
 			id: "3933E02335457909"
@@ -583,7 +523,7 @@
 				"想要灵梦的蝴蝶结的话，目前我知道整整三种获取方法"
 				""
 				"1.击败灵梦固定掉落"
-				"2.喂食灵梦95种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
+				"2.喂食灵梦106种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
 				"3.在某个特定结构内的&a神秘隐藏地点&r的箱子里固定会有一个，听说这个结构&b很复杂&r，还包含了&b通往另一个维度的传送门&r"
 				""
 				"哦对了，别给灵梦吃一些&4诡异的肉&f做出的料理，不然她可是会生气的！"
@@ -2100,19 +2040,19 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 64
 					id: "511B957C89395A1D"
 					item: "ae2:logic_processor"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 64
 					id: "5144917AA8607BC9"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 64
 					id: "2DF703630510CEF6"
 					item: "ae2:engineering_processor"
 					type: "item"
@@ -2142,15 +2082,21 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 12
 					id: "78BBA3AE17FC74B6"
 					item: "lightmanscurrency:coin_netherite"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 16
 					id: "78985EC32119E43A"
 					item: "sakuratinker:soul_sakura"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05BEEF5643D4AE7F"
+					item: "thermalendergy:endergy_upgrade_3"
 					type: "item"
 				}
 			]

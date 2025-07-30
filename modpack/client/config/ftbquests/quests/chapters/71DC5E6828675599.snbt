@@ -987,6 +987,14 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					auto: "enabled"
+					command: "/improvedmobs difficulty player @s[type=minecraft:player] add 20"
+					elevate_perms: true
+					id: "6A380BDE248F8ADC"
+					title: "灵视+20"
+					type: "command"
+				}
 			]
 			shape: "gear"
 			size: 3.0d

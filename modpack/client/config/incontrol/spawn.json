@@ -7,10 +7,10 @@
     },
     {
         "dimension": "minecraft:overworld",  
-        "minheight": 16,
+        "maxheight": 16,
         "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],
         "gamestage":"normal_stage",
-        "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",  
