@@ -1,19 +1,55 @@
 [
     {
         "dimension": "minecraft:overworld",  
-        "minheight": 16,
-        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider"],
+        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],
+        "gamestage":"easy_stage",
         "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",  
+        "maxheight": 16,
+        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],
+        "gamestage":"normal_stage",
+        "result": "allow"
+    },
+    {
+        "dimension": "minecraft:overworld",  
+        "mob":["hmag:ender_executor","hmag:necrotic_reaper","alexsmobs:centipede"],
+        "gamestage":"challenge_stage",
+        "result":"allow"
+    },
+    {
+        "dimension": "minecraft:overworld",  
+        "mob":["hmag:ender_executor","hmag:necrotic_reaper","alexsmobs:centipede"],
+        "gamestage":"hardcore_stage",
+        "result":"allow"
+    },
+    {   "dimension":"minecraft:overworld", 
+        "mob": ["ars_nouveau:drygmy"],
+        "result": "deny"
+    },
+    {
+        "biome":["twilightforest:mushroom_forest","twilightforest:dense_mushroom_forest"],
+        "gamestage":"hardcore_stage",
+        "mob":["ars_nouveau:drygmy"],
+        "result":"allow"
+    },
+    {
+        "biome":["twilightforest:mushroom_forest","twilightforest:clearing","twilightforest:forest",
+    "twilightforest:dense_mushroom_forest","twilightforest:firefly_forest","twilightforest:oak_savannah"],
+        "mob":["ars_nouveau:starbuncle","ars_nouveau:whirlisprig"],
+        "result":"allow"
     },
     {
         "mob": ["touhou_little_maid:fairy"],
         "result": "allow",
         "healthmultiply": 0.4,
-        "damagemultiply": 5.8,
+        "damagemultiply": 6.0,
         "maxheight":32,
         "dimension": "minecraft:overworld",  
         "potion": "minecraft:invisibility,90000,1",
-        "random":0.5
+        "random":0.5,
+        "gamestage":"normal_stage"
 
     },
     {
@@ -27,7 +63,8 @@
         "potion": [
             "minecraft:invisibility,90000,2",
             "minecraft:speed,90000,2"
-    ]
+        ],
+        "gamestage":"normal_stage"
     },
     {
         "random":0.75,
@@ -49,7 +86,24 @@
         "damagemultiply": 1.5,
         "mob":["hmag:crimson_slaughterer","hmag:imp", "hmag:ender_executor", "hmag:wither_skeleton_girl", "hmag:skeleton_girl", "hmag:kasha"],
         "potion": ["minecraft:invisibility,90000,2",
-    "minecraft:speed,90000,0"
-    ]
+        "minecraft:speed,90000,0"
+         ],
+         "gamestage":"normal_stage"
+    },
+    {
+        "when":"onjoin",
+        "gamestage":"youkai",
+        "mob":"youkaishomecoming:small_fairy",
+        "customname":"调皮的妖精",
+        "damagemultiply": 8.0,
+        "speedmultiply": 0.5,
+        "attackspeedmultiply": 2.0,
+        "followrangeadd": 16.0,
+        "angry": true,
+        "potion": [
+            "minecraft:regeneration,32000,2",
+            "minecraft:resistance,32000,2"
+        ],
+        "result":"allow"
     }
   ]

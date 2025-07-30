@@ -1,0 +1,16 @@
+{
+  "attributeType": "irons_spellbooks:spell_power",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.2
+  }
+}

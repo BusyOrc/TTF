@@ -220,10 +220,10 @@
 
 [[entities]]
 	entity = "twilightforest:hydra"
-	minTier = 4
-	maxTier = 5
-	presetAffixes = ["champions:enkindling", "champions:adaptable"]
-	affixList = ["champions:magnetic","champions:dampening"]
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["champions:enkindling"]
+	affixList = ["champions:magnetic","champions:dampening","champions:adaptable"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -492,6 +492,22 @@
 	minTier = 2
 	maxTier = 5
 	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:amethyst_crab"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "youkaishomecoming:small_fairy"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:dampening"]
 	affixList = []
 	affixPermission = "BLACKLIST"
 

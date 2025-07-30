@@ -23,7 +23,8 @@
         "type": "tconstruct:mob_effect",
         "effect": "cofh_core:sundered",
         "hooks": [
-          "tconstruct:melee_hit"
+          "tconstruct:melee_hit",
+          "tconstruct:projectile_hit"
         ],
         "level": {
           "flat": 1.0

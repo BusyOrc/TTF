@@ -34,6 +34,9 @@
 		{ count: 8, item: "delightful:cantaloupe_seeds" }
 		{ count: 8, item: "farmersdelight:tomato_seeds" }
 		{ count: 8, item: "farmersdelight:cabbage_seeds" }
+		{ count: 8, item: "youkaishomecoming:red_grape_seeds" }
+		{ count: 8, item: "youkaishomecoming:black_grape_seeds" }
+		{ count: 8, item: "youkaishomecoming:white_grape_seeds" }
 	]
 	title: "Seeds"
 }

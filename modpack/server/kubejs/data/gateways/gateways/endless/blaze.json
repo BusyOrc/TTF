@@ -98,6 +98,11 @@
                 "type": "gateways:entity_loot",
                 "entity": "hmag:crimson_slaughterer",
                 "rolls": 2
+            },
+            {
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add 15",
+            "desc":"灵视+15"
             }
             
 

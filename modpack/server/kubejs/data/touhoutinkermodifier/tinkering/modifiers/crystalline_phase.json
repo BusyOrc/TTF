@@ -29,6 +29,7 @@
       "each_level": 0.2,
       "operation": "multiply_base",
       "stat": "tconstruct:durability",
+      "tooltip_style": "percent",
       "unique": "tconstruct.modifier.crystalline_phase"
     }
 

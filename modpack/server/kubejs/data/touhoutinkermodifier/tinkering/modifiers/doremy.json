@@ -11,6 +11,7 @@
         "type": "tconstruct:attribute",
         "each_level": 0.321,
         "operation": "addition",
+        "tooltip_style": "percent",
         "attribute": "attributeslib:experience_gained",
         "unique": "tconstruct.modifier.doremy",
         "slots": [
@@ -26,8 +27,9 @@
       
       {
         "type": "tconstruct:attribute",
-        "each_level": -0.123,
+        "each_level": 0.123,
         "operation": "multiply_total",
+        "tooltip_style": "percent",
         "attribute": "minecraft:generic.armor",
         "unique": "tconstruct.modifier.doremy",
         "slots": [
@@ -41,8 +43,9 @@
       },
       {
         "type": "tconstruct:attribute",
-        "each_level": -0.123,
+        "each_level": 0.123,
         "operation": "multiply_total",
+        "tooltip_style": "percent",
         "attribute": "minecraft:generic.max_health",
         "unique": "tconstruct.modifier.doremy",
         "slots": [

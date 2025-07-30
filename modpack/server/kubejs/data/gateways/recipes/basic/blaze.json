@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "###",
+    "CAC",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:blaze_lantern"
+    },
+	"A": {
+      "item": "ltc2:peppers_red"
+    },
+	"B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "C":{
+      "item":"ars_nouveau:source_gem_block"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:basic/blaze"
+}

@@ -1,0 +1,9 @@
+
+[common]
+	#If true, SaveDataLocationRedirector will take effect. Setting it false could improve the performance, but it may cause objects (entities, items, blocks etc.) to disappear if you're using save data from an old version.
+	enablesSaveDataPorter = true
+
+[debug]
+	#If true, it will enable debug actions defined in NaUtilsDebugStatics, like debug output in the chatting box.
+	debugMode = false
+

@@ -7032,7 +7032,7 @@
 								}
 								{
 									level: 1
-									name: "tconstruct:mambaout"
+									name: "touhoutinkermodifier:mambaout"
 								}
 								{
 									level: 1
@@ -7057,7 +7057,7 @@
 							]
 							tic_persistent: { }
 							tic_stats: {
-								"tconstruct:attack_damage": 7.0f
+								"tconstruct:attack_damage": 8.0f
 								"tconstruct:attack_speed": 0.8f
 								"tconstruct:durability": 999.0f
 								"tconstruct:harvest_tier": "minecraft:netherite"

@@ -1,0 +1,19 @@
+{
+  "affixes": [
+    "champions:hasty"
+  ],
+  "enable": true,
+  "entityBlackList": [
+    "minecraft:pig",
+    "minecraft:zombie"
+  ],
+  "gateway_type": "endless",
+  "setting_id": "champions:wave_0to1",
+  "tier_range": {
+    "min": 1
+  },
+  "wave_range": {
+    "max": 1,
+    "min": 0
+  }
+}

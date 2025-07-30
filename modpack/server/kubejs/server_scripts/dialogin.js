@@ -1,4 +1,4 @@
-PlayerEvents.loggedIn((event) => {
+/*PlayerEvents.loggedIn((event) => {
     let {player} = event
     if (player.stages.has("first_login")) {
         return
@@ -10,4 +10,4 @@ PlayerEvents.loggedIn((event) => {
     }
     
 
-})
+})*/

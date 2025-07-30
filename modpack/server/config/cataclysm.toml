@@ -1,9 +1,6 @@
 
 [Etc]
-	#Lava Opacity for the Ignitium Helemt.
-	#Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.5
-	#Whether to disable certain aspects of the Ignitium Helemt. Enable if issues with shaders persist.
+	#Off the Custom Rendering
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
@@ -59,10 +56,10 @@
 	immolatorCooldown = 300
 	#Storm Bringer's LightningStorm Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ceraunus 's Lightning Storm Damage" = 6.0
+	"Ceraunus 's Lightning Storm Damage" = 12.0
 	#Ceraunus's Wave Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ceraunus's Wave Damage'" = 6.0
+	"Ceraunus's Wave Damage'" = 12.0
 	#Ceraunus's Cooldown
 	#Range: 0 ~ 1000000
 	"Ceraunus Cooldown" = 150
@@ -166,7 +163,7 @@
 	EnderguardianBlockBreaking = false
 	#Guardian's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Guardian's prevent attacks from far away Range" = 8.0
+	"Guardian's prevent attacks from far away Range" = 15.0
 	#Guardian's gravity Punch Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Guardian's gravity Punch Hp Damage" = 0.05
@@ -196,7 +193,7 @@
 	"EnderGuardianBlockBreaking Z" = 15
 	#EnderGuardian's DamageTime
 	#Range: 0 ~ 100
-	EnderGuardianDamageTime = 30
+	EnderGuardianDamageTime = 0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -219,7 +216,7 @@
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageCap = 100.0
+	MonstrosityDamageCap = 200.0
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
@@ -227,12 +224,12 @@
 	"Monstrosity's attack Hp Damage" = 0.08
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Monstrosity's prevent attacks from far away Range" = 8.0
+	"Monstrosity's prevent attacks from far away Range" = 16.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = false
 	#Monstrosity's DamageTime
 	#Range: 0 ~ 100
-	MonstrosityDamageTime = 10
+	MonstrosityDamageTime = 0
 	#Lava Bomb of Monstrosity's Duration
 	#Range: 1 ~ 10000
 	LavaBombDuration = 350
@@ -276,7 +273,7 @@
 	IgnisBlockBreaking = false
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
-	IgnisDamageTime = 15
+	IgnisDamageTime = 0
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -315,7 +312,7 @@
 	"Harbinger's laser damage" = 10.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"The Harbinger's prevent attacks from far away Range" = 8.0
+	"The Harbinger's prevent attacks from far away Range" = 12.0
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	"The Harbinger DamageCap" = 120.0
@@ -326,7 +323,7 @@
 	"The Harbinger's charge attack Hp Damage" = 0.1
 	#Harbinger's DamageTime
 	#Range: 0 ~ 100
-	"The Harbinger DamageTime" = 12
+	"The Harbinger DamageTime" = 0
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -362,7 +359,7 @@
 	LeviathanImmuneOutofWater = true
 	#Leviathan's DamageTime
 	#Range: 0 ~ 100
-	"Leviathan DamageTime" = 15
+	"Leviathan DamageTime" = 0
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -394,7 +391,7 @@
 	AmethystCrabEarthQuakeDamage = 5.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 1.0
+	AmethystCrabDamageMultiplier = 2.0
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
@@ -408,7 +405,7 @@
 	AncientRemnantNatureHealing = 10.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ancient Remnant's prevent attacks from far away Range" = 8.0
+	"Ancient Remnant's prevent attacks from far away Range" = 15.0
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 200.0
@@ -428,7 +425,7 @@
 	"Remnant's EarthQuakeDamage" = 11.0
 	#Ancient Remnant's DamageTime
 	#Range: 0 ~ 100
-	"Ancient Remnant DamageTime" = 12
+	"Ancient Remnant DamageTime" = 0
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -473,7 +470,7 @@
 	MaledictusDamageMultiplier = 1.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Maledictus's prevent attacks from far away Range" = 8.0
+	"Maledictus's prevent attacks from far away Range" = 20.0
 	#Maledictus's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	MaledictusNatureHealing = 10.0
@@ -500,12 +497,12 @@
 	"Maledictus's Jump Smash Hp Damage" = 0.08
 	#Maledictus's Phantom Arrow's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Maledictus's Phantom Arrow Damage" = 5.0
+	"Maledictus's Phantom Arrow Damage" = 7.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
 	MaledictusBlockBreaking = false
 	#Maledictus's DamageTime
 	#Range: 0 ~ 100
-	"Maledictus DamageTime" = 30
+	"Maledictus DamageTime" = 0
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -581,7 +578,7 @@
 	BossMusicVolume = 1
 	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
 	#Range: 0 ~ 200
-	ReturnHome = 20
+	ReturnHome = 30
 
 [Clawdian]
 	#Clawdian's Health Multiplier
@@ -600,7 +597,7 @@
 	ScyllaDamageMultiplier = 1.5
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Scylla's prevent attacks from far away Range" = 8.0
+	"Scylla's prevent attacks from far away Range" = 15.0
 	#Scylla's Spear Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Spear Damage" = 14.0
@@ -624,7 +621,7 @@
 	"Scylla DamageCap" = 200.0
 	#Scylla's DamageTime
 	#Range: 0 ~ 100
-	"Scylla DamageTime" = 25
+	"Scylla DamageTime" = 0
 	#Scylla's HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's HP Damage" = 0.1
@@ -634,4 +631,18 @@
 	#Scylla's Lightning Storm HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.04
+	#Scylla weather change
+	"Scylla Weather Change" = true
+
+["Boss Respawner"]
+	#on/off
+	MonstrosityRespawner = true
+	#on/off
+	EnderGuardianRespawner = true
+	#on/off
+	HarbingerRespawner = true
+	#on/off
+	RemnantRespawner = true
+	#on/off
+	ScyllaRespawner = true
 

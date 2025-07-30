@@ -1,0 +1,34 @@
+{
+  "default":[
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:apparitionsstalkthenight"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:midnightbird"
+        }
+      ],
+    "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:apparitionsstalkthenight"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:midnightbird"
+        }
+      ],
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:apparitionsstalkthenight"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:sonanoka"
+        }
+      ]
+    }
+  }

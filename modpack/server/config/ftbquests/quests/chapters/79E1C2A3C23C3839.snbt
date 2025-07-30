@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["暂未完工，请等待后续更新"]
 			icon: "alexscaves:acidic_radrock"
 			id: "2F284534EDC00F42"
 			tasks: [
@@ -59,14 +60,17 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["6481A9252CA4F09F"]
+			hide_lock_icon: true
+			hide_until_deps_visible: true
 			id: "1D0F9EFF5D61C62D"
 			tasks: [{
 				id: "3DCDB4B7028711A6"
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["43BAE7B8D80E59ED"]
@@ -212,7 +216,7 @@
 				{
 					count: 16L
 					id: "51AF6F40B680795F"
-					item: { Count: 16, id: "thermal:lead_plate" }
+					item: "thermal:lead_plate"
 					type: "item"
 				}
 			]
@@ -249,7 +253,7 @@
 			tasks: [{
 				count: 19L
 				id: "1EAA683172AA418A"
-				item: { Count: 8, id: "alexscaves:charred_remnant" }
+				item: "alexscaves:charred_remnant"
 				type: "item"
 			}]
 			x: 8.0d

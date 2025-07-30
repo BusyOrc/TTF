@@ -7,79 +7,62 @@
 	id: "4686AF66362E74A0"
 	images: [
 		{
-			height: 4.0d
-			image: "irons_spellbooks:item/upgrade_orb_lightning"
-			rotation: 0.0d
-			width: 4.0d
-			x: -0.75d
-			y: -0.75d
-		}
-		{
-			alpha: 150
-			height: 2.0d
-			image: "irons_spellbooks:textures/gui/spell_icons/electrocute.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 9.5d
-			y: -0.5d
-		}
-		{
 			click: "#"
 			height: 2.0d
 			hover: ["没有稳定附魔，只能吹出普通泡泡"]
 			image: "supplementaries:item/bubble_blower_using"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: 5.0d
+			x: 14.5d
+			y: -8.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/particle/bubble.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 5.0d
+			x: 16.0d
+			y: -8.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/particle/bubble_pop_1.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: 6.0d
+			x: 16.5d
+			y: -7.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/particle/bubble_pop_2.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: 6.5d
+			x: 17.5d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/particle/bubble.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 4.5d
+			x: 17.0d
+			y: -9.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:textures/particle/bubble_pop_4.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: 6.5d
+			x: 15.5d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "alexscaves:textures/entity/deep_one/bubble.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
-			y: 8.0d
+			x: 16.5d
+			y: -5.5d
 		}
 		{
 			click: "#"
@@ -89,32 +72,144 @@
 			image: "supplementaries:item/bubble_blower_using"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: 8.0d
+			x: 14.5d
+			y: -5.5d
 		}
 		{
 			height: 2.0d
 			image: "ars_nouveau:block/manabloom/stage3"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
-			y: 10.5d
+			x: -10.25d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
 			image: "ars_nouveau:block/manabloom/stage4"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.5d
-			y: 10.5d
+			x: -8.75d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
 			image: "ars_nouveau:block/spell_sensor_fast"
 			rotation: 0.0d
 			width: 2.0d
-			x: -4.5d
-			y: 11.0d
+			x: -15.75d
+			y: 12.5d
+		}
+		{
+			height: 12.0d
+			image: "touhou_tinker_fantasy:textures/patch3.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -7.75d
+			y: -6.25d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["击杀疣猪兽获得外皮"]
+			image: "nethersdelight:item/hoglin_hide"
+			rotation: 27.0d
+			width: 2.0d
+			x: -1.0d
+			y: 6.25d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_sword"
+			rotation: 125.0d
+			width: 1.0d
+			x: -1.25d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:item/gold_crown"
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "ars_nouveau:item/annotated_codex"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: 4.25d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.25d
+			y: 6.25d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.25d
+			y: 4.25d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["远古知识碎片"]
+			image: "irons_spellbooks:item/ancient_knowledge_fragment"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["远古知识碎片"]
+			image: "irons_spellbooks:item/ancient_knowledge_fragment"
+			rotation: 93.0d
+			width: 1.0d
+			x: 12.75d
+			y: -0.75d
+		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["远古知识碎片"]
+			image: "irons_spellbooks:item/ancient_knowledge_fragment"
+			rotation: 156.0d
+			width: 1.0d
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/echo_shard"
+			rotation: 100.0d
+			width: 1.0d
+			x: 12.5d
+			y: -1.25d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: -135.0d
+			width: 1.0d
+			x: 11.25d
+			y: -2.25d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -4.75d
 		}
 	]
 	order_index: 7
@@ -130,17 +225,17 @@
 			icon: "touhou_little_maid:bookshelf"
 			id: "18AAD55258BE9D87"
 			shape: "rsquare"
-			size: 2.0d
+			size: 2.1d
 			tasks: [{
 				id: "098F5DB19A24422E"
 				type: "checkmark"
 			}]
-			title: "1 昨天我们攻略了大书库"
-			x: -4.0d
-			y: -0.5d
+			title: "昨天我们攻略了大书库"
+			x: -7.3500000000000005d
+			y: 0.0d
 		}
 		{
-			dependencies: ["18AAD55258BE9D87"]
+			dependencies: ["49D50CFF3DF41852"]
 			description: [
 				"帕秋莉：法术卷轴是一次性&c消耗品&r，但只要将其魔力融入法术书中，就能&a持续使用&r。"
 				""
@@ -177,39 +272,9 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "2 抄抄抄抄抄写台"
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["675426B2C88EB4C0"]
-			description: ["&m帕奇&r帕琪：“没有法术书可不行，有许多更好的法术书，但这是最容易制作的”"]
-			id: "5036EAD7EE48F378"
-			rewards: [{
-				count: 4
-				id: "408394E0F658847D"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6BD208F58EB886A5"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:copper_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 5
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "3 初学者"
-			x: 1.0d
-			y: -2.0d
+			title: "抄抄抄抄抄写台"
+			x: 1.25d
+			y: 4.25d
 		}
 		{
 			dependencies: ["675426B2C88EB4C0"]
@@ -220,15 +285,17 @@
 				item: "irons_spellbooks:frozen_bone"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 3.0d
 			subtitle: "那么代价是什么呢"
 			tasks: [{
 				id: "78E4818AB343876E"
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "4 卷轴之力，如此美妙"
-			x: 4.0d
-			y: -2.0d
+			title: "卷轴之力，如此美妙"
+			x: 6.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["675426B2C88EB4C0"]
@@ -239,17 +306,18 @@
 				item: "irons_spellbooks:common_ink"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "2AF82D2697068B95"
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			title: "6 奥术铁砧"
-			x: 4.0d
-			y: 1.0d
+			title: "奥术铁砧"
+			x: 3.25d
+			y: 4.25d
 		}
 		{
-			dependencies: ["675426B2C88EB4C0"]
+			dependencies: ["1C2364CBD4A8BD41"]
 			description: [
 				"帕秋莉：“把生物放进去，就能提炼出&c猩红精华&r。把你自己放进去也行。提取到锅中以后需要用到&a玻璃瓶&r收集。这是最主要的用途，除此之外，你想用它来炼药也是可行的。炼药锅的下方并不需要热源，这样放只是为了美观而已。”"
 				""
@@ -258,6 +326,7 @@
 				""
 				"{image:touhou_tinker_fantasy:textures/2025-03-02_14.35.56.png width:190 height:100 align:center}"
 			]
+			hide_dependency_lines: true
 			id: "17FC1AB6CF9DE594"
 			rewards: [{
 				count: 16
@@ -265,22 +334,19 @@
 				item: "minecraft:glass_bottle"
 				type: "item"
 			}]
+			size: 2.0d
 			subtitle: "加点毒蘑菇，再加点旧鞋跟"
 			tasks: [{
 				id: "34F98CC60A142246"
 				item: "irons_spellbooks:alchemist_cauldron"
 				type: "item"
 			}]
-			title: "5 炼金锅"
-			x: 4.0d
-			y: -0.5d
+			title: "炼金锅"
+			x: 0.75d
+			y: 0.75d
 		}
 		{
-			dependencies: [
-				"516CC2BCAE3BCCDE"
-				"17FC1AB6CF9DE594"
-				"7231A40D7C054B6D"
-			]
+			dependencies: ["675426B2C88EB4C0"]
 			dependency_requirement: "one_completed"
 			description: [
 				"“前有宝物，所以接下来，挖掘很有用。”"
@@ -294,6 +360,7 @@
 				"{@pagebreak}"
 				"一旁的小恶魔提供了翻译：“主世界往地下深层挖掘可以找到。&a暮色森林&r中有需要用机械才能挖的&a矿脉&r可以挖掘。”"
 			]
+			hide_dependency_lines: true
 			id: "00E27A58740EFA00"
 			rewards: [{
 				count: 2
@@ -312,159 +379,70 @@
 				item: "irons_spellbooks:arcane_salvage"
 				type: "item"
 			}]
-			title: "7 深藏不露"
+			title: " 深藏不露"
 			x: 7.0d
-			y: -0.5d
+			y: 8.25d
 		}
 		{
-			dependencies: ["00E27A58740EFA00"]
-			description: [
-				"“在释放部分法术的时候，可能会遇到&a法术被打断&r的情况，这时候就需要用到这种项链了。”"
-				""
-				"“什么？你说天神下凡？但是这个项链也不加血量和攻击力啊，而且并非魔免，只是能保证法术的持续吟唱而已。”"
-			]
-			id: "750CF460DBC29083"
-			tasks: [{
-				id: "350E2C3C3B862963"
-				item: "irons_spellbooks:concentration_amulet"
-				type: "item"
-			}]
-			title: "8 专注！"
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["00E27A58740EFA00"]
-			description: ["帕秋莉：“这种材料能制作的有用饰品还有很多，但这是最实用的一个。”"]
-			id: "5A2B44CA318C0416"
-			tasks: [{
-				id: "7542D010C66A7DF8"
-				item: "irons_spellbooks:fireward_ring"
-				type: "item"
-			}]
-			title: "9 火焰啊"
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["00E27A58740EFA00"]
-			description: [
-				"“如果还想获得更强的法术属性，就需要多修炼个人技能。这方面暂时帮不了你了，只能先靠自己。但绝大部分基础的内容都已经教会你了。”"
-				""
-				"“除此之外提升法术本身的等级也很重要，多用墨水提高所用法术的等级，或者直接用墨水制作能撰写的部分法术。”"
-			]
-			id: "69A08E714233AC24"
-			rewards: [{
-				id: "7F0D2C6DAEDA7045"
-				item: "irons_spellbooks:epic_ink"
-				type: "item"
-			}]
-			tasks: [{
-				id: "58A07B9D7E74F4AD"
-				title: "10 魔法之力"
-				type: "checkmark"
-			}]
-			x: 9.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["18AAD55258BE9D87"]
-			description: ["帕秋莉：“我这里有本不要的法术书，正好最近比较缺少墨水，如果你有的话可以来换”"]
-			id: "36E779D140087165"
-			rewards: [{
-				id: "103E27E9A30DA065"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:dragonskin_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "3D7E8FEDB21F0C20"
-				item: "irons_spellbooks:legendary_ink"
-				type: "item"
-			}]
-			title: "以旧换新"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["675426B2C88EB4C0"]
-			description: ["“常见于&a古城&r的特殊宝物，能合成远古巫术手稿来学习远古巫术”"]
+			description: ["“只有材料是不够的，抄写法术的前提是&a理解法术&r，这些古代法师的手稿能让你理解这些古代魔法。”"]
+			icon: "irons_spellbooks:eldritch_manuscript"
 			id: "29F9C709292288EE"
 			rewards: [{
-				id: "7A47C9E7C8E3813C"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:magma_bomb"
-								index: 0
-								level: 2
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-				}
+				id: "3C39FC3586CDE800"
+				item: "irons_spellbooks:eldritch_manuscript"
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "039E968AC7A6EEDA"
 				item: "irons_spellbooks:ancient_knowledge_fragment"
 				type: "item"
 			}]
-			title: "11 远古知识"
-			x: 1.0d
-			y: 1.0d
+			title: "远古知识"
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["516CC2BCAE3BCCDE"]
 			description: ["“使用法术&a冲击波&r可以将苦力怕转化为高压苦力怕，之后使用玻璃瓶即可获得雷电瓶。除此之外，也可能作为战利品生成在各处。”"]
 			id: "619D4D382992A18C"
-			rewards: [{
-				id: "17C98BF4D862D0B1"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:scroll"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:heal"
-								index: 0
-								level: 3
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
+			rewards: [
+				{
+					id: "17C98BF4D862D0B1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4D0AF643A9F09869"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
 			tasks: [{
 				id: "36FBC5B2B7E921E3"
 				item: "irons_spellbooks:lightning_bottle"
 				type: "item"
 			}]
-			title: "12 雷霆之力"
-			x: 4.0d
-			y: -4.0d
+			title: "雷霆之力"
+			x: 4.75d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -478,17 +456,20 @@
 				"{@pagebreak}"
 				"至于具体发生了什么事件才导致异变，书上写得也很模糊，可能还要再研究一下。"
 			]
+			hide_dependency_lines: true
 			hide_text_until_complete: true
+			icon: "biomesoplenty:null_plant"
 			id: "6B346A99F56A4EE5"
-			shape: "diamond"
-			size: 1.2d
+			shape: "none"
+			size: 1.4d
+			subtitle: "bug？并非BUG，其实是为了让你点击"
 			tasks: [{
 				id: "622CF82BCF57B57E"
 				type: "checkmark"
 			}]
 			title: "询问帕秋莉关于异变"
-			x: -2.0d
-			y: -4.0d
+			x: -7.35d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -520,8 +501,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 3.5d
+			x: 14.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7DB7704A00A238EA"]
@@ -538,8 +519,8 @@
 				type: "checkmark"
 			}]
 			title: "附魔"
-			x: 1.0d
-			y: 3.5d
+			x: 17.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["468C88C4EA840FC0"]
@@ -569,8 +550,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.5d
+			x: 20.5d
+			y: -7.75d
 		}
 		{
 			can_repeat: true
@@ -589,8 +570,8 @@
 				item: "kubejs:ancient_resin_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 20.5d
+			y: -9.5d
 		}
 		{
 			can_repeat: true
@@ -609,8 +590,8 @@
 				item: "kubejs:greatrune_forgery_fluid_bucket"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 22.0d
+			y: -8.75d
 		}
 		{
 			dependencies: ["18AAD55258BE9D87"]
@@ -619,6 +600,7 @@
 				""
 				"（待完善）"
 			]
+			hide_dependency_lines: true
 			icon: "quark:glass_item_frame"
 			id: "5CF8AF2437575020"
 			tasks: [{
@@ -626,8 +608,8 @@
 				type: "checkmark"
 			}]
 			title: "纯天然零添加"
-			x: -4.0d
-			y: 1.5d
+			x: 12.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -671,8 +653,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 1.5d
+			x: 14.5d
+			y: -11.75d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -729,8 +711,8 @@
 				}
 			]
 			title: "熔岩钓鱼"
-			x: -4.0d
-			y: 2.5d
+			x: 12.5d
+			y: -11.25d
 		}
 		{
 			dependencies: ["10952F79C0619272"]
@@ -764,62 +746,32 @@
 				}
 			]
 			title: "收获"
-			x: -4.0d
-			y: 3.5d
+			x: 12.5d
+			y: -12.75d
 		}
 		{
-			dependencies: ["516CC2BCAE3BCCDE"]
-			description: ["空白升级法球如果要用来强化法强的话，需要用到8个对应符文合成升级法球，符文无法通过正常的合成获得，只能通过匠魂浇筑或机械动力注液获得"]
+			dependencies: [
+				"1C2364CBD4A8BD41"
+				"00E27A58740EFA00"
+				"3B5D84FFB9A5B722"
+			]
+			description: [
+				"空白升级法球如果要用来强化法强的话，需要用到8个对应符文合成升级法球，符文无法通过正常的合成获得，只能通过匠魂浇筑或机械动力注液获得"
+				"注意：一件装备最多镶嵌&a6&r个法球，且&4无法反悔&r"
+			]
 			id: "202B0571F40E4DC4"
 			tasks: [{
 				id: "160CD2514B5CF0DE"
 				item: "irons_spellbooks:upgrade_orb"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			description: [
-				"创建世界时便会送给你，记载了全部的知识"
-				""
-				"（新存档）将阿卡什宝典切换为该书籍即可查看，旧存档则需要手动合成一下，推荐再与阿卡什宝典继续合成，将教程书收纳进其中"
-				""
-				"&d关于新生魔艺任务的说明&r："
-				"任务使用了整合包CTI（工匠技艺革新）的相关任务作为基础进行修改制作而成，&l已取得相关作者同意&r。在此特别感谢每一位创作者的努力"
-			]
-			hide_dependency_lines: true
-			id: "004BC1B51DF71387"
-			rewards: [{
-				icon: "ars_nouveau:sourceberry_bush"
-				id: "2013D0B1F5D1C48E"
-				table_id: 1404081237954801511L
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "2576F2AA8B295757"
-				item: "ars_nouveau:worn_notebook"
-				type: "item"
-			}]
-			title: "从一本笔记开始"
-			x: -13.5d
-			y: 14.5d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2B13F1544715D4C4"]
-			description: [
-				"创建世界时会生成4种不同的至高木，所有生物群系都有可能生成。每种至高木都需要收集，但前期只需要一种木头"
-				""
-				"布鲁斯帽：装饰品"
-			]
+			description: ["一共有4种至高木，在各种有植被覆盖的群系均有分布，建议都收集一些"]
 			id: "4EDE275E9D1D40A0"
-			rewards: [{
-				id: "7FD9C61C52DD4ED7"
-				item: "starbunclemania:star_hat"
-				type: "item"
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "1B1AA78D1A70A258"
@@ -834,13 +786,13 @@
 				type: "item"
 			}]
 			title: "接下来是找到一些树"
-			x: -7.5d
-			y: 14.5d
+			x: -19.875d
+			y: 4.125d
 		}
 		{
-			dependencies: ["004BC1B51DF71387"]
+			dependencies: ["6A9EDD324B318CB2"]
 			description: [
-				"制作一本初级法术书，&d它仅能释放等级1的魔符&r，更高级的魔符需要更高级的法术书来释放，后续可以制作。"
+				"这是初级法术书，它仅能释放&a等级1&r的魔符，更高级的魔符需要更高级的法术书来释放，后续可以制作。"
 				""
 				"手持法术书的情况下，默认&d按C打开法术书&r，&d按V打开法术选取界面&r，&d鼠标点击或按Z/X切换上一个/下一个法术&r，退出法术选择界面后按&d右键施放当前选取的法术&r。"
 				""
@@ -860,25 +812,22 @@
 				type: "item"
 			}]
 			title: "尝试一下法术吧"
-			x: -10.5d
-			y: 14.5d
+			x: -16.5d
+			y: 4.125d
 		}
 		{
 			dependencies: ["2B13F1544715D4C4"]
 			description: [
-				"首先在你&d手持法术书未打开&r时你会发现屏幕左下角有一个紫色长条，那是你的&d魔力值&r。施放法术需要&d消耗魔力&r，越复杂的魔法消耗越多。"
+				"首先,  施放法术需要消耗魔力，越&a复杂&r的魔法&a消耗越多&r。"
+				"按&aC&r打开法术书，能看到不同的魔符被分在了不同区域，其中："
+				"最中间的部分充满了魔符,   那些是你已经掌握的魔符；"
+				"界面最下面的十个槽是法术的&a魔符槽&r;"
+				"点击魔符后他会出现在最下方的魔符槽内，魔符槽内的魔符会组合成你本次编辑的法术；"
+				"最下方同样有一个&a紫色魔力条&r，当你编辑法术时会显示这个法术&a消耗&r的魔力值;"
 				""
-				"接着按C打开法术书，不能看到不同的魔符被分在了不同区域，其中："
-				""
-				"最中间的部分充满了&d魔符&r，你的&d全部法术由它们构成&r；"
-				""
-				"右侧的编号从1到10，意味着你可以在一本书内编辑&d最多10个法术&r；"
-				""
-				"点击魔符后他会出现在最下方的长条内，这个&d长条内的魔符会组合成你本次编辑的法术&r；"
-				""
-				"左边的长条是功能性菜单；"
-				""
-				"最下方同样有一个紫色魔力条，当你编辑法术时他会显示&d这个法术消耗的魔力值&r。"
+				"如果你编写了一个法术但&a没有产生预期的效果&r一般有两种可能："
+				"1.这个法术可能造成&4严重后果&r，但法术自己过载，&a没有执行&r后续的魔符"
+				"2.编写的法术魔符&a逻辑&r有问题"
 			]
 			icon: "minecraft:writable_book"
 			id: "5A3390049782DA27"
@@ -893,24 +842,18 @@
 				id: "0657BEC3F4398B7B"
 				type: "checkmark"
 			}]
-			title: "我该怎样编写法术?"
-			x: -10.0d
-			y: 16.0d
+			title: "如何编写法术"
+			x: -16.5d
+			y: 6.25d
 		}
 		{
 			dependencies: ["5A3390049782DA27"]
 			description: [
-				"&e所有的法术都以形态魔符开始&r，后面的魔符则可以自由搭配来达到你想要的效果。"
-				""
-				"举例：按C打开法术书，依次选择:&d弹射物→伤害→右下角的制作&r。"
-				""
-				"制作后退出界面，手持法术书右键，你就可以发出一道紫色光束来伤害触碰到的敌人了。"
+				"&e所有的法术都以&a形态魔符&r开始&r,  而后续效果则取决于你&a编写的魔符链&r。"
+				"举例：按C打开法术书，依次选择:&5弹射物→破坏&r。"
+				"制作后退出界面，手持法术书右键，你就可以发出一道紫色光束来破坏方块了。"
 			]
-			icon: {
-				Count: 1
-				id: "ars_nouveau:starbuncle_charm"
-				tag: { }
-			}
+			icon: "ars_nouveau:glyph_break"
 			id: "1C5CF92FE545162A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -918,14 +861,13 @@
 				table_id: 1404081237954801511L
 				type: "random"
 			}]
-			subtitle: "编写法术的要领"
 			tasks: [{
 				id: "5CEEEC5D6D64D903"
 				type: "checkmark"
 			}]
 			title: "简单的法术示例"
-			x: -11.0d
-			y: 16.0d
+			x: -18.5d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4EDE275E9D1D40A0"]
@@ -951,11 +893,10 @@
 				type: "item"
 			}]
 			title: "解锁更多魔符！"
-			x: -4.5d
-			y: 14.5d
+			x: -22.875d
+			y: 4.125d
 		}
 		{
-			dependencies: ["470A698F7EC80221"]
 			description: [
 				"&6鼠标悬停在魔符上按shift可以查看魔符的效果。&r"
 				""
@@ -977,12 +918,17 @@
 				title: "魔符的种类"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 16.0d
+			x: -15.75d
+			y: 17.5d
 		}
 		{
-			dependencies: ["470A698F7EC80221"]
-			description: ["为了退治异变，对他们使用炎拳吧！"]
+			description: [
+				"为了退治异变，对他们使用炎拳吧！"
+				""
+				"如果野外找不到，就用召唤的方法吧"
+				""
+				"{ \"text\": \"永恒之门珍珠\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40AE873EB2E24D16\" } }"
+			]
 			icon: "ars_nouveau:wilden_stalker_se"
 			id: "328CE0529C3E8488"
 			rewards: [
@@ -1002,6 +948,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "会掉落合成魔符所需的物品"
 			tasks: [
 				{
@@ -1024,11 +972,10 @@
 				}
 			]
 			title: "三种需要退治的生物"
-			x: -4.5d
-			y: 13.0d
+			x: -15.75d
+			y: 14.5d
 		}
 		{
-			dependencies: ["470A698F7EC80221"]
 			description: [
 				"将&d青金石&r或&d紫水晶&r放入灌注室中可以缓慢地吸收自然环境中的魔源来合成魔源宝石。"
 				""
@@ -1062,11 +1009,10 @@
 				type: "item"
 			}]
 			title: "合成魔源宝石和精华"
-			x: -1.5d
-			y: 14.5d
+			x: -12.75d
+			y: 16.0d
 		}
 		{
-			dependencies: ["420E774A446BE5F3"]
 			description: [
 				"&d魔源&r，是新生魔艺独特的类似能量的物质。"
 				""
@@ -1089,8 +1035,8 @@
 				type: "checkmark"
 			}]
 			title: "产出魔源！"
-			x: 1.5d
-			y: 14.5d
+			x: -24.0d
+			y: 9.75d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -1116,8 +1062,8 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.75d
+			x: -23.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -1143,8 +1089,8 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 15.75d
+			x: -22.125d
+			y: 10.5d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -1170,8 +1116,8 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 15.75d
+			x: -22.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -1195,8 +1141,8 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 17.25d
+			x: -26.25d
+			y: 10.625d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -1220,8 +1166,8 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 17.25d
+			x: -21.75d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -1245,11 +1191,10 @@
 				type: "item"
 			}]
 			title: "拓展合成"
-			x: -2.0d
-			y: 18.0d
+			x: -13.25d
+			y: 19.5d
 		}
 		{
-			dependencies: ["048F95BD85B41085"]
 			description: [
 				"魔源罐能存储&d附近魔源通道收集到的魔源&r，而这些魔源能用于给&d&r灌注室和附魔装置供能，进一步制作魔符和饰品。要使用魔源罐中的魔源，只需要&d将其放在魔源消耗设备附近&r。"
 				""
@@ -1270,8 +1215,8 @@
 				type: "item"
 			}]
 			title: "储存魔源！"
-			x: 4.5d
-			y: 14.5d
+			x: -6.75d
+			y: 16.0d
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
@@ -1299,8 +1244,8 @@
 				type: "item"
 			}]
 			title: "运输魔源！"
-			x: 4.5d
-			y: 13.0d
+			x: -6.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1316,8 +1261,8 @@
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 13.0d
+			x: -7.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1337,8 +1282,8 @@
 				item: "ars_nouveau:relay_warp"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: -7.25d
+			y: 13.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1354,8 +1299,8 @@
 				item: "ars_nouveau:relay_deposit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: -6.25d
+			y: 13.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1371,8 +1316,8 @@
 				item: "ars_nouveau:relay_collector"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 13.0d
+			x: -5.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
@@ -1411,8 +1356,8 @@
 				}
 			]
 			title: "独特的附魔系统"
-			x: 7.5d
-			y: 14.5d
+			x: -3.75d
+			y: 16.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1442,8 +1387,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 12.5d
+			x: -2.25d
+			y: 15.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1454,8 +1399,8 @@
 				item: "ars_nouveau:amulet_of_mana_boost"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 17.0d
+			x: -4.25d
+			y: 18.5d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1466,8 +1411,8 @@
 				item: "ars_nouveau:amulet_of_mana_regen"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.0d
+			x: -3.25d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1B911976B163FD3C"]
@@ -1479,8 +1424,8 @@
 				item: "ars_nouveau:ring_of_greater_discount"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 16.0d
+			x: -2.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1492,11 +1437,12 @@
 				item: "ars_nouveau:ring_of_lesser_discount"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 16.0d
+			x: -3.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2B13F1544715D4C4"]
+			description: ["经过升级的法术书可以承载2级魔符，尽早升级"]
 			id: "3291E554A48D5293"
 			rewards: [{
 				icon: "ars_nouveau:sourceberry_bush"
@@ -1504,14 +1450,13 @@
 				table_id: 1404081237954801511L
 				type: "random"
 			}]
-			subtitle: "能释放等级2及以下的魔符"
 			tasks: [{
 				id: "46474E4E7D1351E0"
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 13.0d
+			x: -16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3291E554A48D5293"]
@@ -1522,14 +1467,13 @@
 				table_id: 1404081237954801511L
 				type: "random"
 			}]
-			subtitle: "能释放等级3及以下的魔符"
 			tasks: [{
 				id: "5363CED95EE77EAB"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 13.0d
+			x: -16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AD1AFA5D01CA409"]
@@ -1539,6 +1483,10 @@
 				"手持&d仪式之板&r对其右击后按照仪式要求来启动对应仪式。大部分仪式可以直接&e空手右击&r启动，但也有些仪式可以&e放入相应物品来改变效果&r。破坏仪式火盆可以取回物品。"
 				""
 				"在运行需要魔源的仪式时，会从以其为中心13×13×13范围内的&d魔源罐&r抽取魔源来维持工作。"
+				""
+				"在手持特定物品时，如果灵视满足要求，可以消耗特定值的灵视来交易所需物品，如果还有问题，可以去问问哆来咪"
+				""
+				"{ \"text\": \"哆来咪\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DDCFADF33AF5FB2\" } }"
 			]
 			id: "6EEB0383390322ED"
 			rewards: [{
@@ -1555,8 +1503,8 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 20.0d
+			x: -15.25d
+			y: 21.5d
 		}
 		{
 			dependencies: ["6EEB0383390322ED"]
@@ -1574,8 +1522,8 @@
 				item: "ars_nouveau:brazier_relay"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 21.5d
+			x: -15.25d
+			y: 23.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1597,8 +1545,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 16.0d
+			x: -4.75d
+			y: 17.5d
 		}
 		{
 			id: "2C9BFFAB383122D7"
@@ -1614,8 +1562,8 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 19.5d
+			x: -14.25d
+			y: 21.0d
 		}
 		{
 			id: "0299D55DC0A3CF74"
@@ -1625,8 +1573,8 @@
 				item: "ars_nouveau:ritual_burrowing"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 20.5d
+			x: -14.25d
+			y: 22.0d
 		}
 		{
 			id: "58C86C5EFB3632C1"
@@ -1636,8 +1584,8 @@
 				item: "ars_nouveau:ritual_challenge"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 21.0d
+			x: -14.75d
+			y: 22.5d
 		}
 		{
 			id: "4A9D32A93EA474CF"
@@ -1647,8 +1595,8 @@
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 21.0d
+			x: -13.75d
+			y: 22.5d
 		}
 		{
 			id: "1D50F2640458A1B8"
@@ -1658,8 +1606,8 @@
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 20.5d
+			x: -13.25d
+			y: 22.0d
 		}
 		{
 			id: "4F0BD6D37B1C754C"
@@ -1669,8 +1617,8 @@
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 19.0d
+			x: -14.75d
+			y: 20.5d
 		}
 		{
 			id: "12BF593E7E124DE6"
@@ -1680,8 +1628,8 @@
 				item: "ars_nouveau:ritual_sunrise"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 19.5d
+			x: -16.25d
+			y: 21.0d
 		}
 		{
 			id: "58953C6282A9F7E9"
@@ -1691,8 +1639,8 @@
 				item: "ars_nouveau:ritual_conjure_island_plains"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 19.0d
+			x: -15.75d
+			y: 20.5d
 		}
 		{
 			id: "73A3BB13CDEBC6F8"
@@ -1702,8 +1650,8 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 19.5d
+			x: -17.25d
+			y: 21.0d
 		}
 		{
 			id: "05EC1D41334F841C"
@@ -1713,8 +1661,8 @@
 				item: "ars_nouveau:ritual_restoration"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 20.0d
+			x: -16.75d
+			y: 21.5d
 		}
 		{
 			id: "0A0F263B2F13B038"
@@ -1724,8 +1672,8 @@
 				item: "ars_nouveau:ritual_animal_summon"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 20.0d
+			x: -17.75d
+			y: 21.5d
 		}
 		{
 			id: "092F44C1B6DC3A44"
@@ -1735,8 +1683,8 @@
 				item: "ars_nouveau:ritual_forestation"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 20.5d
+			x: -16.25d
+			y: 22.0d
 		}
 		{
 			id: "4586FAD7AA0A8580"
@@ -1746,8 +1694,8 @@
 				item: "ars_nouveau:ritual_warping"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 20.5d
+			x: -17.25d
+			y: 22.0d
 		}
 		{
 			id: "54D7AC9A942F7919"
@@ -1757,8 +1705,8 @@
 				item: "ars_nouveau:ritual_moonfall"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 21.0d
+			x: -16.75d
+			y: 22.5d
 		}
 		{
 			id: "780A48CAE097D342"
@@ -1768,8 +1716,8 @@
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 21.0d
+			x: -15.75d
+			y: 22.5d
 		}
 		{
 			id: "7AFC8A6860535937"
@@ -1779,8 +1727,8 @@
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 21.5d
+			x: -14.25d
+			y: 23.0d
 		}
 		{
 			id: "6FC5270ED6E68C90"
@@ -1790,8 +1738,8 @@
 				item: "ars_nouveau:ritual_gravity"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 19.0d
+			x: -16.75d
+			y: 20.5d
 		}
 		{
 			id: "566611F301D751F9"
@@ -1801,8 +1749,8 @@
 				item: "ars_nouveau:ritual_flowering"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 21.5d
+			x: -16.25d
+			y: 23.0d
 		}
 		{
 			id: "5645C1B09F0BF6AD"
@@ -1812,8 +1760,8 @@
 				item: "ars_nouveau:ritual_sanctuary"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 20.0d
+			x: -13.75d
+			y: 21.5d
 		}
 		{
 			id: "11F14939DA72239C"
@@ -1823,8 +1771,8 @@
 				item: "ars_nouveau:ritual_fertility"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 19.5d
+			x: -13.25d
+			y: 21.0d
 		}
 		{
 			id: "1BBD8C4BAE1F7D42"
@@ -1834,8 +1782,8 @@
 				item: "ars_nouveau:ritual_overgrowth"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 18.5d
+			x: -14.25d
+			y: 20.0d
 		}
 		{
 			id: "561FAB6BA59EB6AA"
@@ -1845,8 +1793,8 @@
 				item: "ars_nouveau:ritual_conjure_island_desert"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 19.0d
+			x: -13.75d
+			y: 20.5d
 		}
 		{
 			id: "286B345EB6C180AA"
@@ -1856,8 +1804,8 @@
 				item: "ars_nouveau:ritual_harvest"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 18.5d
+			x: -16.25d
+			y: 20.0d
 		}
 		{
 			id: "121FE0415C57A3CF"
@@ -1869,8 +1817,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 20.0d
+			x: -12.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1879,8 +1827,6 @@
 				"新生魔艺中的使魔既可以帮你实现自动化，也可以帮你战斗。&d同时也非——常可爱~&r"
 				""
 				"每一个使魔都有自己独特的召唤方式。使魔可以通过&e绑定手稿&r被你用法术书随时召唤出来协助战斗，也可以留在家中帮你合成需要的物品，&e完成你所需要的自动化&r。"
-				""
-				"&e这里仅介绍自动化环节。&r"
 			]
 			icon: "ars_nouveau:ritual_animal_summon"
 			id: "029068998879B2F8"
@@ -1892,8 +1838,8 @@
 				type: "checkmark"
 			}]
 			title: "可爱的小家伙们"
-			x: 3.5d
-			y: 20.0d
+			x: -7.75d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1924,8 +1870,8 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 20.0d
+			x: -6.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1951,8 +1897,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 20.0d
+			x: -9.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1979,13 +1925,13 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 19.5d
+			x: -6.75d
+			y: 21.0d
 		}
 		{
 			description: [
-				"德格米常被目击到在跟随并照料周边的动物。它们能在&e任何&r生物群系发现，尽管有些少见。"
-				""
+				"帕秋莉：本来在过去德格米是很常见的生物，不过可能是由于过度利用，现在大部分的德格米已经销声匿迹，只有少部分高灵视的目击者报告称在暮色森林的&a蘑菇森林和繁密蘑菇森林&r中找到过德格米。根据一些法术的推算，&a至少需要150灵视&r才能在这两个群系中见到德格米"
+				"{ \"text\": \"关于灵视的介绍\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A4A43448B34A980\" } }"
 				"在野生德格米旁放下&e荒野之角&r可以向它表示友好，随后它会掉落&e德格米碎片&r。"
 				"{@pagebreak}"
 				"在附魔装置中使用&e德格米碎片&r合成&e德格米护符&r，随后&6右键苔石&r即可召唤出你的德格米。此时苔石会变成德格米石阵。想&e召唤更多的德格米&r只需用德格米护符再次&6右击石阵&r。"
@@ -2006,14 +1952,14 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "为你产生生物掉落物的德爷！"
+			subtitle: "产出生物战利品"
 			tasks: [{
 				id: "506475CAA3DC6448"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 19.0d
+			x: -8.75d
+			y: 20.5d
 		}
 		{
 			description: [
@@ -2040,8 +1986,8 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 20.5d
+			x: -8.75d
+			y: 22.0d
 		}
 		{
 			description: [
@@ -2066,8 +2012,8 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 20.5d
+			x: -6.75d
+			y: 22.0d
 		}
 		{
 			id: "060FC0F7B2D016BA"
@@ -2077,8 +2023,8 @@
 				item: "ars_nouveau:glyph_leap"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 16.5d
+			x: -16.25d
+			y: 18.0d
 		}
 		{
 			description: [
@@ -2103,8 +2049,8 @@
 				type: "item"
 			}]
 			title: "想尝试下自动化吗？"
-			x: 13.0d
-			y: 14.5d
+			x: 1.75d
+			y: 16.0d
 		}
 		{
 			id: "75012DC49BD10809"
@@ -2114,8 +2060,8 @@
 				item: "ars_nouveau:glyph_dispel"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 16.5d
+			x: -15.25d
+			y: 18.0d
 		}
 		{
 			id: "674015561EF0EE06"
@@ -2125,8 +2071,8 @@
 				item: "ars_nouveau:glyph_grow"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 17.0d
+			x: -15.75d
+			y: 18.5d
 		}
 		{
 			id: "68A129A431007B8E"
@@ -2136,8 +2082,8 @@
 				item: "ars_nouveau:glyph_heal"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 17.0d
+			x: -14.75d
+			y: 18.5d
 		}
 		{
 			id: "378F9F91FAB24843"
@@ -2147,8 +2093,8 @@
 				item: "ars_nouveau:glyph_fortune"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 17.0d
+			x: -16.75d
+			y: 18.5d
 		}
 		{
 			id: "23A729A418146B92"
@@ -2158,8 +2104,8 @@
 				item: "ars_nouveau:glyph_pickup"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 16.5d
+			x: -14.25d
+			y: 18.0d
 		}
 		{
 			id: "05B937CA52C3226F"
@@ -2169,8 +2115,8 @@
 				item: "ars_nouveau:glyph_light"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 16.5d
+			x: -17.25d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2191,34 +2137,46 @@
 				item: "ars_nouveau:spell_prism"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 13.0d
+			x: 0.5d
+			y: 15.0d
 		}
 		{
-			dependencies: ["470A698F7EC80221"]
-			description: [
-				"拿在主手右键，消耗经验（消耗的经验根据魔符的数量增加）将自己所学的魔符抄进注解手抄本里，他人获得后右键可学会其中记录的魔符，使用后会被消耗。"
-				""
-				"&0&m没朋友怎么办(哭)&r"
-			]
+			dependencies: ["2B13F1544715D4C4"]
+			description: ["拿在手中右键使用，就能马上学会里面记录的魔符，当然你也可以把自己学会的东西抄进去送给别人"]
 			id: "7DAB8FD1766A1131"
 			rewards: [{
 				id: "39E18D6788076CF1"
 				type: "xp"
 				xp: 66
 			}]
-			subtitle: "给你的朋友用用吧"
+			subtitle: "便利的东西"
 			tasks: [{
-				id: "7960E9F01B50D36B"
+				id: "08E50930975EAA4E"
 				item: {
 					Count: 1
 					id: "ars_nouveau:annotated_codex"
-					tag: { }
+					tag: {
+						glyph__0: "toomanyglyphs:glyph_ray"
+						glyph__1: "ars_nouveau:glyph_cut"
+						glyph__2: "ars_nouveau:glyph_amplify"
+						glyph__3: "ars_nouveau:glyph_light"
+						glyph__4: "ars_nouveau:glyph_underfoot"
+						glyph__5: "ars_nouveau:glyph_launch"
+						glyph__6: "ars_nouveau:glyph_leap"
+						glyph__7: "toomanyglyphs:glyph_amplify_two"
+						player: [I;
+							2016765536
+							140652790
+							-1302732502
+							475442730
+						]
+						playerName: "帕秋莉诺雷姬"
+					}
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 15.5d
+			x: -15.0d
+			y: 2.75d
 		}
 		{
 			dependencies: ["126ECCE56E87503C"]
@@ -2241,8 +2199,8 @@
 				type: "checkmark"
 			}]
 			title: "新生魔艺的特殊装备"
-			x: 10.0d
-			y: 12.5d
+			x: -1.25d
+			y: 14.25d
 		}
 		{
 			dependencies: ["6468040E298C572C"]
@@ -2255,6 +2213,7 @@
 			]
 			id: "44161DF1D6F67F3F"
 			shape: "gear"
+			size: 2.0d
 			subtitle: "就像为盔甲安装插件"
 			tasks: [{
 				id: "3EEEA09A1A443DB7"
@@ -2262,8 +2221,8 @@
 				type: "item"
 			}]
 			title: "改造你的盔甲"
-			x: 9.0d
-			y: 10.5d
+			x: -2.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["4EA1F22038B563E7"]
@@ -2301,8 +2260,8 @@
 				title: "升级你的魔法盔甲！"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: 11.5d
+			x: -1.25d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2CA715810DA06B11"]
@@ -2331,18 +2290,20 @@
 				type: "item"
 			}]
 			title: "获得纤维"
-			x: 8.5d
-			y: 11.5d
+			x: -2.75d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
 			description: ["对实体造成伤害前对实体施放自身的法术，会在法术链开头添加触摸，结尾添加强化。可被附魔。"]
+			hide_dependency_lines: true
 			id: "6947486200B21231"
 			rewards: [{
 				id: "007DF26A323A514F"
 				type: "xp"
 				xp: 80
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2D2D8987D1850E19"
 				item: {
@@ -2354,18 +2315,20 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 15.5d
+			x: -23.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
 			description: ["对实体造成伤害前对实体施放自身的法术，若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			hide_dependency_lines: true
 			id: "0D97D2E971C0AF42"
 			rewards: [{
 				id: "1CFBDCA47CFCE52E"
 				type: "xp"
 				xp: 80
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0BE2F8E036864E36"
 				item: {
@@ -2375,18 +2338,20 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 13.5d
+			x: -22.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
 			description: ["成功防御时，对自身添加魔力再生和法术伤害提升Buff。可被附魔，但不可写入法术。"]
+			hide_dependency_lines: true
 			id: "2FBC62E6069F2EBE"
 			rewards: [{
 				id: "03D7011FF0778D48"
 				type: "xp"
 				xp: 80
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "70B26C5270E21557"
 				item: {
@@ -2398,11 +2363,10 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 15.5d
+			x: -22.75d
+			y: 0.25d
 		}
 		{
-			dependencies: ["4B429128F68C2877"]
 			description: ["施放对自身起效的法术的专精工具。右键施放法术，会在法术链开头添加自身。施放法术的消耗会被降低，而对自身生效的Buff的持续时间会增加。"]
 			id: "00FFBAF807B0CD08"
 			rewards: [{
@@ -2419,18 +2383,20 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 14.5d
+			x: 3.25d
+			y: 14.75d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
 			description: ["对实体造成伤害前对实体施放自身的法术，魔力会在上箭时被扣除。若没有箭，则一只基础伤害0的魔法箭会被射出。可使用特殊箭矢增强法术。可被附魔。"]
+			hide_dependency_lines: true
 			id: "1DFCE31DE8E4C33A"
 			rewards: [{
 				id: "5800E7059DF34126"
 				type: "xp"
 				xp: 80
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4CF741F820EA210C"
 				item: {
@@ -2440,16 +2406,17 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 13.5d
+			x: -22.75d
+			y: 1.25d
 		}
 		{
-			dependencies: ["62D29C1E3C05CD0E"]
+			dependencies: ["470A698F7EC80221"]
 			description: [
 				"这些装备可以在抄写台写入法术，还可以吸取魔力来自我修复，但它们只能被写入&e不含形态魔符的法术&r。"
 				""
 				"那么如何抄写法术呢？首先&d在你的法术书里编写好一串法术点击制作&r，然后&d按V选择你刚刚制作的法术&r，将&d想要写入法术的工具放在抄写台上&r，手持刚刚配置好的法术书&dshift右键抄写台&r，法术就被抄写在工具上了。"
 			]
+			hide_dependency_lines: true
 			id: "4B429128F68C2877"
 			subtitle: "运用你的法术书"
 			tasks: [{
@@ -2458,8 +2425,8 @@
 				type: "checkmark"
 			}]
 			title: "如何抄写法术？"
-			x: 10.0d
-			y: 14.5d
+			x: -22.85714285714286d
+			y: 2.3035714285714306d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2476,8 +2443,8 @@
 				type: "item"
 			}]
 			title: "制作羊皮纸"
-			x: 14.5d
-			y: 14.5d
+			x: 3.25d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6DBC903E33BD145B"]
@@ -2498,8 +2465,8 @@
 				type: "item"
 			}]
 			title: "将法术抄写上去！"
-			x: 15.5d
-			y: 14.5d
+			x: 4.25d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2516,8 +2483,8 @@
 				item: "ars_nouveau:void_prism"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 13.0d
+			x: 1.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2535,8 +2502,8 @@
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 15.5d
+			x: 0.75d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2562,8 +2529,8 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 16.0d
+			x: 1.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2580,8 +2547,8 @@
 				item: "ars_nouveau:rotating_spell_turret"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 15.5d
+			x: 2.75d
+			y: 17.0d
 		}
 		{
 			dependencies: ["420E774A446BE5F3"]
@@ -2598,16 +2565,12 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: -12.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4EDE275E9D1D40A0"]
-			description: [
-				"打开群系指南针，搜索：&d至高木森林&r（这次是中文）"
-				""
-				"就能找到包含大量至高木的群系"
-			]
+			description: ["至高木的生长虽然对魔力没有太大要求，但会优先在魔力浓郁的地方生根，而至高木森林是地表魔力浓度最高的地方。那么是现有浓郁的魔力，再有至高木森林，还是先有至高木森林，再汇集魔力的呢？"]
 			id: "5F2C5291512AD65C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2625,15 +2588,12 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "快速寻找大量木头"
-			x: -7.5d
-			y: 13.0d
+			title: "魔力汇集之地"
+			x: -19.857142857142854d
+			y: 1.5035714285714263d
 		}
 		{
-			dependencies: [
-				"62D29C1E3C05CD0E"
-				"048F95BD85B41085"
-			]
+			dependencies: ["62D29C1E3C05CD0E"]
 			description: ["允许魔源转为 AE 能量为 ME 网络供能，如果要传输魔源，可以使用支配之杖从魔源罐处输送魔源"]
 			id: "515D1E3F69597DF8"
 			rewards: [{
@@ -2647,8 +2607,8 @@
 				item: "arseng:source_acceptor"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.5d
+			x: -4.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["515D1E3F69597DF8"]
@@ -2659,8 +2619,8 @@
 				item: "arseng:cable_source_acceptor"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 11.0d
+			x: -4.75d
+			y: 12.5d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -2677,8 +2637,8 @@
 				item: "starbunclemania:fluid_sourcelink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 13.0d
+			x: -24.875d
+			y: 12.375d
 		}
 		{
 			id: "01D6280A2D4377DC"
@@ -2688,8 +2648,8 @@
 				item: "starbunclemania:glyph_place_fluid"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 17.5d
+			x: -16.25d
+			y: 19.0d
 		}
 		{
 			id: "278A197047566864"
@@ -2699,14 +2659,14 @@
 				item: "starbunclemania:glyph_pickup_fluid"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 17.5d
+			x: -15.25d
+			y: 19.0d
 		}
 		{
 			description: [
 				"让星宝石兽可以运输能量"
 				""
-				"&m能量管道：请你好好地看着我&r"
+				"&m能量管道：请好好地看着我&r"
 			]
 			id: "28A7840F4A68D375"
 			shape: "diamond"
@@ -2715,14 +2675,14 @@
 				item: "starbunclemania:star_battery"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 21.0d
+			x: -9.25d
+			y: 22.5d
 		}
 		{
 			description: [
 				"让星宝石兽可以运输流体"
 				""
-				"AE：？"
+				"AE：？？？"
 			]
 			id: "6FB5D36BF4EBB3C4"
 			shape: "diamond"
@@ -2731,8 +2691,8 @@
 				item: "starbunclemania:star_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 21.0d
+			x: -8.25d
+			y: 22.5d
 		}
 		{
 			description: [
@@ -2748,8 +2708,8 @@
 				item: "starbunclemania:star_bin"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 21.0d
+			x: -7.25d
+			y: 22.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -2782,8 +2742,8 @@
 				item: "starbunclemania:source_condenser"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.5d
+			x: -6.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -2800,8 +2760,8 @@
 				item: "arseng:source_cell_housing"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: -3.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["420E774A446BE5F3"]
@@ -2816,12 +2776,12 @@
 			tasks: [{
 				count: 32L
 				id: "5E1B5E0EBED0C29A"
-				item: { Count: 32, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "小目标"
-			x: -1.5d
-			y: 16.0d
+			x: -12.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["5514483CF158193F"]
@@ -2833,8 +2793,2319 @@
 				item: "ars_nouveau:potion_jar"
 				type: "item"
 			}]
+			x: -26.25d
+			y: 12.375d
+		}
+		{
+			dependencies: ["18AAD55258BE9D87"]
+			description: [
+				"除开调查异变的事，魔法这种奇妙的“超能力”一直令我好奇，我也可以学会魔法吗？试试向帕秋莉请教一下吧？"
+				"“学习魔法？”帕秋莉伸出手，一道射线射到我身上，几息后她说道：“资质优秀，你以前真的没碰过魔法吗？罢了，你要学的话，我就给你展示下魔法的魅力。”"
+				"{@pagebreak}"
+				"帕秋莉静立于魔法阵中央，青白指尖掠过悬浮的魔法秘典。低吟起，古老的符文于空中浮现。  骤然，七色光流自符文中迸发，赤焰、冰晶、藤蔓、雷矢……在她周身交织、盘旋、聚合！元素狂舞，却精准受控于她微颤的掌心。  "
+				"最终，万千光华凝作一枚流转的金属锭，悬停于掌心，映亮她苍白的脸颊与沉静的紫眸。书页翻飞如蝶群，魔法之秘在掌心中绽放。"
+				"{@pagebreak}"
+				"神秘的金属飞入手中，我能感觉到无尽的能量在流转，又被束缚在这块金属中。我想马上认帕秋莉为老师,  不过拜师应该要有拜师礼吧？"
+				"{@pagebreak}"
+				"（咳咳...咳！差点倒在别人面前了！）"
+			]
+			id: "3C2B638C0E4AE4DA"
+			rewards: [{
+				id: "2E2FFF3A344E35DF"
+				item: {
+					Count: 1
+					id: "sakuratinker:goozma"
+					tag: {
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true,\"color\":\"dark_purple\",\"extra\":[{\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"text\":\"流光溢彩的神秘金属\"},{\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":true,\"color\":\"dark_purple\",\"text\":\"lll\"}],\"text\":\"lll\"}"
+						}
+					}
+				}
+				title: "只是个纪念品"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F1D7238504003B"
+				title: "成为马猴烧酒吧"
+				type: "checkmark"
+			}]
+			title: "憧憬成为马猴烧酒"
+			x: -7.35d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2BE6B3FA37D6CE4F"]
+			description: [
+				"帕秋莉：铁魔法学派作为主流学派，以&a高稳定性&r的施法而著名；但相对的，这个学派的魔法没有什么可以变通之处，术式一板一眼，魔力利用率取决于撰写术式的&a墨水品质&r；即便是有这些缺点，这个学派依旧是初学者的首选。"
+				"这本初学者魔法书你拿去用吧，上面有一些我以前写下的术式和笔记，应该对你有帮助。"
+				"{@pagebreak}"
+				"礼物？怎么可能！既然跟我学习魔法，要是你什么都不会岂不是丢了我七曜贤者的脸！"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [
+							{
+								id: "irons_spellbooks:burning_dash"
+								index: 0
+								level: 4
+								locked: 0b
+							}
+							{
+								id: "irons_spellbooks:chain_lightning"
+								index: 1
+								level: 1
+								locked: 0b
+							}
+							{
+								id: "irons_spellbooks:firefly_swarm"
+								index: 2
+								level: 1
+								locked: 0b
+							}
+							{
+								id: "irons_spellbooks:summon_horse"
+								index: 3
+								level: 3
+								locked: 0b
+							}
+							{
+								id: "irons_spellbooks:recall"
+								index: 4
+								level: 1
+								locked: 0b
+							}
+						]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+					display: {
+						Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"略有磨损的魔法书\"}"
+					}
+				}
+			}
+			id: "49D50CFF3DF41852"
+			rewards: [{
+				id: "617E7B6436A2DC20"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:burning_dash"
+									index: 0
+									level: 4
+									locked: 0b
+								}
+								{
+									id: "irons_spellbooks:chain_lightning"
+									index: 1
+									level: 1
+									locked: 0b
+								}
+								{
+									id: "irons_spellbooks:firefly_swarm"
+									index: 2
+									level: 1
+									locked: 0b
+								}
+								{
+									id: "irons_spellbooks:summon_horse"
+									index: 3
+									level: 3
+									locked: 0b
+								}
+								{
+									id: "irons_spellbooks:recall"
+									index: 4
+									level: 1
+									locked: 0b
+								}
+							]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						display: {
+							Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"略有磨损的魔法书\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "古板，但强大"
+			tasks: [{
+				id: "3BF9344AB2707D4D"
+				type: "checkmark"
+			}]
+			title: "铁魔法学派"
+			x: -2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["2BE6B3FA37D6CE4F"]
+			description: [
+				"帕秋莉：新生魔艺学派是约40年前兴起的新学派，主张分解法术结构，将法术各部分按照一定标准镌刻成『魔符』，再通过修改&a『魔符』的顺序&r以达到&a自定义法术&r的目的；从形式上看，这个学派抛弃了传统，也就是铁魔法学派的施法方式，让法术拥有更多可能；但相对的，魔符的排列并不像传统术式那样“密封”，所以魔力利用率上不如铁魔法学派，自然威力也比不过。不过相对的，新生魔艺学派的法术在&a功能性&r上比铁魔法学派强。"
+				"{@pagebreak}"
+				"毕竟这个法术学派没有什么固定的法术，所以这本初学者法术书和这本记录了一些基础魔符的书就送给你了。"
+				"{@pagebreak}"
+				"另外必须&4警告&r你几句，新生魔艺学派的法术因为其特殊性，可能对世界产生&4严重的影响&r，所以在研究法术时一定要&4小心谨慎&r"
+			]
+			id: "6A9EDD324B318CB2"
+			rewards: [
+				{
+					id: "1F41C3D3C86A93DB"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "636D5823C0C840D3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:annotated_codex"
+						tag: {
+							glyph__0: "toomanyglyphs:glyph_ray"
+							glyph__1: "ars_nouveau:glyph_cut"
+							glyph__2: "ars_nouveau:glyph_amplify"
+							glyph__3: "ars_nouveau:glyph_light"
+							glyph__4: "ars_nouveau:glyph_underfoot"
+							glyph__5: "ars_nouveau:glyph_launch"
+							glyph__6: "ars_nouveau:glyph_leap"
+							glyph__7: "toomanyglyphs:glyph_amplify_two"
+							player: [I;
+								2016765536
+								140652790
+								-1302732502
+								475442730
+							]
+							playerName: "帕秋莉诺雷姬"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "未来可期，无限可能"
+			tasks: [{
+				id: "1C99C8E2EBF4AB8E"
+				type: "checkmark"
+			}]
+			title: "新生魔艺学派"
+			x: -12.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: [
+				"帕秋莉:   在魔法生物死亡时，逸散的魔力会凝实成这种像雪一样的渐变蓝色物质，在一些魔力聚集的地方也会自然生成。"
+				"作为铁魔法学派的重要素材，可以用于制作各种基础魔法原料"
+			]
+			hide_dependency_lines: true
+			id: "3F080FDA58183A78"
+			shape: "rsquare"
+			tasks: [{
+				id: "41705B2ED693244C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["帕秋莉：疣猪兽的皮革是优质的书皮材料，同时具备良好的魔力传输效率，记得收集。"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:hogskin"
+			id: "6C754B6D424666B9"
+			tasks: [{
+				id: "23A689F4C4410B1A"
+				item: "irons_spellbooks:hogskin"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3F080FDA58183A78"]
+			description: ["帕秋莉：用嬗变术催化奥术源质向不稳定态转变，将羊毛浸入其中，不稳定的源质与无魔力的羊毛结合便能形成稳定的，魔力传导率优秀的魔力丝线，编织成布匹便是基础魔力原料[奥术布匹]"]
+			id: "166551FC2195E27F"
+			tasks: [{
+				id: "747701DDF57210AE"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"166551FC2195E27F"
+				"6C754B6D424666B9"
+			]
+			description: [
+				"帕秋莉：将一层疣猪皮平铺，再将奥术布匹裁剪成合适的大小，每边边长比疣猪皮小0.24mm为宜，之后再铺上一层疣猪皮，最后用塑形魔法将两块疣猪皮之间的缝隙沿边封好，这样一个小型法术槽拓展就完成了。"
+				"把你的法术书和这页东西一起放到奥术铁砧上，用魔力驱动一下，马上你的法术书就会多一个法术槽，当然这种方法只能增加到12个槽。"
+			]
+			id: "1DDE66A7B9C6393F"
+			tasks: [{
+				id: "7248AD58A0A14A5E"
+				item: "irons_spellbooks:lesser_spell_slot_upgrade"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3F080FDA58183A78"]
+			description: ["帕秋莉：和制作奥术布匹的方法一样，就不多赘述了，总之这种人造的魔力材料被广泛应用于各种饰品和奥术制品"]
+			id: "3B5D84FFB9A5B722"
+			tasks: [{
+				id: "63D469E1DEFBA14B"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"00E27A58740EFA00"
+				"3B5D84FFB9A5B722"
+			]
+			description: ["“这些饰品对施法有帮助，不要错过了。”"]
+			hide_dependency_lines: true
+			id: "5957FFA7029C6F88"
+			rewards: [{
+				id: "6B04DA11E5EEC4B2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "399431079F4F2841"
+				title: "魔法饰品"
+				type: "checkmark"
+			}]
+			x: 10.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			hide_dependency_lines: true
+			id: "1C2364CBD4A8BD41"
+			tasks: [{
+				id: "4BD73F979915E34C"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“前人感悟的物质化实体，注入自己的灵感就能体悟到前人的感悟，不仅可以获得一个随机法术，还能获得对应派系的法强。”"]
+			hide_dependency_lines: true
+			id: "4C2E14A69485DC4A"
+			min_width: 45
+			rewards: [
+				{
+					id: "3780CE343607AF94"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "57CEAFC20635BA37"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "42F28DE94B3A7818"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "traveloptics:spell_imbued_curio"
+					}
+				}
+				title: "回响护符"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“元素与奥术残骸锻造而成，会自然释放魔力保护佩戴者免疫对应的伤害。”"]
+			hide_dependency_lines: true
+			id: "01D2B445B08244DF"
+			rewards: [
+				{
+					id: "21399AC9ED22AA02"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "5DD226E55569CB06"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "319CECC5AB046B4E"
+					item: "irons_spellbooks:poisonward_ring"
+					type: "item"
+				}
+				{
+					id: "01C1224EFFF5F4C2"
+					item: "irons_spellbooks:fireward_ring"
+					type: "item"
+				}
+				{
+					id: "51B8C75584AB8981"
+					item: "irons_spellbooks:frostward_ring"
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“奥术锭为基础，珍钻为容器，作为外置容器储存魔力。”"]
+			hide_dependency_lines: true
+			id: "577AFE353236BDF0"
+			rewards: [
+				{
+					id: "328E3E558A2F3CB3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "789D396660C0C72D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0552C7955A698EE9"
+				item: "irons_spellbooks:mana_ring"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“十字球体以奥术残骸铸成，通体银白。佩戴者吟唱法术时，锁链护佑，专注无隙，长咒不辍。”"]
+			hide_dependency_lines: true
+			id: "0464EEC16E9FB308"
+			rewards: [
+				{
+					id: "3C2A68D06AF7591A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "182728B7FB725532"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "199E832CF7FD6039"
+				item: "irons_spellbooks:concentration_amulet"
+				type: "item"
+			}]
+			title: "专注护身符"
+			x: 13.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“奥术残骸的魔力和紫水晶共鸣，有助于加快吟唱速度。”"]
+			hide_dependency_lines: true
+			id: "6344D1BB8D54D9B8"
+			rewards: [
+				{
+					id: "71790740E48C5F24"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "3673EE5A11EE7BDA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5DE8897D72B36449"
+				item: "irons_spellbooks:cast_time_ring"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: [
+				"“白铁与奥术残骸铸成的法术容器，将法术回路刻印在其中，与对应法术形成共鸣。”"
+				"小恶魔：“简单来说就是把这个戒指和&a法术卷轴&r放在奥术铁砧上合成一下，施法时可以让对应&a法术等级&r提升一级。”"
+			]
+			hide_dependency_lines: true
+			id: "2B3A79856269F876"
+			rewards: [
+				{
+					id: "304F938D12906A7D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "13FB0152EF2C9BB8"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7B8B40AACC0E2A7C"
+				item: "irons_spellbooks:affinity_ring"
+				type: "item"
+			}]
+			x: 15.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“讲真，这个东西就是在糟蹋材料。”"]
+			hide_dependency_lines: true
+			id: "07B6ECF3A171D650"
+			rewards: [
+				{
+					id: "2884528DF1116F1C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "62758C9A847962EE"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "奥术残骸用来做这个？有...不，总座高见。"
+			tasks: [{
+				id: "019F547D315CE0F2"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			x: 15.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“奥术残骸与铜的结合，可以加快法术冷却。”"]
+			hide_dependency_lines: true
+			id: "1FCFE19CFF970BB0"
+			rewards: [
+				{
+					id: "7CB12147A933B220"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "194799B9F67DA233"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6DFE77E245A44308"
+				item: "irons_spellbooks:cooldown_ring"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“自然的代表物和蜘蛛遗物混合而成，让你在获得蛛之势后和真正的洞穴蜘蛛一样。”"]
+			hide_dependency_lines: true
+			id: "388A8FB285BBFBE5"
+			rewards: [
+				{
+					id: "5F3D8A6A08490A31"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "2933BB6EC6EBA2FD"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "313D6020788DF6BE"
+				item: "traveloptics:sigil_of_the_spider_sorcerer"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“以速度为代价换取自由的施法角度。”"]
+			hide_dependency_lines: true
+			id: "383F95AA53B819EF"
+			rewards: [
+				{
+					id: "798E42516E3C5899"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "329DA7E894C5D972"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4116173C3070B3B5"
+				item: "traveloptics:energy_unbound_necklace"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“奥术锭与腾焰锭熔铸，辅以下界砖定型。让你的灵魂之火燃烧，增强焰魔系法术。”"]
+			hide_dependency_lines: true
+			id: "4DE6F21DB4642699"
+			rewards: [
+				{
+					id: "1C98A6E7FF14BD9A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "4E3D99A3F9482D59"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "11161C7880063FB4"
+				item: "traveloptics:azure_ignition_bracelet"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			hide_dependency_lines: true
+			id: "51F0C80D0B1C4433"
+			rewards: [
+				{
+					id: "4C3E8559F4335382"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "0FF7129A2A319F1D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "04C9515DDC407B75"
+				item: "traveloptics:firestorm_ring"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“咒魂与远古力量的结合，让你对死灰斩的体悟更上一层。”"]
+			hide_dependency_lines: true
+			id: "722E9F44065446DD"
+			rewards: [
+				{
+					id: "0EFB279DF1A0A066"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "2F6FDA54A007662C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0820C163AAF1AF6A"
+				item: "traveloptics:aetherial_despair_ring"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“说实话这种东西你应该去问荷取。”"]
+			hide_dependency_lines: true
+			id: "12BB1EA004559A46"
+			rewards: [
+				{
+					id: "3174C48A635C96F8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "1D5AD8D665D4377A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3752C9016AEB7C3F"
+				item: "traveloptics:elytra_jetpack_component"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“用源流法术将雨云封存在瓶中，让雨落可以驱散增益、腐蚀盔甲、削弱火抗。”"]
+			hide_dependency_lines: true
+			id: "1AF21B05A710A4B5"
+			rewards: [
+				{
+					id: "55987A0488BA12DC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "51DADA3BDF8625E4"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "396ADD21A750DB54"
+				item: "traveloptics:bottled_raincloud"
+				type: "item"
+			}]
+			x: 15.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5957FFA7029C6F88"]
+			description: ["“从魔法的角度来讲，这是一个里程碑；从实用的角度来讲，这简直是荒谬，制作者用一个危险的天体制作了一个经验磁铁？”"]
+			hide_dependency_lines: true
+			id: "1F3C7DA947DB086F"
+			rewards: [
+				{
+					id: "41DC897A8921A8EF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "0C56F7C3D1CDDA72"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7ED89CA989C5A197"
+				item: "traveloptics:pocket_black_hole"
+				type: "item"
+			}]
+			x: 15.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“有毒不能吃，但作为自然的代表物刚刚好。”"]
+			id: "5125B91988F5ADAF"
+			rewards: [{
+				id: "406582F9409A5EC0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "“土豆上开着清爽的小花。啊，即使在这不毛之地，花蕾也终将绽放"
+			tasks: [{
+				id: "76E7A933FC5E2490"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
 			x: 3.75d
-			y: 17.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“你应该很熟悉这个。”"]
+			id: "3B366773B9CA0110"
+			rewards: [{
+				id: "51588A2B634352EA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5E244003A6C04F05"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“杀死烈焰人获得，不过需要注意的是烈焰人刷怪笼会&a自行销毁&r”"]
+			id: "40CC84FD8F19E4FA"
+			rewards: [{
+				id: "4C82B9DF6639996B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "048CA9657934E281"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“从&a渊海贻贝&r中撬出的珍珠，带有浓厚的渊海魔力，作为源流法术材料是极好的。”"]
+			id: "74AAA5578A50F024"
+			rewards: [{
+				id: "10D647414490C8E2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CB61C41F4416D69"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“多种物质混合而成的神圣代表物，本身没什么特殊意义。”"]
+			id: "3038F2CBFD7B1663"
+			rewards: [{
+				id: "7B97376ECFB2DA6D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4237D68A138E0F47"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“在炼药锅下方&a引燃营火&r，将生命推入其中，鲜血的精华便会汇集到锅中，当然你也可以用自己的血。”"]
+			id: "1725C805E84385D1"
+			rewards: [{
+				id: "23500D66B5A31AC6"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2357EFB60FB89F1E"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“取自不愿安息的&a寒冷亡灵&r，被冰霜魔力浸透的骨头在作为材料上有得天独厚的优势。”"]
+			id: "197F65C5A0EF3435"
+			rewards: [{
+				id: "4CE5154399B40DE3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59A89574E35204AE"
+				item: "irons_spellbooks:frozen_bone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			id: "6405260BCCA7743F"
+			rewards: [{
+				id: "65DEE93623B29595"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7183481952BDB57B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“幽匿诅咒结晶化的产物，在&a幽匿汇集之地&r可以找到，轻叩会发出悠远的回响。”"]
+			id: "258BF3883731C9E9"
+			rewards: [{
+				id: "6A33755FB4E17F4A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2C7DDDA6D27DDA97"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17FC1AB6CF9DE594"]
+			description: ["“最普通的墨水，没什么可说的。”"]
+			hide_dependency_lines: true
+			id: "7B58742BC7C947D7"
+			shape: "diamond"
+			tasks: [{
+				id: "53E6866C33565DB2"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["17FC1AB6CF9DE594"]
+			description: ["“和普通墨水相比，掺入了一些导魔材料，只好了一点。”"]
+			hide_dependency_lines: true
+			id: "1F53C450A40DA898"
+			shape: "diamond"
+			tasks: [{
+				id: "7D4E33F3239F06EF"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["17FC1AB6CF9DE594"]
+			description: ["“进一步浓缩，魔力更加集中，算是合格的抄写材料了。”"]
+			hide_dependency_lines: true
+			id: "3D992163E0FF199A"
+			shape: "diamond"
+			tasks: [{
+				id: "2895A09511AE61EC"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["17FC1AB6CF9DE594"]
+			hide_dependency_lines: true
+			id: "14D525861B2FFF8E"
+			shape: "diamond"
+			tasks: [{
+				id: "0322D60F1493948A"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17FC1AB6CF9DE594"]
+			description: ["“如液态黄金一般，但更加珍贵，各种魔法素材协调共存于其中，是顶级的抄写材料。”"]
+			hide_dependency_lines: true
+			id: "5B37010093041882"
+			shape: "diamond"
+			tasks: [{
+				id: "4993B8037C4C4789"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“看得出来它的前主人并不懂得爱护书籍。”"]
+			hide_dependency_lines: true
+			id: "1DB36CA872FEFFFA"
+			rewards: [{
+				id: "595C188AA6A460A0"
+				title: "+3,告辞"
+				type: "xp"
+				xp: 3
+			}]
+			shape: "square"
+			subtitle: "某种意义上最稀有的"
+			tasks: [{
+				id: "748CD7898951FAA2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“放心吧，这上面并没有关于应许之地的记载。”"]
+			hide_dependency_lines: true
+			id: "56F8A3B66EF027E8"
+			rewards: [{
+				id: "356EEE7169332C3B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "532F964B872D7054"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“我有一个德鲁伊笑话，但是口才检定没过。”"]
+			hide_dependency_lines: true
+			id: "3ED95F9F50BE3491"
+			rewards: [{
+				id: "102FCD3554C73C67"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "579B6DC1C21BDCBC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“上面记载了什么？不过是一个想要逃避死亡的法师的自述罢了。”"]
+			hide_dependency_lines: true
+			id: "4F755360FC446147"
+			rewards: [{
+				id: "1A1E7501C5F6B9DA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5D281EB87D59D01A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“说实话，这本魔法书更像一个可以翻开的流星锤。”"]
+			hide_dependency_lines: true
+			id: "3F4AE51EA0DE015F"
+			rewards: [{
+				id: "24345B7D66E7A634"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5BA724EC589779BB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“学徒法师的优秀选择。”"]
+			hide_dependency_lines: true
+			id: "1EA284B38BA101A6"
+			rewards: [{
+				id: "43E109E1E85EFDC0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "082C035A2AB61C63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“用料在学徒用的里面算豪华的了。”"]
+			hide_dependency_lines: true
+			id: "60B22452D8B0EBD7"
+			rewards: [{
+				id: "3B06961CD0F5F9DE"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4B370227A3935205"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“用鲜血精华和地狱合金修补后，这本古代遗产重获新生。”"]
+			hide_dependency_lines: true
+			id: "7A7268C7FC21E16C"
+			rewards: [
+				{
+					count: 3
+					id: "24584B39BE656643"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "0FA9CA27894CF22B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0B059AFB17649DA4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“为什么不能用其他龙皮呢？”"]
+			hide_dependency_lines: true
+			id: "7F52A1053605999F"
+			rewards: [{
+				id: "0AC8A77B8B9F22B1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "43DABEE43969C2E2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“你在哪里找到的？烈焰人身上？”"]
+			hide_dependency_lines: true
+			id: "32FD39662DF2B8A6"
+			rewards: [{
+				id: "77FC8EEFD8E5B63F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			tasks: [{
+				id: "759D31C0B66652A9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“怎么说呢？有一种湿润苔藓的土腥味，书页还有点湿。”"]
+			hide_dependency_lines: true
+			id: "25680B8A306D72C0"
+			shape: "diamond"
+			tasks: [{
+				id: "46830FD1064DB57F"
+				item: {
+					Count: 1
+					id: "traveloptics:tome_of_abyssal_flora"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“从各种意义上来讲，这都是他的最后之作。魔法探索的道路上不乏因研究而疯狂的人，但在他们看来是值得的。”"]
+			hide_dependency_lines: true
+			id: "413E7BF0E3426F4D"
+			shape: "diamond"
+			tasks: [{
+				id: "7C1E2405ABBE42B4"
+				item: {
+					Count: 1
+					id: "traveloptics:guide_to_watery_whispers"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“带着滑腻的粘液和某种深海鱼类的味道，你是从哪找到的？”"]
+			hide_dependency_lines: true
+			id: "13DA56CCA0456240"
+			shape: "diamond"
+			subtitle: "这都是你的错！"
+			tasks: [{
+				id: "30565D84DF2C85BF"
+				item: {
+					Count: 1
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						ISBEnhance: "traveloptics:vortex_of_the_deep"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: [
+				"“这上面记录了他的罪名，和受害者的控诉，已经多到可以凑成一本书了。”"
+				"“第一罪：弑亲......第七罪：暴虐统治......第二十一罪：死而复生，嗯...这一条也算罪？那你已经恶贯满盈了。”"
+			]
+			hide_dependency_lines: true
+			id: "4F6368630DD38062"
+			shape: "diamond"
+			tasks: [{
+				id: "119744EEBD38D9D7"
+				item: {
+					Count: 1
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_blast"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“我不建议你阅读这本书，拿着用就好了，别去想有的没的。也别让其他人看到上面的内容。”"]
+			hide_dependency_lines: true
+			id: "03EDDDA3B3AC36B5"
+			shape: "diamond"
+			tasks: [{
+				id: "0962D0CA5C3F1DA8"
+				item: {
+					Count: 1
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_minefield"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:orbital_void"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“与其说是编年史，不如说是祂的自传。”"]
+			hide_dependency_lines: true
+			id: "4276A6A20BA24DDF"
+			shape: "diamond"
+			tasks: [{
+				id: "6D86CA24D17C2278"
+				item: {
+					Count: 1
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						ISBEnhance: "traveloptics:burning_judgment"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["675426B2C88EB4C0"]
+			description: ["“一本优质的魔法书不仅可以为法师提供足够的法术槽，更能增强法师的&a施法能力&r，所以一本好书是有必要的。”"]
+			hide_dependency_lines: true
+			id: "6DD3E47978B9510F"
+			tasks: [{
+				id: "657AA52016F815E5"
+				title: "魔法书"
+				type: "checkmark"
+			}]
+			x: 17.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["6DD3E47978B9510F"]
+			description: ["“你也可以尝试自己收集材料，打造一本独一无二的工匠秘典，材料的特性通常都能被法术触发。”"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "sakuratinker:tinker_spell_book"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+					etstlib_tool_uuid: "67bdc2f7-ddfb-455a-bb5a-180810b57008"
+					tic_materials: [
+						"cloudertinker:chimera"
+						"mushroom_daydream:rose_quartz"
+						"sakuratinker:arcane_alloy"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "cloudertinker:variablood"
+						}
+						{
+							level: 1
+							name: "cloudertinker:unrestrainedsystem"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:contemplation"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:crystal"
+						}
+						{
+							level: 1
+							name: "sakuratinker:spell_power"
+						}
+						{
+							level: 1
+							name: "sakuratinker:arcane_tinkering"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"sakuratinker:cast_time": 0.3f
+						"sakuratinker:spell_power": 0.4f
+						"sakuratinker:spell_reduce": 0.15f
+						"tconstruct:attack_damage": 7.8f
+						"tconstruct:attack_speed": 0.8f
+						"tconstruct:durability": 725.0f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 3.6f
+					}
+					tic_volatile_data: {
+						upgrades: 2
+					}
+				}
+			}
+			id: "5C26F5B54E9DC184"
+			rewards: [{
+				id: "0EFF34D9CF5351E9"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "square"
+			subtitle: "亲手打造的魔法书"
+			tasks: [{
+				id: "365C28FE1285634F"
+				title: "集万物之长"
+				type: "checkmark"
+			}]
+			title: "工匠秘典"
+			x: 15.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "775563C9BAF30612"
+			shape: "square"
+			tasks: [{
+				id: "5E6A236A2F8C053D"
+				item: "traveloptics:titanlord_scepter"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "148D76D6CA176FFD"
+			shape: "square"
+			subtitle: "法术被邪恶大妖精偷走了！"
+			tasks: [{
+				id: "6D72EB1343A82349"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "16B2917CF4EF2A01"
+			shape: "square"
+			tasks: [{
+				id: "7804577642389402"
+				item: {
+					Count: 1
+					id: "traveloptics:stellothorn"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.75d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "374ECC7C89ACC96D"
+			shape: "square"
+			tasks: [{
+				id: "4E8751EDCE937FF1"
+				item: {
+					Count: 1
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						geckolibAnimation: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "4C646985DC35DEA4"
+			shape: "square"
+			tasks: [{
+				id: "01B58870C400A15E"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "7C4E58CC909E9404"
+			shape: "square"
+			tasks: [{
+				id: "2F175DE8B310B4E1"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "57C960374B6C66E9"
+			shape: "square"
+			tasks: [{
+				id: "74886C6C8D515BCF"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "7D46162A1A2D58A6"
+			shape: "square"
+			tasks: [{
+				id: "67E630D1268CF456"
+				item: {
+					Count: 1
+					id: "traveloptics:mechanized_wraithblade"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						PlasmaCore: 14
+						SwingCounter: 1
+						geckolibAnimation: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "2F9EE595A8BCE962"
+			shape: "square"
+			tasks: [{
+				id: "25838975DBD12280"
+				item: {
+					Count: 1
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "1911FA36481AC51B"
+			shape: "square"
+			tasks: [{
+				id: "3D19EAB4C7477B6D"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 9.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "66C658215D763F3A"
+			shape: "square"
+			tasks: [{
+				id: "1E536026DFD1B89D"
+				item: {
+					Count: 1
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "1F8B5466B5671EC9"
+			shape: "square"
+			tasks: [{
+				id: "0DCAFA1DDDCBD1D3"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3CFB5C1859A937C8"]
+			hide_dependency_lines: true
+			id: "3493A5FF040A5C6F"
+			shape: "square"
+			tasks: [{
+				id: "6C7E91B4FECAFBB0"
+				item: {
+					Count: 1
+					id: "traveloptics:wand_of_final_light"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:supernova"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "248606C99954AD76"
+			shape: "square"
+			tasks: [{
+				id: "42B29ED145A4A28D"
+				item: {
+					Count: 1
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "0BE5EDE4808C4F25"
+			shape: "square"
+			tasks: [{
+				id: "61CBB68301478B9E"
+				item: {
+					Count: 1
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "3F5090BB1F1EA355"
+			shape: "square"
+			tasks: [{
+				id: "3D730955DE6BC132"
+				item: {
+					Count: 1
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "559AFBF96271C7D4"
+			shape: "square"
+			subtitle: "法术被邪恶大妖精偷走了！"
+			tasks: [{
+				id: "5EE60F8725BDE148"
+				item: {
+					Count: 1
+					id: "traveloptics:the_obliterator"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "362E2CC8295319BB"
+			shape: "square"
+			tasks: [{
+				id: "580398743325004F"
+				item: {
+					Count: 1
+					id: "traveloptics:trident_of_the_eternal_maelstrom"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tidal_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "4CBD042FA3247D58"
+			shape: "square"
+			tasks: [{
+				id: "55A18ABB93051B4A"
+				item: {
+					Count: 1
+					id: "traveloptics:infernal_devastator"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7C2C017C3BAC2A43"]
+			hide_dependency_lines: true
+			id: "4C80BF72455AD045"
+			shape: "square"
+			tasks: [{
+				id: "5585A0BCEAF02AF7"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:cursed_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+						SpiritPoints: 0
+						SwingCounter: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["202B0571F40E4DC4"]
+			description: ["“将这些法球镶嵌到盔甲或法杖上可以增强&a对应法术强度&r，”"]
+			id: "622B69B883538189"
+			subtitle: "别急，还在攒球"
+			tasks: [
+				{
+					id: "446BCFCAE24A4D9A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:lightning_upgrade_orb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "47AA7C121336D726"
+					item: "traveloptics:eldritch_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "54FFDE8729038B54"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4B307D338C39A43F"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "6667495122371BE0"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4F8FED1D0EEC916D"
+					item: "traveloptics:aqua_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "75DEFAB8368092F8"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "2A1673A819E8547B"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "179F22859E79F9FE"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+			]
+			title: "属性法球"
+			x: 6.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["202B0571F40E4DC4"]
+			description: ["“将这些法球镶嵌到盔甲或法杖上可以增强&a通用法术属性&r。”"]
+			id: "16061CE57126BF14"
+			tasks: [
+				{
+					id: "53BF6776CE45D727"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "5BA3DB7545B7B486"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "5B32201F12825094"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+			]
+			title: "通用法球"
+			x: 8.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["”副手持有法杖不仅可以让你右键直接施法，还能为你提供法术增益。“"]
+			hide_dependency_lines: true
+			id: "3CFB5C1859A937C8"
+			tasks: [{
+				id: "175D277C2E7BEC4C"
+				title: "法杖"
+				type: "checkmark"
+			}]
+			x: 8.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["“这些武器拿在手中时可以为你提供法强增益。“"]
+			hide_dependency_lines: true
+			id: "7C2C017C3BAC2A43"
+			tasks: [{
+				id: "75301A23BB1CB7A3"
+				title: "魔法武器"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DDE66A7B9C6393F"]
+			description: ["“12个法术槽不够用？还有更好的拓展法术槽。更好的材料有更好的性能，天经地义不是吗？”"]
+			id: "27BC0778368CEFBA"
+			tasks: [
+				{
+					id: "7807E10228D3BFDD"
+					item: "traveloptics:spectral_spell_slot_upgrade"
+					type: "item"
+				}
+				{
+					id: "63CC600F5654AA45"
+					item: "traveloptics:sanctified_spell_slot_upgrade"
+					type: "item"
+				}
+			]
+			title: "幽影与神圣法术槽改进"
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3C2B638C0E4AE4DA"]
+			description: [
+				"花了一天时间准备，应该没什么问题吧？选的都是偏甜口的，希望帕秋莉会喜欢吧。"
+				"我端着拜师礼走进红魔馆的图书馆，只看到小恶魔在整理书架；"
+				"“抱歉，帕秋莉大人今日身体不适，恕不能招待”，"
+				"于是我拜托小恶魔将拜师礼送到帕秋莉手中。"
+				"{@pagebreak}"
+				"过了两天，我再次拜访图书馆，这次帕秋莉坐在书桌前在看书，看到我后，放下了手中的书本“你的拜师礼我收到了，我同意你拜我为师。”"
+				"她挥了挥手，三本书飞到我身前"
+				"“我作为师父怎么能一点表示没有，现在看看你想学什么吧”"
+			]
+			id: "2BE6B3FA37D6CE4F"
+			rewards: [{
+				id: "2424B28EDBE75D67"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [
+				{
+					id: "6738BE66A7F0DFE4"
+					item: "arsdelight:source_berry_jelly"
+					type: "item"
+				}
+				{
+					id: "2DE31326FEA7D985"
+					item: "fruitsdelight:pear_with_rock_sugar"
+					type: "item"
+				}
+				{
+					id: "12A5E4F5D7245C04"
+					item: "arsdelight:mendosteen_tea"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2BEC1B3E51778590"
+					item: "vanillacookbook:honey_pancake"
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "4AA9612DF7B0A4A7"
+					title: "一天后"
+					type: "questsadditions:time"
+				}
+			]
+			title: "拜师礼"
+			x: -7.35d
+			y: 4.25d
 		}
 	]
 	title: "大书库(魔法)"

@@ -6,6 +6,7 @@
         "each_level": 0.1,
         "operation": "addition",
         "attribute": "attributeslib:dodge_chance",
+        "tooltip_style": "percent",
         "unique": "tconstruct.modifier.dodge",
         "slots": [
           "feet",

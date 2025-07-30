@@ -21,16 +21,16 @@
 			image: "cataclysm:item/burning_ashes"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
-			y: 2.5d
+			x: 3.25d
+			y: 5.5d
 		}
 		{
 			height: 2.0d
 			image: "tofucraft:textures/mob_effect/soy_healthy.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -1.5d
-			y: 7.5d
+			x: -2.75d
+			y: 4.5d
 		}
 		{
 			alpha: 170
@@ -38,8 +38,8 @@
 			image: "cataclysm:block/ignitium_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.0d
-			y: 1.0d
+			x: 4.75d
+			y: 5.5d
 		}
 		{
 			height: 2.0d
@@ -62,35 +62,35 @@
 			image: "cataclysm:block/azure_seastone_ink_mural/thunder"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: -0.5d
+			x: 7.25d
+			y: 3.25d
 		}
 		{
 			height: 1.0d
 			image: "cataclysm:block/azure_seastone_ink_mural/cindaria"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.2d
-			y: -0.5d
+			x: 7.949999999999999d
+			y: 3.25d
 		}
 		{
 			height: 1.0d
 			image: "cataclysm:block/azure_seastone_ink_mural/clawdian"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: -0.5d
+			x: 8.75d
+			y: 3.25d
 		}
 		{
 			height: 3.0d
 			image: "cataclysm:item/essence_of_the_storm"
 			rotation: 0.0d
 			width: 3.0d
-			x: 11.3d
-			y: 1.3d
+			x: 10.05d
+			y: 5.05d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -139,7 +139,7 @@
 			dependencies: ["24CD1BFBAC0F7C68"]
 			description: [
 				"灵梦：听说有这么一个都市传说，只要在&9下界&r保持&a半妖怪化状态成功格挡三次&r“神秘隐身人”的袭击，就能获得一顶帽子。至于结果嘛，至今没人成功过，都被人用匕首从背后一刀毙命."
-				"&7据说最近的尸体附近都放着来自铁匠铺，被一刀捅穿的盾牌，疑似从锻造炉出来的盾牌抵挡不了这一刀?"
+				"&7据说最近的尸体附近都放着来自铁匠铺，被一刀捅穿的盾牌，疑似从锻造炉出来的盾牌需要足够高的格挡才能抵挡这一刀?"
 			]
 			hide_until_deps_complete: false
 			icon: "youkaishomecoming:koishi_mousse"
@@ -164,7 +164,10 @@
 				"47564D5FF0B41FA8"
 			]
 			description: [
-				"灵梦：目前主要有以下目标，分别是&a暮色森林，灾变&r的众多强敌以及路上能遇到的各种敌人。暮色森林有阶段流程的限制，需要按照顺序击杀BOSS，而灾变的BOSS没有顺序的说法，可以制作相应的眼睛，类似于末影之眼，来寻找对应的BOSS结构。也可以用结构指南针直接寻找。"
+				"灵梦：目前主要有以下目标，分别是&a暮色森林，灾变&r的众多强敌以及路上能遇到的各种敌人。暮色森林有阶段流程的限制，需要按照顺序击杀BOSS，不过你也可以给我点食物，我帮你解除限制"
+				"{ \"text\": \"解除封印\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F304CCA2EC8128A\" } }"
+				""
+				"而灾变的BOSS没有顺序的说法，可以制作相应的眼睛，类似于末影之眼，来寻找对应的BOSS结构，&d这些眼睛还可以用于复活BOSS，重新挑战&r。也可以用结构指南针直接寻找。"
 				""
 				""
 				"除此之外，还可以通过一些手段主动召唤强敌，但应战前做好准备，这些敌人强度和平时你遇到的可不太一样"
@@ -587,15 +590,22 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				icon: "cataclysm:maledictus_spawn_egg"
-				id: "61E5A8D50142E960"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.5d
-			y: 2.5d
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					icon: "cataclysm:maledictus_spawn_egg"
+					id: "61E5A8D50142E960"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "40C234336CAD5739"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -650,9 +660,14 @@
 					title: "Any #c:brushes"
 					type: "item"
 				}
+				{
+					id: "4DD5933F2A6DA1A1"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
 			]
-			x: 5.0d
-			y: 2.5d
+			x: 2.75d
+			y: 3.25d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -681,15 +696,22 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:the_harbinger_spawn_egg"
-				id: "5906B984FFF74DD6"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.5d
-			y: -0.5d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:the_harbinger_spawn_egg"
+					id: "5906B984FFF74DD6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "67ADAACEEB89EF28"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -733,9 +755,14 @@
 					item: "cataclysm:abyssal_sacrifice"
 					type: "item"
 				}
+				{
+					id: "1FE09DB0F8817E5F"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
 			]
-			x: 6.5d
-			y: 1.0d
+			x: 5.25d
+			y: 3.25d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -768,15 +795,22 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: "cataclysm:netherite_monstrosity_spawn_egg"
-				id: "000F666E3CB2463E"
-				type: "kill"
-				value: 1L
-			}]
-			x: 3.0d
-			y: 2.5d
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:netherite_monstrosity_spawn_egg"
+					id: "000F666E3CB2463E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3929971F73BAEE69"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.25d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -809,15 +843,22 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: "cataclysm:ignis_spawn_egg"
-				id: "53EB0DD7BA4B8E83"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:ignis_spawn_egg"
+					id: "53EB0DD7BA4B8E83"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7FDE3ADCA52F9C13"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+			]
 			x: 1.5d
-			y: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -846,15 +887,22 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:ender_guardian_spawn_egg"
-				id: "3C11D1D9761BA54B"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:ender_guardian_spawn_egg"
+					id: "3C11D1D9761BA54B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2456FBA2FAA71979"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -901,7 +949,7 @@
 				}
 			]
 			title: "土特产"
-			x: 1.5d
+			x: -5.0d
 			y: 6.0d
 		}
 		{
@@ -917,7 +965,7 @@
 				structure: "tofucraft:tofu_castle"
 				type: "structure"
 			}]
-			x: 4.0d
+			x: -3.75d
 			y: 6.0d
 		}
 		{
@@ -945,8 +993,8 @@
 				item: "kubejs:fantasy_tofu"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -5.0d
+			y: 7.25d
 		}
 		{
 			can_repeat: true
@@ -971,8 +1019,8 @@
 				item: "kubejs:gap_tofu"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: -5.0d
+			y: 4.75d
 		}
 		{
 			dependencies: ["63B3EA63F55F6004"]
@@ -999,7 +1047,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 3.0d
 			tasks: [{
 				entity: "tofucraft:tofu_gandlem"
 				icon: "tofucraft:tofudiamond"
@@ -1007,8 +1055,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 8.0d
+			x: -3.75d
+			y: 9.75d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -1142,33 +1190,25 @@
 		{
 			dependencies: ["4F6A176071C2DAD3"]
 			description: [
-				"灵梦：所以说，你需要一个稳定的，能够轻松退治异变的装备搭配推荐？不想自己动脑子的话，也不是不行，但是我可不保证这是最优解"
-				""
-				"&a如果你能发现更优秀的搭配，认为我的推荐不够好，那你应该也不需要看我的推荐了&r，而如果你不知道该如何搭配匠魂材料，那看我的推荐也能稳定退治所有异变"
-			]
-			icon: "farmersdelight:canvas_sign"
-			id: "5E07CD36D8831A86"
-			size: 2.0d
-			tasks: [{
-				id: "21A10C2B3DDA1A67"
-				type: "checkmark"
-			}]
-			title: "稳定套路？"
-			x: -1.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5E07CD36D8831A86"]
-			description: [
 				"绝大部分情况下，生存不足都是因为同一个问题：强化槽位没有打满，尤其是各种保护"
 				""
 				"除此之外，装备搭配本身也是匠魂的乐趣所在，公式化的出装更适合放在抽卡手游中，而不是一个完全免费的整合包里"
+				""
+				"如果需要查看有哪些可以应用的工具强化，只需查看工具的JEI即可，其中需要特别说明的是，点击JEI中的防御槽，升级槽等图标，可以直接查看哪些强化可以提供这些相应的槽位"
+				""
+				"还可以前往小伞铁匠铺，查看一部分推荐的强化"
+				""
+				"{ \"text\": \"小伞\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"105612AA0735B07A\" } }"
 			]
 			icon: "tconstruct:tinkers_anvil"
 			id: "275B4A59E078AD8A"
+			rewards: [{
+				id: "2DC7852315F51099"
+				item: "tconstruct:jeweled_apple"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "仅供参考"
 			tasks: [{
 				block: "tconstruct:tinkers_anvil"
 				block_type: 0
@@ -1178,7 +1218,7 @@
 				type: "questsadditions:use"
 				value: 5L
 			}]
-			title: "推荐装备"
+			title: "装备搭配"
 			x: -1.0d
 			y: -9.0d
 		}
@@ -1322,7 +1362,7 @@
 				{
 					count: 8L
 					id: "5867FCFD386F1DCA"
-					item: { Count: 8, id: "tconstruct:queens_slime_block" }
+					item: "tconstruct:queens_slime_block"
 					type: "item"
 				}
 			]
@@ -1371,8 +1411,8 @@
 				item: "hmag:fortune_crystal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: -6.25d
+			y: 6.0d
 		}
 		{
 			dependencies: ["29514565E447A7A5"]
@@ -1396,8 +1436,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.5d
+			x: 1.5d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -1752,8 +1792,8 @@
 				item: "cataclysm:lava_power_cell"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -2205,39 +2245,57 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				entity: "cataclysm:scylla"
-				icon: "cataclysm:storm_eye"
-				id: "5E6EF3EEA4694A4F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					icon: "cataclysm:storm_eye"
+					id: "5E6EF3EEA4694A4F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2CA4E6A9954C5896"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: 4.75d
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
-			description: ["可制作盾牌与特殊武器，或者与天子交换特殊元件"]
+			description: [
+				"可制作盾牌与特殊武器，或者与天子交换特殊元件"
+				""
+				"{ \"text\": \"天子交换素材\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68D20C7705966D34\" } }"
+			]
 			id: "4FDDE14FB190E5CC"
 			tasks: [{
 				id: "351EE473A42FE8C9"
 				item: "cataclysm:lacrima"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 6.75d
+			y: 7.75d
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
-			description: ["仅能从斯库拉身上掉落，可制作特殊武器，或者与天子交换特殊元件"]
+			description: [
+				"仅能从斯库拉身上掉落，可制作特殊武器，或者与天子交换特殊元件，还可以用于消耗灵视交换物品"
+				""
+				"{ \"text\": \"天子交换素材\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"68D20C7705966D34\" } }"
+				""
+				""
+				"{ \"text\": \"灵视交换物品\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A383347D6F3719B\" } }"
+			]
 			id: "41298C51AD1E8DCE"
 			tasks: [{
 				id: "39CD817315D531F3"
 				item: "cataclysm:essence_of_the_storm"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.75d
+			y: 7.75d
 		}
 	]
 	title: "退治异变"

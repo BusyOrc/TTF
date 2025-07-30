@@ -1,0 +1,18 @@
+{
+  "attributeType": "minecraft:generic.armor",
+  "conditions": {
+    "affixes": {
+      "values": [
+      ]
+    },
+    "entity": [
+      "twilightforest:hydra"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 5.0
+  }
+}

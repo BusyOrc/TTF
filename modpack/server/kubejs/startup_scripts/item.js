@@ -22,14 +22,27 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:wu_yu_ingot').displayName("雾於锭").rarity("rare")
 	event.create('kubejs:seija').displayName("天邪鬼锭").rarity("epic")
 
-	event.create('kubejs:border_shard').displayName("博丽结界的碎片").rarity("rare")
+	//event.create('kubejs:border_shard').displayName("博丽结界的碎片").rarity("rare")
 	event.create('kubejs:alpha').displayName("α-帕氏体").rarity("epic")
 	event.create('kubejs:beta').displayName("β-河氏体").rarity("epic")
 	event.create('kubejs:gamma').displayName("γ-比氏体").rarity("epic")
 	event.create('kubejs:omega').displayName("ω-雾氏体").rarity("epic")
 
-
-
+	event.create('kubejs:devil').displayName("小恶魔锭").rarity("epic")
+	event.create('kubejs:little_devil').displayName("失活小恶魔锭").rarity("rare")
+	event.create('kubejs:flandre').displayName("芙兰锭").rarity("epic")
+	event.create('kubejs:inu').displayName("犬走椛锭").rarity("epic")
+	//event.create('kubejs:kosuzu').displayName("防撞桶").rarity("epic")
+	event.create('kubejs:meiling').displayName("美铃锭").rarity("epic")
+	event.create('kubejs:paru').displayName("帕露西锭").rarity("epic")
+	event.create('kubejs:patch').displayName("帕琪锭").rarity("epic")
+	event.create('kubejs:remilia').displayName("蕾米锭").rarity("epic")
+	event.create('kubejs:sakuya').displayName("咲夜锭").rarity("epic")
+	event.create('kubejs:sannyo').displayName("山如锭").rarity("epic")
+	event.create('kubejs:wakasagihime').displayName("若鹭姬锭").rarity("epic")
+	event.create('kubejs:rumia').displayName("露米娅锭").rarity("rare")
+	event.create('kubejs:ex_rumia').displayName("EX露米娅锭").rarity("epic")
+	event.create('kubejs:ice_warrior').displayName("冰之勇者锭").rarity("epic")
 
 
 
@@ -39,8 +52,6 @@ StartupEvents.registry('item', event => {
 
 
 ItemEvents.modification(event => {
-
-
 	event.modify('simpletomb:grave_key', item => {
     item.rarity = 'RARE'
     item.attackDamage=18

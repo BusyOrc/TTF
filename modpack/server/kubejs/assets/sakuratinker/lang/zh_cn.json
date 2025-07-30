@@ -13,9 +13,8 @@
   "modifier.sakuratinker.magic_shield.flavor": "领域展开",
   "modifier.sakuratinker.magic_shield.description": "每10点魔力可以抵挡1点伤害，每级最大抵挡12%的伤害（最高5级）。",
 
-
     "modifier.sakuratinker.absorption.description": "缓慢获得额外生命值，最大不超过每等级的额外生命值。",
-
+  "modifier.sakuratinker.rootedness.description": "以受到的伤害增加15%的代价获取10%的无敌帧，最大8级。",
   "modifier.sakuratinker.reapers_blessing": "死神祝福",
   "modifier.sakuratinker.reapers_blessing.flavor": "你说得对，但这就是小町",
   "modifier.sakuratinker.reapers_blessing.description": "根据你损失的生命值提供存在上限的伤害加成，不叠加。",
@@ -82,14 +81,18 @@
   "modifier.sakuratinker.magician.flavor": "法术大师!",
   "modifier.sakuratinker.magician.description": "吟唱冷却和法术冷却获得提升。",
   "modifier.sakuratinker.kobold": "狗头人",
-  "modifier.sakuratinker.kobold.flavor": "先把血量点到40",
-  "modifier.sakuratinker.kobold.description": "生命值大于40点时，获得额外属性,造成额外伤害(最多30%)，\n若生命值不足40则会受到惩罚。",
+  "modifier.sakuratinker.kobold.flavor": "玩游戏第一步，先把血量点到40",
+    "modifier.sakuratinker.kobold.description": "生命值大于40点时，每级增加4点攻击，获得特性等级的生命再生。",
+
   "modifier.sakuratinker.storm_veil": "风暴面纱",
   "modifier.sakuratinker.storm_veil.flavor": "风暴聚集",
   "modifier.sakuratinker.storm_veil.description": "周期性提供抗性提升效果。",
   "modifier.sakuratinker.rootedness": "刚毅护盾",
   "modifier.sakuratinker.rootedness.flavor": "生命壁垒",
-  "modifier.sakuratinker.rootedness.description": "受到的最高伤害不超过最大生命值的10%。",
+  "modifier.touhoutinkermodifier.earth_light":"地球光",
+"modifier.touhoutinkermodifier.earth_light.flavor":"还可以从弃牌堆寻回一张牌——如果有弃牌堆的话",
+"modifier.touhoutinkermodifier.earth_light.description":"额外增加生命值和法力值恢复",
+
   "modifier.sakuratinker.nether_ghost": "冥界饿鬼",
   "modifier.sakuratinker.nether_ghost.flavor": "好饿，好想吃半灵",
   "modifier.sakuratinker.nether_ghost.description": "仅限主手生效，杀死敌人恢复饥饿值，若饥饿值满则恢复生命。",

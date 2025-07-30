@@ -262,14 +262,24 @@
                 "entity": "minecraft:pig",
                 "count": 6
             }
+        },
+        {
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add 5",
+            "desc":"灵视+5"
         }
     ],
     "failures": [
         {
             "type": "gateways:explosion",
-            "strength": 2,
+            "strength": 5,
             "fire": true,
-            "block_damage": true
+            "block_damage": false
+        },
+        {
+            "type":"gateways:command",
+            "command":"execute as @a[distance=..16,gamemode=survival] run improvedmobs difficulty player @s[type=minecraft:player] add -5",
+            "desc":"灵视-5"
         }
     ]
 }

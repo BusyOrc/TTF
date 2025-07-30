@@ -112,4 +112,65 @@ event.addAdvanced(Item.of('youkaishomecoming:rumia_hairband'), (item, advanced, 
     text.add(Text.gold("将已经写好的普通样板放入其中，才能进行进一步处理"))
   })
 
+  event.addAdvanced('kubejs:inu', (item, advanced, text) => {
+    text.add(Text.gold("对狼右键使用德格米碎片后获得"))
+  })
+
+  event.addAdvanced('immortalers_delight:empty_bamboo_cup', (item, advanced, text) => {
+    text.add(Text.gold("溪竹茶喝完后剩下的杯子"))
+  })
+  event.addAdvanced('immortalers_delight:contains_tea_leisamboo', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在河流群系的挖掘产物，需要一片人工草地"))
+  })
+  event.addAdvanced('immortalers_delight:himekaido_seed', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在森林群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:pearlipearl', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在丛林群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:evolutcorn_grains', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在平原群系的挖掘产物"))
+  })
+  event.addAdvanced('immortalers_delight:kwat_wheat_seeds', (item, advanced, text) => {
+    text.add(Text.gold("嗅探兽在绯红森林群系的挖掘产物，需要一片人工草地"))
+  })
+  event.addAdvanced('touhou_little_maid:garage_kit', (item, advanced, text) => {
+    text.add(Text.gold("任意造型的手办均可用于配方合成"))
+  })
+  event.addAdvanced('irons_spellbooks:blood_upgrade_orb', (item, advanced, text) => {
+    text.add(Text.gold("可与蕾米莉亚交换匠魂材料"))
+  })
+  event.addAdvanced('ars_nouveau:summon_focus', (item, advanced, text) => {
+    text.add(Text.gold("强化召唤物，并且将作用于自身的法术应用于召唤物上"))
+  })
+  event.addAdvanced('irons_spellbooks:keeper_flamberge', (item, advanced, text) => {
+    text.add(Text.gold("由远古骑士掉落"))
+  })
+  event.addAdvanced('sakuratinker:fox_mask', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于100点时，可消耗50点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主手需要：破败焰形剑"))
+  })
+
+  event.addAdvanced('immortalers_delight:golden_himekaido', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于120时，可消耗60灵视在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：风暴精华，凋灵合金锭"))
+  })
+
+event.addAdvanced('mbd2:nuclear_plant', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于180点时，可消耗30点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：钻石块，腾炎块"))
+  })
+
+  event.addAdvanced('kubejs:kosuzu', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于150点时，可消耗80点在仪式火盆处兑换得到"))
+    text.add(Text.gold("主副手分别需要：远古知识碎片，附魔书"))
+  })
+
+    event.addAdvanced('farmersdelight:straw_bale', (item, advanced, text) => {
+    text.add(Text.gold("灵视大于10点时，可消耗5点灵视与此物品"))
+    text.add(Text.gold("在仪式火盆处兑换随机农作物"))
+  })
+event.addAdvanced('kubejs:seija', (item, advanced, text) => {
+    text.add(Text.gold("除了多方块合成，似乎还有一种特殊的，符合“下克上”原则的获得方式"))
+  })
 })

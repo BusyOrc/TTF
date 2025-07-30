@@ -1962,15 +1962,22 @@
 			y: 9.0d
 		}
 		{
-			description: ["矿石树苗现在也可以用玛玉灵块+辣椒转换仪式来获取了，但是概率很低，只有10%"]
+			description: [
+				"矿石树苗现在也可以用玛玉灵块+辣椒转换仪式来获取了，但是概率很低，只有10%"
+				""
+				"或者，去暮色森林特定的结构中寻找，可以用指南针搜索，请看——"
+				""
+				"{ \"text\": \"暮色额外结构\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06FEC1E851FC5556\" } }"
+			]
 			id: "54AE0C1B0F0713BD"
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "6613B4D30256BE71"
 				item: "twilightforest:mining_sapling"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 8.0d
 		}
 		{

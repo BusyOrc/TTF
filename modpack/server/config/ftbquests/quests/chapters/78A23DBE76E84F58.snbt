@@ -473,6 +473,7 @@
 				"原来是魔理沙让你来找我 好呀 你想知道什么？"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "3EC355FF7D06096A"
@@ -487,7 +488,7 @@
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
-			description: ["秋穰子：野生茶叶可以在&a繁花&a森林&f或是&d樱花树林&f的地上找到，也能取得茶籽后在耕地上耕种。"]
+			description: ["秋穰子：野生茶叶可以在&2繁花森林&r，&a草原&r，&d樱花树林&r，&7雪林&r，任何山上找到，也能取得茶籽后在耕地上耕种。"]
 			hide_dependency_lines: true
 			icon: "youkaishomecoming:tea_leaves"
 			id: "1222C1C5985B3AC7"
@@ -573,7 +574,7 @@
 		{
 			dependencies: ["3EC355FF7D06096A"]
 			description: [
-				"秋穰子:黄豆可以在&2沼泽地区&f或是&2丛林地区&r找到，也能在耕地上耕种。"
+				"秋穰子:黄豆可以在&2沼泽地区&f或是&2丛林地区&r，还有&8黑森林地区&r找到，也能在耕地上耕种。"
 				"破坏或是收成后掉落豆荚，需要在砧板上处理。"
 			]
 			hide_dependency_lines: true
@@ -604,7 +605,7 @@
 		{
 			dependencies: ["3EC355FF7D06096A"]
 			description: [
-				"秋穰子：咖啡可以在&2雨林&f里找到，破坏后或是收成会掉落咖啡果，需要在砧板上切割成生咖啡豆才能在&8灰化土&f上耕种。"
+				"秋穰子：咖啡可以在&2丛林&f里找到，破坏后或是收成会掉落咖啡果，需要在砧板上切割成生咖啡豆才能在&8灰化土&f上耕种。"
 				"如果想要使用的话还得将生咖啡豆 烘烤过再放置在砧板上捣碎使用。"
 			]
 			hide_dependency_lines: true
@@ -633,7 +634,7 @@
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
-			description: ["秋穰子：能够在&7白桦树林&f或是&2针叶林&f里找到野生赤小豆，破话后掉落红豆，可以在砂土或是粘土上进行耕种。"]
+			description: ["秋穰子：能够在&e太阳花田&r，&7白桦树林&f或是&2竹林&r里找到野生赤小豆，破话后掉落红豆，可以在砂土或是粘土上进行耕种。"]
 			hide_dependency_lines: true
 			icon: "youkaishomecoming:redbean"
 			id: "64ECA529EB703E94"
@@ -670,7 +671,7 @@
 			}]
 			title: "给他曝晒个七七四十九天！"
 			x: 8.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2572AC119D6D6ED5"]
@@ -687,14 +688,19 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2DC1A56063F3AF55"]
 			description: [
-				"秋穰子:将绿茶拿去烟熏炉烟熏就是&a红茶&f啦，注意是&4烟熏&f哦，别拿去篝火上烤了。"
+				"秋穰子:茶叶有四种处理方式。"
+				""
+				"将绿茶拿去烟熏炉烟熏就是&a红茶&f啦，注意是&4烟熏&f哦，别拿去篝火上烤了。"
+				""
 				"拿去篝火&a右键&f就可以放在上面烘烤，一下子就变成&a乌龙茶叶&f啦，注意是&4篝火烘烤&f，别拿去烟熏炉烟熏哦。"
-				"把绿茶拿去再晒一次就是&a白茶&f，就是这么简单！"
+				""
+				"把绿茶拿去再晒一次就是&a白茶&f。"
+				""
 				"将绿茶放在砧板上用铲子压碎就是&a抹茶&f啦。"
 			]
 			id: "0DBC0F2EA1445D90"
@@ -727,7 +733,7 @@
 			]
 			title: "更多茶叶！"
 			x: 12.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["12B2976416D8CFB0"]
@@ -777,7 +783,7 @@
 				type: "item"
 			}]
 			title: "2.3-2酿酒大业"
-			x: 7.5d
+			x: 6.75d
 			y: -1.5d
 		}
 		{
@@ -885,6 +891,9 @@
 				"29E67F135C9DD07A"
 				"2FDD23A864003F71"
 				"4222EEF207A5FA58"
+				"47461DA7FDF63E77"
+				"094065F0422C956E"
+				"42E4025A809377FA"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -904,7 +913,7 @@
 				"&e幻昙华（Phantom）&f：你和你发射的投掷物不发出声响，掉入虚空时会传送至世界顶端"
 				"月光下每三秒回血，如果是满月的话受到的伤害&4大幅度减少&f。"
 				"{@pagebreak}"
-				"&e无意识（Unconscious）&f：你&4不会成为生物的攻击目标&f。但在开启箱子或是进行攻击后消失。（战利品箱不会）"
+				"&e无意识（Unconscious）&f：你&4不会成为生物的攻击目标&f。但在开启箱子或是进行攻击后消失。"
 				"&e莫名的哀伤（Temporal Sadness）&f：降低你的攻击与移速。"
 				"&e极光（Aurora Glowing）&f：在你的视角，包含你在内的所有生物开始闪着&4R&aG&1B&f外框！"
 				"&e范围火焰（Fire Range)&f:你的周围所有生物会着火，你不受影响。"
@@ -1228,8 +1237,8 @@
 				type: "item"
 			}]
 			title: "防身火把"
-			x: 13.25d
-			y: -2.75d
+			x: 14.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1266,8 +1275,8 @@
 				type: "item"
 			}]
 			title: "破铜烂铁...？"
-			x: 13.25d
-			y: -0.25d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1303,79 +1312,7 @@
 				type: "item"
 			}]
 			title: "种子。"
-			x: 13.25d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:你可以看看我们的库存，有没有什么你需要的作物，拿点多余的作物来跟我们换取也是可以的"
-				""
-				"啊对了，幻昙花由于&a数量太稀少了&f，我们没办法给你太多。"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:wheat"
-			id: "00D9795C39402729"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "50A39636A4D196EF"
-				table_id: 7370107865032661769L
-				type: "choice"
-			}]
-			subtitle: "以物易物"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "55CF454E23AE2E76"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:crops"
-					}
-				}
-				title: "Any #forge:crops"
-				type: "item"
-			}]
-			title: "农作物以物易物"
-			x: 14.75d
-			y: -3.25d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:村里有些人专门养殖了一些家畜"
-				""
-				"他们貌似挺缺粮食的，可以拿作物跟他们换点。"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:beef"
-			id: "4E87FAA198B0B26E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D53B8B7DD162142"
-				table_id: 5484250606925767257L
-				type: "choice"
-			}]
-			subtitle: "以物易物"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "2A6EDD795BD2B59F"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:crops"
-					}
-				}
-				title: "Any #forge:crops"
-				type: "item"
-			}]
-			title: "畜牧业"
-			x: 14.75d
+			x: 14.0d
 			y: -1.5d
 		}
 		{
@@ -1404,7 +1341,7 @@
 			}]
 			title: "购买农作物"
 			x: 15.75d
-			y: -3.25d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1435,45 +1372,9 @@
 			dependencies: ["7D79F11DFB914EAC"]
 			description: [
 				"秋穰子:虽然村里并不靠海（"
-				"&m别问哪来的，问就是河童科技&r"
-				"他们貌似挺缺粮食的，可以拿作物跟他们换点。"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:salmon"
-			id: "7551482EF9F4ECF5"
-			rewards: [{
-				exclude_from_claim_all: true
-				icon: "minecraft:salmon"
-				id: "461A6FEA7893FB4E"
-				table_id: 3746654721553202421L
-				type: "choice"
-			}]
-			subtitle: "以物易物"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "154233FBA98720F6"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:crops"
-					}
-				}
-				title: "Any #forge:crops"
-				type: "item"
-			}]
-			title: "换得海产"
-			x: 14.75d
-			y: -0.25d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:虽然村里并不靠海（"
 				"&m别问哪来的，问就是河童科技震撼人心&r"
 			]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:salmon"
 			id: "662AEEA966A07EF9"
@@ -1493,82 +1394,7 @@
 			}]
 			title: "钱币购买海产"
 			x: 15.75d
-			y: -0.25d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:你想要卖点作物？没问题啊！来我看看。。。"
-				"                          (本任务提交不会有提示)"
-			]
-			disable_toast: true
-			hide_dependency_lines: true
-			icon: "minecraft:wheat"
-			id: "165A578F8C239170"
-			require_sequential_tasks: false
-			rewards: [{
-				auto: "no_toast"
-				count: 4
-				id: "3CDE86BC40216E5C"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			subtitle: "但是没有钱万万不能！"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "39FFB2F3A4E13709"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:crops"
-					}
-				}
-				title: "Any #forge:crops"
-				type: "item"
-			}]
-			title: "农作物换钱"
-			x: 16.75d
-			y: -2.75d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:你想要卖点肉换点钱？完全没问题！只是我要稍微收亿点关税，不过分吧"
-				"                         (本任务提交不会有提示)"
-			]
-			disable_toast: true
-			hide_dependency_lines: true
-			icon: "minecraft:mutton"
-			id: "0CDB3EF0A846BFC9"
-			rewards: [{
-				auto: "no_toast"
-				count: 6
-				id: "1B34CF93A76EDDB3"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			subtitle: "但是没有钱万万不能！"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "327628663B2A1689"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:foods/meat/raw"
-					}
-				}
-				title: "Any #forge:foods/meat/raw"
-				type: "item"
-			}]
-			title: "肉类贩卖"
-			x: 16.75d
-			y: -0.75d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1604,8 +1430,8 @@
 				type: "item"
 			}]
 			title: "种子"
-			x: 16.75d
-			y: -3.75d
+			x: 17.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1640,8 +1466,8 @@
 				type: "item"
 			}]
 			title: "酒"
-			x: 18.0d
-			y: -2.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7087617DAA184277"]
@@ -1766,6 +1592,119 @@
 			title: "最重要的工具"
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3EC355FF7D06096A"]
+			description: [
+				"秋穰子：葡萄会在以下群系刷新。"
+				""
+				"红葡萄与黑葡萄：&2针叶林&r"
+				""
+				"白葡萄：&7桦木森林&r与&e太阳花田&r"
+				""
+				"但是以上葡萄绝对不会在以下群系刷新。"
+				""
+				"任何丛林/任何沼泽。"
+				""
+				"葡萄种植时&e需要一根绳子&r来作为支撑，否则只会生长到11%。"
+			]
+			icon: "youkaishomecoming:red_grape"
+			id: "56A7C5C68C09B7B2"
+			subtitle: "raputa.mp3(bushi)"
+			tasks: [{
+				id: "6EE1AE10C84DEBB7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fruits/grape"
+					}
+				}
+				title: "Any #forge:fruits/grape"
+				type: "item"
+			}]
+			title: "葡萄"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EC355FF7D06096A"]
+			description: [
+				"秋穰子：黄瓜，据我所知村里的黄瓜销量有95%都是来着河童..."
+				"嘛，黄瓜生成条件还是很松的，只要&e有杉木的地方你都有几率&r可以看到。"
+			]
+			id: "16BDE4F7E5BB3F14"
+			subtitle: "河童们的最爱！"
+			tasks: [{
+				id: "26888CFD8C2562A3"
+				item: "youkaishomecoming:cucumber"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DCBE4A3084B8A20"]
+			description: ["秋穰子：蒸食，老祖宗的智慧，将蒸锅放置在火源下后，可以向上放置最多4个蒸笼,每个蒸笼都可以放入你要蒸熟的菜肴。接下来盖上蒸笼盖就会开始烹饪了。"]
+			id: "47461DA7FDF63E77"
+			tasks: [
+				{
+					id: "2EB41B4A2D49F7A1"
+					item: "youkaishomecoming:steamer_rack"
+					type: "item"
+				}
+				{
+					id: "50DC1111C65A74A9"
+					item: "youkaishomecoming:steamer_pot"
+					type: "item"
+				}
+				{
+					id: "563B5A23D1F15420"
+					item: "youkaishomecoming:steamer_lid"
+					type: "item"
+				}
+			]
+			title: "2.3-3 蒸蒸日上！"
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DCBE4A3084B8A20"]
+			description: [
+				"秋穰子：如果你有多余的葡萄的话，可以用木桶来做葡萄汁，再使用葡萄汁发酵成葡萄酒"
+				""
+				"葡萄汁只要把葡萄放入木桶，接下来洗好你的脚 踩压葡萄就可以了。"
+				""
+				"&7你什么意思叫做不洗才对味?"
+			]
+			id: "094065F0422C956E"
+			subtitle: "糯香柠檬汁什么时候有？gkd"
+			tasks: [{
+				id: "57B22359911967AD"
+				item: "youkaishomecoming:wood_basin"
+				type: "item"
+			}]
+			title: "2.3-4 脚踩葡萄酒...?"
+			x: 6.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DCBE4A3084B8A20"]
+			description: [
+				"秋穰子：料理台目前只有制作寿司的相关功能，详情请查看JEI 。"
+				""
+				"配方请按照顺序摆放，出现手的图案时对其空手右键即可将饭捏形或是卷成卷。"
+			]
+			id: "42E4025A809377FA"
+			subtitle: "回转寿司可能性（？）"
+			tasks: [{
+				id: "14355B144E7F2462"
+				item: "youkaishomecoming:cuisine_board"
+				type: "item"
+			}]
+			title: "2.3-5"
+			x: 8.25d
+			y: -2.5d
 		}
 	]
 	title: "秋姐妹的住处"

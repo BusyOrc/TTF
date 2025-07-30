@@ -1,0 +1,33 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DED",
+    "GAG",
+    "BFB"
+  ],
+  "key": {
+    "D": {
+      "item": "thermal:lumium_plate"
+    },
+	"E": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+	"G": {
+      "tag": "forge:storage_blocks/gunpowder"
+    },
+	"A": {
+      "item": "ltc2:peppers_red"
+    },
+	"B": {
+      "item": "minecraft:bone_block"
+    },
+	"F": {
+      "item": "immortalers_delight:crispy_yogurt_rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:overworldian_nights"
+}

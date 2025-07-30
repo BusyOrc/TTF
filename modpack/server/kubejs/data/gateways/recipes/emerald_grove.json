@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "FAF",
+    "FCF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "tag": "minecraft:flowers"
+    },
+	"A": {
+      "item": "touhou_little_maid:garage_kit"
+    },
+    "C":{
+      "item":"ltc2:peppers_red"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:emerald_grove"
+}

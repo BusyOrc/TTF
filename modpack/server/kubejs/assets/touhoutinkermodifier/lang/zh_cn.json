@@ -1,8 +1,6 @@
 {
 
-"modifier.touhoutinkermodifier.earth_light":"地球光",
-"modifier.touhoutinkermodifier.earth_light.flavor":"还可以从弃牌堆寻回一张牌——如果有弃牌堆的话",
-"modifier.touhoutinkermodifier.earth_light.description":"额外增加生命值和法力值恢复",
+
 "modifier.touhoutinkermodifier.moon_rabbit":"月兔",
 "modifier.touhoutinkermodifier.moon_rabbit.flavor":"天赋型选手",
 "modifier.touhoutinkermodifier.moon_rabbit.description":"增加箭矢速度，提高60%受治疗量",
@@ -140,7 +138,9 @@
 "modifier.touhoutinkermodifier.destroyer_of_world":"世界毁灭者",
 "modifier.touhoutinkermodifier.destroyer_of_world.flavor":"现在我成为了死神",
 "modifier.touhoutinkermodifier.destroyer_of_world.description":"分别增加一个能力槽，升级槽和防御槽。",
-
+"modifier.touhoutinkermodifier.fountain_magic":"魔力之泉",
+"modifier.touhoutinkermodifier.fountain_magic.flavor":"魔力充足，尽管取用",
+"modifier.touhoutinkermodifier.fountain_magic.description":"每级提高10基础法力回复速度和150点最大法力值。",
 "modifier.touhoutinkermodifier.crystalline_phase":"完美晶相",
 "modifier.touhoutinkermodifier.crystalline_phase.flavor":"奇妙的原子排列结构",
 "modifier.touhoutinkermodifier.crystalline_phase.description":"提升工具的伤害和耐久",
@@ -206,6 +206,29 @@
     "modifier.touhoutinkermodifier.lt_repair":"辣条修补",
     "modifier.touhoutinkermodifier.lt_repair.flavor":"工具已经羽化而登仙",
     "modifier.touhoutinkermodifier.lt_repair.description":"将工具放在副手或盔甲栏位时，食用辣条可修复工具",
+    "modifier.touhoutinkermodifier.warrior":"勇者",
+    "modifier.touhoutinkermodifier.warrior.flavor":"一定要救出公主呀",
+    "modifier.touhoutinkermodifier.warrior.description":"武器附加额外⑨+⑨+⑨点（27点）冰冷伤害，对敌人造成强力冰冻效果",
+    "modifier.touhoutinkermodifier.companion":"最好的伙伴",
+    "modifier.touhoutinkermodifier.companion.flavor":"这回不再是baka⑨了",
+    "modifier.touhoutinkermodifier.companion.description":"获得⑨%冰系法强",
     "modifier.touhoutinkermodifier.hermit_purple.resistance":"对末影生物的抗性",
-    "modifier.touhoutinkermodifier.photo.attack_damage":"对末影生物的伤害"
+    "modifier.touhoutinkermodifier.photo.attack_damage":"对末影生物的伤害",
+
+    "material.touhoutinkermodifier.devil":"小恶魔",
+    "material.touhoutinkermodifier.ex_rumia":"EX露米娅",
+    "material.touhoutinkermodifier.flandre":"芙兰朵露",
+    "material.touhoutinkermodifier.ice_warrior":"冰之勇者",
+    "material.touhoutinkermodifier.inu":"犬走椛",
+    "material.touhoutinkermodifier.kosuzu":"本居小铃",
+    "material.touhoutinkermodifier.meiling":"红美铃",
+    "material.touhoutinkermodifier.paru":"帕露西",
+    "material.touhoutinkermodifier.patch":"帕秋莉",
+    "material.touhoutinkermodifier.patch_slime":"黏液帕秋莉",
+    "material.touhoutinkermodifier.remilia":"蕾米莉亚",
+    "material.touhoutinkermodifier.rumia":"露米娅",
+    "material.touhoutinkermodifier.sakuya":"咲夜",
+    "material.touhoutinkermodifier.sannyo":"驹草山如",
+    "material.touhoutinkermodifier.wakasagihime":"若鹭姬"
+
 }

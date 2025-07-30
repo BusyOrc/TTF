@@ -205,10 +205,6 @@
 								}
 								{
 									level: 1
-									name: "tinkers_thinking:prickly"
-								}
-								{
-									level: 1
 									name: "tconstruct:silky_shears"
 								}
 								{
@@ -229,11 +225,11 @@
 								"tconstruct:accuracy": 0.85f
 								"tconstruct:armor": 1.0f
 								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:attack_damage": 7.965f
-								"tconstruct:attack_speed": 1.4f
-								"tconstruct:durability": 1793.1376f
+								"tconstruct:attack_damage": 7.2275004f
+								"tconstruct:attack_speed": 1.4399999f
+								"tconstruct:durability": 1741.9053f
 								"tconstruct:harvest_tier": "minecraft:diamond"
-								"tconstruct:mining_speed": 4.55625f
+								"tconstruct:mining_speed": 4.75875f
 								"tconstruct:projectile_damage": 2.5f
 							}
 							tic_upgrades: [
@@ -934,6 +930,8 @@
 				"根据&a记忆中的幻想乡&r教程书中的多方块结构投影，使用&b红色羊毛和任意原木&r即可完成祭坛的搭建，大部分女仆的重要材料都在这里合成，包括还可以合成驯养革新相关的部分附魔书"
 				""
 				"&l不需要重新制作这本书&r，只需要利用小恶魔的能力，从阿卡什宝典中就能立刻找到这本书"
+				""
+				"{ \"text\": \"女仆介绍\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"048266508AAAAEBF\" } }"
 			]
 			icon: {
 				Count: 1
@@ -964,69 +962,6 @@
 			title: "1.7 搭建祭坛"
 			x: 7.0d
 			y: 2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["13025B20518A9BD2"]
-			description: ["提高当前难度等级20点，仅影响自己的难度，服务器中不同玩家的难度相互独立"]
-			icon: {
-				Count: 1
-				id: "twilightforest:wither_skeleton_skull_candle"
-				tag: {
-					BlockEntityTag: {
-						CandleAmount: 1
-						CandleColor: 0
-					}
-				}
-			}
-			id: "51E8930E163FB897"
-			rewards: [{
-				auto: "disabled"
-				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 20"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "35AC873CDD7D63E5"
-				team_reward: false
-				type: "command"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "37F145EAE526EA93"
-				type: "checkmark"
-			}]
-			title: "1.8 勇敢勇敢我的朋友"
-			x: 8.25d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			description: [
-				"&l如果你能看到这个任务，说明你在编辑模式下，正常模式下这个任务不可见"
-				"&r"
-				"降低当前难度20点，或者你也可以手动输入指令"
-			]
-			icon: "minecraft:totem_of_undying"
-			id: "5DC59FDCCE6E5FB7"
-			invisible: true
-			optional: true
-			rewards: [{
-				command: "/improvedmobs difficulty player @s[type=minecraft:player] add -20"
-				elevate_perms: true
-				id: "40D8312865F7AC6E"
-				type: "command"
-			}]
-			shape: "rsquare"
-			size: 4.0d
-			tasks: [{
-				consume_items: true
-				id: "07C5E918F19E5AFE"
-				item: "minecraft:command_block"
-				type: "item"
-			}]
-			title: "1.9 技术性调整"
-			x: 8.0d
-			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -1329,13 +1264,16 @@
 			y: 3.720238095238095d
 		}
 		{
-			dependencies: ["13025B20518A9BD2"]
+			dependencies: [
+				"13025B20518A9BD2"
+				"6389A50EEDE19A53"
+			]
 			description: [
-				"灵梦：最近我发现一些异变的妖怪似乎拿起了小伞做的匠魂武器，也不知道是如何做到的，但是在退治异变的时候我发现，似乎可以通过一些手段来&a增强这些敌人持有的武器&r。"
+				"灵梦：最近我发现一些异变的妖怪似乎拿起了小伞做的匠魂武器，也不知道是如何做到的，但是在退治异变的时候我发现，这些妖怪拿的匠魂材料等级和&d灵视&r有关"
 				""
-				"虽然敌人战斗力会更强，但是击败后也有&a小概率掉落相应的武器&r。如果你愿意冒这个险，就来试试吧"
+				"虽然高灵视情况下敌人战斗力会更强，但是击败后也有&a小概率掉落相应的武器&r。如果你愿意冒这个险，应该想方设法提高自己的灵视。"
 				""
-				"那么，你想要面对更强的敌人，&b对吗&r？"
+				"还不知道如何提高自己的灵视？刚刚不是才讲过？"
 			]
 			icon: {
 				Count: 1
@@ -1410,93 +1348,6 @@
 			y: -0.5d
 		}
 		{
-			can_repeat: true
-			dependencies: ["4AF3B5DC86723CE3"]
-			description: [
-				"灵梦：好了，利用一块邪恶水晶碎片作为魔力的引导，部分敌人的武器现在变得更强了，从原来的1级匠魂工具变为了最高2级"
-				""
-				"尽管暴毙的风险更高了，但是说不定也能收获更多？谁知道呢"
-				""
-				"（&a反复完成该任务不会叠加&r，如果需要继续提升，请完成下面的后续任务，每份任务的提升是独立的，互不干扰，如果要降低难度，则需要去对应的任务中降低）"
-			]
-			icon: "minecraft:red_glazed_terracotta"
-			id: "4FC4FDE2CC125B7C"
-			rewards: [{
-				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_1"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "4771E6D2A955913B"
-				silent: true
-				type: "command"
-			}]
-			subtitle: "对吗？不对吧"
-			tasks: [{
-				consume_items: true
-				id: "66849CA65C4FBAA9"
-				item: "hmag:evil_crystal_fragment"
-				type: "item"
-			}]
-			title: "对的对的对的"
-			x: 13.0d
-			y: -2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4AF3B5DC86723CE3"]
-			description: [
-				"灵梦：如果要消除额外魔力带来的影响，需要用到一个手办，这样的话，敌人只会拥有最初级的1级匠魂工具"
-				""
-				"只有在你&c已经提高了敌人工具强度&r的情况下才会生效，&a否则不会有任何作用&r"
-			]
-			icon: "minecraft:lime_glazed_terracotta"
-			id: "4E81437A4FC1C383"
-			rewards: [{
-				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_1"
-				elevate_perms: true
-				id: "1144EB9EA1068CE9"
-				type: "command"
-			}]
-			subtitle: "好像是对的？"
-			tasks: [{
-				consume_items: true
-				id: "196F77F1D27CFDE1"
-				item: {
-					Count: 1
-					id: "touhou_little_maid:garage_kit"
-					tag: {
-						EntityInfo: {
-							IsYsmModel: 0b
-							MaidTaskDataMaps: { }
-							ModelId: "touhou_little_maid_old:yuuka_old"
-							id: "touhou_little_maid:maid"
-						}
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "不对不对，我说不对"
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"4FC4FDE2CC125B7C"
-				"4E81437A4FC1C383"
-			]
-			description: ["灵梦：所以你到底是要还是不要？就问你要不要吧？"]
-			hide_until_deps_complete: true
-			icon: "minecraft:tnt_minecart"
-			id: "24477AEA2FEBED50"
-			tasks: [{
-				id: "7B20E64B790E869C"
-				type: "checkmark"
-			}]
-			title: "噢布莱克斯"
-			x: 15.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["4AF3B5DC86723CE3"]
 			description: ["灵梦：如果你觉得还不够，可以考虑让敌人能获得更强力的武器类型，例如巨剑等。目前敌人仅会持有相对基础的匠魂武器。"]
 			icon: {
@@ -1558,227 +1409,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4AF3B5DC86723CE3"]
-			description: [
-				"灵梦：还想要提升难度吗？可以的哦，这样的话，算上之前的提升，敌人最高会持有3级匠魂工具"
-				""
-				"如果后悔了，也&b可以取消&r"
-			]
-			icon: {
-				Count: 1
-				id: "tconstruct:excavator"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "760d1eae-3804-48ba-8e22-47559e69e578"
-					tic_broken: 0b
-					tic_materials: [
-						"sakuratinker:fiery_crystal"
-						"sakuratinker:fiery_crystal"
-						"sakuratinker:fiery_crystal"
-						"sakuratinker:fiery_crystal"
-					]
-					tic_modifiers: [
-						{
-							level: 4
-							name: "sakuratinker:twilight_sparkle"
-						}
-						{
-							level: 4
-							name: "sakuratinker:twilight_remembrance"
-						}
-						{
-							level: 2
-							name: "tconstruct:knockback"
-						}
-						{
-							level: 1
-							name: "tconstruct:pathing"
-						}
-					]
-					tic_multipliers: {
-						"tconstruct:attack_damage": 1.2f
-						"tconstruct:durability": 3.75f
-						"tconstruct:mining_speed": 0.3f
-					}
-					tic_persistent: { }
-					tic_stats: {
-						"tconstruct:attack_damage": 11.73f
-						"tconstruct:attack_speed": 1.1f
-						"tconstruct:durability": 4839.75f
-						"tconstruct:harvest_tier": "minecraft:diamond"
-						"tconstruct:mining_speed": 2.16f
-					}
-					tic_volatile_data: {
-						abilities: 1
-						upgrades: 2
-					}
-				}
-			}
-			id: "35B5E5C18E78A85D"
-			tasks: [{
-				id: "3A1148F5FD1DC342"
-				type: "checkmark"
-			}]
-			title: "更上一层楼"
-			x: 10.5d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["35B5E5C18E78A85D"]
-			description: ["提升后的材料等级：一个某位胖子不会数的数字"]
-			icon: "minecraft:red_glazed_terracotta"
-			id: "5921B121DA84F001"
-			rewards: [{
-				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_2"
-				elevate_perms: true
-				id: "5CC62CFEAFB1B0A6"
-				type: "command"
-			}]
-			subtitle: "增加1级敌人持有的材料等级"
-			tasks: [{
-				consume_items: true
-				id: "33E18DBCF4AF185C"
-				item: "hmag:evil_crystal"
-				type: "item"
-			}]
-			title: "喜加一"
-			x: 9.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["35B5E5C18E78A85D"]
-			description: ["虽然目前敌人工具强度降低了1级，但只要用帕秋莉的法术发动进攻，一切都会好起来的"]
-			icon: "minecraft:lime_glazed_terracotta"
-			id: "63DFF623B9E76101"
-			rewards: [{
-				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_2"
-				elevate_perms: true
-				id: "1861CA727DDF087B"
-				type: "command"
-			}]
-			subtitle: "降低1级敌人持有的材料等级"
-			tasks: [{
-				consume_items: true
-				id: "5B7CA8FC174E63F0"
-				item: "irons_spellbooks:rare_ink"
-				type: "item"
-			}]
-			title: "大家不要慌，一定是技术性调整"
-			x: 12.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["35B5E5C18E78A85D"]
-			description: ["灵梦：你确定还要继续吗？4级匠魂材料几乎都是最强材料，持有这种武器的敌人相当于解锁了全盛姿态，拼尽全力不可战胜。建议考虑清楚"]
-			icon: {
-				Count: 1
-				id: "sakuratinker:great_sword"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "5260526f-63b7-4871-9362-d868f382a761"
-					tic_broken: 0b
-					tic_materials: [
-						"tinkerscalibration:bamboosteel"
-						"tinkerscalibration:bamboosteel"
-						"tinkerscalibration:bamboosteel"
-						"tinkerscalibration:bamboosteel"
-						"tinkerscalibration:bamboosteel"
-					]
-					tic_modifiers: [
-						{
-							level: 5
-							name: "tinkerscalibration:bamboo_growing"
-						}
-						{
-							level: 1
-							name: "tconstruct:reach"
-						}
-						{
-							level: 1
-							name: "sakuratinker:heavy"
-						}
-					]
-					tic_multipliers: {
-						"tconstruct:attack_damage": 1.8f
-						"tconstruct:durability": 4.0f
-					}
-					tic_persistent: { }
-					tic_stats: {
-						"tconstruct:attack_damage": 24.354f
-						"tconstruct:attack_speed": 0.5f
-						"tconstruct:durability": 6930.0f
-						"tconstruct:harvest_tier": "minecraft:iron"
-						"tconstruct:mining_speed": 9.61875f
-					}
-					tic_volatile_data: {
-						abilities: 1
-						upgrades: 2
-					}
-				}
-			}
-			id: "70287163FD8AF8F1"
-			tasks: [{
-				id: "7AD40A1BE1F6ABE8"
-				type: "checkmark"
-			}]
-			title: "全盛姿态"
-			x: 10.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["70287163FD8AF8F1"]
-			description: ["&7&o我当初想直接开局挑战手持4级匠魂工具的敌人，怎么样，是不是很大胆？那可是开局挑战哦，但是我放弃了&r&r"]
-			icon: "minecraft:lime_glazed_terracotta"
-			id: "6ECC55AF08732D8A"
-			rewards: [{
-				command: "/advancement revoke @s only tconstruct_emergence:bonus_tier_3"
-				elevate_perms: true
-				id: "686544B49DB564EF"
-				type: "command"
-			}]
-			subtitle: "年轻人要讲武德"
-			tasks: [{
-				consume_items: true
-				count: 3L
-				id: "3952D8C9F0F61B56"
-				item: "hmag:ender_plasm"
-				type: "item"
-			}]
-			title: "《我放弃了提升难度》"
-			x: 12.0d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["70287163FD8AF8F1"]
-			description: ["已经抛弃繁文缛节了"]
-			icon: "minecraft:red_glazed_terracotta"
-			id: "7DE470F6B5B4370E"
-			rewards: [{
-				command: "/advancement grant @s only tconstruct_emergence:bonus_tier_3"
-				elevate_perms: true
-				id: "7559B07CC7C1FD47"
-				type: "command"
-			}]
-			subtitle: "增加1级敌人持有的材料等级"
-			tasks: [{
-				consume_items: true
-				id: "5CF7C1B9C5ECA706"
-				item: "minecraft:netherite_ingot"
-				type: "item"
-			}]
-			title: "全盛姿态启动"
-			x: 9.0d
-			y: 6.5d
-		}
-		{
 			can_repeat: true
 			dependencies: ["208D98BAC1512E9F"]
 			description: [
-				"在敌人快被打败的时候，敌人背包里的巨剑，双头刀，劈刀掉落在面前"
+				"在敌人快被打败的时候，敌人背包里的巨人剑，双头刀，劈刀掉落在面前"
 				""
 				"&o&7啊，原来你一直与我同在，我的导师，指引我的月光&r&r"
 			]
@@ -1867,6 +1501,82 @@
 			title: "去除暮色世界的封印"
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: [
+				"灵梦：灵视是&b每个人独立&r的一种“资源”，通过管理这种资源，可以找到符合自己风格的难度"
+				""
+				"首先，&a灵视不会自然获得，要获得灵视只能通过以下方法&r："
+				"1.完成特定任务"
+				"2.成功挑战永恒之门，关于这一点，可以去问一问哆来咪，&d更多灵视相关的信息也可以去问哆来咪&r"
+				"{ \"text\": \"梦境世界\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D02F16B0331B616\" } }"
+				"3.击败大部分BOSS均可获得不同的灵视"
+				""
+				"其次，尽管随着灵视提高，敌人的强度也会提高，但是女仆，傀儡装配的傀儡强度也会随之提高（以产生时的灵视为准），并且在高灵视下，还能&c看见个别平时无法看见的生物&r"
+				""
+				"另外，灵视还可以用于交易物品，这也是降低灵视的方法之一（另一种方法是在挑战永恒之门时失败）"
+				"如果需要用灵视交易，需要手持特定物品与&b仪式火盆&r互动，这样就能消耗自己的灵视让哆来咪吸收，只需要一瞬间，交易就已经完成了"
+				"{ \"text\": \"了解仪式火盆\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EEB0383390322ED\" } }"
+			]
+			icon: "simplehats:moreeyes"
+			id: "6389A50EEDE19A53"
+			rewards: [
+				{
+					id: "5C99F42D2A75359E"
+					type: "xp"
+					xp: 666
+				}
+				{
+					id: "4BD568697A1B2E70"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "经济学"
+			tasks: [{
+				id: "1A163330DD11F0BC"
+				type: "checkmark"
+			}]
+			title: "灵视"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "5A8BCD2E7EE4820A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76BE634E5F5AB39C"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "75F9B94CC9F791A2"
+				structure: "ttf:homo"
+				title: "发现红魔馆"
+				type: "structure"
+			}]
+			x: 9.25d
+			y: 1.75d
+		}
+		{
+			id: "24F354B402511BB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15287ED1EC3E9968"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C1CFCFC6F46B599"
+				structure: "ttf:alice"
+				title: "发现爱丽丝小屋"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 1.75d
 		}
 	]
 	title: "初遇灵梦"

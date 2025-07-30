@@ -20,9 +20,6 @@
 	youkaifiedProlongation = 9000
 
 [food_effect]
-	#Smoothing Healing Factor
-	#Range: 1.0 ~ 100.0
-	smoothingHealingFactor = 1.5
 	#Tea Healing Interval
 	#Range: 0 ~ 10000
 	teaHealingPeriod = 60
@@ -41,6 +38,9 @@
 	#Fairy Healing Factor
 	#Range: 1.0 ~ 100.0
 	fairyHealingFactor = 2.0
+	#Breathing Healing Factor
+	#Range: 1.0 ~ 100.0
+	breathingHealingFactor = 1.5
 
 [suwako_hat]
 	#Number of raiders with different types frogs need to eat in front of villager to drop Suwako hat
@@ -64,7 +64,7 @@
 	koishiAttackChance = 0.003
 	#Koishi attack damage
 	#Range: 0 ~ 100000000
-	koishiAttackDamage = 120
+	koishiAttackDamage = 90
 	#Number of times player needs to consecutively block Koishi attack to get hat
 	#Range: 0 ~ 100
 	koishiAttackBlockCount = 3
@@ -81,10 +81,10 @@
 	danmakuHealOnHitTarget = 0.2
 	#Player item cooldown for using danmaku
 	#Range: 5 ~ 1000
-	playerDanmakuCooldown = 10
+	playerDanmakuCooldown = 8
 	#Player item cooldown for using laser
 	#Range: 5 ~ 1000
-	playerLaserCooldown = 60
+	playerLaserCooldown = 50
 	#Player item cooldown for using spellcard
 	#Range: 5 ~ 1000
 	playerSpellCooldown = 40
@@ -159,12 +159,12 @@
 	cirnoSpawn = true
 	#Chance for fairy ice crystal to drop
 	#Range: 0.0 ~ 1.0
-	cirnoFairyDrop = 0.06
+	cirnoFairyDrop = 0.09
 	#Fairies will actively attack players with youkaifying/ed effects
 	fairyAttackYoukaified = true
 	#Chance for fairies to summon other fairies when killed by non-danmaku damage
 	#Range: 0.0 ~ 1.0
-	fairySummonReinforcement = 0.5
+	fairySummonReinforcement = 0.7
 
 [custom_spell]
 	#Max duration of custom spell allowed
@@ -179,14 +179,14 @@
 
 [touhou_little_maid]
 	#Replace Fairies from Touhou Little Maid with a neutral fairy
-	smallFairyReplacement = false
+	smallFairyReplacement = true
 	#Chance for small fairies to summon other fairies when killed by non-danmaku damage
 	#Range: 0.0 ~ 1.0
-	smallFairySummonReinforcement = 0.25
+	smallFairySummonReinforcement = 0.5
 	#Chance for small fairies to summon stronger fairies when they are set to summon reinforcements
 	#Range: 0.0 ~ 1.0
-	smallFairySummonStrongFairy = 0.1
+	smallFairySummonStrongFairy = 1.0
 	#Small Fairy spellcard strength
 	#Range: 0 ~ 4
-	smallFairyStrength = 2
+	smallFairyStrength = 4
 

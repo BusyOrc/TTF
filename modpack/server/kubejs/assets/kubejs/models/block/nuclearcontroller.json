@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_directional",
+  "textures": {
+    "north": "kubejs:block/nuclearcontroller1",  
+    "south": "kubejs:block/nuclearcontroller2",  
+    "east": "kubejs:block/nuclearcontroller2",   
+    "west": "kubejs:block/nuclearcontroller2",   
+    "up": "kubejs:block/nuclearcontroller2",     
+    "down": "kubejs:block/nuclearcontroller2"    
+  }
+}

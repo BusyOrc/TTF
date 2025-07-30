@@ -76,6 +76,12 @@ ServerEvents.recipes(event => {
         ]
       )
 
+      event.shapeless(
+        'tinkers_thinking:chromatic_crystal', 
+        ['tconstruct:ichor_slime_crystal', 'tinkers_thinking:magma_crystal', 'tconstruct:earth_slime_crystal', 'ae2:charged_certus_quartz_crystal',
+           'ae2:fluix_crystal', 'hmag:evil_crystal', 'tconstruct:sky_slime_crystal', 'minecraft:amethyst_shard', 'tconstruct:ender_slime_crystal']
+      )
+
 
       event.shapeless(
         'scannable:chest_module', 
@@ -293,31 +299,7 @@ event.replaceInput({output: '#jewelcraft:shadow'},
   Ingredient.of('minecraft:purple_dye'), 
   Ingredient.of('irons_spellbooks:arcane_essence'))
 
-//egg tomato
-/*
-event.shapeless('farmersdelight:fried_egg','vanillacookbook:cooked_egg')
-event.shapeless('vanillacookbook:cooked_egg','farmersdelight:fried_egg')
-event.shaped(
-  '3x farmersdelight:tomato', 
-  [
-    'AAA'
-  ],
-  {
-    A: 'thermal:tomato'
-    
-  }
-)
-event.shaped(
-  '3x thermal:tomato', 
-  [
-    'AAA'
-  ],
-  {
-    A: 'farmersdelight:tomato'
-    
-  }
-)
-*/
+
 event.shaped(
   'createoreexcavation:vein_finder',
   [
@@ -347,52 +329,6 @@ event.shaped(
     D:'cataclysm:void_core'
   }
 )
-/*
-event.shaped(
-  'immortalers_delight:golden_himekaido',
-  [
-'ABA',
-'CDC',
-'CBC'
-  ],
-  {
-    A:'quark:moss_paste',
-    B:'#forge:feathers',
-    C:'#forge:ingots/gold',
-    D:'immortalers_delight:himekaido'
-  }
-)
-  */
-/*
-event.shaped(
-  'ghasts_update:ghast_saddle',
-  [
-'   ',
-'AAA',
-'BCB'
-  ],
-  {
-    A:'minecraft:leather',
-    B:"minecraft:blue_wool",
-    C:'create:goggles'
-  }
-)
-
-event.shaped(
-  'ghasts_update:purple_ghast_saddle',
-  [
-'   ',
-'AAA',
-'BCB'
-  ],
-  {
-    A:'minecraft:leather',
-    B:"minecraft:purple_wool",
-    C:'create:goggles'
-  }
-)
-*/
-
 
 event.shaped('6x mystias_izakaya:nan_gua',
   ['PP'],
@@ -490,9 +426,24 @@ event.shaped('2x solarflux:sp_8',
   }
 )
 
-
-
-
+event.shaped('kubejs:flandre',
+  [
+    'ABC',
+    'DEF',
+    'GHI'
+  ],
+  {
+    A:'quark:red_corundum_pane',
+    B:'quark:orange_corundum_pane',
+    C:'quark:yellow_corundum_pane',
+    D:'quark:green_corundum_pane',
+    E:'tinkers_thinking:chromatic_crystal',
+    F:'quark:blue_corundum_pane',
+    G:'quark:indigo_corundum_pane',
+    H:'quark:violet_corundum_pane',
+    I:'quark:white_corundum_pane'
+  }
+)
 
 
 let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
@@ -502,9 +453,33 @@ for(let i of controllers){
 event.recipes.minecraft.stonecutting(i,'create_wizardry:arcane_casing')
 }
 
-
-
-
+event.shaped('4x dimension_of_caves:chimeric_cave_tablet',
+  [
+    'ACA',
+    'CBC',
+    'ACA'
+  ],
+  {
+    A:'advanced_ae:shattered_singularity',
+    B:'ae2:fluix_block',
+    C:'advanced_ae:quantum_processor'
+  }
+)
+/*
+event.shaped('kubejs:meiling',
+  [
+    'RBR',
+    'SDS',
+    'RBR'
+  ],
+  {
+    R:"#hmag:dragon_scales",
+    B:'#minecraft:beds',
+    S:'#comforts:sleeping_bags',
+    D:"supplementaries:netherite_door"
+  }
+)
+*/
 
 
 

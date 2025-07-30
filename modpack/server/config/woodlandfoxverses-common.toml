@@ -1,0 +1,20 @@
+
+[general]
+	#Enable or disable all Woodland Fox Verses features globally
+	GlobalEnabled = true
+	#The interval (in ticks) at which bubbles are added
+	#Range: > 10
+	BubbleAddInterval = 320
+	#The duration (in ticks) for which bubbles are shown
+	#Range: > 10
+	BubbleShowDuration = 300
+	#Whether to show math formulas in bubbles
+	ShowMathFormula = true
+	#Whether to show poetry in bubbles
+	ShowPoetry = true
+	#Whether to show words in bubbles
+	ShowWords = true
+	#The type of words to show in bubbles
+	#Allowed Values: ZHONGKAO, GAOKAO, CET4, CET6
+	WordsType = "CET4"
+

@@ -232,6 +232,8 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier("hmag:entities/stray_girl")
     .addLoot('irons_spellbooks:frozen_bone')
+    event.addLootTableModifier("hmag:entities/imp")
+    .addLoot('kubejs:devil').randomChance(0.2)
 
     event.addLootTableModifier("hmag:entities/wither_skeleton_girl")
     .addLoot('wstweaks:fragment')
@@ -261,6 +263,16 @@ event.addBlockLootModifier("biomesoplenty:barley").addLoot('thermal:barley');
     event.addLootTableModifier("youkaishomecoming:entities/shrine_maiden").addLoot('youkaishomecoming:reimu_hairband')
     event.addLootTableModifier("youkaishomecoming:entities/kochiya_sanae").addLoot('youkaishomecoming:suwako_hat')
 
+
+
+    event.addBlockLootModifier(['lightmanscurrency:coinblock_copper', 'lightmanscurrency:coinblock_iron',
+         'lightmanscurrency:coinblock_gold', 'lightmanscurrency:coinblock_emerald',
+          'lightmanscurrency:coinblock_diamond', 'lightmanscurrency:coinblock_netherite',
+          'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron',
+             'lightmanscurrency:coinpile_gold', 'lightmanscurrency:coinpile_emerald',
+              'lightmanscurrency:coinpile_diamond', 'lightmanscurrency:coinpile_netherite']).removeLoot(Ingredient.all)
+
 });
+
 
 

@@ -45,6 +45,7 @@
 			y: -4.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["赛特斯石英"]
 			image: "ae2:item/certus_quartz_crystal"
@@ -62,6 +63,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["充能赛特斯石英"]
 			image: "ae2:item/certus_quartz_crystal_charged"
@@ -1134,6 +1136,10 @@
 			description: [
 				"天子：对于&9并非&r100%成功的生产配方，如果需要自动化，可以将&a合成卡放入标准发信器&r中，左侧模式选择“发出信号以合成”，这样的话在终端里选择合成相应物品时，标准发信器就会发出红石信号，以方便控制相应生产设备的运行，等需要的成品已经制作足够以后，发信器就会停止红石信号。"
 				""
+				"或者换个说法，插入合成卡后，发信器就可以检测网络中的合成任务，当发信器所选择过滤的物品正在被制作时，发信器会亮起"
+				""
+				"模式二与模式一唯一的区别是，被设置检测的物品被网络下单制作时，所有样板供应器都不会发送任何原料，即使该物品的合成样板存在于网络"
+				""
 				"关于红石信号如何控制机器的问题，需要根据具体的情况单独设计。这部分内容为原版MC的红石电路，略，不难看出，同理可得，易得，感兴趣可自证。"
 			]
 			hide_until_deps_complete: false
@@ -1217,7 +1223,7 @@
 			]
 			title: "7.22 总线"
 			x: 13.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D23578203E76906"]
@@ -1251,7 +1257,7 @@
 			}]
 			title: "7.23 物品存储"
 			x: 13.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6663A2C41DE69B58"]
@@ -1274,7 +1280,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79BC809DD4B06127"]
@@ -1315,7 +1321,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["40370E2E92900A91"]
@@ -1446,10 +1452,18 @@
 					type: "item"
 				}
 				{
-					count: 2
+					count: 6
 					id: "10DE4E58BC8932A7"
 					item: "iceandfire:dragon_bone_block"
 					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/improvedmobs difficulty player @s[type=minecraft:player] add 40"
+					elevate_perms: true
+					id: "1984B809D798D90E"
+					title: "灵视+40"
+					type: "command"
 				}
 			]
 			shape: "rsquare"
@@ -1518,7 +1532,7 @@
 				}
 			]
 			x: 15.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["537552962A22FB7B"]
@@ -1606,7 +1620,7 @@
 				}
 			]
 			x: 13.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1CE3EA2EC9C3218A"]
@@ -1714,7 +1728,7 @@
 				{
 					count: 2L
 					id: "0375BBF74F3478EE"
-					item: { Count: 2, id: "ae2:me_p2p_tunnel" }
+					item: "ae2:me_p2p_tunnel"
 					type: "item"
 				}
 			]
@@ -1882,7 +1896,10 @@
 				""
 				"默认按键为N，如果没有反应，可在设置里自行调整"
 			]
+			icon: "quark:azalea_bookshelf"
 			id: "689896C1F2EF603F"
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "一些特殊说明"
 			tasks: [{
 				id: "0C2B260E2CD7180B"
@@ -1911,6 +1928,7 @@
 				""
 				"[ \"其次，如果能够正常打开界面放入样板（这一步推荐用样板管理终端进行），但是提示没有\", { \"text\": \"CPU\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"348EF2B3721119C8\" } }, \"，则需要再额外建造CPU才能正常工作\" ]"
 			]
+			icon: "ars_nouveau:deny_scroll"
 			id: "0BFAEF87139FE7EC"
 			tasks: [{
 				id: "60C6E1415B8BE67D"
@@ -1923,7 +1941,16 @@
 		{
 			dependencies: ["0BFAEF87139FE7EC"]
 			description: ["如果需要快速将工作台合成相关的样板快速放入装配矩阵中，可以采用这样的方式：将写好的样板作为输出总线的过滤（输出到装配矩阵里），加上模糊卡调整到75%，之后的其他合成相关样板只需要直接塞入AE网络，即可被自动输出到装配矩阵"]
+			icon: "ae2:cable_pattern_provider"
 			id: "72371DA596023DF1"
+			rewards: [{
+				auto: "enabled"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 30"
+				elevate_perms: true
+				id: "1880364E4403030A"
+				title: "灵视+30"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3D1AA9027E53DB3E"
 				type: "checkmark"
@@ -1976,7 +2003,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["537552962A22FB7B"]
@@ -2022,7 +2049,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["43F301A1EBCE3923"]
@@ -2071,12 +2098,12 @@
 				{
 					count: 2L
 					id: "2EC596C33BD387AA"
-					item: { Count: 2, id: "minecraft:cobblestone" }
+					item: "minecraft:cobblestone"
 					type: "item"
 				}
 			]
 			title: "量产陨石"
-			x: 0.0d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -2191,7 +2218,7 @@
 			}]
 			title: "额外戒指位"
 			x: 15.0d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
@@ -2347,6 +2374,14 @@
 			]
 			icon: "alexsmobs:straddlite_block"
 			id: "4BFEBE04214AA85A"
+			rewards: [{
+				auto: "enabled"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 25"
+				elevate_perms: true
+				id: "74C96DDE1B1E322C"
+				title: "灵视+25"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3C402AC8B982C4CD"
 				type: "checkmark"
@@ -2696,7 +2731,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["天子：你肯定觉得做一个包含所有所需终端的通用终端很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"]
+			description: ["天子：你肯定觉得做一个&d包含所有所需终端的通用终端&r很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"]
 			icon: "meetyourfight:violet_bloom"
 			id: "78B3C2822BE5035E"
 			rewards: [{
@@ -2718,10 +2753,11 @@
 					consume_items: true
 					count: 3L
 					id: "119D319F2F277518"
-					item: { Count: 3, id: "ae2:fluix_pearl" }
+					item: "ae2:fluix_pearl"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4AFFF1B6226BCC9F"
 					item: "meetyourfight:violet_bloom"
 					type: "item"
@@ -2741,20 +2777,30 @@
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["1D6CC8776D005A6E"]
+			dependencies: [
+				"1D6CC8776D005A6E"
+				"7F9245713311EE21"
+			]
+			dependency_requirement: "one_completed"
 			description: ["升级版，可以让服务器中绑定了ME网络（无线访问点）的玩家用无线终端在任何维度访问ME网络"]
 			id: "78D1F728B9670475"
+			rewards: [{
+				count: 8
+				id: "6373BB6EEA820694"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6F029678B0ED3F92"
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.5d
 			y: -5.0d
 		}
 		{
@@ -2800,7 +2846,7 @@
 					consume_items: true
 					count: 4L
 					id: "09AC259E30AEE465"
-					item: { Count: 4, id: "advanced_ae:quantum_alloy_plate" }
+					item: "advanced_ae:quantum_alloy_plate"
 					type: "item"
 				}
 				{
@@ -2851,14 +2897,14 @@
 					consume_items: true
 					count: 4L
 					id: "49721806586B6F65"
-					item: { Count: 2, id: "alexscaves:azure_neodymium_ingot" }
+					item: "alexscaves:azure_neodymium_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
 					id: "2539D5D3ECFE66AD"
-					item: { Count: 8, id: "youkaishomecoming:flesh_feast" }
+					item: "youkaishomecoming:flesh_feast"
 					type: "item"
 				}
 				{
@@ -2902,7 +2948,7 @@
 					count: 16L
 					id: "006043AF7D1C591A"
 					item: {
-						Count: 16
+						Count: 1
 						id: "tconstruct:repair_kit"
 						tag: {
 							Material: "tconstruct:bone"
@@ -2914,14 +2960,14 @@
 					consume_items: true
 					count: 64L
 					id: "6A86742DDAD1BB9B"
-					item: { Count: 16, id: "minecraft:bone_meal" }
+					item: "minecraft:bone_meal"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 16L
 					id: "502918ADF1089772"
-					item: { Count: 8, id: "create:iron_sheet" }
+					item: "create:iron_sheet"
 					type: "item"
 				}
 				{
@@ -2964,7 +3010,7 @@
 					consume_items: true
 					count: 16L
 					id: "7F14E865B55279C3"
-					item: { Count: 4, id: "tofucraft:tofudiamond" }
+					item: "tofucraft:tofudiamond"
 					type: "item"
 				}
 				{
@@ -2990,13 +3036,41 @@
 					consume_items: true
 					count: 16L
 					id: "3B3954EB32FD4C87"
-					item: { Count: 16, id: "ars_nouveau:source_gem_block" }
+					item: "ars_nouveau:source_gem_block"
 					type: "item"
 				}
 			]
 			title: "无限豆奶"
 			x: 19.5d
 			y: 4.5d
+		}
+		{
+			description: ["天子：或许自己来制造维度卡比较麻烦，不过没关系，你帮我再找点研究素材过来，天庭多余的维度卡就直接送给你了"]
+			icon: "cataclysm:lacrima"
+			id: "7F9245713311EE21"
+			rewards: [{
+				id: "5CAF990C8EF288B0"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "614CA0F837A75217"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "56D490D0312FD555"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+			]
+			title: "素材回收"
+			x: 13.75d
+			y: -5.0d
 		}
 	]
 	title: "有顶天(AE)"

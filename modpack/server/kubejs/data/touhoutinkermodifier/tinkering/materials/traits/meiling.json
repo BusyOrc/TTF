@@ -1,0 +1,30 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:rainbowtaichi"
+      },
+      {
+          "level": 1,
+          "name": "touhoutinkermodifier:bengshancaiji"
+      }
+    ],
+    "perStat": {
+      "tconstruct:ranged": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:fanghuaxuanlan"
+        },
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:bengshancaiji"
+        }
+      ],
+      "tconstruct:armor": [
+        {
+          "level": 1,
+          "name": "touhoutinkermodifier:rainbowtaichi"
+        }
+      ]
+    }
+  }

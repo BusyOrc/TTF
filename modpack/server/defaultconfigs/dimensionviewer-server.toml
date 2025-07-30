@@ -50,5 +50,5 @@
 		#A list of aliases to use instead of the original dimension ID.
 		#Uses the format 'modid:dim_id New Name'.
 		#For example, to replace 'Overworld' with 'Grasslands' you would use 'minecraft:overworld Grasslands'
-		dimensionAliases = ['tofucraft:tofu_world 豆腐世界', 'twilightforest:twilight_forest 暮色森林', 'minecraft:overworld 幻想乡', 'minecraft:nether 旧地狱', 'minecraft:the_end 月都']
+		dimensionAliases = ['tofucraft:tofu_world 豆腐世界', 'twilightforest:twilight_forest 暮色森林', 'minecraft:overworld 幻想乡', 'minecraft:the_nether 旧地狱', 'minecraft:the_end 月都']
 

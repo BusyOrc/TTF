@@ -91,7 +91,7 @@
 				"item": "golden_sword"
 			}
 		},
-		"description": "消耗技能点：§a3",
+		"description": "消耗技能点：§a4",
 		"cost": 4,
 		"rewards": [
 			{
@@ -157,14 +157,14 @@
 	},
 	"armorpierce+5%": {
 		"title": "+5%盔甲撕裂",
-		"description": "消耗技能点：§a2\n在盔甲穿透前结算，无视百分比护甲",
+		"description": "消耗技能点：§a3\n在盔甲穿透前结算，无视百分比护甲",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "iron_axe"
 			}
 		},
-		"cost": 2,
+		"cost": 3,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -180,21 +180,21 @@
 		}
 	},
 	"draw_speed+5%": {
-		"title": "+5%蓄力速度",
+		"title": "+8%蓄力速度",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "iceandfire:dragonbone_bow"
 			}
 		},
-		"description": "消耗技能点：§a2",
-		"cost": 2,
+		"description": "消耗技能点：§a4",
+		"cost": 4,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:draw_speed",
-					"value": 0.05,
+					"value": 0.08,
 					"operation": "multiply_total"
 				}
 			}
@@ -211,8 +211,8 @@
 				"item": "minecraft:diamond_helmet"
 			}
 		},
-		"description": "消耗技能点：§a3",
-		"cost": 3,
+		"description": "消耗技能点：§a6",
+		"cost": 6,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -229,14 +229,14 @@
 	},
 	"armor_pierce+2": {
 		"title": "+4盔甲穿透",
-		"description": "消耗技能点：§a1\n在盔甲撕裂之后结算，忽视敌人护甲，最低为0",
+		"description": "消耗技能点：§a2\n在盔甲撕裂之后结算，忽视敌人护甲，最低为0",
 		"icon": {
 			"type": "effect",
 			"data": {
 				"effect": "attributeslib:sundering"
 			}
 		},
-		"cost": 1,
+		"cost": 2,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -259,8 +259,8 @@
 				"item": "arrow"
 			}
 		},
-		"description": "消耗技能点：§a2",
-		"cost": 2,
+		"description": "消耗技能点：§a5",
+		"cost": 5,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -301,14 +301,14 @@
 	},
 	"fighter": {
 		"title": "取得孙美天留下的残存力量",
-		"description": "消耗技能点：§a5§r\n§4 -15%闪避率§r\n§a+12%暴击率，+5%生命偷取，+7盔甲穿透\n§9史蒂夫，念你平日屠龙有功，这份力量赐予你了",
+		"description": "消耗技能点：§a8§r\n§4 -15%闪避率§r\n§a+12%暴击率，+5%生命偷取，+7盔甲穿透\n§9史蒂夫，念你平日屠龙有功，这份力量赐予你了",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "wstweaks:blaze_blade"
 			}
 		},
-		"cost": 5,
+		"cost": 8,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -349,14 +349,14 @@
 	},
 	"archer": {
 		"title": "取得永琳留下的残存力量",
-		"description": "消耗技能点：§a4§r\n§4 -15%受治疗量，-10%击退抗性§r\n§a+30%蓄力速度，+10%闪避率，+7盔甲穿透，+30%弹射物伤害\n§9完整的医术能治愈苍生，可惜不完整的力量只会摧残身体",
+		"description": "消耗技能点：§a7§r\n§4 -15%受治疗量，-10%击退抗性§r\n§a+30%蓄力速度，+10%闪避率，+7盔甲穿透，+30%弹射物伤害\n§9完整的医术能治愈苍生，可惜不完整的力量只会摧残身体",
 		"icon": {
 			"type": "item",
 			"data": {
 				"item": "aquaculture:neptunium_bow"
 			}
 		},
-		"cost": 4,
+		"cost": 7,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -419,8 +419,8 @@
 				"item": "touhou_little_maid:nimble_fabric"
 			}
 		},
-		"description": "消耗技能点：§a6",
-		"cost": 6,
+		"description": "消耗技能点：§a7",
+		"cost": 7,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -491,8 +491,8 @@
 				"effect": "irons_spellbooks:instant_mana"
 			}
 		},
-		"description": "消耗技能点：§a1",
-		"cost": 1,
+		"description": "消耗技能点：§a2",
+		"cost": 2,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -515,8 +515,8 @@
 				"effect": "irons_spellbooks:instant_mana"
 			}
 		},
-		"description": "消耗技能点：§a2",
-		"cost": 2,
+		"description": "消耗技能点：§a4",
+		"cost": 4,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -539,8 +539,8 @@
 				"item": "irons_spellbooks:hither_thither_wand"
 			}
 		},
-		"description": "消耗技能点：§a2",
-		"cost": 2,
+		"description": "消耗技能点：§a3",
+		"cost": 3,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -611,7 +611,8 @@
 				"item": "irons_spellbooks:arcane_essence"
 			}
 		},
-		"description": "消耗技能点：§a1",
+		"description": "消耗技能点：§a2",
+		"cost": 2,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -659,7 +660,7 @@
 				"item": "touhou_little_maid:bookshelf"
 			}
 		},
-		"cost": 12,
+		"cost": 24,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -731,7 +732,7 @@
 				"item": "youkaishomecoming:purple_butterfly_danmaku"
 			}
 		},
-		"cost": 16,
+		"cost": 27,
 		"rewards": [
 			{
 				"type": "pufferfish_unofficial_additions:effect",
@@ -787,7 +788,7 @@
 				"item": "youkaishomecoming:reimu_hairband"
 			}
 		},
-		"cost": 12,
+		"cost": 24,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -849,7 +850,7 @@
 				"item": "youkaishomecoming:koishi_hat"
 			}
 		},
-		"cost": 15,
+		"cost": 25,
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

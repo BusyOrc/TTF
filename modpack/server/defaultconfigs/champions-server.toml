@@ -57,10 +57,10 @@
 	[affixes.adaptable]
 		#The increase in damage reduction for each consecutive attack of the same damage type
 		#Range: 0.0 ~ 1.0
-		adaptableDamageReductionIncrement = 0.15
+		adaptableDamageReductionIncrement = 0.12
 		#The maximum damage reduction
 		#Range: 0.0 ~ 1.0
-		adaptableMaxDamageReduction = 1.0
+		adaptableMaxDamageReduction = 0.8
 
 	[affixes.arctic]
 		#How often the champion will shoot projectiles (in seconds)

@@ -5,6 +5,14 @@
 	group: "756D1B6269D2C725"
 	icon: "irons_spellbooks:cooldown_rune"
 	id: "67348DEFE07CC87E"
+	images: [{
+		height: 16.0d
+		image: "touhou_tinker_fantasy:textures/keineclass.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -10.0d
+		y: -4.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

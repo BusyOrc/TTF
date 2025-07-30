@@ -56,10 +56,10 @@
 	immolatorCooldown = 300
 	#Storm Bringer's LightningStorm Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ceraunus 's Lightning Storm Damage" = 6.0
+	"Ceraunus 's Lightning Storm Damage" = 12.0
 	#Ceraunus's Wave Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ceraunus's Wave Damage'" = 6.0
+	"Ceraunus's Wave Damage'" = 12.0
 	#Ceraunus's Cooldown
 	#Range: 0 ~ 1000000
 	"Ceraunus Cooldown" = 150
@@ -163,7 +163,7 @@
 	EnderguardianBlockBreaking = false
 	#Guardian's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Guardian's prevent attacks from far away Range" = 8.0
+	"Guardian's prevent attacks from far away Range" = 15.0
 	#Guardian's gravity Punch Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Guardian's gravity Punch Hp Damage" = 0.05
@@ -224,7 +224,7 @@
 	"Monstrosity's attack Hp Damage" = 0.08
 	#Monstrosity's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Monstrosity's prevent attacks from far away Range" = 8.0
+	"Monstrosity's prevent attacks from far away Range" = 16.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = false
 	#Monstrosity's DamageTime
@@ -312,7 +312,7 @@
 	"Harbinger's laser damage" = 10.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"The Harbinger's prevent attacks from far away Range" = 8.0
+	"The Harbinger's prevent attacks from far away Range" = 12.0
 	#Harbinger's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	"The Harbinger DamageCap" = 120.0
@@ -391,7 +391,7 @@
 	AmethystCrabEarthQuakeDamage = 5.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 1.0
+	AmethystCrabDamageMultiplier = 2.0
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
@@ -405,7 +405,7 @@
 	AncientRemnantNatureHealing = 10.0
 	#Ancient Remnant's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ancient Remnant's prevent attacks from far away Range" = 8.0
+	"Ancient Remnant's prevent attacks from far away Range" = 15.0
 	#Ancient Remnant's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 200.0
@@ -470,7 +470,7 @@
 	MaledictusDamageMultiplier = 1.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Maledictus's prevent attacks from far away Range" = 8.0
+	"Maledictus's prevent attacks from far away Range" = 20.0
 	#Maledictus's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	MaledictusNatureHealing = 10.0
@@ -497,7 +497,7 @@
 	"Maledictus's Jump Smash Hp Damage" = 0.08
 	#Maledictus's Phantom Arrow's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Maledictus's Phantom Arrow Damage" = 5.0
+	"Maledictus's Phantom Arrow Damage" = 7.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
 	MaledictusBlockBreaking = false
 	#Maledictus's DamageTime
@@ -578,7 +578,7 @@
 	BossMusicVolume = 1
 	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
 	#Range: 0 ~ 200
-	ReturnHome = 20
+	ReturnHome = 30
 
 [Clawdian]
 	#Clawdian's Health Multiplier
@@ -597,7 +597,7 @@
 	ScyllaDamageMultiplier = 1.5
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Scylla's prevent attacks from far away Range" = 8.0
+	"Scylla's prevent attacks from far away Range" = 15.0
 	#Scylla's Spear Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Spear Damage" = 14.0

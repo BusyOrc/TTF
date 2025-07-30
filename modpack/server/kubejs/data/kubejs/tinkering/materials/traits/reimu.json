@@ -3,7 +3,15 @@
       {
         "level":1,
         "name":"touhoutinkermodifier:reimu"
-      }
+      },
+      {
+        "level":1,
+        "name":"touhoutinkermodifier:jikicoercion"
+      },
+        {
+            "level": 1,
+            "name": "touhoutinkermodifier:fullfirepower"
+        }
     ],
     "perStat": {
       "tconstruct:armor": 
@@ -11,6 +19,10 @@
         {
             "level": 1,
             "name": "sakuratinker:celestial"
+        },
+        {
+            "level": 1,
+            "name": "touhoutinkermodifier:fullfirepower"
         }
       ]
     }

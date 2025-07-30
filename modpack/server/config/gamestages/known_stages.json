@@ -1,1 +1,3 @@
-["challenge_stage", "easy_stage", "first_login", "dev"]
+["hardcore_stage","challenge_stage",
+"normal_stage", "easy_stage","peaceful_stage",
+ "first_login", "dev", "youkai"]

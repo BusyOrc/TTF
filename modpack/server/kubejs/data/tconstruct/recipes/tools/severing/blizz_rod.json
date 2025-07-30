@@ -1,8 +1,0 @@
-{
-    "type": "tconstruct:severing",
-    "entity": {
-      "type":  "thermal:blizz"
-      
-    },
-    "result": "thermal:blizz_rod"
-  }

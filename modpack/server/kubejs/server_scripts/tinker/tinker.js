@@ -103,29 +103,9 @@ event.custom(
             "result": "kubejs:greatrune"
         })
     
- //       event.recipes.create.compacting('2x kubejs:youmus_dualswords', ['spartanweaponry:iron_katana','#youkaishomecoming:dango', 'spartanweaponry:iron_longsword']).heated()
 
-        //event.recipes.create.mixing('kubejs:baka_wings',['6x minecraft:blue_ice', Fluid.of("minecraft:water",1000)])
         event.recipes.create.mixing('kubejs:daiyouseis_bomb',['youkaishomecoming:fairy_ice_crystal','minecraft:lime_dye'])
 
-//秘封
-/*
-event.recipes.create.mechanical_crafting('9x kubejs:mysterious_hat', [
-
-  'BMBMB',
-  'ALLLA',
-  'ALSLA',
-  'ALLLA',
-  'ABMBA'
-], {
-A: '#forge:gears/emerald',
-B: '#forge:gears/signalum',
-L: 'mystias_izakaya:lian_zi',
-S: 'minecraft:writable_book',
-M: '#forge:dusts/ender_pearl'
-
-})
-*/
 event.custom(
   {
     "type": "tconstruct:alloy",
@@ -251,11 +231,40 @@ event.custom(
   }
 )
 
-//event.remove({output:"tconstruct:molten_netherite",input:'#tconstruct:parts'})
+//烈焰人炉子
+event.custom(
+    {
+        "type": "tconstruct:casting_basin",
+        "cast": {
+          "item": "create:empty_blaze_burner"
+        },
+        "cast_consumed": true,
+        "cooling_time": 180,
+        "fluid": {
+          "amount": 540,
+          "fluid": "tconstruct:blazing_blood"
+        },
+        "result":"create:blaze_burner"
+            
+      }
+    )
 
-
-
-
+event.custom(
+    {
+        "type": "tconstruct:casting_basin",
+        "cast": {
+          "item": "kubejs:little_devil"
+        },
+        "cast_consumed": true,
+        "cooling_time": 60,
+        "fluid": {
+          "amount": 1000,
+          "fluid": "starbunclemania:source_fluid"
+        },
+        "result":"kubejs:devil"
+            
+      }
+    )
 
 
 

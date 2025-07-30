@@ -27,6 +27,7 @@
       "type": "tconstruct:attribute",
       "each_level": -0.1,
       "operation": "addition",
+      "tooltip_style": "percent",
       "attribute": "attributeslib:dodge_chance",
       "unique": "tconstruct.modifier.riot_shield",
       "slots": [

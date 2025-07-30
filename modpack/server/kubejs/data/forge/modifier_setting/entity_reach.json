@@ -1,0 +1,17 @@
+{
+  "attributeType": "forge:entity_reach",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper"
+    ],
+    "permission": "blacklist"
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 0.0
+  }
+}

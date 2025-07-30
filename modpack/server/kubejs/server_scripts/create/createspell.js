@@ -112,7 +112,8 @@ event.recipes.create.sequenced_assembly(
 ]).transitionalItem(TI).loops(1)
 */
 
-
+event.recipes.create.mixing(Fluid.of("create_wizardry:mana",800),
+[Fluid.of("starbunclemania:source_fluid",600),'2x ars_nouveau:source_gem','4x quark:moss_paste']).heated()
 
 
 

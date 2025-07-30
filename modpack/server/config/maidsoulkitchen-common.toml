@@ -7,6 +7,8 @@
 	#The max number of the different type animal around when the maid breeds animals
 	#Range: 6 ~ 65536
 	FeedSingleAnimalMaxNumber = 20
+	#A list of blocks that the Culinary Hub cannot interact with.
+	BlackHubChestList = []
 
 [Register]
 	#This can make the berry farm task enabled or not.

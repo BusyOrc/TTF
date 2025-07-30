@@ -88,8 +88,8 @@
 			image: "cataclysm:textures/particle/phantom_wing_flame_0.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 16.25d
-			y: 1.0d
+			x: 16.5d
+			y: 2.0d
 		}
 		{
 			alpha: 180
@@ -106,8 +106,8 @@
 			image: "tconstruct:item/tool/hand_axe/head_tinkerscalibration_redmatter"
 			rotation: 0.0d
 			width: 6.0d
-			x: 27.5d
-			y: -8.5d
+			x: 27.0d
+			y: -10.5d
 		}
 		{
 			alpha: 180
@@ -142,8 +142,8 @@
 			image: "minecraft:block/soul_fire_0"
 			rotation: 0.0d
 			width: 4.0d
-			x: 3.0d
-			y: -8.25d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			alpha: 210
@@ -151,8 +151,8 @@
 			image: "ltc2:item/pepper_jalapeno"
 			rotation: 0.0d
 			width: 2.0d
-			x: 30.5d
-			y: -10.5d
+			x: 26.0d
+			y: -9.5d
 		}
 		{
 			height: 2.0d
@@ -191,8 +191,88 @@
 			image: "ltc2:block/peppers_bloody_stage7"
 			rotation: 0.0d
 			width: 2.0d
-			x: 31.0d
-			y: -6.5d
+			x: 30.5d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -14.5d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -11.5d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.25d
+			y: -1.0d
 		}
 	]
 	order_index: 0
@@ -317,7 +397,7 @@
 				}
 			]
 			title: "8.4 基础的熔炼"
-			x: 5.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -450,7 +530,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["59FD5AB9FF33A87C"]
+			dependencies: [
+				"59FD5AB9FF33A87C"
+				"327CB47AE3CD98AF"
+			]
 			description: [
 				"小伞：简单的熔炼当然不够啦 ，这时候就需要更好的熔炼方式。除了墙角和顶部以外都需要用&a焦黑方块&r等填充，必须要有一个&a控制器&r，为了能输入输出流体，&a排液孔&r也需要一个，&a滑槽&r则可以自动输入输出物品，除此之外，输入物品可以通过从上方投入或者打开控制器的界面放入"
 				"{@pagebreak}"
@@ -545,7 +628,7 @@
 				type: "item"
 			}]
 			title: "8.7 工匠砧"
-			x: 5.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -568,7 +651,7 @@
 				type: "checkmark"
 			}]
 			title: "8.8 远古工具"
-			x: 5.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -612,121 +695,8 @@
 				}
 			]
 			title: "8.9 焦褐熔炼"
-			x: 8.0d
+			x: 7.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["5ED241C44B8A8429"]
-			description: [
-				"这些材料相对容易获得，非常推荐。"
-				"需要特别说明的："
-				""
-				"瓶中云需要在云层高度用玻璃瓶右键获得"
-				""
-				"铃仙需要在&a夜雀食堂的电话&r中购买，所消耗的钱币可以用&a绿宝石&r合成来兑换，除此之外也可以用合成的方式"
-				""
-				"琪露诺的出现条件是玩家身上有&9妖怪化&r的buff，该buff可以通过食用&c怪肉&r获得"
-			]
-			icon: "kubejs:daiyouseis_bomb"
-			id: "3D3FD299B0D5752E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3CACEB533CF59727"
-					table_id: 6568354217492425317L
-					type: "random"
-				}
-				{
-					count: 4
-					id: "23A8A701346ACEEF"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "7E0DF1F60770134D"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:netherite_shulker_box"
-						tag: {
-							accentColor: 8439583
-							mainColor: 16701501
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "03FC2D26FD61A2E8"
-					item: "kubejs:daiyouseis_bomb"
-					type: "item"
-				}
-				{
-					id: "38FF2CF2EF3D9B67"
-					item: "kubejs:youmus_dualswords"
-					type: "item"
-				}
-				{
-					id: "08750B12D0845B50"
-					item: "kubejs:doremy_ingot"
-					type: "item"
-				}
-				{
-					id: "77C1AD5EDB24449D"
-					item: "kubejs:mysterious_hat"
-					type: "item"
-				}
-				{
-					id: "5C99B1815BC9B462"
-					item: "youkaishomecoming:fairy_ice_crystal"
-					type: "item"
-				}
-				{
-					id: "21BA56C5F1591289"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:reisen"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "值得留意的材料"
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5ED241C44B8A8429"]
-			description: ["&a灵魂鹫&r在下界灵魂沙峡谷可能出现，除此之外下界也有部分建筑结构中有灵魂鹫的刷怪笼"]
-			icon: "kubejs:komachis_scythe"
-			id: "6D1F4EC34D39A9D5"
-			rewards: [{
-				id: "2C9884E8A309695A"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:netherite_shulker_box"
-					tag: {
-						accentColor: 15961002
-						mainColor: 15961002
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "67C27E7D489966BF"
-					item: "kubejs:komachis_scythe"
-					type: "item"
-				}
-				{
-					id: "5F44B6AC82223985"
-					item: "kubejs:sakura"
-					type: "item"
-				}
-			]
-			title: "更多材料"
-			x: -4.0d
-			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -806,6 +776,8 @@
 				"注液生产效率更好"
 				""
 				"（BOP的血满足1024格液体阈值后也可&a无限抽取&r，虽然可能软管滑轮的UI不会显示“无限”，但测试结果为正常生效）"
+				""
+				"{ \"text\": \"所有可无限抽取的流体\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00E27A58740EFA00\" } }"
 			]
 			icon: "biomesoplenty:flesh"
 			id: "712B432E5EDE2DE3"
@@ -908,7 +880,7 @@
 			tasks: [{
 				count: 32L
 				id: "4E9576A28DB3AD9F"
-				item: { Count: 32, id: "thermal:sawdust" }
+				item: "thermal:sawdust"
 				type: "item"
 			}]
 			x: 7.0d
@@ -979,6 +951,14 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "enabled"
+					command: "/improvedmobs difficulty player @s[type=minecraft:player] add 20"
+					elevate_perms: true
+					id: "7F078A19A69868A8"
+					title: "灵视+20"
+					type: "command"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
@@ -989,30 +969,6 @@
 			title: "烈焰血，启动"
 			x: 7.0d
 			y: 11.0d
-		}
-		{
-			dependencies: ["5ED241C44B8A8429"]
-			description: ["材料：恋恋慕斯+乙烯+一氪+一氪=514=koishi"]
-			id: "220F4B304397C67A"
-			rewards: [{
-				id: "4DE185885D2D3C87"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:diamond_shulker_box"
-					tag: {
-						accentColor: 1481884
-						mainColor: 1481884
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7036D6CE9F0D0D66"
-				item: "kubejs:koishi_hat"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["7B0754F78D5C078A"]
@@ -1030,7 +986,7 @@
 				type: "checkmark"
 			}]
 			title: "8.11 工具强化"
-			x: 5.0d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -1085,7 +1041,7 @@
 				}
 			]
 			title: "8.12 可改进强化"
-			x: 7.0d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -1152,13 +1108,12 @@
 							}
 						}
 						tic_stats: {
-							"tconstruct:accuracy": 0.85f
-							"tconstruct:attack_damage": 6.75f
-							"tconstruct:attack_speed": 1.6500001f
+							"tconstruct:attack_damage": 1.9f
+							"tconstruct:attack_speed": 1.3499999f
 							"tconstruct:draw_speed": 1.3f
-							"tconstruct:durability": 1209.0f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:mining_speed": 7.2000003f
+							"tconstruct:durability": 682.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:mining_speed": 4.0f
 							"tconstruct:tank_capacity": 3000.0f
 							"tconstruct:velocity": 1.1f
 						}
@@ -1212,11 +1167,11 @@
 				title: "重要的匠魂工具强化"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: -3.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["仅可用于头盔的强化，获得和恋恋钢盔类似效果"]
 			hide_dependency_lines: true
 			id: "2D05E6840513586D"
@@ -1225,6 +1180,7 @@
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "无意识的游走"
 			tasks: [{
 				id: "36DEF49E7EDE818A"
 				item: {
@@ -1237,11 +1193,11 @@
 				type: "item"
 			}]
 			title: "消失"
-			x: 14.5d
-			y: -2.5d
+			x: 24.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["需要消耗一个能力槽，但能提供强力的防护效果"]
 			hide_dependency_lines: true
 			icon: "tconstruct:seared_reinforcement"
@@ -1279,11 +1235,11 @@
 				}
 			]
 			title: "保护"
-			x: 14.5d
-			y: -4.5d
+			x: 16.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: [
 				"降低工具损失耐久度的概率，在面对高伤害攻击时相当有效，推荐给盔甲使用此强化，因为盔甲在受到高伤害时会损失更多耐久度"
 				""
@@ -1304,11 +1260,11 @@
 				type: "item"
 			}]
 			title: "加固"
-			x: 17.0d
-			y: -4.5d
+			x: 20.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["04900F581CAAE345"]
 			description: ["可用于任意匠魂工具，能够用钱包里的金钱自动修补物品，&a大部分空心原木均可&r"]
 			hide_dependency_lines: true
 			icon: "lightmanscurrency:coin_gold"
@@ -1353,11 +1309,11 @@
 				}
 			]
 			title: "金钱修补"
-			x: 17.0d
-			y: -2.5d
+			x: 14.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["04900F581CAAE345"]
 			description: ["自动消耗自身经验值修复物品"]
 			hide_dependency_lines: true
 			id: "16250A3E29613459"
@@ -1372,12 +1328,12 @@
 				type: "item"
 			}]
 			title: "修复苔藓"
-			x: 19.5d
-			y: -2.5d
+			x: 16.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
-			description: ["让工具常规使用不再损失耐久度（部分特殊情况可能仍会损失耐久，例如消耗固定耐久的某些特殊能力），&b后期非常需要&r的强化之一，可让盔甲不再会因为短时间内承受大量高伤害而碎掉"]
+			dependencies: ["04900F581CAAE345"]
+			description: ["让工具常规使用不再损失耐久度（部分特殊情况可能仍会损失耐久，例如消耗固定耐久的某些特殊能力），&b后期非常需要&r的强化之一，可让盔甲不再会因为短时间内承受大量高伤害而碎掉,  需要下界合金强化和加固V作为强化前置"]
 			hide_dependency_lines: true
 			icon: "minecraft:dragon_breath"
 			id: "704CECB743F08BC3"
@@ -1404,11 +1360,11 @@
 				}
 			]
 			title: "不毁"
-			x: 19.5d
-			y: -4.5d
+			x: 22.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: ["提升工具的许多基础属性，并且目前版本&c不再是&r下界合金强化的可选前置要求之一"]
 			hide_dependency_lines: true
 			id: "7D59C3B031662FA9"
@@ -1423,11 +1379,11 @@
 				type: "item"
 			}]
 			title: "钻石强化"
-			x: 19.5d
-			y: -6.5d
+			x: 14.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: ["提升工具的许多基础属性，并且目前版本&c不再是&r下界合金强化的可选前置要求之一，比钻石的属性提升稍弱"]
 			hide_dependency_lines: true
 			id: "46DFAAADF5C2D152"
@@ -1442,11 +1398,11 @@
 				type: "item"
 			}]
 			title: "绿宝石强化"
-			x: 17.0d
-			y: -6.5d
+			x: 16.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: [
 				"仅可用于头盔的强化，让其中的物品能随时显示，适合部分需要随时查看的物品，例如指南针"
 				""
@@ -1459,17 +1415,18 @@
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "你是哪位？"
 			tasks: [{
 				id: "40C6949EAA2D83C3"
 				item: "tconstruct:gold_item_frame"
 				type: "item"
 			}]
 			title: "物品展示框"
-			x: 14.5d
-			y: -6.5d
+			x: 28.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: ["目前版本&a不再需要任何前置要求&r，但是需要使用模板，能较多地提升工具属性"]
 			hide_dependency_lines: true
 			icon: "minecraft:netherite_upgrade_smithing_template"
@@ -1492,11 +1449,11 @@
 				}
 			]
 			title: "下界合金强化"
-			x: 14.5d
-			y: -8.5d
+			x: 18.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["41494C75729ED34F"]
 			description: ["推荐用在镐子等工具上，方便收集物品"]
 			hide_dependency_lines: true
 			id: "7BCAD6674CD80C7D"
@@ -1519,11 +1476,11 @@
 				type: "item"
 			}]
 			title: "磁性强化"
-			x: 17.0d
-			y: -8.5d
+			x: 28.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["增加黏液层上限，非常适合部分黏液材料的工具"]
 			hide_dependency_lines: true
 			id: "17E32BA1E8C6677C"
@@ -1539,11 +1496,11 @@
 				type: "item"
 			}]
 			title: "超强化"
-			x: 19.5d
-			y: -8.5d
+			x: 20.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["让工具能随着使用获得更多的槽位，非常值得前期尽快给工具打上此强化，成本已大幅度降低（原来需要下界之星）"]
 			hide_dependency_lines: true
 			icon: "touhou_little_maid:garage_kit"
@@ -1588,11 +1545,11 @@
 				}
 			]
 			title: "可改进"
-			x: 22.0d
-			y: -2.5d
+			x: 28.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["提供对近战的防护效果，在防御强化方面优先级较高"]
 			hide_dependency_lines: true
 			id: "6B849BA104593946"
@@ -1608,11 +1565,11 @@
 				type: "item"
 			}]
 			title: "近战保护"
-			x: 22.0d
-			y: -4.5d
+			x: 14.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["提高对魔法的防护效果，优先级仅次于近战防护，包括末影处刑者激光，伤害药水等伤害均为魔法伤害"]
 			hide_dependency_lines: true
 			id: "4522E14FDD6DB1A6"
@@ -1628,11 +1585,11 @@
 				type: "item"
 			}]
 			title: "魔法保护"
-			x: 22.0d
-			y: -6.5d
+			x: 18.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["04900F581CAAE345"]
 			description: [
 				"用FE电力来替代耐久的损耗，充电推荐在热力的&b能量灌注机&r中进行"
 				""
@@ -1664,11 +1621,11 @@
 				}
 			]
 			title: "科学世纪"
-			x: 22.0d
-			y: -8.5d
+			x: 18.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["额外增加一个防御槽位"]
 			hide_dependency_lines: true
 			icon: "thermal:blitz_powder"
@@ -1691,11 +1648,11 @@
 				}
 			]
 			title: "起峰了"
-			x: 22.0d
-			y: -10.5d
+			x: 20.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: [
 				"额外增加一个防御槽位，&a暴雪立方&r通过击杀寒冷群系出现的暴雪人获得，&a狂风沙尘&r需要击杀沙漠类群系出现的狂风人，&a岩石残骸&r则是击杀在下界的玄武岩峡谷常见的岩石人"
 				""
@@ -1722,11 +1679,11 @@
 				}
 			]
 			title: "暴风雪"
-			x: 19.5d
-			y: -10.5d
+			x: 16.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["让攻击者概率获得霜冻效果，共有三级强化，每一级的需求材料都不同"]
 			hide_dependency_lines: true
 			icon: "minecraft:ice"
@@ -1754,11 +1711,11 @@
 				}
 			]
 			title: "凛寒气场"
-			x: 17.0d
-			y: -10.5d
+			x: 30.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["让攻击者概率着火，共有三级强化，每一级的需求材料都不同，具体请查看JEI配方"]
 			hide_dependency_lines: true
 			icon: "minecraft:fire_charge"
@@ -1786,11 +1743,11 @@
 				}
 			]
 			title: "炽焰反制"
-			x: 14.5d
-			y: -10.5d
+			x: 28.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["1364495DCD420BC0"]
 			description: [
 				"匠魂新版的幽默强化，原版需要一个能力槽来获得3X3的工作台，现已改为不光不消耗能力槽，而且&a额外提供一个能力槽"
 				""
@@ -1806,6 +1763,7 @@
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "我也不想在这里！"
 			tasks: [
 				{
 					count: 2L
@@ -1820,11 +1778,11 @@
 				}
 			]
 			title: "工作站强化"
-			x: 24.5d
-			y: -2.5d
+			x: 18.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["1364495DCD420BC0"]
 			description: [
 				"匠魂新版本添加的幽默强化，仅能用于护腿，原本需要1个升级槽，并且提供的工作台是2X2的，与玩家自带的没有任何区别。目前版本已经修改为：不光不需要升级槽，还能&a额外获得一个升级槽&r"
 				""
@@ -1838,6 +1796,7 @@
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "你说你不想在这里！"
 			tasks: [
 				{
 					count: 2L
@@ -1852,11 +1811,11 @@
 				}
 			]
 			title: "工作台强化"
-			x: 24.5d
-			y: -4.5d
+			x: 16.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: [
 				"可用于制造工具，或直接用来获得额外的2个升级槽"
 				""
@@ -1884,11 +1843,11 @@
 				}
 			]
 			title: "晋升"
-			x: 24.5d
-			y: -6.5d
+			x: 30.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["相关材料需要前往“毒化洞穴”挖掘矿物或击杀敌人后获得"]
 			hide_dependency_lines: true
 			id: "056C8B7C4E64923C"
@@ -1904,10 +1863,10 @@
 			}]
 			title: "世界毁灭者"
 			x: 24.5d
-			y: -8.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["额外增加一个升级槽位"]
 			hide_dependency_lines: true
 			icon: "thermal:basalz_powder"
@@ -1930,11 +1889,11 @@
 				}
 			]
 			title: "大地的裂变"
-			x: 24.5d
-			y: -10.5d
+			x: 32.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["获得一个额外能力槽"]
 			hide_dependency_lines: true
 			icon: "thermal:signalum_ingot"
@@ -1968,11 +1927,11 @@
 				}
 			]
 			title: "热力工程师"
-			x: 27.0d
-			y: -10.5d
+			x: 26.5d
+			y: -11.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["共可升级3次，分别需要用任意颜色的环玉弹幕，中玉弹幕和大玉弹幕，具体配方均有所不同"]
 			hide_dependency_lines: true
 			icon: "youkaishomecoming:light_blue_circle_danmaku"
@@ -2008,11 +1967,11 @@
 				}
 			]
 			title: "弹幕战"
-			x: 27.0d
-			y: -8.5d
+			x: 22.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["22B34E373DB9DA8E"]
 			description: ["让武器获得概率肢解敌人的效果，能获得额外的材料或头颅"]
 			hide_dependency_lines: true
 			icon: "tconstruct:necrotic_bone"
@@ -2040,11 +1999,11 @@
 				}
 			]
 			title: "肢解"
-			x: 27.0d
-			y: -6.5d
+			x: 18.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: ["提高对弹射物的防护能力"]
 			hide_dependency_lines: true
 			id: "504AAFE63B4A0A26"
@@ -2060,11 +2019,11 @@
 				type: "item"
 			}]
 			title: "弹射物防护"
-			x: 27.0d
-			y: -4.5d
+			x: 20.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["材料可在&a末地&r的末影黏液岛上获得，让工具能右键蓄力折越，满蓄力后可传送至所指方向约6格范围位置，可穿墙或向上折越"]
 			hide_dependency_lines: true
 			icon: "tconstruct:ender_slime_crystal"
@@ -2092,11 +2051,11 @@
 				}
 			]
 			title: "折越"
-			x: 27.0d
-			y: -2.5d
+			x: 16.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["41494C75729ED34F"]
 			description: ["让工具获得&a精准采集&r的效果"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
@@ -2113,11 +2072,11 @@
 				type: "item"
 			}]
 			title: "丝触"
-			x: 29.5d
-			y: -2.5d
+			x: 26.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: ["增加工具击杀生物或挖掘矿物的掉落物，可升级多个等级，需要使用不同的配方，但只有第一个等级可以使用商店出售的强化水晶来强化"]
 			hide_dependency_lines: true
 			icon: "minecraft:cornflower"
@@ -2145,8 +2104,8 @@
 				}
 			]
 			title: "幸运"
-			x: 29.5d
-			y: -4.5d
+			x: 22.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["59FD5AB9FF33A87C"]
@@ -2180,8 +2139,8 @@
 				}
 			]
 			title: "浇筑的教学"
-			x: 11.0d
-			y: 1.25d
+			x: 11.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1CD501CB4325C8E1"]
@@ -2208,8 +2167,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 1.25d
+			x: 12.75d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5A8A370CD38E2024"]
@@ -2229,8 +2188,8 @@
 				item: "kubejs:eye_in_mist"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.25d
+			x: 14.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["41DEF8DF514E9E26"]
@@ -2340,8 +2299,8 @@
 				type: "checkmark"
 			}]
 			title: "关于敌人词条的介绍"
-			x: 3.0d
-			y: -7.5d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["59FD5AB9FF33A87C"]
@@ -2372,7 +2331,7 @@
 				type: "item"
 			}]
 			title: "多喝岩浆"
-			x: 6.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -2449,11 +2408,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.0d
+			x: 2.25d
+			y: -0.75d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["获得辐射免疫效果，对Alex毒化洞穴内的辐射免疫，得益于靠谱的河童科技，&a仅需一次&r强化即可让自身彻底免疫辐射，可用于任意盔甲。"]
 			hide_dependency_lines: true
 			icon: {
@@ -2522,11 +2481,11 @@
 				}
 			]
 			title: "辐射免疫"
-			x: 29.5d
-			y: -6.5d
+			x: 18.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["1364495DCD420BC0"]
 			description: ["获得一个升级槽"]
 			hide_dependency_lines: true
 			icon: "twilightforest:magic_map_focus"
@@ -2564,11 +2523,11 @@
 				}
 			]
 			title: "暮色世界"
-			x: 29.5d
-			y: -8.5d
+			x: 14.5d
+			y: -13.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: ["这种辣条需要到矿井箱子中寻找，也可以在辣条福袋里获得，部分辣条还能通过考古获得，但是无法直接制作，获得一个能力槽，两个升级槽"]
 			hide_dependency_lines: true
 			id: "3C5F0D7186E66A45"
@@ -2591,8 +2550,8 @@
 				type: "item"
 			}]
 			title: "辣条仙人"
-			x: 29.5d
-			y: -10.5d
+			x: 18.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["2179E8921D0740EA"]
@@ -2675,6 +2634,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -2742,6 +2703,11 @@
 				"在主世界的空中能寻找到&b碧空黏液岛&r，在这里你可以得到碧空黏液球，或者用容器收集这里的液体碧空黏液"
 			]
 			id: "3EB72ECADB04D683"
+			rewards: [{
+				id: "6701978F2CCAD2D6"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				icon: "tconstruct:sky_ichor_slime_grass"
@@ -2753,7 +2719,7 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["04900F581CAAE345"]
 			description: [
 				"让工具获得&a辣条修补&r的效果，工具放在副手时，食用辣条可修复工具"
 				""
@@ -2795,8 +2761,8 @@
 				}
 			]
 			title: "辣条修补"
-			x: 32.0d
-			y: -10.5d
+			x: 20.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["27336CA506F5C7F4"]
@@ -3649,6 +3615,11 @@
 			]
 			icon: "minecraft:clay"
 			id: "596C1F4FDA420C81"
+			rewards: [{
+				id: "5948DC298775A161"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				icon: "minecraft:clay"
@@ -3666,16 +3637,26 @@
 				"一个很有意思的匠魂工具强化：折越，需要用到这个岛上的资源，即末影黏液水晶和黏液块"
 			]
 			id: "469FB489AB3BE1BA"
-			rewards: [{
-				count: 3
-				id: "4A2DEA41DD8FE4C6"
-				item: {
-					Count: 1
-					id: "waystones:return_scroll"
-					tag: { }
+			rewards: [
+				{
+					count: 3
+					id: "4A2DEA41DD8FE4C6"
+					item: {
+						Count: 1
+						id: "waystones:return_scroll"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "enabled"
+					command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+					elevate_perms: true
+					id: "26F2A062AAA20FEE"
+					title: "灵视+5"
+					type: "command"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				icon: "tconstruct:ender_vanilla_slime_grass"
@@ -3733,7 +3714,7 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: [
 				"需要不毁强化作为前置要求，提供对所有伤害的保护效果，并且在武器上时能提供暴击伤害，用于盔甲时提供穿甲防护"
 				""
@@ -3773,11 +3754,11 @@
 				}
 			]
 			title: "铁幕"
-			x: 32.0d
-			y: -8.5d
+			x: 26.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["71E11E576509BB9E"]
 			description: ["需要辣条修补与下界合金强化作为前置，大幅提高工具的属性"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
@@ -3801,11 +3782,11 @@
 				}
 			]
 			title: "辣金强化"
-			x: 32.0d
-			y: -6.5d
+			x: 28.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["3483E51E70FCBFE5"]
 			description: [
 				"南星材料自带的材料特性，也可以用强化的方式获取，消耗1个能力槽，单个装备若以强化方式获取，仅能强化1次"
 				""
@@ -3840,11 +3821,11 @@
 				}
 			]
 			title: "法力护盾"
-			x: 32.0d
-			y: -4.5d
+			x: 26.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["46F19FB7EAE347CC"]
 			description: [
 				"获得1个防御槽"
 				""
@@ -3879,8 +3860,8 @@
 				}
 			]
 			title: "磁力核心"
-			x: 32.0d
-			y: -2.5d
+			x: 22.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["633F35405883FB99"]
@@ -3897,11 +3878,11 @@
 				type: "checkmark"
 			}]
 			title: "猪灵蛮兵交易"
-			x: 10.5d
-			y: -1.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["22B34E373DB9DA8E"]
 			description: [
 				"增加武器的攻击伤害属性，提升效果相当显著"
 				""
@@ -3922,11 +3903,11 @@
 				type: "item"
 			}]
 			title: "锋利"
-			x: 34.5d
-			y: -2.5d
+			x: 20.5d
+			y: -8.5d
 		}
 		{
-			dependencies: ["1C88096FE9223B29"]
+			dependencies: ["0E0AFD0B60E301E6"]
 			description: [
 				"消耗一个能力槽，给工具提供相应材料的额外词条效果，一共需要5种不同材料，除了上面这几种，还需要&b一个工具部件&r，并且这个部件必须是&b该工具的组成之一&r"
 				""
@@ -3962,14 +3943,14 @@
 					type: "item"
 				}
 				{
-					id: "4095B4FFBF3B722C"
-					item: "minecraft:gold_block"
+					id: "0E66BC2512391CF5"
+					item: "advanced_ae:quantum_alloy_block"
 					type: "item"
 				}
 			]
 			title: "刻印"
-			x: 34.5d
-			y: -4.5d
+			x: 14.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["15D414961B68D765"]
@@ -4001,8 +3982,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -4.0d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			description: ["小伞：当你制作出一把匠魂武器以后，或许会发现有一些&b额外的属性&r。这些属性并不是材料提供的，而是由“付丧神”所提供。而如果付丧神所提供的额外属性并不符合需求，可以使用一些独特的道具来安抚付丧神，使其重新生成属性，或者也可称为&b重铸&r。使用部分材料重铸的话会使工具获得更多的属性"]
@@ -4020,8 +4001,8 @@
 				item: "exmodifier:refresh_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["2FA67ADA1D645D99"]
@@ -4056,8 +4037,8 @@
 				}
 			]
 			title: "普通的重铸材料"
-			x: -0.5d
-			y: 6.5d
+			x: -11.0d
+			y: -13.25d
 		}
 		{
 			dependencies: ["2FA67ADA1D645D99"]
@@ -4077,8 +4058,8 @@
 				}
 			]
 			title: "特殊重铸材料"
-			x: 2.5d
-			y: 6.5d
+			x: -8.0d
+			y: -13.25d
 		}
 		{
 			description: [
@@ -4092,7 +4073,7 @@
 				item: "tconstruct:seared_casting_tank"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
@@ -4103,7 +4084,7 @@
 				item: "tconstruct:seared_fluid_cannon"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -4114,7 +4095,7 @@
 				item: "tconstruct:scorched_fluid_cannon"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -4265,7 +4246,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			description: ["材料需求更贵，但是容量更大"]
@@ -4310,8 +4291,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			description: ["材料需求进一步提升——阿迪特需要前往下界挖掘，但是多了一丁点的输出手段，这真的值得吗？"]
@@ -4360,7 +4341,7 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -4374,8 +4355,8 @@
 				type: "checkmark"
 			}]
 			title: "部分特殊的方块"
-			x: 1.0d
-			y: 7.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1058912244E36BFC"]
@@ -4403,8 +4384,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 9.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1058912244E36BFC"]
@@ -4432,8 +4413,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 9.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1058912244E36BFC"]
@@ -4449,8 +4430,8 @@
 				item: "tconstruct:seared_ladder"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1058912244E36BFC"]
@@ -4466,8 +4447,8 @@
 				item: "tconstruct:scorched_ladder"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59FD5AB9FF33A87C"]
@@ -4484,7 +4465,7 @@
 				item: "tinkers_delight:seared_stove_on"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -4501,14 +4482,14 @@
 				item: "tinkers_delight:scorched_stove_on"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"小伞：有一种特殊的武器的制作流程比较特别，你需要先去暮色森林击败高原上位于云端的巨人获取“巨人剑”，再进行浇筑，才能获得对应的剑刃"
+				"小伞：有一种特殊的武器的制作流程比较特别，你需要先去暮色森林&a击败高原上位于云端的巨人&r获取“巨人剑”，再进行浇筑，才能获得对应的剑刃"
 				""
-				"如果需要铸模，当然还是用熔融金浇筑剑刃"
+				"如果需要铸模，当然还是需要用熔融金浇筑剑刃"
 			]
 			id: "4F6C9BF94EB6917C"
 			rewards: [{
@@ -4530,8 +4511,1994 @@
 				}
 				type: "item"
 			}]
-			x: 8.25d
+			x: 9.75d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3483E51E70FCBFE5"]
+			description: ["减少受到的爆炸伤害，更容易在苦力怕娘的热情拥抱中存活下来"]
+			hide_dependency_lines: true
+			id: "4E09815B99063F65"
+			rewards: [{
+				id: "4291528990643FD3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 5L
+				id: "7C1A4F0BE01B07B2"
+				item: "tconstruct:obsidian_reinforcement"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3483E51E70FCBFE5"]
+			description: ["减少所有常规类型的伤害，可以与其他保护相叠加"]
+			hide_dependency_lines: true
+			id: "5D460FF1736C0CD9"
+			rewards: [{
+				id: "442DBFF21DA0A010"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "0F77B2DA9D03BC21"
+					item: "tconstruct:cobalt_reinforcement"
+					type: "item"
+				}
+				{
+					id: "207CAF275A1E342C"
+					item: "tconstruct:gold_reinforcement"
+					type: "item"
+				}
+				{
+					id: "420E37F3124877FB"
+					item: "tconstruct:seared_reinforcement"
+					type: "item"
+				}
+				{
+					id: "69FADB95284225EB"
+					item: "tconstruct:iron_reinforcement"
+					type: "item"
+				}
+				{
+					id: "13CD13AFFC8BAF89"
+					item: "tconstruct:obsidian_reinforcement"
+					type: "item"
+				}
+			]
+			title: "全类型保护"
+			x: 24.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["每级增加2点伤害，最高2级"]
+			hide_dependency_lines: true
+			icon: "alexscaves:amber_curiosity"
+			id: "685DE8EF286694BA"
+			rewards: [{
+				id: "1A8FCE3EF1B62CC0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "1D4F5678FCE6F276"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+				{
+					id: "19EA197D92901986"
+					item: "alexscaves:heavy_bone"
+					type: "item"
+				}
+				{
+					id: "4ABAB0ABE14782D9"
+					item: "alexscaves:tough_hide"
+					type: "item"
+				}
+			]
+			title: "原始之力"
+			x: 22.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46F19FB7EAE347CC"]
+			description: ["增加一个升级槽, &a 琥珀珍品&r和&a琥珀&r都可以在原始洞穴中获得"]
+			hide_dependency_lines: true
+			id: "3C8592E558EAA0E6"
+			tasks: [
+				{
+					count: 3L
+					id: "68D38284C929C4E6"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4210416E95865A0F"
+					item: "alexscaves:amber"
+					type: "item"
+				}
+			]
+			title: "珍品"
+			x: 14.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["攻击有概率眩晕敌人"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexscaves:primitive_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A96292E85D72412"
+			rewards: [{
+				id: "797135430275570D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "639700F1B52E5A4E"
+					item: {
+						Count: 1
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "787525898969FDAC"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "79E5157BFFAF8B99"
+					item: "alexscaves:pewen_sap"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["每级提高0.08攻击速度"]
+			hide_dependency_lines: true
+			id: "5C3CCB2926AA4DB4"
+			rewards: [{
+				id: "4D64A43862FF038A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 72L
+				id: "0246F8913AA53CBD"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "迅捷打击"
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["每级提高3.2挖掘速度"]
+			hide_dependency_lines: true
+			id: "0AF222587DE4A069"
+			rewards: [{
+				id: "408762A9A575D6C5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 45L
+				id: "297F6BEC756BA86A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "急迫"
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["挖掘类似石头的方块时每级挖掘速度 +1，挖掘类似陶瓦的方块时每级挖掘速度 +3，挖掘矿石类的柔软方块时每级挖掘速度 +9"]
+			hide_dependency_lines: true
+			id: "3986A0F49FC7243C"
+			rewards: [{
+				id: "5A1E1CBD39D05D57"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 20L
+				id: "2C9E974D3F87CEE7"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "爆裂"
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这一类强化可以增强盔甲对&a特定伤害类型&r的防护，  有效提高你在野外的生存能力"]
+			hide_dependency_lines: true
+			id: "3483E51E70FCBFE5"
+			tasks: [{
+				id: "3C7142930A9D57A0"
+				title: "保护类强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这类强化通常会强化装备的&a整体属性&r"]
+			hide_dependency_lines: true
+			id: "71E11E576509BB9E"
+			tasks: [{
+				id: "72C8852DC0920FC3"
+				title: "整体性强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这类强化与&a耐久相关&r， 可以修复或减少耐久消耗"]
+			hide_dependency_lines: true
+			id: "04900F581CAAE345"
+			tasks: [{
+				id: "18529048296FA1F5"
+				title: "耐久强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这类强化可以有效增强&a工具性能&r"]
+			hide_dependency_lines: true
+			id: "41494C75729ED34F"
+			tasks: [{
+				id: "5C05CDF8C414BBC2"
+				title: "挖掘强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["使工具在水下或雨中时获得采掘速度加成,  在雨中每级挖掘速度 +4；在水下则改为每级挖掘速度 +8，抵消水下的挖掘速度减益。"]
+			hide_dependency_lines: true
+			id: "65486333DA337455"
+			rewards: [{
+				id: "544E8BB42AC19D7A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 36L
+				id: "095E7AD747894538"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			title: "水力驱动"
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["工具能以更快的速度开采良好光照条件下的方块,  光照等级为 5 时每级挖掘速度 +1，光照等级为 10 时每级挖掘速度 +3，光照等级为 15 时每级挖掘速度 +9"]
+			hide_dependency_lines: true
+			id: "1C14022F8DE67C7B"
+			rewards: [{
+				id: "1E2B5BD7048E89BD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 64L
+				id: "5569312474022F0B"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "光照提速"
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71E11E576509BB9E"]
+			description: ["每级+0.25使用中速度,  +3%手持时移动速度"]
+			hide_dependency_lines: true
+			id: "12D3C351CE82279E"
+			rewards: [{
+				id: "4DAF6E096BF9F835"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 5L
+				id: "76D8318482214416"
+				item: "tinkers_thinking:lightite_reinforcement"
+				type: "item"
+			}]
+			title: "轻捷"
+			x: 24.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			dependency_requirement: "one_completed"
+			description: ["扩大工具的效用范围,    但由于Better combat模组的影响，该强化不会对武器的攻击距离生效"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0737BBF5BDD5AF71"
+			rewards: [{
+				id: "0AFB9D1933DF1CA9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "2A2DE5DF46F398C1"
+					item: "tconstruct:amethyst_bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0F9C605D79B48785"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0E2EB0D3999B822D"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+			]
+			title: "延展"
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["自动烧炼工具所挖掘的方块，和放在熔炉里烧炼效果相同,  且受幸运强化增幅"]
+			hide_dependency_lines: true
+			icon: "minecraft:blast_furnace"
+			id: "3C2CAF79F6A572FE"
+			rewards: [{
+				id: "157BF01F47BE5905"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "4FEA832334A034ED"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "70A33C8F25671179"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "42174722ED23E7FD"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "767DCD04D54CC63A"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			title: "自动烧炼"
+			x: 24.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这类强化可以增强武器&a攻击属性&r或为武器提供&a附加效果&r"]
+			hide_dependency_lines: true
+			id: "22B34E373DB9DA8E"
+			tasks: [{
+				id: "6FDA9E3370DCC11F"
+				title: "攻击类强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["强化后对对应生物的伤害提高5%，  你应该不会用村民克星砍村民，  对吧？"]
+			hide_dependency_lines: true
+			id: "4EB2D1F36B589102"
+			rewards: [{
+				id: "53716AB06EB066A7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					count: 20L
+					id: "2DF54E5214A01F06"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "123E458AB1EA9D7E"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "16F740F379A6C759"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "33E8B561BC1B29F2"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2F910A1C9476C983"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+			]
+			title: "XX杀手"
+			x: 24.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["在攻击多个目标时提高对次要目标的伤害"]
+			hide_dependency_lines: true
+			id: "268073A9F1FC437B"
+			rewards: [{
+				id: "13E0464B3850CD83"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 18L
+				id: "7675C7A4966AE7B1"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			title: "横扫之刃 "
+			x: 26.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["令攻击到的生物燃烧，每级提供 5 秒时长"]
+			hide_dependency_lines: true
+			id: "21B34B51ECEECEF0"
+			rewards: [{
+				id: "77C6DA554CA18A7E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 25L
+				id: "3EBD1CCF2CA05274"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "怒火"
+			x: 28.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			hide_dependency_lines: true
+			id: "02AF21C12DA17637"
+			tasks: [{
+				id: "129CDDED16A25389"
+				title: "远程强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["攻击造成辐射减益，禁止目标的生命回复"]
+			hide_dependency_lines: true
+			icon: "alexscaves:waste_drum"
+			id: "34CAE563463AE497"
+			rewards: [{
+				id: "69D788040C19DDC8"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "有辐了"
+			tasks: [
+				{
+					id: "49792EDFFED0E1BF"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4450FA36B9F5A546"
+					item: "chemlib:uranium_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "697DBA4368642733"
+					item: "alexscaves:radon_bottle"
+					type: "item"
+				}
+			]
+			title: "辐射"
+			x: 30.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["22B34E373DB9DA8E"]
+			description: ["每级使箭矢无视目标 1点护甲值，并 +0.5近战伤害"]
+			hide_dependency_lines: true
+			id: "39B0EDC8F17C0AD0"
+			rewards: [{
+				id: "0C3B76208703AA01"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 10L
+				id: "4366CC535566A5A1"
+				item: "tconstruct:punji"
+				type: "item"
+			}]
+			title: "穿刺"
+			x: 32.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["破坏以自身为中心比自己高的方块，  范围随等级扩大（拆家警告）"]
+			hide_dependency_lines: true
+			id: "08166CFE266E07F9"
+			rewards: [{
+				id: "4C956A84205938E5"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "最被低估的一集"
+			tasks: [{
+				id: "15C227EB9D87538E"
+				item: "alexscaves:atlatitan_egg"
+				type: "item"
+			}]
+			title: "擎天龙之践踏"
+			x: 30.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			description: ["第1级时+1.0弹射物力量，后续每级 +0.5 弹射物力量,  可以视作匠魂的力量附魔"]
+			hide_dependency_lines: true
+			id: "410F1F995DB79872"
+			rewards: [{
+				id: "73C0BC557A300090"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 72L
+				id: "58399E0C68EBD71F"
+				item: "tconstruct:ichor_slime_crystal"
+				type: "item"
+			}]
+			title: "力量"
+			x: 14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			dependency_requirement: "one_completed"
+			description: ["提升远程工具的拉弓速度,  每级提升25%拉弓速度,  仅限弩使用"]
+			hide_dependency_lines: true
+			id: "3C2CA4DEB514170F"
+			rewards: [{
+				id: "49426A5164FA234D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 5L
+				id: "3987A2FDADA31CB2"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			title: "快速装填"
+			x: 16.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			description: ["允许弩一次射出多支箭,  每级同时额外发射 2 根箭，精准度会影响散射的角度。若物品栏内箭矢数量不足，则同时发射的额外箭矢的数量也会减少,  仅限弩使用"]
+			hide_dependency_lines: true
+			icon: "tconstruct:amethyst_bronze_ingot"
+			id: "4F6BA086D062D8A0"
+			rewards: [{
+				id: "7AB99AF8B0D1889A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "601D29EB30E030A3"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "04968BCA036A4B8C"
+					item: "tconstruct:amethyst_bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "557F403490509B6E"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+			]
+			title: "多重射击"
+			x: 18.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			description: ["每级+0.1精确度（上限1.0）"]
+			hide_dependency_lines: true
+			id: "71CD87BF5A7D29D7"
+			rewards: [{
+				id: "32D6B548711839DF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 10L
+				id: "47EBE1719FFC6A9D"
+				item: "minecraft:target"
+				type: "item"
+			}]
+			title: "神射"
+			x: 20.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			description: ["箭矢在击中一个目标后，会继续飞行并击中多个目标。每级可以多击穿一个目标"]
+			hide_dependency_lines: true
+			id: "47F2E5BDC13AFF29"
+			rewards: [{
+				id: "50564247861B64BC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 3L
+				id: "5F280185B86492B4"
+				item: "minecraft:pointed_dripstone"
+				type: "item"
+			}]
+			title: "穿透"
+			x: 22.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02AF21C12DA17637"]
+			description: ["箭矢能使目标进入冰冻状态，造成缓慢和持续的冰冻伤害,  每级增加 4 秒冰冻时间"]
+			hide_dependency_lines: true
+			id: "44152C65A94599A7"
+			rewards: [{
+				id: "23FA1735ADF5FF13"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6BFB2C6C4F7F8BFC"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			title: "冰冻"
+			x: 24.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			hide_dependency_lines: true
+			id: "23100F9D593E13BD"
+			tasks: [{
+				id: "6EA523435CDEDD95"
+				title: "增加强化槽"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			hide_dependency_lines: true
+			id: "46F19FB7EAE347CC"
+			tasks: [{
+				id: "0A32EFCD59750D8A"
+				title: "还是强化槽"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			hide_dependency_lines: true
+			id: "1364495DCD420BC0"
+			tasks: [{
+				id: "4A40EE01BB70C5E2"
+				title: "还是强化槽"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["增加一个强化槽"]
+			hide_dependency_lines: true
+			id: "380BDA34A9046F2B"
+			rewards: [{
+				id: "767BA6767E181089"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4D0EF969F6ED2A71"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "龙族"
+			x: 22.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["增加一个能力槽"]
+			hide_dependency_lines: true
+			icon: "minecraft:nether_star"
+			id: "343142A3549C2CEB"
+			rewards: [{
+				id: "4AFEC6C99A493F51"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7BC25954A6DCF1CB"
+					item: "iceandfire:witherbone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "084137F811811084"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "3E8E196CA87CA465"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "灵族"
+			x: 24.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			id: "6D352E81D03D1124"
+			rewards: [{
+				id: "7273BB336A3E41E1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "37FE6BDD0730E823"
+				item: "minecraft:writable_book"
+				type: "item"
+			}]
+			title: "铭刻"
+			x: 20.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["增加一个防御槽"]
+			hide_dependency_lines: true
+			icon: "minecraft:scute"
+			id: "3D181CD3ACA24DF1"
+			rewards: [{
+				id: "42E57D2A7A8D6D22"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "我爸得了MVP"
+			tasks: [
+				{
+					id: "24647F6C5133C629"
+					item: "minecraft:seagrass"
+					type: "item"
+				}
+				{
+					id: "615A315401016BA2"
+					item: "minecraft:scute"
+					type: "item"
+				}
+			]
+			title: "龟卫"
+			x: 26.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["冰雪无法阻挡你的脚步,  增加一个强化槽"]
+			hide_dependency_lines: true
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "1815748AF79BC8F5"
+			rewards: [{
+				id: "6C86F3E6DB94AE4F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "1D121F6E7D61E87A"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F67E8E27C2E9FC7"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C5619BB9B8304A9"
+					item: "twilightforest:arctic_fur_block"
+					type: "item"
+				}
+			]
+			title: "御寒"
+			x: 28.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["消耗两个升级槽,  增加一个能力槽"]
+			hide_dependency_lines: true
+			id: "13B0E90A22392679"
+			rewards: [{
+				id: "768DEA3C6560615E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "你为什么要这样做"
+			tasks: [
+				{
+					id: "16621E3678F9248F"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B28C98282276469"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "附魔"
+			x: 30.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1364495DCD420BC0"]
+			description: ["消耗一个能力槽，增加两个升级槽"]
+			hide_dependency_lines: true
+			id: "24A9EB65BB052E78"
+			rewards: [{
+				id: "11970E1CF2B69421"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "35DCBAED956511FC"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: 32.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["消耗一个防御槽，增加一个升级槽"]
+			hide_dependency_lines: true
+			icon: "minecraft:anvil"
+			id: "0E7912357360291B"
+			rewards: [{
+				id: "26EDEFDCFCF8D454"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "6A61A597087CCA94"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "6883AEABFD4484A6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "39F9C019D1C8D07C"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			title: "碎甲"
+			x: 14.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["消耗一个升级槽，增加一个防御槽"]
+			hide_dependency_lines: true
+			id: "7E9C7D10D7EDB99A"
+			rewards: [{
+				id: "7701F729218FA0B9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0F9B8A1738FF99B1"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "甲胄"
+			x: 16.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			id: "0D1948A0AE1BF020"
+			rewards: [{
+				id: "654DD671EC962723"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4CA5CE29E908AAF9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:creeper_drop_music_discs"
+					}
+				}
+				title: "Any #minecraft:creeper_drop_music_discs"
+				type: "item"
+			}]
+			title: "和睦"
+			x: 18.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个防御槽"]
+			hide_dependency_lines: true
+			id: "491C8B525E7B7D72"
+			rewards: [{
+				id: "6AA70CCA612DF35E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0B8AEDE836A3E9FD"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "重生"
+			x: 20.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			id: "2B4AEF4DCA39D8A5"
+			rewards: [{
+				id: "3E31605FB97AA16E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "051CA9BBB8A6CA33"
+				item: "tinkers_thinking:silky_jewel"
+				type: "item"
+			}]
+			title: "偿还"
+			x: 22.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			id: "6559DD3B36C3C570"
+			rewards: [{
+				id: "364A7777DCBCB70E"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "赤蛮奇可以强化几次呢？"
+			tasks: [{
+				id: "7DE7EE4D564CA863"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:heads"
+					}
+				}
+				title: "Any #forge:heads"
+				type: "item"
+			}]
+			title: "重置"
+			x: 24.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			id: "0FF3CD7EB440EC33"
+			rewards: [{
+				id: "5678343755A12B3F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "03BC89FDBB0FFCB9"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个能力槽"]
+			hide_dependency_lines: true
+			icon: "cloudertinker:forest_gem"
+			id: "6D1BB8F7B3CEC1AB"
+			rewards: [{
+				id: "07462324672C9A3F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "再无秘密"
+			tasks: [
+				{
+					id: "610F489769CF5735"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+				{
+					id: "17AFC896886023E5"
+					item: "twilightforest:fiery_tears"
+					type: "item"
+				}
+				{
+					id: "2A0EB983A0273B36"
+					item: "cloudertinker:forest_gem"
+					type: "item"
+				}
+				{
+					id: "518B80824682AE1A"
+					item: "twilightforest:trollsteinn"
+					type: "item"
+				}
+				{
+					id: "605D5BFA05BE98BC"
+					item: "twilightforest:maze_map_focus"
+					type: "item"
+				}
+			]
+			title: "迷路日"
+			x: 28.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			icon: "cloudertinker:minodiamond_gem"
+			id: "35932FB311836DF5"
+			rewards: [{
+				id: "38C9F6E300C62BD2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "6AB4DD4BD17961D5"
+					item: "cloudertinker:minodiamond_gem"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3401D740F9DDC0F8"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7251B9C0DBB2E440"
+					item: "twilightforest:mazestone_brick"
+					type: "item"
+				}
+			]
+			title: "迷路日"
+			x: 30.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["23100F9D593E13BD"]
+			description: ["增加一个升级槽"]
+			hide_dependency_lines: true
+			icon: "cloudertinker:phantom_ingot"
+			id: "6B665E866DCB035F"
+			rewards: [{
+				id: "0845890B1B830994"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "1E84A37A4B42F61E"
+					item: "twilightforest:trophy_pedestal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D76BE07295DC760"
+					item: "twilightforest:knightmetal_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5448536B5E56C996"
+					item: "cloudertinker:phantom_ingot"
+					type: "item"
+				}
+			]
+			title: "授勋冠军"
+			x: 32.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1C88096FE9223B29"]
+			description: ["这类强化可以为你的盔甲提供&a特殊能力&r"]
+			hide_dependency_lines: true
+			id: "0E0AFD0B60E301E6"
+			tasks: [{
+				id: "2231B07256BBEF0D"
+				title: "特殊强化"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E0AFD0B60E301E6"]
+			description: ["部件工具的顶端部件的材料特性的等级额外累加一次，或无部件工具的主要工具特性的等级额外累加一次。与其他类型的均衡不能共存。"]
+			hide_dependency_lines: true
+			icon: "tconstruct:manyullyn_ingot"
+			id: "6C785947605A6BAD"
+			rewards: [{
+				id: "09D4E93667D3FBC2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "68D6CEB3B8411938"
+					item: "minecraft:gilded_blackstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "07C18E87F0C61DEB"
+					item: "tconstruct:ender_slime_crystal_block"
+					type: "item"
+				}
+				{
+					id: "5B47E613B12021A8"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+			]
+			title: "均衡"
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41DEF8DF514E9E26"]
+			description: [
+				"优秀的装备可以帮助你获得更好的资源，然后做更好的装备，但装备的锻造亦有它的学问，不按照锻造的规则去打造装备的话，只会得到一把一碰就碎的&4废品&r，所以务必要牢记锻造的规则:"
+				"装备的词条取决于&a材料的词条&r，如果词条相同则会提升&a词条等级&r（除了某些只有I级的词条）"
+				"属性则与材料制成的部件&a属性&r有关"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tinkers_thinking:tinkers_bronze_block"
+				}
+			}
+			id: "5CFACAF18CFB2541"
+			rewards: [{
+				count: 10
+				id: "6EFCC9984D2FCF3F"
+				item: "tinkers_delight:mashed_potato_with_milk"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "797D9EB06CCDF5C7"
+				title: "关于装备属性"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5CFACAF18CFB2541"]
+			description: [
+				"以长枪为例，长枪由两个手柄部件和一个小型剑刃组成："
+				"假设长枪模版的攻速为1；小型剑刃的攻击力属性为10，耐久为100；两个手柄的攻击系数均为40%，攻速系数均为30%。"
+				"那么这把长枪的面板属性为："
+				" 攻击力=10+[10*(40%+40%)]=18"
+				" 攻速=1+[1*(30%+30%)]=1.6"
+			]
+			icon: {
+				Count: 1
+				id: "mushroom_daydream:gun"
+				tag: {
+					Damage: 0
+					ExAttributeModifiers: [{
+						Amount: 0.5d
+						AttributeName: "exmodifier:behind_damage"
+						Name: "behind_damage0"
+						Operation: 0
+						Slot: "mainhand"
+						UUID: [I;
+							1735705331
+							1112033233
+							-1409162959
+							1021916946
+						]
+					}]
+					etstlib_tool_uuid: "bcb91eb9-e45a-4da7-abbe-6b9d9cddccd7"
+					exmo_nbt: {
+						ModifierEntry: [{
+							EntryID: "behind_damage"
+							Level: 1
+						}]
+					}
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:lead"
+						"cloudertinker:knightmetal"
+						"touhoutinkermodifier:sakuya"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:heavy"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:stalwart"
+						}
+						{
+							level: 1
+							name: "touhoutinkermodifier:jacktheripper"
+						}
+						{
+							level: 1
+							name: "touhoutinkermodifier:vanhelsingprogeny"
+						}
+						{
+							level: 1
+							name: "touhoutinkermodifier:theworld"
+						}
+						{
+							level: 2
+							name: "tconstruct:reach"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 9.88425f
+						"tconstruct:attack_speed": 1.98f
+						"tconstruct:durability": 349.2f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:knockback_resistance": 0.15f
+						"tconstruct:mining_speed": 4.675f
+						"tconstruct:projectile_damage": 2.2f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "533AD775F40D392F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CFB76802E6BB9D7"
+				table_id: 6568354217492425317L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6902F5D107DCA2DB"
+				type: "checkmark"
+			}]
+			title: "武器属性"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5CFACAF18CFB2541"]
+			description: [
+				"以盔甲为例：镶板盔甲由两个镶板和一个锁链基底组成；设镶板属性均为耐久200，护甲值5，盔甲韧性3，抗击退10%"
+				"那么盔甲属性为："
+				"耐久400"
+				"护甲值=5+5=10"
+				"盔甲韧性=3+3=6"
+				"抗击退20%"
+				"层板盔甲的数值为两块镶板的数值相加取平均值 "
+				"需要注意的是，同一种材料在不同的部位提供的属性是&a不同&r的，且锁链基底不提供&a任何属性&r，仅提供词条"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:plate_helmet"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "c02071b6-4b10-4b28-8f0e-c3cd74cd7976"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:diamond"
+						"tinkerscalibration:diamond"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 2
+							name: "tinkerscalibration:tough_armor"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor": 4.0f
+						"tconstruct:armor_toughness": 2.5f
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:durability": 495.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:knockback_resistance": 0.22f
+						"tconstruct:mining_speed": 3.0f
+						"tconstruct:projectile_damage": 2.5f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tconstruct:diamond"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						defense: 3
+						"tconstruct:rarity": 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "50E771458BDC47ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B67CBF9107C63FE"
+				table_id: 6568354217492425317L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0429256153FD7D7A"
+				title: "防具属性"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E0AFD0B60E301E6"]
+			description: ["攻击生物时，根据造成的伤害产生对应&a液体&r，需要储罐升级或其他能&a储存液体&r的东西存储，具体请看冶炼炉的jei"]
+			hide_dependency_lines: true
+			icon: "tconstruct:smeltery_controller"
+			id: "351891C4417E490E"
+			rewards: [{
+				id: "67982AE59D5CC7C5"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "仿佛拿着冶炼炉打架"
+			tasks: [
+				{
+					count: 2L
+					id: "6E2D4850A23E9B38"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "14407B98BCA74BBF"
+					item: "twilightforest:ironwood_block"
+					type: "item"
+				}
+				{
+					id: "7612DC150461776C"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+			]
+			title: "熔炼"
+			x: 30.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E0AFD0B60E301E6"]
+			description: ["攻击命中友方生物时转变为治疗效果并施加增益，命中敌方生物时额外造成20%的魔法伤害并施加中毒"]
+			hide_dependency_lines: true
+			icon: "twilightforest:torchberries"
+			id: "5AA6E13736F20265"
+			tasks: [
+				{
+					count: 2L
+					id: "48E6A8FB92D4F469"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "67175A5F5929E628"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:seeds"
+						}
+					}
+					title: "Any #forge:seeds"
+					type: "item"
+				}
+				{
+					id: "45C1022743023DFD"
+					item: "twilightforest:ironwood_block"
+					type: "item"
+				}
+			]
+			title: "德鲁伊之种"
+			x: 32.5d
+			y: -1.0d
+		}
+		{
+			description: ["小伞：有一些特殊的匠魂材料获得方法很特别，效果也和其他材料不太一样，值得专门介绍一下，如果要让我推荐哪些材料合适，我主要推荐这些"]
+			hide_dependent_lines: true
+			icon: "touhou_little_maid:favorability_tool_add"
+			id: "327CB47AE3CD98AF"
+			rewards: [{
+				auto: "enabled"
+				command: "/improvedmobs difficulty player @s[type=minecraft:player] add 5"
+				elevate_perms: true
+				id: "5A73ECE4DA4752D4"
+				title: "灵视+5"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "全是车万"
+			tasks: [{
+				id: "3FF9276C58D94B4E"
+				type: "checkmark"
+			}]
+			title: "特别的匠魂材料"
+			x: -11.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"用任意弹幕或者法术伤害击杀小恶魔可获得小恶魔锭，也可以在红魔馆里找到"
+				""
+				"如果击杀时用的是其他类型伤害，只能获得失活的小恶魔锭，没有任何作用，需要用液态魔源浇筑才能恢复"
+			]
+			id: "1C4D741C9E643823"
+			tasks: [{
+				id: "6BD0FC5E9D62F08B"
+				item: "kubejs:devil"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"用小恶魔材料的匠魂工具击杀BOSS时，消耗物品栏中的宝藏附魔书有概率获得该材料，也可以在红魔馆里找到"
+				""
+				"还可以消耗&a3个猩红升级法球右键蕾米莉亚&r来交换蕾米锭，每次交换至少需要3个猩红升级法球"
+				""
+				"{ \"text\": \"如何召唤蕾米莉亚\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6FE3C86EA345EB65\" } }"
+			]
+			icon: "kubejs:remilia"
+			id: "3DC6B60BD9C3234F"
+			tasks: [
+				{
+					id: "3E8CD84196523CB9"
+					item: "kubejs:remilia"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4D004713A6904E18"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+			]
+			x: -15.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"通过合成得到，也可以在红魔馆里找到"
+				""
+				"任何颜色的刚玉都能洗涤得到白色刚玉，再用染料无序合成即可得到其他颜色的刚玉"
+				""
+				"刚玉在Y值较低时会发出粒子效果并自然生长"
+			]
+			id: "22197A61BA0CDD29"
+			tasks: [{
+				id: "2D7187EF1150F049"
+				item: "kubejs:flandre"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: ["铂浇筑灵魂之心获得，灵魂之心有多种获得方式：击杀灵魂等级大于2的灵魂鹫，或者深渊催化"]
+			id: "6C0BCF15BB93F130"
+			tasks: [{
+				id: "4D23F7D638D39E2E"
+				item: "kubejs:komachis_scythe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: ["幽幽子可不能没有食物，制作这种材料需要用一些食物作为原材料在工作盆里搅拌得到"]
+			id: "4C75775611491700"
+			tasks: [{
+				id: "242149E3DFA32973"
+				item: "kubejs:sakura"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "18FFD53620C0C254"
+			tasks: [{
+				id: "7219CA2C66DB3254"
+				item: "kubejs:daiyouseis_bomb"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: ["如果没有遇到琪露诺，也可以用深渊催化的配方生产"]
+			id: "39A34D93D3ACC668"
+			tasks: [{
+				id: "4A4F32CDA7FE9414"
+				item: "youkaishomecoming:fairy_ice_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "75571951E7090C48"
+			tasks: [{
+				id: "323D3A0D6257344D"
+				item: "kubejs:youmus_dualswords"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: ["在夜雀食堂的☎电话中可以购买"]
+			id: "022BA15B3898A447"
+			tasks: [{
+				id: "53B13F2758C8108F"
+				item: {
+					Count: 1
+					id: "mystias_izakaya:reisen"
+					tag: {
+						cooktime: 0
+						cost: 530000
+						ntags: ""
+						tags: "Photogenic,Signature,Specialty,Wonderful"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "001A3D9E743EDA58"
+			tasks: [{
+				id: "3C7B6C2E00A01A95"
+				item: "kubejs:doremy_ingot"
+				type: "item"
+			}]
+			x: -15.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "130B3564DEA718FC"
+			tasks: [{
+				id: "03DBA25E31DCAE96"
+				item: "kubejs:mysterious_hat"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"小伞：正常的获得方式很昂贵，但是还有一种特别的获得方式，诶，好像探女有话想说"
+				""
+				"探女：你要到一切开始的地方，去你的出生点，在那片区域击败最初的最弱小的敌人，并且自己的生命值上限越高越好，这样才能获得这个熊孩子的材料"
+			]
+			id: "58D4BBFE85A5C779"
+			tasks: [{
+				id: "7FC84148D22ADE76"
+				item: "kubejs:seija"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"通过给灵梦喂食足够数量的食物，可以参考这里："
+				""
+				"{ \"text\": \"喂食灵梦\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2397E7707E755DB6\" } }"
+			]
+			id: "6987BF2517FC0C3D"
+			tasks: [{
+				id: "1422ACDB6181825E"
+				item: "kubejs:reimu"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "7313576EBAF03142"
+			tasks: [{
+				id: "571B06B73702B9E4"
+				item: "kubejs:koishi_hat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "12420C97D0E2D244"
+			tasks: [{
+				id: "67A83AC9438A49B3"
+				item: "kubejs:meiling"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"和蕾米锭类似，用小恶魔材料的匠魂工具击杀BOSS时，消耗物品栏中的宝藏附魔书有概率获得该材料"
+				""
+				"也可以在红魔馆里找到"
+				""
+				"还可以在多方块中量产合成"
+			]
+			id: "2E4044218993ABE4"
+			tasks: [{
+				id: "262E14CF83E2D7C4"
+				item: "kubejs:patch"
+				type: "item"
+			}]
+			x: -15.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: ["用小恶魔材料的匠魂工具击杀BOSS时，消耗物品栏中的&b普通附魔书&r有概率获得该材料，也可以在红魔馆里找到"]
+			id: "4CB61D82B839AB43"
+			tasks: [{
+				id: "13747AC5E2C3CA51"
+				item: "kubejs:sakuya"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"主要难点在于德格米护符，并且还需要150灵视以上才能在暮色森林特定群系找到德格米，然后获取原材料德格米碎片"
+				""
+				"{ \"text\": \"关于灵视\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A4A43448B34A980\" } }"
+			]
+			id: "380CA14C18813439"
+			tasks: [{
+				id: "59A8D772D8F2C0EB"
+				item: "kubejs:ice_warrior"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "1A90D5F04D8FA9E1"
+			tasks: [{
+				id: "0B2E15BFA4B8EF27"
+				item: "kubejs:wakasagihime"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			id: "399689FF4564CCEB"
+			tasks: [{
+				id: "3B98B1A9938C9C92"
+				item: "kubejs:sannyo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"获得方式：需要给琪露诺喂食柠檬🍋果酱块"
+				""
+				"帕露帕露🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋🍋"
+			]
+			icon: "kubejs:paru"
+			id: "7202C04373567DAB"
+			tasks: [
+				{
+					id: "3AF488B82360E7A5"
+					item: "kubejs:paru"
+					type: "item"
+				}
+				{
+					id: "0A35BC77CAF8C603"
+					item: "fruitsdelight:lemon_jelly_block"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"需要至少150点灵视才能在仪式火盆处右键兑换，主副手分别需要持有：远古知识碎片，附魔书"
+				""
+				"除此之外，还有一个额外强化识文解字需要材料本身自带的词条作为前置条件，才能装在工具上"
+				""
+				"{ \"text\": \"识文解字\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F71419D803CE3CD\" } }"
+			]
+			id: "63EDE4143991700C"
+			tasks: [{
+				id: "053C1EB142BEA36E"
+				item: "kubejs:kosuzu"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"需要对狼右键使用德格米碎片后获得，目前并不能做成匠魂材料，只能作为盾牌特殊强化的原材料"
+				""
+				"{ \"text\": \"关于德格米\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61800058E061BE74\" } }"
+			]
+			id: "4DA2E7696F9CE104"
+			tasks: [{
+				id: "4AE8ECBB23B64BBF"
+				item: "kubejs:inu"
+				type: "item"
+			}]
+			x: -15.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"击败普通形态露米娅后获得"
+				""
+				"{ \"text\": \"关于露米娅\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10FDE2AA25937334\" } }"
+			]
+			id: "6900FEE503B527D2"
+			tasks: [{
+				id: "6DE25A4CBB54006B"
+				item: "kubejs:rumia"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"击败EX形态露米娅后获得"
+				""
+				"{ \"text\": \"关于露米娅\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10FDE2AA25937334\" } }"
+			]
+			id: "29F4A0B4D0EC3248"
+			tasks: [{
+				id: "2D4AF60E00D7C2F2"
+				item: "kubejs:ex_rumia"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["41494C75729ED34F"]
+			description: ["需要本居小铃材料自带的材料特性作为前置强化，可加强深渊法术"]
+			hide_dependency_lines: true
+			icon: "traveloptics:abyssal_spellweave_ingot"
+			id: "3F71419D803CE3CD"
+			rewards: [{
+				id: "47488F0E4F69182D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "本居小铃DLC"
+			tasks: [
+				{
+					id: "5840F54DA6F5530E"
+					item: "traveloptics:abyssal_spellweave_ingot"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "187582C57A435E86"
+					item: "hmag:echo_shard_block"
+					type: "item"
+				}
+				{
+					id: "4D40D426D6D63EA0"
+					item: "traveloptics:abyssal_tentacle"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65BFB8AF4B781B9F"
+					item: "cataclysm:black_steel_block"
+					type: "item"
+				}
+			]
+			title: "识文解字"
+			x: 32.5d
+			y: -7.0d
 		}
 	]
 	title: "小伞铁匠铺(匠魂)"

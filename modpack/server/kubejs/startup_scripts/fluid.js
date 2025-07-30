@@ -99,7 +99,87 @@ StartupEvents.registry('fluid', event => {
     event.create('molten_seija')
     .thickTexture(0xFF4500)
     .bucketColor(0xFF4500)
-    .displayName('熔融天邪鬼')  
+    .displayName('熔融天邪鬼') 
+    
+    event.create('molten_devil')
+    .thickTexture(0xFF4500)
+    .bucketColor(0xFF4500)
+    .displayName('小恶魔液体')
+
+    event.create('molten_ex_rumia')
+    .thickTexture(0x191970)
+    .bucketColor(0x191970)
+    .displayName('EX液态黑暗')
+
+    event.create('molten_flandre')
+    .thickTexture(0xFF6347)
+    .bucketColor(0xFF6347)
+    .displayName('芙兰的液体')
+
+    event.create('molten_ice_warrior')
+    .thickTexture(0x00F5FF)
+    .bucketColor(0x00F5FF)
+    .displayName('熔融坚冰')
+
+    event.create('molten_inu')
+    .thickTexture(0xD8BFD8)
+    .bucketColor(0xD8BFD8)
+    .displayName('犬走椛液体')
+
+    event.create('molten_kosuzu')
+    .thickTexture(0xFF8C00)
+    .bucketColor(0xFF8C00)
+    .displayName('小铃液体')
+
+    event.create('molten_meiling')
+    .thickTexture(0xFF0000)
+    .bucketColor(0xFF0000)
+    .displayName('美铃液体')
+
+    event.create('molten_paru')
+    .thickTexture(0xFFA500)
+    .bucketColor(0xFFA500)
+    .displayName('帕露西液体')
+
+    event.create('molten_patch')
+    .thickTexture(0xFF00FF)
+    .bucketColor(0xFF00FF)
+    .displayName('帕琪液体')
+
+    event.create('molten_remilia')
+    .thickTexture(0xB22222)
+    .bucketColor(0xB22222)
+    .displayName('蕾米莉亚液体')
+
+    event.create('molten_rumia')
+    .thickTexture(0x696969)
+    .bucketColor(0x696969)
+    .displayName('液态黑暗')
+
+    event.create('molten_sakuya')
+    .thickTexture(0xE0FFFF)
+    .bucketColor(0xE0FFFF)
+    .displayName('咲夜液体')
+
+    event.create('molten_sannyo')
+    .thickTexture(0xCD5C5C)
+    .bucketColor(0xCD5C5C)
+    .displayName('山如液体')
+
+    event.create('molten_wakasagihime')
+    .thickTexture(0x00FFFF)
+    .bucketColor(0x00FFFF)
+    .displayName('若鹭姬液体')
+
+    event.create('magnetic_cola')
+    .thickTexture(0x3e0000)
+    .bucketColor(0x3e0000)
+    .displayName('磁场可乐')
+
+    event.create('nuclear_soda')
+    .thickTexture(0x00fc00)
+    .bucketColor(0x00fc00)
+    .displayName('核子汽水')
  
     event.create('ore_fluid')
     .thickTexture(0x8B4513)
@@ -109,6 +189,11 @@ StartupEvents.registry('fluid', event => {
     event.create('waste_water')
     .thickTexture(0x808080)
     .bucketColor(0x808080)
-    .displayName('废水')  
+    .displayName('废水')
+    
+    event.create('nuclear_fuel')
+    .thickTexture(0x9400D3)
+    .bucketColor(0x9400D3)
+    .displayName('魔力核燃料')
 
 })

@@ -17,6 +17,7 @@
         "each_level": 0.20,
         "operation": "addition",
         "attribute": "attributeslib:armor_shred",
+        "tooltip_style": "percent",
         "unique": "tconstruct.modifier.katana",
         "slots": [
           "mainhand",

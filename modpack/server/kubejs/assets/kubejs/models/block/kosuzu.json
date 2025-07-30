@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/kosuzu_top",
+    "side": "kubejs:block/kosuzu_side",
+    "bottom": "kubejs:block/kosuzu_bottom"
+  }
+}

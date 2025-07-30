@@ -9,7 +9,7 @@
 	render_rarity_color = true
 	#How close the player has to be to see the beam. (note: in vanill ItemEntities stop rendering at 24 blocks.)
 	#Range: 0.0 ~ 1024.0
-	render_distance = 24.0
+	render_distance = 48.0
 	#If the rarity should be rendered under the nametag.
 	render_rarity = true
 
@@ -17,13 +17,13 @@
 	["Loot Beams".Beam]
 		#The radius of the Loot Beam.
 		#Range: 0.0 ~ 5.0
-		beam_radius = 0.5
+		beam_radius = 0.55
 		#The height of the Loot Beam.
 		#Range: 0.0 ~ 10.0
-		beam_height = 1.0
+		beam_height = 1.5
 		#The Y-offset of the loot beam.
 		#Range: -30.0 ~ 30.0
-		beam_y_offset = 0.4
+		beam_y_offset = 0.5
 		#If the Loot Beam should be shorter for common items.
 		common_shorter_beam = true
 		#Transparency of the Loot Beam.
@@ -31,9 +31,9 @@
 		beam_alpha = 0.75
 		#The distance from the player the beam should start fading.
 		#Range: 0.0 ~ 100.0
-		beam_fade_distance = 10.0
+		beam_fade_distance = 2.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
-		solid_beam = true
+		solid_beam = false
 		#If the Loot Beam should have a glow effect around the base of the item.
 		glow_effect = true
 		#The radius of the glow effect.
@@ -105,7 +105,7 @@
 		#If items should glow.
 		items_glow = true
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = true
+		all_items = false
 		#If Loot Beams should only be rendered on items with rarity.
 		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
@@ -123,7 +123,7 @@
 		#Range: 0.0 ~ 1.0
 		sound_volume = 1.0
 		#If sounds should play on all items. Has priority over sound_only_equipment and sound_only_rare.
-		sound_all_items = false
+		sound_all_items = true
 		#If sounds should only be played on items with rarity.
 		sound_only_rare = true
 		#If sounds should only be played on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
@@ -163,7 +163,7 @@
 		#Range: -30.0 ~ 30.0
 		nametag_y_offset = 0.75
 		#If a smaller tag should be rendered under with DMCLoot rarities.
-		dmcloot_compat_rarity = false
+		dmcloot_compat_rarity = true
 		#Define what the smaller tag should render on. Example: "Exotic", "Ancient". The string supplied has to be the tooltip line below the name. This is really only used for modpacks.
 		custom_rarities = []
 		#If rarities should ignore color and render as white (This is really only used for modpacks)

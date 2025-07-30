@@ -42,6 +42,13 @@
 				""
 				"JEI搜索@maid可查询到所有女仆相关内容，其中包括了利用祭坛获得新女仆的配方等"
 			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "75AD6A2386ED20D7"
 			tasks: [{
 				id: "4F7CBF93B0A260A0"
@@ -112,13 +119,13 @@
 				{
 					count: 3L
 					id: "1B7CFA0ACFC1E377"
-					item: { Count: 3, id: "minecraft:gunpowder" }
+					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "55EE47E2BC9D7355"
-					item: { Count: 3, id: "minecraft:blaze_powder" }
+					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
@@ -153,6 +160,7 @@
 				""
 				"但是需要注意，女仆很喜欢把钓鱼竿往岸边甩，这种情况下根据minecraft自身的判定，是不属于开放水域的，无法获得各种宝藏战利品，就需要想办法把女仆运到水中央"
 			]
+			icon: "quark:cherry_bookshelf"
 			id: "0D86A3C330161D0F"
 			rewards: [{
 				id: "573FAB597FC09D85"
@@ -566,6 +574,7 @@
 				"目前的最新版本车万女仆&a经验修补可在女仆的饰品栏生效&r"
 			]
 			hide_dependent_lines: true
+			icon: "ars_nouveau:dull_trinket"
 			id: "3950E7B1A0F2D1CB"
 			tasks: [{
 				id: "060B695015074D27"
@@ -747,24 +756,43 @@
 		}
 		{
 			dependencies: ["0D86A3C330161D0F"]
-			description: ["如果要让女仆做饭的话，最好用一下这种特殊道具，能让女仆更方便地调用做饭需要的食材"]
+			description: [
+				"如果要让女仆做饭的话，最好用一下这种特殊道具，能让女仆更方便地调用做饭需要的食材"
+				""
+				"【额外备注：&b由于maidsoul kitchen模组目前存在兼容BUG，暂时移除，修复BUG以后再加回来&r"
+				""
+				"任务奖励暂时就直接白送了吧】"
+			]
 			id: "2E6D04E6D736569F"
-			rewards: [{
-				id: "71D13CF1720A980F"
-				item: "thermal:rf_coil_storage_augment"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "71D13CF1720A980F"
+					item: "thermal:rf_coil_storage_augment"
+					type: "item"
+				}
+				{
+					id: "581CA534AEE5DB0E"
+					item: "thermal:rf_coil_xfer_augment"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "5BBF7E6FD93BE459"
-				item: "maidsoulkitchen:culinary_hub"
-				type: "item"
+				id: "6ABE4787A8438D24"
+				type: "checkmark"
 			}]
+			title: "女仆做饭"
 			x: 8.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3950E7B1A0F2D1CB"]
-			description: ["主要用途：防止女仆受到农夫乐事炉灶等方块的伤害"]
+			description: [
+				"主要用途：防止女仆受到农夫乐事炉灶等方块的伤害"
+				""
+				"额外备注：&b由于maidsoul kitchen模组目前存在兼容BUG，暂时移除，修复BUG以后再加回来&r"
+				""
+				"&a此处物品缺失为正常情况&r"
+			]
 			id: "31318A8EE8D14D2B"
 			tasks: [{
 				id: "260C76B159352E42"
@@ -777,6 +805,7 @@
 				}
 				type: "item"
 			}]
+			title: "燃着保护饰品"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -995,6 +1024,7 @@
 				""
 				"将乐器给女仆拿在手上，或者扔给敌对生物也可以让其演奏。对其右键即可将乐器拿下来。"
 			]
+			icon: "touhou_little_maid:trumpet"
 			id: "4A2013DBB6BBF7DD"
 			shape: "rsquare"
 			size: 2.0d
@@ -1056,7 +1086,7 @@
 			}]
 			title: "全体目光向我看齐"
 			x: 12.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["06468188B654F99B"]

@@ -21,7 +21,7 @@
 	destructiveDiveBomb = true
 	#Archwood forest spawn weight
 	#Range: > 0
-	archwoodForest = 2
+	archwoodForest = 6
 	#How many inventories can lectern support per bookwyrm
 	#Range: > 1
 	bookwyrmLimit = 8
@@ -29,7 +29,7 @@
 [drygmy_production]
 	#How much source drygmys consume per generation
 	#Range: 0 ~ 10000
-	drygmyManaCost = 1000
+	drygmyManaCost = 5000
 	#How many channels must occur before a drygmy produces loot
 	#Range: 0 ~ 300
 	drygmyMaxProgress = 20

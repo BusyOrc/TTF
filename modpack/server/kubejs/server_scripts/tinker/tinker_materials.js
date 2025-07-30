@@ -1,7 +1,7 @@
 
 //          event 流体id 材料id 锭id  块id 粒id  锭烧出来的mb    温度  时间            块和粒没有填"none"
 let crtm = (event,flu    ,mat  ,ingo ,blo ,nug, cnt,           tmp ,tim) =>{
-    if(ingo != "none"){    
+    if(ingo != "none" && ingo!= "mystias_izakaya:reisen"){    
     event.custom({//定义锭在炉子里融化
         "type": "tconstruct:melting",
         "ingredient": {//所需物品
@@ -425,24 +425,6 @@ event.custom(
     })
 
 
-//烈焰人炉子
-event.custom(
-    {
-        "type": "tconstruct:casting_basin",
-        "cast": {
-          "item": "create:empty_blaze_burner"
-        },
-        "cast_consumed": true,
-        "cooling_time": 180,
-        "fluid": {
-          "amount": 540,
-          "fluid": "tconstruct:blazing_blood"
-        },
-        "result":"create:blaze_burner"
-            
-      }
-    )
-
 
 //姬海棠果
 crtm(event,"kubejs:molten_himekaido","kubejs:himekaido","immortalers_delight:golden_himekaido","none","none",90,678,80)
@@ -452,16 +434,22 @@ crtm(event,"kubejs:molten_wu_yu","kubejs:wu_yu","kubejs:wu_yu_ingot","none","non
 
 //天邪鬼
 crtm(event,"kubejs:molten_seija","kubejs:seija","kubejs:seija","none","none",90,1800,40)
-/*
-event.custom({//部件加工台
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "sakuratinker:south_star"
-    },
-    "material": "sakuratinker:south_star",
-    "needed": 1,
-    "value": 1
-})*/
+
+crtm(event,"kubejs:molten_devil","touhoutinkermodifier:devil","kubejs:devil","none","none",90,1400,120)
+crtm(event,"kubejs:molten_ex_rumia","touhoutinkermodifier:ex_rumia","kubejs:ex_rumia","none","none",90,3500,120)
+crtm(event,"kubejs:molten_flandre","touhoutinkermodifier:flandre","kubejs:flandre","none","none",90,3777,120)
+crtm(event,"kubejs:molten_ice_warrior","touhoutinkermodifier:ice_warrior","kubejs:ice_warrior","none","none",90,1999,120)
+//crtm(event,"kubejs:molten_inu","touhoutinkermodifier:inu","kubejs:inu","none","none",90,1800,120)
+crtm(event,"kubejs:molten_kosuzu","touhoutinkermodifier:kosuzu","kubejs:kosuzu","none","none",90,1480,120)
+crtm(event,"kubejs:molten_meiling","touhoutinkermodifier:meiling","kubejs:meiling","none","none",90,1800,120)
+crtm(event,"kubejs:molten_paru","touhoutinkermodifier:paru","kubejs:paru","none","none",90,980,120)
+crtm(event,"kubejs:molten_patch","touhoutinkermodifier:patch","kubejs:patch","none","none",90,1920,120)
+crtm(event,"kubejs:molten_remilia","touhoutinkermodifier:remilia","kubejs:remilia","none","none",90,3700,120)
+crtm(event,"kubejs:molten_rumia","touhoutinkermodifier:rumia","kubejs:rumia","none","none",90,1735,120)
+crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,1760,120)
+crtm(event,"kubejs:molten_sannyo","touhoutinkermodifier:sannyo","kubejs:sannyo","none","none",90,1640,120)
+crtm(event,"kubejs:molten_wakasagihime","touhoutinkermodifier:wakasagihime","kubejs:wakasagihime","none","none",90,1850,120)
+
 
 })
 

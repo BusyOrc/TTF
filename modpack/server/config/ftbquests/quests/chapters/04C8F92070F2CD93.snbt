@@ -113,8 +113,44 @@
 			x: -8.0d
 			y: 10.0d
 		}
+		{
+			click: "#"
+			height: 3.0d
+			hover: ["一切安全，并不会爆炸"]
+			image: "alexscaves:block/nuclear_bomb_side_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: 0.25d
+		}
+		{
+			click: "#"
+			height: 3.0d
+			hover: ["一切安全，并不会爆炸"]
+			image: "alexscaves:block/nuclear_bomb_side_1"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: 0.25d
+		}
+		{
+			height: 3.0d
+			image: "alexscaves:block/block_of_uranium"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: -2.25d
+		}
+		{
+			height: 3.0d
+			image: "alexscaves:block/block_of_uranium"
+			rotation: 0.0d
+			width: 3.0d
+			x: -13.5d
+			y: -2.25d
+		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -619,7 +655,7 @@
 			tasks: [{
 				count: 8L
 				id: "355AB5EC810AA7E7"
-				item: { Count: 8, id: "aquaculture:neptunium_ingot" }
+				item: "aquaculture:neptunium_ingot"
 				type: "item"
 			}]
 			x: 14.0d
@@ -699,7 +735,7 @@
 				"{ \"text\": \"软管滑轮是个好东西,点我查看怎么使用\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E0B6C8886D15BD9\" } }"
 				""
 				"{@pagebreak}"
-				"荷取：相信你已经在之前的课程里学会了软管滑轮的用法，那就不啰嗦了哦，毕竟剩下的其他材料都只需要AE的合成终端里面下单就能完成。这种设备一定会用到水产饲料，可以产出一些正常情况不方便量产的水产品。并且部分配方&b需要在暮色的地下才能发挥作用&r。"
+				"荷取：相信你已经在之前的课程里学会了软管滑轮的用法，那就不啰嗦了哦，毕竟剩下的其他材料都只需要AE的合成终端里面下单就能完成。这种设备一定会用到水产饲料，可以产出一些正常情况不方便量产的水产品。"
 				""
 				"天子：什么？你说AE根本没动？那你可惨喽，逃的课终究是要补回来的，如果要&b纯手工匠心打造&r的话，祝你好运，我先溜了"
 				""
@@ -925,15 +961,9 @@
 			description: [
 				"似乎存在着这样的一种可能性，有另外一种独特的方法同样可以得到这几种重要的设备，尽管几乎不需要发展什么科技，对战斗的要求也不算很高，但是难度却相当大，甚至一点也不比做科技的难度低……"
 				""
-				"是需要运气吗？不对，具体的解法是固定的，不需要赌运气。"
-				"是需要很深的游戏理解，必须是MC生电大佬吗？也不是，毕竟游戏里面具体的操作并不算复杂，甚至如果你已经学会了，可以完全不动手，指挥别人来完成。"
-				"是需要刷刷刷吗？也不对，最重要的是思路不是肝度。"
-				""
-				"但是，&c这条线的难度可能会让绝大部分人望而却步，甚至光是看一眼就不会有丝毫尝试的勇气&r，因此，&4不管是已经到达这里的，或者尚未到达的，都不必对此有太高的期待（指难度方面）&r，或许等更新以后，绝大部分人会发现——静下心来耐心研究一下AE会更简单"
-				""
 				"&a【未完待续】"
 				""
-				"&a【0科技线待更新】"
+				"&a【0科技线待更新，世界线已收束】"
 			]
 			icon: "itemfilters:max_count"
 			id: "415B372D30B0960E"
@@ -993,6 +1023,45 @@
 				weak_nbt_match: true
 			}]
 			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"强力的多方块发电结构，&d只需要输入所需流体，即可产生大量电力"
+				"&r"
+				"获取方式：使用灵视进行交易"
+				""
+				"{ \"text\": \"了解灵视交易\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A5D4E796774DA5B\" } }"
+				""
+				"如需查看建造所需材料，在获得控制器以后只需按U查看JEI即可"
+			]
+			icon: "starbunclemania:source_fluid_bucket"
+			id: "38B604C051E27A47"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4202CEEEFC2E6286"
+				item: "mbd2:nuclear_plant"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38B604C051E27A47"]
+			description: [
+				"需要在大型豆腐祭坛中生产，部分原材料有概率回收一部分"
+				""
+				"觉：本来以前是用正常的核燃料发电的，但是……"
+				"想起【核电轻而易举】"
+			]
+			id: "25D34E4AB0E966CE"
+			tasks: [{
+				id: "70E23D5A01796275"
+				item: "kubejs:nuclear_fuel_bucket"
+				type: "item"
+			}]
+			x: -8.5d
 			y: -3.0d
 		}
 	]

@@ -16,6 +16,7 @@
         "type": "tconstruct:attribute",
         "each_level": -0.2,
         "operation": "addition",
+        "tooltip_style": "percent",
         "attribute": "minecraft:generic.max_health",
         "unique": "tconstruct.modifier.darkness_emerging",
         "slots": [

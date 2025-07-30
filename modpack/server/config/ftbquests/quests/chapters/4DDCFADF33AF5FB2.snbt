@@ -1,0 +1,574 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4DDCFADF33AF5FB2"
+	group: "398070A2413EA53F"
+	icon: "touhou_little_maid:maid_bed"
+	id: "4DDCFADF33AF5FB2"
+	images: [{
+		height: 10.0d
+		image: "touhou_tinker_fantasy:textures/doremy.png"
+		rotation: 0.0d
+		width: 7.3d
+		x: -4.75d
+		y: -2.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "0D02F16B0331B616"
+			subtitle: "睡一次觉"
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "718CD23565C17BB2"
+				stat: "minecraft:sleep_in_bed"
+				title: "倒头就睡"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.75d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"0D02F16B0331B616"
+				"0A4A43448B34A980"
+			]
+			description: [
+				"哆来咪：你听说过吗？&a红辣椒是进入梦境世界的媒介&r，并且进入时也无需携带陀螺或者戒指，但最好准备好盔甲与武器"
+				""
+				"梦和现实的边界正在变得越来越模糊，因此入梦时也请不要掉以轻心，也许梦中的生物也会影响到现实，并且受到异变的影响，大部分梦里的生物都比现实中的更强大"
+				""
+				"如果在梦境中挑战成功，传送门附近16格的玩家都能&a获得灵视&r，具体灵视多少取决于传送门的难度，不过，如果挑战失败的话，也会&c失去灵视&r。灵视最低为0，即使暂时低于0也会很快恢复正常"
+			]
+			id: "2B92DBC507FF2E5A"
+			rewards: [{
+				id: "3AFCCA3C70D9622F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3E98718CD5C001C2"
+				item: "ltc2:pepper_red"
+				type: "item"
+			}]
+			title: "红辣椒"
+			x: 0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "43A57055A0FE339D"
+			tasks: [{
+				id: "649AE2832211D2BA"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/blaze"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "40BE95DAE12D527A"
+			tasks: [{
+				id: "68290AEFF51E72CD"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/enderman"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "1F89FE4208D42F7F"
+			tasks: [{
+				id: "1651BE47A8AE3624"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/slime"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "0BCE7B9C7CC89EBD"
+			tasks: [{
+				id: "0A3AB86C64AE4C13"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:emerald_grove"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "7B8F8C914AC3A76B"
+			tasks: [{
+				id: "47FD18308905EEE7"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:overworldian_nights"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "02ED63FC553E672C"
+			tasks: [{
+				id: "05947C111CFFD58A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:alexs_hell"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "12B2688F35BE770A"
+			tasks: [{
+				id: "291567AF588A7BA0"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:cataclysm_ender"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "19A1F9EA790D23FB"
+			tasks: [{
+				id: "579F0F92F34E9B69"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:cataclysm_ignis"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2B92DBC507FF2E5A"
+				"43A57055A0FE339D"
+			]
+			description: ["哆来咪：最为危险的一个梦境，似乎能无限持续下去——不过最先崩溃的可能是入梦者"]
+			id: "33A7F9865E7700C9"
+			shape: "rsquare"
+			tasks: [{
+				id: "4B971B13F7270220"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:endless/blaze"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "7F652633ED6CAC3D"
+			tasks: [{
+				id: "4411116A6301D81A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:hellish_fortress"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B92DBC507FF2E5A"]
+			id: "40AE873EB2E24D16"
+			tasks: [{
+				id: "7EF002B7FAD9E6FF"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:wild_hunt"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6EEB0383390322ED"
+				"0D02F16B0331B616"
+				"0A4A43448B34A980"
+			]
+			description: [
+				"哆来咪：目前灵视可以用于交易这些物品，交易时有以下要求："
+				"1.必须手持符合要求的物品，这些物品在交易中会被消耗掉"
+				"2.灵视消耗的&b机制类似附魔台&r，即使只需要消耗少量灵视，但总量仍需满足特定要求"
+				"3.如需用灵视交易物品，需要手持特定物品右键&a仪式火盆&r"
+				"{ \"text\": \"了解仪式火盆\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EEB0383390322ED\" } }"
+			]
+			icon: "traveloptics:aqua_upgrade_orb"
+			id: "3A5D4E796774DA5B"
+			shape: "rsquare"
+			size: 3.0d
+			tasks: [{
+				id: "543F3A5C9F27E80E"
+				type: "checkmark"
+			}]
+			title: "灵视交易"
+			x: 0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A5D4E796774DA5B"]
+			description: [
+				"哆来咪：作为最简单的一个交易项目，只需要至少10点灵视就能启动，每次消耗5点灵视和主手的一个稻草方块"
+				""
+				"兑换的物品：主要是随机水果种子，有小概率得到幻昙花甚至姬海棠种子"
+			]
+			id: "0CCB1884C25E91FE"
+			size: 2.0d
+			tasks: [{
+				id: "61F013AE35E7C8C9"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			title: "随机农作物种子"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A5D4E796774DA5B"]
+			description: [
+				"哆来咪：主手需要钻石块，副手需要腾炎块，以及至少100点的灵视，每次交易消耗30点"
+				""
+				"可获得：古明地反应堆控制器"
+			]
+			id: "1430A0375B8DA5DA"
+			size: 2.0d
+			tasks: [
+				{
+					id: "659CB54CC9D15143"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "16E2F588B5509A07"
+					item: "cataclysm:ignitium_block"
+					type: "item"
+				}
+			]
+			title: "古明地反应堆控制器"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A5D4E796774DA5B"]
+			description: [
+				"哆来咪：需要主手持有破败焰形剑和至少100点灵视，交易消耗50点"
+				""
+				"可获得：狐狸面具"
+			]
+			id: "756AADBE5BCB6B3B"
+			size: 2.0d
+			tasks: [{
+				id: "669BAABF1F514F43"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "狐狸面具"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A5D4E796774DA5B"]
+			description: [
+				"哆来咪：需要主手持有知识碎片，副手持有任意附魔书，至少150点灵视，每次消耗80点灵视"
+				""
+				"交换的物品：本居小铃锭"
+			]
+			id: "563F533A0FB83F34"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0BDA863034620666"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6A0CC820E2E37A02"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+			]
+			title: "本居小铃锭"
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A5D4E796774DA5B"]
+			description: [
+				"哆来咪：需要主手持有风暴精华，副手持有凋灵合金锭，至少需要120点灵视才能进行交易，每次消耗60点"
+				""
+				"交易可得：金姬海棠果"
+			]
+			id: "3A383347D6F3719B"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5D31F34CB802A9B5"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					id: "2B2A63C55509B253"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			title: "金姬海棠果"
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["563F533A0FB83F34"]
+			id: "63FDEF20E3546C86"
+			tasks: [{
+				id: "7D542F6C05D89B9F"
+				item: "kubejs:kosuzu"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["3A383347D6F3719B"]
+			id: "6A2BD38C9D1575A4"
+			tasks: [{
+				id: "462D2B62335D4857"
+				item: "immortalers_delight:golden_himekaido"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["756AADBE5BCB6B3B"]
+			id: "533945F4DD421164"
+			tasks: [{
+				id: "7482202D4305682D"
+				item: "sakuratinker:fox_mask"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["1430A0375B8DA5DA"]
+			id: "1CFAC1557324EE4B"
+			tasks: [{
+				id: "3F9CD42DB72B9F37"
+				item: "mbd2:nuclear_plant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["0CCB1884C25E91FE"]
+			id: "095BE2761921278A"
+			tasks: [
+				{
+					id: "4ADBBE92C9B48E19"
+					item: "youkaishomecoming:udumbara_flower"
+					type: "item"
+				}
+				{
+					id: "27046B53E8E994F2"
+					item: "delightful:cantaloupe_seeds"
+					type: "item"
+				}
+				{
+					id: "770A3E8C67E20011"
+					item: "fruitsdelight:durian_sapling"
+					type: "item"
+				}
+				{
+					id: "366B8ECCDD4C9026"
+					item: "fruitsdelight:pineapple_sapling"
+					type: "item"
+				}
+				{
+					id: "77C112AC0FC68607"
+					item: "fruitsdelight:lemon_seeds"
+					type: "item"
+				}
+				{
+					id: "48C536659031DE39"
+					item: "fruitsdelight:hamimelon_seeds"
+					type: "item"
+				}
+				{
+					id: "045D75F87BF37A7B"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+				{
+					id: "370970EA36BE8791"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "6681A4D816533D29"
+					item: "immortalers_delight:himekaido_seed"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -12.75d
+		}
+		{
+			dependencies: ["0D02F16B0331B616"]
+			description: [
+				"哆来咪：灵视分为4个阶段：0-50，50-100，100-150，150+"
+				"0≤灵视＜50：敌人持有1级材料的匠魂工具，相对安全"
+				"50≤灵视＜100：敌人持有2级材料的匠魂工具，死灵潜行者等危险敌人会在地下生成"
+				"100≤灵视＜150：敌人持有3级材料的匠魂工具，部分危险敌人会出现在地面上"
+				"灵视＞150：敌人持有4级材料的匠魂工具，德格米会刷新在蘑菇森林和繁密蘑菇森林中"
+				""
+				"另外，关于灵视获取的规则灵梦应该已经告诉过你了，这里还是再说一下吧"
+				""
+				"{@pagebreak}"
+				"&a灵视无法自然增长，获得灵视只能通过以下方法&r："
+				"1.完成特定任务"
+				"2.成功挑战永恒之门，如果失败则会扣除灵视。只有挑战成功时附近16格内玩家才能获得灵视"
+				"3.击败大部分BOSS均可获得不同点数的灵视，具体的情况之后会告诉你"
+				""
+				"如果需要减少灵视，推荐使用特定物品在仪式火盆上进行交换"
+			]
+			icon: "ars_nouveau:allow_scroll"
+			id: "0A4A43448B34A980"
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "1B7FDB933AD85D64"
+				type: "checkmark"
+			}]
+			title: "灵视的规则"
+			x: 3.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["0A4A43448B34A980"]
+			description: [
+				"焰魔：21"
+				"斯库拉：20"
+				"末影守卫：21"
+				"先驱者：18"
+				"利维坦：22"
+				"远古遗魂：24"
+				"咒翼灵骸：24"
+				""
+				"娜迦：15"
+				"巫妖：12"
+				"米诺菇：10"
+				"九头蛇：15"
+				"幻影骑士：10"
+				"暮初恶魂：⑨"
+				"雪人首领：5"
+				"冰雪女王：15"
+				""
+				"蕾米莉亚：17"
+				"{@pagebreak}"
+				"钢铁守卫：18"
+				"太阳鸟：15"
+				"冰雪巨人：12"
+				"夜巡者：40"
+				"震怒的死者之王：32"
+				"死者之王：25"
+				"凋灵：10"
+				"末影龙：25"
+			]
+			icon: "cataclysm:cursium_upgrade_smithing_template"
+			id: "39A7CF333EC86486"
+			size: 2.0d
+			tasks: [{
+				id: "45E9B38C09C4E6AA"
+				type: "checkmark"
+			}]
+			title: "击败不同BOSS获得的灵视"
+			x: 7.5d
+			y: -0.25d
+		}
+	]
+	title: "哆来咪的梦境世界"
+}

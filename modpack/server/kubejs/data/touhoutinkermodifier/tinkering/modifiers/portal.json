@@ -32,7 +32,8 @@
         "type": "tconstruct:mob_effect",
         "effect": "minecraft:weakness",
         "hooks": [
-          "tconstruct:melee_hit"
+          "tconstruct:melee_hit",
+          "tconstruct:projectile_hit"
         ],
         "level": {
           "flat": 3.0

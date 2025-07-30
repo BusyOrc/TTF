@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 1620,
+    "fluid": "tconstruct:molten_cinderslime"
+  },
+  "input": "touhoutinkermodifier:patch",
+  "output": "touhoutinkermodifier:patch_slime",
+  "temperature": 1000
+}

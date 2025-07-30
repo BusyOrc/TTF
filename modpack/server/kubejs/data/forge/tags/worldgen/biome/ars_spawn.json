@@ -1,0 +1,11 @@
+{
+    "values":[
+    "twilightforest:mushroom_forest",
+    "twilightforest:clearing",
+    "twilightforest:forest",
+    "twilightforest:dense_mushroom_forest",
+    "twilightforest:firefly_forest",
+    "twilightforest:oak_savannah",
+    "#minecraft:is_overworld"
+    ]
+}

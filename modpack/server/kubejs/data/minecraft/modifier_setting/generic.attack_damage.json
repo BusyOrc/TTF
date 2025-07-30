@@ -1,0 +1,16 @@
+{
+  "attributeType": "minecraft:generic.attack_damage",
+  "conditions": {
+    "affixes": {
+      "values": []
+    },
+    "entity": [
+    ],
+    "permission": "blacklist"
+  },
+  "enable": false,
+  "modifier": {
+    "operation": "ADDITION",
+    "value": 1
+  }
+}
