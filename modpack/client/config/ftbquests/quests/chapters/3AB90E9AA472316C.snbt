@@ -167,7 +167,7 @@
 				"灵梦：目前主要有以下目标，分别是&a暮色森林，灾变&r的众多强敌以及路上能遇到的各种敌人。暮色森林有阶段流程的限制，需要按照顺序击杀BOSS，不过你也可以给我点食物，我帮你解除限制"
 				"{ \"text\": \"解除封印\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F304CCA2EC8128A\" } }"
 				""
-				"而灾变的BOSS没有顺序的说法，可以制作相应的眼睛，类似于末影之眼，来寻找对应的BOSS结构。也可以用结构指南针直接寻找。"
+				"而灾变的BOSS没有顺序的说法，可以制作相应的眼睛，类似于末影之眼，来寻找对应的BOSS结构，&d这些眼睛还可以用于复活BOSS，重新挑战&r。也可以用结构指南针直接寻找。"
 				""
 				""
 				"除此之外，还可以通过一些手段主动召唤强敌，但应战前做好准备，这些敌人强度和平时你遇到的可不太一样"
@@ -1362,7 +1362,7 @@
 				{
 					count: 8L
 					id: "5867FCFD386F1DCA"
-					item: { Count: 8, id: "tconstruct:queens_slime_block" }
+					item: "tconstruct:queens_slime_block"
 					type: "item"
 				}
 			]
@@ -1793,7 +1793,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]

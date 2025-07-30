@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["暂未完工，请等待后续更新"]
 			icon: "alexscaves:acidic_radrock"
 			id: "2F284534EDC00F42"
 			tasks: [
@@ -215,7 +216,7 @@
 				{
 					count: 16L
 					id: "51AF6F40B680795F"
-					item: { Count: 16, id: "thermal:lead_plate" }
+					item: "thermal:lead_plate"
 					type: "item"
 				}
 			]
@@ -252,7 +253,7 @@
 			tasks: [{
 				count: 19L
 				id: "1EAA683172AA418A"
-				item: { Count: 8, id: "alexscaves:charred_remnant" }
+				item: "alexscaves:charred_remnant"
 				type: "item"
 			}]
 			x: 8.0d

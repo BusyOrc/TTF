@@ -80,24 +80,24 @@
 			image: "ars_nouveau:block/manabloom/stage3"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.75d
-			y: 16.0d
+			x: -10.25d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
 			image: "ars_nouveau:block/manabloom/stage4"
 			rotation: 0.0d
 			width: 2.0d
-			x: -1.25d
-			y: 16.0d
+			x: -8.75d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
 			image: "ars_nouveau:block/spell_sensor_fast"
 			rotation: 0.0d
 			width: 2.0d
-			x: -8.25d
-			y: 16.5d
+			x: -15.75d
+			y: 12.5d
 		}
 		{
 			height: 12.0d
@@ -108,8 +108,9 @@
 			y: -6.25d
 		}
 		{
+			click: "#"
 			height: 2.0d
-			hover: ["杀死以夺取其外在"]
+			hover: ["击杀疣猪兽获得外皮"]
 			image: "nethersdelight:item/hoglin_hide"
 			rotation: 27.0d
 			width: 2.0d
@@ -157,7 +158,9 @@
 			y: 4.25d
 		}
 		{
+			click: "#"
 			height: 1.0d
+			hover: ["远古知识碎片"]
 			image: "irons_spellbooks:item/ancient_knowledge_fragment"
 			rotation: 0.0d
 			width: 1.0d
@@ -165,7 +168,9 @@
 			y: -2.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
+			hover: ["远古知识碎片"]
 			image: "irons_spellbooks:item/ancient_knowledge_fragment"
 			rotation: 93.0d
 			width: 1.0d
@@ -173,7 +178,9 @@
 			y: -0.75d
 		}
 		{
+			click: "#"
 			height: 1.0d
+			hover: ["远古知识碎片"]
 			image: "irons_spellbooks:item/ancient_knowledge_fragment"
 			rotation: 156.0d
 			width: 1.0d
@@ -223,7 +230,7 @@
 				id: "098F5DB19A24422E"
 				type: "checkmark"
 			}]
-			title: "1 昨天我们攻略了大书库"
+			title: "昨天我们攻略了大书库"
 			x: -7.3500000000000005d
 			y: 0.0d
 		}
@@ -455,7 +462,7 @@
 			id: "6B346A99F56A4EE5"
 			shape: "none"
 			size: 1.4d
-			subtitle: "bug？其实是为了让你点击"
+			subtitle: "bug？并非BUG，其实是为了让你点击"
 			tasks: [{
 				id: "622CF82BCF57B57E"
 				type: "checkmark"
@@ -836,7 +843,7 @@
 				type: "checkmark"
 			}]
 			title: "如何编写法术"
-			x: -16.75d
+			x: -16.5d
 			y: 6.25d
 		}
 		{
@@ -911,11 +918,17 @@
 				title: "魔符的种类"
 				type: "checkmark"
 			}]
-			x: -8.25d
-			y: 21.5d
+			x: -15.75d
+			y: 17.5d
 		}
 		{
-			description: ["为了退治异变，对他们使用炎拳吧！"]
+			description: [
+				"为了退治异变，对他们使用炎拳吧！"
+				""
+				"如果野外找不到，就用召唤的方法吧"
+				""
+				"{ \"text\": \"永恒之门珍珠\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40AE873EB2E24D16\" } }"
+			]
 			icon: "ars_nouveau:wilden_stalker_se"
 			id: "328CE0529C3E8488"
 			rewards: [
@@ -935,6 +948,8 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 2.0d
 			subtitle: "会掉落合成魔符所需的物品"
 			tasks: [
 				{
@@ -957,8 +972,8 @@
 				}
 			]
 			title: "三种需要退治的生物"
-			x: -8.25d
-			y: 18.5d
+			x: -15.75d
+			y: 14.5d
 		}
 		{
 			description: [
@@ -994,8 +1009,8 @@
 				type: "item"
 			}]
 			title: "合成魔源宝石和精华"
-			x: -5.25d
-			y: 20.0d
+			x: -12.75d
+			y: 16.0d
 		}
 		{
 			description: [
@@ -1176,8 +1191,8 @@
 				type: "item"
 			}]
 			title: "拓展合成"
-			x: -5.75d
-			y: 23.5d
+			x: -13.25d
+			y: 19.5d
 		}
 		{
 			description: [
@@ -1200,8 +1215,8 @@
 				type: "item"
 			}]
 			title: "储存魔源！"
-			x: 0.75d
-			y: 20.0d
+			x: -6.75d
+			y: 16.0d
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
@@ -1229,8 +1244,8 @@
 				type: "item"
 			}]
 			title: "运输魔源！"
-			x: 0.75d
-			y: 18.5d
+			x: -6.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1246,8 +1261,8 @@
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 18.75d
+			x: -7.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1267,8 +1282,8 @@
 				item: "ars_nouveau:relay_warp"
 				type: "item"
 			}]
-			x: 0.25d
-			y: 17.5d
+			x: -7.25d
+			y: 13.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1284,8 +1299,8 @@
 				item: "ars_nouveau:relay_deposit"
 				type: "item"
 			}]
-			x: 1.25d
-			y: 17.5d
+			x: -6.25d
+			y: 13.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -1301,8 +1316,8 @@
 				item: "ars_nouveau:relay_collector"
 				type: "item"
 			}]
-			x: 1.75d
-			y: 18.5d
+			x: -5.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
@@ -1341,8 +1356,8 @@
 				}
 			]
 			title: "独特的附魔系统"
-			x: 3.75d
-			y: 20.0d
+			x: -3.75d
+			y: 16.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1372,8 +1387,8 @@
 					type: "item"
 				}
 			]
-			x: 7.25d
-			y: 16.75d
+			x: -2.25d
+			y: 15.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1384,8 +1399,8 @@
 				item: "ars_nouveau:amulet_of_mana_boost"
 				type: "item"
 			}]
-			x: 3.25d
-			y: 22.5d
+			x: -4.25d
+			y: 18.5d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1396,8 +1411,8 @@
 				item: "ars_nouveau:amulet_of_mana_regen"
 				type: "item"
 			}]
-			x: 4.25d
-			y: 22.5d
+			x: -3.25d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1B911976B163FD3C"]
@@ -1409,8 +1424,8 @@
 				item: "ars_nouveau:ring_of_greater_discount"
 				type: "item"
 			}]
-			x: 4.75d
-			y: 21.5d
+			x: -2.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1422,8 +1437,8 @@
 				item: "ars_nouveau:ring_of_lesser_discount"
 				type: "item"
 			}]
-			x: 3.75d
-			y: 21.5d
+			x: -3.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2B13F1544715D4C4"]
@@ -1457,8 +1472,8 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 1.25d
+			x: -16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AD1AFA5D01CA409"]
@@ -1488,8 +1503,8 @@
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 25.5d
+			x: -15.25d
+			y: 21.5d
 		}
 		{
 			dependencies: ["6EEB0383390322ED"]
@@ -1507,8 +1522,8 @@
 				item: "ars_nouveau:brazier_relay"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 27.0d
+			x: -15.25d
+			y: 23.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -1530,8 +1545,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.75d
-			y: 21.5d
+			x: -4.75d
+			y: 17.5d
 		}
 		{
 			id: "2C9BFFAB383122D7"
@@ -1547,8 +1562,8 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: -6.75d
-			y: 25.0d
+			x: -14.25d
+			y: 21.0d
 		}
 		{
 			id: "0299D55DC0A3CF74"
@@ -1558,8 +1573,8 @@
 				item: "ars_nouveau:ritual_burrowing"
 				type: "item"
 			}]
-			x: -6.75d
-			y: 26.0d
+			x: -14.25d
+			y: 22.0d
 		}
 		{
 			id: "58C86C5EFB3632C1"
@@ -1569,8 +1584,8 @@
 				item: "ars_nouveau:ritual_challenge"
 				type: "item"
 			}]
-			x: -7.25d
-			y: 26.5d
+			x: -14.75d
+			y: 22.5d
 		}
 		{
 			id: "4A9D32A93EA474CF"
@@ -1580,8 +1595,8 @@
 				item: "ars_nouveau:ritual_binding"
 				type: "item"
 			}]
-			x: -6.25d
-			y: 26.5d
+			x: -13.75d
+			y: 22.5d
 		}
 		{
 			id: "1D50F2640458A1B8"
@@ -1591,8 +1606,8 @@
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: -5.75d
-			y: 26.0d
+			x: -13.25d
+			y: 22.0d
 		}
 		{
 			id: "4F0BD6D37B1C754C"
@@ -1602,8 +1617,8 @@
 				item: "ars_nouveau:ritual_disintegration"
 				type: "item"
 			}]
-			x: -7.25d
-			y: 24.5d
+			x: -14.75d
+			y: 20.5d
 		}
 		{
 			id: "12BF593E7E124DE6"
@@ -1613,8 +1628,8 @@
 				item: "ars_nouveau:ritual_sunrise"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 25.0d
+			x: -16.25d
+			y: 21.0d
 		}
 		{
 			id: "58953C6282A9F7E9"
@@ -1624,8 +1639,8 @@
 				item: "ars_nouveau:ritual_conjure_island_plains"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 24.5d
+			x: -15.75d
+			y: 20.5d
 		}
 		{
 			id: "73A3BB13CDEBC6F8"
@@ -1635,8 +1650,8 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 25.0d
+			x: -17.25d
+			y: 21.0d
 		}
 		{
 			id: "05EC1D41334F841C"
@@ -1646,8 +1661,8 @@
 				item: "ars_nouveau:ritual_restoration"
 				type: "item"
 			}]
-			x: -9.25d
-			y: 25.5d
+			x: -16.75d
+			y: 21.5d
 		}
 		{
 			id: "0A0F263B2F13B038"
@@ -1657,8 +1672,8 @@
 				item: "ars_nouveau:ritual_animal_summon"
 				type: "item"
 			}]
-			x: -10.25d
-			y: 25.5d
+			x: -17.75d
+			y: 21.5d
 		}
 		{
 			id: "092F44C1B6DC3A44"
@@ -1668,8 +1683,8 @@
 				item: "ars_nouveau:ritual_forestation"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 26.0d
+			x: -16.25d
+			y: 22.0d
 		}
 		{
 			id: "4586FAD7AA0A8580"
@@ -1679,8 +1694,8 @@
 				item: "ars_nouveau:ritual_warping"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 26.0d
+			x: -17.25d
+			y: 22.0d
 		}
 		{
 			id: "54D7AC9A942F7919"
@@ -1690,8 +1705,8 @@
 				item: "ars_nouveau:ritual_moonfall"
 				type: "item"
 			}]
-			x: -9.25d
-			y: 26.5d
+			x: -16.75d
+			y: 22.5d
 		}
 		{
 			id: "780A48CAE097D342"
@@ -1701,8 +1716,8 @@
 				item: "ars_nouveau:ritual_containment"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 26.5d
+			x: -15.75d
+			y: 22.5d
 		}
 		{
 			id: "7AFC8A6860535937"
@@ -1712,8 +1727,8 @@
 				item: "ars_nouveau:ritual_scrying"
 				type: "item"
 			}]
-			x: -6.75d
-			y: 27.0d
+			x: -14.25d
+			y: 23.0d
 		}
 		{
 			id: "6FC5270ED6E68C90"
@@ -1723,8 +1738,8 @@
 				item: "ars_nouveau:ritual_gravity"
 				type: "item"
 			}]
-			x: -9.25d
-			y: 24.5d
+			x: -16.75d
+			y: 20.5d
 		}
 		{
 			id: "566611F301D751F9"
@@ -1734,8 +1749,8 @@
 				item: "ars_nouveau:ritual_flowering"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 27.0d
+			x: -16.25d
+			y: 23.0d
 		}
 		{
 			id: "5645C1B09F0BF6AD"
@@ -1745,8 +1760,8 @@
 				item: "ars_nouveau:ritual_sanctuary"
 				type: "item"
 			}]
-			x: -6.25d
-			y: 25.5d
+			x: -13.75d
+			y: 21.5d
 		}
 		{
 			id: "11F14939DA72239C"
@@ -1756,8 +1771,8 @@
 				item: "ars_nouveau:ritual_fertility"
 				type: "item"
 			}]
-			x: -5.75d
-			y: 25.0d
+			x: -13.25d
+			y: 21.0d
 		}
 		{
 			id: "1BBD8C4BAE1F7D42"
@@ -1767,8 +1782,8 @@
 				item: "ars_nouveau:ritual_overgrowth"
 				type: "item"
 			}]
-			x: -6.75d
-			y: 24.0d
+			x: -14.25d
+			y: 20.0d
 		}
 		{
 			id: "561FAB6BA59EB6AA"
@@ -1778,8 +1793,8 @@
 				item: "ars_nouveau:ritual_conjure_island_desert"
 				type: "item"
 			}]
-			x: -6.25d
-			y: 24.5d
+			x: -13.75d
+			y: 20.5d
 		}
 		{
 			id: "286B345EB6C180AA"
@@ -1789,8 +1804,8 @@
 				item: "ars_nouveau:ritual_harvest"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 24.0d
+			x: -16.25d
+			y: 20.0d
 		}
 		{
 			id: "121FE0415C57A3CF"
@@ -1802,8 +1817,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: -4.75d
-			y: 25.5d
+			x: -12.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1823,8 +1838,8 @@
 				type: "checkmark"
 			}]
 			title: "可爱的小家伙们"
-			x: -0.25d
-			y: 25.5d
+			x: -7.75d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1855,8 +1870,8 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 1.25d
-			y: 25.5d
+			x: -6.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1882,8 +1897,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
-			y: 25.5d
+			x: -9.25d
+			y: 21.5d
 		}
 		{
 			description: [
@@ -1910,8 +1925,8 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 0.75d
-			y: 25.0d
+			x: -6.75d
+			y: 21.0d
 		}
 		{
 			description: [
@@ -1943,8 +1958,8 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -1.25d
-			y: 24.5d
+			x: -8.75d
+			y: 20.5d
 		}
 		{
 			description: [
@@ -1971,8 +1986,8 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: -1.25d
-			y: 26.0d
+			x: -8.75d
+			y: 22.0d
 		}
 		{
 			description: [
@@ -1997,8 +2012,8 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 0.75d
-			y: 26.0d
+			x: -6.75d
+			y: 22.0d
 		}
 		{
 			id: "060FC0F7B2D016BA"
@@ -2008,8 +2023,8 @@
 				item: "ars_nouveau:glyph_leap"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 22.0d
+			x: -16.25d
+			y: 18.0d
 		}
 		{
 			description: [
@@ -2034,8 +2049,8 @@
 				type: "item"
 			}]
 			title: "想尝试下自动化吗？"
-			x: 9.25d
-			y: 20.0d
+			x: 1.75d
+			y: 16.0d
 		}
 		{
 			id: "75012DC49BD10809"
@@ -2045,8 +2060,8 @@
 				item: "ars_nouveau:glyph_dispel"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 22.0d
+			x: -15.25d
+			y: 18.0d
 		}
 		{
 			id: "674015561EF0EE06"
@@ -2056,8 +2071,8 @@
 				item: "ars_nouveau:glyph_grow"
 				type: "item"
 			}]
-			x: -8.25d
-			y: 22.5d
+			x: -15.75d
+			y: 18.5d
 		}
 		{
 			id: "68A129A431007B8E"
@@ -2067,8 +2082,8 @@
 				item: "ars_nouveau:glyph_heal"
 				type: "item"
 			}]
-			x: -7.25d
-			y: 22.5d
+			x: -14.75d
+			y: 18.5d
 		}
 		{
 			id: "378F9F91FAB24843"
@@ -2078,8 +2093,8 @@
 				item: "ars_nouveau:glyph_fortune"
 				type: "item"
 			}]
-			x: -9.25d
-			y: 22.5d
+			x: -16.75d
+			y: 18.5d
 		}
 		{
 			id: "23A729A418146B92"
@@ -2089,8 +2104,8 @@
 				item: "ars_nouveau:glyph_pickup"
 				type: "item"
 			}]
-			x: -6.75d
-			y: 22.0d
+			x: -14.25d
+			y: 18.0d
 		}
 		{
 			id: "05B937CA52C3226F"
@@ -2100,8 +2115,8 @@
 				item: "ars_nouveau:glyph_light"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 22.0d
+			x: -17.25d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2122,8 +2137,8 @@
 				item: "ars_nouveau:spell_prism"
 				type: "item"
 			}]
-			x: 10.75d
-			y: 17.0d
+			x: 0.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2B13F1544715D4C4"]
@@ -2184,8 +2199,8 @@
 				type: "checkmark"
 			}]
 			title: "新生魔艺的特殊装备"
-			x: 6.25d
-			y: 18.0d
+			x: -1.25d
+			y: 14.25d
 		}
 		{
 			dependencies: ["6468040E298C572C"]
@@ -2198,6 +2213,7 @@
 			]
 			id: "44161DF1D6F67F3F"
 			shape: "gear"
+			size: 2.0d
 			subtitle: "就像为盔甲安装插件"
 			tasks: [{
 				id: "3EEEA09A1A443DB7"
@@ -2205,8 +2221,8 @@
 				type: "item"
 			}]
 			title: "改造你的盔甲"
-			x: 5.25d
-			y: 16.0d
+			x: -2.75d
+			y: 11.25d
 		}
 		{
 			dependencies: ["4EA1F22038B563E7"]
@@ -2244,8 +2260,8 @@
 				title: "升级你的魔法盔甲！"
 				type: "checkmark"
 			}]
-			x: 5.75d
-			y: 17.0d
+			x: -1.25d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2CA715810DA06B11"]
@@ -2274,8 +2290,8 @@
 				type: "item"
 			}]
 			title: "获得纤维"
-			x: 4.75d
-			y: 17.0d
+			x: -2.75d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
@@ -2367,8 +2383,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 18.0d
+			x: 3.25d
+			y: 14.75d
 		}
 		{
 			dependencies: ["4B429128F68C2877"]
@@ -2409,8 +2425,8 @@
 				type: "checkmark"
 			}]
 			title: "如何抄写法术？"
-			x: -22.75d
-			y: 2.25d
+			x: -22.85714285714286d
+			y: 2.3035714285714306d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2427,8 +2443,8 @@
 				type: "item"
 			}]
 			title: "制作羊皮纸"
-			x: 10.75d
-			y: 20.0d
+			x: 3.25d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6DBC903E33BD145B"]
@@ -2449,8 +2465,8 @@
 				type: "item"
 			}]
 			title: "将法术抄写上去！"
-			x: 11.75d
-			y: 20.0d
+			x: 4.25d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2467,8 +2483,8 @@
 				item: "ars_nouveau:void_prism"
 				type: "item"
 			}]
-			x: 9.75d
-			y: 18.5d
+			x: 1.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2486,8 +2502,8 @@
 				item: "ars_nouveau:spell_turret"
 				type: "item"
 			}]
-			x: 8.25d
-			y: 21.0d
+			x: 0.75d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2513,8 +2529,8 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 9.25d
-			y: 21.5d
+			x: 1.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1F8D5E1781D65555"]
@@ -2531,8 +2547,8 @@
 				item: "ars_nouveau:rotating_spell_turret"
 				type: "item"
 			}]
-			x: 10.25d
-			y: 21.0d
+			x: 2.75d
+			y: 17.0d
 		}
 		{
 			dependencies: ["420E774A446BE5F3"]
@@ -2549,8 +2565,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: -5.25d
-			y: 18.5d
+			x: -12.75d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4EDE275E9D1D40A0"]
@@ -2573,8 +2589,8 @@
 				type: "item"
 			}]
 			title: "魔力汇集之地"
-			x: -20.0d
-			y: 1.5d
+			x: -19.857142857142854d
+			y: 1.5035714285714263d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -2591,8 +2607,8 @@
 				item: "arseng:source_acceptor"
 				type: "item"
 			}]
-			x: 2.75d
-			y: 18.0d
+			x: -4.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["515D1E3F69597DF8"]
@@ -2603,8 +2619,8 @@
 				item: "arseng:cable_source_acceptor"
 				type: "item"
 			}]
-			x: 2.75d
-			y: 16.5d
+			x: -4.75d
+			y: 12.5d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -2632,8 +2648,8 @@
 				item: "starbunclemania:glyph_place_fluid"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 23.0d
+			x: -16.25d
+			y: 19.0d
 		}
 		{
 			id: "278A197047566864"
@@ -2643,8 +2659,8 @@
 				item: "starbunclemania:glyph_pickup_fluid"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 23.0d
+			x: -15.25d
+			y: 19.0d
 		}
 		{
 			description: [
@@ -2659,8 +2675,8 @@
 				item: "starbunclemania:star_battery"
 				type: "item"
 			}]
-			x: -1.75d
-			y: 26.5d
+			x: -9.25d
+			y: 22.5d
 		}
 		{
 			description: [
@@ -2675,8 +2691,8 @@
 				item: "starbunclemania:star_bucket"
 				type: "item"
 			}]
-			x: -0.75d
-			y: 26.5d
+			x: -8.25d
+			y: 22.5d
 		}
 		{
 			description: [
@@ -2692,8 +2708,8 @@
 				item: "starbunclemania:star_bin"
 				type: "item"
 			}]
-			x: 0.25d
-			y: 26.5d
+			x: -7.25d
+			y: 22.5d
 		}
 		{
 			dependencies: ["38A50014E40F8C90"]
@@ -2726,8 +2742,8 @@
 				item: "starbunclemania:source_condenser"
 				type: "item"
 			}]
-			x: 0.75d
-			y: 16.0d
+			x: -6.75d
+			y: 12.0d
 		}
 		{
 			dependencies: ["62D29C1E3C05CD0E"]
@@ -2744,8 +2760,8 @@
 				item: "arseng:source_cell_housing"
 				type: "item"
 			}]
-			x: 3.75d
-			y: 18.0d
+			x: -3.75d
+			y: 14.0d
 		}
 		{
 			dependencies: ["420E774A446BE5F3"]
@@ -2760,12 +2776,12 @@
 			tasks: [{
 				count: 32L
 				id: "5E1B5E0EBED0C29A"
-				item: { Count: 32, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "小目标"
-			x: -5.25d
-			y: 21.5d
+			x: -12.75d
+			y: 17.5d
 		}
 		{
 			dependencies: ["5514483CF158193F"]
@@ -2777,8 +2793,8 @@
 				item: "ars_nouveau:potion_jar"
 				type: "item"
 			}]
-			x: -20.625d
-			y: 12.125d
+			x: -26.25d
+			y: 12.375d
 		}
 		{
 			dependencies: ["18AAD55258BE9D87"]
@@ -5077,7 +5093,7 @@
 				{
 					count: 5L
 					id: "2BEC1B3E51778590"
-					item: { Count: 5, id: "vanillacookbook:honey_pancake" }
+					item: "vanillacookbook:honey_pancake"
 					type: "item"
 				}
 				{

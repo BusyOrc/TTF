@@ -204,6 +204,7 @@
 			y: 8.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["玫瑰石英"]
 			image: "create:item/rose_quartz"
@@ -229,6 +230,7 @@
 			y: 8.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["砂纸（消耗耐久）"]
 			image: "create:item/sand_paper"
@@ -248,6 +250,7 @@
 			y: 9.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: [
 				"玫瑰石英碎块"
@@ -308,6 +311,7 @@
 			y: 11.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["熔岩"]
 			image: "minecraft:block/lava_still"
@@ -326,6 +330,7 @@
 			y: 10.0d
 		}
 		{
+			click: "#"
 			height: 1.0d
 			hover: ["鼓风机"]
 			image: "create:block/fan_side"
@@ -367,6 +372,7 @@
 			y: 1.0d
 		}
 		{
+			click: "#"
 			height: 2.0d
 			hover: ["鼓风机"]
 			image: "create:block/fan_side"
@@ -400,6 +406,7 @@
 			y: 1.0d
 		}
 		{
+			click: "#"
 			height: 2.0d
 			hover: ["鼓风机"]
 			image: "create:block/fan_side"
@@ -1886,6 +1893,184 @@
 			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			description: ["荷取：这些液体在满足至少1024格的情况下可以无限抽取"]
+			icon: "tofucraft:crimson_fluid_bottle"
+			id: "3FCC6F6E186A2F38"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "76CC750778EF7334"
+				type: "checkmark"
+			}]
+			title: "无限抽取"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"荷取：除了熔岩这种最基础的液体燃料可以让烈焰人燃烧室进行普通燃烧，还有下面这些燃料也可以利用"
+				""
+				"更大的图标代表可以超级燃烧的燃料"
+				"小图标代表只能普通燃烧"
+				""
+				"直接用管道将流体输入即可，无需其他步骤"
+			]
+			icon: "create:fluid_pipe"
+			id: "08AE04BA5F001F55"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "33745661B1A5A4CF"
+				type: "checkmark"
+			}]
+			title: "额外的液体燃料"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "3D89AC09B67779C8"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2C17EFEE9AC31242"
+				item: "chemlib:acetylene_bucket"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 13.625d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "28C1AAAFC09AC689"
+			shape: "diamond"
+			tasks: [{
+				id: "1F4D71D7733CA11A"
+				item: "chemlib:methane_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.25d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "346A499A1C19F1B7"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "43B021105E0969BC"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.875d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "0310F45F1445871A"
+			shape: "diamond"
+			tasks: [{
+				id: "11AB2C651BF051B8"
+				item: "chemlib:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.25d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			description: ["还可以作为匠魂冶炼炉的燃料，并且是古明地反应堆所需燃料的原材料"]
+			id: "289D697226CF7697"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4E9DDB30E63A9E7D"
+				item: "kubejs:magic_fuel_bucket"
+				type: "item"
+			}]
+			title: "魔法燃料"
+			x: 2.25d
+			y: 13.625d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "3427E0401AC56978"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7CDE635B3AEF0C3C"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.375d
+		}
+		{
+			dependencies: ["3FCC6F6E186A2F38"]
+			id: "235BBF2C06A9B360"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "10078C61124F9E5A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -3.375d
+			y: 12.75d
+		}
+		{
+			dependencies: ["3FCC6F6E186A2F38"]
+			id: "36FEDF6EAE998C08"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "418778D7E6710EF2"
+				item: "tofucraft:bucket_soymilk"
+				type: "item"
+			}]
+			x: -2.625d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3FCC6F6E186A2F38"]
+			id: "6371334D6E83E38A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2217E66A1DA909F5"
+				item: "biomesoplenty:blood_bucket"
+				type: "item"
+			}]
+			x: -1.875d
+			y: 12.75d
+		}
+		{
+			dependencies: ["3FCC6F6E186A2F38"]
+			id: "6A00D7B8FD65709B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2A5CFA7C2CB64349"
+				item: "create_wizardry:blood_bucket"
+				type: "item"
+			}]
+			x: -1.125d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3FCC6F6E186A2F38"]
+			id: "4861EB37FC221978"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2B6894B0EFF71841"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: -0.375d
+			y: 12.75d
 		}
 	]
 	title: "河童居处(机械动力)"

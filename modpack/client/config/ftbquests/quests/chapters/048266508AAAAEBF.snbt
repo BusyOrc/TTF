@@ -42,6 +42,13 @@
 				""
 				"JEI搜索@maid可查询到所有女仆相关内容，其中包括了利用祭坛获得新女仆的配方等"
 			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "75AD6A2386ED20D7"
 			tasks: [{
 				id: "4F7CBF93B0A260A0"
@@ -112,13 +119,13 @@
 				{
 					count: 3L
 					id: "1B7CFA0ACFC1E377"
-					item: { Count: 3, id: "minecraft:gunpowder" }
+					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "55EE47E2BC9D7355"
-					item: { Count: 3, id: "minecraft:blaze_powder" }
+					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
@@ -153,6 +160,7 @@
 				""
 				"但是需要注意，女仆很喜欢把钓鱼竿往岸边甩，这种情况下根据minecraft自身的判定，是不属于开放水域的，无法获得各种宝藏战利品，就需要想办法把女仆运到水中央"
 			]
+			icon: "quark:cherry_bookshelf"
 			id: "0D86A3C330161D0F"
 			rewards: [{
 				id: "573FAB597FC09D85"
@@ -566,6 +574,7 @@
 				"目前的最新版本车万女仆&a经验修补可在女仆的饰品栏生效&r"
 			]
 			hide_dependent_lines: true
+			icon: "ars_nouveau:dull_trinket"
 			id: "3950E7B1A0F2D1CB"
 			tasks: [{
 				id: "060B695015074D27"
@@ -782,7 +791,7 @@
 				""
 				"额外备注：&b由于maidsoul kitchen模组目前存在兼容BUG，暂时移除，修复BUG以后再加回来&r"
 				""
-				"此处物品缺失为正常情况"
+				"&a此处物品缺失为正常情况&r"
 			]
 			id: "31318A8EE8D14D2B"
 			tasks: [{
@@ -796,6 +805,7 @@
 				}
 				type: "item"
 			}]
+			title: "燃着保护饰品"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -1014,6 +1024,7 @@
 				""
 				"将乐器给女仆拿在手上，或者扔给敌对生物也可以让其演奏。对其右键即可将乐器拿下来。"
 			]
+			icon: "touhou_little_maid:trumpet"
 			id: "4A2013DBB6BBF7DD"
 			shape: "rsquare"
 			size: 2.0d

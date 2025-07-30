@@ -205,10 +205,6 @@
 								}
 								{
 									level: 1
-									name: "tinkers_thinking:prickly"
-								}
-								{
-									level: 1
 									name: "tconstruct:silky_shears"
 								}
 								{
@@ -229,11 +225,11 @@
 								"tconstruct:accuracy": 0.85f
 								"tconstruct:armor": 1.0f
 								"tconstruct:armor_toughness": 1.0f
-								"tconstruct:attack_damage": 7.965f
-								"tconstruct:attack_speed": 1.4f
-								"tconstruct:durability": 1793.1376f
+								"tconstruct:attack_damage": 7.2275004f
+								"tconstruct:attack_speed": 1.4399999f
+								"tconstruct:durability": 1741.9053f
 								"tconstruct:harvest_tier": "minecraft:diamond"
-								"tconstruct:mining_speed": 4.55625f
+								"tconstruct:mining_speed": 4.75875f
 								"tconstruct:projectile_damage": 2.5f
 							}
 							tic_upgrades: [
@@ -1545,6 +1541,42 @@
 			title: "灵视"
 			x: 7.5d
 			y: -2.5d
+		}
+		{
+			id: "5A8BCD2E7EE4820A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76BE634E5F5AB39C"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "75F9B94CC9F791A2"
+				structure: "ttf:homo"
+				title: "发现红魔馆"
+				type: "structure"
+			}]
+			x: 9.25d
+			y: 1.75d
+		}
+		{
+			id: "24F354B402511BB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15287ED1EC3E9968"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C1CFCFC6F46B599"
+				structure: "ttf:alice"
+				title: "发现爱丽丝小屋"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 1.75d
 		}
 	]
 	title: "初遇灵梦"

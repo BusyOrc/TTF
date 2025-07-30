@@ -655,7 +655,7 @@
 			tasks: [{
 				count: 8L
 				id: "355AB5EC810AA7E7"
-				item: { Count: 8, id: "aquaculture:neptunium_ingot" }
+				item: "aquaculture:neptunium_ingot"
 				type: "item"
 			}]
 			x: 14.0d

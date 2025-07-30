@@ -776,6 +776,8 @@
 				"注液生产效率更好"
 				""
 				"（BOP的血满足1024格液体阈值后也可&a无限抽取&r，虽然可能软管滑轮的UI不会显示“无限”，但测试结果为正常生效）"
+				""
+				"{ \"text\": \"所有可无限抽取的流体\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00E27A58740EFA00\" } }"
 			]
 			icon: "biomesoplenty:flesh"
 			id: "712B432E5EDE2DE3"
@@ -878,7 +880,7 @@
 			tasks: [{
 				count: 32L
 				id: "4E9576A28DB3AD9F"
-				item: { Count: 32, id: "thermal:sawdust" }
+				item: "thermal:sawdust"
 				type: "item"
 			}]
 			x: 7.0d
@@ -4525,7 +4527,7 @@
 			tasks: [{
 				count: 5L
 				id: "7C1A4F0BE01B07B2"
-				item: { Count: 5, id: "tconstruct:obsidian_reinforcement" }
+				item: "tconstruct:obsidian_reinforcement"
 				type: "item"
 			}]
 			x: 22.5d
@@ -4613,13 +4615,13 @@
 				{
 					count: 3L
 					id: "68D38284C929C4E6"
-					item: { Count: 3, id: "alexscaves:amber_curiosity" }
+					item: "alexscaves:amber_curiosity"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4210416E95865A0F"
-					item: { Count: 2, id: "alexscaves:amber" }
+					item: "alexscaves:amber"
 					type: "item"
 				}
 			]
@@ -4659,13 +4661,13 @@
 				{
 					count: 2L
 					id: "787525898969FDAC"
-					item: { Count: 2, id: "alexscaves:amber_curiosity" }
+					item: "alexscaves:amber_curiosity"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "79E5157BFFAF8B99"
-					item: { Count: 2, id: "alexscaves:pewen_sap" }
+					item: "alexscaves:pewen_sap"
 					type: "item"
 				}
 			]
@@ -4685,7 +4687,7 @@
 			tasks: [{
 				count: 72L
 				id: "0246F8913AA53CBD"
-				item: { Count: 72, id: "minecraft:amethyst_shard" }
+				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
 			title: "迅捷打击"
@@ -4705,7 +4707,7 @@
 			tasks: [{
 				count: 45L
 				id: "297F6BEC756BA86A"
-				item: { Count: 45, id: "minecraft:redstone" }
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			title: "急迫"
@@ -4797,7 +4799,7 @@
 			tasks: [{
 				count: 36L
 				id: "095E7AD747894538"
-				item: { Count: 36, id: "minecraft:prismarine_shard" }
+				item: "minecraft:prismarine_shard"
 				type: "item"
 			}]
 			title: "水力驱动"
@@ -4817,7 +4819,7 @@
 			tasks: [{
 				count: 64L
 				id: "5569312474022F0B"
-				item: { Count: 64, id: "minecraft:glowstone_dust" }
+				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
 			title: "光照提速"
@@ -4837,7 +4839,7 @@
 			tasks: [{
 				count: 5L
 				id: "76D8318482214416"
-				item: { Count: 5, id: "tinkers_thinking:lightite_reinforcement" }
+				item: "tinkers_thinking:lightite_reinforcement"
 				type: "item"
 			}]
 			title: "轻捷"
@@ -4871,13 +4873,13 @@
 				{
 					count: 2L
 					id: "0F9C605D79B48785"
-					item: { Count: 2, id: "minecraft:piston" }
+					item: "minecraft:piston"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "0E2EB0D3999B822D"
-					item: { Count: 2, id: "tconstruct:ichor_slime_ball" }
+					item: "tconstruct:ichor_slime_ball"
 					type: "item"
 				}
 			]
@@ -4915,7 +4917,7 @@
 				{
 					count: 2L
 					id: "767DCD04D54CC63A"
-					item: { Count: 2, id: "minecraft:coal_block" }
+					item: "minecraft:coal_block"
 					type: "item"
 				}
 			]
@@ -4950,31 +4952,31 @@
 				{
 					count: 20L
 					id: "2DF54E5214A01F06"
-					item: { Count: 20, id: "minecraft:pufferfish" }
+					item: "minecraft:pufferfish"
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "123E458AB1EA9D7E"
-					item: { Count: 15, id: "minecraft:fermented_spider_eye" }
+					item: "minecraft:fermented_spider_eye"
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "16F740F379A6C759"
-					item: { Count: 25, id: "minecraft:prismarine_crystals" }
+					item: "minecraft:prismarine_crystals"
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "33E8B561BC1B29F2"
-					item: { Count: 5, id: "minecraft:lapis_block" }
+					item: "minecraft:lapis_block"
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "2F910A1C9476C983"
-					item: { Count: 5, id: "minecraft:glistering_melon_slice" }
+					item: "minecraft:glistering_melon_slice"
 					type: "item"
 				}
 			]
@@ -4995,7 +4997,7 @@
 			tasks: [{
 				count: 18L
 				id: "7675C7A4966AE7B1"
-				item: { Count: 18, id: "minecraft:chain" }
+				item: "minecraft:chain"
 				type: "item"
 			}]
 			title: "横扫之刃 "
@@ -5015,7 +5017,7 @@
 			tasks: [{
 				count: 25L
 				id: "3EBD1CCF2CA05274"
-				item: { Count: 25, id: "minecraft:blaze_powder" }
+				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
 			title: "怒火"
@@ -5055,13 +5057,13 @@
 				{
 					count: 8L
 					id: "4450FA36B9F5A546"
-					item: { Count: 8, id: "chemlib:uranium_ingot" }
+					item: "chemlib:uranium_ingot"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "697DBA4368642733"
-					item: { Count: 8, id: "alexscaves:radon_bottle" }
+					item: "alexscaves:radon_bottle"
 					type: "item"
 				}
 			]
@@ -5082,7 +5084,7 @@
 			tasks: [{
 				count: 10L
 				id: "4366CC535566A5A1"
-				item: { Count: 10, id: "tconstruct:punji" }
+				item: "tconstruct:punji"
 				type: "item"
 			}]
 			title: "穿刺"
@@ -5122,7 +5124,7 @@
 			tasks: [{
 				count: 72L
 				id: "58399E0C68EBD71F"
-				item: { Count: 72, id: "tconstruct:ichor_slime_crystal" }
+				item: "tconstruct:ichor_slime_crystal"
 				type: "item"
 			}]
 			title: "力量"
@@ -5143,7 +5145,7 @@
 			tasks: [{
 				count: 5L
 				id: "3987A2FDADA31CB2"
-				item: { Count: 5, id: "minecraft:sunflower" }
+				item: "minecraft:sunflower"
 				type: "item"
 			}]
 			title: "快速装填"
@@ -5165,7 +5167,7 @@
 				{
 					count: 2L
 					id: "601D29EB30E030A3"
-					item: { Count: 2, id: "minecraft:piston" }
+					item: "minecraft:piston"
 					type: "item"
 				}
 				{
@@ -5176,7 +5178,7 @@
 				{
 					count: 2L
 					id: "557F403490509B6E"
-					item: { Count: 2, id: "tconstruct:ichor_slime_ball" }
+					item: "tconstruct:ichor_slime_ball"
 					type: "item"
 				}
 			]
@@ -5197,7 +5199,7 @@
 			tasks: [{
 				count: 10L
 				id: "47EBE1719FFC6A9D"
-				item: { Count: 10, id: "minecraft:target" }
+				item: "minecraft:target"
 				type: "item"
 			}]
 			title: "神射"
@@ -5217,7 +5219,7 @@
 			tasks: [{
 				count: 3L
 				id: "5F280185B86492B4"
-				item: { Count: 3, id: "minecraft:pointed_dripstone" }
+				item: "minecraft:pointed_dripstone"
 				type: "item"
 			}]
 			title: "穿透"
@@ -5313,13 +5315,13 @@
 				{
 					count: 2L
 					id: "7BC25954A6DCF1CB"
-					item: { Count: 2, id: "iceandfire:witherbone" }
+					item: "iceandfire:witherbone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "084137F811811084"
-					item: { Count: 2, id: "minecraft:wither_rose" }
+					item: "minecraft:wither_rose"
 					type: "item"
 				}
 				{
@@ -5399,13 +5401,13 @@
 				{
 					count: 2L
 					id: "4F67E8E27C2E9FC7"
-					item: { Count: 2, id: "twilightforest:alpha_yeti_fur" }
+					item: "twilightforest:alpha_yeti_fur"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "0C5619BB9B8304A9"
-					item: { Count: 2, id: "twilightforest:arctic_fur_block" }
+					item: "twilightforest:arctic_fur_block"
 					type: "item"
 				}
 			]
@@ -5433,7 +5435,7 @@
 				{
 					count: 2L
 					id: "3B28C98282276469"
-					item: { Count: 2, id: "minecraft:redstone" }
+					item: "minecraft:redstone"
 					type: "item"
 				}
 			]
@@ -5688,13 +5690,13 @@
 				{
 					count: 2L
 					id: "3401D740F9DDC0F8"
-					item: { Count: 2, id: "minecraft:stone" }
+					item: "minecraft:stone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7251B9C0DBB2E440"
-					item: { Count: 2, id: "twilightforest:mazestone_brick" }
+					item: "twilightforest:mazestone_brick"
 					type: "item"
 				}
 			]
@@ -5722,13 +5724,13 @@
 				{
 					count: 2L
 					id: "2D76BE07295DC760"
-					item: { Count: 2, id: "twilightforest:knightmetal_ring" }
+					item: "twilightforest:knightmetal_ring"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "5448536B5E56C996"
-					item: { Count: 2, id: "cloudertinker:phantom_ingot" }
+					item: "cloudertinker:phantom_ingot"
 					type: "item"
 				}
 			]
@@ -5764,13 +5766,13 @@
 				{
 					count: 2L
 					id: "68D6CEB3B8411938"
-					item: { Count: 2, id: "minecraft:gilded_blackstone" }
+					item: "minecraft:gilded_blackstone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "07C18E87F0C61DEB"
-					item: { Count: 2, id: "tconstruct:ender_slime_crystal_block" }
+					item: "tconstruct:ender_slime_crystal_block"
 					type: "item"
 				}
 				{
@@ -6006,7 +6008,7 @@
 				{
 					count: 2L
 					id: "6E2D4850A23E9B38"
-					item: { Count: 2, id: "minecraft:blaze_rod" }
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 				{
@@ -6034,7 +6036,7 @@
 				{
 					count: 2L
 					id: "48E6A8FB92D4F469"
-					item: { Count: 2, id: "twilightforest:torchberries" }
+					item: "twilightforest:torchberries"
 					type: "item"
 				}
 				{
@@ -6120,7 +6122,7 @@
 				{
 					count: 3L
 					id: "4D004713A6904E18"
-					item: { Count: 3, id: "irons_spellbooks:blood_upgrade_orb" }
+					item: "irons_spellbooks:blood_upgrade_orb"
 					type: "item"
 				}
 			]
@@ -6479,7 +6481,7 @@
 				{
 					count: 6L
 					id: "187582C57A435E86"
-					item: { Count: 6, id: "hmag:echo_shard_block" }
+					item: "hmag:echo_shard_block"
 					type: "item"
 				}
 				{
