@@ -159,7 +159,7 @@
 	cirnoSpawn = true
 	#Chance for fairy ice crystal to drop
 	#Range: 0.0 ~ 1.0
-	cirnoFairyDrop = 0.09
+	cirnoFairyDrop = 0.9
 	#Fairies will actively attack players with youkaifying/ed effects
 	fairyAttackYoukaified = true
 	#Chance for fairies to summon other fairies when killed by non-danmaku damage

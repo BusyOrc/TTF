@@ -90,35 +90,12 @@ event.add('forge:ingots/uranium', 'alexscaves:uranium')
 
     ])
 
-//    const hats = Ingredient.of(/.*simplehats.*/).getObjectIds()
-//    const blacklist1 = Ingredient.of(/.*hatbag.*/)
-//    const blacklist2 = Ingredient.of(/.*scrap.*/)
-//    const blacklist3 = Ingredient.of(/.*hatdisplay.*/)
-//    hats.forEach(hat => {
-//        if ((!blacklist1.test(hat)) * (!blacklist2.test(hat)) * (!blacklist3.test(hat)))
-//            event.add('curios:head', hat)
-//    })
-
-
 
 event.add('curios:body', ['create_jetpack:jetpack','create_jetpack:netherite_jetpack' ])
+
+
+
 /*
-event.add('forge:twohanded_weapons', [
-'#spartanweaponry:pikes',
-'#spartanweaponry:quarterstaves',
-'#spartanweaponry:katanas',
-'#spartanweaponry:warhammers',
-'#spartanweaponry:longswords',
-'#spartanweaponry:halberds',
-'#spartanweaponry:greatswords',
-'#spartanweaponry:glaives',
-'#spartanweaponry:battleaxes',
-'#spartanweaponry:flanged_maces'
-
-])
-
-*/
-
 //jewels
 event.add('jewelcraft:rose',/^jewelcraft.*_rose$/ )
 event.add('jewelcraft:shadow',/^jewelcraft.*_shadow$/ )
@@ -129,7 +106,7 @@ event.add('jewelcraft:lapis',/^jewelcraft.*_lapis$/ )
 event.add('jewelcraft:diamond',/^jewelcraft.*_diamond$/ )
 event.add('jewelcraft:emerald',/^jewelcraft.*_emerald$/ )
 event.add('jewelcraft:amethyst',/^jewelcraft.*_amethyst$/ )
-
+*/
 //mashu
 event.add('youkaishomecoming:dango', 'mystias_izakaya:ma_shu')
 
@@ -143,24 +120,10 @@ event.add('quark:hollow_logs',['twilightforest:hollow_cherry_log', 'twilightfore
        'twilightforest:hollow_spruce_log', 'twilightforest:hollow_twilight_oak_log', 'twilightforest:hollow_canopy_log',
         'twilightforest:hollow_mangrove_log', 'twilightforest:hollow_dark_log', 'twilightforest:hollow_time_log',
      'twilightforest:hollow_transformation_log', 'twilightforest:hollow_mining_log', 'twilightforest:hollow_sorting_log', 'twilightforest:hollow_oak_log'])
-
-event.add('forge:legendary_items','mushroom_daydream:legend_paper')
-
 event.add('forge:tofu',['youkaishomecoming:tofu','tofucraft:tofuishi'])
 
 event.remove('minecraft:music_discs', 'supplementaries:pancake')
 
-//event.add('spartanweaponry:oilable_weapons','#tconstruct:modifiable/melee')
-
-/*let melee=[
-    "tconstruct:cleaver", "tinkers_things:halberd", "tconstruct:broadaxe", "tconstruct:scythe",
-     "things:amethyst_staff", "things:quartz_staff", "tconstruct:sword", "tconstruct:hand_axe",
-      "tinkers_thinking:paxel", "tconstruct:dagger", "mushroom_daydream:gun"
-    ]
-for(let i of melee)
-{
-    event.add('spartanweaponry:oilable_weapons', i) 
-}*/
 let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
      'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine']
 
@@ -191,9 +154,8 @@ for(let i of tr_latiaos)
 event.add('forge:treasure_latiao',i)
 }
 
-event.add("tconstruct:modifiable/held",["mushroom_daydream:gun","mushroom_daydream:tachi","mushroom_daydream:longjian","sakuratinker:swift_sword"])
-event.add("tconstruct:modifiable/melee/weapon",["mushroom_daydream:gun","mushroom_daydream:tachi",
-    "mushroom_daydream:longjian","sakuratinker:swift_sword"])
+event.add("tconstruct:modifiable/held",["sakuratinker:swift_sword"])
+event.add("tconstruct:modifiable/melee/weapon",["sakuratinker:swift_sword"])
 event.add('forge:salt_blocks',['ltc2:refined_salt_block', 'ltc2:salt_block', 'tofucraft:salt_block'])
 
 event.add("forge:raw_materials/nihilite", 'sakuratinker:nihilite_raw_ore')

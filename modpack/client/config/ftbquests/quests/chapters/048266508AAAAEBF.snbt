@@ -119,13 +119,13 @@
 				{
 					count: 3L
 					id: "1B7CFA0ACFC1E377"
-					item: "minecraft:gunpowder"
+					item: { Count: 3, id: "minecraft:gunpowder" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "55EE47E2BC9D7355"
-					item: "minecraft:blaze_powder"
+					item: { Count: 3, id: "minecraft:blaze_powder" }
 					type: "item"
 				}
 			]

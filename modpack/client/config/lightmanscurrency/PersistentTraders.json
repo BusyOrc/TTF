@@ -327,31 +327,6 @@
           }
         },
         {
-          "TradeType": "SALE",
-          "SellItem": {
-            "ID": "mushroom_daydream:legend_paper",
-            "Count": 1
-          },
-          "Price": {
-            "Value": [
-              {
-                "Coin": "lightmanscurrency:coin_diamond",
-                "Amount": 6
-              },
-              {
-                "Coin": "lightmanscurrency:coin_emerald",
-                "Amount": 4
-              },
-              {
-                "Coin": "lightmanscurrency:coin_gold",
-                "Amount": 8
-              }
-            ],
-            "Chain": "main",
-            "type": "lightmanscurrency:coins"
-          }
-        },
-        {
           "TradeType": "PURCHASE",
           "SellItem": {
             "ID": "minecraft:emerald_block",

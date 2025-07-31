@@ -9,10 +9,13 @@ BlockEvents.rightClicked("minecraft:reinforced_deepslate", event => {
     }
   })
 
-  BlockEvents.rightClicked(["#lootr:containers","#forge:chests","#forge:barrels"], event => {
-if(event.player.hasEffect("youkaishomecoming:unconscious"))
+  BlockEvents.rightClicked("#lootr:containers", event => {
+   // console.log(`${event.block.hasTag("lootr:containers")}`)
+
+if(event.player.hasEffect("youkaishomecoming:unconscious") && event.block.hasTag("lootr:containers"))
 {
     event.player.removeEffect("youkaishomecoming:unconscious")
+    
     event.player.addItemCooldown("youkaishomecoming:koishi_hat",400)
 }
   })

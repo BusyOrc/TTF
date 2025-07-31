@@ -85,26 +85,6 @@
       "required": false
     },
     {
-      "id": "tinkers_ingenious:black_flash_alloy",
-      "required": false
-    },
-    {
-      "id": "tinkers_ingenious:colorful_slime",
-      "required": false
-    },
-    {
-      "id": "tinkers_ingenious:coloured_glaze_star",
-      "required": false
-    },
-    {
-      "id": "tinkers_ingenious:final_shell",
-      "required": false
-    },
-    {
-      "id": "tinkers_ingenious:knight_crystal",
-      "required": false
-    },
-    {
       "id": "clouder_tinker:phantom",
       "required": false
     },
@@ -190,42 +170,6 @@
     },
     {
       "id": "tinkerscalibration:jazz",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:knightslime",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:dark_thing",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:witherite_ingot",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:heimdallr",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:dawnstone",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:plague_steel",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:liga",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:no_head",
-      "required": false
-    },
-    {
-      "id": "mushroom_daydream:whiterose_wood",
       "required": false
     }
   ]

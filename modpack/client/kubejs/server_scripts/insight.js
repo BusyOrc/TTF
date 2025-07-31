@@ -247,8 +247,12 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier",event=>{
 
 EntityEvents.death("#forge:bosses",event=>{
 
-      const killer=event.source.getActual()
+      
+      if(event.source.getActual()!=null)
+      {
       const id= event.source.getActual().username
+      const killer=event.source.getActual()
+    //  console.log(`${id}`)
       let addon=0
       if(killer != null && killer.isPlayer())
            {
@@ -282,6 +286,7 @@ case "entity.youkaishomecoming.remilia_scarlet":addon=17;break;
 }
       event.server.runCommandSilent(`/improvedmobs difficulty player ${id} add ${addon}`)
 }
+      }
 // console.log(`${event.entity.getName().string}`);
 // console.log(`${event.entity.getTags().contains("forge:bosses")}`)
 // console.log(`${event.entity.getTags()}`)

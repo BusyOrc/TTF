@@ -999,14 +999,14 @@
 					consume_items: true
 					count: 32L
 					id: "24903729016347EC"
-					item: "tofucraft:seeds_soybeans"
+					item: { Count: 32, id: "tofucraft:seeds_soybeans" }
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 64L
 					id: "2DE8519D31757F6E"
-					item: "farmersdelight:raw_pasta"
+					item: { Count: 64, id: "farmersdelight:raw_pasta" }
 					type: "item"
 				}
 			]

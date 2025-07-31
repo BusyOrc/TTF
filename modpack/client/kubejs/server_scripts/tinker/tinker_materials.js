@@ -231,7 +231,7 @@ event.custom(
     "cooling_time": 60,
     "fluid": {
       "amount": 125,
-      "fluid": "mushroom_daydream:nightmare_fuel"
+      "fluid": "tconstruct:molten_obsidian"
     },
     "result":"kubejs:doremy_ingot"
         
@@ -305,18 +305,6 @@ event.custom({
 })
     */
 crtm(event,"sakuratinker:molten_elementium","kubejs:sakura","kubejs:sakura","none","none",90,1060,24)
-
-//棉花糖
-event.custom({
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "mystias_izakaya:yun_shan_miao_hua_tang"
-    },
-    "material": "mushroom_daydream:cotton_candy_wood",
-    "needed": 1,
-    "value": 1
-})
-
 //koishi
 event.recipes.create.mixing("kubejs:koishi_hat",[Fluid.of("chemlib:ethylene_fluid",500),'2x chemlib:krypton', 'youkaishomecoming:koishi_mousse']).superheated()
 crtm(event,"kubejs:molten_koishi","kubejs:koishi","kubejs:koishi_hat","none","none",90,514,72)
@@ -324,35 +312,6 @@ crtm(event,"kubejs:molten_koishi","kubejs:koishi","kubejs:koishi_hat","none","no
 
 //sakura
 event.recipes.create.compacting("sakuratinker:soul_sakura",['minecraft:chorus_flower', '3x tconstruct:cinderslime_ingot', 'minecraft:spore_blossom']).heated()
-
-//奶酪
-event.custom({
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "thermal:cheese_wedge"
-    },
-    "material": "mushroom_daydream:cheese",
-    "needed": 1,
-    "value": 1
-})
-event.custom({
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "tconstruct:cheese_ingot"
-    },
-    "material": "mushroom_daydream:cheese",
-    "needed": 1,
-    "value": 1
-})
-event.custom({
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "refurbished_furniture:cheese"
-    },
-    "material": "mushroom_daydream:cheese",
-    "needed": 1,
-    "value": 1
-})
 
 //豆腐
 event.custom({
@@ -364,39 +323,6 @@ event.custom({
     "needed": 1,
     "value": 1
 })
-
-
-
-event.recipes.create.mixing(Item.of('tconstruct:maille', '{Material:"mushroom_daydream:whiterose_wood"}'),
-['2x #forge:ingots/silver',Fluid.of('tconstruct:earth_slime',500)]).superheated()
-
-event.recipes.create.mixing(Item.of('tconstruct:shield_core', '{Material:"mushroom_daydream:whiterose_wood"}'),
-['4x #minecraft:planks','4x #forge:ingots/silver' ,Fluid.of('tconstruct:earth_slime',1000)]).superheated()
-
-
-
-//白蔷薇
-/*
-event.custom(
-    {
-        "type": "tconstruct:casting_table",
-        "cast": {
-          "item": "tconstruct:maille",
-          "nbt":{"material":"tconstruct:silver"}
-        },
-        "cast_consumed": true,
-        "cooling_time": 40,
-        "fluid": {
-          "amount": 500,
-          "fluid": "tconstruct:earth_slime"
-        },
-        "result":"tconstruct:maille",
-        "nbt":{"material":"mushroom_daydream:whiterose_wood"}
-            
-      }
-    )
-*/
-
 //迷雾
 event.custom(
     {

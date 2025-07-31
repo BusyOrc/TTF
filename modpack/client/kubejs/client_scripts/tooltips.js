@@ -63,8 +63,8 @@ ItemEvents.tooltip(event => {
 })
 
   event.addAdvanced('explorerscompass:explorerscompass', (item, advanced, text) => {
-    text.add(Text.gold("请勿搜索任何中文结构名称,"))
-    text.add(Text.gold("否则可能无法得到结果甚至造成服务器宕机"))
+    text.add(Text.gold("建议根据任务说明来搜索对应英文结构名称,否则可能无法找到"))
+    text.add(Text.darkGreen("因修改版指南针存在严重BUG，现已替换为未修改的指南针模组"))
   })
 
   event.addAdvanced(['cloudertinker:zombie_scepter_core', 'cloudertinker:lifedrain_scepter_core',
@@ -74,7 +74,7 @@ ItemEvents.tooltip(event => {
 
     event.addAdvanced(['constructionwand:stone_wand', 'constructionwand:iron_wand',
      'constructionwand:diamond_wand', 'constructionwand:infinity_wand'], (item, advanced, text) => {
-    text.add(Text.gold("请勿用手杖放置任何非原版特殊方块"))
+    text.add(Text.gold("请勿用手杖放置任何非原版特殊方块，如热力管道"))
   })
 
     event.addAdvanced('artifacts:bunny_hoppers', (item, advanced, text) => {

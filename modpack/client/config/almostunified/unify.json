@@ -20,7 +20,9 @@
     "tinkers_thinking",
     "createaddition",
     "miners_delight",
-    "mystias_izakaya"
+    "mystias_izakaya",
+    "tinkerscalibration",
+    "thermalendergy"
     
   ],
   "stoneStrata": [
@@ -95,6 +97,7 @@
     "gold",
     "graphite",
     "invar",
+    "stellarium",
     "iridium",
     "iron",
     "lapis",

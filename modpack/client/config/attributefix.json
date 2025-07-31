@@ -11,17 +11,6 @@
         "value": 2
       }
     },
-    "obscure_api:penetration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -339,6 +328,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "touhoutinkermodifier:player_fly_movement": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "l2damagetracker:fire_damage": {
@@ -946,17 +946,6 @@
         "value": 8
       }
     },
-    "obscure_api:resilience": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "modulargolems:golem_jump": {
       "enabled": false,
       "min": {
@@ -1100,17 +1089,6 @@
         "value": 100
       }
     },
-    "obscure_api:magic_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100000,
-        "value": 100000
-      }
-    },
     "footwork:max_posture": {
       "enabled": false,
       "min": {
@@ -1120,17 +1098,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "obscure_api:healing_power": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "nffgirls:nffgirls.anti_aquatic": {
@@ -1496,17 +1463,6 @@
         "value": 1
       }
     },
-    "obscure_api:parry": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "exmodifier:dodge": {
       "enabled": false,
       "min": {
@@ -1648,17 +1604,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "obscure_api:critical_hit": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "footwork:encirclement_distance": {

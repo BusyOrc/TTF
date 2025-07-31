@@ -150,32 +150,6 @@ event.custom(
   "time": 40
 }
   )
-
-event.custom(
-  {
-    "type": "tconstruct:alloy",
-    "inputs": [
-      {
-        "amount": 100,
-        "fluid": "tinkerscalibration:moltenvibratingcrystal"
-      },
-      {
-        "amount": 500,
-        "tag": "forge:milk"
-      },
-      {
-        "amount": 90,
-        "tag": "forge:molten_gold"
-      }
-    ],
-    "result": {
-      "amount": 90,
-      "fluid": "mushroom_daydream:no_head"
-    },
-    "temperature": 470
-  }
-)
-
 event.custom(
   {
     "type": "tconstruct:melting",

@@ -6,6 +6,10 @@
         "result": "deny"
     },
     {
+        "mob": ["alexsmobs:enderiophage"],
+        "result": "deny"
+    },
+    {
         "dimension": "minecraft:overworld",  
         "maxheight": 16,
         "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],

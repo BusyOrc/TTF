@@ -416,7 +416,6 @@ event.custom({
                   const killer=event.source.getActual()
                   if(killer.type=="touhou_little_maid:maid" && !killer.isPlayer())
                   {
- //                   event.entity.block.popItem(Item.of('mushroom_daydream:legend_paper', 1))
                       event.entity.block.popItem(Item.of('youkaishomecoming:rumia_hairband', 1))
 //                    console.log(killer.type)
 //                    console.log(!killer.isPlayer())

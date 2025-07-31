@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "mushroom_daydream:liga",
-  "temperature": 1500,
-  "result": {
-    "fluid": "mushroom_daydream:molten_liga",
-    "amount": 90
-  }
-}

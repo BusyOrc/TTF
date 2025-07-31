@@ -5,7 +5,12 @@
         "cartographer": [],
         "cleric": [],
         "farmer": [],
-        "fisherman": [],
+        "fisherman": [
+            {
+                "resultItem": "lightmanscurrency:coin_iron",
+                "priceItem1": "minecraft:string"
+            }
+        ],
         "fletcher": [],
         "leatherworker": [],
         "librarian": [],
@@ -18,7 +23,8 @@
         "sear_master": [],
         "scorch_master": [],
         "ae2:fluix_researcher": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "butcher_trader": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -39,7 +45,8 @@
         "sear_master": [],
         "scorch_master": [],
         "ae2:fluix_researcher": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "butcher_trader": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -60,6 +67,7 @@
         "sear_master": [],
         "scorch_master": [],
         "ae2:fluix_researcher": [],
-        "___+++___ wandering ___+++___": []
+        "___+++___ wandering ___+++___": [],
+        "butcher_trader": []
     }
 }

@@ -206,8 +206,8 @@
 				"frame": "challenge"
 			}
 		},
-		"cost":10,
-		"description":"消耗技能点：§a5",
+		"cost":8,
+		"description":"消耗技能点：§a8",
 		"icon": {
 			"type": "item",
 			"data": {

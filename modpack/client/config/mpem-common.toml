@@ -21,7 +21,7 @@
 	[entity_optimization."实体Tick优化 | Entity Tick Optimization"]
 		#启用实体tick优化
 		#Enable entity tick optimization
-		optimizeEntities = true
+		optimizeEntities = false
 		#水平检测范围(方块)
 		#Horizontal detection range (blocks)
 		#Range: 1 ~ 256
@@ -54,7 +54,7 @@
 [item_optimization]
 	#启用物品优化系统
 	#Enable item optimization system
-	OpenIO = true
+	OpenIO = false
 
 	[item_optimization."堆叠合并 | Stack Merging"]
 		#合并物品的最大堆叠数量（-1表示无限制）
@@ -67,12 +67,12 @@
 		mergeDistance = 1.5
 		#在合并后的物品上显示堆叠数量
 		#Show stack count on merged items
-		showStackCount = true
+		showStackCount = false
 
 	[item_optimization."自定义堆叠 | Custom Stack Size"]
 		#启用自定义堆叠大小
 		#Enable custom stack sizes
-		enabled = true
+		enabled = false
 		#最大物品堆叠大小 (1-9999)
 		#Maximum item stack size (1-9999)
 		#Range: 1 ~ 9999
@@ -298,7 +298,7 @@
 [miscellaneous]
 	#玩家登录时发送消息
 	#Send message on player login
-	sendLoginMessage = true
+	sendLoginMessage = false
 	#维度白名单
 	#Dimension whitelist
 	dimensionWhitelist = []

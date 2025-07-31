@@ -3204,7 +3204,7 @@
 			tasks: [{
 				count: 3L
 				id: "316F3149CD4BD5A6"
-				item: "lightmanscurrency:coin_copper"
+				item: { Count: 3, id: "lightmanscurrency:coin_copper" }
 				type: "item"
 			}]
 			title: "教学"
@@ -3561,7 +3561,7 @@
 			tasks: [{
 				count: 2L
 				id: "65C2D448FFD0879D"
-				item: "create:stock_link"
+				item: { Count: 2, id: "create:stock_link" }
 				type: "item"
 			}]
 			title: "建立网路！"

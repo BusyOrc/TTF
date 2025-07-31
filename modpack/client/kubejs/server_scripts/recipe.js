@@ -61,9 +61,9 @@ ServerEvents.recipes(event => {
         ],
         {
           A: '#forge:ingots/titanium',
-          B: 'jewelcraft:golden_ring_diamond',  
+          B: 'minecraft:diamond_block',  
           C: 'scannable:blank_module',
-          D: 'jewelcraft:golden_amulet_diamond',
+          D: 'minecraft:diamond',
           E: '#forge:ingots/silver'
         }
       )
@@ -291,15 +291,6 @@ event.shaped(
   }
 )
 
-event.replaceInput({output: '#jewelcraft:rose'}, 
-  Ingredient.of('minecraft:pink_dye'), 
-  Ingredient.of('create:polished_rose_quartz'))
-
-event.replaceInput({output: '#jewelcraft:shadow'}, 
-  Ingredient.of('minecraft:purple_dye'), 
-  Ingredient.of('irons_spellbooks:arcane_essence'))
-
-
 event.shaped(
   'createoreexcavation:vein_finder',
   [
@@ -465,23 +456,32 @@ event.shaped('4x dimension_of_caves:chimeric_cave_tablet',
     C:'advanced_ae:quantum_processor'
   }
 )
-/*
-event.shaped('kubejs:meiling',
+
+event.shaped('createaddition:electric_motor',
   [
-    'RBR',
-    'SDS',
-    'RBR'
+    ' S ',
+    'CLC',
+    ' S '
   ],
   {
-    R:"#hmag:dragon_scales",
-    B:'#minecraft:beds',
-    S:'#comforts:sleeping_bags',
-    D:"supplementaries:netherite_door"
+L:'ae2:logic_processor',
+S:'create:shaft',
+C:'create:andesite_casing'
   }
 )
-*/
 
-
+event.shaped('createaddition:alternator',
+  [
+    ' S ',
+    'CLC',
+    ' S '
+  ],
+  {
+L:'ae2:engineering_processor',
+S:'create:shaft',
+C:'create:andesite_casing'
+  }
+)
 
 
 
