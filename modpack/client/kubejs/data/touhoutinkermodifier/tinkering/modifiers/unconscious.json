@@ -12,12 +12,22 @@
           "feet",
           "legs",
           "chest",
-          "head"
+          "head",
+          "offhand",
+          "mainhand"
         ]
       },
       {
         "type": "tconstruct:effect_immunity",
         "effect": "minecraft:slowness"
+      },
+      {
+        "type": "tconstruct:effect_immunity",
+        "effect": "champions:paralysis"
+      },
+      {
+        "type": "tconstruct:effect_immunity",
+        "effect": "champions:wound"
       }
     ],
     "tooltip_display": "always"

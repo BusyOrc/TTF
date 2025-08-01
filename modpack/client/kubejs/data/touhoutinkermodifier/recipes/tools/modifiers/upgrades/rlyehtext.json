@@ -20,11 +20,9 @@
       }
     ],
     "level": 1,
-    "result": "touhoutinkermodifier:text",
+    "result": "touhoutinkermodifier:rlyehtext",
     "slots": {
-      "abilities": 1,
-      "upgrades":1,
-      "defense":1
+      "upgrades":1
     },
     "tools": [
 

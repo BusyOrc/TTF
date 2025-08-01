@@ -1,12 +1,12 @@
 {
     "attributes": {
-      "attack_range": 3.2,
+      "attack_range": 3.5,
       "two_handed": true,
       "category": "anchor",
       "attacks": [
         {
           "hitbox": "HORIZONTAL_PLANE",
-          "damage_multiplier": 0.8,
+          "damage_multiplier": 0.9,
           "angle": 150,
           "upswing": 0.5,
           "animation": "bettercombat:two_handed_slash_horizontal_right",
@@ -16,7 +16,7 @@
         },
         {
           "hitbox": "HORIZONTAL_PLANE",
-          "damage_multiplier": 0.8,
+          "damage_multiplier": 0.9,
           "angle": 150,
           "upswing": 0.5,
           "animation": "bettercombat:two_handed_slash_horizontal_left",
