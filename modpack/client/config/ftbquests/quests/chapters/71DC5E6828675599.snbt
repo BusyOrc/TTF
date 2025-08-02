@@ -1049,6 +1049,9 @@
 				"1.直接右键烈焰人"
 				"2.右键烈焰人刷怪笼，但这种刷怪笼并不稳定，随时会消失"
 				"3.烈焰血浇筑"
+				""
+				""
+				"{ \"text\": \"更多液体燃料\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08AE04BA5F001F55\" } }"
 			]
 			id: "3A08C7AFC709D349"
 			rewards: [{
@@ -1139,25 +1142,16 @@
 					type: "item"
 				}
 				{
-					id: "0E5F39CBFFC760BE"
-					item: "jewelcraft:iron_amulet_onyx"
-					type: "item"
-				}
-				{
-					id: "65D1950FE428716F"
-					item: "jewelcraft:copper_ring_redstone"
+					count: 2
+					id: "75D31474D76232B0"
+					item: "kubejs:remilia"
 					type: "item"
 				}
 			]
 			tasks: [{
-				consume_items: true
 				count: 8L
-				id: "5D5BBD3A140DE982"
-				item: {
-					Count: 1
-					id: "mystias_izakaya:huang_gua"
-					tag: { }
-				}
+				id: "78BFB189FD6A1875"
+				item: "youkaishomecoming:cucumber"
 				type: "item"
 			}]
 			title: "黄瓜"
@@ -1383,8 +1377,9 @@
 			icon: "tconstruct:greenheart_sign"
 			id: "07C7D24E8B039703"
 			rewards: [{
-				id: "58FA8FDC4DC033B8"
-				item: "jewelcraft:golden_amulet_diamond"
+				count: 3
+				id: "72461FAD22A29C2F"
+				item: "irons_spellbooks:ice_upgrade_orb"
 				type: "item"
 			}]
 			tasks: [{
@@ -1909,6 +1904,7 @@
 			y: 10.5d
 		}
 		{
+			dependencies: ["3A08C7AFC709D349"]
 			description: [
 				"荷取：除了熔岩这种最基础的液体燃料可以让烈焰人燃烧室进行普通燃烧，还有下面这些燃料也可以利用"
 				""
@@ -1917,6 +1913,7 @@
 				""
 				"直接用管道将流体输入即可，无需其他步骤"
 			]
+			hide_dependency_lines: true
 			icon: "create:fluid_pipe"
 			id: "08AE04BA5F001F55"
 			shape: "rsquare"
@@ -2043,21 +2040,8 @@
 				item: "biomesoplenty:blood_bucket"
 				type: "item"
 			}]
-			x: -1.875d
+			x: -0.375d
 			y: 12.75d
-		}
-		{
-			dependencies: ["3FCC6F6E186A2F38"]
-			id: "6A00D7B8FD65709B"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "2A5CFA7C2CB64349"
-				item: "create_wizardry:blood_bucket"
-				type: "item"
-			}]
-			x: -1.125d
-			y: 13.5d
 		}
 		{
 			dependencies: ["3FCC6F6E186A2F38"]
@@ -2069,8 +2053,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -0.375d
-			y: 12.75d
+			x: -1.125d
+			y: 13.5d
 		}
 	]
 	title: "河童居处(机械动力)"

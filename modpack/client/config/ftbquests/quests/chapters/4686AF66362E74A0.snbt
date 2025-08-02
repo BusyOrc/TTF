@@ -2390,7 +2390,7 @@
 			y: 2.75d
 		}
 		{
-			dependencies: ["53E917831F2D3A9B"]
+			dependencies: ["54B7370E8DAD098A"]
 			description: [
 				"这种纸用于承载&a魔符序列&r，然后输入到各种魔源设备中，是魔源&a自动化&r的核心道具;"
 				"和其他魔法道具一样，放到&a抄写台&r上，然后把法术书上的序列抄上去"
@@ -2660,7 +2660,11 @@
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
-			description: ["将魔源罐中的魔源凝聚为&a稳定的流体&r，便于存储"]
+			description: [
+				"将魔源罐中的魔源凝聚为&a稳定的流体&r，便于存储"
+				""
+				"是生产液态魔源必备的设备"
+			]
 			id: "54B7370E8DAD098A"
 			rewards: [
 				{
@@ -2683,14 +2687,14 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				id: "214DCB741FBB7818"
 				item: "starbunclemania:source_condenser"
 				type: "item"
 			}]
-			x: -29.0d
-			y: 2.5d
+			x: -27.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["53E917831F2D3A9B"]
@@ -3692,7 +3696,12 @@
 		}
 		{
 			dependencies: ["17FC1AB6CF9DE594"]
-			description: ["“最普通的墨水，没什么可说的。”"]
+			description: [
+				"“最普通的墨水，没什么可说的。如果要自己动手制作的话，需要一些天人科技”"
+				""
+				""
+				"{ \"text\": \"天人科技\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7A31EA65F2DFAE46\" } }"
+			]
 			hide_dependency_lines: true
 			id: "7B58742BC7C947D7"
 			rewards: [{
@@ -4383,32 +4392,36 @@
 						mustEquip: 1b
 						spellWheel: 1b
 					}
-					etstlib_tool_uuid: "67bdc2f7-ddfb-455a-bb5a-180810b57008"
+					etstlib_tool_uuid: "70b1d698-ec2e-4ae9-a49f-fae77ed801c4"
 					tic_materials: [
-						"cloudertinker:chimera"
-						"mushroom_daydream:rose_quartz"
-						"sakuratinker:arcane_alloy"
+						"cloudertinker:steeleafalloy"
+						"cloudertinker:steeleafalloy"
+						"tconstruct:wood"
 					]
 					tic_modifiers: [
 						{
-							level: 1
-							name: "cloudertinker:variablood"
+							level: 2
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 2
+							name: "cloudertinker:synergy"
+						}
+						{
+							level: 4
+							name: "tconstruct:jagged"
+						}
+						{
+							level: 4
+							name: "tconstruct:lacerating"
+						}
+						{
+							level: 4
+							name: "tconstruct:pierce"
 						}
 						{
 							level: 1
-							name: "cloudertinker:unrestrainedsystem"
-						}
-						{
-							level: 1
-							name: "mushroom_daydream:contemplation"
-						}
-						{
-							level: 1
-							name: "mushroom_daydream:crystal"
-						}
-						{
-							level: 1
-							name: "sakuratinker:spell_power"
+							name: "tconstruct:cultivated"
 						}
 						{
 							level: 1
@@ -4420,16 +4433,17 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"sakuratinker:cast_time": 0.3f
-						"sakuratinker:spell_power": 0.4f
-						"sakuratinker:spell_reduce": 0.15f
-						"tconstruct:attack_damage": 7.8f
+						"sakuratinker:cast_time": 2.0f
+						"sakuratinker:spell_power": 0.0f
+						"sakuratinker:spell_reduce": 0.2f
+						"tconstruct:attack_damage": 9.6f
 						"tconstruct:attack_speed": 0.8f
-						"tconstruct:durability": 725.0f
-						"tconstruct:harvest_tier": "minecraft:netherite"
-						"tconstruct:mining_speed": 3.6f
+						"tconstruct:durability": 250.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 6.0f
 					}
 					tic_volatile_data: {
+						abilities: 1
 						upgrades: 2
 					}
 				}

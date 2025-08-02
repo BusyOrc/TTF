@@ -11,9 +11,10 @@
 		{ item: "farmersdelight:stuffed_potato" }
 		{ item: "fruitsdelight:cranberry_muffin" }
 		{ item: "fruitsdelight:blueberry_muffin" }
-		{ item: "tinkers_delight:dessert_medley" }
-		{ item: "tinkers_delight:baked_vegetables_with_cheese" }
-		{ item: "tinkers_delight:piglins_head_meat" }
+		{ item: "arsdelight:arch_soup" }
+		{ item: "nethersdelight:nether_skewer" }
+		{ item: "arsdelight:bastion_pork" }
+		{ item: "fruitsdelight:pineapple_jello" }
 	]
 	title: "小伞的美食"
 }

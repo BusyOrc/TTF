@@ -14,6 +14,20 @@ useWeakPoisonOverLay = true
 #default: Automatically determine whether to enable it based on the player's combat performance.
 #false: Never enabled this mode.
 powerBattleMode = "true"
+#The number of #ancient_boat_need_1 that need to be held in hand to repair the ancient boat.
+#Range: 0 ~ 32767
+"count of [ancient_boat_need_1]" = 5
+#The number of #ancient_boat_need_2 that need to be held in hand to repair the ancient boat.
+#Range: 0 ~ 32767
+"count of [ancient_boat_need_2]" = 2
+#The number of #ancient_chest_boat_need_1 that need to be held in hand to repair the ancient chest boat.
+#Range: 0 ~ 32767
+"count of [ancient_chest_boat_need_1]" = 5
+#The number of #ancient_chest_boat_need_2 that need to be held in hand to repair the ancient chest boat.
+#Range: 0 ~ 32767
+"count of [ancient_chest_boat_need_2]" = 1
+#After opening, you can right-click to harvest the crops of the module
+rightClickHarvest = true
 
 [ReverseNormalEffect]
 	#Potion effects that can be reversed. Effect in this Map will be remove every tick. 

@@ -354,7 +354,8 @@ event.custom(
 
 //姬海棠果
 crtm(event,"kubejs:molten_himekaido","kubejs:himekaido","immortalers_delight:golden_himekaido","none","none",90,678,80)
-
+//xy
+crtm(event,"kubejs:molten_xy","touhoutinkermodifier:xy","kubejs:xy","none","none",90,2500,80)
 //wuyu
 crtm(event,"kubejs:molten_wu_yu","kubejs:wu_yu","kubejs:wu_yu_ingot","none","none",90,1485,40)
 

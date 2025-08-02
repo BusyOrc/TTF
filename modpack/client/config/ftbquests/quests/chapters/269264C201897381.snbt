@@ -139,21 +139,11 @@
 				}
 			}
 			id: "2D97609AFEA7E2BE"
-			rewards: [
-				{
-					id: "765FE45A8C457E73"
-					item: "sophisticatedbackpacks:iron_backpack"
-					type: "item"
-				}
-				{
-					auto: "invisible"
-					command: "/gamerule artifacts.feralClaws.attackSpeedBonus 15"
-					elevate_perms: true
-					id: "392EB83478C4A466"
-					silent: true
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "765FE45A8C457E73"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "6D428C4351DF0682"

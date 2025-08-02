@@ -1362,7 +1362,7 @@
 				{
 					count: 8L
 					id: "5867FCFD386F1DCA"
-					item: { Count: 8, id: "tconstruct:queens_slime_block" }
+					item: "tconstruct:queens_slime_block"
 					type: "item"
 				}
 			]

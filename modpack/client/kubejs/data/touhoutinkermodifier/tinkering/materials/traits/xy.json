@@ -1,0 +1,42 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "sakuratinker:mamba"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:magician"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:body_impact"
+      },
+    {
+      "level": 1,
+      "name": "sakuratinker:enchanted_blade"
+    }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+          {
+            "level": 1,
+            "name": "sakuratinker:mamba"
+          },
+          {
+            "level": 1,
+            "name": "sakuratinker:hardened_skin"
+          },
+
+          {
+            "level": 1,
+            "name": "touhoutinkermodifier:fountain_magic"
+          },
+          {
+            "level": 1,
+            "name": "sakuratinker:magic_shield"
+          }
+      ]
+    }
+
+}

@@ -29,8 +29,7 @@ ServerEvents.tags('item', event => {
     event.add("forge:storage_blocks/flax","supplementaries:flax_block")
     event.add("forge:storage_blocks/rice",'tofucraft:rice_block')
     event.add('forge:stoves',['refurbished_furniture:light_stove', 'twilightdelight:maze_stove',
-         'nethersdelight:blackstone_stove', 'tinkers_delight:scorched_stove_on',
-         'tinkers_delight:seared_stove_on', 'farmersdelight:stove', 'ends_delight:end_stove'])
+         'nethersdelight:blackstone_stove',  'farmersdelight:stove', 'ends_delight:end_stove'])
 
     event.add('forge:salt','refurbished_furniture:sea_salt')
     event.add('forge:soysauce','youkaishomecoming:soy_sauce_bottle')

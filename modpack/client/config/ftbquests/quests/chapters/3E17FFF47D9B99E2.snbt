@@ -3160,11 +3160,7 @@
 		}
 		{
 			dependencies: ["46D6E46587147F45"]
-			description: [
-				"关于钻井部分，基础的道理很简单，探矿杖找到矿脉所在区块，放下对应的钻井，然后通入应力，用漏斗或者管道输出物品或流体即可。"
-				""
-				"但是，有一个难点你可能不知道怎么处理，是关于暮色森林的&b魔力聚集地&r矿脉的。"
-			]
+			description: ["关于钻井部分，基础的道理很简单，探矿杖找到矿脉所在区块，放下对应的钻井，然后通入应力，用漏斗或者管道输出物品或流体即可。"]
 			icon: "createoreexcavation:drilling_machine"
 			id: "221C1A4FD8A98B1E"
 			rewards: [{
@@ -3193,127 +3189,6 @@
 			title: "钻井"
 			x: 13.5d
 			y: -16.65d
-		}
-		{
-			dependencies: ["221C1A4FD8A98B1E"]
-			description: ["这么重要的教学当然不能白教，不如稍微给我点小费，我就教你，如何？"]
-			icon: "lightmanscurrency:coin_copper"
-			id: "74949A6C42E5150F"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				count: 3L
-				id: "316F3149CD4BD5A6"
-				item: { Count: 3, id: "lightmanscurrency:coin_copper" }
-				type: "item"
-			}]
-			title: "教学"
-			x: 13.5d
-			y: -18.5d
-		}
-		{
-			dependencies: ["74949A6C42E5150F"]
-			description: [
-				"要开始挖掘，首先需要准备一些平凡墨水，只要少量即可"
-				""
-				"而平凡墨水的制作则需要用到黑色染料与奥术源质"
-				""
-				"为了尽可能讲清楚，从第一步开始说起吧"
-			]
-			hide_text_until_complete: true
-			id: "7A609E944F2A4BEA"
-			subtitle: "交钱就给看"
-			tasks: [{
-				id: "138FBFF5016063A6"
-				type: "checkmark"
-			}]
-			title: "说明"
-			x: 13.5d
-			y: -20.5d
-		}
-		{
-			dependencies: ["7A609E944F2A4BEA"]
-			description: [
-				"首先你应当自动化木材的生产，可以使用地灵殿的热力机器，也可以用传统方法，动态结构砍树"
-				""
-				"原木烧制后得到&b木炭&r，木炭可以通过合成或者粉碎的方式得到&b黑色染料&r"
-				""
-				"黑色染料与水搅拌，可得到&a墨水&r，这是下一步要用到的原材料"
-			]
-			hide_text_until_complete: true
-			id: "2E525388595A506A"
-			tasks: [{
-				id: "79E5B6D5402B2D00"
-				item: "minecraft:charcoal"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["7A609E944F2A4BEA"]
-			description: ["花开两朵各表一枝，将这三种材料搅拌，即可得到奥术源质，你肯定有疑问：挖掘矿脉需要消耗这么多物资，能顺利完成生产吗？会不会倒亏进去？答案是当然不会，矿脉本身能够提供这三种物资，而且绰绰有余"]
-			hide_text_until_complete: true
-			icon: "minecraft:lapis_lazuli"
-			id: "164DE4525AFA5DFF"
-			tasks: [
-				{
-					id: "446975301BAB0A2B"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-				{
-					id: "198D253BDB6E8F90"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					id: "2A62918169F84409"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-			]
-			title: "奥术源质"
-			x: 16.0d
-			y: -20.5d
-		}
-		{
-			dependencies: [
-				"2E525388595A506A"
-				"164DE4525AFA5DFF"
-			]
-			description: [
-				"将刚才生产的墨水与奥术源质混合搅拌，就有平凡墨水了，将这种墨水通入矿机钻井，就能开始挖掘了。"
-				""
-				"为了方便，建议直接将产线设置在矿机的旁边，优先保证产线的生产，多余的则送入库存"
-				""
-				"当然，为了保证应力供应和物资传递，首先记得将此处设置为&b强加载&r（M打开地图右键区块），然后推荐用&a末影传输&r装置来传递物资，但是别忘了，无法传递应力哦。如果需要应力的话，可以考虑在暮色森林修建一个锅炉或者堆叠风车水车"
-				""
-				"什么？你已经忘了什么是末影传输的装置？那你应该去复习一下"
-				""
-				"{ \"text\": \"末影传输\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70C55E32FA3F75C0\" } }"
-			]
-			hide_text_until_complete: true
-			id: "6CA5542DBFEF39D9"
-			rewards: [{
-				id: "4C7817F1017B557B"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:limited_iron_barrel_3"
-					tag: {
-						accentColor: 15961002
-						mainColor: 15961002
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6A66670B8E1F1165"
-				type: "checkmark"
-			}]
-			title: "平凡墨水"
-			x: 13.5d
-			y: -23.5d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -3561,7 +3436,7 @@
 			tasks: [{
 				count: 2L
 				id: "65C2D448FFD0879D"
-				item: { Count: 2, id: "create:stock_link" }
+				item: "create:stock_link"
 				type: "item"
 			}]
 			title: "建立网路！"

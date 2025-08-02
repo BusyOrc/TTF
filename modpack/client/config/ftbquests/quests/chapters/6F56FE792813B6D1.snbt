@@ -45,7 +45,7 @@
 				id: "128147AD301BE2FE"
 				type: "checkmark"
 			}]
-			title: "1 偶遇魔理沙"
+			title: "偶遇魔理沙"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -76,7 +76,7 @@
 					type: "item"
 				}
 			]
-			title: "2 推荐材料"
+			title: "推荐材料"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -94,7 +94,7 @@
 				id: "01EDF667E75B748A"
 				type: "checkmark"
 			}]
-			title: "3 如何应对强敌"
+			title: "如何应对强敌"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -122,7 +122,7 @@
 				id: "5567BD4626B43819"
 				type: "checkmark"
 			}]
-			title: "4 女仆"
+			title: "女仆"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -140,7 +140,7 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			title: "5 项圈"
+			title: "项圈"
 			x: 2.0d
 			y: 4.5d
 		}
@@ -170,7 +170,7 @@
 				}
 				type: "item"
 			}]
-			title: "6 文文新闻"
+			title: "文文新闻"
 			x: -0.5d
 			y: 4.5d
 		}
@@ -192,41 +192,9 @@
 				item: "touhou_little_maid:broom"
 				type: "item"
 			}]
-			title: "7 扫帚DA⭐ZE"
+			title: "扫帚DA⭐ZE"
 			x: 4.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["601095BFB131F14E"]
-			description: [
-				"魔理沙：这些饰品残留的魔力似乎已经消退了大半，属性难以辨认，但是根据魔法使的直觉，每种材料所对应的&a额外属性增益&r应该是这样的情况："
-				""
-				"紫水晶：12%魔抗"
-				"钻石：20%暴击伤害"
-				"绿宝石：20%额外经验获取"
-				"青金石：20%施法时间缩减"
-				"黑玛瑙：3点护甲"
-				"奥术：12%法强"
-				"石英：15%移动速度"
-				"红石：20%攻速"
-				"玫瑰石英：10%暴击率"
-				""
-				"这些属性是固定的，但是还存在一些随机词条属性的情况，即匠魂工具，可与小伞交流了解情况"
-			]
-			icon: "jewelcraft:golden_amulet_amethyst"
-			id: "608DBBC2C37CCE7A"
-			rewards: [{
-				id: "0054A1B5440E0183"
-				item: "jewelcraft:copper_ring_lapis"
-				type: "item"
-			}]
-			tasks: [{
-				id: "47F9A2EB05FFF494"
-				type: "checkmark"
-			}]
-			title: "9 饰品"
-			x: -0.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
@@ -250,7 +218,7 @@
 				}
 				type: "item"
 			}]
-			title: "10 探矿杖"
+			title: "探矿杖"
 			x: -0.5d
 			y: -2.0d
 		}
@@ -281,7 +249,7 @@
 					type: "item"
 				}
 			]
-			title: "11 钻井"
+			title: "钻井"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -319,8 +287,9 @@
 				title: "12 矿脉"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -4.5d
+			title: "矿脉"
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4E0B5BA233E990EF"]
@@ -367,7 +336,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["511F0C51DA0FE7C2"]
 			description: ["“如果说认为主世界很危险的话，为何不去暮色森林里寻找宝物呢？听说部分地区的地底埋藏着大量矿物，而且很容易获取。还能找到矿脉&a魔力聚集地&r，使用机械动力设备即可挖掘。”"]
 			id: "47564D5FF0B41FA8"
 			rewards: [{
@@ -419,8 +387,8 @@
 				}
 			]
 			title: "14 家具"
-			x: 3.5d
-			y: 0.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4E0B5BA233E990EF"]
@@ -494,26 +462,21 @@
 				"如果觉得制作金姬海棠果太麻烦，有简单的获取方法"
 				""
 				"{ \"text\": \"灵视交换物品\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A383347D6F3719B\" } }"
+				""
+				"如果要让嗅探兽重置挖掘冷却时间，快速挖掘出所需物品，可以通过给嗅探兽&d喂食榴莲肉&r的方法"
 			]
 			icon: "minecraft:sniffer_egg"
 			id: "3933E02335457909"
 			rewards: [{
-				id: "38542E55E1EB0721"
-				type: "xp"
-				xp: 200
+				id: "772F3B60BD1894EE"
+				item: "fruitsdelight:durian_sapling"
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1250A0017C86F671"
-					item: "minecraft:sniffer_egg"
-					type: "item"
-				}
-				{
-					id: "1D8F57BF92BAE6F0"
-					item: "immortalers_delight:golden_himekaido"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1250A0017C86F671"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}

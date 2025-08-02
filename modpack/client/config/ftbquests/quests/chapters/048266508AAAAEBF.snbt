@@ -119,13 +119,13 @@
 				{
 					count: 3L
 					id: "1B7CFA0ACFC1E377"
-					item: { Count: 3, id: "minecraft:gunpowder" }
+					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "55EE47E2BC9D7355"
-					item: { Count: 3, id: "minecraft:blaze_powder" }
+					item: "minecraft:blaze_powder"
 					type: "item"
 				}
 			]
@@ -791,7 +791,7 @@
 				""
 				"额外备注：&b由于maidsoul kitchen模组目前存在兼容BUG，暂时移除，修复BUG以后再加回来&r"
 				""
-				"&a此处物品缺失为正常情况&r"
+				"&a此处物品缺失为正常情况，并非BUG&r"
 			]
 			id: "31318A8EE8D14D2B"
 			tasks: [{

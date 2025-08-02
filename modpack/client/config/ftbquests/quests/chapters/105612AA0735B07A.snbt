@@ -880,7 +880,7 @@
 			tasks: [{
 				count: 32L
 				id: "4E9576A28DB3AD9F"
-				item: { Count: 32, id: "thermal:sawdust" }
+				item: "thermal:sawdust"
 				type: "item"
 			}]
 			x: 7.0d
@@ -2372,46 +2372,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["59FD5AB9FF33A87C"]
-			description: ["这两个部件由于生产工序比较特殊，无法使用传统匠魂的方法制作，但好在&a材料总会寻找出路&r……就像生命"]
-			icon: {
-				Count: 1
-				id: "tconstruct:maille"
-				tag: {
-					Material: "mushroom_daydream:whiterose_wood"
-				}
-			}
-			id: "1E60C1E3A101B1EC"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "6B99DD1448E1C6C9"
-					item: {
-						Count: 1
-						id: "tconstruct:maille"
-						tag: {
-							Material: "mushroom_daydream:whiterose_wood"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "339F9625653F7EC5"
-					item: {
-						Count: 1
-						id: "tconstruct:shield_core"
-						tag: {
-							Material: "mushroom_daydream:whiterose_wood"
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.25d
-			y: -0.75d
-		}
-		{
 			dependencies: ["0E0AFD0B60E301E6"]
 			description: ["获得辐射免疫效果，对Alex毒化洞穴内的辐射免疫，得益于靠谱的河童科技，&a仅需一次&r强化即可让自身彻底免疫辐射，可用于任意盔甲。"]
 			hide_dependency_lines: true
@@ -2756,7 +2716,7 @@
 				{
 					count: 2L
 					id: "2B1A8F98274E3CB4"
-					item: { Count: 2, id: "thermal:sawdust" }
+					item: "thermal:sawdust"
 					type: "item"
 				}
 			]
@@ -2817,10 +2777,6 @@
 							{
 								level: 2
 								name: "tconstruct:cultivated"
-							}
-							{
-								level: 2
-								name: "mushroom_daydream:ecological"
 							}
 							{
 								level: 1
@@ -3093,10 +3049,6 @@
 							}
 							{
 								level: 1
-								name: "mushroom_daydream:ecological"
-							}
-							{
-								level: 1
 								name: "tconstruct:silky_shears"
 							}
 						]
@@ -3155,10 +3107,6 @@
 							{
 								level: 1
 								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "mushroom_daydream:ecological"
 							}
 							{
 								level: 1
@@ -3350,10 +3298,6 @@
 							{
 								level: 1
 								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "mushroom_daydream:ecological"
 							}
 							{
 								level: 1
@@ -4445,41 +4389,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["59FD5AB9FF33A87C"]
-			description: ["可作为普通炉灶的替代品"]
-			id: "08942884D719B320"
-			rewards: [{
-				count: 3
-				id: "382662793A7C76B1"
-				item: "tinkers_delight:slice_of_blood_cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4E84943026E386E2"
-				item: "tinkers_delight:seared_stove_on"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["59FD5AB9FF33A87C"]
-			id: "424B447123CA7D8A"
-			rewards: [{
-				count: 3
-				id: "694E751B580A8169"
-				item: "tinkers_delight:slice_of_blood_cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7BB1B0422519518F"
-				item: "tinkers_delight:scorched_stove_on"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
 			description: [
 				"小伞：有一种特殊的武器的制作流程比较特别，你需要先去暮色森林&a击败高原上位于云端的巨人&r获取“巨人剑”，再进行浇筑，才能获得对应的剑刃"
 				""
@@ -4521,7 +4430,7 @@
 			tasks: [{
 				count: 5L
 				id: "7C1A4F0BE01B07B2"
-				item: { Count: 5, id: "tconstruct:obsidian_reinforcement" }
+				item: "tconstruct:obsidian_reinforcement"
 				type: "item"
 			}]
 			x: 22.5d
@@ -4609,13 +4518,13 @@
 				{
 					count: 3L
 					id: "68D38284C929C4E6"
-					item: { Count: 3, id: "alexscaves:amber_curiosity" }
+					item: "alexscaves:amber_curiosity"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4210416E95865A0F"
-					item: { Count: 2, id: "alexscaves:amber" }
+					item: "alexscaves:amber"
 					type: "item"
 				}
 			]
@@ -4655,13 +4564,13 @@
 				{
 					count: 2L
 					id: "787525898969FDAC"
-					item: { Count: 2, id: "alexscaves:amber_curiosity" }
+					item: "alexscaves:amber_curiosity"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "79E5157BFFAF8B99"
-					item: { Count: 2, id: "alexscaves:pewen_sap" }
+					item: "alexscaves:pewen_sap"
 					type: "item"
 				}
 			]
@@ -4681,7 +4590,7 @@
 			tasks: [{
 				count: 72L
 				id: "0246F8913AA53CBD"
-				item: { Count: 72, id: "minecraft:amethyst_shard" }
+				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
 			title: "迅捷打击"
@@ -4701,7 +4610,7 @@
 			tasks: [{
 				count: 45L
 				id: "297F6BEC756BA86A"
-				item: { Count: 45, id: "minecraft:redstone" }
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			title: "急迫"
@@ -4793,7 +4702,7 @@
 			tasks: [{
 				count: 36L
 				id: "095E7AD747894538"
-				item: { Count: 36, id: "minecraft:prismarine_shard" }
+				item: "minecraft:prismarine_shard"
 				type: "item"
 			}]
 			title: "水力驱动"
@@ -4813,7 +4722,7 @@
 			tasks: [{
 				count: 64L
 				id: "5569312474022F0B"
-				item: { Count: 64, id: "minecraft:glowstone_dust" }
+				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
 			title: "光照提速"
@@ -4833,7 +4742,7 @@
 			tasks: [{
 				count: 5L
 				id: "76D8318482214416"
-				item: { Count: 5, id: "tinkers_thinking:lightite_reinforcement" }
+				item: "tinkers_thinking:lightite_reinforcement"
 				type: "item"
 			}]
 			title: "轻捷"
@@ -4867,13 +4776,13 @@
 				{
 					count: 2L
 					id: "0F9C605D79B48785"
-					item: { Count: 2, id: "minecraft:piston" }
+					item: "minecraft:piston"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "0E2EB0D3999B822D"
-					item: { Count: 2, id: "tconstruct:ichor_slime_ball" }
+					item: "tconstruct:ichor_slime_ball"
 					type: "item"
 				}
 			]
@@ -4911,7 +4820,7 @@
 				{
 					count: 2L
 					id: "767DCD04D54CC63A"
-					item: { Count: 2, id: "minecraft:coal_block" }
+					item: "minecraft:coal_block"
 					type: "item"
 				}
 			]
@@ -4946,31 +4855,31 @@
 				{
 					count: 20L
 					id: "2DF54E5214A01F06"
-					item: { Count: 20, id: "minecraft:pufferfish" }
+					item: "minecraft:pufferfish"
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "123E458AB1EA9D7E"
-					item: { Count: 15, id: "minecraft:fermented_spider_eye" }
+					item: "minecraft:fermented_spider_eye"
 					type: "item"
 				}
 				{
 					count: 25L
 					id: "16F740F379A6C759"
-					item: { Count: 25, id: "minecraft:prismarine_crystals" }
+					item: "minecraft:prismarine_crystals"
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "33E8B561BC1B29F2"
-					item: { Count: 5, id: "minecraft:lapis_block" }
+					item: "minecraft:lapis_block"
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "2F910A1C9476C983"
-					item: { Count: 5, id: "minecraft:glistering_melon_slice" }
+					item: "minecraft:glistering_melon_slice"
 					type: "item"
 				}
 			]
@@ -4991,7 +4900,7 @@
 			tasks: [{
 				count: 18L
 				id: "7675C7A4966AE7B1"
-				item: { Count: 18, id: "minecraft:chain" }
+				item: "minecraft:chain"
 				type: "item"
 			}]
 			title: "横扫之刃 "
@@ -5011,7 +4920,7 @@
 			tasks: [{
 				count: 25L
 				id: "3EBD1CCF2CA05274"
-				item: { Count: 25, id: "minecraft:blaze_powder" }
+				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
 			title: "怒火"
@@ -5051,13 +4960,13 @@
 				{
 					count: 8L
 					id: "4450FA36B9F5A546"
-					item: { Count: 8, id: "chemlib:uranium_ingot" }
+					item: "chemlib:uranium_ingot"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "697DBA4368642733"
-					item: { Count: 8, id: "alexscaves:radon_bottle" }
+					item: "alexscaves:radon_bottle"
 					type: "item"
 				}
 			]
@@ -5078,7 +4987,7 @@
 			tasks: [{
 				count: 10L
 				id: "4366CC535566A5A1"
-				item: { Count: 10, id: "tconstruct:punji" }
+				item: "tconstruct:punji"
 				type: "item"
 			}]
 			title: "穿刺"
@@ -5118,7 +5027,7 @@
 			tasks: [{
 				count: 72L
 				id: "58399E0C68EBD71F"
-				item: { Count: 72, id: "tconstruct:ichor_slime_crystal" }
+				item: "tconstruct:ichor_slime_crystal"
 				type: "item"
 			}]
 			title: "力量"
@@ -5139,7 +5048,7 @@
 			tasks: [{
 				count: 5L
 				id: "3987A2FDADA31CB2"
-				item: { Count: 5, id: "minecraft:sunflower" }
+				item: "minecraft:sunflower"
 				type: "item"
 			}]
 			title: "快速装填"
@@ -5161,7 +5070,7 @@
 				{
 					count: 2L
 					id: "601D29EB30E030A3"
-					item: { Count: 2, id: "minecraft:piston" }
+					item: "minecraft:piston"
 					type: "item"
 				}
 				{
@@ -5172,7 +5081,7 @@
 				{
 					count: 2L
 					id: "557F403490509B6E"
-					item: { Count: 2, id: "tconstruct:ichor_slime_ball" }
+					item: "tconstruct:ichor_slime_ball"
 					type: "item"
 				}
 			]
@@ -5193,7 +5102,7 @@
 			tasks: [{
 				count: 10L
 				id: "47EBE1719FFC6A9D"
-				item: { Count: 10, id: "minecraft:target" }
+				item: "minecraft:target"
 				type: "item"
 			}]
 			title: "神射"
@@ -5213,7 +5122,7 @@
 			tasks: [{
 				count: 3L
 				id: "5F280185B86492B4"
-				item: { Count: 3, id: "minecraft:pointed_dripstone" }
+				item: "minecraft:pointed_dripstone"
 				type: "item"
 			}]
 			title: "穿透"
@@ -5309,13 +5218,13 @@
 				{
 					count: 2L
 					id: "7BC25954A6DCF1CB"
-					item: { Count: 2, id: "iceandfire:witherbone" }
+					item: "iceandfire:witherbone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "084137F811811084"
-					item: { Count: 2, id: "minecraft:wither_rose" }
+					item: "minecraft:wither_rose"
 					type: "item"
 				}
 				{
@@ -5395,46 +5304,18 @@
 				{
 					count: 2L
 					id: "4F67E8E27C2E9FC7"
-					item: { Count: 2, id: "twilightforest:alpha_yeti_fur" }
+					item: "twilightforest:alpha_yeti_fur"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "0C5619BB9B8304A9"
-					item: { Count: 2, id: "twilightforest:arctic_fur_block" }
+					item: "twilightforest:arctic_fur_block"
 					type: "item"
 				}
 			]
 			title: "御寒"
 			x: 28.5d
-			y: -13.0d
-		}
-		{
-			dependencies: ["1364495DCD420BC0"]
-			description: ["消耗两个升级槽,  增加一个能力槽"]
-			hide_dependency_lines: true
-			id: "13B0E90A22392679"
-			rewards: [{
-				id: "768DEA3C6560615E"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "你为什么要这样做"
-			tasks: [
-				{
-					id: "16621E3678F9248F"
-					item: "minecraft:lapis_block"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3B28C98282276469"
-					item: { Count: 2, id: "minecraft:redstone" }
-					type: "item"
-				}
-			]
-			title: "附魔"
-			x: 30.5d
 			y: -13.0d
 		}
 		{
@@ -5452,65 +5333,8 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 30.5d
 			y: -13.0d
-		}
-		{
-			dependencies: ["23100F9D593E13BD"]
-			description: ["消耗一个防御槽，增加一个升级槽"]
-			hide_dependency_lines: true
-			icon: "minecraft:anvil"
-			id: "0E7912357360291B"
-			rewards: [{
-				id: "26EDEFDCFCF8D454"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					id: "6A61A597087CCA94"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-				{
-					id: "6883AEABFD4484A6"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					id: "39F9C019D1C8D07C"
-					item: "minecraft:anvil"
-					type: "item"
-				}
-			]
-			title: "碎甲"
-			x: 14.5d
-			y: -14.5d
-		}
-		{
-			dependencies: ["23100F9D593E13BD"]
-			description: ["消耗一个升级槽，增加一个防御槽"]
-			hide_dependency_lines: true
-			id: "7E9C7D10D7EDB99A"
-			rewards: [{
-				id: "7701F729218FA0B9"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "0F9B8A1738FF99B1"
-				item: {
-					Count: 1
-					id: "minecraft:iron_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "甲胄"
-			x: 16.5d
-			y: -14.5d
 		}
 		{
 			dependencies: ["23100F9D593E13BD"]
@@ -5535,7 +5359,7 @@
 				type: "item"
 			}]
 			title: "和睦"
-			x: 18.5d
+			x: 14.5d
 			y: -14.5d
 		}
 		{
@@ -5554,7 +5378,7 @@
 				type: "item"
 			}]
 			title: "重生"
-			x: 20.5d
+			x: 16.5d
 			y: -14.5d
 		}
 		{
@@ -5573,7 +5397,7 @@
 				type: "item"
 			}]
 			title: "偿还"
-			x: 22.5d
+			x: 18.5d
 			y: -14.5d
 		}
 		{
@@ -5600,7 +5424,7 @@
 				type: "item"
 			}]
 			title: "重置"
-			x: 24.5d
+			x: 20.5d
 			y: -14.5d
 		}
 		{
@@ -5618,7 +5442,7 @@
 				item: "minecraft:end_crystal"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 22.5d
 			y: -14.5d
 		}
 		{
@@ -5661,7 +5485,7 @@
 				}
 			]
 			title: "迷路日"
-			x: 28.5d
+			x: 24.5d
 			y: -14.5d
 		}
 		{
@@ -5684,18 +5508,18 @@
 				{
 					count: 2L
 					id: "3401D740F9DDC0F8"
-					item: { Count: 2, id: "minecraft:stone" }
+					item: "minecraft:stone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7251B9C0DBB2E440"
-					item: { Count: 2, id: "twilightforest:mazestone_brick" }
+					item: "twilightforest:mazestone_brick"
 					type: "item"
 				}
 			]
 			title: "迷路日"
-			x: 30.5d
+			x: 26.5d
 			y: -14.5d
 		}
 		{
@@ -5718,18 +5542,18 @@
 				{
 					count: 2L
 					id: "2D76BE07295DC760"
-					item: { Count: 2, id: "twilightforest:knightmetal_ring" }
+					item: "twilightforest:knightmetal_ring"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "5448536B5E56C996"
-					item: { Count: 2, id: "cloudertinker:phantom_ingot" }
+					item: "cloudertinker:phantom_ingot"
 					type: "item"
 				}
 			]
 			title: "授勋冠军"
-			x: 32.5d
+			x: 28.5d
 			y: -14.5d
 		}
 		{
@@ -5760,13 +5584,13 @@
 				{
 					count: 2L
 					id: "68D6CEB3B8411938"
-					item: { Count: 2, id: "minecraft:gilded_blackstone" }
+					item: "minecraft:gilded_blackstone"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "07C18E87F0C61DEB"
-					item: { Count: 2, id: "tconstruct:ender_slime_crystal_block" }
+					item: "tconstruct:ender_slime_crystal_block"
 					type: "item"
 				}
 				{
@@ -5796,9 +5620,9 @@
 			}
 			id: "5CFACAF18CFB2541"
 			rewards: [{
-				count: 10
-				id: "6EFCC9984D2FCF3F"
-				item: "tinkers_delight:mashed_potato_with_milk"
+				count: 3
+				id: "45591AD1FF4EAC07"
+				item: "nethersdelight:plate_of_stuffed_hoglin_roast"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -5814,89 +5638,53 @@
 		{
 			dependencies: ["5CFACAF18CFB2541"]
 			description: [
-				"以长枪为例，长枪由两个手柄部件和一个小型剑刃组成："
-				"假设长枪模版的攻速为1；小型剑刃的攻击力属性为10，耐久为100；两个手柄的攻击系数均为40%，攻速系数均为30%。"
+				"以基础武器剑为例，长枪由两个手柄部件和一个小型剑刃组成："
+				"假设剑模版的攻速为1；小型剑刃的攻击力属性为10，耐久为100；两个手柄的攻击系数均为40%，攻速系数均为30%。"
 				"那么这把长枪的面板属性为："
 				" 攻击力=10+[10*(40%+40%)]=18"
 				" 攻速=1+[1*(30%+30%)]=1.6"
 			]
 			icon: {
 				Count: 1
-				id: "mushroom_daydream:gun"
+				id: "tconstruct:sword"
 				tag: {
 					Damage: 0
-					ExAttributeModifiers: [{
-						Amount: 0.5d
-						AttributeName: "exmodifier:behind_damage"
-						Name: "behind_damage0"
-						Operation: 0
-						Slot: "mainhand"
-						UUID: [I;
-							1735705331
-							1112033233
-							-1409162959
-							1021916946
-						]
-					}]
-					etstlib_tool_uuid: "bcb91eb9-e45a-4da7-abbe-6b9d9cddccd7"
-					exmo_nbt: {
-						ModifierEntry: [{
-							EntryID: "behind_damage"
-							Level: 1
-						}]
-					}
+					etstlib_tool_uuid: "c4aae006-1ba0-41a6-a765-0051bb954808"
 					tic_broken: 0b
 					tic_materials: [
-						"tconstruct:lead"
 						"cloudertinker:knightmetal"
-						"touhoutinkermodifier:sakuya"
+						"cloudertinker:knightmetal"
+						"cloudertinker:knightmetal"
 					]
 					tic_modifiers: [
 						{
-							level: 1
-							name: "tconstruct:heavy"
-						}
-						{
-							level: 1
+							level: 3
 							name: "cloudertinker:twilight"
 						}
 						{
-							level: 1
+							level: 3
 							name: "cloudertinker:stalwart"
 						}
 						{
 							level: 1
-							name: "touhoutinkermodifier:jacktheripper"
-						}
-						{
-							level: 1
-							name: "touhoutinkermodifier:vanhelsingprogeny"
-						}
-						{
-							level: 1
-							name: "touhoutinkermodifier:theworld"
-						}
-						{
-							level: 2
-							name: "tconstruct:reach"
+							name: "tconstruct:silky_shears"
 						}
 					]
 					tic_multipliers: {
-						"tconstruct:durability": 1.2f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 9.88425f
-						"tconstruct:attack_speed": 1.98f
-						"tconstruct:durability": 349.2f
-						"tconstruct:harvest_tier": "minecraft:iron"
-						"tconstruct:knockback_resistance": 0.15f
-						"tconstruct:mining_speed": 4.675f
-						"tconstruct:projectile_damage": 2.2f
+						"tconstruct:attack_damage": 6.05f
+						"tconstruct:attack_speed": 1.6f
+						"tconstruct:durability": 1138.5f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 2.85f
 					}
 					tic_volatile_data: {
 						abilities: 1
-						upgrades: 2
+						upgrades: 3
 					}
 				}
 			}
@@ -5918,14 +5706,12 @@
 		{
 			dependencies: ["5CFACAF18CFB2541"]
 			description: [
-				"以盔甲为例：镶板盔甲由两个镶板和一个锁链基底组成；设镶板属性均为耐久200，护甲值5，盔甲韧性3，抗击退10%"
-				"那么盔甲属性为："
-				"耐久400"
-				"护甲值=5+5=10"
-				"盔甲韧性=3+3=6"
-				"抗击退20%"
+				"以盔甲为例：镶板盔甲由一个镶板和一个锁链基底组成；盔甲的属性完全取决于镶板，锁链基底不提供&a任何属性&r，仅提供词条"
+				""
 				"层板盔甲的数值为两块镶板的数值相加取平均值 "
-				"需要注意的是，同一种材料在不同的部位提供的属性是&a不同&r的，且锁链基底不提供&a任何属性&r，仅提供词条"
+				"需要注意的是，同一种材料在不同的部位提供的属性是&a不同&r的"
+				""
+				"内嵌盔甲提供的属性为两个镶板之和，但是强化槽位很少，并不合适前期使用"
 			]
 			icon: {
 				Count: 1
@@ -6002,7 +5788,7 @@
 				{
 					count: 2L
 					id: "6E2D4850A23E9B38"
-					item: { Count: 2, id: "minecraft:blaze_rod" }
+					item: "minecraft:blaze_rod"
 					type: "item"
 				}
 				{
@@ -6030,7 +5816,7 @@
 				{
 					count: 2L
 					id: "48E6A8FB92D4F469"
-					item: { Count: 2, id: "twilightforest:torchberries" }
+					item: "twilightforest:torchberries"
 					type: "item"
 				}
 				{
@@ -6116,7 +5902,7 @@
 				{
 					count: 3L
 					id: "4D004713A6904E18"
-					item: { Count: 3, id: "irons_spellbooks:blood_upgrade_orb" }
+					item: "irons_spellbooks:blood_upgrade_orb"
 					type: "item"
 				}
 			]
@@ -6304,6 +6090,8 @@
 				"也可以在红魔馆里找到"
 				""
 				"还可以在多方块中量产合成"
+				""
+				"通过浇筑余烬黏液在帕秋莉部件上，可以得到材料——黏液帕秋莉，材料词条的总数不变（从2+1变成了1+1+1，多了一个黏液材料相关的）"
 			]
 			id: "2E4044218993ABE4"
 			tasks: [{
@@ -6475,7 +6263,7 @@
 				{
 					count: 6L
 					id: "187582C57A435E86"
-					item: { Count: 6, id: "hmag:echo_shard_block" }
+					item: "hmag:echo_shard_block"
 					type: "item"
 				}
 				{

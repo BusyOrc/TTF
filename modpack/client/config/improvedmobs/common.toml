@@ -170,7 +170,7 @@
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
 	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
 	#Should mobs be able to break block entities? Evaluated before the break list
-	"Break BlockEntities" = true
+	"Break BlockEntities" = false
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
 	"Neutral Aggressive Chance" = 0

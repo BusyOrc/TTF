@@ -216,19 +216,25 @@ LootJS.modifiers((event) => {
 
 
 
-      event.addLootTableModifier(/.*hmag:entities.*/).killedByPlayer().pool((pool) => {
+      event.addLootTableModifier(/.*hmag:entities.*/).killedByPlayer()
+      .pool((pool) => {
         pool.rolls([1, 4]);
         pool.addLoot("lightmanscurrency:coin_copper");
         
-    }).pool((pool) => {
+    })
+    .pool((pool) => {
         pool.rolls([0, 2]);
         pool.addLoot("lightmanscurrency:coin_iron");
-    }).pool((pool) => {
+    })
+    .pool((pool) => {
         pool.rolls([0, 1]);
         pool.addLoot("lightmanscurrency:coin_gold");
     })
 
-
+event.addLootTableModifier("youkaishomecoming:komeiji_koishi").killedByPlayer().pool((pool)=>{
+    pool.rolls(1);
+    pool.addLoot('touhou_little_maid:favorability_tool_full')
+})
 
     event.addLootTableModifier("hmag:entities/stray_girl")
     .addLoot('irons_spellbooks:frozen_bone')

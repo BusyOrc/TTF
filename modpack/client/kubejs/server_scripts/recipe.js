@@ -441,7 +441,7 @@ let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
      'mbd2:small_tofu_shrine', 'mbd2:patch', 'mbd2:big_tofu_shrine', 'mbd2:border_stablizer']
 
 for(let i of controllers){
-event.recipes.minecraft.stonecutting(i,'create_wizardry:arcane_casing')
+event.recipes.minecraft.stonecutting(i,'ars_nouveau:source_gem_block')
 }
 
 event.shaped('4x dimension_of_caves:chimeric_cave_tablet',

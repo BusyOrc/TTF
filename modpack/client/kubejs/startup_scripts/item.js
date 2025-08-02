@@ -19,7 +19,7 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:sakura').displayName("西行妖的花瓣").rarity("rare")
 	event.create('kubejs:koishi_hat').displayName("钢盔").rarity("rare")
 	event.create('kubejs:eye_in_mist').displayName("迷雾之眼").rarity("rare")
-	event.create('kubejs:wu_yu_ingot').displayName("雾於锭").rarity("rare")
+	event.create('kubejs:wu_yu_ingot').displayName("雾雨锭").rarity("epic")
 	event.create('kubejs:seija').displayName("天邪鬼锭").rarity("epic")
 
 	//event.create('kubejs:border_shard').displayName("博丽结界的碎片").rarity("rare")
@@ -43,7 +43,7 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:rumia').displayName("露米娅锭").rarity("rare")
 	event.create('kubejs:ex_rumia').displayName("EX露米娅锭").rarity("epic")
 	event.create('kubejs:ice_warrior').displayName("冰之勇者锭").rarity("epic")
-
+	event.create('kubejs:xy').displayName("星雨合金").rarity("epic")
 
 
 	event.create('kubejs:incom_polymer_plate').displayName("半成品聚合物板")

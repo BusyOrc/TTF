@@ -3088,7 +3088,7 @@
 			dependency: "563DF4213E850D2F"
 			height: 3.5d
 			hover: ["黏糊糊的史莱姆……好恶心>~<"]
-			image: "ftbchunks:textures/faces/minecraft/slime.png"
+			image: "minecraft:block/slime_block"
 			order: 6
 			rotation: -10.0d
 			width: 3.5d
@@ -5369,81 +5369,6 @@
 					item: "youkaishomecoming:matcha_mochi"
 					type: "item"
 				}
-				{
-					id: "583A6A93DA5C8F59"
-					item: {
-						Count: 1
-						id: "mushroom_daydream:tachi"
-						tag: {
-							Damage: 0
-							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"妖梦的备用剑\"}"
-							}
-							etstlib_tool_uuid: "62324511-6dcc-4a80-95f0-4d0f53183b27"
-							tic_broken: 0b
-							tic_materials: [
-								"mushroom_daydream:no_head"
-								"kubejs:sakura"
-								"kubejs:youmu"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "mushroom_daydream:mob_king"
-								}
-								{
-									level: 1
-									name: "mushroom_daydream:gluttony"
-								}
-								{
-									level: 1
-									name: "sakuratinker:nether_ghost"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:guzzlord"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:holymantle"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:katana"
-								}
-								{
-									level: 1
-									name: "sakuratinker:mortal_wound"
-								}
-								{
-									level: 1
-									name: "mushroom_daydream:on_dragon"
-								}
-								{
-									level: 2
-									name: "tconstruct:padded"
-								}
-							]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 0.8f
-								"tconstruct:durability": 1.2f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 12.839999f
-								"tconstruct:attack_speed": 1.8700001f
-								"tconstruct:durability": 2116.8f
-								"tconstruct:harvest_tier": "minecraft:diamond"
-								"tconstruct:mining_speed": 11.0f
-							}
-							tic_volatile_data: {
-								abilities: 2
-								upgrades: 3
-							}
-						}
-					}
-					type: "item"
-				}
 			]
 			size: 0.01d
 			tasks: [{
@@ -6988,86 +6913,6 @@
 								MaidTaskDataMaps: { }
 								ModelId: "touhou_little_maid:saigyouji_yuyuko"
 								id: "touhou_little_maid:maid"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "48D07C88B6490DA4"
-					item: {
-						Count: 1
-						id: "mushroom_daydream:baomihua"
-						tag: {
-							Damage: 0
-							display: {
-								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"幽幽子吃过的爆米花\"}"
-							}
-							etstlib_tool_uuid: "e248a61f-608c-4b6a-b459-b1857d3c9679"
-							tic_broken: 0b
-							tic_materials: [
-								"kubejs:youmu"
-								"mushroom_daydream:witherite_ingot"
-								"kubejs:komachi"
-								"kubejs:sakura"
-							]
-							tic_modifiers: [
-								{
-									level: 2
-									name: "mushroom_daydream:boom"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:katana"
-								}
-								{
-									level: 1
-									name: "sakuratinker:mortal_wound"
-								}
-								{
-									level: 1
-									name: "mushroom_daydream:gear_of_war"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:mambaout"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:soul_reaper"
-								}
-								{
-									level: 1
-									name: "sakuratinker:reapers_blessing"
-								}
-								{
-									level: 1
-									name: "sakuratinker:nether_ghost"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:guzzlord"
-								}
-								{
-									level: 1
-									name: "touhoutinkermodifier:holymantle"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 8.0f
-								"tconstruct:attack_speed": 0.8f
-								"tconstruct:durability": 999.0f
-								"tconstruct:harvest_tier": "minecraft:netherite"
-								"tconstruct:mining_speed": 6.0f
-							}
-							tic_upgrades: [{
-								level: 1
-								name: "mushroom_daydream:boom"
-							}]
-							tic_volatile_data: {
-								abilities: 3
-								upgrades: 1
 							}
 						}
 					}

@@ -149,8 +149,8 @@
     "modifier.touhoutinkermodifier.tofu_kungfu.description":"攻击使敌人获得短暂虚弱效果",
 
     "modifier.touhoutinkermodifier.unconscious":"无意识",
-    "modifier.touhoutinkermodifier.unconscious.flavor":"也许就在背后",
-    "modifier.touhoutinkermodifier.unconscious.description":"获得移动速度提升，免疫缓慢效果",
+    "modifier.touhoutinkermodifier.unconscious.flavor":"无意识中规避掉了许多效果",
+    "modifier.touhoutinkermodifier.unconscious.description":"获得移动速度提升，免疫缓慢，瘫痪和创伤效果",
 
     "modifier.touhoutinkermodifier.portal":"异界之门",
     "modifier.touhoutinkermodifier.portal.flavor":"门里涌现出来的是……",
@@ -229,6 +229,9 @@
     "material.touhoutinkermodifier.rumia":"露米娅",
     "material.touhoutinkermodifier.sakuya":"咲夜",
     "material.touhoutinkermodifier.sannyo":"驹草山如",
-    "material.touhoutinkermodifier.wakasagihime":"若鹭姬"
+    "material.touhoutinkermodifier.wakasagihime":"若鹭姬",
+
+    "material.touhoutinkermodifier.xy":"星雨合金",
+    "material.touhoutinkermodifier.xy.flavor": "不要小瞧我们的羁绊啊！"
 
 }

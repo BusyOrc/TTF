@@ -689,19 +689,11 @@
 			]
 			icon: "lavafishing:prometheus_bounty"
 			id: "28801AC6C519D95C"
-			rewards: [
-				{
-					count: 3
-					id: "4495566A0CF30E6F"
-					item: "tinkers_delight:spiral_bread_with_chocolate_filling"
-					type: "item"
-				}
-				{
-					id: "65D42FF4426DE814"
-					item: "youkaishomecoming:red_velvet_cake"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "65D42FF4426DE814"
+				item: "youkaishomecoming:red_velvet_cake"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7045EEDE6597A9A5"
@@ -999,14 +991,14 @@
 					consume_items: true
 					count: 32L
 					id: "24903729016347EC"
-					item: { Count: 32, id: "tofucraft:seeds_soybeans" }
+					item: "tofucraft:seeds_soybeans"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 64L
 					id: "2DE8519D31757F6E"
-					item: { Count: 64, id: "farmersdelight:raw_pasta" }
+					item: "farmersdelight:raw_pasta"
 					type: "item"
 				}
 			]

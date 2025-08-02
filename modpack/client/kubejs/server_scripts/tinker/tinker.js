@@ -166,21 +166,24 @@ event.custom(
     "time": 10
   }
 )
-
 event.custom(
   {
-    "type": "tconstruct:melting",
-    "ingredient": [
+    "type": "tconstruct:alloy",
+    "inputs": [
       {
-        "item": "delightful:animal_fat"
+        "amount": 810,
+        "fluid": "kubejs:molten_wu_yu"
+      },
+      {
+        "amount": 720,
+        "fluid": "sakuratinker:molten_south_star"
       }
     ],
     "result": {
-      "amount": 250,
-      "fluid": "tinkers_delight:edible_oil"
+      "amount": 90,
+      "fluid": "kubejs:molten_xy"
     },
-    "temperature": 50,
-    "time": 10
+    "temperature": 2500
   }
 )
 

@@ -25,7 +25,7 @@ event.custom(
       "item": "minecraft:sugar"
     },
     {
-      "item": "tinkers_delight:awakened_ancient_yeast"
+      "item": 'ars_nouveau:starbuncle_shards'
     }
   ],
   "inputFluid": {
@@ -58,7 +58,7 @@ event.custom(
       "item": "thermal:sulfur_dust"
     },
     {
-      "item": "tinkers_delight:awakened_ancient_yeast"
+      "item": 'ars_nouveau:starbuncle_shards'
     }
   ],
   "inputFluid": {
@@ -74,40 +74,6 @@ event.custom(
 }
 )
 event.recipes.create.filling('kubejs:nuclear_soda',[Fluid.of('kubejs:nuclear_soda',250),'minecraft:glass_bottle'])
-
-event.custom(
-{
-  "type": "youkaishomecoming:simple_fermentation",
-  "ingredients": [
-    {
-      "item": "tinkers_delight:awakened_ancient_yeast"
-    },
-    {
-      "item": "immortalers_delight:kwat_wheat_dough"
-    }
-  ],
-  "inputFluid": {
-    "amount": 1000,
-    "fluid": "tinkers_delight:ancient_specials"
-  },
-  "outputFluid": {
-    "amount": 0,
-    "fluid": "minecraft:empty"
-  },
-  "results": [
-    {
-      'item':'tinkers_delight:ancient_yeast'
-    },
-    {
-      'item':'tinkers_delight:ancient_yeast'
-    },
-    {
-      'item':'tinkers_delight:ancient_yeast'
-    }
-  ],
-  "time": 7200
-}
-)
 event.custom(
     {
         "type": "farmersdelight:cooking",

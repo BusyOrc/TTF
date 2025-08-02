@@ -173,4 +173,7 @@ event.addAdvanced('mbd2:nuclear_plant', (item, advanced, text) => {
 event.addAdvanced('kubejs:seija', (item, advanced, text) => {
     text.add(Text.gold("除了多方块合成，似乎还有一种特殊的，符合“下克上”原则的获得方式"))
   })
+  event.addAdvanced('touhou_little_maid:favorability_tool_full', (item, advanced, text) => {
+    text.add(Text.gold("可通过击败古明地恋获得"))
+  })
 })

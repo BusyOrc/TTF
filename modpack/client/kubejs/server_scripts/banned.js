@@ -55,7 +55,7 @@ for(let i of silverfish)
 {
 event.remove({output:silverfish})
 }
-event.remove({id:'create_wizardry:blood_filling'})
+
 event.remove({id:"farmersdelight:milk_bottle"})
 
 for(let rune of runes)

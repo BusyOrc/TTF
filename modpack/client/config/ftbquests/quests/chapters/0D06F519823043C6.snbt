@@ -1728,7 +1728,7 @@
 				{
 					count: 2L
 					id: "0375BBF74F3478EE"
-					item: { Count: 2, id: "ae2:me_p2p_tunnel" }
+					item: "ae2:me_p2p_tunnel"
 					type: "item"
 				}
 			]
@@ -2098,7 +2098,7 @@
 				{
 					count: 2L
 					id: "2EC596C33BD387AA"
-					item: { Count: 2, id: "minecraft:cobblestone" }
+					item: "minecraft:cobblestone"
 					type: "item"
 				}
 			]
@@ -2204,7 +2204,7 @@
 				"但是这项科技的前置技术比较多，你能都顺利完成吗？"
 			]
 			hide_dependency_lines: true
-			icon: "jewelcraft:golden_ring_amethyst"
+			icon: "irons_spellbooks:cooldown_ring"
 			id: "369E180B6214B63E"
 			rewards: [{
 				command: "/curios add ring @s 1"
@@ -2225,9 +2225,11 @@
 			description: [
 				"除了可以兼容部分AE物品的制作以外，还能制作一些独特配方，想要更进一步，在这个领域继续深耕的话，这台设备是起步的基础"
 				""
-				"但是&c这些新配方无论是能源消耗还是材料消耗都相当多，除非已经积累了足够的资源，否则不建议现在开始发展&r"
+				"但是&c这些新配方无论是能源消耗还是材料消耗都相当多&r"
 				""
-				"尤其是，如果还没有实现合成自动化，直接开始这条线的话难度会相当高"
+				"&a好处在于部分之前的配方有了高效率生产的方法，例如获得电路板，并且几乎不会消耗更多资源&r"
+				""
+				"并且还可以用于生产墨水"
 			]
 			id: "7A31EA65F2DFAE46"
 			rewards: [{
@@ -2732,18 +2734,19 @@
 		}
 		{
 			description: ["天子：你肯定觉得做一个&d包含所有所需终端的通用终端&r很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"]
-			icon: "meetyourfight:violet_bloom"
+			icon: "meetyourfight:mossy_tooth"
 			id: "78B3C2822BE5035E"
 			rewards: [{
-				id: "70185CBBA8D13949"
+				id: "06AF4867F1EA4672"
 				item: {
 					Count: 1
 					id: "ae2wtlib:wireless_universal_terminal"
 					tag: {
 						crafting: 1b
+						currentTerminal: "crafting"
 						ex_pattern_access: 1b
 						internalMaxPower: 4800000.0d
-						pattern_access: 1b
+						pattern_encoding: 1b
 					}
 				}
 				type: "item"
@@ -2758,8 +2761,8 @@
 				}
 				{
 					consume_items: true
-					id: "4AFFF1B6226BCC9F"
-					item: "meetyourfight:violet_bloom"
+					id: "4CC2DA62ED9667DD"
+					item: "meetyourfight:mossy_tooth"
 					type: "item"
 				}
 			]
@@ -2846,7 +2849,7 @@
 					consume_items: true
 					count: 4L
 					id: "09AC259E30AEE465"
-					item: { Count: 4, id: "advanced_ae:quantum_alloy_plate" }
+					item: "advanced_ae:quantum_alloy_plate"
 					type: "item"
 				}
 				{
@@ -2897,14 +2900,14 @@
 					consume_items: true
 					count: 4L
 					id: "49721806586B6F65"
-					item: { Count: 2, id: "alexscaves:azure_neodymium_ingot" }
+					item: "alexscaves:azure_neodymium_ingot"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
 					id: "2539D5D3ECFE66AD"
-					item: { Count: 8, id: "youkaishomecoming:flesh_feast" }
+					item: "youkaishomecoming:flesh_feast"
 					type: "item"
 				}
 				{
@@ -2948,7 +2951,7 @@
 					count: 16L
 					id: "006043AF7D1C591A"
 					item: {
-						Count: 16
+						Count: 1
 						id: "tconstruct:repair_kit"
 						tag: {
 							Material: "tconstruct:bone"
@@ -2960,14 +2963,14 @@
 					consume_items: true
 					count: 64L
 					id: "6A86742DDAD1BB9B"
-					item: { Count: 16, id: "minecraft:bone_meal" }
+					item: "minecraft:bone_meal"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 16L
 					id: "502918ADF1089772"
-					item: { Count: 8, id: "create:iron_sheet" }
+					item: "create:iron_sheet"
 					type: "item"
 				}
 				{
@@ -3010,7 +3013,7 @@
 					consume_items: true
 					count: 16L
 					id: "7F14E865B55279C3"
-					item: { Count: 4, id: "tofucraft:tofudiamond" }
+					item: "tofucraft:tofudiamond"
 					type: "item"
 				}
 				{
@@ -3036,7 +3039,7 @@
 					consume_items: true
 					count: 16L
 					id: "3B3954EB32FD4C87"
-					item: { Count: 16, id: "ars_nouveau:source_gem_block" }
+					item: "ars_nouveau:source_gem_block"
 					type: "item"
 				}
 			]
@@ -3058,7 +3061,7 @@
 					consume_items: true
 					count: 10L
 					id: "614CA0F837A75217"
-					item: { Count: 10, id: "cataclysm:lacrima" }
+					item: "cataclysm:lacrima"
 					type: "item"
 				}
 				{

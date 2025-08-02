@@ -56,7 +56,7 @@
 	
 	#The position offset from the defined corner.
 	#Default: 5,-5
-	displayOffset=5,-5
+	displayOffset=5,-25
 	
 	#Whether the wallets contents should be displayed as a coin item, or as value text.
 	#Options: ITEMS_WIDE, ITEMS_NARROW, TEXT

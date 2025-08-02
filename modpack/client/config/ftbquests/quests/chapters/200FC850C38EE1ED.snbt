@@ -267,7 +267,7 @@
 			icon: "thermal:machine_pulverizer"
 			id: "12F63DF0E7D92057"
 			rewards: [{
-				count: 3
+				count: 9
 				id: "27038C1E9C4870C3"
 				item: "thermal:invar_dust"
 				type: "item"
@@ -611,6 +611,12 @@
 					count: 16
 					id: "32CF0332428E5C05"
 					item: "thermal:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "30E8B36A8401A098"
+					item: "thermal:nickel_ingot"
 					type: "item"
 				}
 			]

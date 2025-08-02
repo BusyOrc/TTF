@@ -50,7 +50,7 @@ event.recipes.createoreexcavation
     Item.of('minecraft:raw_gold').withChance(0.35),Item.of('hmag:diamond_fragment').withChance(0.4),'create:experience_nugget'
 ], "kubejs:magic_site", 800)
 .id("kubejs:magic_exc").drill('createoreexcavation:diamond_drill') 
-.fluid('create_wizardry:common_ink 100').stress(256);
+.fluid('starbunclemania:source_fluid 100').stress(256);
 
 
 

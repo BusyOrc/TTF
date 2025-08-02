@@ -34,10 +34,10 @@ event.recipes.thermal.smelter('quark:diamond_heart', ['6x minecraft:diamond','3x
 event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cloud', 250), 'kubejs:cloud_dust')
 
 //下界合金门熔融
-event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_trapdoor').energyMod(4.0)
-event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_door').energyMod(4.0)
+event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_trapdoor').energyMod(2.0)
+event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_door').energyMod(2.0)
 
-event.recipes.thermal.crucible(Fluid.of('create_wizardry:mana', 100),'biomesoplenty:magic_planks').energyMod(8.0)
+event.recipes.thermal.crucible(Fluid.of('starbunclemania:source_fluid', 100),'biomesoplenty:magic_planks').energyMod(0.8)
 
 //远古
 event.recipes.thermal.refinery([Fluid.of('kubejs:greatrune_forgery_fluid', 30), Fluid.of('kubejs:ancient_essence', 70)], Fluid.of('kubejs:ancient_resin', 100)).energyMod(4.0)
@@ -54,9 +54,6 @@ event.recipes.thermal.press('thermal:emerald_gear', ['4x minecraft:emerald', 'th
 //lightning
 event.recipes.thermal.centrifuge(["minecraft:glass_bottle",'hmag:lightning_particle'], 'irons_spellbooks:lightning_bottle').energy(50000)
 
-//雷电粒子
-event.recipes.thermal.chiller('hmag:lightning_particle',Fluid.of("create_wizardry:lightning",250)).energy(50000)
-
 //prom
 event.recipes.thermal.press('lavafishing:promethium_ingot', '64x chemlib:promethium').energy(100000)
 event.recipes.thermal.centrifuge('64x chemlib:promethium', 'lavafishing:promethium_ingot')
@@ -70,7 +67,5 @@ event.recipes.thermal.insolator([Item.of('fruitsdelight:pineapple').withChance(1
     event.recipes.thermal.insolator(Item.of('biomesoplenty:burning_blossom').withChance(1.8),
     [Fluid.of("starbunclemania:source_fluid",400),'biomesoplenty:burning_blossom']).energyMod(4.0)
 
-
-event.recipes.thermal.refinery([Fluid.of("starbunclemania:source_fluid",500),'thermal:rich_slag'],Fluid.of("create_wizardry:mana",500))    
 
 })

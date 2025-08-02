@@ -63,19 +63,19 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 4800.0
+		"Dragon Health" = 4000.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 400
+		"Dragon Attack Damage" = 100
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 60.0
+		"Dragon Attack Damage(Fire breath)" = 25.0
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 72.0
+		"Dragon Attack Damage(Ice breath)" = 30.0
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 72.0
+		"Dragon Attack Damage(Lightning breath)" = 30.0
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
 		"Dragon Flight Speed Modifier" = 1.0
@@ -163,7 +163,7 @@
 		#Range: 1.0 ~ 10000.0
 		"Siren Max Health" = 50.0
 		#True to make the screen pink when sirens attract players
-		"Use Siren Shader" = true
+		"Use Siren Shader" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Sirens Chance" = 400
@@ -239,10 +239,10 @@
 		"Troll Spawn Weight" = 40
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
-		"Troll Max Health" = 50.0
+		"Troll Max Health" = 150.0
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
-		"Troll Attack Strength" = 10.0
+		"Troll Attack Strength" = 30.0
 
 	[Mobs.Myrmex]
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
@@ -386,10 +386,10 @@
 [Pathfinding]
 	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
 	#Range: > 1
-	"Dragon Pathfinding Threads" = 3
+	"Dragon Pathfinding Threads" = 2
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
-	"Dragon Max Pathfinding Nodes" = 5000
+	"Dragon Max Pathfinding Nodes" = 4000
 	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
 	"Debug Pathfinding Mode" = false
 

@@ -12,9 +12,9 @@ event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose
 
 //event.recipes.create.filling('youkaishomecoming:blood_bottle',[Fluid.of('biomesoplenty:blood',250),'minecraft:glass_bottle'])
 
-event.recipes.create.mixing(Fluid.of("create_wizardry:lightning",250),'hmag:lightning_particle').heated()
-event.recipes.create.mixing(Fluid.of('chemlib:sulfuric_acid_fluid', 50),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
 
+event.recipes.create.mixing(Fluid.of('chemlib:sulfuric_acid_fluid', 50),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
+event.recipes.create.mixing("2x minecraft:netherrack",[Fluid.of("lava",50), "minecraft:cobblestone","create:cinder_flour"]).heated()
 
 event.custom(
 {
@@ -288,28 +288,6 @@ C:'minecraft:rabbit_hide',
 D:'simplehats:rabbitonhead',
 E:'minecraft:rabbit_foot'
 })
-
-
-
-event.custom(
-  {
-  "type": "create:item_application",
-  "ingredients": [
-    {
-      "tag": "forge:stripped_logs"
-    },
-    {
-      "item": "irons_spellbooks:arcane_ingot"
-    }
-  ],
-  "results": [
-    {
-      "item": "create_wizardry:arcane_casing"
-    }
-  ]
-}
-)
-
 
 
 

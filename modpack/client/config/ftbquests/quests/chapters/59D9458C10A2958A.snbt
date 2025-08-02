@@ -396,8 +396,10 @@
 				""
 				"沥青沙：需要水"
 				""
-				"魔力聚集地（位于暮色森林）：需要平凡墨水，至于什么是平凡墨水，你可以试试将我给你的2份"
-				"奥术源质和3份墨囊在工作盆里搅拌"
+				"魔力聚集地（位于暮色森林）：需要液态魔源，这种液体需要用魔源来转化"
+				""
+				""
+				"{ \"text\": \"魔源凝聚器\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54B7370E8DAD098A\" } }"
 				""
 				"软质豆腐矿脉：需要豆奶"
 				""
@@ -408,25 +410,6 @@
 			hide_text_until_complete: true
 			icon: "minecraft:book"
 			id: "0AF27FCCF7C0F99B"
-			rewards: [
-				{
-					count: 2
-					id: "3E8147E813B8C018"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4131CA936C0A9C3E"
-					item: "minecraft:ink_sac"
-					type: "item"
-				}
-				{
-					id: "5BC54580646F7F6D"
-					item: "quark:bottled_cloud"
-					type: "item"
-				}
-			]
 			subtitle: "目前可公开的情报："
 			tasks: [{
 				id: "064931B633E7C8B4"

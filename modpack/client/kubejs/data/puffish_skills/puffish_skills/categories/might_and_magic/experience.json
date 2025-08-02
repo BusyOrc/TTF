@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.6 + 2, 4096)"
+			"expression": "min(level ^ 1.4 + 2, 1024)"
 		}
 	},
 	"sources": [
@@ -47,7 +47,7 @@
 				"experience": [
 					{
 					"condition":"!is_summoned",
-					"expression":"(dropped_xp + max_health / 12)/2"
+					"expression":"(dropped_xp + max_health / 8)/2"
 				}
 				],
 				"anti_farming": {
