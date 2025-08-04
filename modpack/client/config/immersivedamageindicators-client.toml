@@ -1,0 +1,28 @@
+#.
+#Custom Immersive Messages font to use, or blank if null.
+"Custom Font" = "anton"
+#.
+#ARGB, Default color for indicators - https://argb-int-calculator.netlify.app/
+#Range: > -2147483648
+"Text Color" = -1
+#.
+#RGB, Default color for hurt effects - https://argb-int-calculator.netlify.app/
+#Range: > -2147483648
+"Hurt Color" = -62966
+#.
+#0-255 Alpha value
+#Range: > -2147483648
+Alpha = 255
+#.
+#If true, critical hits will add exclamation points.
+"Show Exclamation Point" = true
+#.
+#If true, hits will change size based on how strong they are.
+"Do Size Effects" = true
+#.
+#If true, hits will turn red based on how strong they are.
+"Do Color Effects" = true
+#.
+#If true, hits will shake based on how strong they are.
+"Do Shake Effects" = true
+

@@ -72,6 +72,35 @@ event.custom(
       }
 )
 
+event.custom(
+    {
+        "type": "sculkcatalyticchamber:chamber",
+        "heatRequirement": "heated",
+        "topIngredients": [
+          {
+            "tag": "forge:plates/iron"
+          }
+        ],
+        "bottomIngredients": [
+          {
+            "item": "ars_nouveau:wilden_wing"
+          }
+        ],
+        "catalysts": [
+          {
+            "fluid": "starbunclemania:source_fluid",
+            "amount":1000
+          }
+        ],
+        "chances": 1.0,
+        "results": [
+          {
+            "item": "minecraft:shulker_shell"
+          }
+        ]
+      }
+)
+
 //邪恶水晶
 event.custom(
     {

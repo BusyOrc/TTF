@@ -162,7 +162,7 @@ event.add("forge:raw_materials", 'sakuratinker:nihilite_raw_ore')
 event.remove('forge:salt','ltc2:refined_salt')
 event.add('forge:refined_salt','ltc2:refined_salt')
 
-let casts=['tconstruct:patterns/reusable', 'tconstruct:patterns', 'eminecraft:piglin_loved',
+let casts=['tconstruct:patterns/reusable', 'tconstruct:patterns', 'minecraft:piglin_loved',
     'tconstruct:casts/gold', 'tconstruct:casts'
 ]
 

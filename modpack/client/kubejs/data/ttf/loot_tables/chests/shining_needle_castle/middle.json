@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sniffer_egg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:pearlipearl",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:contains_tea_leisamboo",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:himekaido_seed",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:kwat_wheat_seeds",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:evolutcorn_grains",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:alfalfa_seeds",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:himekaido_yogurt_pie",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "immortalers_delight:sutffed_kwat_wheat_doufu",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "arsdelight:bastion_hornbeer",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "arsdelight:wilden_stew",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "arsdelight:arch_sauce",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculturedelight:rollmops",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculturedelight:unusual_fish_soup",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "arsdelight:bombegrante_steak",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "ends_delight:dragon_meat_stew",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "ends_delight:dragon_leg_with_sauce",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "farmersdelight:roasted_mutton_chops",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

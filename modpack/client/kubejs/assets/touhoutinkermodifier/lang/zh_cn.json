@@ -214,6 +214,9 @@
     "modifier.touhoutinkermodifier.companion.description":"获得⑨%冰系法强",
     "modifier.touhoutinkermodifier.hermit_purple.resistance":"对末影生物的抗性",
     "modifier.touhoutinkermodifier.photo.attack_damage":"对末影生物的伤害",
+    "modifier.touhoutinkermodifier.spell_resist":"法术抑制",
+    "modifier.touhoutinkermodifier.spell_resist.flavor":"法术轻而易举啊",
+    "modifier.touhoutinkermodifier.spell_resist.description":"每级增加8%法术抗性（和魔抗不同）",
 
     "material.touhoutinkermodifier.devil":"小恶魔",
     "material.touhoutinkermodifier.ex_rumia":"EX露米娅",

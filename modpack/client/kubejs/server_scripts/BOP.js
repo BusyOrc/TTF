@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
 
 let bop_planks=[
   "biomesoplenty:palm_planks","biomesoplenty:magic_planks","biomesoplenty:umbran_planks","ars_nouveau:archwood_planks",
-  "biomesoplenty:fir_planks","biomesoplenty:pine_planks","biomesoplenty:maple_planks","biomesoplenty:mahogany_planks",
+  "biomesoplenty:fir_planks","biomesoplenty:pine_planks","biomesoplenty:maple_planks","biomesoplenty:mahogany_planks","biomesoplenty:redwood_planks",
   "biomesoplenty:jacaranda_planks","biomesoplenty:redplanks_planks","biomesoplenty:dead_planks","biomesoplenty:hellbark_planks","biomesoplenty:willow_planks"
 ]
 

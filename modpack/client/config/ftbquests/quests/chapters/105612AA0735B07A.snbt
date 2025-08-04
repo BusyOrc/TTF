@@ -1743,7 +1743,7 @@
 				}
 			]
 			title: "炽焰反制"
-			x: 28.5d
+			x: 32.5d
 			y: -2.5d
 		}
 		{
@@ -4641,6 +4641,13 @@
 			dependencies: ["1C88096FE9223B29"]
 			description: ["这一类强化可以增强盔甲对&a特定伤害类型&r的防护，  有效提高你在野外的生存能力"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3483E51E70FCBFE5"
 			tasks: [{
 				id: "3C7142930A9D57A0"
@@ -4667,6 +4674,7 @@
 			dependencies: ["1C88096FE9223B29"]
 			description: ["这类强化与&a耐久相关&r， 可以修复或减少耐久消耗"]
 			hide_dependency_lines: true
+			icon: "modulargolems:netherite"
 			id: "04900F581CAAE345"
 			tasks: [{
 				id: "18529048296FA1F5"
@@ -4680,6 +4688,13 @@
 			dependencies: ["1C88096FE9223B29"]
 			description: ["这类强化可以有效增强&a工具性能&r"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "41494C75729ED34F"
 			tasks: [{
 				id: "5C05CDF8C414BBC2"
@@ -4832,6 +4847,13 @@
 			dependencies: ["1C88096FE9223B29"]
 			description: ["这类强化可以增强武器&a攻击属性&r或为武器提供&a附加效果&r"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "22B34E373DB9DA8E"
 			tasks: [{
 				id: "6FDA9E3370DCC11F"
@@ -4930,6 +4952,13 @@
 		{
 			dependencies: ["1C88096FE9223B29"]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "02AF21C12DA17637"
 			tasks: [{
 				id: "129CDDED16A25389"
@@ -6281,6 +6310,27 @@
 			title: "识文解字"
 			x: 32.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["3483E51E70FCBFE5"]
+			description: ["每级可增加8%法术抗性（和魔抗不同），可减少敌人法术的伤害"]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:thread_warding"
+			id: "7C3A329F3F178E4B"
+			rewards: [{
+				id: "6088821A74DCA8C1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 5L
+				id: "0A7AA841D84BF125"
+				item: { Count: 5, id: "ars_nouveau:thread_warding" }
+				type: "item"
+			}]
+			title: "法术抑制"
+			x: 28.5d
+			y: -2.5d
 		}
 	]
 	title: "小伞铁匠铺(匠魂)"

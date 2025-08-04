@@ -5,9 +5,9 @@
       "type": "sakuratinker:multi_curio_attribute",
       "attributes": [
         {
-          "attribute": "irons_spellbooks:mana_regen",
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
           "operation": "addition",
-          "value": 5.0
+          "value": 10.0
         },
         {
           "attribute": "puffish_attributes:natural_regeneration",

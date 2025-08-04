@@ -16,7 +16,7 @@ convert_trapped_chests = true
 #lootr will automatically log all unresolved tables (i.e., for containers that have a loot table associated with them but, for whatever reason, the lookup for this table returns empty). setting this option to true additionally informs players when they open containers.
 report_unresolved_tables = false
 #a list of additional chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
-additional_chests = []
+additional_chests = ["minecraft:white_shulker_box"]
 #a list of additional trapped chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
 additional_trapped_chests = []
 #list of dimensions (to the exclusion of all others) that loot chest should be replaced in (default: blank, allowing all dimensions, e.g., ["minecraft:overworld", "minecraft:the_end"])
@@ -48,7 +48,7 @@ trapped_custom = false
 #lootr chests cannot be destroyed by creeper or TNT explosions
 blast_resistant = true
 #lootr chests cannot be destroyed by any explosion
-blast_immune = false
+blast_immune = true
 #prevent notifications of decaying or refreshed chests
 disable_notifications = false
 #maximum time (in ticks) remaining on a chest before a notification for refreshing or decaying is sent to a player (default 30 seconds, -1 for no delay)

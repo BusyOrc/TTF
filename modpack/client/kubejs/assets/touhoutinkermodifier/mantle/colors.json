@@ -56,7 +56,8 @@
     "warrior":"#1E90FF",
     "companion":"#00FA9A" ,
     "fountain_magic":"#FF00FF",
-    "expelleescanaan":"#00E5EE"
+    "expelleescanaan":"#00E5EE",
+    "spell_resist":"#8470FF"
     },
     "material.touhoutinkermodifier": {
         "devil":"#FF4500",

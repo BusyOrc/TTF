@@ -33,6 +33,11 @@
     "cataclysm:blazing_brand",
     "cataclysm:ghost_sickness",
     "sakuratinker:torture",
-    "sakuratinker:mortal_wound"
+    "sakuratinker:mortal_wound",
+    "touhoutinkermodifier:melt",
+    "irons_spellbooks:rend",
+    "irons_spellbooks:blight",
+    "irons_spellbooks:guided",
+    "irons_spellbooks:slowed"
   ]
 }

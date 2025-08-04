@@ -89,9 +89,9 @@
   "modifier.sakuratinker.storm_veil.description": "周期性提供抗性提升效果。",
   "modifier.sakuratinker.rootedness": "刚毅护盾",
   "modifier.sakuratinker.rootedness.flavor": "生命壁垒",
-  "modifier.touhoutinkermodifier.earth_light":"地球光",
-"modifier.touhoutinkermodifier.earth_light.flavor":"还可以从弃牌堆寻回一张牌——如果有弃牌堆的话",
-"modifier.touhoutinkermodifier.earth_light.description":"额外增加生命值和法力值恢复",
+  "modifier.sakuratinker.earth_light":"地球光",
+  "modifier.sakuratinker.earth_light.flavor":"还可以从弃牌堆寻回一张牌——如果有弃牌堆的话",
+  "modifier.sakuratinker.earth_light.description":"额外增加生命值和法力值恢复",
 
   "modifier.sakuratinker.nether_ghost": "冥界饿鬼",
   "modifier.sakuratinker.nether_ghost.flavor": "好饿，好想吃半灵",

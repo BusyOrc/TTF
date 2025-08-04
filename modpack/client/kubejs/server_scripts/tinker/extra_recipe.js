@@ -41,6 +41,22 @@ ServerEvents.recipes(event => {
         )
 
         event.custom(
+        {
+            "type": "tconstruct:casting_table",
+            "cast": {
+            "item": 'farmersdelight:canvas'
+                        },
+            "cooling_time": 40,
+            "cast_consumed": true,
+            "fluid": {
+              "amount": 90,
+              "fluid": "tconstruct:molten_rose_gold"
+            },
+            "result":"tconstruct:silky_cloth"  
+          }
+        )
+
+        event.custom(
             {
                 "type": "tconstruct:casting_basin",
     

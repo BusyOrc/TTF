@@ -1,0 +1,22 @@
+{
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.08,
+        "operation": "addition",
+        "attribute": "irons_spellbooks:spell_resist",
+        "unique": "touhoutinkermodifier.modifier.spell_resist",
+        "slots": [
+            "head",
+            "chest",
+            "legs",
+            "feet",
+            "mainhand",
+            "offhand"
+        ],
+        "tooltip_style": "percent"
+      }
+    ],
+    "tooltip_display": "always"
+  }

@@ -6,7 +6,10 @@ event.recipes.create.crushing(['thermal:niter','2x chemlib:carbonate_dust','3x c
 event.recipes.create.haunting('minecraft:rotten_flesh','#forge:foods/meat/raw')
 event.recipes.create.splashing(['minecraft:blaze_powder',Item.of('minecraft:blaze_powder').withChance(0.3)],'biomesoplenty:burning_blossom')
 event.recipes.create.filling('alexscaves:radon_bottle',[Fluid.of('chemlib:radon_fluid',250),'minecraft:glass_bottle'])
-
+event.recipes.create.filling('irons_spellbooks:blood_vial',[Fluid.of("biomesoplenty:blood",250),'minecraft:glass_bottle'])
+event.recipes.create.filling('irons_spellbooks:blood_vial',[Fluid.of("youkaishomecoming:blood",250),'minecraft:glass_bottle'])
+event.recipes.create.filling('irons_spellbooks:arcane_essence',[Fluid.of("starbunclemania:source_fluid",250),'minecraft:redstone'])
+event.recipes.create.filling('cataclysm:dying_ember',[Fluid.of('tconstruct:molten_cinderslime',360),'irons_spellbooks:cinder_essence'])
 
 event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose_quartz', 'chemlib:polyvinyl_chloride_plate']).keepHeldItem()
 

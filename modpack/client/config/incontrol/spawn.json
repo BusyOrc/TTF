@@ -61,12 +61,12 @@
         "dimension": "minecraft:overworld",  
         "result": "allow",
         "maxheight": 24,
-        "healthmultiply": 0.7,
-        "damagemultiply": 2.0,
+        "healthmultiply": 0.3,
+        "damagemultiply": 0.5,
         "mob":["hmag:crimson_slaughterer","hmag:imp", "hmag:ender_executor", "hmag:necrotic_reaper"],
         "potion": [
             "minecraft:invisibility,90000,2",
-            "minecraft:speed,90000,2"
+            "minecraft:speed,90000,0"
         ],
         "gamestage":"normal_stage"
     },
@@ -86,8 +86,8 @@
         "random":0.2,
         "dimension": "minecraft:the_nether",  
         "result": "allow",
-        "healthmultiply": 0.6,
-        "damagemultiply": 1.5,
+        "healthmultiply": 0.7,
+        "damagemultiply": 0.5,
         "mob":["hmag:crimson_slaughterer","hmag:imp", "hmag:ender_executor", "hmag:wither_skeleton_girl", "hmag:skeleton_girl", "hmag:kasha"],
         "potion": ["minecraft:invisibility,90000,2",
         "minecraft:speed,90000,0"
@@ -102,12 +102,17 @@
         "damagemultiply": 8.0,
         "speedmultiply": 0.5,
         "attackspeedmultiply": 2.0,
-        "followrangeadd": 16.0,
+        "followrangeadd": 8.0,
         "angry": true,
         "potion": [
             "minecraft:regeneration,32000,2",
             "minecraft:resistance,32000,2"
         ],
         "result":"allow"
+    },
+    {
+        "gamestage":"dev",
+        "mob":"minecraft:bat",
+        "result":"deny"
     }
   ]

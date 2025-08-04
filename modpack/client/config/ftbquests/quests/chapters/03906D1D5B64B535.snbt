@@ -1385,12 +1385,6 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "6A765D692AA3561E"
-					item: "tinkers_delight:baked_vegetables_with_cheese"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 2L
 					id: "320950DF69380E5D"
 					item: "immortalers_delight:stuffed_poisonous_potato"
@@ -1400,6 +1394,12 @@
 					consume_items: true
 					id: "78ADBB552C49BCC1"
 					item: "arsdelight:source_berry_jelly"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "456C49078B86BEBE"
+					item: "farmersdelight:roast_chicken_block"
 					type: "item"
 				}
 			]

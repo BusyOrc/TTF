@@ -88,7 +88,7 @@
     "mowziesmobs:umvuthi",
     "mowziesmobs:frostmaw",
     "mowziesmobs:bluff",
-    "irons_spellbooks:keeper",
+    "irons_spellbooks:citadel_keeper",
     "irons_spellbooks:dead_king_corpse",
     "irons_spellbooks:archevoker",
     "irons_spellbooks:necromancer",
@@ -97,6 +97,7 @@
     "ars_nouveau:wilden_hunter",
     "ars_nouveau:wilden_guardian",
     "ars_nouveau:wilden_stalker",
+    "ars_nouveau:wilden_boss",
     "cataclysm:amethyst_crab",
     "alexsmobs:centipede",
     "youkaishomecoming:small_fairy"

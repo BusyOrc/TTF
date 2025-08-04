@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "东方匠魂传"
 	#The version of the modpack
-	modpackVersion = "3.0.3"
+	modpackVersion = "3.0.4"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

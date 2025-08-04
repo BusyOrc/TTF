@@ -84,7 +84,7 @@
 [[entities]]
 	entity = "hmag:necrotic_reaper"
 	minTier = 2
-	maxTier = 5
+	maxTier = 4
 	presetAffixes = ["champions:adaptable"]
 	affixList = []
 	affixPermission = "BLACKLIST"
@@ -187,8 +187,8 @@
 
 [[entities]]
 	entity = "hmag:imp"
-	minTier = 2
-	maxTier = 5
+	minTier = 1
+	maxTier = 3
 	presetAffixes = ["champions:hasty"]
 	affixList = []
 	affixPermission = "BLACKLIST"
@@ -196,16 +196,16 @@
 
 [[entities]]
 	entity = "twilightforest:naga"
-	minTier = 4
-	maxTier = 5
+	minTier = 2
+	maxTier = 3
 	presetAffixes = ["champions:knocking", "champions:wounding"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "twilightforest:lich"
-	minTier = 4
-	maxTier = 5
+	minTier = 3
+	maxTier = 4
 	presetAffixes = ["champions:reflective", "champions:adaptable"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
@@ -228,8 +228,8 @@
 
 [[entities]]
 	entity = "twilightforest:knight_phantom"
-	minTier = 4
-	maxTier = 5
+	minTier = 3
+	maxTier = 4
 	presetAffixes = ["champions:lively", "champions:adaptable"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
@@ -464,9 +464,9 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
-	entity = "irons_spellbooks:keeper"
-	minTier = 4
-	maxTier = 5
+	entity = "irons_spellbooks:citadel_keeper"
+	minTier = 2
+	maxTier = 3
 	presetAffixes = ["champions:dampening"]
 	affixList = []
 	affixPermission = "BLACKLIST"
@@ -505,10 +505,16 @@
 
 [[entities]]
 	entity = "youkaishomecoming:small_fairy"
-	minTier = 4
+	minTier = 2
 	maxTier = 5
 	presetAffixes = ["champions:adaptable", "champions:dampening"]
 	affixList = []
 	affixPermission = "BLACKLIST"
 
-
+[[entities]]
+	entity = "ars_nouveau:wilden_boss"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"

@@ -210,15 +210,15 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:oakskin"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:nature"
-		MaxLevel = 8
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 2.0
-		SpellPowerMultiplier = 0.3
-		CooldownInSeconds = 80.0
-		AllowCrafting = false
+		MinRarity = "RARE"
+		ManaCostMultiplier = 3.0
+		SpellPowerMultiplier = 0.6
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
 
 	[Spells."irons_spellbooks:spider_aspect"]
 		Enabled = true
@@ -960,15 +960,15 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:heartstop"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:blood"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 2.4
-		SpellPowerMultiplier = 0.15
-		CooldownInSeconds = 120.0
-		AllowCrafting = false
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 3.0
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 180.0
+		AllowCrafting = true
 
 	[Spells."irons_spellbooks:devour"]
 		Enabled = true
@@ -1899,5 +1899,60 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."touhoutinkermodifier:absolutezero"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 90.0
+		AllowCrafting = true
+
+	[Spells."touhoutinkermodifier:arcticstorm"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 10.0
+		AllowCrafting = true
+
+	[Spells."touhoutinkermodifier:crimsonfantasy"]
+		Enabled = false
+		School = "irons_spellbooks:blood"
+		MaxLevel = 0
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 0.0
+		AllowCrafting = true
+
+	[Spells."touhoutinkermodifier:gungnir"]
+		Enabled = false
+		School = "irons_spellbooks:blood"
+		MaxLevel = 0
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 0.0
+		AllowCrafting = true
+
+	[Spells."touhoutinkermodifier:laevatein"]
+		Enabled = false
+		School = "irons_spellbooks:blood"
+		MaxLevel = 0
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 0.0
 		AllowCrafting = true
 

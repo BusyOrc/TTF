@@ -655,74 +655,6 @@
         {
           "TradeType": "PURCHASE",
           "SellItem": {
-            "ID": "miners_delight:stuffed_squid",
-            "Count": 1
-          },
-          "Price": {
-            "Value": [
-              {
-                "Coin": "lightmanscurrency:coin_emerald",
-                "Amount": 2
-              }
-            ],
-            "Chain": "main",
-            "type": "lightmanscurrency:coins"
-          }
-        },
-        {
-          "TradeType": "PURCHASE",
-          "SellItem": {
-            "ID": "tinkers_delight:slime_rice",
-            "Count": 1
-          },
-          "Price": {
-            "Value": [
-              {
-                "Coin": "lightmanscurrency:coin_emerald",
-                "Amount": 2
-              }
-            ],
-            "Chain": "main",
-            "type": "lightmanscurrency:coins"
-          }
-        },
-        {
-          "TradeType": "PURCHASE",
-          "SellItem": {
-            "ID": "tinkers_delight:slime_fish",
-            "Count": 1
-          },
-          "Price": {
-            "Value": [
-              {
-                "Coin": "lightmanscurrency:coin_emerald",
-                "Amount": 2
-              }
-            ],
-            "Chain": "main",
-            "type": "lightmanscurrency:coins"
-          }
-        },
-        {
-          "TradeType": "PURCHASE",
-          "SellItem": {
-            "ID": "tinkers_delight:manyullyn_pie",
-            "Count": 1
-          },
-          "Price": {
-            "Value": [
-              {
-                "Coin": "lightmanscurrency:coin_emerald",
-                "Amount": 4
-              }
-            ],
-            "Chain": "main",
-            "type": "lightmanscurrency:coins"
-          }
-        },
-        {
-          "TradeType": "PURCHASE",
-          "SellItem": {
             "ID": "twilightdelight:meef_wellington_block",
             "Count": 1
           },
@@ -996,13 +928,13 @@
           "TradeType": "PURCHASE",
           "SellItem": {
             "ID": "youkaishomecoming:bun",
-            "Count": 1
+            "Count": 4
           },
           "Price": {
             "Value": [
               {
                 "Coin": "lightmanscurrency:coin_gold",
-                "Amount": 6
+                "Amount": 2
               }
             ],
             "Chain": "main",
@@ -1013,13 +945,13 @@
           "TradeType": "PURCHASE",
           "SellItem": {
             "ID": "youkaishomecoming:oyaki",
-            "Count": 1
+            "Count": 4
           },
           "Price": {
             "Value": [
               {
                 "Coin": "lightmanscurrency:coin_gold",
-                "Amount": 4
+                "Amount": 2
               }
             ],
             "Chain": "main",

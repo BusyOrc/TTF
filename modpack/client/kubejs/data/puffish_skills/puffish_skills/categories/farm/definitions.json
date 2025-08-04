@@ -44,8 +44,8 @@
 				"item": "minecraft:diamond"
 			}
 		},
-		"cost":18,
-		"description":"消耗技能点：§a18",
+		"cost":16,
+		"description":"消耗技能点：§a16",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -59,7 +59,7 @@
 		]
 	},
 	"stamina": {
-		"title": "+20%耐力",
+		"title": "+20%耐力（更不容易饿）",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -80,7 +80,7 @@
 				"data": {
 					"attribute": "puffish_attributes:stamina",
 					"value": 0.2,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 				
 			}
