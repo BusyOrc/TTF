@@ -35,13 +35,13 @@
 	drygmyMaxProgress = 20
 	#Bonus number of items a drygmy produces per unique mob
 	#Range: 0 ~ 300
-	drygmyUniqueBonus = 2
+	drygmyUniqueBonus = 0
 	#Base number of items a drygmy produces per cycle before bonuses.
 	#Range: > -2147483648
-	drygmyBaseItems = 1
+	drygmyBaseItems = 0
 	#Max Bonus number of items a drygmy produces from nearby entities. Each entity equals 1 item.
 	#Range: 0 ~ 300
-	drygmyQuantityCap = 5
+	drygmyQuantityCap = 0
 
 #Items
 [item]

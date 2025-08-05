@@ -1,8 +1,0 @@
-{
-    "type": "tconstruct:severing",
-    "entity": {
-      "type":  "iceandfire:pixie"
-      
-    },
-    "result": "iceandfire:pixie_dust"
-}

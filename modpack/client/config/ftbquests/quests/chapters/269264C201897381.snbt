@@ -140,8 +140,8 @@
 			}
 			id: "2D97609AFEA7E2BE"
 			rewards: [{
-				id: "765FE45A8C457E73"
-				item: "sophisticatedbackpacks:iron_backpack"
+				id: "0EB5F6BECAA810A3"
+				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
 			size: 2.0d
@@ -801,6 +801,11 @@
 					id: "557554460211DEF7"
 					item: "solarflux:sp_3"
 					team_reward: true
+					type: "item"
+				}
+				{
+					id: "474B9FA9C7AE716D"
+					item: "thermal:tinker_bench"
 					type: "item"
 				}
 			]

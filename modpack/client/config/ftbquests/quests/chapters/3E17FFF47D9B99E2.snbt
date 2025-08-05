@@ -92,6 +92,7 @@
 			y: 12.3125d
 		}
 		{
+			click: "#"
 			height: 7.0d
 			hover: ["无限量熔岩！"]
 			image: "minecraft:block/lava_flow"

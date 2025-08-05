@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 3.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             },
@@ -32,9 +32,15 @@
         {
           "condition": "minecraft:damage_source_properties",
           "predicate": {
-            "tags": ["forge:spells"] 
-          }
-        }
+    "type": "minecraft:damage_source",
+    "tags": [
+      {
+        "id": "forge:spells",
+        "expected": true  
+      }
+    ]
+  }  
+    }
       ]
     },
     {
@@ -47,8 +53,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 3.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             },
@@ -61,49 +67,23 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:coal"
+          "name": "kubejs:little_devil"
         }
       ],
       "conditions": [
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "tags": ["forge:spells"]
-            }
-          }
-        }
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+    "type": "minecraft:damage_source",
+    "tags": [
+      {
+        "id": "forge:spells",
+        "expected": false  
+      }
+    ]
+  }  
+    }
       ]
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:red_mushroom"
-        }
-      ],
-      "rolls": 1.0
     },
     {
       "rolls": 1,
@@ -156,28 +136,6 @@
             }
           ],
           "name": "minecraft:quartz"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              }
-            }
-          ],
-          "name": "hmag:copper_nugget"
         },
         {
           "type": "minecraft:item",

@@ -47,12 +47,12 @@
 	experienceGrowth = 2
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
-	explosionGrowth = 4
+	explosionGrowth = 3
 
 [affixes]
 	#Set the maximum distance that mobs can use their targeted abilities from, 0 to disable
 	#Range: 0.0 ~ 100.0
-	affixTargetRange = 0.0
+	affixTargetRange = 16
 
 	[affixes.adaptable]
 		#The increase in damage reduction for each consecutive attack of the same damage type
@@ -60,12 +60,12 @@
 		adaptableDamageReductionIncrement = 0.12
 		#The maximum damage reduction
 		#Range: 0.0 ~ 1.0
-		adaptableMaxDamageReduction = 0.8
+		adaptableMaxDamageReduction = 0.75
 
 	[affixes.arctic]
 		#How often the champion will shoot projectiles (in seconds)
 		#Range: 1 ~ 100
-		arcticAttackInterval = 5
+		arcticAttackInterval = 4
 
 	[affixes.dampened]
 		#The amount of damage reduction to apply to indirect attacks
@@ -122,7 +122,7 @@
 	[affixes.knocking]
 		#The multiplier to apply to the knockback strength
 		#Range: 0.0 ~ 1.7976931348623157E308
-		knockingMultiplier = 7.0
+		knockingMultiplier = 5.0
 
 	[affixes.lively]
 		#The amount of health per second regeneration
@@ -142,10 +142,10 @@
 	[affixes.plagued]
 		#The effect that will be spread
 		#Format:[effect];[power];[duration(secs)]
-		plaguedEffect = "minecraft:poison;10;2"
+		plaguedEffect = "minecraft:poison;6;2"
 		#The range of the plagued effect
 		#Range: 1 ~ 100
-		plaguedRange = 3
+		plaguedRange = 2
 
 	[affixes.reflective]
 		#The minimum percent of damage to reflect back
@@ -153,7 +153,7 @@
 		reflectiveMinPercent = 0.1
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.7
+		reflectiveMaxPercent = 0.5
 		#The maximum amount of damage to reflect back
 		#Range: > 0
 		reflectiveMax = 100

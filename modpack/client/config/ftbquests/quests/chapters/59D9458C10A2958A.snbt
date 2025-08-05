@@ -21,33 +21,21 @@
 			description: [
 				"山城高岭：你好，我这里各种东西都有卖的，可不是黑市哦。需要的话就拿钱币来买。"
 				""
-				"作为新顾客的礼品，就送你一个钱包吧，记得保管好"
+				"作为新顾客的礼品，就送你一个ATM吧，记得保管好"
 				""
 				"如果需要&a兑换货币&r，可以在&aATM机&r里进行，或者也可以将其合成为饰品，随时随地兑换"
 			]
-			icon: {
-				Count: 1
-				id: "lightmanscurrency:wallet_gold"
-				tag: {
-					AutoConvert: 1b
-				}
-			}
+			icon: "lightmanscurrency:coin_emerald"
 			id: "7DE5EF85D3A7D56E"
 			rewards: [
 				{
-					id: "45025E5BA8EC0CCF"
-					item: {
-						Count: 1
-						id: "lightmanscurrency:wallet_gold"
-						tag: {
-							AutoConvert: 1b
-						}
-					}
+					id: "147747A2966ECA3A"
+					item: "lightmanscurrency:atm"
 					type: "item"
 				}
 				{
-					id: "147747A2966ECA3A"
-					item: "lightmanscurrency:atm"
+					id: "37249E28D9E8E275"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -397,8 +385,6 @@
 				"沥青沙：需要水"
 				""
 				"魔力聚集地（位于暮色森林）：需要液态魔源，这种液体需要用魔源来转化"
-				""
-				""
 				"{ \"text\": \"魔源凝聚器\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54B7370E8DAD098A\" } }"
 				""
 				"软质豆腐矿脉：需要豆奶"

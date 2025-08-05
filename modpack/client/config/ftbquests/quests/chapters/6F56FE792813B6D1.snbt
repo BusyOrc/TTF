@@ -82,13 +82,13 @@
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
-			description: ["魔理沙：别担心，三十六计走为上计，总还是有办法的DA⭐ZE。其次，多去了解一下小伞的锻造技术，有本书叫工匠大百科，如果你有的话可一定要多看看，里面收录了各种材料的数据，如果确实没什么办法，我这里有个宝物，能保证家周围的安全，姑且拿去吧"]
+			description: ["魔理沙：别担心，三十六计走为上计，总还是有办法的DA⭐ZE。其次，多去了解一下小伞的锻造技术，有本书叫工匠大百科，如果你有的话可一定要多看看，里面收录了各种材料的数据，如果确实没什么办法，可以用巨型火把阻止周围产生敌人"]
 			icon: "torchmaster:megatorch"
 			id: "4E0B5BA233E990EF"
 			rewards: [{
-				id: "69C4B3E10964AD26"
-				item: "torchmaster:megatorch"
-				type: "item"
+				id: "5D4FDE276EB02225"
+				type: "xp"
+				xp: 50
 			}]
 			tasks: [{
 				id: "01EDF667E75B748A"
@@ -343,6 +343,8 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "2B43A0B2DC386E46"

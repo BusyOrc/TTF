@@ -1,4 +1,0 @@
-#Replace isUsingItem with isBlocking for modded shield model predicate
-#Fix shield rendering on humanoid golem but may break stuff
-shieldUsePoseFixForModdedShields = false
-

@@ -47,6 +47,7 @@ event.recipes.thermal.refinery(['5x thermal:rich_slag',Fluid.of('kubejs:waste_wa
 event.recipes.thermal.refinery(['thermal:rich_slag',Fluid.of('cofh_core:experience', 50), Fluid.of('minecraft:water', 450)], Fluid.of('kubejs:waste_water', 500)).energy(72000)
 //event.recipes.thermal.tree_extractor(Fluid.of('kubejs:ancient_resin', 100), 'minecraft:jungle_log', 'alexscaves:ancient_leaves')
 //event.recipes.thermal.tree_extractor(Fluid.of('kubejs:ancient_resin', 100), 'quark:ancient_log', 'quark:ancient_leaves')
+event.recipes.thermal.crystallizer('irons_spellbooks:lightning_bottle',[Fluid.of("starbunclemania:source_fluid",100),'minecraft:glass_bottle','hmag:lightning_particle'])
 
 //绿宝石齿轮
 event.recipes.thermal.press('thermal:emerald_gear', ['4x minecraft:emerald', 'thermal:press_gear_die'])

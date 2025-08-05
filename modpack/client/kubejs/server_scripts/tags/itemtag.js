@@ -231,7 +231,9 @@ event.add('forge:cakes',['vanillacookbook:book_cake', 'tconstruct:sky_cake',
 
 event.add('forge:golden_fabric',['immortalers_delight:golden_fabric','tinkers_thinking:gilded_silky_cloth'])
 event.add('forge:flour/wheat',['mystias_izakaya:mian_fen','refurbished_furniture:dough'])
-
+event.add("forge:plate_armor",["tconstruct:plate_helmet","tconstruct:plate_chestplate","tconstruct:plate_leggings","tconstruct:plate_boots"])
+event.add("forge:laminar_armor",["tinkers_things:laminar_helmet","tinkers_things:laminar_chestplate","tinkers_things:laminar_leggings","tinkers_things:laminar_boots"])
+event.add("forge:embedded_armor",["sakuratinker:embedded_helmet","sakuratinker:embedded_chestplate","sakuratinker:embedded_leggings","sakuratinker:embedded_boots"])
 
 
 

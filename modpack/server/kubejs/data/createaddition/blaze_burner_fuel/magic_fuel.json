@@ -1,6 +1,0 @@
-{
-  "fluid": "kubejs:magic_fuel",
-  "burnTime": 60,
-  "superHeat": true,
-  "amountConsumedPerTick" : 1
-}

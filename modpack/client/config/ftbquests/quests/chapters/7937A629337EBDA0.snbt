@@ -178,6 +178,11 @@
 			dependencies: ["352B187CA7F1DD28"]
 			description: ["百百世：在洞穴里寻找赤钕节点，挖掘以后就能得到粗赤钕，可以与铁一起制作赤钕合金锭，也可以熔融作为匠魂材料"]
 			id: "6AAA3DF0F5AD553C"
+			rewards: [{
+				id: "21771C0AE9BD5995"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F974E57816E08AE"
 				item: "alexscaves:raw_scarlet_neodymium"
@@ -190,6 +195,11 @@
 			dependencies: ["352B187CA7F1DD28"]
 			description: ["粗青钕的获得原理和粗赤钕类似，只需要挖掘青钕节点就可以得到，"]
 			id: "2B917F947CCA887A"
+			rewards: [{
+				id: "5EC3F392ABBFD9AB"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72B99C30F19C00B5"
 				item: "alexscaves:raw_azure_neodymium"

@@ -1,0 +1,69 @@
+{
+    "type": "ARMOR",
+"prot_pierce": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["forge:laminar_armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"attributeslib:prot_pierce": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[3,5,6,7,8],
+    "mayValuesWeight":[4,5,4,3,2],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"prot_shred": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["forge:laminar_armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"attributeslib:prot_shred": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[0.07,0.1,0.12,0.15,0.2],
+    "mayValuesWeight":[4,6,4,4,1],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"armor": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["forge:laminar_armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.armor": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[3,5,7,8,10],
+    "mayValuesWeight":[4,5,4,3,2],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+},
+"toughness": {
+  "weight": 1,
+  "isRandom":true,
+  "OnlyTags":["forge:laminar_armor"],
+  "RandomNum":"1",
+  "attrGethers": {
+"minecraft:generic.armor_toughness": {
+      "weight":3,
+    "value": 0.0,
+    "mayValues":[2,4,5,7,8],
+    "mayValuesWeight":[4,5,4,3,2],
+    "slot": "auto",
+    "operation":"add"
+  }
+  }
+}
+
+
+}

@@ -1,8 +1,0 @@
-
-[client-settings]
-	#是否打开历史记录
-	open_history = true
-	#历史记录行数
-	#Range: 1 ~ 10
-	history_rows = 2
-

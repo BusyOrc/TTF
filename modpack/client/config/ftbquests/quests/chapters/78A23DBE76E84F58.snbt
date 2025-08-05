@@ -486,7 +486,7 @@
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
-			description: ["秋穰子：野生茶叶可以在&2繁花森林&r，&a草原&r，&d樱花树林&r，&7雪林&r，任何山上找到，也能取得茶籽后在耕地上耕种。"]
+			description: ["秋穰子：野生茶叶可以在&2繁花森林&r，&a草原&r，&d樱花树林&r，&7雪林&r，任何山上找到，也能取得茶籽后在草地上耕种。"]
 			hide_dependency_lines: true
 			icon: "youkaishomecoming:tea_leaves"
 			id: "1222C1C5985B3AC7"
@@ -1398,43 +1398,6 @@
 			title: "钱币购买海产"
 			x: 15.75d
 			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7D79F11DFB914EAC"]
-			description: [
-				"秋穰子:你想要卖点种子？没问题啊！来我看看。。。"
-				"                         (本任务提交不会有提示)"
-			]
-			disable_toast: true
-			hide_dependency_lines: true
-			icon: "minecraft:wheat_seeds"
-			id: "54132BB1A78577DD"
-			rewards: [{
-				auto: "no_toast"
-				count: 4
-				id: "53162D7912870258"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			subtitle: "但是没有钱万万不能！"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "266427BBBE845625"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:seeds"
-					}
-				}
-				title: "Any #forge:seeds"
-				type: "item"
-			}]
-			title: "种子"
-			x: 17.5d
-			y: -3.5d
 		}
 		{
 			can_repeat: true

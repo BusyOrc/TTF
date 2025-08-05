@@ -45,7 +45,6 @@
 		{ count: 32, item: "thermal:strawberry" }
 		{ count: 32, item: "thermal:tomato" }
 		{ count: 32, item: "thermal:tea" }
-		{ count: 32, item: "thermal:hops" }
 		{ count: 32, item: "thermal:coffee" }
 		{ count: 32, item: "youkaishomecoming:red_grape" }
 		{ count: 32, item: "youkaishomecoming:black_grape" }

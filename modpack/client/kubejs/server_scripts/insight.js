@@ -37,7 +37,7 @@ if(Insight<50){//默认情况，敌人持有1级匠魂材料工具
       if(!event.player.stages.has("easy_stage"))
       {
             event.player.stages.add("easy_stage")
-            event.player.setStatusMessage(Component.green(`灵视降低使你无法再看见许多生物，但至少更安全了`))
+            event.player.setStatusMessage(Component.green(`当前灵视状态：0-50，较为安全`))
       }
       if(event.player.stages.has("normal_stage"))
       {     
@@ -103,7 +103,7 @@ else{
                               event.player.stages.remove("hardcore_stage")
                         }
                   }
-                  else//无视亮度刷新部分敌人(暂未实装)，德格米刷新在蘑菇森林，繁密蘑菇森林，敌人持有4级
+                  else//无视亮度刷新部分敌人(暂未实装)，敌人持有4级
                   {
                         if(event.player.stages.has("easy_stage"))
                         {

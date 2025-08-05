@@ -90,10 +90,10 @@
 		["兼容配置".modifiers.absorption]
 			#每tick恢复的间隔 (default: 5)
 			#Range: 1 ~ 1000
-			tickInterval = 80
+			tickInterval = 20
 			#每tick恢复的生命值 (default: 0.2)
 			#Range: 0.0 ~ 100.0
-			absorptionPerTick = 0.05
+			absorptionPerTick = 0.5
 
 		#下克上配置
 		["兼容配置".modifiers.shitakuso]

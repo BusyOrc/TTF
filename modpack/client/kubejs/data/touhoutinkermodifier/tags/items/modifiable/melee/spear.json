@@ -1,6 +1,18 @@
 {
   "values": [
     "tinkerancient:glaive",
-    "cloudertinker:giantsword"
+    "tinkerancient:staff",
+    "cloudertinker:giantsword",
+    "tinkers_things:twinblade",
+    "tconstruct:sledge_hammer",
+    "tconstruct:vein_hammer",
+    "tconstruct:cleaver",
+    "tconstruct:broad_axe",
+    "sakuratinker:great_sword",
+    "sakuratinker:scythe",
+    "tconstruct:scythe",
+    "tinkers_things:halberd",
+    "tinkers_thinking:mace"
+
   ]
 }

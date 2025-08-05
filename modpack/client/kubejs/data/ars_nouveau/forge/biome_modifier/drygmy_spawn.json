@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#forge:ars_spawn",
+  "biomes": "#forge:drygmy_spawn",
   "spawners": {
     "type": "ars_nouveau:drygmy",
     "maxCount": 3,

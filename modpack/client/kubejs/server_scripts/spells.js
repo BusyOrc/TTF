@@ -99,17 +99,15 @@ EntityJSEvents.addGoalSelectors('irons_spellbooks:citadel_keeper', e => {
         mob => {
             let target = mob.target
             if (target != null) {
-                if (mob.age % 120 == 0) {
+                if (mob.age % 100 == 0 && !target.hasEffect("irons_spellbooks:rend")) {
                     mob.lookAt("eyes", new Vec3d(target.x, target.y, target.z))
-                    return mob.initiateCastSpell(SpellRegistry.FLAMING_STRIKE_SPELL.get(), 5)
-                } 
-                if (mob.age % 280 == 0) {
-                    mob.lookAt("eyes", new Vec3d(target.x, target.y, target.z))
-                    return mob.initiateCastSpell(SpellRegistry.SONIC_BOOM_SPELL.get(), 5)
+ //                   console.log(target.hasEffect("irons_spellbooks:rend"))
+                    return mob.initiateCastSpell(SpellRegistry.HEAT_SURGE_SPELL.get(), 8)
                 }
 
-                if (mob.age % 400 == 0) {
-                    return mob.initiateCastSpell(SpellRegistry.OAKSKIN_SPELL.get(), 3)
+                if (mob.age % 80 == 0) {
+                    mob.lookAt("eyes", new Vec3d(target.x, target.y, target.z))
+                    return mob.initiateCastSpell(SpellRegistry.FLAMING_STRIKE_SPELL.get(), 6)
                 } 
             }
         }

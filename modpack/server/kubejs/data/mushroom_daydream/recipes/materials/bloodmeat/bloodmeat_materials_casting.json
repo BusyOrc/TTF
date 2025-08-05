@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "name": "solidarytinker:molten_bloodmeat",
-    "amount": 90
-  },
-  "temperature": 150,
-  "output": "solidarytinker:bloodmeat"
-}

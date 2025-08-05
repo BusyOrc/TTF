@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "mushroom_daydream:heimdallr",
-  "temperature": 150,
-  "result": {
-    "fluid": "mushroom_daydream:mantle_heimdallr",
-    "amount": 90
-  }
-}

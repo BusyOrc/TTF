@@ -243,6 +243,14 @@
 			x: -20.75d
 			y: 0.75d
 		}
+		{
+			height: 9.3d
+			image: "touhou_tinker_fantasy:textures/patch_new.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -7.75d
+			y: 11.5d
+		}
 	]
 	order_index: 7
 	quest_links: [ ]
@@ -2007,8 +2015,8 @@
 		{
 			dependencies: ["029068998879B2F8"]
 			description: [
-				"帕秋莉：本来在过去德格米是很常见的生物，不过可能是由于过度利用，现在大部分的德格米已经销声匿迹，只有少部分高灵视的目击者报告称在暮色森林的&a蘑菇森林和繁密蘑菇森林&r中找到过德格米。根据一些法术的推算，&a至少需要150灵视&r才能在这两个群系中见到德格米"
-				"{ \"text\": \"关于灵视的介绍\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A4A43448B34A980\" } }"
+				"帕秋莉：本来在过去德格米是很常见的生物，不过可能是由于过度利用，现在大部分的德格米已经销声匿迹，不过在整个暮色森林中都有可能见到德格米，而主世界并不会出现"
+				""
 				"在野生德格米旁放下&e荒野之角&r可以向它表示友好，随后它会掉落&e德格米碎片&r。"
 				"{@pagebreak}"
 				"在附魔装置中使用&e德格米碎片&r合成&e德格米护符&r，随后&6右键苔石&r即可召唤出你的德格米。此时苔石会变成德格米石阵。想&e召唤更多的德格米&r只需用德格米护符再次&6右击石阵&r。"
@@ -2767,12 +2775,7 @@
 		}
 		{
 			dependencies: ["2BE6B3FA37D6CE4F"]
-			description: [
-				"帕秋莉：铁魔法学派作为主流学派，以&a高稳定性&r的施法而著名；但相对的，这个学派的魔法没有什么可以变通之处，术式一板一眼，魔力利用率取决于撰写术式的&a墨水品质&r；即便是有这些缺点，这个学派依旧是初学者的首选。"
-				"这本初学者魔法书你拿去用吧，上面有一些我以前写下的术式和笔记，应该对你有帮助。"
-				"{@pagebreak}"
-				"礼物？怎么可能！既然跟我学习魔法，要是你什么都不会岂不是丢了我七曜贤者的脸！"
-			]
+			description: ["帕秋莉：铁魔法学派作为主流学派，以&a高稳定性&r的施法而著名；但相对的，这个学派的魔法没有什么可以变通之处，术式一板一眼，魔力利用率取决于撰写术式的&a墨水品质&r；即便是有这些缺点，这个学派依旧是初学者的首选。"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:copper_spell_book"
@@ -2821,53 +2824,8 @@
 			}
 			id: "49D50CFF3DF41852"
 			rewards: [{
-				id: "617E7B6436A2DC20"
-				item: {
-					Count: 1
-					id: "irons_spellbooks:copper_spell_book"
-					tag: {
-						ISB_Spells: {
-							data: [
-								{
-									id: "irons_spellbooks:burning_dash"
-									index: 0
-									level: 4
-									locked: 0b
-								}
-								{
-									id: "irons_spellbooks:chain_lightning"
-									index: 1
-									level: 1
-									locked: 0b
-								}
-								{
-									id: "irons_spellbooks:firefly_swarm"
-									index: 2
-									level: 1
-									locked: 0b
-								}
-								{
-									id: "irons_spellbooks:summon_horse"
-									index: 3
-									level: 3
-									locked: 0b
-								}
-								{
-									id: "irons_spellbooks:recall"
-									index: 4
-									level: 1
-									locked: 0b
-								}
-							]
-							maxSpells: 5
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-						display: {
-							Name: "{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"略有磨损的魔法书\"}"
-						}
-					}
-				}
+				id: "7D39F5659E3D0D3C"
+				item: "irons_spellbooks:uncommon_ink"
 				type: "item"
 			}]
 			subtitle: "古板，但强大"
@@ -5194,6 +5152,7 @@
 				"她挥了挥手，三本书飞到我身前"
 				"“我作为师父怎么能一点表示没有，现在看看你想学什么吧”"
 			]
+			icon: "arsdelight:mendosteen_tea"
 			id: "2BE6B3FA37D6CE4F"
 			rewards: [{
 				id: "2424B28EDBE75D67"
@@ -5203,12 +5162,7 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "6738BE66A7F0DFE4"
-					item: "arsdelight:source_berry_jelly"
-					type: "item"
-				}
-				{
-					consume_items: true
+					count: 3L
 					id: "12A5E4F5D7245C04"
 					item: "arsdelight:mendosteen_tea"
 					type: "item"

@@ -33,12 +33,6 @@
         "result": "deny"
     },
     {
-        "biome":["twilightforest:mushroom_forest","twilightforest:dense_mushroom_forest"],
-        "gamestage":"hardcore_stage",
-        "mob":["ars_nouveau:drygmy"],
-        "result":"allow"
-    },
-    {
         "biome":["twilightforest:mushroom_forest","twilightforest:clearing","twilightforest:forest",
     "twilightforest:dense_mushroom_forest","twilightforest:firefly_forest","twilightforest:oak_savannah"],
         "mob":["ars_nouveau:starbuncle","ars_nouveau:whirlisprig"],
