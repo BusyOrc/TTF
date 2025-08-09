@@ -5,13 +5,13 @@
 	#whether to shake the screen from tremorsaurus stomping, nuclear explosions, etc.
 	screen_shaking = true
 	#true if some block models, like uranium ore or abyssmarine bricks render as fullbright. May increase load time, no gameplay performance impact.
-	emissive_block_models = true
+	emissive_block_models = false
 	#whether to make the screen flash white during nuclear explosions.
 	nuclear_bomb_flash = true
 	#true if some biomes, such as primordial caves, have ambient light that makes the biome easier to see in.
 	biome_ambient_light = true
 	#true if some biomes, such as toxic caves, apply a color to ambient light. May conflict with shaders.
-	biome_ambient_light_coloring = true
+	biome_ambient_light_coloring = false
 	#true if some biomes, such as primordial caves, have an always well-lit sky when in them. May conflict with shaders.
 	biome_sky_overrides = true
 	#true if some biomes, such as abyssal chasm, have an thicker water fog to them. May conflict with shaders.
@@ -27,7 +27,7 @@
 	#Range: -12000 ~ 12000
 	subterranodon_indicator_y = 6
 	#true if sugar rush makes the world more saturated. May conflict with shaders.
-	sugar_rush_saturation_effect = true
+	sugar_rush_saturation_effect = false
 
 [audio]
 	#whether nuclear explosions briefly muffle other sounds.

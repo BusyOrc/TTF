@@ -38,10 +38,16 @@
 			hide_text_until_complete: true
 			hide_until_deps_complete: true
 			id: "6481A9252CA4F09F"
+			rewards: [{
+				count: 4
+				id: "630A2948356D7EB9"
+				item: "thermal:lead_plate"
+				type: "item"
+			}]
 			tasks: [{
 				count: 5L
-				id: "776184018F933897"
-				item: "chemlib:uranium_dust"
+				id: "3D9139E9F535F9A4"
+				item: "alexscaves:uranium"
 				type: "item"
 			}]
 			title: "这东西在发光耶"

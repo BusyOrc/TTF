@@ -161,20 +161,6 @@ event.custom({//部件加工台
     "value": 1
 })
 
-//Ir
-crtm(event,"kubejs:molten_iridium","kubejs:iridium","chemlib:iridium_ingot","chemlib:iridium_metal_block","chemlib:iridium_nugget",90,1370,72)
-
-//聚氯乙烯
-event.custom({//部件加工台
-    "type": "tconstruct:material",
-    "ingredient": {
-        "item": "chemlib:polyvinyl_chloride_plate"
-    },
-    "material": "kubejs:polyvinyl_chloride_plate",
-    "needed": 1,
-    "value": 1
-})
-
 
 //dragon
 //crtm(event,"kubejs:molten_dragonsteel_lightning","kubejs:dragonsteel_lightning","iceandfire:dragonsteel_lightning_ingot","iceandfire:dragonsteel_lightning_block","none",90,1450,72)
@@ -306,7 +292,7 @@ event.custom({
     */
 crtm(event,"sakuratinker:molten_elementium","kubejs:sakura","kubejs:sakura","none","none",90,1060,24)
 //koishi
-event.recipes.create.mixing("kubejs:koishi_hat",[Fluid.of("chemlib:ethylene_fluid",500),'2x chemlib:krypton', 'youkaishomecoming:koishi_mousse']).superheated()
+event.recipes.create.mixing("kubejs:koishi_hat",[Fluid.of("minecraft:lava",500),'youkaishomecoming:koishi_mousse']).superheated()
 crtm(event,"kubejs:molten_koishi","kubejs:koishi","kubejs:koishi_hat","none","none",90,514,72)
 
 

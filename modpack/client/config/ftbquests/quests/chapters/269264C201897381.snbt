@@ -111,21 +111,10 @@
 		}
 		{
 			description: [
-				"本整合包可能存在的问题："
-				"教程无法照顾到完全没有科技模组经验的新人;"
-				"部分东方角色OOC;"
-				"不完全符合一设世界观;"
-				"在“教程简洁清晰”和“对话文本详实”之间难以取得平衡;"
-				"敌人和角色之间数值平衡不到位。"
-				"没特殊情况请不要使用指令/Kill 自己 可能会导致假死的情况发生"
-				"（目前版本没有相关反馈，测试也没有问题，应该已经修复，但仍建议少用）"
+				"在&a开启创造模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，生存模式无法以这种方式使用，正常的使用方法为在工匠砧上面作为材料"
 				""
-				"在&a开启创造模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，正常的使用方法为在工匠砧上面作为材料"
-				""
-				"如果能接受以上问题，可以&a正式开始游戏&r了"
-				""
-				"东方project相关内容解释权归上海爱丽丝幻乐团所有"
-				""
+				"&d当前女仆模组版本由于标签符号存在一些问题，在女仆界面右侧打开全局配置会导致游戏崩溃。该问题已反馈，请等待作者修复"
+				"&r"
 				"交流群："
 				"一群：823588101"
 				"二群：1040140278"
@@ -777,9 +766,11 @@
 		{
 			dependencies: ["441A595A189A0EAF"]
 			description: [
-				"奖励内容：2块太阳能,32能量管道"
-				"太阳能白天产生512rf/t电力，推荐使用储能设备将多余电力存起来"
-				"使用方法：太阳能板放在能量管道上，能量管道连接控制器给AE供电"
+				"奖励内容：32能量管道，工匠工作台，能源炉和相应升级"
+				""
+				"使用方法：能源炉能量管道，&d能量管道连接控制器&r给AE供电"
+				""
+				"这种能源炉需要消耗和熔炉相同的燃料（如木板，煤炭等）才能发电，精炼地沟油同样可以发电"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -797,15 +788,34 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "557554460211DEF7"
-					item: "solarflux:sp_3"
-					team_reward: true
+					id: "474B9FA9C7AE716D"
+					item: "thermal:tinker_bench"
 					type: "item"
 				}
 				{
-					id: "474B9FA9C7AE716D"
-					item: "thermal:tinker_bench"
+					id: "6E28C84E34D87261"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+				{
+					id: "20A0D542960D3142"
+					item: "thermalendergy:dynamo_consumption_nullifier_augment"
+					type: "item"
+				}
+				{
+					id: "4BB22750141313BE"
+					item: "thermal:upgrade_augment_3"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24C84A5338E3E26E"
+					item: "ltc2:refined_underground_oil"
+					type: "item"
+				}
+				{
+					id: "1B6211F9659C8B22"
+					item: "thermal:dynamo_throttle_augment"
 					type: "item"
 				}
 			]
@@ -826,6 +836,8 @@
 				"这样只需要打开合成终端，就能将物品都存入其中"
 				""
 				"能源元件的作用是存储电力，例如太阳能多方块所提供的电力"
+				""
+				"晶体共振发电机：每个ME网络中仅能允许存在一个，但能无消耗持续提供能源"
 				""
 				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
 			]
@@ -874,7 +886,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "7194EF1D21DBDA14"
 					item: {
 						Count: 1
@@ -882,6 +893,11 @@
 						tag: { }
 					}
 					team_reward: true
+					type: "item"
+				}
+				{
+					id: "23B77C3723C887D2"
+					item: "ae2:crystal_resonance_generator"
 					type: "item"
 				}
 			]
@@ -901,7 +917,7 @@
 				""
 				"样板需要在样板编码终端里进行配方编码，随后放入样板供应器中，等待给机器发配材料。换句话说，只是相当于一个自动搬运工，给机器搬运材料，然后收回产物。"
 				""
-				"在合成终端里下单相应物品即可实现自动生产"
+				"在有CPU的情况下（单个合成存储器连入ME网络即可构成一个CPU），在合成终端里下单相应物品即可实现自动生产"
 				""
 				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
 			]
@@ -941,7 +957,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 12
 					id: "72FFF24E2D524B5C"
 					item: "ae2:blank_pattern"
 					team_reward: true
@@ -952,6 +968,11 @@
 					id: "63AC74673D0949A9"
 					item: "ae2:pattern_provider"
 					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28C9CF119E0A7A4B"
+					item: "ae2:1k_crafting_storage"
 					type: "item"
 				}
 			]

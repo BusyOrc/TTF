@@ -754,6 +754,24 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["57B217730F0E181C"]
+			description: [
+				"山城高岭：想要自动化交易物品？可以试试这种交易设备，支持自动输入和输出物品，以及红石信号控制交易"
+				""
+				"但是钱币需要先存入ATM的银行账户中"
+				""
+				"通过这种设备交易得到的钱币也会自动存入ATM账户里，所以可以轻松实现自动化交易"
+			]
+			id: "64E453ACA3C30B64"
+			tasks: [{
+				id: "5431A19239A55D2E"
+				item: "lightmanscurrency:item_trader_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.75d
+		}
 	]
 	title: "山城高岭的黑市"
 }

@@ -274,6 +274,242 @@
 			x: 13.25d
 			y: -1.0d
 		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.25d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.75d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.25d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.75d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.25d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["锻炉焰孔"]
+			image: "iceandfire:block/dragonforge_fire_input"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 17.25d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["锻炉核心"]
+			image: "iceandfire:block/dragonforge_fire_core_disabled"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.75d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.75d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.75d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.25d
+			y: 13.75d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.25d
+			y: 15.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.25d
+			y: 17.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.75d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 15.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.75d
+			y: 15.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 15.25d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragonforge_fire_brick"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.75d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "iceandfire:block/dragon_bone_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.25d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: 7.75d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -538,7 +774,7 @@
 				"小伞：简单的熔炼当然不够啦 ，这时候就需要更好的熔炼方式。除了墙角和顶部以外都需要用&a焦黑方块&r等填充，必须要有一个&a控制器&r，为了能输入输出流体，&a排液孔&r也需要一个，&a滑槽&r则可以自动输入输出物品，除此之外，输入物品可以通过从上方投入或者打开控制器的界面放入"
 				"{@pagebreak}"
 				"{image:touhou_tinker_fantasy:textures/2025-03-02_17.36.21.png width:190 height:100 align:center}"
-				"这是一个简单的熔炼炉，包含了提到的大部分物品，滑槽为非必需品。如果需要控制哪种液体输出，除了用&a焦黑疏导孔&r过滤，也可以将&a存储总线或者输入/输出总线&r接到&9排液孔&r上面，还可以用类似&apipez&r等物流模组的管道连接排液孔并且加上过滤，甚至还可以打开控制器GUI，&a手动点击&r需要让其沉底的液体。"
+				"这是一个简单的熔炼炉，包含了提到的大部分物品，滑槽为非必需品。如果需要控制哪种液体输出，除了用&a焦黑疏导孔&r过滤，也可以将&a存储总线或者输入/输出总线&r接到&9排液孔&r上面，还可以用类似&a@AE&r等物流模组的线缆/管道连接排液孔并且加上过滤，甚至还可以打开控制器GUI，&a手动点击&r需要让其沉底的液体。"
 				"{@pagebreak}"
 				"顺便送你几个储罐，可以储存多余的流体材料，可不要让炉子变成彩虹炉子哦"
 				""
@@ -1360,7 +1596,7 @@
 				}
 			]
 			title: "不毁"
-			x: 22.5d
+			x: 18.5d
 			y: -5.5d
 		}
 		{
@@ -1587,42 +1823,6 @@
 			title: "魔法保护"
 			x: 18.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["04900F581CAAE345"]
-			description: [
-				"用FE电力来替代耐久的损耗，充电推荐在热力的&b能量灌注机&r中进行"
-				""
-				"一共可升级3次，初始的升级需要使用2个电子管和一个电池升级"
-				""
-				"注意：无论装备材料是否自带该特性，都需要按照相应配方进行3次升级（换句话说，升级时请忽略材料自带的特性等级）"
-				""
-				"为了方便查看，推荐查看电子管JEI中匠魂强化的相关配方"
-			]
-			hide_dependency_lines: true
-			icon: "create:electron_tube"
-			id: "23971B7BE1C5A8C1"
-			rewards: [{
-				id: "3658CC6043C0F1B6"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "6D24235BBB0F7231"
-					item: "create:electron_tube"
-					type: "item"
-				}
-				{
-					id: "2E291B5978CC7308"
-					item: "sophisticatedbackpacks:battery_upgrade"
-					type: "item"
-				}
-			]
-			title: "科学世纪"
-			x: 18.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["46F19FB7EAE347CC"]
@@ -2790,6 +2990,7 @@
 						tic_stats: {
 							"sakuratinker:cooldown": 2.0f
 							"sakuratinker:energy_storage": 5000.0f
+							"sakuratinker:penetration": 1.0f
 							"sakuratinker:range": 5.0f
 							"tconstruct:attack_damage": 2.0475f
 							"tconstruct:attack_speed": 1.21f
@@ -4875,7 +5076,11 @@
 		}
 		{
 			dependencies: ["22B34E373DB9DA8E"]
-			description: ["强化后对对应生物的伤害提高5%，  你应该不会用村民克星砍村民，  对吧？"]
+			description: [
+				"强化后对对应生物的伤害提高5%，  你应该不会用村民克星砍村民， 对吧？"
+				""
+				"不过灾厄村民也是村民，所以用青金石强化的话，这部分加成也有效"
+			]
 			hide_dependency_lines: true
 			id: "4EB2D1F36B589102"
 			rewards: [{
@@ -4998,14 +5203,14 @@
 				}
 				{
 					count: 8L
-					id: "4450FA36B9F5A546"
-					item: "chemlib:uranium_ingot"
+					id: "697DBA4368642733"
+					item: "alexscaves:radon_bottle"
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "697DBA4368642733"
-					item: "alexscaves:radon_bottle"
+					id: "0EBFEB4F08184F97"
+					item: { Count: 8, id: "alexscaves:uranium" }
 					type: "item"
 				}
 			]
@@ -5834,13 +6039,14 @@
 					type: "item"
 				}
 				{
-					id: "14407B98BCA74BBF"
-					item: "twilightforest:ironwood_block"
+					id: "7612DC150461776C"
+					item: "tconstruct:smeltery_controller"
 					type: "item"
 				}
 				{
-					id: "7612DC150461776C"
-					item: "tconstruct:smeltery_controller"
+					count: 2L
+					id: "372B68CC28053F0D"
+					item: { Count: 2, id: "minecraft:lava_bucket" }
 					type: "item"
 				}
 			]
@@ -5856,7 +6062,7 @@
 			id: "5AA6E13736F20265"
 			tasks: [
 				{
-					count: 2L
+					count: 4L
 					id: "48E6A8FB92D4F469"
 					item: "twilightforest:torchberries"
 					type: "item"
@@ -6134,6 +6340,8 @@
 				"还可以在多方块中量产合成"
 				""
 				"通过浇筑余烬黏液在帕秋莉部件上，可以得到材料——黏液帕秋莉，材料词条的总数不变（从2+1变成了1+1+1，多了一个黏液材料相关的）"
+				" "
+				" (帕秋莉：。･ﾟ･(つд`ﾟ)･ﾟ･史莱姆们不要靠近我啊)"
 			]
 			id: "2E4044218993ABE4"
 			tasks: [{
@@ -6344,6 +6552,126 @@
 			title: "法术抑制"
 			x: 28.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["1603192DC135DC21"]
+			id: "21462E41DA8AF1F4"
+			tasks: [{
+				id: "5FA3795720E603D9"
+				item: "sakuratinker:molten_fire_dragon_blood_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1603192DC135DC21"]
+			id: "42C1C5450B77F72C"
+			tasks: [{
+				id: "219205F7AA23B27A"
+				item: "sakuratinker:molten_ice_dragon_blood_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1603192DC135DC21"]
+			id: "2E0A72CF291C9F49"
+			tasks: [{
+				id: "167E5C62E9B26030"
+				item: "sakuratinker:molten_lightning_dragon_blood_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			description: [
+				"如果要用匠魂的方法制作龙钢锭，首先需要用玻璃瓶右键收集龙尸体上的龙血，其次将其合成龙血桶就可以直接放入匠魂炉中了"
+				""
+				"或者，也可以用离心机的方法分离出液体"
+			]
+			id: "1603192DC135DC21"
+			tasks: [{
+				id: "3CAE2F37C0F7F7A6"
+				type: "checkmark"
+			}]
+			title: "龙血"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"小伞：这里以龙炎锻炉为例，讲一下如何搭建这种特殊的锻炉，龙霜和龙霆的原理类似"
+				""
+				"首先准备好这些方块，然后将其按照相应的样式摆放出来"
+				""
+				"这种锻炉能够冶炼得到龙钢锭，需要相应龙血和铁锭作为原材料。另外对应种类的锻炉都需要对应的龙（野生的也行，家养的更好）和相应龙血，如果不匹配的话无法正常运作"
+				""
+				"例如，龙炎钢锭需要火龙+龙炎锻炉+火龙血，&c如果组合错误，会导致材料变成灰烬&r"
+			]
+			icon: "iceandfire:dragonforge_fire_core_disabled"
+			id: "5CFB22CB92930169"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "48DBD491D17B263B"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					id: "674A054BCB275E99"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "7EF3D1598E5EA131"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "241268DE448D9A85"
+					item: { Count: 17, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+			]
+			title: "龙钢锻炉"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "115FEAECE8762317"
+			tasks: [{
+				id: "623F042DF4E36FB8"
+				title: "第一层"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 13.25d
+		}
+		{
+			id: "6BDF2BB40A6B934A"
+			tasks: [{
+				id: "5BE7F080182A87C0"
+				title: "第二层"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 13.25d
+		}
+		{
+			id: "4B8909CA8D242353"
+			tasks: [{
+				id: "14036AA011F4D6A6"
+				title: "第三层"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 13.25d
 		}
 	]
 	title: "小伞铁匠铺(匠魂)"

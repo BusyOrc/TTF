@@ -197,6 +197,7 @@ event.add('tconstruct:modifiable/bonus_slots',[
     'tinkers_things:twinblade',
     "tinkerscalibration:cutlass"
 ])
+//event.add("create:sandpaper",'advanced_ae:quantum_alloy_plate')
 
 //BOP wood
 event.add("forge:stripped_logs",['biomesoplenty:stripped_pine_wood',
@@ -212,8 +213,6 @@ event.add('thermal:crafting/casts/ingot', ['tconstruct:ingot_cast', 'thermal:chi
 event.add('tconstruct:casts/multi_use', 'thermal:chiller_ingot_cast')
 event.add('tconstruct:casts/multi_use/ingot', 'thermal:chiller_ingot_cast')
 event.add('tconstruct:patterns/reusable', 'thermal:chiller_ingot_cast')
-
-event.add('create:sandpaper', 'chemlib:polyvinyl_chloride_plate')
 
 event.add('forge:fished_treasure_chest',['lavafishing:prometheus_bounty','aquaculture:neptunes_bounty'])
 

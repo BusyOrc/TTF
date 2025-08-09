@@ -21,7 +21,7 @@ earlyWindowSkipGLVersions = []
 #Whether to log a help message on first attempt, to aid troubleshooting. This setting should automatically disable itself after a successful launch
 earlyWindowLogHelpMessage = false
 #Max threads for early initialization parallelism,  -1 is based on processor count
-maxThreads = -1
+maxThreads = 1
 #Squir?
 earlyWindowSquir = false
 #Whether to show CPU usage stats in early window

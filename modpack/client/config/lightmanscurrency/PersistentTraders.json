@@ -243,39 +243,6 @@
           }
         },
         {
-          "TradeType": "BARTER",
-          "SellItem": {
-            "ID": "chemlib:epinephrine_bucket",
-            "Count": 1
-          },
-          "BarterItem": {
-            "ID": "cataclysm:koboleton_bone",
-            "Count": 1
-          }
-        },
-        {
-          "TradeType": "BARTER",
-          "SellItem": {
-            "ID": "alchemistry:fission_core",
-            "Count": 1
-          },
-          "BarterItem": {
-            "ID": "cataclysm:infernal_forge",
-            "Count": 1
-          }
-        },
-        {
-          "TradeType": "BARTER",
-          "SellItem": {
-            "ID": "alchemistry:fusion_core",
-            "Count": 1
-          },
-          "BarterItem": {
-            "ID": "cataclysm:gauntlet_of_guard",
-            "Count": 1
-          }
-        },
-        {
           "TradeType": "SALE",
           "SellItem": {
             "ID": "minecraft:redstone_block",
@@ -371,7 +338,7 @@
         {
           "TradeType": "BARTER",
           "SellItem": {
-            "ID": "chemlib:strontium_chloride_dust",
+            "ID": "ae2:singularity",
             "Count": 4
           },
           "BarterItem": {
@@ -382,8 +349,8 @@
         {
           "TradeType": "BARTER",
           "SellItem": {
-            "ID": "chemlib:rubidium_carbonate_dust",
-            "Count": 8
+            "ID": "minecraft:honey_block",
+            "Count": 2
           },
           "BarterItem": {
             "ID": "kubejs:greatrune_forgery_fluid_bucket",
@@ -986,6 +953,171 @@
               {
                 "Coin": "lightmanscurrency:coin_emerald",
                 "Amount": 1
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "rumiya",
+      "Name": "露米娅的怪肉回收计划",
+      "OwnerName": "露米娅",
+      "Trades": [
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:flesh_dumplings",
+            "Count": 2
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:canned_flesh",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 3
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:flesh_stew",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 5
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:flesh_feast",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 4
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:flesh_chocolate_mousse",
+            "Count": 4
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:flesh_roll",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 4
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:bloody_flesh",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 4
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:scarlet_devil_cake",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 2
+              }
+            ],
+            "Chain": "main",
+            "type": "lightmanscurrency:coins"
+          }
+        },
+        {
+          "TradeType": "PURCHASE",
+          "SellItem": {
+            "ID": "youkaishomecoming:red_velvet_cake",
+            "Count": 1
+          },
+          "Price": {
+            "Value": [
+              {
+                "Coin": "lightmanscurrency:coin_emerald",
+                "Amount": 1
+              },
+              {
+                "Coin": "lightmanscurrency:coin_gold",
+                "Amount": 5
               }
             ],
             "Chain": "main",

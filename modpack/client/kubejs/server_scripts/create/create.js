@@ -1,22 +1,18 @@
 ServerEvents.recipes(event => {
-
-event.recipes.create.milling(['thermal:niter','chemlib:carbonate_dust','2x chemlib:phosphate_dust'], 'biomesoplenty:dried_salt')
-event.recipes.create.crushing(['thermal:niter','2x chemlib:carbonate_dust','3x chemlib:phosphate_dust'], 'biomesoplenty:dried_salt')
-
 event.recipes.create.haunting('minecraft:rotten_flesh','#forge:foods/meat/raw')
+event.recipes.create.haunting('ltc2:solid_underground_oil_block','farmersdelight:organic_compost')
 event.recipes.create.splashing(['minecraft:blaze_powder',Item.of('minecraft:blaze_powder').withChance(0.3)],'biomesoplenty:burning_blossom')
-event.recipes.create.filling('alexscaves:radon_bottle',[Fluid.of('chemlib:radon_fluid',250),'minecraft:glass_bottle'])
 event.recipes.create.filling('irons_spellbooks:blood_vial',[Fluid.of("biomesoplenty:blood",250),'minecraft:glass_bottle'])
 event.recipes.create.filling('irons_spellbooks:blood_vial',[Fluid.of("youkaishomecoming:blood",250),'minecraft:glass_bottle'])
 event.recipes.create.filling('irons_spellbooks:arcane_essence',[Fluid.of("starbunclemania:source_fluid",250),'minecraft:redstone'])
 event.recipes.create.filling('cataclysm:dying_ember',[Fluid.of('tconstruct:molten_cinderslime',360),'irons_spellbooks:cinder_essence'])
 
-event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose_quartz', 'chemlib:polyvinyl_chloride_plate']).keepHeldItem()
+event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose_quartz', 'advanced_ae:quantum_alloy_plate']).keepHeldItem()
 
 //event.recipes.create.filling('youkaishomecoming:blood_bottle',[Fluid.of('biomesoplenty:blood',250),'minecraft:glass_bottle'])
 
 
-event.recipes.create.mixing(Fluid.of('chemlib:sulfuric_acid_fluid', 50),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
+event.recipes.create.mixing(Fluid.of('starbunclemania:source_fluid', 150),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
 event.recipes.create.mixing("2x minecraft:netherrack",[Fluid.of("lava",50), "minecraft:cobblestone","create:cinder_flour"]).heated()
 
 event.custom(
@@ -143,24 +139,7 @@ event.custom(
       )
 
 
-        
-//alex洞穴
 
-        event.recipes.create.mechanical_crafting('minecraft:sniffer_egg', [
-
-          ' C D ',
-          'GBABG',
-          ' E F '
-        ], {
-A: 'alexscaves:pearl',
-B: '#alexscaves:radon_lamps',
-C: 'alexscaves:scarlet_neodymium_ingot',
-D: 'alexscaves:azure_neodymium_ingot',
-E: 'alexscaves:ancient_sapling',
-F: 'alexscaves:moth_ball',
-G: 'chemlib:uranium_dust'
-
-        })
 
     //种田
 event.recipes.create.mechanical_crafting('8x ae2:fluix_block', [
@@ -217,15 +196,11 @@ event.recipes.create.sequenced_assembly(
     event.recipes.createDeploying(IBM, [IBM, 'minecraft:totem_of_undying']),
     event.recipes.createDeploying(IBM, [IBM, 'minecraft:honey_block']),
     event.recipes.createDeploying(IBM, [IBM, '#minecraft:decorated_pot_sherds']),
-    event.recipes.createDeploying(IBM, [IBM, 'chemlib:polyvinyl_chloride_plate'])
+    event.recipes.createDeploying(IBM, [IBM, 'advanced_ae:quantum_alloy_plate'])
   
 ]).transitionalItem(IBM).loops(3)
 
 
-
-
-//岩浆
-event.recipes.create.mixing(Fluid.of("tconstruct:magma",1000),['chemlib:potassium_permanganate', 'chemlib:copper_nitrate', Fluid.of('chemlib:hydrogen_sulfide_fluid',500)]).heated()
 
 
 
@@ -249,7 +224,7 @@ event.recipes.create.haunting('minecraft:coal_block','#forge:storage_blocks/char
 //荆棘
 event.recipes.create.mixing(Fluid.of("biomesoplenty:blood", 500), [Fluid.of("minecraft:water",500),'biomesoplenty:bramble'])
 
-event.recipes.create.filling('irons_spellbooks:blank_rune', ['chemlib:actinium_plate', Fluid.of('kubejs:ancient_essence',180)])
+event.recipes.create.filling('irons_spellbooks:blank_rune', ['advanced_ae:quantum_alloy_plate', Fluid.of('kubejs:ancient_essence',180)])
 
 let ICM = 'kubejs:incomplete_creative_mechanism'
 event.recipes.create.sequenced_assembly(
@@ -259,7 +234,6 @@ event.recipes.create.sequenced_assembly(
     event.recipes.createDeploying(ICM, [ICM, 'irons_spellbooks:blank_rune']),
     event.recipes.createFilling(ICM, [ICM, Fluid.of('sakuratinker:molten_eezo',1000)]),
     event.recipes.createDeploying(ICM, [ICM, 'irons_spellbooks:upgrade_orb']),
-    event.recipes.createFilling(ICM, [ICM, Fluid.of('chemlib:epinephrine_fluid',1000)]),
     event.recipes.createDeploying(ICM, [ICM, 'hmag:endless_pearl']),
     event.recipes.createDeploying(ICM, [ICM, 'quark:diamond_heart'])
   

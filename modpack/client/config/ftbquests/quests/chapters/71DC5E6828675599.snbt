@@ -186,8 +186,8 @@
 		{
 			click: "#5ED06DB0B69685D7"
 			height: 1.0d
-			hover: ["聚氯乙烯片（不消耗）"]
-			image: "chemlib:item/polyvinyl_chloride_plate"
+			hover: ["不消耗"]
+			image: "advanced_ae:block/quantum_alloy_block"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.5d
@@ -1015,7 +1015,15 @@
 		}
 		{
 			dependencies: ["3A08C7AFC709D349"]
-			description: ["蒸汽引擎提供的应力可不是前期的水车风帆能比的，做一到两个满级的蒸汽引擎，几乎不会再缺应力了"]
+			description: [
+				"蒸汽引擎提供的应力可不是前期的水车风帆能比的，做一到两个满级的蒸汽引擎，几乎不会再缺应力了"
+				""
+				"对于普通燃烧来说，单个锅炉堆满效率需要3X3X4的流体储罐，也就是36个流体储罐，加上9个烈焰人燃烧室和9个蒸汽引擎"
+				""
+				"而对于超级燃烧来说，需要72个流体储罐（3X3X8）加上9个烈焰人燃烧室和18个蒸汽引擎"
+				""
+				"其中，具体有多少级的锅炉等级，就需要多少个蒸汽引擎才能完全输出产生的应力"
+			]
 			icon: "create:steam_engine"
 			id: "29401E5DFB054BF4"
 			rewards: [{
@@ -1050,8 +1058,9 @@
 				"2.右键烈焰人刷怪笼，但这种刷怪笼并不稳定，随时会消失"
 				"3.烈焰血浇筑"
 				""
-				""
 				"{ \"text\": \"更多液体燃料\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08AE04BA5F001F55\" } }"
+				""
+				"如果要给烈焰人燃烧室供应液体，直接输入即可"
 			]
 			id: "3A08C7AFC709D349"
 			rewards: [{
@@ -1516,7 +1525,11 @@
 		}
 		{
 			dependencies: ["11164DBB2F269C76"]
-			description: ["这种材料可以在无消耗的情况下生产磨制玫瑰石英，这样在大规模生产的时候就不需要大量砂纸了"]
+			description: [
+				"荷取：这种材料可以在无消耗的情况下生产磨制玫瑰石英，这样在大规模生产的时候就不需要大量砂纸了"
+				""
+				"但是无法手工磨制，只能用机械手，毕竟这可是金贵材料"
+			]
 			id: "5ED06DB0B69685D7"
 			rewards: [{
 				id: "192FDC2E4C1AED7A"
@@ -1524,8 +1537,8 @@
 				xp: 30
 			}]
 			tasks: [{
-				id: "03C3D0A74B8DE9E7"
-				item: "chemlib:polyvinyl_chloride_plate"
+				id: "1E142FAAEEC13162"
+				item: "advanced_ae:quantum_alloy_plate"
 				type: "item"
 			}]
 			x: 10.0d
@@ -1911,7 +1924,7 @@
 				"更大的图标代表可以超级燃烧的燃料"
 				"小图标代表只能普通燃烧"
 				""
-				"直接用管道将流体输入即可，无需其他步骤"
+				"&d直接用管道将流体输入即可&r，无需其他步骤"
 			]
 			hide_dependency_lines: true
 			icon: "create:fluid_pipe"
@@ -1928,31 +1941,6 @@
 		}
 		{
 			dependencies: ["08AE04BA5F001F55"]
-			id: "3D89AC09B67779C8"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "2C17EFEE9AC31242"
-				item: "chemlib:acetylene_bucket"
-				type: "item"
-			}]
-			x: 3.75d
-			y: 13.625d
-		}
-		{
-			dependencies: ["08AE04BA5F001F55"]
-			id: "28C1AAAFC09AC689"
-			shape: "diamond"
-			tasks: [{
-				id: "1F4D71D7733CA11A"
-				item: "chemlib:methane_bucket"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 12.25d
-		}
-		{
-			dependencies: ["08AE04BA5F001F55"]
 			id: "346A499A1C19F1B7"
 			shape: "diamond"
 			size: 1.5d
@@ -1963,18 +1951,6 @@
 			}]
 			x: 3.0d
 			y: 12.875d
-		}
-		{
-			dependencies: ["08AE04BA5F001F55"]
-			id: "0310F45F1445871A"
-			shape: "diamond"
-			tasks: [{
-				id: "11AB2C651BF051B8"
-				item: "chemlib:hydrogen_bucket"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 12.25d
 		}
 		{
 			dependencies: ["08AE04BA5F001F55"]
@@ -2055,6 +2031,18 @@
 			}]
 			x: -1.125d
 			y: 13.5d
+		}
+		{
+			dependencies: ["08AE04BA5F001F55"]
+			id: "02A1289F89F590AB"
+			shape: "diamond"
+			tasks: [{
+				id: "0CBD55A4A2D400E3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 13.75d
 		}
 	]
 	title: "河童居处(机械动力)"

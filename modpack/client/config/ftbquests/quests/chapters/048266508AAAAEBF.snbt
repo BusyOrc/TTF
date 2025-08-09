@@ -1143,6 +1143,17 @@
 			x: -4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["3950E7B1A0F2D1CB"]
+			id: "0BCAD22042CF66FB"
+			tasks: [{
+				id: "484E1D516834C718"
+				item: "touhou_little_maid_spell:spell_enhancement_core"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
 	]
 	title: "车万女仆"
 }

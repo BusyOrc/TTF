@@ -382,8 +382,8 @@
 				type: "item"
 			}]
 			title: "炼金锅"
-			x: 0.75d
-			y: 0.75d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["675426B2C88EB4C0"]
@@ -496,13 +496,12 @@
 				"{@pagebreak}"
 				"至于具体发生了什么事件才导致异变，书上写得也很模糊，可能还要再研究一下。"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			hide_text_until_complete: true
-			icon: "biomesoplenty:null_plant"
+			icon: "ars_nouveau:source_gem"
 			id: "6B346A99F56A4EE5"
 			shape: "none"
 			size: 1.4d
-			subtitle: "bug？并非BUG，其实是为了让你点击"
 			tasks: [{
 				id: "622CF82BCF57B57E"
 				type: "checkmark"
@@ -600,8 +599,8 @@
 			id: "7F3B5F89C3FBB1E6"
 			rewards: [{
 				count: 4
-				id: "5BE96EA45013F8A7"
-				item: "chemlib:strontium_chloride_dust"
+				id: "2F8DBDD45CF803E4"
+				item: "ae2:singularity"
 				type: "item"
 			}]
 			tasks: [{
@@ -616,12 +615,12 @@
 		{
 			can_repeat: true
 			dependencies: ["17B8018E470F9D14"]
-			description: ["帕秋莉：正常获取这些液体可能看起来很困难，实际上一点也不简单，需要树汁提取器+流体精炼机+输入输出的管道或者线缆共同配合才能完成。如果这方面遇到困难的话，或许可以试试这种新方法？"]
+			description: ["帕秋莉：正常获取大量蜂蜜可能看起来很困难，实际上一点也不简单，如果这方面遇到困难的话，或许可以试试这种新方法？"]
 			id: "01BC608A8986D7DB"
 			rewards: [{
-				count: 8
-				id: "76A6CB2EBAC21FF9"
-				item: "chemlib:rubidium_carbonate_dust"
+				count: 2
+				id: "66CFEFC11080ABC0"
+				item: "minecraft:honey_block"
 				type: "item"
 			}]
 			tasks: [{
@@ -770,18 +769,18 @@
 			subtitle: "普罗米修斯：兄弟传火吗？"
 			tasks: [
 				{
-					id: "7FC24B9992958A9D"
-					item: "chemlib:osmium_dust"
-					type: "item"
-				}
-				{
-					id: "7054B0204E6868A0"
-					item: "chemlib:platinum_dust"
-					type: "item"
-				}
-				{
 					id: "027C57BC0E1C2A49"
 					item: "lavafishing:promethium_ingot"
+					type: "item"
+				}
+				{
+					id: "2014AB323B9C69CF"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "00666A7D454C86AE"
+					item: "advanced_ae:quantum_alloy_plate"
 					type: "item"
 				}
 			]
@@ -1902,6 +1901,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6A9EDD324B318CB2"]
 			description: [
 				"是时候学习如何&a召唤使魔&r了"
 				""
@@ -1910,6 +1910,7 @@
 				"而且这些使魔都&c超~可爱&r！"
 				"小恶魔：“帕秋莉大人QAQ”"
 			]
+			hide_dependency_lines: true
 			icon: "ars_nouveau:ritual_animal_summon"
 			id: "029068998879B2F8"
 			shape: "diamond"
@@ -1958,6 +1959,7 @@
 			y: -5.25d
 		}
 		{
+			dependencies: ["029068998879B2F8"]
 			description: [
 				"给予野生星宝石兽&e金粒&r可以获得&a星宝石兽碎片&r。"
 				""
@@ -1967,6 +1969,7 @@
 				""
 				"&6要让星宝石兽向目标箱子放置物品，先对星宝石兽，再对目标容器使用支配之杖。要从容器中拿出物品，则是先对容器，再对星宝石兽使用支配之杖。&r"
 			]
+			hide_dependency_lines: true
 			id: "4819E9D168ABCE58"
 			shape: "diamond"
 			subtitle: "帮你运输物品"
@@ -3579,7 +3582,7 @@
 				type: "item"
 			}]
 			x: 6.25d
-			y: 0.25d
+			y: -3.25d
 		}
 		{
 			dependencies: ["516CC2BCAE3BCCDE"]
@@ -3597,7 +3600,7 @@
 				type: "item"
 			}]
 			x: 7.25d
-			y: 0.25d
+			y: -3.25d
 		}
 		{
 			dependencies: ["516CC2BCAE3BCCDE"]
@@ -4391,6 +4394,7 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
+						"sakuratinker:base_spell_damage": 5.0f
 						"sakuratinker:cast_time": 2.0f
 						"sakuratinker:spell_power": 0.0f
 						"sakuratinker:spell_reduce": 0.2f
@@ -4401,8 +4405,7 @@
 						"tconstruct:mining_speed": 6.0f
 					}
 					tic_volatile_data: {
-						abilities: 1
-						upgrades: 2
+						upgrades: 5
 					}
 				}
 			}
@@ -5164,7 +5167,7 @@
 					consume_items: true
 					count: 3L
 					id: "12A5E4F5D7245C04"
-					item: "arsdelight:mendosteen_tea"
+					item: "arsdelight:source_berry_tea"
 					type: "item"
 				}
 				{

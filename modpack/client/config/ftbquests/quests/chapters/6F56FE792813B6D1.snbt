@@ -2029,12 +2029,6 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "089C603402E1F237"
-					item: "chemlib:polyvinyl_chloride_plate"
-					type: "item"
-				}
-				{
 					count: 8
 					id: "4A2879DFCA9EBDBD"
 					item: "kubejs:youmus_dualswords"
@@ -2062,6 +2056,12 @@
 					count: 3
 					id: "05BEEF5643D4AE7F"
 					item: "thermalendergy:endergy_upgrade_3"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "64D7C27F43F9BAA4"
+					item: "advanced_ae:quantum_alloy_plate"
 					type: "item"
 				}
 			]

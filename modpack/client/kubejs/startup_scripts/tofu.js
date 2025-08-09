@@ -1,7 +1,4 @@
 StartupEvents.registry('item', event => {
-
-//event.modify('chemlib:lithium_ingot').texture('chemlib:textures/item/lithium_ingot')
-//event.create('kubejs:lithium_ingot').displayName("锂锭")
 event.create('kubejs:gap_tofu').displayName("隙间豆腐").rarity("epic").food(food => {
     food
       .hunger(9)

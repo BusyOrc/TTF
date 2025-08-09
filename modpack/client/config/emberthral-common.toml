@@ -1,0 +1,7 @@
+
+["Configurable Enchantment Conflict"]
+	#Format: 'minecraft:sharpness;minecraft:smite', that will make this two enchantments compatible.
+	alwaysCompatible = []
+	#Format: 'minecraft:sharpness;minecraft:unbreaking', that will make this two enchantments incompatible.
+	alwaysIncompatible = []
+

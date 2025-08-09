@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
           A: 'thermalendergy:prismalium_block',
           B: 'create:rose_quartz_lamp',
           R: 'create:blaze_cake_base',
-          S: 'chemlib:polyvinyl_chloride_plate'
+          S: 'minecraft:diamond'
         }
       )      
       

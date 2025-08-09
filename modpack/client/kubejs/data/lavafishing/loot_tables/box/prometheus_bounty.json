@@ -52,14 +52,14 @@
         },
         {
           "type": "item",
-          "name": "chemlib:osmium_dust",
-          "entryName": "osmium_dust",
+          "name": "minecraft:netherite_ingot",
+          "entryName": "netherite_ingot",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 10,
-                "max": 15
+                "min": 2,
+                "max": 8
               }
             }
           ],
@@ -67,14 +67,14 @@
         },
         {
           "type": "item",
-          "name": "chemlib:platinum_dust",
-          "entryName": "platinum_dust",
+          "name": "advanced_ae:quantum_alloy",
+          "entryName": "quantum_alloy",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 10,
-                "max": 15
+                "min": 2,
+                "max": 5
               }
             }
           ],

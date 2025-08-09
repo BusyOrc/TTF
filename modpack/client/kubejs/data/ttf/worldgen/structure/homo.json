@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:jigsaw",
+  "type": "integrated_api:generic_structure",
   "start_pool": "ttf:homo/homo",
   "size": 7,
   "biomes": "#forge:is_plains",

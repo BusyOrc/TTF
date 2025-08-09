@@ -9,13 +9,13 @@
 		{ count: 8, item: "minecraft:lapis_lazuli", weight: 2.0f }
 		{ item: "minecraft:diamond", weight: 0.5f }
 		{ count: 6, item: "minecraft:raw_copper", weight: 2.0f }
-		{ count: 8, item: "minecraft:coal", weight: 2.0f }
-		{ count: 6, item: "minecraft:emerald", weight: 0.5f }
-		{ count: 16, item: "minecraft:redstone", weight: 2.0f }
-		{ count: 4, item: "thermal:raw_tin" }
+		{ count: 8, item: "minecraft:coal", weight: 1.5f }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 6, item: "thermal:raw_tin", weight: 2.0f }
 		{ count: 6, item: "create:raw_zinc", weight: 2.0f }
 		{ count: 4, item: "thermal:raw_lead" }
 		{ count: 4, item: "thermal:raw_silver" }
+		{ count: 6, item: "thermal:raw_nickel", weight: 2.0f }
 	]
 	title: "Metal"
 }

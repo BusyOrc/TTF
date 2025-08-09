@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "chemlib:uranium_dust"
+              "name": "alexscaves:uranium"
             }
           ]
         }

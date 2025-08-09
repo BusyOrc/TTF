@@ -11135,13 +11135,13 @@
 			dependencies: ["7B5EEA98731FDCFB"]
 			description: [
 				"{ \"text\": \"东风谷早苗：恋恋经常在地狱出没，貌似都玩出都市传说了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E02A2139976EF1\" } }"
-				"但是如果你在的位置是在基岩层上方，恋恋会直接出来跟你玩弹幕战哦"
+				"但是如果你在的位置是在基岩层上方，成功挡下攻击以后恋恋会直接出来跟你玩弹幕战哦"
 				""
 				"古明地恋的血量为200点。"
 				""
 				"&e使用弹幕击败会掉落符卡 &a反应「妖怪测谎仪」&r&f"
 				""
-				"&n如果只是想获得帽子，并不需要去基岩层&r，只需要在下界保持半妖怪化状态格挡3次恋恋的攻击即可。"
+				"&n如果只是想获得帽子，并不需要去基岩层&r，只需要&a在下界保持半妖怪化状态&r格挡3次恋恋的攻击即可，并且必须完整挡下3次攻击才算成功。"
 				"不过要注意的是，恋恋能造成90点伤害，使用的&d匠魂盾牌格挡值需要大于90点&r，或者使用原版盾牌"
 			]
 			icon: {
@@ -11152,6 +11152,11 @@
 				}
 			}
 			id: "758895A0180F00C2"
+			rewards: [{
+				id: "0128A70E7B330B1D"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "我现在在你的背后！"
 			tasks: [{
 				id: "77522DEB3A6AAF79"
@@ -11206,6 +11211,11 @@
 				}
 			}
 			id: "004DEB78A95B1143"
+			rewards: [{
+				id: "1D71DB3A7B396EA7"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "諏訪大舞.mp4"
 			tasks: [{
 				id: "52A05758752FFEC1"
@@ -11249,6 +11259,11 @@
 				}
 			}
 			id: "16A93ABEA9614354"
+			rewards: [{
+				id: "751A8C90316BB020"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "区区十万巫女"
 			tasks: [{
 				id: "694F6AD819D2EC99"
@@ -11274,6 +11289,11 @@
 			]
 			icon: "touhou_little_maid:wireless_io"
 			id: "684CA2496066BF67"
+			rewards: [{
+				id: "5AAF629BD3C52FF9"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "你怎么是用车万女仆的模型啊（悲）"
 			tasks: [{
 				id: "0AA8D8A5DF6E7DA9"
@@ -11344,6 +11364,11 @@
 			]
 			icon: "youkaishomecoming:scarlet_devil_cake"
 			id: "6FE3C86EA345EB65"
+			rewards: [{
+				id: "2333E778F73E1943"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "别去，她弹幕很多"
 			tasks: [{
 				id: "4A16194FE7B4F0BC"

@@ -1,54 +1,5 @@
 ServerEvents.recipes(event => {
 
-//蛙鸣灯
-    event.custom(
-        {
-            "type": "tconstruct:casting_basin",
-            "cast": {
-              "item": "create:brass_casing"
-            },
-            "cast_consumed": true,
-            "cooling_time": 360,
-            "fluid": {
-              "amount": 500,
-              "fluid": "chemlib:neon_fluid"
-            },
-            "result": "minecraft:ochre_froglight"
-          }
-    )
-
-    event.custom(
-        {
-            "type": "tconstruct:casting_basin",
-            "cast": {
-              "item": "create:brass_casing"
-            },
-            "cast_consumed": true,
-            "cooling_time": 360,
-            "fluid": {
-              "amount": 500,
-              "fluid": "chemlib:argon_fluid"
-            },
-            "result": "minecraft:verdant_froglight"
-          }
-    )
-
-    event.custom(
-        {
-            "type": "tconstruct:casting_basin",
-            "cast": {
-              "item": "create:brass_casing"
-            },
-            "cast_consumed": true,
-            "cooling_time": 360,
-            "fluid": {
-              "amount": 500,
-              "fluid": "chemlib:krypton_fluid"
-            },
-            "result": "minecraft:pearlescent_froglight"
-          }
-    )
-
     //湿海绵
     event.custom(
         {

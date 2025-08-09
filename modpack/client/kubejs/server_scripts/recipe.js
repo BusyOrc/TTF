@@ -108,62 +108,6 @@ ServerEvents.recipes(event => {
         ]
       )
 
-      event.remove([{id:'alchemistry:reactor_input'}, {id:'alchemistry:reactor_output'}, {id:'alchemistry:fusion_chamber_controller'}, {id:'alchemistry:fission_chamber_controller'}])
-      event.shaped(
-        'alchemistry:reactor_input', 
-        [
-          ' B ',
-          ' A ', 
-          ' B '
-        ],
-        {
-          A: 'alchemistry:reactor_casing',
-          B: 'create:brass_funnel'
-        }
-      )
-
-      event.shaped(
-        'alchemistry:reactor_output', 
-        [
-          ' B ',
-          ' A ', 
-          ' B '
-        ],
-        {
-          A: 'alchemistry:reactor_casing',
-          B: 'create:portable_storage_interface'
-        }
-      )
-
-      event.shaped(
-        'alchemistry:fusion_chamber_controller', 
-        [
-          'ABA',
-          'CDE', 
-          'ABA'
-        ],
-        {
-          A: '#forge:ingots/dragon_steel',
-          B: 'create:portable_storage_interface',
-          C:'#thermal:glass/hardened',
-          D:'cataclysm:witherite_ingot',
-          E:'ae2:sky_dust'
-        }
-      )
-
-      event.shaped(
-        'alchemistry:fission_chamber_controller', 
-        [
-          'ABA',
-          'ACA', 
-          'ABA'
-        ],
-        {
-          A: 'twilightforest:ironwood_ingot',
-          B: 'quark:soul_bead',
-          C: 'create:precision_mechanism'
-        }
-      )
 
 
       event.replaceOutput({input: 'minecraft:lodestone'}, 
@@ -173,99 +117,13 @@ ServerEvents.recipes(event => {
       event.replaceInput({output: 'irons_spellbooks:alchemist_cauldron'}, 
           Ingredient.of('minecraft:iron_ingot'), 
           Ingredient.of('#forge:ingots/lead'))
-    
-      event.replaceInput({output: 'alchemistry:reactor_energy'}, 
-            Ingredient.of('minecraft:redstone'), 
-            Ingredient.of('create:electron_tube'))
       
       event.replaceInput({output: 'minecraft:fermented_spider_eye'}, 
               Ingredient.of('minecraft:brown_mushroom'), 
               Ingredient.of('#forge:bop_plants'))
 
 
-         
-
-      //雾化
-      event.shaped(
-        'alchemistry:atomizer', 
-        [
-          'ABA',
-          'CDC', 
-          'ABA'
-        ],
-        {
-          A: '#forge:ingots/tin',
-          B: 'create:mechanical_piston',
-          C:  'irons_spellbooks:alchemist_cauldron',
-          D: 'ae2:controller'
-        }
-      )
-
-      //化合
-      event.shaped(
-        'alchemistry:combiner', 
-        [
-          'ABA',
-          'CDC', 
-          'AEA'
-        ],
-        {
-          A: '#forge:ingots/brass',
-          B: 'ae2:crafting_unit',
-          C:  'irons_spellbooks:rare_ink',
-          D: 'ae2:controller',
-          E:'create:mechanical_piston'
-        }
-      )
-
-      //压缩,溶解，液化
-
-      event.shaped(
-        'alchemistry:compactor', 
-        [
-          'ABA',
-          'BCB', 
-          'DBD'
-        ],
-        {
-          A: '#forge:ingots/brass',
-          B: 'create:mechanical_piston',
-          C:  'ae2:controller',
-          D: '#forge:ingots/lead'
-        }
-      )
-
-      event.shaped(
-        'alchemistry:dissolver', 
-        [
-          'ABA',
-          'CDC', 
-          'AEA'
-        ],
-        {
-          A: '#forge:ingots/constantan',
-          B: 'create:fluid_valve',
-          C: 'irons_spellbooks:uncommon_ink',
-          D: 'ae2:controller',
-          E:'create_connected:brass_gearbox'
-        }
-      )
-
-      event.shaped(
-        'alchemistry:liquifier', 
-        [
-          'ABA',
-          'ADA', 
-          'ACA'
-        ],
-        {
-          A: '#forge:ingots/electrum',
-          B: 'create:fluid_valve',
-          C:  'create:fluid_tank',
-          D: 'ae2:controller'
-        }
-      )
-
+        
 //暮色木板合成箱子
 event.shaped(
   'minecraft:chest', 
@@ -364,7 +222,7 @@ event.shaped('mbd2:tofu_input',
     E:'tofucraft:kinako'
   }
 )
-
+/*
 event.shaped('3x solarflux:mirror',
   [
     'AAA',
@@ -416,7 +274,7 @@ event.shaped('2x solarflux:sp_8',
     E:'solarflux:sp_tf.carminite'
   }
 )
-
+*/
 event.shaped('kubejs:flandre',
   [
     'ABC',

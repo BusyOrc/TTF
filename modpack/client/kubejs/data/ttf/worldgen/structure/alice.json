@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:jigsaw",
+  "type": "integrated_api:generic_structure",
   "start_pool": "ttf:touhou_structures/alice",
   "size": 7,
   "biomes": "#minecraft:is_forest",

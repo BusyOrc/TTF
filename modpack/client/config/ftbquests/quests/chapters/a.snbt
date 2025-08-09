@@ -107,8 +107,8 @@
 			description: ["试试挖掘毒化洞穴里的矿物？"]
 			id: "1524CBA1420EFF0E"
 			tasks: [{
-				id: "63ABA55B977EC8B6"
-				item: "chemlib:uranium_dust"
+				id: "1EC4A67E5BA974FD"
+				item: "alexscaves:uranium"
 				type: "item"
 			}]
 			x: -10.5d

@@ -5,32 +5,14 @@
 	group: "398070A2413EA53F"
 	icon: "chemlib:hydrogen"
 	id: "33AB582D572DDE08"
-	images: [
-		{
-			height: 5.92d
-			image: "touhou_tinker_fantasy:textures/renko.png"
-			rotation: 0.0d
-			width: 9.48d
-			x: 3.0d
-			y: 3.5d
-		}
-		{
-			height: 4.0d
-			image: "alchemistry:block/fission_chamber_controller_on"
-			rotation: 0.0d
-			width: 4.0d
-			x: 9.25d
-			y: -4.5d
-		}
-		{
-			height: 4.0d
-			image: "alchemistry:block/fission_chamber_controller_standby"
-			rotation: 0.0d
-			width: 4.0d
-			x: 5.25d
-			y: -4.5d
-		}
-	]
+	images: [{
+		height: 5.92d
+		image: "touhou_tinker_fantasy:textures/renko.png"
+		rotation: 0.0d
+		width: 9.48d
+		x: 3.0d
+		y: 3.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -258,18 +240,11 @@
 			description: ["梅莉：需要用到的氯化锶刚才已经送你一份了，但是之后的只能自己想办法了"]
 			hide_until_deps_complete: false
 			id: "52A6C6E6114188AC"
-			rewards: [
-				{
-					id: "0305DB17F4606D53"
-					item: "chemlib:rubidium_carbonate_dust"
-					type: "item"
-				}
-				{
-					id: "274FB01CFF5B9EC2"
-					item: "thermal:lumium_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "274FB01CFF5B9EC2"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3179C12910A72540"
 				item: "kubejs:cloud_dust"
@@ -813,7 +788,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["感谢117458866249为整合包提供了新材料贴图，主要为豆腐世界矿脉产出的豆腐贴图"]
+			description: ["感谢117458866249为整合包提供了部分新材料贴图"]
 			icon: "kubejs:fantasy_tofu"
 			id: "278E8F7BD7680921"
 			shape: "rsquare"

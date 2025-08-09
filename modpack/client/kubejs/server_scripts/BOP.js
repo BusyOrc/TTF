@@ -6,8 +6,8 @@ ServerEvents.recipes(event => {
   event.recipes.create.crushing([Item.of('minecraft:gunpowder').withChance(0.7)], 'biomesoplenty:brimstone')
   event.recipes.create.crushing(['9x minecraft:gunpowder'], 'biomesoplenty:brimstone_fumarole')
 
-  event.recipes.create.crushing(['2x thermal:sulfur',Item.of('chemlib:sulfur_dust').withChance(0.7)], 'biomesoplenty:thermal_calcite')
-  event.recipes.create.crushing(['3x thermal:sulfur',Item.of('chemlib:sulfur_dust'), '4x chemlib:sulfur'], 'biomesoplenty:thermal_calcite_vent')
+  event.recipes.create.crushing(['2x thermal:sulfur',Item.of('thermal:sulfur_dust').withChance(0.7)], 'biomesoplenty:thermal_calcite')
+  event.recipes.create.crushing(['3x thermal:sulfur',Item.of('thermal:sulfur_dust'), '4x thermal:sulfur'], 'biomesoplenty:thermal_calcite_vent')
 
   event.recipes.create.cutting('biomesoplenty:porous_flesh', 'biomesoplenty:flesh')
   //event.recipes.create.filling('biomesoplenty:flesh',['minecraft:rotten_flesh',Fluid.of('forge:blood',500)])
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
 
   //event.recipes.create.mixing('4x youkaishomecoming:flesh',['4x youkaishomecoming:soy_sauce_bottle','biomesoplenty:porous_flesh'])
   event.recipes.create.mixing('4x youkaishomecoming:flesh',[Fluid.of('youkaishomecoming:soy_sauce',1000),'biomesoplenty:porous_flesh']) 
-  event.recipes.create.mixing(Fluid.of('youkaishomecoming:soy_sauce',1000),[Fluid.water(1000),'4x chemlib:cellulose']).heated() 
+  event.recipes.create.mixing(Fluid.of('youkaishomecoming:soy_sauce',1000),[Fluid.water(1000),'4x minecraft:black_dye']).heated() 
 
   event.recipes.create.crushing('minecraft:string', 'biomesoplenty:hanging_cobweb')
   event.recipes.create.crushing('minecraft:string', 'biomesoplenty:webbing')

@@ -610,6 +610,7 @@
 			dependencies: [
 				"13025B20518A9BD2"
 				"6389A50EEDE19A53"
+				"488EA4B256B51E0A"
 			]
 			description: [
 				"灵梦：最近我发现一些异变的妖怪似乎拿起了小伞做的匠魂武器，也不知道是如何做到的，但是在退治异变的时候我发现，这些妖怪拿的匠魂材料等级和&d灵视&r有关"
@@ -866,9 +867,11 @@
 			}]
 			title: "灵视"
 			x: 7.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
+			description: ["指南针搜索：homo"]
+			icon: "youkaishomecoming:blood_bottle"
 			id: "5A8BCD2E7EE4820A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -888,6 +891,8 @@
 			y: 2.0d
 		}
 		{
+			description: ["指南针搜索：alice"]
+			icon: "modulargolems:metal_golem_template"
 			id: "24F354B402511BB8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -905,6 +910,76 @@
 			}]
 			x: 11.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["13025B20518A9BD2"]
+			description: ["最近一段时间大结界不太稳定，魔力也因此暴动，所以有一些&a本来无法学习法术&r的怪物&c学会了法术&r，要多加小心。"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:blood_needles"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "488EA4B256B51E0A"
+			rewards: [{
+				id: "547F3FA44715452F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_mirror"
+					tag: {
+						"ars_nouveau:caster": {
+							current_slot: 0
+							flavor: ""
+							hidden_recipe: ""
+							is_hidden: 0b
+							spell_count: 1
+							spells: {
+								spell0: {
+									name: ""
+									recipe: {
+										part0: "ars_nouveau:glyph_self"
+										part1: "ars_nouveau:glyph_leap"
+										part2: "ars_nouveau:glyph_amplify"
+										size: 3
+									}
+									sound: {
+										pitch: 1.0f
+										soundTag: {
+											id: "ars_nouveau:fire_family"
+										}
+										volume: 1.0f
+									}
+									spellColor: {
+										b: 180
+										g: 25
+										r: 255
+										type: "ars_nouveau:constant"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "强者愈强"
+			tasks: [{
+				id: "4419EAC7B0B47187"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.5d
 		}
 	]
 	title: "初遇灵梦"

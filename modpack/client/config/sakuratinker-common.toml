@@ -134,5 +134,11 @@
 		#厄运人偶配置
 		["兼容配置".modifiers.jinx_doll]
 			#厄运人偶消除buff黑名单
-			debuffBlacklist = ["youkaishomecoming:youkaified"]
+			debuffBlacklist = ["youkaishomecoming:youkaified", "youkaishomecoming:fairy"]
+
+		#聚宝特性配置
+		["兼容配置".modifiers.treasure_modifier]
+			#每次生成战利品消耗的能量
+			#Range: 0.01 ~ 2.147483647E9
+			energy_cost = 50.0
 
