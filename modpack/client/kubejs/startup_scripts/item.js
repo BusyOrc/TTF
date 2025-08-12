@@ -19,7 +19,7 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:sakura').displayName("西行妖的花瓣").rarity("rare")
 	event.create('kubejs:koishi_hat').displayName("钢盔").rarity("rare")
 	event.create('kubejs:eye_in_mist').displayName("迷雾之眼").rarity("rare")
-	event.create('kubejs:wu_yu_ingot').displayName("雾雨锭").rarity("epic")
+	event.create('kubejs:wu_yu_ingot').displayName("雾於锭").rarity("epic")
 	event.create('kubejs:seija').displayName("天邪鬼锭").rarity("epic")
 
 	//event.create('kubejs:border_shard').displayName("博丽结界的碎片").rarity("rare")

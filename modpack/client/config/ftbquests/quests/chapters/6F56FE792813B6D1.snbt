@@ -741,6 +741,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "实际为伏特加+威士忌（确信）"
 			tasks: [{
 				id: "1EAB465ABB9FA843"
 				item: "youkaishomecoming:oolong_tea"
@@ -1081,6 +1082,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "老娘是最强的！ᗜˬᗜ"
 			tasks: [{
 				id: "060DCF5A2C7AAA41"
 				item: "youkaishomecoming:fairy_candy"
@@ -1279,6 +1281,8 @@
 			description: [
 				"某地灵殿之主的妹妹如此评价这道料理："
 				"&l&a“呸，难吃！”&r"
+				""
+				"&7为恋恋材料的原料之一"
 			]
 			hide_dependency_lines: true
 			id: "6FB9B9C6CEC4A23F"
@@ -2078,7 +2082,7 @@
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
-			description: ["魔理沙：你问我怎么看？我坐扫帚上面看。开个玩笑，总之这次我也没辙，唯一能告诉你的就是，之前我捡到了一些天上掉下来的东西，似乎是天子的，有一部分看起来很值钱的我给卖出去了。剩下的一部分东西嘛，如果你能帮忙做完88种特定食物我就送给你"]
+			description: ["魔理沙：你问我怎么看？我坐扫帚上面看。开个玩笑，总之这次我也没辙，唯一能告诉你的就是，之前我捡到了一些天上掉下来的东西，似乎是天子的，有一部分看起来很值钱的我给卖出去了。剩下的一部分东西嘛，如果你能帮忙做完106种特定食物我就送给你"]
 			id: "4B0A942C8D281519"
 			tasks: [{
 				id: "242BE76E7B662198"
@@ -2165,6 +2169,7 @@
 			dependencies: ["2397E7707E755DB6"]
 			hide_dependency_lines: true
 			id: "2345F60B2D9B1E2F"
+			subtitle: "好！很有文化底蕴！"
 			tasks: [{
 				id: "4BE14D4FBF0F82FA"
 				item: "youkaishomecoming:scholar_ginkgo"

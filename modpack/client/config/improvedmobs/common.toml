@@ -136,13 +136,13 @@
 	Sound = true
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.3
+	"Breaker Chance" = 0.0
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
 	#Cooldown for breaking blocks
 	#Range: > 0
-	"Breaker Cooldown" = 20
+	"Breaker Cooldown" = 800
 	#By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!).
 	"Ignore Harvest Check" = false
 	#Blocks will be restored after x ticks being broken. If set to 0 will never restore
@@ -153,14 +153,14 @@
 	"Idle Break" = false
 	#Chance a breaker mob to ignore line of sight
 	#Range: 0.0 ~ 1.0
-	"Breaker Sight Ignore" = 0.5
+	"Breaker Sight Ignore" = 0.0
 	#A modifier to the breaking speed
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Breaking Speed Base" = 1.0
 	#Addition to breaking speed modifier based on difficulty.
 	#Final modifier is base + addition * difficulty
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Breaking Speed Add" = 0.01
+	"Breaking Speed Add" = 0.0
 	#Chance for a mob to be able to steal items from inventory blocks
 	#Range: 0.0 ~ 1.0
 	"Stealer Chance" = 0.0
@@ -179,10 +179,10 @@
 	"Auto Target List" = []
 	#Difficulty at which mobs are able to break blocks
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Difficulty Break AI" = 100.0
+	"Difficulty Break AI" = 500.0
 	#Difficulty at which mobs are able to steal items
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Difficulty Steal AI" = 200.0
+	"Difficulty Steal AI" = 500.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
 	"Guardian Chance" = 0.0

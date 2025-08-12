@@ -7,6 +7,10 @@
       {
         "level": 1,
         "name": "sakuratinker:mortal_wound"
+      },
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:overrose"
       }
     ],
     "perStat": {
@@ -18,6 +22,10 @@
           {
             "level": 1,
             "name": "sakuratinker:blurred"
+          },
+          {
+            "level": 1,
+            "name": "touhoutinkermodifier:overrose"
           }
       ],
       "sakuratinker:charm":[

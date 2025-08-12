@@ -101,7 +101,7 @@ let aae=
 	   'advanced_ae:lava_immunity_card', 'advanced_ae:flight_card', 'advanced_ae:water_breathing_card', 'advanced_ae:auto_feeding_card',
 	    'advanced_ae:auto_stock_card', 'advanced_ae:magnet_card', 'advanced_ae:hp_buffer_card', 'advanced_ae:evasion_card',
 	 'advanced_ae:regeneration_card', 'advanced_ae:strength_card', 'advanced_ae:luck_card', 'advanced_ae:reach_card', 'advanced_ae:quantum_upgrade_base',
-	'functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4','iceandfire:dragonbone_bow','iceandfire:dragonbone_arrow',
+	'functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4','alexsmobs:dimensional_carver',"alexsmobs:transmutation_table",
 	'iceandfire:gold_pile','iceandfire:silver_pile','iceandfire:copper_pile','lightmanscurrency:coinblock_copper', 'lightmanscurrency:coinblock_iron',
 		 'lightmanscurrency:coinblock_gold','lightmanscurrency:coinblock_emerald', 'lightmanscurrency:coinblock_diamond', 'lightmanscurrency:coinblock_netherite',
 'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron','traveloptics:wand_of_final_light',

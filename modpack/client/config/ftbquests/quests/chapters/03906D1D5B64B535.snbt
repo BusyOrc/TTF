@@ -981,6 +981,36 @@
 			x: 7.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["6389A50EEDE19A53"]
+			description: ["灵梦：我从天人那里学会了一个特殊小技巧，给背包装上磁铁升级，卸货升级，ME接口连入ME网络中，此时只需要拿着背包对着ME接口潜行右键就能将背包内物品快速送入ME网络的存储中"]
+			icon: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			id: "6E6535D0BCCB380F"
+			rewards: [
+				{
+					id: "362C014244FF5FB4"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "2E241218178A60FC"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "6845110F0BF96698"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16509AC7A82929E8"
+				type: "checkmark"
+			}]
+			title: "特殊小技巧"
+			x: 7.5d
+			y: -3.25d
+		}
 	]
 	title: "初遇灵梦"
 }

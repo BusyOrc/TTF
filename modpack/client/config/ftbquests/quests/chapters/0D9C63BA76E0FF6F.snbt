@@ -56,7 +56,7 @@
 			description: [
 				"为了方便查看对话，这里的所有对话没有设置前置任务，但是&b提前查看对话可能会因为缺少上下文信息而无法理解部分剧情&r，或造成部分剧透的情况。建议在之后的任务中完成了相应任务，触发了对话以后再来这里回顾"
 				""
-				"部分剧情相关任务仍在制作中"
+				"&a部分剧情相关任务仍在制作中，可能并未出现在实际剧情里&r"
 			]
 			hide_dependent_lines: true
 			icon: "alexscaves:candy_cane"
@@ -75,6 +75,7 @@
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
 			description: ["给荷取材料，寻思出潜水艇以后触发"]
+			hide_until_deps_complete: true
 			icon: "alexscaves:submarine"
 			id: "5ECAA0A563F0AF71"
 			rewards: [{
@@ -96,6 +97,7 @@
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
 			description: ["深海的呼唤第一个任务"]
+			hide_until_deps_complete: true
 			icon: "minecraft:red_bed"
 			id: "740A8B75E44EA82C"
 			rewards: [{
@@ -117,6 +119,7 @@
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
 			description: ["深海的呼唤章节，给哆来咪金币，让探女给予祝福"]
+			hide_until_deps_complete: true
 			icon: "minecraft:milk_bucket"
 			id: "3FAECDD06FFC3A64"
 			rewards: [{

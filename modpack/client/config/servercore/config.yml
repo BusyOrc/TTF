@@ -88,17 +88,17 @@ mob-spawning:
   # It is recommended to allow them to spawn a bit over the regular mobcap as they would otherwise never get a chance to spawn.
   zombie-reinforcements:
     enforce-mobcap: false
-    additional-capacity: 32
+    additional-capacity: 16
 
   # Mobcap settings for zombified piglin spawning from nether portal random ticks.
   nether-portal-randomticks:
     enforce-mobcap: false
-    additional-capacity: 32
+    additional-capacity: 12
 
   # Mobcap settings for mobs spawned from monster spawners.
   monster-spawners:
     enforce-mobcap: false
-    additional-capacity: 32
+    additional-capacity: 24
 
   # A list of mob categories with their respective mobcap and spawn interval.
   # ► category = The vanilla spawn category.
@@ -106,7 +106,7 @@ mob-spawning:
   # ► spawn-interval = The interval between spawn attempts in ticks. Higher values mean less frequent spawn attempts.
   categories:
     - category: 'MONSTER'
-      mobcap: 70
+      mobcap: 36
       spawn-interval: 7
 
     - category: 'CREATURE'
@@ -114,7 +114,7 @@ mob-spawning:
       spawn-interval: 400
 
     - category: 'AMBIENT'
-      mobcap: 15
+      mobcap: 10
       spawn-interval: 5
 
     - category: 'AXOLOTLS'
@@ -130,7 +130,7 @@ mob-spawning:
       spawn-interval: 6
 
     - category: 'WATER_AMBIENT'
-      mobcap: 20
+      mobcap: 15
       spawn-interval: 6
 
 

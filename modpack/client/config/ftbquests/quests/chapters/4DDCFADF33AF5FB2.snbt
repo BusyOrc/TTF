@@ -180,23 +180,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2B92DBC507FF2E5A"]
-			id: "19A1F9EA790D23FB"
-			tasks: [{
-				id: "579F0F92F34E9B69"
-				item: {
-					Count: 1
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:cataclysm_ignis"
-					}
-				}
-				type: "item"
-			}]
-			x: 0.75d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"2B92DBC507FF2E5A"
 				"43A57055A0FE339D"

@@ -812,8 +812,6 @@
 				""
 				"[我建议多看看教程和思索，但是如果你真的愿意深入了解，&a还有很多需要学习的东西&r，比如说，各种"
 				"{ \"text\": \"具体的例子\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1175B445A5FD46FE\" } }"
-				""
-				"另外我听说有个很神秘的俱乐部，最好去看看怎么个事儿，或许对你有帮助"
 			]
 			hide_until_deps_complete: false
 			id: "4DF1B2E472B02830"
@@ -831,30 +829,6 @@
 			title: "7.12 AE毕业？"
 			x: 13.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4DF1B2E472B02830"]
-			description: [
-				"天子：做一个无线接收器，也许能找到一些线索。"
-				""
-				"不过无线接收器本身没有什么特别的作用，直接用来制作后续物品就行了。另外，这个无线接收器可是制作&b量子桥卡&r的重要材料"
-			]
-			hide_until_deps_complete: false
-			id: "15B593A356DB0432"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "49202A7A1458CFBC"
-				table_id: 6021782249763501993L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4E32EC6596240395"
-				item: "ae2:wireless_receiver"
-				type: "item"
-			}]
-			title: "7.13 无线接收器"
-			x: 17.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
@@ -1637,7 +1611,7 @@
 			description: [
 				"天子：光说不练假把式，你肯定也很好奇，这么复杂的一套技术，是如何解决更复杂问题的呢？本来正常的各种机器运作就已经很复杂了，还要学这么多东西，但是绝对不是南辕北辙，而是&b先苦后甜&r"
 				""
-				"天人有句古话，叫“兮实例者魏骏杰”，意思是说，要从实际的例子里学习"
+				"天人有句古话，叫“习实例者魏骏杰”，意思是说，要从实际的例子里学习"
 			]
 			hide_dependent_lines: true
 			icon: "ae2:sky_stone_brick"

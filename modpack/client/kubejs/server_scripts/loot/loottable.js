@@ -231,7 +231,7 @@ LootJS.modifiers((event) => {
         pool.addLoot("lightmanscurrency:coin_gold");
     })
 
-event.addLootTableModifier("youkaishomecoming:komeiji_koishi").killedByPlayer().pool((pool)=>{
+event.addLootTableModifier("youkaishomecoming:entities/komeiji_koishi").killedByPlayer().pool((pool)=>{
     pool.rolls(1);
     pool.addLoot('touhou_little_maid:favorability_tool_full')
 })

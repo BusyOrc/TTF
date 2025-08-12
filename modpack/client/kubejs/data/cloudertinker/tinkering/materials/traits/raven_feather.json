@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:bowstring": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:seektraces",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      },
+      {
+        "name": "cloudertinker:seektraces",
+        "level": 1
+      }
+    ],
+    "sakuratinker:fletching": [
+      {
+        "level": 1,
+        "name": "sakuratinker:feather"
+      },
+      {
+        "name": "cloudertinker:twilight",
+        "level": 1
+      }
+    ]
+  }
+}

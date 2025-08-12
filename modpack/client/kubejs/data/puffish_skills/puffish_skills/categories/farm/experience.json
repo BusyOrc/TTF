@@ -2,7 +2,7 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.35 + 12, 128)"
+			"expression": "min(level ^ 1.2 + 20, 96)"
 		}
 	},
 	"sources": [
@@ -59,11 +59,11 @@
 			  "experience": [
 				{
 				  "condition": "crops",
-				  "expression": "dropped_crops + (dropped_seeds * 0.5)"
+				  "expression": "dropped_crops + dropped_seeds"
 				},
 				{
 					"condition": "crops*tools",
-					"expression": "dropped_crops + (dropped_seeds * 0.5)"
+					"expression": "dropped_crops + dropped_seeds"
 				}
 
 			  ]

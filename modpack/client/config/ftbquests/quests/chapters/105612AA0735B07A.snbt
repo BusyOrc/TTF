@@ -6091,7 +6091,11 @@
 			y: -1.0d
 		}
 		{
-			description: ["小伞：有一些特殊的匠魂材料获得方法很特别，效果也和其他材料不太一样，值得专门介绍一下，如果要让我推荐哪些材料合适，我主要推荐这些"]
+			description: [
+				"小伞：有一些特殊的匠魂材料获得方法很特别，效果也和其他材料不太一样，值得专门介绍一下，如果要让我推荐哪些材料合适，我主要推荐这些"
+				""
+				"(部分材料贴图需要等美工再画一画才有，目前暂时用这些锭的临时贴图"
+			]
 			hide_dependent_lines: true
 			icon: "touhou_little_maid:favorability_tool_add"
 			id: "327CB47AE3CD98AF"
@@ -6310,6 +6314,16 @@
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"&a恋恋&r：帽子先生是我的好朋友！戴上它，来体验我的世界吧！"
+				""
+				"&d小⑤&r：制作恋恋慕斯并使用机械动力的搅拌盆&a超级加热&r可以获取。"
+				""
+				""
+				"{ \"text\": \"关于搅拌盆\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"30D18748B2636BFE\" } }"
+				""
+				"{ \"text\": \"关于搅拌盆的详细介绍\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C3C066BDD5B651D\" } }"
+			]
 			id: "7313576EBAF03142"
 			tasks: [{
 				id: "571B06B73702B9E4"
@@ -6382,6 +6396,13 @@
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
+			description: [
+				"若鹭姬：这是外界的力量，好像叫做什么珠泪哀歌什么的，"
+				""
+				"&9现在的我 已经战无不胜了！&r"
+				""
+				"可以透过多方块结构【水族馆】合成，也可以透过钓鱼获取（为宝藏稀有度）"
+			]
 			id: "1A90D5F04D8FA9E1"
 			tasks: [{
 				id: "0B2E15BFA4B8EF27"
@@ -6672,6 +6693,109 @@
 			}]
 			x: 13.5d
 			y: 13.25d
+		}
+		{
+			dependencies: ["0E0AFD0B60E301E6"]
+			description: [
+				"使用带有此词条的盾牌，成功在&a举起盾牌的0.5秒内受到攻击&r的话，可以对攻击你的目标施加禁锢与脆弱"
+				""
+				"带有脆弱的生物，受到的下一次攻击会大幅提高"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28E7A3E3444B9FC8"
+			rewards: [{
+				id: "2497413352FA6D9D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "盾反这块"
+			tasks: [
+				{
+					count: 3L
+					id: "40244197A6BD542F"
+					item: "kubejs:inu"
+					type: "item"
+				}
+				{
+					id: "73A86460C7D3AE86"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "656C731B3E61CA2B"
+					item: { Count: 8, id: "ars_nouveau:abjuration_essence" }
+					type: "item"
+				}
+			]
+			title: "应许之地"
+			x: 34.25d
+			y: -1.0d
+		}
+		{
+			description: ["这些材料是整合包创作者相关的特殊材料"]
+			icon: "minecraft:creeper_head"
+			id: "791698B22ADF0A92"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "64EE068A1A9B8DFD"
+				type: "checkmark"
+			}]
+			title: "创作者材料"
+			x: -13.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["791698B22ADF0A92"]
+			description: [
+				""
+				"{ \"text\": \"黑市情报\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"102B1F9CDBE84E06\" } }"
+			]
+			id: "73824D85E555C23B"
+			tasks: [{
+				id: "5F160B73FC4E89DA"
+				item: "kubejs:wu_yu_ingot"
+				type: "item"
+			}]
+			x: -14.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["791698B22ADF0A92"]
+			description: [
+				""
+				"{ \"text\": \"辣椒转化仪式\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59B0C56EA1B666FD\" } }"
+			]
+			id: "6B9E1CCB49DA4D79"
+			tasks: [{
+				id: "72AAC5E892CE7236"
+				item: "sakuratinker:south_star"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6B9E1CCB49DA4D79"
+				"73824D85E555C23B"
+			]
+			id: "4FD0A96A54356B8A"
+			tasks: [{
+				id: "03A506E709B7093B"
+				item: "kubejs:xy"
+				type: "item"
+			}]
+			x: -13.25d
+			y: -8.75d
 		}
 	]
 	title: "小伞铁匠铺(匠魂)"

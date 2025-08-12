@@ -148,7 +148,7 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier",event=>{
             else
             {
                   event.server.runCommandSilent(`/improvedmobs difficulty player ${id} add -80`)
-                  event.player.block.popItem('2x kubejs:kosuzu')
+                  event.player.block.popItem('3x kubejs:kosuzu')
                   event.player.setStatusMessage(Component.green(`成功兑换`))
                   event.player.mainHandItem.count-=1
                   event.player.offhandItem.count-=1
@@ -168,7 +168,7 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier",event=>{
             else
             {
                   event.server.runCommandSilent(`/improvedmobs difficulty player ${id} add -60`)
-                  event.player.block.popItem('immortalers_delight:golden_himekaido')
+                  event.player.block.popItem('3x immortalers_delight:golden_himekaido')
                   event.player.setStatusMessage(Component.green(`成功兑换`))
                   event.player.mainHandItem.count-=1
                   event.player.offhandItem.count-=1
@@ -218,7 +218,7 @@ BlockEvents.rightClicked("ars_nouveau:ritual_brazier",event=>{
       { item: 'fruitsdelight:hamimelon_seeds', chance: 0.2 },
       { item: 'farmersdelight:rice', chance: 0.6 },
       { item: 'farmersdelight:tomato_seeds', chance: 0.6 },
-      { item: 'immortalers_delight:himekaido_seed', chance: 0.05 } ]
+      { item: 'immortalers_delight:himekaido_seed', chance: 0.2 } ]
       let random = Math.random();
       let cumulativeChance = 0;
       if(event.item=='farmersdelight:straw_bale' )

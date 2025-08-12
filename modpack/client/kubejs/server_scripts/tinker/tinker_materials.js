@@ -232,10 +232,10 @@ event.custom(
           "item": "alexsmobs:soul_heart"
         },
         "cast_consumed": true,
-        "cooling_time": 40,
+        "cooling_time": 20,
         "fluid": {
-          "amount": 270,
-          "fluid": "tconstruct:molten_platinum"
+          "amount": 360,
+          "fluid": "tconstruct:molten_gold"
         },
         "result":"kubejs:komachis_scythe"
             
@@ -350,16 +350,16 @@ crtm(event,"kubejs:molten_seija","kubejs:seija","kubejs:seija","none","none",90,
 
 crtm(event,"kubejs:molten_devil","touhoutinkermodifier:devil","kubejs:devil","none","none",90,900,120)
 crtm(event,"kubejs:molten_ex_rumia","touhoutinkermodifier:ex_rumia","kubejs:ex_rumia","none","none",90,2700,120)
-crtm(event,"kubejs:molten_flandre","touhoutinkermodifier:flandre","kubejs:flandre","none","none",90,2800,120)
-crtm(event,"kubejs:molten_ice_warrior","touhoutinkermodifier:ice_warrior","kubejs:ice_warrior","none","none",90,1999,120)
+crtm(event,"kubejs:molten_flandre","touhoutinkermodifier:flandre","kubejs:flandre","none","none",90,3800,120)
+crtm(event,"kubejs:molten_ice_warrior","touhoutinkermodifier:ice_warrior","kubejs:ice_warrior","none","none",90,2999,120)
 //crtm(event,"kubejs:molten_inu","touhoutinkermodifier:inu","kubejs:inu","none","none",90,1800,120)
 crtm(event,"kubejs:molten_kosuzu","touhoutinkermodifier:kosuzu","kubejs:kosuzu","none","none",90,1480,120)
 crtm(event,"kubejs:molten_meiling","touhoutinkermodifier:meiling","kubejs:meiling","none","none",90,1800,120)
 crtm(event,"kubejs:molten_paru","touhoutinkermodifier:paru","kubejs:paru","none","none",90,980,120)
 crtm(event,"kubejs:molten_patch","touhoutinkermodifier:patch","kubejs:patch","none","none",90,1920,120)
-crtm(event,"kubejs:molten_remilia","touhoutinkermodifier:remilia","kubejs:remilia","none","none",90,2888,120)
+crtm(event,"kubejs:molten_remilia","touhoutinkermodifier:remilia","kubejs:remilia","none","none",90,3888,120)
 crtm(event,"kubejs:molten_rumia","touhoutinkermodifier:rumia","kubejs:rumia","none","none",90,1735,120)
-crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,1480,120)
+crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,2480,120)
 crtm(event,"kubejs:molten_sannyo","touhoutinkermodifier:sannyo","kubejs:sannyo","none","none",90,777,120)
 crtm(event,"kubejs:molten_wakasagihime","touhoutinkermodifier:wakasagihime","kubejs:wakasagihime","none","none",90,1285,120)
 

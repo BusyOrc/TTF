@@ -1231,7 +1231,7 @@
 				"复活方法：首先将对应的仪式方块放置在BOSS死亡后的基座旁边围成一圈特定形状，&b每种BOSS对应的仪式方块都不一样&r。其次&b潜行右键&r基座将&a特定蛋糕🎂&r放置到BOSS基座上，在放置完成后，直接右键基座即可启动召唤仪式。如果方块放置错误的情况下右键BOSS基座，则会产生一次爆炸。"
 				""
 				"{image:touhou_tinker_fantasy:textures/tfbr1.png width:150 height:135 align:center}"
-				"粉色羊毛仅为方便定位方块位置，实际摆放时只需要如图将8个方块围一圈，蛋糕放中间即可"
+				"&d粉色羊毛仅为方便定位方块位置，无实际作用&r，实际摆放时只需要如图将8个方块围一圈，蛋糕放中间即可"
 			]
 			hide_dependent_lines: true
 			icon: "twilightforest:kobold_spawn_egg"

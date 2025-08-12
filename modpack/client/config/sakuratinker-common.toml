@@ -44,7 +44,7 @@
 		["兼容配置"."工具配置"."Tinker Arrow"]
 			#箭矢伤害修正系数，最小为1.0
 			#Range: 1.0 ~ 2.147483647E9
-			enableTinkerBookATKBonus = 1.2
+			enableTinkerBookATKBonus = 2.4
 
 	["兼容配置".drop]
 

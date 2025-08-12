@@ -37,7 +37,7 @@
   "results": [
     {
       "item": "minecraft:nether_star",
-      "chance": 0.5
+      "chance": 0.75
     }
   ]
 }

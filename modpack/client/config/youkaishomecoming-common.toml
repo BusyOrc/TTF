@@ -75,10 +75,10 @@
 	danmakuMinPHPDamage = 0.02
 	#Minimum damage youkai danmaku will deal against player
 	#Range: 0.0 ~ 1.0
-	danmakuPlayerPHPDamage = 0.1
+	danmakuPlayerPHPDamage = 0.05
 	#When danmaku hits target, heal youkai health by percentage of max health
 	#Range: 0.0 ~ 1.0
-	danmakuHealOnHitTarget = 0.2
+	danmakuHealOnHitTarget = 0.05
 	#Player item cooldown for using danmaku
 	#Range: 5 ~ 1000
 	playerDanmakuCooldown = 8
@@ -108,10 +108,10 @@
 	grazeEffectiveness = 1.0
 	#Danmaku invulnerability and disabled time when you take a hit
 	#Range: 10 ~ 100
-	missInvulTime = 60
+	missInvulTime = 100
 	#Danmaku invulnerability and disabled time when you use a bomb
 	#Range: 10 ~ 100
-	bombInvulTime = 30
+	bombInvulTime = 100
 	#Maximum loss of power when you take a hit
 	#Range: 0.0 ~ 10.0
 	maxPowerLossOnMiss = 1.0
@@ -121,7 +121,7 @@
 	initialResource = 2
 	#Initial power when you initiate a danmaku battle
 	#Range: 0 ~ 10
-	initialPower = 1
+	initialPower = 4
 
 [rumia]
 	#If Rumia would spawn naturally around her nest if the first one goes too far. Does not affect structure spawn

@@ -18,9 +18,6 @@
 		cloneSlashesHpDamage = 0.05
 		#Default 0.4444
 		#Range: 0.1 ~ 3.0
-		voidRuneDamageMultiplierFromBase = 0.4444
-		#Default 0.4444
-		#Range: 0.1 ~ 3.0
 		spinCloneDamageMultiplierFromBase = 0.4444
 		#Default 0.03
 		#Range: 0.0 ~ 3.0
@@ -43,4 +40,7 @@
 		#Default 0.4444
 		#Range: 0.1 ~ 3.0
 		dropClonesDamageMultiplierFromBase = 0.4444
+		#Default 0.6667
+		#Range: 0.1 ~ 3.0
+		dimensionalSpikeDamageMultiplierFromBase = 0.6667
 

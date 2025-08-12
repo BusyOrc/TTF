@@ -10977,6 +10977,8 @@
 				"&e致敬原作：&f&b琪露诺&f的弹幕有着安定点。只需要站着即可"
 				"击败后获得2-3妖精冰晶"
 				""
+				"&7请注意，非弹幕的方式击杀任何妖精都有概率刷新琪露诺或是其他两位妖精。"
+				""
 				"&a妖精大家庭！"
 				"当你带有妖精化状态时，琪露诺会变为中立单位，且可以与其交易。"
 				"&e交易一览："
@@ -10993,11 +10995,21 @@
 			icon: "youkaishomecoming:fairy_ice_crystal"
 			id: "4F4A18D49CC088FD"
 			subtitle: "BAKA.mp3"
-			tasks: [{
-				id: "1169C7E3586F24F8"
-				title: "⑨"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1169C7E3586F24F8"
+					title: "⑨"
+					type: "checkmark"
+				}
+				{
+					id: "01CDE62DDC65599C"
+					observe_type: 0
+					timer: 0L
+					title: "观察⑨！"
+					to_observe: "youkaishomecoming:cirno"
+					type: "observation"
+				}
+			]
 			title: "琪露诺"
 			x: 10.0d
 			y: -4.0d
@@ -11038,11 +11050,21 @@
 			icon: "youkaishomecoming:raw_lamprey"
 			id: "2AECB5630D73A011"
 			subtitle: "小碎骨好吃捏"
-			tasks: [{
-				id: "4712EE3A31AE7045"
-				title: "米斯蒂娅·萝蕾拉"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4712EE3A31AE7045"
+					title: "米斯蒂娅·萝蕾拉"
+					type: "checkmark"
+				}
+				{
+					id: "6E153098389F36B5"
+					observe_type: 5
+					timer: 0L
+					title: "观察小碎骨！"
+					to_observe: "youkaishomecoming:mystia_lorelei"
+					type: "observation"
+				}
+			]
 			x: 10.0d
 			y: -3.0d
 		}
@@ -11058,16 +11080,26 @@
 				""
 				"战胜露米娅会&e掉落&f红色与黑色环玉弹幕，以及特殊的匠魂材料。"
 				""
-				"&7挑战须知：如果露米娅不在她的小屋附近会进入常驻脱战状态。"
+				"&7挑战须知：如果露米娅不在她的小屋附近会进入常驻脱战状态,并尝试走回小屋。"
 			]
 			icon: "youkaishomecoming:raw_flesh_feast"
 			id: "10FDE2AA25937334"
 			subtitle: "是~这样吗~"
-			tasks: [{
-				id: "030CF24B9B6F7C1D"
-				title: "宵暗的妖怪—露米娅"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "030CF24B9B6F7C1D"
+					title: "宵暗的妖怪—露米娅"
+					type: "checkmark"
+				}
+				{
+					id: "6BE145C0F17A5624"
+					observe_type: 5
+					timer: 0L
+					title: "观察露米娅！"
+					to_observe: "youkaishomecoming:rumia"
+					type: "observation"
+				}
+			]
 			title: "露米娅"
 			x: 10.0d
 			y: -2.0d
@@ -11089,7 +11121,7 @@
 				"但是如果你堂堂正正的使用弹幕击败了EX露米娅，那将额外掉落一个&e露米娅的发带&f"
 				""
 				""
-				"{ \"text\": \"你问我这发带有什么用？看这里！\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28C0A9E946A27387\" } }"
+				"{ \"text\": \"你问我这发带有什么用？看这里！\",\"color\":\"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"28C0A9E946A27387\" } }"
 			]
 			icon: {
 				Count: 1
@@ -11114,10 +11146,10 @@
 			description: [
 				"东风谷早苗：据说之前有妖怪专门拿着&e玻璃瓶&f跟&e小刀&f去屠杀村民，将村民的血液装进玻璃瓶里。"
 				""
-				"你问我结局？那当然是被灵梦光速退治了啊"
+				"你问我结局？那当然是被其他村民通报灵梦光速退治了啊"
 				""
 				"不过听说那个妖怪的家里还放着&e曼德拉根&f，据说这种植物酿造以后具有&d催眠&f的效果"
-				"&a如果村民都被这个效果催眠的话&f......"
+				"&7如果附近的村民都被这个效果催眠的话没法通报的话........."
 				""
 				"不过你如果是收集那些灾厄村民的血液的话灵梦倒是不会管你就是了。"
 			]
@@ -11134,12 +11166,13 @@
 		{
 			dependencies: ["7B5EEA98731FDCFB"]
 			description: [
-				"{ \"text\": \"东风谷早苗：恋恋经常在地狱出没，貌似都玩出都市传说了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E02A2139976EF1\" } }"
-				"但是如果你在的位置是在基岩层上方，成功挡下攻击以后恋恋会直接出来跟你玩弹幕战哦"
+				"{ \"text\": \"东风谷早苗：恋恋经常在地狱出没，貌似都玩出都市传说了\", \"color\":\"green\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E02A2139976EF1\" } }"
+				"但是如果你在的位置是在基岩层上方，在铃声后成功挡下攻击以后恋恋会直接出来跟你玩弹幕战哦"
 				""
 				"古明地恋的血量为200点。"
 				""
 				"&e使用弹幕击败会掉落符卡 &a反应「妖怪测谎仪」&r&f"
+				"击败会掉落好感度工具（可一次填满女仆好感度）"
 				""
 				"&n如果只是想获得帽子，并不需要去基岩层&r，只需要&a在下界保持半妖怪化状态&r格挡3次恋恋的攻击即可，并且必须完整挡下3次攻击才算成功。"
 				"不过要注意的是，恋恋能造成90点伤害，使用的&d匠魂盾牌格挡值需要大于90点&r，或者使用原版盾牌"
@@ -11158,11 +11191,21 @@
 				xp: 10
 			}]
 			subtitle: "我现在在你的背后！"
-			tasks: [{
-				id: "77522DEB3A6AAF79"
-				title: "514"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "77522DEB3A6AAF79"
+					title: "514"
+					type: "checkmark"
+				}
+				{
+					id: "6773DBDC2F01C967"
+					observe_type: 5
+					timer: 0L
+					title: "观察小石！"
+					to_observe: "youkaishomecoming:komeiji_koishi"
+					type: "observation"
+				}
+			]
 			title: "摩西摩西，我是玛丽小姐"
 			x: 10.0d
 			y: -1.0d
@@ -11181,11 +11224,21 @@
 			icon: "touhou_little_maid:broom"
 			id: "4142B5020210F137"
 			subtitle: "读书人的事情怎么能算是偷呢？"
-			tasks: [{
-				id: "4D27144AFB6ADA9B"
-				title: "弹幕就是火力DA✰ZE"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4D27144AFB6ADA9B"
+					title: "弹幕就是火力DA✰ZE"
+					type: "checkmark"
+				}
+				{
+					id: "0629C418530E7B83"
+					observe_type: 5
+					timer: 0L
+					title: "观察金发小女孩！"
+					to_observe: "youkaishomecoming:kirisame_marisa"
+					type: "observation"
+				}
+			]
 			title: "普通的魔法使 雾雨魔理沙"
 			x: 10.0d
 			y: 0.0d
@@ -11217,11 +11270,21 @@
 				xp: 10
 			}]
 			subtitle: "諏訪大舞.mp4"
-			tasks: [{
-				id: "52A05758752FFEC1"
-				title: "最可爱的巫女！"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "52A05758752FFEC1"
+					title: "最可爱的巫女！"
+					type: "checkmark"
+				}
+				{
+					id: "5B22BBBF0EA9CE54"
+					observe_type: 5
+					timer: 0L
+					title: "请好好地看着我！"
+					to_observe: "youkaishomecoming:kochiya_sanae"
+					type: "observation"
+				}
+			]
 			title: "奇迹的现人神 东风谷早苗"
 			x: 10.0d
 			y: 1.0d
@@ -11265,11 +11328,21 @@
 				xp: 10
 			}]
 			subtitle: "区区十万巫女"
-			tasks: [{
-				id: "694F6AD819D2EC99"
-				title: "赤色砂仁魔"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "694F6AD819D2EC99"
+					title: "赤色砂仁魔"
+					type: "checkmark"
+				}
+				{
+					id: "7611907F7013E753"
+					observe_type: 5
+					timer: 0L
+					title: "观察赤色鲨人魔！"
+					to_observe: "youkaishomecoming:shrine_maiden"
+					type: "observation"
+				}
+			]
 			title: "乐园的巫女 博丽灵梦"
 			x: 10.0d
 			y: 2.0d
@@ -11295,11 +11368,21 @@
 				xp: 10
 			}]
 			subtitle: "你怎么是用车万女仆的模型啊（悲）"
-			tasks: [{
-				id: "0AA8D8A5DF6E7DA9"
-				title: "紫老太ASFWQasf23rt1f"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "0AA8D8A5DF6E7DA9"
+					title: "紫老太ASFWQasf23rt1f"
+					type: "checkmark"
+				}
+				{
+					id: "59092431B36F9147"
+					observe_type: 0
+					timer: 0L
+					title: "观察隙间妖怪！"
+					to_observe: "youkaishomecoming:yukari"
+					type: "observation"
+				}
+			]
 			title: "神隐的主犯 八云紫"
 			x: 12.0d
 			y: 2.0d
@@ -11370,11 +11453,21 @@
 				xp: 10
 			}]
 			subtitle: "别去，她弹幕很多"
-			tasks: [{
-				id: "4A16194FE7B4F0BC"
-				title: "威  严  满  满"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4A16194FE7B4F0BC"
+					title: "威  严  满  满"
+					type: "checkmark"
+				}
+				{
+					id: "696F5B1B32BC8365"
+					observe_type: 0
+					timer: 0L
+					title: "观察威严！"
+					to_observe: "youkaishomecoming:remilia_scarlet"
+					type: "observation"
+				}
+			]
 			title: "永远鲜红的幼月 蕾米莉亚·斯卡蕾特"
 			x: 10.0d
 			y: 3.0d
@@ -11496,6 +11589,18 @@
 			]
 			x: 9.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["758895A0180F00C2"]
+			description: ["早苗：恋恋为什么能让别人无意识中就对她产生好感呢？也许这个道具就是秘密哦，击败恋恋以后给女仆试试吧"]
+			id: "376940D60861531F"
+			tasks: [{
+				id: "6896B6F5E96A0421"
+				item: "touhou_little_maid:favorability_tool_full"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
 		}
 	]
 	title: "守矢神社【关于弹幕战】"

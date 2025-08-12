@@ -46,7 +46,7 @@ EntityJSEvents.addGoalSelectors('youkaishomecoming:cirno', event => {
     event.arbitraryGoal(1, (e) => {
         return new WarlockAttackGoal(e, 0.5, 120,60,1) // Parameters: entity, movement speed modifier, cast interval
             .setSpells(
-                [Spell.of('touhoutinkermodifier:absolutezero'),Spell.of('touhoutinkermodifier:arcticstorm')], // Attack
+                [Spell.of('touhoutinkermodifier:absolutezero').setSpellQuality(0.09,0.19),Spell.of('touhoutinkermodifier:arcticstorm').setSpellQuality(0.09,0.19)], // Attack
                 [], // Defense
                 [], // Movement
                 [] // Support

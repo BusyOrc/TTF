@@ -585,6 +585,7 @@
 			y: 8.5d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -593,6 +594,7 @@
 			y: -2.0d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -601,6 +603,7 @@
 			y: -2.0d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -625,6 +628,7 @@
 			y: -4.0d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -633,6 +637,7 @@
 			y: -4.0d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -641,6 +646,7 @@
 			y: -4.0d
 		}
 		{
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			image: "create:item/wheat_flour"
 			rotation: 0.0d
@@ -649,7 +655,7 @@
 			y: -3.0d
 		}
 		{
-			click: "#"
+			click: "#67CFA387F0684C1C"
 			height: 1.0d
 			hover: ["未成品辣条"]
 			image: "ltc2:item/unprocessed_latiao"
@@ -1229,7 +1235,7 @@
 			description: [
 				"饕餮尤魔：在你做出所谓的辣金后，你还需要锻造模板才能做出装备"
 				"而辣金装备所需的锻造模板比较特殊，获取第一个需要一个下界合金的锻造模板"
-				"然后像下图一样在一格水池旁摆上一圈的&a任意的野生辣椒&f 如果没有的话需要携带剪刀去剪取野生生成的辣椒"
+				"然后像下图一样在一格水池旁摆上一圈的&a任意的野生辣椒&f 如果没有的话需要携带剪刀去剪取野生生成的辣椒或者用辣椒催生粉在草地/灵魂沙上催生得到野生辣椒"
 				""
 				"放好后将下界合金的锻造模板&a丢入&f水池中"
 				"{image:touhou_tinker_fantasy:textures/pepper.png width:175 height:100 align:center}"
@@ -1334,6 +1340,8 @@
 				"时间旅人的表盘：右键可以改变昼夜，有着120点耐久，可附魔经验修补。"
 				"可通过食用时间辣条获得"
 				"时间辣条只能透过辣条福袋Z获取"
+				""
+				"&7小道消息：听说红魔馆的女仆长似乎在自己的房间里头收藏着一份这种辣条？？"
 			]
 			hide_dependency_lines: true
 			id: "4C190281665C5C17"
@@ -1829,7 +1837,7 @@
 				"而与他们交易你会用到&a辣焱玉&r这种特殊的宝石。"
 				""
 				"而这种宝石只有两种获取方式，接下来要介绍的特殊方式就是其中一种：【辣椒转换仪式】。"
-				"&7注意，辣椒转换仪式是一次性的。"
+				"&7注意，辣椒转换仪式是一次性的，并且一次只能转化一个物品，不要想着放多个。"
 				""
 				"想要创造这种结构需要你在一格水的周围全部放下&a野生的辣椒植株&r"
 				"像是之前记录的这张图一样。"

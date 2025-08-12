@@ -194,13 +194,13 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "6B5CA3FC323F66FC"
-					item: "create_wizardry:arcane_casing"
+					id: "7A91901BD56D72C1"
+					item: "mbd2:mbd_gadgets"
 					type: "item"
 				}
 				{
-					id: "7A91901BD56D72C1"
-					item: "mbd2:mbd_gadgets"
+					id: "48319B3C3B51CA89"
+					item: "ars_nouveau:source_gem_block"
 					type: "item"
 				}
 			]

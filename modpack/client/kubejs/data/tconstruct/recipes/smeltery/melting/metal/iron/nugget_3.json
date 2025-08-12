@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:rail"
+    }
+  ],
+  "result": {
+    "amount": 5,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 1000,
+  "time": 960
+}

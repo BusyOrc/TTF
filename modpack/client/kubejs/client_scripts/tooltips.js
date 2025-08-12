@@ -176,4 +176,7 @@ event.addAdvanced('kubejs:seija', (item, advanced, text) => {
   event.addAdvanced('touhou_little_maid:favorability_tool_full', (item, advanced, text) => {
     text.add(Text.gold("可通过击败古明地恋获得"))
   })
+  event.addAdvanced('create:blaze_burner', (item, advanced, text) => {
+    text.add(Text.gold("可通过烈焰血浇筑获得"))
+  })
 })

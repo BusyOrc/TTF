@@ -434,6 +434,8 @@
 				""
 				"Youkai Nest:妖怪的窝（露米娅家）"
 				""
+				"Cirno_nest:琪露诺的家"
+				""
 				"&e灾变&r模组："
 				"Ancient Factory：远古工厂(先驱者老家）"
 				""
@@ -458,6 +460,16 @@
 				"Haunted Manor：闹鬼庄园/墓地（冰火传说模组）"
 				""
 				"Labyrinth：迷宫/蛇发女妖神庙（冰火传说模组）"
+				""
+				"&e东方匠魂传独有结构："
+				""
+				"alice:爱丽丝小屋"
+				""
+				"homo：红魔馆"
+				""
+				"fumo_overworld：主世界（幻想乡）的FUMO（无法决定角色）"
+				""
+				"fumo_nether：下界（旧地狱）的FUMO（无法决定角色）"
 			]
 			hide_text_until_complete: true
 			icon: "minecraft:book"
@@ -536,7 +548,11 @@
 		}
 		{
 			dependencies: ["7DE5EF85D3A7D56E"]
-			description: ["山城高岭：如果觉得交易不方便，也可以用现代新科技远程购物，但是别忘了，有部分交易还是需要到我这里来的"]
+			description: [
+				"山城高岭：如果觉得交易不方便，也可以用现代新科技远程购物，但是别忘了，有部分交易还是需要到我这里来的"
+				""
+				"另外，请一定要尽快做出交易终端哦，这里面可不止黑市的物品，还可以购买电力，甚至石油"
+			]
 			id: "57B217730F0E181C"
 			rewards: [{
 				id: "425DD34D795102AC"
@@ -771,6 +787,48 @@
 			}]
 			x: 0.0d
 			y: 5.75d
+		}
+		{
+			description: ["可自行制作，或在黑市中购买"]
+			id: "13B75B14EF91A348"
+			rewards: [{
+				id: "1EEF75780BAD7492"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6866CF71C630B369"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.75d
+		}
+		{
+			description: ["可自行制作，或在黑市中购买"]
+			id: "6D2C602B24020B7B"
+			rewards: [{
+				id: "35E94611BB1FADEB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37E24D8B5CEFDA68"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.75d
 		}
 	]
 	title: "山城高岭的黑市"

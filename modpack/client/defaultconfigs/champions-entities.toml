@@ -134,7 +134,7 @@
 	minTier = 3
 	maxTier = 5
 	presetAffixes = ["champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -215,7 +215,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:dampening", "champions:adaptable"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -255,7 +255,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:arctic", "champions:adaptable","champions:dampening"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -263,7 +263,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable","champions:dampening"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -271,7 +271,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable","champions:dampening", "champions:lively"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -312,7 +312,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -320,7 +320,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -328,7 +328,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable", "champions:dampening"]
-	affixList = ["champions:magnetic"]
+	affixList = ["champions:magnetic","champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -468,7 +468,7 @@
 	minTier = 2
 	maxTier = 3
 	presetAffixes = ["champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -476,7 +476,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -484,7 +484,7 @@
 	minTier = 2
 	maxTier = 5
 	presetAffixes = ["champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -492,7 +492,7 @@
 	minTier = 2
 	maxTier = 5
 	presetAffixes = ["champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -500,7 +500,7 @@
 	minTier = 3
 	maxTier = 5
 	presetAffixes = ["champions:adaptable"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -508,7 +508,7 @@
 	minTier = 2
 	maxTier = 5
 	presetAffixes = ["champions:adaptable", "champions:dampening"]
-	affixList = []
+	affixList = ["champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
