@@ -32,6 +32,12 @@
         "draw_speed": 0.17,
         "durability": 367,
         "velocity": 0.12
-      }
+      },
+      "sakuratinker:spell_cloth": {
+      "base_spell_damage": 12.3,
+      "cast_time": 0.123,
+      "spell_power": 0.5,
+      "spell_reduce": 0.4
+    }
     }
   }

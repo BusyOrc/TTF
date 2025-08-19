@@ -8,6 +8,9 @@
 	reflexOffsetNs = 0
 	#在日志中输出每帧等待时间，方便调试
 	reflexDebug = false
+	#Hard framerate cap (0 = disable)
+	#Range: 0 ~ 1000
+	maxFps = 0
 
 ["粒子优化 | particle Optimization"]
 	#启用粒子系统优化
@@ -39,24 +42,23 @@
 	lodParticleBlacklist = ["minecraft:portal", "minecraft:enchant"]
 
 ["高版本mc优化移植"]
-	enableSubStepCollision = true
 	fixPearlChunkLeak = true
 	fixProjectileInterpolation = true
 
 ["渲染优化 | Rendering Optimization"]
 	#Skip outline rendering when no glowing entities are in view
-	skipOutlineWhenNoGlowing = true
+	skipOutlineWhenNoGlowing = false
 	#减少渲染延迟，把「把最终画面从 MC 的离屏 FBO（MainTarget）拷贝到屏幕」这一步，由“画一个全屏三角形”改成了“一次 GPU 内部的 glBlitFramebuffer 指令”
 	fpsoo = true
 
 [chest_optimization]
 	#Enable chest rendering optimization
-	enableOptimization = true
+	enableOptimization = false
 	#Rendering mode
 	#Allowed Values: SIMPLE, VANILLA, SEMI_COMPLEX
 	renderMode = "SIMPLE"
 	#Optimize ender chests
-	optimizeEnderChests = true
+	optimizeEnderChests = false
 	#Optimize trapped chests
 	optimizeTrappedChests = false
 	#Max render distance in chunks
@@ -95,7 +97,7 @@
 ["路径追踪 | Path Tracing"]
 	#启用异步路径追踪进行剔除
 	#Enable async path tracing for culling
-	asyncTracing = true
+	asyncTracing = false
 	#路径追踪线程数 (1-8)
 	#Number of threads for path tracing (1-8)
 	#Range: 1 ~ 8
@@ -141,7 +143,7 @@
 [entity_optimization]
 	#优化实体碰撞检测
 	#Optimize entity collision detection
-	disableEntityCollisions = true
+	disableEntityCollisions = false
 
 	[entity_optimization."实体Tick优化 | Entity Tick Optimization"]
 		#启用实体tick优化
@@ -189,7 +191,7 @@
 		mergeDistance = 1.5
 		#在合并后的物品上显示堆叠数量
 		#Show stack count on merged items
-		showStackCount = true
+		showStackCount = false
 		#当物品堆叠达到最大时锁定，不再参与合并
 		#Lock stacks that have reached the maximum size to prevent further merging
 		lockMaxedStacks = true
@@ -207,7 +209,7 @@
 		#0: 禁用 1: 白名单模式 2: 黑名单模式
 		#0: Disabled, 1: Whitelist, 2: Blacklist
 		#Range: 0 ~ 2
-		listMode = 0
+		listMode = 2
 		#白名单/黑名单中的物品注册名列表
 		#Item registry names for whitelist/blacklist
 		itemList = []
@@ -228,7 +230,7 @@
 	cleanInterval = 600
 	#清理时触发垃圾回收
 	#Trigger garbage collection during cleanup
-	enableGC = false
+	enableGC = true
 
 #区块优化 | Chunk Optimization
 [chunk_optimization]
@@ -274,7 +276,7 @@
 [event_system]
 	#启用高性能异步事件功能
 	#Enable high-performance async event system
-	featureEnabled = true
+	featureEnabled = false
 	#不应异步处理的事件类列表（支持通配符）
 	#Event classes that should NOT be processed asynchronously (supports wildcards)
 	classBlacklist = ["net.minecraftforge.event.TickEvent", "net.minecraftforge.event.level.LevelTickEvent", "net.minecraftforge.event.entity.living.*"]

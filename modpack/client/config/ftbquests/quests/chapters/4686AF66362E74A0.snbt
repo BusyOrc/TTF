@@ -4370,15 +4370,7 @@
 						}
 						{
 							level: 4
-							name: "tconstruct:jagged"
-						}
-						{
-							level: 4
 							name: "tconstruct:lacerating"
-						}
-						{
-							level: 4
-							name: "tconstruct:pierce"
 						}
 						{
 							level: 1
@@ -4398,7 +4390,7 @@
 						"sakuratinker:cast_time": 2.0f
 						"sakuratinker:spell_power": 0.0f
 						"sakuratinker:spell_reduce": 0.2f
-						"tconstruct:attack_damage": 9.6f
+						"tconstruct:attack_damage": 7.2000003f
 						"tconstruct:attack_speed": 0.8f
 						"tconstruct:durability": 250.0f
 						"tconstruct:harvest_tier": "minecraft:diamond"

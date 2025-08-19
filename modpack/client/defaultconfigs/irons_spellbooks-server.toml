@@ -358,9 +358,9 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
-		CooldownInSeconds = 10.0
+		ManaCostMultiplier = 10
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 80
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:frostwave"]
@@ -633,9 +633,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
+		ManaCostMultiplier = 10
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 60
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:dragon_breath"]
@@ -910,9 +910,9 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 0.7
-		CooldownInSeconds = 8.0
+		ManaCostMultiplier = 10
+		SpellPowerMultiplier = 0.5
+		CooldownInSeconds = 40
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:acupuncture"]
@@ -920,8 +920,8 @@
 		School = "irons_spellbooks:blood"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 5.0
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 10
 		SpellPowerMultiplier = 0.1
 		CooldownInSeconds = 60.0
 		AllowCrafting = false

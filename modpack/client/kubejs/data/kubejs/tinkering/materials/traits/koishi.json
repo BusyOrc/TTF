@@ -2,11 +2,7 @@
     "default": [
       {
         "level": 1,
-        "name": "sakuratinker:clear_strike"
-      },
-      {
-        "level": 1,
-        "name": "sakuratinker:mortal_wound"
+        "name": "touhoutinkermodifier:missmary"
       },
       {
         "level": 1,
@@ -17,16 +13,30 @@
       "tconstruct:armor": [
           {
             "level": 1,
-            "name": "touhoutinkermodifier:unconscious"
+            "name": "touhoutinkermodifier:loveburiedembers"
           },
           {
             "level": 1,
-            "name": "sakuratinker:blurred"
+            "name": "touhoutinkermodifier:koishiseye"
           },
           {
             "level": 1,
             "name": "touhoutinkermodifier:overrose"
           }
+      ],
+      "tconstruct:ranged":[
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:superegoinhibition"
+      },
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:idliberation"
+      },
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:overrose"
+      }
       ],
       "sakuratinker:charm":[
         {

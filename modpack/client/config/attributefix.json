@@ -803,17 +803,6 @@
         "value": 10000
       }
     },
-    "footwork:spirit_cooldown_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:max_mana": {
       "enabled": false,
       "min": {
@@ -1042,7 +1031,7 @@
       },
       "max": {
         "default": 100,
-        "value": 0.85
+        "value": 50
       }
     },
     "nffgirls:nffgirls.water_aspect": {
@@ -1064,7 +1053,7 @@
       },
       "max": {
         "default": 100,
-        "value": 100
+        "value": 10
       }
     },
     "attributeslib:dodge_chance": {

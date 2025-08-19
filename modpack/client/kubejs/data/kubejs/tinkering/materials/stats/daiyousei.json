@@ -51,6 +51,12 @@
       },
       "tconstruct:plating_shield": {
         "durability": 520
-      }
+      },
+      "sakuratinker:spell_cloth": {
+      "base_spell_damage": 8.0,
+      "cast_time": 0.1,
+      "spell_power": 0.2,
+      "spell_reduce": 0.15
+    }
     }
   }

@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "sakuratinker:axle": {
+      "attack_interval": 20.0,
+      "time": 180.0,
+      "weight": 2.5
+    },
+    "sakuratinker:charm_chain": {
+      "armor": 0.1,
+      "arrow_damage": 0.15,
+      "damage": 0.15,
+      "health": 18,
+      "movement_speed": 0.4,
+      "toughness": 0.1
+    },
+    "sakuratinker:charm_core": {},
+    "sakuratinker:chord": {
+      "length": 6.0
+    },
+    "sakuratinker:energy_unit": {
+      "durability": 0.3,
+      "energy_storage": 50000
+    },
+    "sakuratinker:laser_medium": {
+      "cooldown": 0.6,
+      "penetration": 8,
+      "range": 15.0
+    },
+    "sakuratinker:phantom_core": {
+      "phantom_amount": 2.0,
+      "range": 16.0
+    },
+    "sakuratinker:spell_cloth": {
+      "base_spell_damage": 10.0,
+      "cast_time": 0.1,
+      "spell_power": 0.25,
+      "spell_reduce": 0.25
+    },
+    "sakuratinker:yoyo_ring": {
+      "max_collected": 1.0
+    }
+  }
+}

@@ -24,6 +24,12 @@
         "durability": 789,
         "velocity": 0.3
       },
-      "tconstruct:maille": {}
+      "tconstruct:maille": {},
+      "sakuratinker:spell_cloth": {
+      "base_spell_damage": 12.0,
+      "cast_time": 0.2,
+      "spell_power": 0.4,
+      "spell_reduce": 0.2
+    }
     }
   }

@@ -25,7 +25,13 @@ if(event.player.hasEffect("youkaishomecoming:unconscious") && event.block.hasTag
       'fruitsdelight:lemon_cookie', 'hmag:lemon', 'hmag:honeyed_lemon','hmag:lemon_pie',
        'youkaishomecoming:lemon_black_tea', 'youkaishomecoming:avgolemono',"mystias_izakaya:ning_meng"]
 
-
+  BlockEvents.rightClicked('#refurbished_furniture:storage', event => {
+if(event.player.offhandItem == 'supplementaries:soap'|| event.item=='supplementaries:soap')
+{
+  event.cancel()
+}
+  }
+)
 
 
 
@@ -180,3 +186,6 @@ EntityEvents.drops(event=>{
         event.cancel()
     }
 })
+
+
+
