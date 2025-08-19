@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3E17FFF47D9B99E2"
-	group: "70B4907D74D7EF03"
+	group: "2F6557FC41D866A7"
 	icon: "create:goggles"
 	id: "3E17FFF47D9B99E2"
 	images: [
@@ -14,8 +14,8 @@
 			image: "create:block/fan_side"
 			rotation: 0.0d
 			width: 1.5d
-			x: 2.9375d
-			y: -4.0625d
+			x: 3.3d
+			y: -3.8d
 		}
 		{
 			click: "#3D5B1E0E3DF4CEED"
@@ -25,8 +25,8 @@
 			order: -4
 			rotation: 0.0d
 			width: 14.0d
-			x: -24.75d
-			y: -8.75d
+			x: 19.3d
+			y: -16.8d
 		}
 		{
 			height: 18.0d
@@ -34,8 +34,8 @@
 			order: -5
 			rotation: 0.0d
 			width: 15.0d
-			x: -24.5d
-			y: -7.5d
+			x: 19.55d
+			y: -15.55d
 		}
 		{
 			click: "https://www.creativemechanicserver.com/"
@@ -47,8 +47,8 @@
 			image: "create:item/crafting_blueprint"
 			rotation: 0.0d
 			width: 5.0d
-			x: 8.59375d
-			y: 3.59375d
+			x: 7.7d
+			y: 5.0d
 		}
 		{
 			alpha: 200
@@ -56,40 +56,40 @@
 			image: "tconstruct:fluid/molten/blaze/still"
 			rotation: 0.0d
 			width: 4.0d
-			x: 12.6d
-			y: -3.05d
+			x: 10.8d
+			y: 0.7d
 		}
 		{
 			height: 1.0d
 			image: "create:block/cogwheel_axis"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.84375d
-			y: 9.78125d
+			x: 20.8d
+			y: 9.0d
 		}
 		{
 			height: 1.0d
 			image: "create:block/cogwheel_axis"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.84375d
-			y: 10.59375d
+			x: 20.8d
+			y: 9.600000000000001d
 		}
 		{
 			height: 1.0d
 			image: "create:block/cogwheel_axis"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.84375d
-			y: 11.46875d
+			x: 20.8d
+			y: 10.4d
 		}
 		{
 			height: 1.0d
 			image: "create:block/cogwheel_axis"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.84375d
-			y: 12.3125d
+			x: 20.8d
+			y: 11.200000000000001d
 		}
 		{
 			click: "#"
@@ -98,8 +98,128 @@
 			image: "minecraft:block/lava_flow"
 			rotation: 0.0d
 			width: 7.0d
-			x: 10.9375d
-			y: 15.65625d
+			x: 21.0d
+			y: 14.6d
+		}
+		{
+			height: 5.0d
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 5.0d
+			x: -12.15d
+			y: 12.75d
+		}
+		{
+			height: 4.0d
+			image: "create:item/package/cardboard_particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.25d
+			y: 14.75d
+		}
+		{
+			height: 4.0d
+			image: "create:item/package/cardboard_particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.65d
+			y: 14.7d
+		}
+		{
+			height: 4.0d
+			image: "create:item/package/cardboard_particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.2d
+			y: 14.7d
+		}
+		{
+			height: 4.0d
+			image: "create:item/package/cardboard_particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.9d
+			y: 14.7d
+		}
+		{
+			height: 4.0d
+			image: "create:item/package/cardboard_particle"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.5d
+			y: 14.7d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.7d
+			y: 12.85d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.1d
+			y: 12.85d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: 12.8d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.95d
+			y: 12.75d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.6d
+			y: 12.75d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.15d
+			y: 12.8d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.8d
+			y: 12.75d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:textures/models/misc/chain_tie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.2d
+			y: 12.65d
+		}
+		{
+			height: 5.0d
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.95d
+			y: 12.35d
 		}
 	]
 	order_index: 3
@@ -122,7 +242,7 @@
 				""
 				"&6本章任务不会涉及太深奥的设计，尽量不涉及附属模组。&f"
 				""
-				"任务外框为方形的为重要资讯，为齿轮形的为可选项。"
+				"任务外框为圆角方形的为重要信息，方形为设备介绍，六边形为特性介绍，齿轮为可选项"
 				"{@pagebreak}"
 				"笔者：如果你问我为什么明明有思索了 还要写这章任务 我只能说"
 				""
@@ -143,15 +263,15 @@
 				xp: 30
 			}]
 			shape: "rsquare"
-			size: 3.0d
-			subtitle: "Nitori Gaming.mp3"
+			size: 5.5d
+			subtitle: "因为有玩家表示不知道从哪个任务开始，所以这个任务才这么大"
 			tasks: [{
 				id: "50B442DD18E5F9A9"
 				title: "河童重工？PC毁灭！"
 				type: "checkmark"
 			}]
-			x: -5.85d
-			y: 0.8999999999999999d
+			x: -6.05d
+			y: 0.55d
 		}
 		{
 			dependencies: ["025ED6C26D470260"]
@@ -189,8 +309,8 @@
 				}
 			]
 			title: "材料先备好！"
-			x: -3.0d
-			y: 0.0d
+			x: -2.6d
+			y: -0.5d
 		}
 		{
 			dependencies: ["025ED6C26D470260"]
@@ -216,7 +336,7 @@
 				type: "item"
 			}]
 			title: "工业气息开始弥漫"
-			x: -3.0d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
@@ -237,6 +357,7 @@
 				"&l&a6.&r 单机械通常最高消耗1024su（应力）（粉碎轮为一组 单个粉碎轮最高消耗2048su）"
 				"&l&o&7PS:深脉激发器为本包最高消耗，最高消耗10240su应力！"
 			]
+			hide_dependency_lines: true
 			icon: "create:stressometer"
 			id: "44D32FE3A52ED048"
 			shape: "rsquare"
@@ -287,7 +408,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			subtitle: "转呀转呀转"
 			tasks: [{
@@ -311,6 +432,8 @@
 			]
 			icon: "create:large_water_wheel"
 			id: "45EDD0530F43FCC8"
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "你这次想当水车仙人还是风车仙人？"
 			tasks: [{
 				id: "4A67D8542719F359"
@@ -318,8 +441,8 @@
 				type: "checkmark"
 			}]
 			title: "你前期的应力来源！"
-			x: -5.85d
-			y: -3.4499999999999997d
+			x: -6.000000000000001d
+			y: -3.3000000000000003d
 		}
 		{
 			dependencies: [
@@ -353,7 +476,7 @@
 				""
 				"轴向底盘2号拥有与轴向底盘相同的功能，但彼此不会相连，用于区分结构。"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			icon: "createoreexcavation:netherite_drill"
 			id: "1A73C6CD3FF7B641"
 			rewards: [{
@@ -367,6 +490,8 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "加入瓦尔基里模组你就能造高达了！"
 			tasks: [{
 				id: "6547DE7280336D39"
@@ -374,14 +499,15 @@
 				type: "checkmark"
 			}]
 			title: "大机械，他动起来了！WAAAAAGH！"
-			x: -6.0d
-			y: -7.0d
+			x: -1.8000000000000003d
+			y: -16.8d
 		}
 		{
 			dependencies: [
 				"78D9DB095E0A887C"
 				"44D32FE3A52ED048"
 				"7CA6876F2D7AA380"
+				"025ED6C26D470260"
 			]
 			description: [
 				"荷取：理论上来说，这会是你使用到的第一台机械。"
@@ -397,10 +523,11 @@
 				""
 				"3.自动打包：可以加工&e工作盆&f内的物品的，用于将部分原料压缩成2x2或是3x3的配方（如粘土压缩成粘土块）"
 			]
+			hide_dependency_lines: false
 			id: "5058E7DCDFB48AAD"
 			shape: "rsquare"
-			size: 2.0d
-			subtitle: "他的名字叫做辊(gun）压机，别叫错了！"
+			size: 3.0d
+			subtitle: "他的名字叫做辊(gun）压机......又或者，冲压机？"
 			tasks: [{
 				id: "792C9FB0F8504842"
 				item: "create:mechanical_press"
@@ -408,7 +535,7 @@
 			}]
 			title: "你的第一台机械！"
 			x: 0.0d
-			y: 1.0d
+			y: 0.6000000000000001d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -419,7 +546,7 @@
 				"&e需要注意是，应力输入不一定需要一个齿轮！动力搅拌器与石磨等本身也可以算是一个水平齿轮给旁边的搅拌器提供应力！"
 			]
 			id: "7C3C066BDD5B651D"
-			shape: "rsquare"
+			shape: "square"
 			size: 1.5d
 			subtitle: "You Spin Me Right Round......"
 			tasks: [{
@@ -427,8 +554,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 9.40625d
-			y: 0.59375d
+			x: 5.4d
+			y: -2.4000000000000004d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -473,8 +600,8 @@
 				"点击左侧鼓风机图标进入"
 			]
 			id: "141C45AC77CE8C54"
-			shape: "diamond"
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "龙卷风摧毁停车场！"
 			tasks: [{
 				id: "3A1D380D265F70DF"
@@ -482,8 +609,8 @@
 				type: "item"
 			}]
 			title: "机械动力，无所不能的来源。"
-			x: 4.5d
-			y: -4.0d
+			x: 4.050000000000001d
+			y: -2.4000000000000004d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -502,16 +629,16 @@
 				"石磨本身六个面&a皆可接上漏斗/管道进行输入/输出&f"
 			]
 			id: "756052C1DEDBDE9E"
-			shape: "diamond"
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "转起来了！"
 			tasks: [{
 				id: "10F7940A4D080663"
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 5.5625d
-			y: -3.125d
+			x: 6.750000000000001d
+			y: -2.4000000000000004d
 		}
 		{
 			dependencies: ["5B75832CBBFF1BD6"]
@@ -529,7 +656,8 @@
 			]
 			icon: "create:gearbox"
 			id: "5231803CB9BB41C0"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			subtitle: "至少你现在还不用那么依赖！"
 			tasks: [
 				{
@@ -544,7 +672,7 @@
 				}
 			]
 			title: "转方向别再靠大齿轮了！"
-			x: 1.5d
+			x: 0.9d
 			y: -9.0d
 		}
 		{
@@ -575,14 +703,15 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			subtitle: "你看，他们像柱子一样！"
 			tasks: [{
 				id: "7A4695AE7FB1C92F"
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.9d
 			y: -9.0d
 		}
 		{
@@ -612,14 +741,15 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			subtitle: "由于这玩意是不一定用得到，我就放在这了"
 			tasks: [{
 				id: "5D1E0815C84E8B9F"
 				title: "衍生阅读：附属模组的特殊传动箱！"
 				type: "checkmark"
 			}]
-			x: -2.05d
-			y: -10.2d
+			x: -1.8d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -655,16 +785,16 @@
 				"传送带上的纸箱如果碰触到动力锯的话会直接当场解压缩。"
 			]
 			id: "7C5986C749BFE74C"
-			shape: "diamond"
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "小心点，这东西可痛了，别踩上去！"
 			tasks: [{
 				id: "0400DF12D5E2EF2A"
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0625d
+			x: 4.800000000000001d
+			y: -3.7500000000000004d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -673,20 +803,22 @@
 				""
 				"{ \"text\": \"至于怎么使用我们教过了便不在叙述。\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"45EDD0530F43FCC8\" } }"
 			]
+			hide_dependency_lines: true
 			id: "68165A385E313664"
 			rewards: [{
 				id: "2B10B781E555E765"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "好处是：不需要其他来源！"
 			tasks: [{
 				id: "6571226940BD9235"
 				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -11.0d
+			x: 4.1d
+			y: -17.5d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -700,20 +832,22 @@
 				""
 				"需要注意的是回归方块化会&c立即破坏该处的方块&f，这点可以对动力轴承长按右键来进行设置。"
 			]
+			hide_dependency_lines: true
 			id: "245CE7B3A409C7CD"
 			rewards: [{
 				id: "2BD41FED10679356"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "转！没关就是开了！"
 			tasks: [{
 				id: "4D3C1E1E66DD9B6A"
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -12.0d
+			x: 3.1d
+			y: -17.5d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -723,20 +857,22 @@
 				""
 				"旋转第一个连接的结构作为时针 第二个作为分针。链接方式为在转盘面一次放置两个不相连的结构。"
 			]
+			hide_dependency_lines: true
 			id: "4B04EDF3BEB5A48E"
 			rewards: [{
 				id: "696C3146CAF8F672"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "午 时 已 到"
 			tasks: [{
 				id: "2DD1D5912C771490"
 				item: "create:clockwork_bearing"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -8.5d
+			x: 3.1d
+			y: -16.1d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -776,6 +912,7 @@
 				"&7Moveable spawner为刷怪笼是否能够搬运"
 				"&7设置当中的No pickup为无法使用扳手捡起，moveable为可成为动态结构也可捡起，unmoveable为无法成为动态结构"
 			]
+			hide_dependency_lines: true
 			icon: "create:cart_assembler"
 			id: "735494A9466E6F72"
 			rewards: [{
@@ -783,6 +920,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "虚空应力的最佳代表！"
 			tasks: [
 				{
@@ -796,8 +934,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: -10.0d
+			x: 5.1d
+			y: -17.5d
 		}
 		{
 			dependencies: ["1A73C6CD3FF7B641"]
@@ -819,15 +957,15 @@
 				"接下来我会跟你讲解大部分的动态结构怎么去创造"
 			]
 			id: "2CC01D8DF3EE6309"
-			shape: "octagon"
-			size: 2.0d
+			shape: "rsquare"
+			size: 3.0d
 			tasks: [{
 				id: "5C066560110B48BA"
 				title: "动态结构的⑥大用法"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -10.0d
+			x: 1.0d
+			y: -16.8d
 		}
 		{
 			dependencies: ["2A616CFC8CF04949"]
@@ -866,6 +1004,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "虽然没啥用，但是他是电梯欸"
 			tasks: [
 				{
@@ -880,8 +1019,8 @@
 				}
 			]
 			title: "进阶应用-电梯！"
-			x: -15.84375d
-			y: -6.5d
+			x: 6.2d
+			y: -16.1d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -894,20 +1033,22 @@
 				"如果一个绳索滑轮连接到结构的话，同个高度的其他绳索滑轮如果能够触及的话也会&a跟着一起运作&f，且&a不需要应力输入&f！,"
 				"效率并不会发生变化（即仅作为美观装饰！）"
 			]
+			hide_dependency_lines: true
 			id: "2A616CFC8CF04949"
 			rewards: [{
 				id: "2AD20A69631029D7"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			subtitle: "是幻想乡人就下100层！"
 			tasks: [{
 				id: "29F9AC268C705AFE"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -6.5d
+			x: 5.1d
+			y: -16.1d
 		}
 		{
 			dependencies: [
@@ -943,7 +1084,7 @@
 			]
 			icon: "create:gantry_carriage"
 			id: "0233233539E4DC77"
-			shape: "circle"
+			shape: "square"
 			subtitle: "两人（？）一体的动态结构！"
 			tasks: [
 				{
@@ -958,8 +1099,8 @@
 				}
 			]
 			title: "进阶应用！起重机！"
-			x: -16.0d
-			y: -11.0d
+			x: 6.2d
+			y: -17.5d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -971,6 +1112,7 @@
 				""
 				"它能够推动粘接的结构，且在推动时会使其变为动态结构。"
 			]
+			hide_dependency_lines: true
 			icon: "create:mechanical_piston"
 			id: "5DD682D0C978A2FE"
 			rewards: [{
@@ -978,6 +1120,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "3F0EEA92DD68DC5C"
@@ -990,8 +1133,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: -7.5d
+			x: 4.1d
+			y: -16.1d
 		}
 		{
 			dependencies: ["2A616CFC8CF04949"]
@@ -1021,8 +1164,8 @@
 				title: "基础应用！我们一路向下！"
 				type: "checkmark"
 			}]
-			x: -13.46875d
-			y: -4.625d
+			x: 5.07d
+			y: -14.690000000000001d
 		}
 		{
 			dependencies: ["245CE7B3A409C7CD"]
@@ -1060,14 +1203,11 @@
 				title: "基础应用！木头自由啦！"
 				type: "checkmark"
 			}]
-			x: -13.46875d
-			y: -14.28125d
+			x: 3.12d
+			y: -18.98d
 		}
 		{
-			dependencies: [
-				"7C3C066BDD5B651D"
-				"784468CC9466E409"
-			]
+			dependencies: ["784468CC9466E409"]
 			description: [
 				"荷取：黄铜制作的器械通常比安山合金制作的器械运输更快，且大多都&a有着多种功能可供选择&r且&a能够使用过滤槽进行筛选&r。"
 				""
@@ -1080,15 +1220,15 @@
 			]
 			id: "309B7668FA646731"
 			shape: "rsquare"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "你未来消耗挺多的，趁现在多做点。"
 			tasks: [{
 				id: "0D22B048E342709B"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 9.375d
-			y: -7.3125d
+			x: 15.600000000000001d
+			y: -0.9000000000000001d
 		}
 		{
 			dependencies: ["731B11742D641220"]
@@ -1133,15 +1273,15 @@
 			]
 			id: "2F387DED50966254"
 			shape: "rsquare"
-			size: 1.5d
+			size: 3.0d
 			subtitle: "\"神之手的力量是绝对的\""
 			tasks: [{
 				id: "4B994BBF25F6A544"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 5.25d
-			y: -10.640625d
+			x: 24.3d
+			y: -0.9000000000000001d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -1163,15 +1303,15 @@
 				"{ \"text\": \"我还是推荐你的刷怪塔如果要做处死还是使用机械手\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F387DED50966254\" } }"
 			]
 			id: "0C3520FFEA56D578"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "我的钻头!可是突破天际的钻头啊!"
 			tasks: [{
 				id: "5D39DDD1C728B06C"
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -14.0d
+			x: 9.2d
+			y: -19.1d
 		}
 		{
 			dependencies: ["309B7668FA646731"]
@@ -1184,17 +1324,22 @@
 				"电子管的合成需要一份磨制玫瑰石英与你的&e辊压机&f压制出来的&e铁板&f"
 			]
 			id: "731B11742D641220"
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "进入科技世界的第一块砖"
 			tasks: [{
 				id: "0EC1E80DD4FC6ED5"
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 5.25d
-			y: -7.3d
+			x: 20.1d
+			y: -0.9000000000000001d
 		}
 		{
-			dependencies: ["7C3C066BDD5B651D"]
+			dependencies: [
+				"7C3C066BDD5B651D"
+				"3AC4A0C1655BEE88"
+			]
 			description: [
 				"荷取：在你进行更下一步的发展前，我建议你先做至少10个&e燃烧室&f。虽然你的车间&a通常来说只会用到一到两个&f，剩下⑨个我们之后我们还会用到的。"
 				""
@@ -1222,7 +1367,7 @@
 				table_id: 7140798025488362320L
 				type: "random"
 			}]
-			shape: "square"
+			shape: "rsquare"
 			size: 3.0d
 			subtitle: "准备去当训练师？准备去当人贩子！"
 			tasks: [{
@@ -1231,8 +1376,8 @@
 				type: "item"
 			}]
 			title: "燃烧室？精灵球！"
-			x: 12.600000000000001d
-			y: -3.1500000000000004d
+			x: 10.8d
+			y: 0.6000000000000001d
 		}
 		{
 			dependencies: ["784468CC9466E409"]
@@ -1240,7 +1385,7 @@
 				"荷取：除了让烈焰人安家以外，燃烧室还能&a使用打火石&f让里头燃起不会熄灭的火，再使用&a灵魂砂/灵魂土可以将火焰转换灵魂火&f。"
 				"&o&7但还是可以用水瓶熄灭就是了...."
 				""
-				"这种状态下，放在鼓风机前方则会根据火的类型变为 &e批量烟熏&f 或 &e批量缠魂&f 气流。"
+				"这种状态下，放在&a鼓风机&r前方则会根据火的类型变为 &e批量烟熏&f 或 &e批量缠魂&f 气流。"
 				"顺带一提，空的烈焰人燃烧室允许鼓风机的气流通过。"
 			]
 			icon: "create:empty_blaze_burner"
@@ -1250,13 +1395,14 @@
 				item: "thermal:refined_fuel_bucket"
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "3E7BD985129C38F3"
 				title: "燃烧室的额外用法"
 				type: "checkmark"
 			}]
-			x: 15.299999999999999d
-			y: -4.8d
+			x: 12.2d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2F387DED50966254"]
@@ -1273,14 +1419,15 @@
 			]
 			icon: "create:brass_hand"
 			id: "0030D5DF03BF8C33"
+			shape: "hexagon"
 			tasks: [{
 				id: "2DD68A70EA1E9A4F"
 				title: "神之手的力量是绝对的"
 				type: "checkmark"
 			}]
 			title: "神之手的力量应用之 车间产物制作"
-			x: 5.21875d
-			y: -12.1875d
+			x: 24.3d
+			y: -3.2d
 		}
 		{
 			dependencies: ["2F387DED50966254"]
@@ -1301,6 +1448,7 @@
 				}
 			}
 			id: "3A3B8FCEFC2652C0"
+			shape: "hexagon"
 			subtitle: "一刀999，但是代价是什么？"
 			tasks: [{
 				id: "4814BCF6B621D08F"
@@ -1308,8 +1456,8 @@
 				type: "checkmark"
 			}]
 			title: "神之手的力量应用之 刷怪塔处死"
-			x: 3.65625d
-			y: -12.1875d
+			x: 23.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["2F387DED50966254"]
@@ -1328,14 +1476,15 @@
 			]
 			icon: "minecraft:minecart"
 			id: "7FA0EBFFC37DE489"
+			shape: "hexagon"
 			tasks: [{
 				id: "339183005E3EC508"
 				title: "神之手的力量是绝对的"
 				type: "checkmark"
 			}]
 			title: "神之手的力量应用之 动态结构"
-			x: 6.75d
-			y: -12.1875d
+			x: 25.5d
+			y: -3.2d
 		}
 		{
 			dependencies: [
@@ -1410,8 +1559,8 @@
 				}
 			]
 			title: "步入蒸汽时代"
-			x: 12.5625d
-			y: 5.15625d
+			x: 15.600000000000001d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: ["5058E7DCDFB48AAD"]
@@ -1426,6 +1575,7 @@
 				""
 				"&e你无法使用桶直接倒入/取出液体。&r"
 			]
+			hide_dependency_lines: true
 			id: "710C2DCDE8B011F5"
 			shape: "rsquare"
 			size: 2.0d
@@ -1434,8 +1584,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 6.40625d
-			y: 7.375d
+			x: 15.6d
+			y: 7.8d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -1450,16 +1600,16 @@
 				"超出上限后会被当作一个新的物品保险库结构"
 			]
 			id: "36E4DFB433353F9E"
-			shape: "diamond"
-			size: 2.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "大概是你唯一一个不能随便打开的箱子了"
 			tasks: [{
 				id: "23F2A31DE9F24C1D"
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 6.15d
+			y: -3.7500000000000004d
 		}
 		{
 			dependencies: [
@@ -1497,6 +1647,8 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 4.0d
 			subtitle: "可能比你想象的还多用处"
 			tasks: [{
 				id: "05AF04CA9A0536A4"
@@ -1525,13 +1677,15 @@
 			]
 			icon: "create:belt_connector"
 			id: "77930E1B35EC1DEA"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "711DCD19E31ADA9A"
 				title: "传送带在车间的运用"
 				type: "checkmark"
 			}]
-			x: -8.85d
-			y: 5.7d
+			x: -9.4d
+			y: 5.6d
 		}
 		{
 			dependencies: ["66A9BB73F3D83E3B"]
@@ -1539,18 +1693,19 @@
 				"荷取：在你放完蒸汽炉后你可能或觉得我每个一段时间就要喂食这⑨个烈焰人好麻烦，那不如直接实现自动化吧！"
 				"目前&a主要的方法&f有两种"
 				"1. 使用&e动力臂&f把附近置物台/传送带的燃料（煤炭或是熔岩桶）喂食给烈焰人"
-				"2. 使用&e附属模组的吸管&f给与烈焰人使其可以&a接受液体燃料&f，再使用管道将无限熔岩输入给烈焰人"
+				"2. 使用管道将液体燃料输入给烈焰人"
 			]
 			icon: "create:steam_whistle"
 			id: "7F4DAEFAA80BF8C7"
+			shape: "gear"
 			subtitle: "不一定是唯一解"
 			tasks: [{
 				id: "1CE75FFB6C6B9E6B"
 				title: "锅炉的几个通用开机方式"
 				type: "checkmark"
 			}]
-			x: 16.5d
-			y: 5.25d
+			x: 17.1d
+			y: 4.3d
 		}
 		{
 			dependencies: ["309B7668FA646731"]
@@ -1583,7 +1738,7 @@
 				"将过滤网放在&e过滤插槽&f中即可使用。与其他物品不同，这个操作会将过滤器放入其中，而不是仅标记。"
 			]
 			id: "50ECFFB8C82C664E"
-			shape: "hexagon"
+			shape: "square"
 			size: 2.0d
 			subtitle: "这个不要，这个不是，就是你了！"
 			tasks: [{
@@ -1592,8 +1747,8 @@
 				type: "item"
 			}]
 			title: "过滤系统"
-			x: 12.4d
-			y: -6.5d
+			x: 16.8d
+			y: -4.2d
 		}
 		{
 			dependencies: ["50ECFFB8C82C664E"]
@@ -1630,7 +1785,7 @@
 				"将过滤网放在&e过滤插槽&f中即可使用。与其他物品不同，这个操作会将过滤器放入其中，而不是仅标记。"
 			]
 			id: "2162966C584246BC"
-			shape: "hexagon"
+			shape: "square"
 			size: 2.0d
 			subtitle: "S属性大爆发！"
 			tasks: [{
@@ -1638,8 +1793,8 @@
 				item: "create:attribute_filter"
 				type: "item"
 			}]
-			x: 13.2d
-			y: -7.9d
+			x: 18.8d
+			y: -5.2d
 		}
 		{
 			dependencies: ["79C0A0F3E9DF8776"]
@@ -1657,14 +1812,15 @@
 				"&o&7别给我去山童那边买这个........"
 			]
 			id: "38137D173C937FD1"
+			shape: "square"
 			subtitle: "0到256只要....不到一秒！"
 			tasks: [{
 				id: "6195AA6CD8F1C1E9"
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 4.0625d
-			y: -15.71875d
+			x: 23.4d
+			y: -6.8d
 		}
 		{
 			dependencies: ["141C45AC77CE8C54"]
@@ -1680,14 +1836,14 @@
 				"&7注意遮住，不然你作业其他设施到一半就被吸过去可别说我没提醒你！"
 			]
 			id: "17FA72E1C4B73CC4"
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "7FD6EF0010DC009D"
 				item: "create:nozzle"
 				type: "item"
 			}]
-			x: 3.4375d
-			y: -2.90625d
+			x: 2.9d
+			y: -2.4d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -1724,15 +1880,15 @@
 				"坡度模式：高度&a越低，方块层面积就会越大&f"
 			]
 			id: "09B603412E8E9F3B"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "ROAD ROLLER DA! 無馱無馱無馱!"
 			tasks: [{
 				id: "3C095ABE2B259840"
 				item: "create:mechanical_roller"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -15.0d
+			x: 8.2d
+			y: -20.1d
 		}
 		{
 			dependencies: ["5231803CB9BB41C0"]
@@ -1777,14 +1933,15 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "7DC5A983111AC97E"
 				title: "你设计时的好伙伴！"
 				type: "checkmark"
 			}]
 			title: "你是齿轮箱，你也是齿轮箱，这里还有什么齿轮箱我该认识的吗？"
-			x: 1.65d
-			y: -10.15d
+			x: 1.8d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5EE483A42C8BD6E0"]
@@ -1808,6 +1965,7 @@
 				"&o&7&m冷知识，你可以使用扳手右键开口朝上的输入模式漏斗使其不符合物理学的朝上喷出一个物品，没有用，但很酷！"
 			]
 			id: "20C4609FFF3B42EE"
+			shape: "square"
 			subtitle: "我想要管道！ 妈：家里有管道了啊  家里的管道："
 			tasks: [{
 				id: "4EB87D33A2C9F910"
@@ -1815,8 +1973,8 @@
 				type: "item"
 			}]
 			title: "输入！输出！"
-			x: -6.94375d
-			y: 8.71875d
+			x: -6.9d
+			y: 8.7d
 		}
 		{
 			dependencies: ["5EE483A42C8BD6E0"]
@@ -1839,14 +1997,15 @@
 				"并且&a无论鼓风机的转速多小，溜槽长度多长都可以&f垂直运输，相当于一个垂直的传送带！"
 			]
 			id: "15E676A49940822A"
+			shape: "square"
 			subtitle: "我想要漏斗！ 妈：家里有漏斗了啊  家里的漏斗："
 			tasks: [{
 				id: "495903CCD9CDAC3D"
 				item: "create:chute"
 				type: "item"
 			}]
-			x: -4.84375d
-			y: 8.71875d
+			x: -4.7d
+			y: 8.7d
 		}
 		{
 			dependencies: ["20C4609FFF3B42EE"]
@@ -1866,6 +2025,7 @@
 				item: "create:brass_hand"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "除了造价贵了一点点没有任何缺点"
 			tasks: [{
 				id: "2406FBD7CA07198E"
@@ -1873,8 +2033,8 @@
 				type: "item"
 			}]
 			title: "安山漏斗ultra plus版本"
-			x: -6.96875d
-			y: 11.125d
+			x: -6.9d
+			y: 9.6d
 		}
 		{
 			dependencies: ["15E676A49940822A"]
@@ -1899,6 +2059,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "可以运送的东西变多了，可是代价是什么？"
 			tasks: [{
 				id: "46A9FDD3A2EF8E2B"
@@ -1906,8 +2067,8 @@
 				type: "item"
 			}]
 			title: "“溜槽Plus，但是有阉割（悲）”"
-			x: -4.84375d
-			y: 11.11875d
+			x: -4.7d
+			y: 9.6d
 		}
 		{
 			dependencies: ["784468CC9466E409"]
@@ -1941,8 +2102,8 @@
 				title: "又不是赛亚人，哪来的超级燃烧...."
 				type: "checkmark"
 			}]
-			x: 16.2d
-			y: -3.0d
+			x: 10.8d
+			y: -2.6d
 		}
 		{
 			dependencies: ["5058E7DCDFB48AAD"]
@@ -1954,13 +2115,15 @@
 				"至多可以&a存放 1 组物品&f。但在加工物品时，最多可以&a存储 8 组产生的产品&f"
 			]
 			id: "26373660AB4ECBA8"
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "38D7163A508147ED"
 				item: "create:depot"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 5.6d
 		}
 		{
 			dependencies: ["26373660AB4ECBA8"]
@@ -1996,6 +2159,7 @@
 				"&7&o由于这玩意可以弹射实体，所以你可以弹射TNT跟铁砧.....you got my point。"
 			]
 			id: "751B7E9CE4B55BB7"
+			shape: "square"
 			subtitle: "那里有一个漂亮的跳板无人问津。Non terrae plus ultra！"
 			tasks: [{
 				id: "4E2540DC56616B21"
@@ -2004,7 +2168,7 @@
 			}]
 			title: "弹射，起飞！"
 			x: 0.0d
-			y: 7.5d
+			y: 6.9d
 		}
 		{
 			dependencies: [
@@ -2044,7 +2208,7 @@
 			]
 			id: "730EE4C7091E189F"
 			shape: "rsquare"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "这东西导致很多科技包终极目标的合成都离不开他"
 			tasks: [{
 				id: "2026564A2ED958D1"
@@ -2052,8 +2216,8 @@
 				type: "item"
 			}]
 			title: "家里的终极工作台belike："
-			x: 9.45d
-			y: -10.575d
+			x: 20.1d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: ["730EE4C7091E189F"]
@@ -2085,7 +2249,8 @@
 				"&l&o&8少用这个来粉碎物品形态的村民了，我知道很方便而且产很多怪肉，但你的良心呢（"
 			]
 			id: "46D6E46587147F45"
-			size: 1.5d
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "Crocodile in...哦不是腰带啊，那没事了。"
 			tasks: [{
 				count: 2L
@@ -2094,8 +2259,8 @@
 				type: "item"
 			}]
 			title: "撕裂！吞噬！粉碎殆尽！"
-			x: 9.45d
-			y: -16.65d
+			x: 24.3d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2126,16 +2291,17 @@
 				""
 				"这边主要会运用到的是管道内有着熔岩，且出口旁有着水的话，管道会直接生成圆石/石头，&a且不会消耗熔岩&r"
 			]
+			hide_dependency_lines: true
 			id: "081E9142CCB5CF7B"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "用到最后这包你很少会用到它了。"
 			tasks: [{
 				id: "5DF6470696DCF99C"
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 6.34375d
-			y: 9.71875d
+			x: 15.7d
+			y: 9.7d
 		}
 		{
 			dependencies: ["081E9142CCB5CF7B"]
@@ -2145,14 +2311,16 @@
 				""
 				"标记后只会使标记的流体通过。"
 			]
+			hide_dependency_lines: true
 			id: "57DA9DF8AAE0A114"
+			shape: "square"
 			tasks: [{
 				id: "6A167CA44B55028B"
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: 6.34375d
-			y: 11.625d
+			x: 15.7d
+			y: 10.7d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2163,15 +2331,16 @@
 				""
 				"可以透过扳手更改流动的方向。"
 			]
+			hide_dependency_lines: true
 			id: "7085E263BE7EB119"
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "66368D30FA00231B"
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 5.78125d
-			y: 9.25d
+			x: 16.7d
+			y: 10.7d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2182,9 +2351,10 @@
 				""
 				"&e铜阀门手轮&r:基本与手摇曲柄一致，差别在于手摇曲柄为转一圈，阀门手轮默认为转45度。"
 			]
+			hide_dependency_lines: true
 			icon: "create:fluid_valve"
 			id: "255F2FCD5D8A57AB"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "真好，不会有漏水的问题....."
 			tasks: [
 				{
@@ -2198,8 +2368,8 @@
 					type: "item"
 				}
 			]
-			x: 6.84375d
-			y: 9.25d
+			x: 16.7d
+			y: 9.7d
 		}
 		{
 			dependencies: ["45EDD0530F43FCC8"]
@@ -2209,8 +2379,9 @@
 				""
 				"&a可以下蹲右键来提供反向应力&r。"
 			]
+			hide_dependency_lines: true
 			id: "639F25868652ABB2"
-			shape: "diamond"
+			shape: "square"
 			size: 2.0d
 			subtitle: "需要一个黑..咳.没事。"
 			tasks: [{
@@ -2218,8 +2389,8 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: -3.8125d
-			y: -3.1875d
+			x: -8.0d
+			y: -5.8d
 		}
 		{
 			dependencies: ["5EE483A42C8BD6E0"]
@@ -2229,13 +2400,14 @@
 				"可以在隧道的侧边放置一段垂直的传送带，&a当物体在经过时会分流一个物品到垂直的传送带上&r。"
 			]
 			id: "5E1B592DBA6F979C"
+			shape: "square"
 			tasks: [{
 				id: "7D39655BDCBAB133"
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			x: -5.89375d
-			y: 8.71875d
+			x: -5.800000000000001d
+			y: 8.7d
 		}
 		{
 			dependencies: ["5E1B592DBA6F979C"]
@@ -2273,13 +2445,14 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "4F1CBE5F0D4152BB"
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: -5.89375d
-			y: 11.11875d
+			x: -5.800000000000001d
+			y: 9.6d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -2293,15 +2466,15 @@
 				"&8如果目睹了击飞正在下落的铁砧貌似会获得不可思议的成就.....?"
 			]
 			id: "33E4C9DCBD85A31F"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "为什么幻想乡没有“倪哥”？因为有动力犁代替了倪哥的功能"
 			tasks: [{
 				id: "6F52F9EEFA274582"
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -14.5d
+			x: 9.2d
+			y: -20.1d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -2313,18 +2486,21 @@
 				"&o&7养老玩家的最爱！"
 			]
 			id: "148D799EB4683655"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "肥料惨了金克拉，小麦亩产一千八！"
 			tasks: [{
 				id: "09F5E50A283D62CE"
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -14.5d
+			x: 7.3d
+			y: -20.1d
 		}
 		{
-			dependencies: ["148D799EB4683655"]
+			dependencies: [
+				"148D799EB4683655"
+				"735494A9466E6F72"
+			]
 			description: [
 				"&e本任务建议观看矿车装配站的教学后再来实践。&f"
 				""
@@ -2352,11 +2528,14 @@
 				title: "进阶运用！前期就能做的自动农场！"
 				type: "checkmark"
 			}]
-			x: -7.800000000000001d
-			y: -15.600000000000001d
+			x: 5.07d
+			y: -20.150000000000002d
 		}
 		{
-			dependencies: ["33E4C9DCBD85A31F"]
+			dependencies: [
+				"33E4C9DCBD85A31F"
+				"0C3520FFEA56D578"
+			]
 			description: [
 				"&e本任务建议观看动力钻头与机械手的教学后再来实践。&f"
 				""
@@ -2384,8 +2563,8 @@
 				title: "进阶应用！全自动矿车盾构机！"
 				type: "checkmark"
 			}]
-			x: -4.550000000000001d
-			y: -15.600000000000001d
+			x: 10.66d
+			y: -19.630000000000003d
 		}
 		{
 			dependencies: ["26373660AB4ECBA8"]
@@ -2403,8 +2582,8 @@
 				title: "特性运用-螺旋向上。"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: 1.3d
+			y: 5.7d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2451,8 +2630,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: 10.875d
-			y: 8.71875d
+			x: 20.8d
+			y: 7.8d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2471,15 +2650,16 @@
 				""
 				"火车的核心【坚固板】需要黑曜石粉末&a注入半桶的熔岩后经过两次辊压机&r方可成型。"
 			]
+			hide_dependency_lines: true
 			id: "35FA3C59E73C8FD6"
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "7146F7543B133F48"
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 7.84375d
-			y: 9.25d
+			x: 14.7d
+			y: 10.7d
 		}
 		{
 			dependencies: ["710C2DCDE8B011F5"]
@@ -2490,16 +2670,17 @@
 				"可以使用管道将分液池内的液体&a输入至流体储罐里&r。"
 				"&o&7Cool Fact：不止传送带，就算是漏斗丢出来的的物品也能在分液池打滚。你甚至能放置一排的分液池，看着它一直滚！"
 			]
+			hide_dependency_lines: true
 			id: "73CE4355434E693E"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "如果你只玩机械动力，那这大概算你唯二的液体输入来源了"
 			tasks: [{
 				id: "54F5CF1CB6AD5B0B"
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: 4.75d
-			y: 9.25d
+			x: 14.7d
+			y: 9.675d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -2514,18 +2695,18 @@
 				"卸货处的接口如果接受到红石信号会不启用，可以使用检测器或是无线红石等等实现控制输入输出。"
 			]
 			id: "03EAB924867B36E5"
-			shape: "diamond"
+			shape: "square"
 			subtitle: "这下再也不用手动卸货了！"
 			tasks: [{
 				id: "62396967E286DD54"
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -13.5d
+			x: 7.3d
+			y: -19.1d
 		}
 		{
-			dependencies: ["2CC01D8DF3EE6309"]
+			dependencies: ["77BB261E767E49EA"]
 			description: [
 				"荷取：其实动态结构还有一种最麻烦，也最浪漫的形势。"
 				"也就是&6火车&f"
@@ -2546,14 +2727,14 @@
 				xp: 50
 			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 3.0d
 			tasks: [{
 				id: "49261B2837E4EEF1"
 				title: "超进阶运用【火车！】"
 				type: "checkmark"
 			}]
-			x: -19.125d
-			y: -9.375d
+			x: 12.3d
+			y: -16.8d
 		}
 		{
 			dependencies: ["0233233539E4DC77"]
@@ -2570,14 +2751,15 @@
 				table_id: 4036622934681258898L
 				type: "random"
 			}]
-			shape: "rsquare"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "609070E761D96E16"
 				type: "checkmark"
 			}]
 			title: "起重机的额外补充说明"
-			x: -17.5d
-			y: -11.0d
+			x: 6.2d
+			y: -18.7d
 		}
 		{
 			dependencies: ["3AC4A0C1655BEE88"]
@@ -2652,8 +2834,8 @@
 				}
 			]
 			title: "蓝图系统"
-			x: 5.5625d
-			y: 3.25d
+			x: 5.4d
+			y: 3.8d
 		}
 		{
 			dependencies: ["2979138B701CF89D"]
@@ -2680,8 +2862,8 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			x: 3.65d
-			y: 3.2d
+			x: 3.8d
+			y: 3.9d
 		}
 		{
 			dependencies: ["309B7668FA646731"]
@@ -2712,7 +2894,7 @@
 				type: "xp"
 				xp: 15
 			}]
-			shape: "rsquare"
+			shape: "square"
 			size: 2.0d
 			subtitle: "现已加入生电套餐！"
 			tasks: [{
@@ -2721,8 +2903,8 @@
 				type: "item"
 			}]
 			title: "红石补强！"
-			x: 13.6875d
-			y: -9.875d
+			x: 14.4d
+			y: -4.2d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2743,14 +2925,15 @@
 				"&7你也可以把遥控器放在讲台上使用。"
 			]
 			id: "750A19357DB05069"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "39848E3210C7FA66"
 				item: "create:linked_controller"
 				type: "item"
 			}]
-			x: 17.25d
-			y: -10.25d
+			x: 13.5d
+			y: -7.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2763,14 +2946,15 @@
 				"可以对其&a右键反转预设输出状态&r。"
 			]
 			id: "212F71FF86CB22EE"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "25E872747A56FDC7"
 				item: "create:powered_latch"
 				type: "item"
 			}]
-			x: 19.75d
-			y: -9.75d
+			x: 14.0d
+			y: -6.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2781,15 +2965,16 @@
 				"也可&a下蹲右键来减低红石强度输出&r。"
 			]
 			id: "41A038D8D829C979"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			subtitle: "“精准而优雅”"
 			tasks: [{
 				id: "4AAA4821E0D9EFEA"
 				item: "create:analog_lever"
 				type: "item"
 			}]
-			x: 18.25d
-			y: -10.25d
+			x: 14.5d
+			y: -7.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2799,14 +2984,15 @@
 				"当&a接收到红石信号时切换一次输出信号的状态&r，对其右键可切换预设信号输出状态"
 			]
 			id: "18BD408D67E1CBA3"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "2A7E30EEFD3E0958"
 				item: "create:powered_toggle_latch"
 				type: "item"
 			}]
-			x: 18.75d
-			y: -9.75d
+			x: 16.0d
+			y: -6.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2821,14 +3007,15 @@
 				"&o&7即右键后输出端预设为给予红石信号，输入红石信号延迟后熄灭1tick后再次点亮。"
 			]
 			id: "52624EF4FC77CF68"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "1D97D84D4977C475"
 				item: "create:pulse_repeater"
 				type: "item"
 			}]
-			x: 17.75d
-			y: -9.75d
+			x: 15.0d
+			y: -6.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2846,15 +3033,16 @@
 				"当侦测器面前的方块与过滤槽的物品相同时也会输出红石信号！"
 			]
 			id: "58D430B5D117D547"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			subtitle: "更好，更强的侦测器！"
 			tasks: [{
 				id: "2D461F82900B9481"
 				item: "create:content_observer"
 				type: "item"
 			}]
-			x: 18.25d
-			y: -9.25d
+			x: 15.1d
+			y: -8.6d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2867,14 +3055,15 @@
 				"&7每一个字需要一个辉光管，一格辉光管包含两个辉光管！"
 			]
 			id: "7A38BFE0EF654839"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "0A5A77765086102A"
 				item: "create:nixie_tube"
 				type: "item"
 			}]
-			x: 19.25d
-			y: -9.25d
+			x: 12.5d
+			y: -7.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2892,14 +3081,15 @@
 				"&7结合上方机制你就可以设定一种单选的红石输出了"
 			]
 			id: "2EECAFF7488EE9EB"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "0816ED7B10DF5384"
 				item: "create:rose_quartz_lamp"
 				type: "item"
 			}]
-			x: 19.25d
-			y: -10.25d
+			x: 16.5d
+			y: -7.7d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2915,14 +3105,15 @@
 				"可以使用下方的反转&m&c正&f邪&r按钮来使上方所讲述的逻辑相反过来。"
 			]
 			id: "075F12D4D956D2EF"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "3D8CB6CD8D523ED6"
 				item: "create:stockpile_switch"
 				type: "item"
 			}]
-			x: 17.25d
-			y: -9.25d
+			x: 14.0d
+			y: -8.6d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -2940,14 +3131,15 @@
 				"&o&7即右键后输出端预设为给予红石信号，输入红石信号熄灭一定时间后再次点亮。"
 			]
 			id: "5D1DC332165013AC"
-			shape: "diamond"
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				id: "646BFE76439E4C29"
 				item: "create:pulse_extender"
 				type: "item"
 			}]
-			x: 16.75d
-			y: -9.75d
+			x: 13.0d
+			y: -6.7d
 		}
 		{
 			dependencies: ["77BB261E767E49EA"]
@@ -2964,14 +3156,14 @@
 				"{ \"text\": \"在电梯内则功能改为选择可到达的楼层。\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25D9B8187BECB9DE\" } }"
 			]
 			id: "68B40F2636CB8AB6"
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "4AEB9A8F11184CDE"
 				item: "create:contraption_controls"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -13.5d
+			x: 8.2d
+			y: -19.1d
 		}
 		{
 			dependencies: ["79C0A0F3E9DF8776"]
@@ -3003,14 +3195,15 @@
 				"&o&8动力臂貌似特别喜欢音乐,如果在他们附近播放唱片的话......"
 			]
 			id: "38A3D78C44E0EBF4"
+			shape: "square"
 			subtitle: "这很科技。"
 			tasks: [{
 				id: "13DFD44B389D48A0"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 6.3125d
-			y: -15.75d
+			x: 25.1d
+			y: -6.8d
 		}
 		{
 			dependencies: ["45EDD0530F43FCC8"]
@@ -3024,16 +3217,17 @@
 				""
 				"&7&ops：可不要被常识所拘束了，水车也是可以水平的摆在地上用的！&r"
 			]
+			hide_dependency_lines: true
 			id: "6466120C8339F930"
-			shape: "diamond"
+			shape: "square"
 			size: 2.0d
 			tasks: [{
 				id: "64A5E43BB21B4EC6"
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -4.625d
-			y: -2.3125d
+			x: -6.0d
+			y: -5.8d
 		}
 		{
 			dependencies: ["45EDD0530F43FCC8"]
@@ -3051,8 +3245,9 @@
 				""
 				"&7需要注意的是风帆可以直接连接为结构而不需要强力胶，但是羊毛需要！"
 			]
+			hide_dependency_lines: true
 			id: "0F7B83D47399FE11"
-			shape: "diamond"
+			shape: "square"
 			size: 2.0d
 			tasks: [{
 				count: 8L
@@ -3060,8 +3255,8 @@
 				item: "create:white_sail"
 				type: "item"
 			}]
-			x: -4.625d
-			y: -4.0d
+			x: -4.0d
+			y: -5.8d
 		}
 		{
 			dependencies: ["5058E7DCDFB48AAD"]
@@ -3072,14 +3267,15 @@
 			]
 			icon: "create:goggles"
 			id: "3AC4A0C1655BEE88"
-			size: 1.5d
+			shape: "rsquare"
+			size: 3.0d
 			tasks: [{
 				id: "284BCC3E22A071D8"
 				title: "第一次工业革命！"
 				type: "checkmark"
 			}]
-			x: 5.484375d
-			y: 0.609375d
+			x: 5.4d
+			y: 0.6000000000000001d
 		}
 		{
 			dependencies: ["0030D5DF03BF8C33"]
@@ -3095,14 +3291,15 @@
 				table_id: 4036622934681258898L
 				type: "random"
 			}]
+			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "5C4FB050BD4CD2BB"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 5.203125d
-			y: -13.96875d
+			x: 24.3d
+			y: -5.250000000000001d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -3116,14 +3313,16 @@
 				table_id: 622697450414953736L
 				type: "random"
 			}]
+			shape: "rsquare"
+			size: 3.0d
 			tasks: [{
 				id: "335FB9CF8F4C239D"
 				title: "如果没有动态结构的话，瓦达西！"
 				type: "checkmark"
 			}]
 			title: "离不开动态结构的器械。"
-			x: -6.0d
-			y: -12.5d
+			x: 8.100000000000001d
+			y: -16.8d
 		}
 		{
 			dependencies: ["025ED6C26D470260"]
@@ -3147,6 +3346,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "二周目の回忆"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -3168,6 +3368,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -3187,8 +3388,8 @@
 				}
 			]
 			title: "钻井"
-			x: 13.5d
-			y: -16.65d
+			x: 24.3d
+			y: 5.250000000000001d
 		}
 		{
 			dependencies: ["21ECA34194AAB888"]
@@ -3202,7 +3403,7 @@
 				"当脉冲计时器收到红石讯号时会停止工作（除非是自身的红石讯号，会根据当前发送逻辑变为常亮或是连闪状态）"
 			]
 			id: "24FCA6BA4332A957"
-			shape: "diamond"
+			shape: "square"
 			size: 1.0d
 			subtitle: "红石省流的又一大拼图"
 			tasks: [{
@@ -3210,8 +3411,8 @@
 				item: "create:pulse_timer"
 				type: "item"
 			}]
-			x: 20.25d
-			y: -9.25d
+			x: 15.5d
+			y: -7.7d
 		}
 		{
 			dependencies: ["7C3C066BDD5B651D"]
@@ -3224,7 +3425,10 @@
 				""
 				"先让树苗打成纸浆吧。"
 			]
+			hide_dependency_lines: true
 			id: "68F322C93EA5772A"
+			shape: "rsquare"
+			size: 3.0d
 			tasks: [{
 				count: 4L
 				id: "1F7857DBF9EE2A52"
@@ -3232,8 +3436,8 @@
 				type: "item"
 			}]
 			title: "废物利用"
-			x: 15.45d
-			y: 0.6d
+			x: -6.300000000000001d
+			y: 14.700000000000001d
 		}
 		{
 			dependencies: ["68F322C93EA5772A"]
@@ -3247,6 +3451,7 @@
 				"&8你问我纸浆压成纸板，水哪去了？ 大致是蒸发了罢..."
 			]
 			id: "310F196A34FEEEDA"
+			shape: "gear"
 			tasks: [{
 				count: 4L
 				id: "7C72A99D7C77A008"
@@ -3254,8 +3459,8 @@
 				type: "item"
 			}]
 			title: "不，你想多了，这里没有能包核弹的纸箱。"
-			x: 17.4d
-			y: 0.6d
+			x: -6.3d
+			y: 12.3d
 		}
 		{
 			dependencies: ["3D534F72ABC6BADA"]
@@ -3269,8 +3474,8 @@
 				"&a如果存储方块的空间不支持打包机将包裹完全解压存入的话则不会拦截该包裹。&r"
 			]
 			id: "6D8815042AABCB6D"
-			shape: "circle"
-			size: 1.0d
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "统统打包带走。"
 			tasks: [{
 				id: "741D4BAE0B72ACD0"
@@ -3278,11 +3483,11 @@
 				type: "item"
 			}]
 			title: "背背背背起了行囊"
-			x: 22.7d
-			y: 0.6000000000000001d
+			x: 0.9000000000000001d
+			y: 14.700000000000001d
 		}
 		{
-			dependencies: ["310F196A34FEEEDA"]
+			dependencies: ["68F322C93EA5772A"]
 			description: [
 				"荷取：如果你在为了大量的物品运输感到困惑&7（并没有）"
 				"那么现在6.0的机械动力的物流系统正式登场了！"
@@ -3294,9 +3499,13 @@
 				""
 				"&7.......那....你还学吗..?"
 			]
-			icon: "create:packager"
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x10"
+				tag: { }
+			}
 			id: "3D534F72ABC6BADA"
-			shape: "square"
+			shape: "rsquare"
 			size: 3.0d
 			subtitle: "人称小AE2，但是我们已经有AE2了...."
 			tasks: [{
@@ -3305,8 +3514,8 @@
 				type: "checkmark"
 			}]
 			title: "进入仓库自动化时代！"
-			x: 20.1d
-			y: 0.6000000000000001d
+			x: -2.7d
+			y: 14.700000000000001d
 		}
 		{
 			dependencies: ["5B75832CBBFF1BD6"]
@@ -3333,7 +3542,8 @@
 				"会持续滑行直到玩家下蹲主动离开或是撞到方块。"
 			]
 			id: "3D4420CFD4B6C863"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			subtitle: "是谁在滑索上飞行？我！"
 			tasks: [{
 				count: 2L
@@ -3342,7 +3552,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -9.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["50ECFFB8C82C664E"]
@@ -3356,7 +3566,7 @@
 				"将过滤网放在&e过滤插槽&f中即可使用。与其他物品不同，这个操作会将过滤器放入其中，而不是仅标记。"
 			]
 			id: "0DC71CB4D610783C"
-			shape: "hexagon"
+			shape: "square"
 			size: 2.0d
 			subtitle: "请问是幻想乡的史蒂夫先生吗？"
 			tasks: [{
@@ -3364,8 +3574,8 @@
 				item: "create:package_filter"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.5d
+			x: 18.8d
+			y: -3.6d
 		}
 		{
 			dependencies: ["6D8815042AABCB6D"]
@@ -3383,6 +3593,7 @@
 				tag: { }
 			}
 			id: "6CD014DDB80EB89D"
+			shape: "hexagon"
 			subtitle: "这一份送往那边，这一份送往这边！"
 			tasks: [
 				{
@@ -3411,8 +3622,8 @@
 				}
 			]
 			title: "物流系统"
-			x: 22.7d
-			y: -1.6d
+			x: 0.2d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6D8815042AABCB6D"]
@@ -3430,7 +3641,8 @@
 				"&c满格红石讯号 会直接禁用该仓储链接站&r。"
 			]
 			id: "194ACF896693CE04"
-			size: 1.0d
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "地位约等于ME控制器+存储总线。"
 			tasks: [{
 				count: 2L
@@ -3439,8 +3651,8 @@
 				type: "item"
 			}]
 			title: "建立网路！"
-			x: 24.6d
-			y: 0.6d
+			x: 4.2d
+			y: 14.700000000000001d
 		}
 		{
 			dependencies: ["194ACF896693CE04"]
@@ -3469,6 +3681,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "相当于ME终端了 还是不带合成的那种。"
 			tasks: [{
 				id: "73433EF8D1C0F60C"
@@ -3476,8 +3689,8 @@
 				type: "item"
 			}]
 			title: "一览无遗"
-			x: 26.5d
-			y: -0.7d
+			x: 5.2d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6D8815042AABCB6D"]
@@ -3491,13 +3704,14 @@
 				"这样做也可以避免以&a防止不同份请求的包裹混在一起&r导致机器停机。"
 			]
 			id: "59DAC5F1CEF4E958"
+			shape: "square"
 			tasks: [{
 				id: "4BB64AA6D0774177"
 				item: "create:repackager"
 				type: "item"
 			}]
-			x: 22.75d
-			y: 2.25d
+			x: 1.6d
+			y: 12.5d
 		}
 		{
 			dependencies: ["194ACF896693CE04"]
@@ -3515,14 +3729,15 @@
 				"在放下前，你可以先打开仓储发报机的GUI来提前配置你的红石请求器请求清单。用法与你下单一模一样。"
 			]
 			id: "0C235349C778DCB8"
+			shape: "square"
 			tasks: [{
 				id: "46FE8C295A26475F"
 				item: "create:redstone_requester"
 				type: "item"
 			}]
 			title: "自动下单！"
-			x: 26.5d
-			y: 1.6d
+			x: 4.2d
+			y: 12.5d
 		}
 		{
 			dependencies: ["194ACF896693CE04"]
@@ -3581,8 +3796,8 @@
 				type: "item"
 			}]
 			title: "市场开幕啦！"
-			x: 24.6d
-			y: 3.3750000000000004d
+			x: 4.2d
+			y: 16.950000000000003d
 		}
 		{
 			dependencies: ["194ACF896693CE04"]
@@ -3639,16 +3854,16 @@
 				item: "thermal:nickel_dust"
 				type: "item"
 			}]
-			shape: "square"
-			size: 2.0d
+			shape: "rsquare"
+			size: 3.0d
 			subtitle: "重量级选手来了"
 			tasks: [{
 				id: "6949B8AFDE340578"
 				item: "create:factory_gauge"
 				type: "item"
 			}]
-			x: 28.5d
-			y: 0.6d
+			x: 7.500000000000001d
+			y: 14.700000000000001d
 		}
 		{
 			dependencies: ["3D4420CFD4B6C863"]
@@ -3680,6 +3895,7 @@
 				"讲点好玩的"
 				"手持工程师护目镜右击货物蛙港可以&6不消耗&f的将护目镜戴在货物蛙港上，仅起装饰作用。戴上后不可恢复，除非拆除货物蛙港并重新放置。"
 			]
+			hide_dependency_lines: true
 			icon: "create:package_frogport"
 			id: "5197314840F9B9D4"
 			rewards: [{
@@ -3688,6 +3904,7 @@
 				table_id: 7140798025488362320L
 				type: "random"
 			}]
+			shape: "square"
 			subtitle: "说不定是活的呢？"
 			tasks: [{
 				id: "10751DE9083B07EF"
@@ -3695,8 +3912,8 @@
 				type: "item"
 			}]
 			title: "赛博青蛙"
-			x: 0.0d
-			y: -12.0d
+			x: 3.1d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6CD014DDB80EB89D"]
@@ -3710,14 +3927,15 @@
 				"&7在玩家32格内有该种类的剪贴板其实也可以"
 			]
 			id: "2E14762B8876A26A"
+			shape: "hexagon"
 			tasks: [{
 				id: "3A64CFE1D5EB8B20"
 				item: "create:clipboard"
 				type: "item"
 			}]
 			title: "ctrlC ctrlV!"
-			x: 23.9d
-			y: -1.6d
+			x: 0.2d
+			y: 11.4d
 		}
 		{
 			dependencies: ["2CC01D8DF3EE6309"]
@@ -3740,6 +3958,7 @@
 				item: "functionalstorage:cherry_4"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
@@ -3762,8 +3981,41 @@
 				}
 			]
 			title: "其他模组的容器"
-			x: -4.0d
-			y: -10.0d
+			x: 1.0d
+			y: -13.8d
+		}
+		{
+			dependencies: [
+				"2F387DED50966254"
+				"46D6E46587147F45"
+			]
+			description: [
+				"荷取：机械动力大概这是这样了，我已经没有什么可以教给你的了"
+				""
+				"接下来大多数都是多做多学了。"
+				""
+				"拿着你的毕业礼物吧，这是我们河童费劲心思研究的成果之一，可以让你额外带上一个护符。"
+			]
+			icon: "create:wrench"
+			id: "7279AAC018B4971F"
+			rewards: [{
+				command: "/curios add charm @s 1"
+				elevate_perms: true
+				id: "2ED4742A34FFFCD8"
+				silent: true
+				title: "河童重工【亚空间护符】"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "燃尽了"
+			tasks: [{
+				id: "44D65EE1A7C2C8F9"
+				title: "出师了"
+				type: "checkmark"
+			}]
+			x: 28.200000000000003d
+			y: 0.6000000000000001d
 		}
 	]
 	title: "河童重工工厂"

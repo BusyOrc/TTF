@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "22253443F259226E"
-	group: "756D1B6269D2C725"
+	group: "70B4907D74D7EF03"
 	icon: "ae2:controller"
 	id: "22253443F259226E"
 	images: [
@@ -108,7 +108,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

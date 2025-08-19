@@ -65,21 +65,21 @@
 
 		[entity.spawn.replaceChance]
 			#Range: 0.0 ~ 1.0
-			zombieGirlReplaceChance = 1.0
+			zombieGirlReplaceChance = 0.2
 			#Range: 0.0 ~ 1.0
-			huskGirlReplaceChance = 1.0
+			huskGirlReplaceChance = 0.5
 			#Range: 0.0 ~ 1.0
-			drownedGirlReplaceChance = 1.0
+			drownedGirlReplaceChance = 0.5
 			#Range: 0.0 ~ 1.0
-			skeletonGirlReplaceChance = 1.0
+			skeletonGirlReplaceChance = 0.2
 			#Range: 0.0 ~ 1.0
 			witherSkeletonGirlReplaceChance = 1.0
 			#Range: 0.0 ~ 1.0
-			strayGirlReplaceChance = 1.0
+			strayGirlReplaceChance = 0.5
 			#Range: 0.0 ~ 1.0
-			creeperGirlReplaceChance = 1.0
+			creeperGirlReplaceChance = 0.2
 			#Range: 0.0 ~ 1.0
-			enderExecutorReplaceChance = 1.0
+			enderExecutorReplaceChance = 0.2
 
 		[entity.spawn.chance]
 			#Range: 0.0 ~ 1.0

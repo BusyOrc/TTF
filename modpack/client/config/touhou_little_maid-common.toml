@@ -168,7 +168,7 @@
 	#Allowed Values: PLAYER2, ALIYUN, SILICONFLOW
 	STTType = "PLAYER2"
 	#The name of the microphone device, empty is default
-	STTMicrophone = ""
+	STTMicrophone = "主声音捕获驱动程序"
 	#The range of search when chatting with the maid
 	#Range: 1 ~ 256
 	MaidCanChatDistance = 12

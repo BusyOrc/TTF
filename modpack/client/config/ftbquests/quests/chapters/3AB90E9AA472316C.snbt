@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3AB90E9AA472316C"
-	group: "398070A2413EA53F"
+	group: "2F6557FC41D866A7"
 	icon: "touhou_little_maid:power_point"
 	id: "3AB90E9AA472316C"
 	images: [
 		{
 			alpha: 150
-			height: 2.0d
+			height: 4.0d
 			image: "quark:block/andesite_bricks"
 			rotation: 0.0d
-			width: 2.0d
+			width: 4.0d
 			x: 4.0d
 			y: -0.5d
 		}
@@ -21,8 +21,8 @@
 			image: "cataclysm:item/burning_ashes"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.25d
-			y: 5.5d
+			x: 3.5d
+			y: 10.75d
 		}
 		{
 			height: 2.0d
@@ -38,8 +38,8 @@
 			image: "cataclysm:block/ignitium_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.75d
-			y: 5.5d
+			x: 5.0d
+			y: 10.75d
 		}
 		{
 			height: 2.0d
@@ -62,35 +62,35 @@
 			image: "cataclysm:block/azure_seastone_ink_mural/thunder"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.25d
-			y: 3.25d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "cataclysm:block/azure_seastone_ink_mural/cindaria"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.949999999999999d
-			y: 3.25d
+			x: 8.2d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "cataclysm:block/azure_seastone_ink_mural/clawdian"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.75d
-			y: 3.25d
+			x: 9.0d
+			y: 8.5d
 		}
 		{
 			height: 3.0d
 			image: "cataclysm:item/essence_of_the_storm"
 			rotation: 0.0d
 			width: 3.0d
-			x: 10.05d
-			y: 5.05d
+			x: 10.3d
+			y: 10.3d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -112,7 +112,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 4.0d
 			tasks: [{
 				id: "530712F482162445"
 				type: "checkmark"
@@ -215,6 +215,7 @@
 				}
 			]
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "263A83E8AF1A317A"
 				type: "checkmark"
@@ -267,8 +268,8 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 12.25d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -310,8 +311,8 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -3.0d
+			x: 14.75d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -347,8 +348,8 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.0d
+			x: 17.25d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -389,8 +390,8 @@
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: 17.25d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -432,8 +433,8 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.0d
+			x: 17.25d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -473,8 +474,8 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 13.75d
-			y: -1.0d
+			x: 19.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -512,8 +513,8 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 13.75d
-			y: -3.0d
+			x: 19.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -556,8 +557,8 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 13.75d
-			y: -5.0d
+			x: 19.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -604,8 +605,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 3.25d
+			x: 4.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -666,8 +667,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 3.25d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -710,8 +711,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 7.5d
+			x: 4.25d
+			y: 12.75d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -761,8 +762,8 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 3.25d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -809,15 +810,17 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 3.25d
+			x: 1.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
 			description: [
 				"在&c下界&r利用火焰之眼寻找烈焰竞技场(&dBurning Arena&r)，击杀其中的炽燃遗魂后即可挑战焰魔"
 				""
-				"击杀后掉落&a腾炎锭&r"
+				"击杀后掉落&a腾炎锭&r, 如果不想反复刷取，可以考虑用特殊方法复制:"
+				""
+				"{ \"text\": \"复制腾炎锭\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"051378D56BE4953E\" } }"
 				""
 				"近战伤害非常高，但是可以多利用远程输出进行周旋"
 				""
@@ -857,8 +860,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 7.5d
+			x: 1.75d
+			y: 12.75d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -901,8 +904,8 @@
 					type: "item"
 				}
 			]
-			x: 2.75d
-			y: 7.5d
+			x: 3.0d
+			y: 12.75d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -1078,8 +1081,8 @@
 				type: "checkmark"
 			}]
 			title: "以德服人"
-			x: -3.5d
-			y: 2.0d
+			x: -5.2d
+			y: -0.4d
 		}
 		{
 			dependencies: ["387B82AB28771F32"]
@@ -1094,8 +1097,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -8.8d
+			y: -0.4d
 		}
 		{
 			dependencies: ["6AD4245E790763B7"]
@@ -1126,8 +1129,8 @@
 				}
 			]
 			title: "驯服道具"
-			x: -6.5d
-			y: 0.0d
+			x: -8.8d
+			y: -2.6d
 		}
 		{
 			dependencies: ["6AD4245E790763B7"]
@@ -1156,8 +1159,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 2.0d
+			x: -11.4d
+			y: -0.4d
 		}
 		{
 			dependencies: ["6AD4245E790763B7"]
@@ -1172,8 +1175,8 @@
 				item: "nffgirls:evil_gem"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.0d
+			x: -8.8d
+			y: 1.4d
 		}
 		{
 			dependencies: ["6AD4245E790763B7"]
@@ -1184,8 +1187,8 @@
 				item: "nffgirls:empty_mob_storage_pod"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: -7.2d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -1425,21 +1428,13 @@
 			]
 			icon: "cataclysm:dying_ember"
 			id: "44BCA296B5679F9F"
-			tasks: [
-				{
-					entity: "cataclysm:ignited_berserker"
-					id: "2EE7DB4006605DA8"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "318F7C6D31569735"
-					item: "cataclysm:dying_ember"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 6.25d
+			tasks: [{
+				id: "318F7C6D31569735"
+				item: "cataclysm:dying_ember"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 11.5d
 		}
 		{
 			dependencies: ["4F6A176071C2DAD3"]
@@ -1794,8 +1789,8 @@
 				item: "cataclysm:lava_power_cell"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 1.75d
+			y: 9.75d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1828,20 +1823,21 @@
 				}
 			]
 			title: "暮色中的村庄"
-			x: 9.5d
-			y: -8.5d
+			x: 14.75d
+			y: -7.75d
 		}
 		{
 			hide_dependent_lines: true
 			icon: "akashictome:tome"
 			id: "3CD2BBDE618E89A7"
+			shape: "rsquare"
 			tasks: [{
 				id: "60B37D51B0A30734"
 				type: "checkmark"
 			}]
 			title: "这是村民使用的工作方块"
-			x: 9.5d
-			y: -10.5d
+			x: 14.75d
+			y: -9.75d
 		}
 		{
 			dependencies: ["3CD2BBDE618E89A7"]
@@ -1851,8 +1847,8 @@
 				item: "tf_dnv:alchemy_table"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -13.0d
+			x: 13.75d
+			y: -12.25d
 		}
 		{
 			dependencies: ["3CD2BBDE618E89A7"]
@@ -1862,8 +1858,8 @@
 				item: "tf_dnv:butcher_table"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -12.0d
+			x: 14.25d
+			y: -11.25d
 		}
 		{
 			dependencies: ["3CD2BBDE618E89A7"]
@@ -1873,8 +1869,8 @@
 				item: "tf_dnv:composter"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -13.0d
+			x: 14.75d
+			y: -12.25d
 		}
 		{
 			dependencies: ["3CD2BBDE618E89A7"]
@@ -1884,8 +1880,8 @@
 				item: "tf_dnv:lumber_table"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -13.0d
+			x: 15.75d
+			y: -12.25d
 		}
 		{
 			dependencies: ["3CD2BBDE618E89A7"]
@@ -1895,8 +1891,8 @@
 				item: "tf_dnv:mycologist_table"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -12.0d
+			x: 15.25d
+			y: -11.25d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1914,8 +1910,8 @@
 				type: "structure"
 			}]
 			title: "地下树篱迷宫"
-			x: 12.5d
-			y: -8.5d
+			x: 17.75d
+			y: -7.75d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1931,8 +1927,8 @@
 				structure: "twilight_treehouses:treehouse_lodge"
 				type: "structure"
 			}]
-			x: 15.0d
-			y: -8.5d
+			x: 20.25d
+			y: -7.75d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1948,8 +1944,8 @@
 				structure: "twilight_treehouses:treehouse_abode"
 				type: "structure"
 			}]
-			x: 15.5d
-			y: -8.0d
+			x: 20.75d
+			y: -7.25d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1965,8 +1961,8 @@
 				structure: "twilight_treehouses:treehouse_cabin"
 				type: "structure"
 			}]
-			x: 15.5d
-			y: -9.0d
+			x: 20.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["06FEC1E851FC5556"]
@@ -1982,8 +1978,8 @@
 				structure: "twilight_treehouses:treehouse_chalet"
 				type: "structure"
 			}]
-			x: 16.0d
-			y: -8.5d
+			x: 21.25d
+			y: -7.75d
 		}
 		{
 			description: [
@@ -2001,8 +1997,8 @@
 				type: "checkmark"
 			}]
 			title: "暮色森林中的额外结构"
-			x: 12.517857142857139d
-			y: -6.952380952380949d
+			x: 17.76785714285714d
+			y: -6.202380952380949d
 		}
 		{
 			dependencies: ["46DDE4AB21A27C0B"]
@@ -2050,8 +2046,8 @@
 					type: "item"
 				}
 			]
-			x: 7.75d
-			y: 4.75d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
@@ -2066,8 +2062,8 @@
 				item: "cataclysm:lacrima"
 				type: "item"
 			}]
-			x: 6.75d
-			y: 7.75d
+			x: 7.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F7F872B61EE4BE8"]
@@ -2085,8 +2081,67 @@
 				item: "cataclysm:essence_of_the_storm"
 				type: "item"
 			}]
-			x: 8.75d
-			y: 7.75d
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["46DDE4AB21A27C0B"]
+			description: ["击杀夜巡者获得，而夜巡者在位于末地的虚空大教堂（搜索Void Cathedral）"]
+			hide_dependency_lines: true
+			id: "3626147F7ED83FF9"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3785BA9E71E6667D"
+				item: {
+					Count: 1
+					id: "traveloptics:stellothorn"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 17.4d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3626147F7ED83FF9"]
+			description: ["利用夜巡者掉落物的武器，加上其他几种材料，可以复制腾炎锭"]
+			icon: "ltc2:hotaurum_block"
+			id: "051378D56BE4953E"
+			size: 2.0d
+			tasks: [
+				{
+					id: "07BA76B52840DD28"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "46B9D2B04A9BCD0D"
+					item: "ltc2:hotaurum_block"
+					type: "item"
+				}
+				{
+					id: "0496702D22FEC424"
+					item: "ltc2:refined_underground_oil_block"
+					type: "item"
+				}
+			]
+			title: "复制腾炎锭"
+			x: 21.2d
+			y: 10.0d
 		}
 	]
 	title: "退治异变"

@@ -31,6 +31,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:stoves',['refurbished_furniture:light_stove', 'twilightdelight:maze_stove',
          'nethersdelight:blackstone_stove',  'farmersdelight:stove', 'ends_delight:end_stove'])
 
+
+    event.add("irons_spellbooks:blood_focus", 'youkaishomecoming:blood_bottle')
     event.add('forge:salt','refurbished_furniture:sea_salt')
     event.add('forge:soysauce','youkaishomecoming:soy_sauce_bottle')
     event.add('forge:ingots/dragon_steel',['iceandfire:dragonsteel_fire_ingot','iceandfire:dragonsteel_ice_ingot','iceandfire:dragonsteel_lightning_ingot'])

@@ -960,15 +960,15 @@
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:heartstop"]
-		Enabled = true
+		Enabled = false
 		School = "irons_spellbooks:blood"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 5.0
-		SpellPowerMultiplier = 0.5
-		CooldownInSeconds = 270.0
-		AllowCrafting = true
+		ManaCostMultiplier = 50
+		SpellPowerMultiplier = 0.1
+		CooldownInSeconds = 720.0
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:devour"]
 		Enabled = true

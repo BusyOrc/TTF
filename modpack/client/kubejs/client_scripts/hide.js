@@ -11,7 +11,11 @@ JEIEvents.hideItems((event) => {
 'mushroom_daydream:blue_eye_white_dragon', 'mushroom_daydream:shiguan', 'mushroom_daydream:rat_world','mushroom_daydream:slime_court_jester',"sakuratinker:delusion",
  'mushroom_daydream:dragon_gobber', 'mushroom_daydream:mizi', 'mushroom_daydream:sjngp','traveloptics:wand_of_final_light',"alexsmobs:transmutation_table",
      'mushroom_daydream:pure_horror', 'mushroom_daydream:liga', 'mushroom_daydream:sublimation_substance','mushroom_daydream:ultimate_alchemical_compound',
-      'mushroom_daydream:holy', 'mushroom_daydream:zero_mushroom','functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4'
+      'mushroom_daydream:holy', 'mushroom_daydream:zero_mushroom','functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4',
+      'tinkerscalibration:oraclium_nugget', 'tinkerscalibration:oraclium_ingot', 'tinkerscalibration:oraclium_block', 'tinkerscalibration:tonium_ingot',
+       'tinkerscalibration:tonium_nugget', 'tinkerscalibration:tonium_block', 'tinkerscalibration:raw_tonium', 'tinkerscalibration:tonium_ore',
+        'tinkerscalibration:deepslate_tonium_ore', 'tinkerscalibration:magiga_ingot', 'tinkerscalibration:magiga_nugget',
+         'tinkerscalibration:magiga_block', 'tinkerscalibration:raw_magiga', 'tinkerscalibration:magiga_ore', 'tinkerscalibration:deepslate_magiga_ore'
     ]
 
     let regexHide = []

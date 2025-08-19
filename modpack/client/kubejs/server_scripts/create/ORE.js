@@ -41,13 +41,13 @@ event.recipes.createoreexcavation
 
 //魔力
 event.recipes.createoreexcavation.vein('{"text": "魔力聚集地"}', 'minecraft:amethyst_cluster')
-.placement(24, 12, 11451980).id("kubejs:magic_site").alwaysFinite().priority(5).veinSize(25, 33)
+.placement(24, 12, 11451980).id("kubejs:magic_site").alwaysInfinite().priority(5)
 .biomeWhitelist("twilightforest:in_twilight_forest") 
 
 event.recipes.createoreexcavation
 .drilling([Item.of('minecraft:amethyst_cluster').withChance(0.4)
     ,Item.of('minecraft:lapis_lazuli').withChance(0.8), 'createoreexcavation:raw_redstone',Item.of('irons_spellbooks:arcane_salvage').withChance(0.09),
-    Item.of('minecraft:raw_gold').withChance(0.35),Item.of('hmag:diamond_fragment').withChance(0.4),'create:experience_nugget'
+    Item.of('minecraft:raw_gold').withChance(0.35),Item.of('hmag:diamond_fragment').withChance(0.8),'create:experience_nugget'
 ], "kubejs:magic_site", 800)
 .id("kubejs:magic_exc").drill('createoreexcavation:diamond_drill') 
 .fluid('starbunclemania:source_fluid 100').stress(256);

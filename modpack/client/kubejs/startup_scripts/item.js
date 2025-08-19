@@ -36,14 +36,15 @@ StartupEvents.registry('item', event => {
 	event.create('kubejs:meiling').displayName("美铃锭").rarity("epic")
 	event.create('kubejs:paru').displayName("帕露西锭").rarity("epic")
 	event.create('kubejs:patch').displayName("帕琪锭").rarity("epic")
+	event.create('kubejs:patch_slime').displayName("黏液帕琪锭").rarity("epic")
 	event.create('kubejs:remilia').displayName("蕾米锭").rarity("epic")
-	event.create('kubejs:sakuya').displayName("咲夜锭").rarity("epic")
+	event.create('kubejs:sakuya').displayName("咲夜的怀表").rarity("epic")
 	event.create('kubejs:sannyo').displayName("山如锭").rarity("epic")
 	event.create('kubejs:wakasagihime').displayName("若鹭姬锭").rarity("epic")
 	event.create('kubejs:rumia').displayName("露米娅锭").rarity("rare")
 	event.create('kubejs:ex_rumia').displayName("EX露米娅锭").rarity("epic")
 	event.create('kubejs:ice_warrior').displayName("冰之勇者锭").rarity("epic")
-	event.create('kubejs:xy').displayName("星雨合金").rarity("epic")
+	event.create('kubejs:xy').displayName("两仪雾星").rarity("epic")
 
 
 	event.create('kubejs:incom_polymer_plate').displayName("半成品聚合物板")
@@ -57,4 +58,8 @@ ItemEvents.modification(event => {
     item.attackDamage=18
   })
 
+
+  event.modify("youkaishomecoming:reimu_hairband", item=>{
+	item.maxDamage = 50
+  })
   })

@@ -38,6 +38,7 @@ event.remove({id:"mystias_izakaya:xi_hong_shi"})
 event.remove({id:"mystias_izakaya:ning_meng"})
 event.remove({id:"mystias_izakaya:huang_gua"})
 event.remove({id:"tinkers_thinking:common/crystal/chromatic_crystal"})
+event.remove({id:"tinkers_thinking:common/stabilized_gunpowder"})
 
 let silverfish=['minecraft:infested_stone',
 	 'minecraft:infested_stone_bricks', 'minecraft:infested_mossy_stone_bricks',

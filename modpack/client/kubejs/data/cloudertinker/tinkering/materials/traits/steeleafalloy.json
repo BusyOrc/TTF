@@ -1,0 +1,45 @@
+{"perStat": {
+  "tconstruct:head": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:synergy",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:lacerating",
+      "level": 2
+    }
+  ],
+  "tconstruct:handle": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:synergy",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:lacerating",
+      "level": 2
+    }
+  ],
+  "tconstruct:binding": [
+    {
+      "name": "cloudertinker:twilight",
+      "level": 1
+    },
+    {
+      "name": "cloudertinker:synergy",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:lacerating",
+      "level": 2
+    }
+  ]
+}
+}

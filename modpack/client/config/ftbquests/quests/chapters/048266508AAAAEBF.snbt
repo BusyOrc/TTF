@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "048266508AAAAEBF"
-	group: "756D1B6269D2C725"
+	group: "4293891DF89E3E58"
 	icon: {
 		Count: 1
 		id: "touhou_little_maid:maid_beacon"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "048266508AAAAEBF"
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -444,7 +444,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -9.0d
 		}
 		{
@@ -861,8 +861,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -876,8 +876,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.0d
+			x: -0.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -891,8 +891,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -906,8 +906,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -921,8 +921,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.5d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -952,8 +952,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -967,8 +967,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -982,8 +982,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -997,8 +997,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 9.5d
+			x: -2.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4A2013DBB6BBF7DD"]
@@ -1012,8 +1012,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.5d
+			x: -0.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -1033,8 +1033,8 @@
 				type: "checkmark"
 			}]
 			title: "沉浸乐器"
-			x: 0.0d
-			y: 4.0d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["75AD6A2386ED20D7"]
@@ -1140,8 +1140,8 @@
 				type: "checkmark"
 			}]
 			title: "铁魔法兼容"
-			x: -4.5d
-			y: 0.0d
+			x: -7.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3950E7B1A0F2D1CB"]
@@ -1153,6 +1153,24 @@
 			}]
 			x: -3.5d
 			y: -5.0d
+		}
+		{
+			description: ["此任务只是为了方便查看合成配方"]
+			id: "0E41309A96D37C9E"
+			shape: "heart"
+			tasks: [{
+				id: "0DADF76369DC0D51"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:entity_placeholder"
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_box"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
 		}
 	]
 	title: "车万女仆"

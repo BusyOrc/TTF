@@ -1,6 +1,6 @@
 {
   "README": "https://github.com/Luke100000/ImmersiveMelodies/wiki/Config",
-  "getBufferDelay": 75,
+  "getBufferDelay": 100,
   "maxAudibleDistance": 16,
   "instrumentVolumeFactor": 0.3,
   "perceivedLoudnessAdjustmentFactor": 0.3,

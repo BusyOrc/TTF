@@ -1,0 +1,1396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapters"
+	group: ""
+	icon: "minecraft:experience_bottle"
+	id: "433A2F033DBE9D48"
+	images: [
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 0.25d
+		}
+		{
+			height: 4.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 90.0d
+			width: 6.0d
+			x: 39.25d
+			y: 4.25d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: 7.0d
+			y: 10.25d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: 26.0d
+			y: 10.25d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 15.75d
+			y: 0.25d
+		}
+		{
+			height: 4.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 90.0d
+			width: 6.0d
+			x: -24.0d
+			y: 14.0d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -12.5d
+			y: 18.0d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 19.0d
+			y: 18.25d
+		}
+		{
+			height: 4.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 90.0d
+			width: 6.0d
+			x: 39.25d
+			y: 21.75d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: 27.5d
+			y: 25.5d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: 1.75d
+			y: 25.5d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: -14.0d
+			y: 25.5d
+		}
+		{
+			height: 4.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 90.0d
+			width: 6.0d
+			x: -24.0d
+			y: 30.5d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -11.75d
+			y: 35.25d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: 35.25d
+		}
+		{
+			height: 3.0d
+			image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 33.5d
+			y: 35.25d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B36A9C5BCBFB1B7"]
+			description: [
+				"&b做出匠魂炉多方块和工匠砧"
+				"&r"
+				""
+				"如有需要，可选择性制作其他匠魂提供的设备（如强化调配台）"
+				""
+				""
+				"{ \"text\": \"匠魂\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"105612AA0735B07A\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tinkers_thinking:tinkers_bronze_block"
+				}
+			}
+			id: "5E506921153483B5"
+			size: 2.0d
+			tasks: [{
+				id: "351C1FCCEF4A0537"
+				type: "checkmark"
+			}]
+			title: "匠魂起步"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47D21BE9118CBA43"]
+			description: [
+				"收集材料，制作比初始法术更强的法术"
+				""
+				"推荐自制法术，如：大灭，冻原风暴"
+				""
+				"除探索外，利用AE设备反应仓可制作墨水"
+				""
+				""
+				"{ \"text\": \"魔法\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4686AF66362E74A0\" } }"
+			]
+			icon: "irons_spellbooks:inscription_table"
+			id: "6D2ED22F6B17C0E0"
+			size: 2.0d
+			tasks: [{
+				id: "016C852A2BF66581"
+				type: "checkmark"
+			}]
+			title: "法术"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4D46920D431795F1"]
+			description: [
+				"在第一个章节的任务中了解完所有关于整合包的基础知识，如基本的按键，领地等知识"
+				""
+				"如果答对了题目，该领取的AE奖励不要忘了领，别答完题，明明全对但是直接走了"
+			]
+			icon: "minecraft:book"
+			id: "5B36A9C5BCBFB1B7"
+			size: 2.0d
+			subtitle: "具体内容请在相应章节里查看"
+			tasks: [{
+				id: "17BF0DE95D30AFAF"
+				type: "checkmark"
+			}]
+			title: "基础知识"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"此章节仅提供最基础的引导，不涉及太多的细节内容，但都在正文中提供了相应的跳转链接，可通过点击&b蓝色&r下划线字体的文字来直接跳转到对应章节任务，以查看具体细节"
+				""
+				"如果你比较迷茫，不知道干什么，请参考这个章节的任务，&n&e如果已经有了自己的规划，可直接按照个人思路游玩&r"
+				"&r"
+				"任务不一定要按照顺序完成，任务顺序只是作为给部分玩家的有效约束条件，&d实际上所有任务可按自己的喜好来完成&r"
+				""
+				"此章节的支线代表推荐在此阶段完成，但仅作为可选，也可跳过"
+				"{@pagebreak}"
+				"后续任务的主章节名称（如Easy等）仅代表相关任务难度，与完成顺序无关，顺序可按照此章节进行，或者自由安排"
+				""
+				"Q：为什么要采用一本道线性流程？"
+				"A：为了照顾部分选择困难症玩家，避免在同时有多件可做的任务时，不知道选择哪一个"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "4D46920D431795F1"
+			shape: "rsquare"
+			size: 8.0d
+			subtitle: "因为有玩家表示不知道从哪个任务开始，所以这个任务才这么大"
+			tasks: [{
+				id: "13B2FA72B23F2B32"
+				type: "checkmark"
+			}]
+			title: "章节介绍"
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["673BD9849EB9EB7A"]
+			description: [
+				"获取足够的资源，以建造&b基础&r的AE设备，以方便存储物品，合成"
+				""
+				"其次，尽快完成AE基础材料的自动化生产"
+				""
+				"{ \"text\": \"ae2\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } }"
+			]
+			icon: "ae2:controller"
+			id: "5EADCA385762DE3E"
+			size: 2.0d
+			tasks: [{
+				id: "0C62A1CDE83E84BC"
+				title: "AE"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["301AFF6C61D8FE25"]
+			description: [
+				"1.制造最基础的设备——磨粉机，感应炉，其次是发电相关的能源炉"
+				""
+				"2.如果需要利用熔岩发电，制作热力能源炉，无限熔岩需要机械动力提供"
+				""
+				""
+				"{ \"text\": \"热力\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"200FC850C38EE1ED\" } }"
+			]
+			icon: "thermal:obsidian_glass"
+			id: "361A9B5423176C64"
+			size: 2.0d
+			tasks: [{
+				id: "35ECFB89F30C0B65"
+				title: "热力"
+				type: "checkmark"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["361A9B5423176C64"]
+			description: [
+				"1.制作基础设备：冲压机，搅拌器，鼓风机，动力锯"
+				""
+				"2.获取无限熔岩"
+				""
+				"3.获取足够的烈焰人燃烧室和烈焰血"
+				""
+				"4.利用锅炉获取应力"
+				""
+				"5.收集幽匿相关方块，以制作深渊催化设备"
+				""
+				"6.制作粉碎轮以方便生产部分物品（如怪肉）"
+				""
+				"{ \"text\": \"机械动力\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71DC5E6828675599\" } }"
+			]
+			icon: "create:wrench"
+			id: "326225D178142EB3"
+			size: 2.0d
+			tasks: [{
+				id: "5978014AF6DF38BB"
+				type: "checkmark"
+			}]
+			title: "机械动力"
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E506921153483B5"]
+			description: [
+				"收集材料，制作召唤BOSS的道具，有两种不同配方，可按需选择，并击败第一个BOSS"
+				""
+				"掉落物可在天子处换取无线终端"
+				""
+				"硫磺石在下界很常见"
+			]
+			id: "6671DB42F9BCCF5D"
+			size: 2.0d
+			tasks: [{
+				id: "2F4BA523565BD278"
+				item: "meetyourfight:fossil_bait"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E52CEBBD5536333"]
+			description: [
+				"所收集的材料可用于制作匠魂工具部件，或作为后续配方材料（如酸液）"
+				""
+				"通过探索或AE相关原材料可制作出通往特殊alex洞穴维度的传送门"
+				""
+				""
+				"{ \"text\": \"洞穴\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1041B6C03D4128D8\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			id: "47D21BE9118CBA43"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "488529D1AF4BD199"
+					type: "checkmark"
+				}
+				{
+					dimension: "dimension_of_caves:cave"
+					id: "046BDE14BBF86001"
+					type: "dimension"
+				}
+				{
+					count: 10L
+					id: "0F518B103E3A1B2F"
+					item: { Count: 10, id: "dimension_of_caves:chimeric_cave_tablet" }
+					type: "item"
+				}
+				{
+					id: "2FFD2DF47A3E104C"
+					item: {
+						Count: 1
+						id: "dimension_of_caves:cave"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "探索Alex洞穴"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["24540A52457E8973"]
+			description: ["击败敲钟人"]
+			id: "747C5480C8E60050"
+			size: 2.0d
+			tasks: [{
+				id: "66E0395F4E57670C"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["59ED6765007391A4"]
+			id: "2E17BA2C7DBA3E00"
+			size: 2.0d
+			tasks: [{
+				id: "2CB4231FBC3807AD"
+				item: "meetyourfight:dusk_key"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["00F0F2E2CFF18158"]
+			description: ["击败福尔图娜女爵"]
+			id: "7D3E05CA1F71B23F"
+			size: 2.0d
+			tasks: [{
+				id: "1C6DDA5E8B917A59"
+				item: "meetyourfight:devils_ante"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5BE86C324BD289C1"]
+			description: [
+				"1.在AE的辅助下，规模化制作热力的更多设备，如有机灌注器，熔岩炉，并接入自动化产线"
+				""
+				"2.在设备，供电足够的情况下，制作以下相关材料的被动产线："
+				""
+				"a.木材（除有机灌注器以外，也可通过机械动力的动力锯+动态结构生产）"
+				"b.木炭，黑色染料"
+				"c.红石粉"
+				"d.黏液球"
+				"e.荧石"
+				"f.轻油，重油，精炼油"
+				"g.沙砾，沙子，燧石（借助机械动力粉碎轮）"
+				"h.烈焰血，灵浆"
+				""
+				"&7如后续有需要，请根据实际情况制作更多的被动产线"
+				"&r"
+				"3.写好相关基础的&b主动产线&r的样板，如流明，信素，末影锭等，推荐将基础机器设备和相关原材料都写入样板"
+				""
+				"{ \"text\": \"热力\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"200FC850C38EE1ED\" } }"
+			]
+			icon: "thermal:enderium_glass"
+			id: "6A39C0075D946E7C"
+			size: 2.0d
+			tasks: [{
+				id: "437CD7310E116275"
+				title: "热力进阶"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6A39C0075D946E7C"]
+			description: ["在完成后，可自行给任务打钩，以方便确认"]
+			icon: "thermal:machine_insolator"
+			id: "1587D225A9E270B9"
+			size: 2.0d
+			subtitle: "此系列任务为个人检查清单"
+			tasks: [{
+				id: "69381DA9983BDC45"
+				title: "我已完成更多设备的制作"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1587D225A9E270B9"]
+			icon: "minecraft:charcoal"
+			id: "59056E8307ECA12A"
+			size: 2.0d
+			tasks: [{
+				id: "64B76EDC7390F2B7"
+				title: "我已完成被动产线"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["59056E8307ECA12A"]
+			icon: "ae2:blank_pattern"
+			id: "1393DEAB9340A1D0"
+			size: 2.0d
+			tasks: [{
+				id: "70B648C14D1B8898"
+				title: "我已完成基础材料的样板编写"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4B23CCCBD9C8A082"]
+			description: ["制作矿物钻井，在不同维度获取相应资源"]
+			icon: "createoreexcavation:drilling_machine"
+			id: "333FFA5D491C155B"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3843F62351133FB5"
+					title: "机械动力进阶"
+					type: "checkmark"
+				}
+				{
+					id: "73E3D2F201EF24F8"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			description: [""]
+			icon: "create:mechanical_press"
+			id: "25F3CDF520F88D02"
+			size: 2.0d
+			subtitle: "此系列任务为检查清单"
+			tasks: [
+				{
+					id: "520F78FD90DF70C5"
+					title: "我已完成基础设备制作"
+					type: "checkmark"
+				}
+				{
+					id: "7B862CAAE1DEB40A"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4752C8AC5B2FE760"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7657AA91BA252817"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "04A1600F18632EE9"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			icon: "create:hose_pulley"
+			id: "01D3BA4DA6710A35"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2268FE467B9F2D37"
+					type: "checkmark"
+				}
+				{
+					id: "7B5C6A9400A314A6"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+			]
+			title: "我已完成无限熔岩获取"
+			x: 32.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			icon: "create:blaze_burner"
+			id: "055A7D1A4254A700"
+			size: 2.0d
+			tasks: [
+				{
+					id: "456D009D74433E97"
+					title: "我已获取足够的烈焰人燃烧室"
+					type: "checkmark"
+				}
+				{
+					count: 10L
+					id: "3A9D89E4F4DFFDD9"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			icon: "create:fluid_tank"
+			id: "36A89CFC048A3272"
+			size: 2.0d
+			tasks: [
+				{
+					count: 36L
+					id: "61AB7E15808A5B28"
+					item: { Count: 36, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "75FC2AC255F3253D"
+					title: "锅炉已搭建完成"
+					type: "checkmark"
+				}
+				{
+					count: 9L
+					id: "061A10E1DA1D5368"
+					item: { Count: 9, id: "create:steam_engine" }
+					type: "item"
+				}
+			]
+			title: "锅炉已搭建完成"
+			x: 32.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			icon: "sculkcatalyticchamber:chamber"
+			id: "75335496876AFB81"
+			size: 2.0d
+			tasks: [
+				{
+					id: "719D7C94E0467D69"
+					title: "我已完成深渊催化产线"
+					type: "checkmark"
+				}
+				{
+					id: "68DE5980DEE2D8D3"
+					item: "sculkcatalyticchamber:chamber"
+					type: "item"
+				}
+				{
+					id: "6A89AB015702E148"
+					item: "sculkcatalyticchamber:mechanical_shrieker"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["326225D178142EB3"]
+			icon: "create:crushing_wheel"
+			id: "70FE714738F82F71"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7504BA30BE011F33"
+					title: "我已制作完成粉碎轮"
+					type: "checkmark"
+				}
+				{
+					count: 2L
+					id: "3020A2701E3EBC5C"
+					item: { Count: 2, id: "create:crushing_wheel" }
+					type: "item"
+				}
+			]
+			x: 32.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"326225D178142EB3"
+				"70FE714738F82F71"
+				"055A7D1A4254A700"
+				"01D3BA4DA6710A35"
+				"25F3CDF520F88D02"
+				"36A89CFC048A3272"
+				"75335496876AFB81"
+			]
+			description: ["烈焰血温度：1500"]
+			icon: "tconstruct:blazing_blood_bucket"
+			id: "49CD2555A81CD309"
+			size: 2.0d
+			tasks: [{
+				id: "4CC33B9CBE76462A"
+				title: "利用烈焰血制作更多材料"
+				type: "checkmark"
+			}]
+			x: 39.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333FFA5D491C155B"]
+			description: ["获取无限酸液的方法之一"]
+			id: "6BF6EE641133FD6D"
+			size: 2.0d
+			subtitle: "可选支线"
+			tasks: [{
+				id: "2428EC16E48F6140"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7F7142803D91AFCF"]
+			description: [
+				"在豆腐世界挖掘软质豆腐矿脉以获取幻想豆腐，可制作梦幻豆腐——罗莎琳召唤道具的原材料之一"
+				""
+				"除此之外，两种矿脉产物均可用于获取更多矿物资源"
+			]
+			id: "17911E63AFCFAFBB"
+			size: 2.0d
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				id: "46CA30F8DB715FFA"
+				type: "dimension"
+			}]
+			title: "豆腐世界"
+			x: 12.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["7D3E05CA1F71B23F"]
+			description: [
+				"1.获取矿山中的各种资源，包括热力和机械动力的矿物"
+				""
+				"2.暮色的村庄也较为常见，容易获取村民以发展简易村民"
+			]
+			id: "5BE86C324BD289C1"
+			size: 2.0d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "69EEF7E2679A6998"
+				type: "dimension"
+			}]
+			title: "前往暮色森林"
+			x: -24.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1393DEAB9340A1D0"]
+			description: [
+				"建造："
+				"1.AE相关原材料的自动化产线"
+				"2.反应仓和相关样板"
+				"3.装配矩阵"
+				""
+				"{ \"text\": \"ae2\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } }"
+			]
+			icon: "advanced_ae:reaction_chamber"
+			id: "24540A52457E8973"
+			size: 2.0d
+			tasks: [{
+				id: "38240320B2782526"
+				title: "AE进阶"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["59ED6765007391A4"]
+			icon: "advanced_ae:quantum_core"
+			id: "1522AF32FA303961"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "可选支线"
+			tasks: [{
+				id: "6624FD155BCBFA50"
+				title: "量子计算机"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["17911E63AFCFAFBB"]
+			description: ["挖掘隙间豆腐的远古树脂来源：ALEX洞穴远古树的果实，或quark模组的远古树+树汁提取器"]
+			icon: "kubejs:fantasy_tofu"
+			id: "66402CE78AE21DD2"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0814DD782B77251F"
+					title: "豆腐"
+					type: "checkmark"
+				}
+				{
+					id: "251B44E533351E0D"
+					item: "kubejs:fantasy_tofu"
+					type: "item"
+				}
+				{
+					id: "5B6688E6ECD8AA00"
+					item: "kubejs:gap_tofu"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["6671DB42F9BCCF5D"]
+			description: [
+				"前期需要依赖嗅探兽获取的重要资源：姬海棠种子，远古树苗"
+				""
+				""
+				"{ \"text\": \"嗅探兽\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3933E02335457909\" } }"
+			]
+			icon: "minecraft:sniffer_egg"
+			id: "619A3A56AF1F2EEB"
+			size: 2.0d
+			tasks: [
+				{
+					id: "164F780496CC8B2E"
+					title: "寻找嗅探兽蛋"
+					type: "checkmark"
+				}
+				{
+					id: "3C432CDFFAC31142"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E17BA2C7DBA3E00"]
+			description: ["利用收集到的资源制作小型和大型豆腐祭坛，并利用好相关配方来生产"]
+			icon: "tofucraft:blocktofumomen"
+			id: "3E69AA22D3009F8B"
+			size: 2.0d
+			tasks: [{
+				id: "7474D83B721BA0BB"
+				title: "制作豆腐多方块结构"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["66402CE78AE21DD2"]
+			icon: "kubejs:gap_tofu"
+			id: "59ED6765007391A4"
+			size: 2.0d
+			tasks: [{
+				id: "51E07C2EDE25655F"
+				title: "制作豆腐为原材料的矿物产线"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["57695A8CE602CDEC"]
+			description: [
+				"给女仆合适的鱼竿后，让女仆开始钓鱼，需要注意原版MC开放水域的判定要求"
+				""
+				"1.主世界钓鱼"
+				"2.下界熔岩钓鱼"
+				"3.豆腐世界钓鱼（可选）"
+				""
+				"其中，主世界和下界钓鱼非常重要，可获取海王锭，以及在下界获取钷锭，是后续所需材料，并且考虑到钓鱼本身没有任何前置要求，推荐在早期开始安排女仆钓鱼"
+				""
+				"除了湿件生产法，后期同样也有多方块的生产方式"
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:diamond_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "301AFF6C61D8FE25"
+			size: 2.0d
+			tasks: [{
+				id: "2C2D27FA95C9BBFD"
+				title: "给女仆安排工作"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D2ED22F6B17C0E0"]
+			description: ["给女仆准备好合适的法术，饰品等装备"]
+			id: "00F0F2E2CFF18158"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3660FAA80CE64DF3"
+				item: "touhou_little_maid_spell:spell_enhancement_core"
+				type: "item"
+			}]
+			title: "女仆施法"
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5EADCA385762DE3E"]
+			description: [
+				"利用斯库拉掉落的素材换取维度卡，以方便服务器上游玩"
+				""
+				"如果是单人游玩，量子环亦可"
+				""
+				""
+				"{ \"text\": \"斯库拉\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F7F872B61EE4BE8\" } }"
+			]
+			icon: "cataclysm:essence_of_the_storm"
+			id: "6E52D015ABA28B6A"
+			size: 2.0d
+			tasks: [{
+				id: "6BEE7509555FDD97"
+				title: "击败斯库拉"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["49CD2555A81CD309"]
+			description: [
+				"除了制作/替换更好的匠魂工具或者工具部件之外，还需要检查以下内容："
+				"1.是否有当前能制作的增加强化槽的相关强化，尤其是&a可改进&r"
+				"2.在完成1以后，是否有任何空余的强化槽位"
+				"3.当前是否有不合适的强化"
+				"  a.如果有，利用强化调配台洗掉"
+				"  b.如果没有，再次检查是否有更多的强化槽位可以添加"
+				""
+				"{ \"text\": \"匠魂\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"105612AA0735B07A\" } }"
+			]
+			icon: "tconstruct:materials_and_you"
+			id: "673BD9849EB9EB7A"
+			size: 2.0d
+			tasks: [{
+				id: "5FB2645EA6C59D5C"
+				title: "工具升级"
+				type: "checkmark"
+			}]
+			x: 39.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7187EFB5A8749A2E"]
+			description: [
+				"BOSS可能很难，但只要防御能力合格很难不太可能"
+				""
+				"目前版本灾变相关BOSS都可以消耗一个对应眼睛复活，无需重复跑图"
+				""
+				"根据多方块机器和其他部分配方的需求，收集足够的对应BOSS材料即可"
+			]
+			icon: "cataclysm:witherite_ingot"
+			id: "713E84FBA0A68908"
+			size: 2.0d
+			tasks: [{
+				id: "22DED19C96AEE1F0"
+				type: "checkmark"
+			}]
+			title: "灾变BOSS"
+			x: 1.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["6E52D015ABA28B6A"]
+			description: [
+				"核心物品为魔源凝聚器，可将魔源转化为液体"
+				""
+				""
+				"{ \"text\": \"魔源凝聚器\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54B7370E8DAD098A\" } }"
+			]
+			icon: "starbunclemania:source_condenser"
+			id: "4E52CEBBD5536333"
+			size: 2.0d
+			subtitle: "完成液态魔源的稳定量产"
+			tasks: [
+				{
+					id: "67A9A9417446B6F9"
+					title: "液态魔源"
+					type: "checkmark"
+				}
+				{
+					id: "148F0379AE6AC632"
+					item: "starbunclemania:source_condenser"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F8E78B9CD278A63"]
+			description: ["暮色的BOSS机制都有所调整，如果需要顺利攻克，建议部分BOSS提前做好准备，例如米诺菇"]
+			icon: "twilightdelight:raw_meef_slice"
+			id: "5070320302061064"
+			size: 2.0d
+			tasks: [{
+				id: "4AEE069EE8DA059B"
+				title: "击败暮色BOSS"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["5070320302061064"]
+			description: ["为米诺菇提前准备好傀儡或者女仆吸引仇恨"]
+			icon: "modulargolems:barbaric_vanguard_helmet"
+			id: "7187EFB5A8749A2E"
+			size: 2.0d
+			tasks: [{
+				id: "29E228EFB00CE075"
+				type: "checkmark"
+			}]
+			title: "提前准备"
+			x: -7.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["7B097ACBBE3514DE"]
+			description: ["娜迦飞蛇比较特殊，有传送门珍珠可以召唤，不需要专门寻找"]
+			icon: "mowziesmobs:sol_visage"
+			id: "7F0EBFD01BF62116"
+			size: 2.0d
+			tasks: [{
+				id: "25BE02B7974CE0EE"
+				title: "mowzie相关敌人"
+				type: "checkmark"
+			}]
+			x: 39.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["619A3A56AF1F2EEB"]
+			description: [
+				"有了嗅探兽蛋，就可以制作相应食物解锁暮色的BOSS进度封印"
+				""
+				"除此之外，可根据需求制作食物来提高生命值，或获取增益效果"
+				""
+				"部分食物还可用于兑换矿物，钱币等资源，也是快速/持续获取相应资源的方式之一"
+				""
+				"由于大部分食物并不存在所谓科技线，主要是制作顺序和方法不同，因此后续不再重复说明"
+			]
+			icon: "farmersdelight:rich_soil"
+			id: "57695A8CE602CDEC"
+			size: 2.0d
+			tasks: [{
+				id: "1E6D4FB3A925D6FD"
+				title: "简单的种地"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713E84FBA0A68908"]
+			description: [
+				"这些多方块结构需要消耗更多的材料，并且&d强烈建议使用AE自动合成对应的各种材料，而不是手工打造&r"
+				""
+				"并且，建造多方块的正确方法是根据JEI+AE下单对应材料以后，使用&aMBD2建造器道具直接右键对应的控制器&r，而不是当建筑高手去人工搭建每一个方块"
+				""
+				"建造过程通常不会替换原有的方块，因此建议提前清理好空间"
+				""
+				"除了2个此阶段推荐建造的可选多方块结构以外，剩下3个结构为必须建造的结构，但是材料要求并不贵，在产线已经搭建完成的情况下只需要合成终端下单就可以了，但是AE要考虑的就很多了"
+			]
+			icon: "mbd2:mbd_gadgets"
+			id: "2A8689068A99A7E8"
+			size: 2.0d
+			tasks: [
+				{
+					id: "475C19A5E4CE0FA2"
+					title: "进阶多方块"
+					type: "checkmark"
+				}
+				{
+					id: "27CFA665B11B559D"
+					item: "mbd2:mbd_gadgets"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["49CD2555A81CD309"]
+			description: [
+				"所有珍珠并非必须挑战，而且难度相对来说比正常敌人更大，但是合理利用能有效获取更多资源/灵视"
+				""
+				""
+				"{ \"text\": \"梦貘\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DDCFADF33AF5FB2\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/blaze"
+				}
+			}
+			id: "0154949AFB852BC7"
+			size: 2.0d
+			subtitle: "支线"
+			tasks: [{
+				id: "32D70CCE015184FC"
+				title: "传送门珍珠"
+				type: "checkmark"
+			}]
+			x: 43.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A8689068A99A7E8"]
+			description: ["并非强制要求制作的多方块结构，但能量产部分物品"]
+			id: "3AD9C6EAEC7D3CBE"
+			size: 2.0d
+			subtitle: "支线"
+			tasks: [{
+				id: "7E226584D117C834"
+				item: "mbd2:aqua"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["2A8689068A99A7E8"]
+			description: ["尽管并不强制要求，但发电量很可观，需要的腾炎块来自焰魔"]
+			id: "3605A8D8BF812ACC"
+			size: 2.0d
+			subtitle: "支线"
+			tasks: [{
+				id: "20172F5B2601A29C"
+				item: "mbd2:nuclear_plant"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["2A8689068A99A7E8"]
+			id: "5C1219F427C8ABBB"
+			size: 2.0d
+			tasks: [{
+				id: "069F41E147B876E3"
+				item: "mbd2:patch"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["2A8689068A99A7E8"]
+			id: "07A9336B1294FD86"
+			size: 2.0d
+			tasks: [{
+				id: "09334C50FCCE4E29"
+				item: "mbd2:touhou_shrine"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["2A8689068A99A7E8"]
+			id: "5F04CE35417C627E"
+			size: 2.0d
+			tasks: [{
+				id: "258721F25D6F6209"
+				item: "mbd2:border_stablizer"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["747C5480C8E60050"]
+			description: [
+				"需要利用这几种材料，在消耗流明锭，气之精华和破碎奇点（原材料均可大量获取）的情况下增产液态轻云"
+				""
+				"而下界的矿脉挖掘，后续的多方块配方制作，石油的复制需要用到液态轻云"
+			]
+			icon: "kubejs:cloud_dust"
+			id: "7B097ACBBE3514DE"
+			size: 2.0d
+			tasks: [
+				{
+					id: "05798501A31750F4"
+					item: "kubejs:cloud_dust"
+					type: "item"
+				}
+				{
+					id: "35EDFAC82DFDCC02"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "0D3E405B2FDAB858"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+				{
+					id: "47C5AC6C4DB74FE7"
+					item: "advanced_ae:shattered_singularity"
+					type: "item"
+				}
+			]
+			title: "液态轻云产线"
+			x: 31.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7F0EBFD01BF62116"]
+			description: [""]
+			icon: "mowziesmobs:wrought_helmet"
+			id: "4B23CCCBD9C8A082"
+			size: 2.0d
+			tasks: [{
+				id: "20847D5DC022A4F0"
+				type: "checkmark"
+			}]
+			title: "收集mowzie's mobs素材"
+			x: 39.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3E69AA22D3009F8B"]
+			icon: "kubejs:nuclear_fuel_bucket"
+			id: "474BCA9EF292F368"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2DA34FDF8D19B0BA"
+					item: "kubejs:nuclear_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "2E83C920FE823CF2"
+					item: "sakuratinker:nihilite_ingot"
+					type: "item"
+				}
+			]
+			title: "量产魔力核燃料，获取虚金"
+			x: -24.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["333FFA5D491C155B"]
+			id: "7F7142803D91AFCF"
+			size: 2.0d
+			tasks: [{
+				id: "6464CFDAF9DA48A4"
+				item: "kubejs:magic_fuel_bucket"
+				type: "item"
+			}]
+			title: "量产魔法燃料"
+			x: 23.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"07A9336B1294FD86"
+				"5F04CE35417C627E"
+				"5C1219F427C8ABBB"
+			]
+			description: [""]
+			icon: "kubejs:alpha"
+			id: "12D1EB46B472F685"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0A075C842456E7E3"
+					title: "制作特殊道具"
+					type: "checkmark"
+				}
+				{
+					id: "0608497950E5D62B"
+					item: "kubejs:alpha"
+					type: "item"
+				}
+				{
+					id: "59A12483963F2C07"
+					item: "kubejs:beta"
+					type: "item"
+				}
+				{
+					id: "3052482B15440FB9"
+					item: "kubejs:gamma"
+					type: "item"
+				}
+				{
+					id: "75A2EDF74A1A2EE3"
+					item: "kubejs:omega"
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["12D1EB46B472F685"]
+			description: [
+				"而在外界这一边……"
+				""
+				"&d未完待续&r"
+			]
+			icon: "minecraft:end_stone"
+			id: "11ABE53467F9966F"
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [{
+				id: "350BE1D2A32507B0"
+				type: "checkmark"
+			}]
+			title: "THE END?"
+			x: 40.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["63F0596050570918"]
+			id: "693783F83286150D"
+			size: 2.0d
+			tasks: [{
+				id: "2FCA9941F5E3ADCB"
+				item: "createaddition:creative_energy"
+				type: "item"
+			}]
+			x: -38.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["63F0596050570918"]
+			id: "4D474FD7647CEC66"
+			size: 2.0d
+			tasks: [{
+				id: "03F0DA3CDA28BF2A"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -36.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["63F0596050570918"]
+			id: "6216A625AA48B766"
+			size: 2.0d
+			tasks: [{
+				id: "10CCC6E943114A92"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -34.625d
+			y: 1.875d
+		}
+		{
+			description: [
+				"1.打开游戏"
+				"2.做一点微小的工作"
+				"3.看着JEI，然后制作这三件物品"
+				""
+				"通关"
+			]
+			id: "63F0596050570918"
+			size: 1.5d
+			tasks: [{
+				id: "78241C16F4EA0F2E"
+				title: "如何速通"
+				type: "checkmark"
+			}]
+			x: -36.625d
+			y: -1.125d
+		}
+		{
+			dependencies: ["474BCA9EF292F368"]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tinkers_thinking:tinkers_bronze_block"
+				}
+			}
+			id: "4F8E78B9CD278A63"
+			size: 2.0d
+			tasks: [{
+				id: "55CE7038A8F1B201"
+				title: "更新匠魂材料"
+				type: "checkmark"
+			}]
+			x: -24.0d
+			y: 35.0d
+		}
+	]
+	title: "主线"
+}

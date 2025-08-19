@@ -28,6 +28,7 @@ event.recipes.thermal.smelter('4x kubejs:cloud_dust', ['ars_nouveau:air_essence'
 
 
 event.recipes.thermal.smelter('quark:diamond_heart', ['6x minecraft:diamond','3x #forge:ingots/dragon_steel', 'touhou_little_maid:power_point']).energyMod(16.0)
+event.recipes.thermal.smelter('mystias_izakaya:reisen', ['16x ltc2:refined_salt_block','5x ltc2:hotaurum_ingot', 'hmag:fortune_crystal']).energyMod(16.0)
 
 
 //粉变液态

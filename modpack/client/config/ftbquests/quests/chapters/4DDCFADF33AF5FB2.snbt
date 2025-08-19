@@ -19,6 +19,8 @@
 		{
 			description: [""]
 			id: "0D02F16B0331B616"
+			shape: "heart"
+			size: 2.0d
 			subtitle: "睡一次觉"
 			tasks: [{
 				icon: "minecraft:red_bed"
@@ -37,7 +39,7 @@
 				"0A4A43448B34A980"
 			]
 			description: [
-				"哆来咪：你听说过吗？&a红辣椒是进入梦境世界的媒介&r，并且进入时也无需携带陀螺或者戒指，但最好准备好盔甲与武器"
+				"哆来咪：你听说过吗？&a红辣椒是进入梦境世界的媒介&r，并且进入时也无需携带陀螺或者戒指，但最好准备好盔甲与武器。如果缺少辣椒，可以制作辣椒催生粉在草地上右键生成各种辣椒"
 				""
 				"梦和现实的边界正在变得越来越模糊，因此入梦时也请不要掉以轻心，也许梦中的生物也会影响到现实，并且受到异变的影响，大部分梦里的生物都比现实中的更强大"
 				""
@@ -74,7 +76,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.75d
+			x: 0.75d
 			y: 3.75d
 		}
 		{
@@ -108,7 +110,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.75d
+			x: -2.75d
 			y: 3.75d
 		}
 		{
@@ -198,8 +200,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.25d
-			y: 3.75d
+			x: 0.75d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2B92DBC507FF2E5A"]
@@ -251,14 +253,14 @@
 			icon: "traveloptics:aqua_upgrade_orb"
 			id: "3A5D4E796774DA5B"
 			shape: "rsquare"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "543F3A5C9F27E80E"
 				type: "checkmark"
 			}]
 			title: "灵视交易"
 			x: 0.75d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3A5D4E796774DA5B"]

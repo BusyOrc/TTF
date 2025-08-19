@@ -22,6 +22,7 @@
     "miners_delight",
     "mystias_izakaya",
     "tinkerscalibration",
+    "irons_spellbooks",
     "thermalendergy"
     
   ],
@@ -58,7 +59,8 @@
     "forge:ice_cubes",
     "forge:bat_wings",
     "forge:fruits/{material}",
-    "forge:vegetables/cucumber"
+    "forge:vegetables/cucumber",
+    "irons_spellbooks:blood_focus"
   ],
   "materials": [
     "lithium",

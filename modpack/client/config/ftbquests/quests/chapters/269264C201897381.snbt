@@ -17,6 +17,10 @@
 		{
 			alpha: 120
 			height: 4.0d
+			hover: [
+				"末影人都已经被灵梦退治了！"
+				"为了活下来，都被迫选择娘化了！"
+			]
 			image: "tconstruct:item/tool/armor/slime/helmet_skull_tconstruct_ender_pearl"
 			rotation: 0.0d
 			width: 4.0d
@@ -44,7 +48,7 @@
 			image: "quark:textures/attribute/luck.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.5d
+			x: 4.25d
 			y: -0.5d
 		}
 		{
@@ -62,7 +66,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2D97609AFEA7E2BE"]
+			dependencies: ["71CBF4474398BBA2"]
 			description: [
 				"放置的营火不会自动点燃，但点燃后可保存重生点，在下界和末地均可使用，优先级比床更高。&a潜行右键&r可以取消，如果对着床潜行右键可以让床的复活点优先级高于营火"
 				""
@@ -100,20 +104,21 @@
 				}
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "12DCFEC0CDA2AB3B"
 				type: "checkmark"
 			}]
 			title: "重要的改动"
 			x: -0.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
 				"在&a开启创造模式&r的情况下，匠魂的强化水晶可以右键工具来无消耗无限添加强化，这是匠魂模组自带的功能，生存模式无法以这种方式使用，正常的使用方法为在工匠砧上面作为材料"
 				""
-				"&d当前女仆模组版本由于标签符号存在一些问题，在女仆界面右侧打开全局配置会导致游戏崩溃。该问题已反馈，请等待作者修复"
+				"&d当前女仆模组版本由于标签符号存在一些问题，在女仆界面右侧打开全局配置会导致游戏崩溃。该问题已反馈，请等待作者修复。"
+				"&b女仆厨房模组也暂时存在兼容BUG，暂时移除，之后会加回来"
 				"&r"
 				"交流群："
 				"一群：823588101"
@@ -133,17 +138,19 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			size: 2.0d
+			shape: "rsquare"
+			size: 8.0d
+			subtitle: "因为有玩家表示不知道从哪个任务开始，所以这个任务才这么大"
 			tasks: [{
 				id: "6D428C4351DF0682"
 				type: "checkmark"
 			}]
 			title: "游玩须知"
-			x: -3.5d
-			y: -0.5d
+			x: -14.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6DEADF6A1FC87F67"]
+			dependencies: ["2D97609AFEA7E2BE"]
 			description: [
 				""
 				"如果你是一名经常玩整合包的MC老玩家，这个任务&a可以跳过不看&r，跳过剧情≠跳过人生"
@@ -184,17 +191,17 @@
 				}
 			}
 			id: "212E662535D00165"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "426EDF704A3F6F5C"
 				type: "checkmark"
 			}]
 			title: "为纯新人提供的一点指引"
-			x: 2.5d
-			y: 3.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2D97609AFEA7E2BE"]
+			dependencies: ["09E653DE1F02F179"]
 			description: [
 				"首先根据自己的习惯调整键位，视频设置，是否开启光影"
 				"在安装新版整合包后，除了转移存档，记得也要转移xaero地图相关缓存文件和已经调整好的options文件，config等文件除非确认可以动，否则尽量不要动"
@@ -206,14 +213,14 @@
 			icon: "irons_spellbooks:nature_rune"
 			id: "71CBF4474398BBA2"
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "33BAA0FD78C48E88"
 				type: "checkmark"
 			}]
 			title: "如何根据个人情况调整配置"
-			x: -3.5d
-			y: 3.5d
+			x: -2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6DEADF6A1FC87F67"]
@@ -241,7 +248,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["2D97609AFEA7E2BE"]
+			dependencies: ["0C6DFF00454B7779"]
 			description: [
 				"默认按M打开xaero世界地图以后，周围一定范围内的区块右键即可&b认领&r，认领后继续右键并选择相应选项，可&a强加载区块"
 				"&r"
@@ -261,11 +268,11 @@
 				type: "checkmark"
 			}]
 			title: "领地认领与强加载"
-			x: -6.5d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2D97609AFEA7E2BE"]
+			dependencies: ["7D354A0C59AA783E"]
 			description: [
 				"别急。你仔细看看相关任务，是不是左上角跟右上角有着俩个小三角形。"
 				""
@@ -281,7 +288,7 @@
 			icon: "ftbquests:book"
 			id: "09E653DE1F02F179"
 			shape: "octagon"
-			size: 2.0d
+			size: 1.5d
 			subtitle: "“为什么开不了啊？是不是卡bug了啊？”"
 			tasks: [{
 				id: "3BD53DDA6CC4D003"
@@ -289,8 +296,8 @@
 				type: "checkmark"
 			}]
 			title: "“关于为什么我的任务都是灰色的”"
-			x: -6.5d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -307,14 +314,14 @@
 			icon: "ae2:spatial_anchor"
 			id: "274655AA3D90DD2B"
 			shape: "heart"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "4258D395682E2F53"
 				type: "checkmark"
 			}]
 			title: "小知识"
-			x: 6.0d
-			y: 3.5d
+			x: 2.75d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -557,17 +564,18 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["212E662535D00165"]
 			description: ["部分玩家在游玩过程中遇到了“只要骑乘龙等实体就会闪退”的问题，具体原因可能与fresh moves资源包有关，在添加额外资源包时请格外注意"]
 			icon: "iceandfire:dragonegg_red"
 			id: "0C6DFF00454B7779"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "37BFB022AD04DC0B"
 				type: "checkmark"
 			}]
 			title: "当前版本关于骑乘龙等实体的说明"
-			x: -6.5d
-			y: 5.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6216B7A02E75F9A1"]
@@ -612,11 +620,22 @@
 			description: [
 				"你能否正确回答车万角色的相关问题呢？如果回答正确的话有&a丰厚奖励&r"
 				""
+				"&c答对记得领取奖励&r"
+				"&1答对记得领取奖励"
+				"&r&2答对记得领取奖励"
+				"&r&e答对记得领取奖励"
+				"&r&b答对记得领取奖励"
+				"&r"
+				""
+				"为什么要反复强调？因为真的有星际玩家完全没看见，不知道还可以领奖励"
+				""
 				"但是，机会只有一次，&c如果回答错误的话，没有再次选择的机会&r"
 			]
+			hide_dependency_lines: true
 			icon: "supplementaries:present_lime"
 			id: "6216B7A02E75F9A1"
 			shape: "rsquare"
+			size: 4.0d
 			subtitle: "建议谨慎选择"
 			tasks: [{
 				id: "328E3F690C46DD64"

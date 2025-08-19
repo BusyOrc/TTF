@@ -82,26 +82,26 @@ ItemEvents.tooltip(event => {
   })
 
     event.addAdvanced('thermal:dynamo_stirling', (item, advanced, text) => {
-    text.add(Text.gold("消耗固体燃料，基础发电量：120FE/t"))
+    text.add(Text.gold("消耗固体燃料，基础发电量：480FE/t"))
   })
 
     event.addAdvanced('thermal:dynamo_compression', (item, advanced, text) => {
-    text.add(Text.gold("消耗液体，基础发电量：160FE/t"))
+    text.add(Text.gold("消耗热力液体，基础发电量：1280FE/t"))
   })
       event.addAdvanced('thermal:dynamo_magmatic', (item, advanced, text) => {
-    text.add(Text.gold("消耗熔岩或烈焰血，基础发电量：60FE/t"))
+    text.add(Text.gold("消耗熔岩或烈焰血，基础发电量：120FE/t"))
   })
       event.addAdvanced('thermal:dynamo_numismatic', (item, advanced, text) => {
-    text.add(Text.gold("消耗金属币，基础发电量：120FE/t"))
+    text.add(Text.gold("消耗金属币，基础发电量：240FE/t"))
   })
       event.addAdvanced('thermal:dynamo_lapidary', (item, advanced, text) => {
-    text.add(Text.gold("消耗珠宝或钱币，基础发电量：120FE/t"))
+    text.add(Text.gold("消耗珠宝或钱币，基础发电量：960FE/t"))
   })
 event.addAdvanced('thermal:dynamo_disenchantment', (item, advanced, text) => {
-    text.add(Text.gold("消耗附魔书，基础发电量：240FE/t"))
+    text.add(Text.gold("消耗附魔书，基础发电量：1920FE/t"))
   })
 event.addAdvanced('thermal:dynamo_gourmand', (item, advanced, text) => {
-    text.add(Text.gold("消耗食物，基础发电量：160FE/t"))
+    text.add(Text.gold("消耗食物，基础发电量：1280FE/t"))
   })
 
 event.addAdvanced(Item.of('youkaishomecoming:rumia_hairband'), (item, advanced, text) => {

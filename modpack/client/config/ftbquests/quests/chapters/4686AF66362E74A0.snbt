@@ -105,7 +105,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -7.75d
-			y: -6.25d
+			y: -8.5d
 		}
 		{
 			click: "#"
@@ -252,7 +252,7 @@
 			y: 11.5d
 		}
 	]
-	order_index: 7
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -265,14 +265,14 @@
 			icon: "touhou_little_maid:bookshelf"
 			id: "18AAD55258BE9D87"
 			shape: "rsquare"
-			size: 2.1d
+			size: 5.0d
 			tasks: [{
 				id: "098F5DB19A24422E"
 				type: "checkmark"
 			}]
 			title: "昨天我们攻略了大书库"
-			x: -7.3500000000000005d
-			y: 0.0d
+			x: -7.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["49D50CFF3DF41852"]
@@ -486,8 +486,8 @@
 		}
 		{
 			dependencies: [
-				"18AAD55258BE9D87"
 				"52A1E988CD2320F7"
+				"2BE6B3FA37D6CE4F"
 			]
 			description: [
 				"帕秋莉：既然你从咲夜那里听说了我这里有异变相关的信息，那我就直说了吧，根据一本古书上的记载，内容是这样说的，当大量个体在复杂的虚拟互动关系中丢失主体性时，个体的总和将变为失控的群体，而这部分溢出的能量并不会凭空消失，而是转化为能够催生异常形态变化与抑制原生力量的魔力源泉。"
@@ -508,7 +508,7 @@
 			}]
 			title: "询问帕秋莉关于异变"
 			x: -7.35d
-			y: 6.0d
+			y: 6.3d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -1033,7 +1033,7 @@
 		{
 			dependencies: ["470A698F7EC80221"]
 			description: [
-				"灌注式是极其重要的基础设施，可以吸收自然环境中的魔力来灌注物品，"
+				"灌注室是极其重要的基础设施，可以吸收自然环境中的魔力来灌注物品，"
 				"当然，你也可以在以灌注室为中心5x5x5范围内放置魔源罐，提供魔力来加快灌注。"
 				"青金石或紫水晶可以灌注成魔源宝石。也可以用来合成各种精华。"
 			]
@@ -5372,6 +5372,136 @@
 			}]
 			x: -18.5d
 			y: -10.25d
+		}
+		{
+			dependencies: ["29A62625CEEE35A8"]
+			id: "7A76D5B6A9A1BD11"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "08C09AE7EF28A5E4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "touhoutinkermodifier:absolutezero"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 1.125d
+		}
+		{
+			dependencies: ["29A62625CEEE35A8"]
+			id: "66D51549382EF411"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "4D12B38DC574BCDA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "touhoutinkermodifier:arcticstorm"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["29A62625CEEE35A8"]
+			id: "6607561B2DC8068D"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "1F403A62690D913D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "touhoutinkermodifier:worldender"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 2.375d
+		}
+		{
+			dependencies: ["29A62625CEEE35A8"]
+			id: "7827B7460BECE87F"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "1C0E2F2F517657F8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "touhoutinkermodifier:skysplitter"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.375d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "minecraft:experience_bottle"
+			id: "29A62625CEEE35A8"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "08A8B2796ACD0621"
+				title: "自制原创法术"
+				type: "checkmark"
+			}]
+			x: 6.785714285714278d
+			y: 1.6642857142857324d
 		}
 	]
 	title: "大书库(魔法)"

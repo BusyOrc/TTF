@@ -1,0 +1,45 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "ingeredient":
+        [
+          {
+        "item": "create:precision_mechanism",
+        "amount_needed":32
+      },
+      {
+        "item": "kubejs:meiling",
+        "amount_needed":2
+      }
+      ]
+    },
+      {
+        "item": "ltc2:delicacy_blaze_latiao",
+        "amount_needed":8
+        
+      },
+      {
+        "ingeredient":
+      [{
+        "item": "thermal:tar_block",
+        "amount_needed":12
+      },
+      {
+        "item": "ltc2:hotaurum_ingot",
+        "amount_needed":12
+      }]
+      }
+    ],
+    "level": 4,
+    "result": "touhoutinkermodifier:theworld",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+          {
+            "tag": "tconstruct:modifiable/held"
+          }
+    ]
+  }

@@ -115,7 +115,7 @@ debug_msg = false
 		#Prevent item in loop that are fully input outside the loop.
 		prevent_indirect = true
 		#Prevent new byproduct from loop that's not available in graph.
-		prevent_new_byproduct = false
+		prevent_new_byproduct = true
 
 	[crafting.generating]
 		#Generate recipes that has not all ingredients available.

@@ -11,57 +11,15 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "kubejs:devil"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:damage_source_properties",
-          "predicate": {
-    "type": "minecraft:damage_source",
-    "tags": [
-      {
-        "id": "forge:spells",
-        "expected": true  
-      }
-    ]
-  }  
-    }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
+                "max": 0.2,
                 "min": 0.0
               },
               "function": "minecraft:looting_enchant"
@@ -74,7 +32,6 @@
         {
           "condition": "minecraft:damage_source_properties",
           "predicate": {
-    "type": "minecraft:damage_source",
     "tags": [
       {
         "id": "forge:spells",
@@ -82,7 +39,10 @@
       }
     ]
   }  
-    }
+    },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
       ]
     },
     {
@@ -90,12 +50,48 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple"
-        },
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 0.2,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "kubejs:devil"
+        }
+      ],
+      "conditions": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gilded_blackstone"
-        },
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+    "tags": [
+      {
+        "id": "forge:spells",
+        "expected": true  
+      }
+    ]
+  }  
+    },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle"
@@ -123,41 +119,19 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0.0,
-                "max": 2.0,
+                "max": 5.0,
                 "type": "minecraft:uniform"
               }
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
-                "min": 0.0,
+                "min": 0.5,
                 "max": 1.0
               }
             }
           ],
-          "name": "minecraft:quartz"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              }
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "name": "hmag:evil_crystal_fragment"
         }
       ],
       "conditions": [

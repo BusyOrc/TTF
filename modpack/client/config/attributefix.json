@@ -99,17 +99,6 @@
         "value": 1
       }
     },
-    "footwork:max_fracture": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:nature_magic_resist": {
       "enabled": false,
       "min": {
@@ -154,17 +143,6 @@
         "value": 10
       }
     },
-    "footwork:evasion": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "youkaishomecoming:initial_power": {
       "enabled": false,
       "min": {
@@ -206,7 +184,7 @@
       },
       "max": {
         "default": 100,
-        "value": 100
+        "value": 0.75
       }
     },
     "exmodifier:max_dodge": {
@@ -275,17 +253,6 @@
         "value": 1024
       }
     },
-    "tacz:tacz.bullet_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "exmodifier:firework_damage": {
       "enabled": false,
       "min": {
@@ -295,17 +262,6 @@
       "max": {
         "default": 100000000,
         "value": 100000000
-      }
-    },
-    "footwork:posture_cooldown_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -383,17 +339,6 @@
       "max": {
         "default": 1000,
         "value": 1000
-      }
-    },
-    "footwork:max_spirit": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "attributeslib:crit_chance": {
@@ -1045,17 +990,6 @@
         "value": 10000
       }
     },
-    "footwork:max_might": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "irons_spellbooks:summon_damage": {
       "enabled": false,
       "min": {
@@ -1089,17 +1023,6 @@
         "value": 100
       }
     },
-    "footwork:max_posture": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "nffgirls:nffgirls.anti_aquatic": {
       "enabled": false,
       "min": {
@@ -1119,7 +1042,7 @@
       },
       "max": {
         "default": 100,
-        "value": 75
+        "value": 0.85
       }
     },
     "nffgirls:nffgirls.water_aspect": {
@@ -1153,28 +1076,6 @@
       "max": {
         "default": 1,
         "value": 0.5
-      }
-    },
-    "footwork:skill_effectiveness": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "footwork:might_gen": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "attributeslib:fire_damage": {
@@ -1430,17 +1331,6 @@
         "value": 100
       }
     },
-    "footwork:posture_gain": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "l2damagetracker:crit_rate": {
       "enabled": false,
       "min": {
@@ -1584,39 +1474,6 @@
         "value": 100
       }
     },
-    "footwork:threat": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "footwork:spirit_gain": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "footwork:encirclement_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "tconstruct:generic.knockback_multiplier": {
       "enabled": false,
       "min": {
@@ -1626,17 +1483,6 @@
       "max": {
         "default": 100,
         "value": 100
-      }
-    },
-    "footwork:posture_regen": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "attributeslib:current_hp_damage": {
@@ -1776,17 +1622,6 @@
       "min": {
         "default": 0,
         "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "footwork:stealth": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
       },
       "max": {
         "default": 1024,

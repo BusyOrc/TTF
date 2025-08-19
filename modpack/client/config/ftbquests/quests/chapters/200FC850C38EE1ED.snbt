@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "200FC850C38EE1ED"
-	group: "70B4907D74D7EF03"
+	group: "2F6557FC41D866A7"
 	icon: "thermal:signalum_glass"
 	id: "200FC850C38EE1ED"
 	images: [
@@ -12,8 +12,8 @@
 			image: "touhou_tinker_fantasy:textures/satori.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: -5.5d
-			y: -0.5d
+			x: -8.0d
+			y: -0.25d
 		}
 		{
 			click: "#65A92D6BAE272CE4"
@@ -22,7 +22,7 @@
 			image: "thermal:block/cells/fluid_cell_bottom"
 			rotation: 0.0d
 			width: 4.0d
-			x: 22.5d
+			x: 28.5d
 			y: 5.0d
 		}
 		{
@@ -33,7 +33,7 @@
 			image: "thermal:block/machines/machine_smelter_active"
 			rotation: 0.0d
 			width: 4.0d
-			x: 3.0d
+			x: 4.25d
 			y: -0.5d
 		}
 		{
@@ -66,7 +66,7 @@
 			image: "thermal:block/tinker_bench_n"
 			rotation: 0.0d
 			width: 3.0d
-			x: 15.5d
+			x: 21.5d
 			y: 0.0d
 		}
 		{
@@ -142,8 +142,8 @@
 			image: "thermal:block/machines/machine_insolator_active"
 			rotation: 0.0d
 			width: 3.0d
-			x: 5.0d
-			y: -4.5d
+			x: 7.011904761904738d
+			y: -9.126190476190462d
 		}
 		{
 			height: 4.1d
@@ -225,6 +225,30 @@
 			x: 11.0d
 			y: 15.5d
 		}
+		{
+			height: 3.0d
+			image: "supplementaries:block/cannon_arrow"
+			rotation: -45.0d
+			width: 3.0d
+			x: -2.75d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_up.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: 4.25d
+			y: -2.5d
+		}
 	]
 	order_index: 5
 	quest_links: [ ]
@@ -237,9 +261,10 @@
 				"不要纠结为什么地灵殿有这些机器，毕竟地灵殿的运转也是需要设备的"
 			]
 			hide_until_deps_complete: false
+			icon: "minecraft:heart_of_the_sea"
 			id: "2E620B5A91921B5C"
 			shape: "rsquare"
-			size: 1.2d
+			size: 3.0d
 			tasks: [{
 				id: "73ACC5E965375C84"
 				title: "6.1 地灵殿之主"
@@ -272,6 +297,7 @@
 				item: "thermal:invar_dust"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "13DBB8E370607768"
@@ -292,7 +318,7 @@
 				}
 			]
 			title: "6.2 磨粉机"
-			x: 1.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -314,13 +340,14 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "34BBCA7E34B110B9"
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
 			title: "6.3 感应炉"
-			x: 3.0d
+			x: 4.25d
 			y: -0.5d
 		}
 		{
@@ -334,7 +361,13 @@
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: false
-			icon: "thermal:dynamo_magmatic"
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+				}
+			}
 			id: "45E3CBEB47ED01EF"
 			rewards: [{
 				id: "118E601511FDA6CD"
@@ -347,7 +380,7 @@
 			}]
 			title: "6.6 电力"
 			x: -1.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E620B5A91921B5C"]
@@ -360,6 +393,7 @@
 				""
 				"{ \"text\": \"物流与仓储\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"22253443F259226E\" } }"
 			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "laserio:laser_connector"
 			id: "066184617033CE8E"
@@ -403,11 +437,17 @@
 			}]
 			title: "6.7 物流"
 			x: -1.0d
-			y: -2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["609C738A0F0B222C"]
-			description: ["觉：其他机器的使用方法也同样简单，只需要供电，按需供应材料即可完成生产，可以加入升级来提高效率，或者部分配方可以加入催化剂提高产物的产量。真的很简单，连我家阿空都能学会。"]
+			description: [
+				"觉：其他机器的使用方法也同样简单，只需要供电，按需供应材料即可完成生产，可以加入升级来提高效率，或者部分配方可以加入催化剂提高产物的产量。真的很简单，连我家阿空都能学会。"
+				""
+				"这里就先从最有用的&a有机灌注器&r开始吧，对于这种机器来说，不要忘了用上循环升级，之后只需要输入水，电力，并提供最基础的种子，树苗等原料，就可以自动生产了"
+				""
+				"如果有需要，可以加入化肥提高效率"
+			]
 			hide_until_deps_complete: false
 			icon: "thermal:machine_insolator"
 			id: "4365FCED0C6DEA6B"
@@ -425,30 +465,14 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2DF19921292F8ACB"
-					item: "thermal:machine_insolator"
-					type: "item"
-				}
-				{
-					id: "10D9E9348935B3F6"
-					item: "thermal:machine_centrifuge"
-					type: "item"
-				}
-				{
-					id: "387D40432DD7D04A"
-					item: "thermal:machine_crucible"
-					type: "item"
-				}
-				{
-					id: "26A2C107F1F4170C"
-					item: "thermal:machine_refinery"
-					type: "item"
-				}
-			]
+			size: 2.0d
+			tasks: [{
+				id: "2DF19921292F8ACB"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
 			title: "6.4 更多机器"
-			x: 5.0d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -488,16 +512,17 @@
 				}
 			]
 			title: "采集设备"
-			x: 17.5d
+			x: 23.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["609C738A0F0B222C"]
+			dependencies: ["12F63DF0E7D92057"]
 			description: [
-				"觉：搭配AE使用时，记得将样板供应器那一面调整为输入+输出的模式"
+				"觉：各种机器搭配AE使用时，记得将样板供应器那一面调整为输入+输出的模式"
 				""
 				"&a所有热力机器均可添加能匹配的升级&r，不要忘了，包括各种发电机，添加升级以后能大幅提高发电量"
 			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "thermal:machine_speed_augment"
 			id: "27F31F5CA9C9C89C"
@@ -512,8 +537,8 @@
 				type: "checkmark"
 			}]
 			title: "6.8 机器使用事项"
-			x: 3.0d
-			y: 1.5d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["27F31F5CA9C9C89C"]
@@ -537,8 +562,8 @@
 				type: "item"
 			}]
 			title: "6.9 高级升级"
-			x: 3.0d
-			y: 3.5d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4365FCED0C6DEA6B"]
@@ -566,12 +591,13 @@
 				type: "item"
 			}]
 			title: "6.11 强力化肥"
-			x: 5.0d
-			y: -2.5d
+			x: 7.011904761904738d
+			y: -7.126190476190462d
 		}
 		{
 			dependencies: ["609C738A0F0B222C"]
 			description: ["循环升级适合用于&a有机灌注器&r等产物需要重新放回输入端的机器，例如产物中的树苗，苔藓块等"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			icon: "thermal:machine_cycle_augment"
 			id: "376661169399F340"
@@ -586,8 +612,8 @@
 				type: "checkmark"
 			}]
 			title: "6.10 循环升级"
-			x: 3.0d
-			y: -2.5d
+			x: 4.25d
+			y: -8.5d
 		}
 		{
 			dependencies: ["376661169399F340"]
@@ -631,13 +657,13 @@
 				type: "item"
 			}]
 			title: "6.12 经验存储"
-			x: 3.0d
-			y: -4.5d
+			x: 4.25d
+			y: -9.75d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			description: [
-				"如果已经顺利完成了河童的任务，方法之一是使用蒸汽引擎搭配交流发电机来提供电力，一台满功率蒸汽引擎的应力足够供应前期绝大部分机械动力应力需求加上交流发电机"
+				"如果已经顺利完成了河童的任务，方法之一是使用蒸汽引擎搭配交流发电机来提供电力"
 				""
 				"发电量取决于输入的转速"
 			]
@@ -655,8 +681,8 @@
 				type: "item"
 			}]
 			title: "6.13 交流发电机"
-			x: 1.0d
-			y: 1.5d
+			x: 0.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["066184617033CE8E"]
@@ -692,10 +718,13 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -10.0d
 		}
 		{
-			dependencies: ["4365FCED0C6DEA6B"]
+			dependencies: [
+				"1B234D8F1F0813FA"
+				"25C17EF80DF490A2"
+			]
 			description: [
 				"沥青沙或石油均可分离得到&a沥青&r——石油提炼中的副产物之一，可以继续处理得到重油等原料。"
 				""
@@ -710,14 +739,15 @@
 				item: "tofucraft:tofu_buns_burger"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "5F01F6D0EC5977D7"
 				item: "thermal:bitumen"
 				type: "item"
 			}]
 			title: "6.14 石油化工"
-			x: 7.0d
-			y: -2.5d
+			x: 15.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01AA00478E36BA01"]
@@ -734,14 +764,15 @@
 				item: "tofucraft:kinako_bread"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "095585B9F020ECD3"
 				item: "thermal:oil_sand"
 				type: "item"
 			}]
 			title: "6.15 石油量产"
-			x: 9.5d
-			y: -2.5d
+			x: 15.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CC8F2873F612F3B"]
@@ -759,15 +790,15 @@
 				item: "create_enchantment_industry:experience_rotor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.5d
+			x: 4.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
 			description: [
 				"这是消耗熔岩获得电力的设备，所有热力的发电机&a基础发电量经过改进以后都有所不同&r，而且消耗的资源也各不相同，可按需选择。而且别忘了，加装升级以后发电量很可观"
 				""
-				"大部分基础发电量都在120左右，部分发电机的发电量可能会更高"
+				"基础发电量都各不相同，部分发电机的发电量可能会更高"
 			]
 			hide_until_deps_complete: false
 			id: "4C01A831D0833100"
@@ -776,19 +807,26 @@
 				item: "thermal:upgrade_augment_3"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "2C664B50913ECAE4"
 				item: "thermal:dynamo_magmatic"
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["609C738A0F0B222C"]
 			description: ["利用小恶魔的能力，你应该能瞬间将阿卡什宝典变为这本书，书中记载了许多内容，但是只讲重点的话，其实内容并不复杂。还剩下一些没提到的，优先级较低的内容可以自行查阅。"]
 			hide_until_deps_complete: false
 			id: "31A0B26DCD8C4218"
+			rewards: [{
+				count: 4
+				id: "7063E4C8693F5267"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "6740D41612535C67"
 				item: {
@@ -802,8 +840,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 5.25d
+			y: 3.5d
 		}
 		{
 			description: ["自动吸收周围的掉落物，很适合用在部分特殊场合，例如养鸡，推荐安装范围升级"]
@@ -821,7 +859,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 11.5d
+			x: 17.5d
 			y: 0.0d
 		}
 		{
@@ -852,7 +890,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -881,7 +919,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 15.5d
+			x: 21.5d
 			y: 0.0d
 		}
 		{
@@ -906,7 +944,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 11.5d
+			x: 17.5d
 			y: 2.0d
 		}
 		{
@@ -933,7 +971,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 13.5d
+			x: 19.5d
 			y: 2.0d
 		}
 		{
@@ -968,7 +1006,7 @@
 				}
 			]
 			title: "通量线圈"
-			x: 11.5d
+			x: 17.5d
 			y: 4.0d
 		}
 		{
@@ -990,7 +1028,7 @@
 				type: "item"
 			}]
 			title: "整合组件"
-			x: 13.5d
+			x: 19.5d
 			y: 4.0d
 		}
 		{
@@ -1013,7 +1051,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 15.5d
+			x: 21.5d
 			y: 2.0d
 		}
 		{
@@ -1041,7 +1079,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 17.5d
+			x: 23.5d
 			y: 0.0d
 		}
 		{
@@ -1066,7 +1104,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 23.5d
 			y: 4.0d
 		}
 		{
@@ -1094,7 +1132,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 23.5d
 			y: 2.0d
 		}
 		{
@@ -1119,7 +1157,7 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
+			x: 21.5d
 			y: 4.0d
 		}
 		{
@@ -1136,7 +1174,7 @@
 				item: "thermal:fluid_tank_augment"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 25.5d
 			y: 4.0d
 		}
 		{
@@ -1165,7 +1203,7 @@
 					type: "item"
 				}
 			]
-			x: 19.5d
+			x: 25.5d
 			y: 2.0d
 		}
 		{
@@ -1186,7 +1224,7 @@
 				item: "thermal:device_nullifier"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 25.5d
 			y: 0.0d
 		}
 		{
@@ -1211,7 +1249,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -1242,7 +1280,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 19.5d
 			y: 6.0d
 		}
 		{
@@ -1283,7 +1321,7 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
+			x: 21.5d
 			y: 6.0d
 		}
 		{
@@ -1321,8 +1359,8 @@
 				}
 			]
 			title: "孢子"
-			x: 5.0d
-			y: -6.5d
+			x: 7.0d
+			y: -11.25d
 		}
 		{
 			dependencies: [
@@ -1369,8 +1407,8 @@
 				type: "checkmark"
 			}]
 			title: "读心术"
-			x: 9.0d
-			y: 0.75d
+			x: 9.035714285714292d
+			y: 3.2928571428571303d
 		}
 		{
 			dependencies: ["7FA7F55B879E5492"]
@@ -1400,8 +1438,8 @@
 				type: "checkmark"
 			}]
 			title: "有异议"
-			x: 9.0d
-			y: 2.25d
+			x: 9.130952380952387d
+			y: 4.721428571428561d
 		}
 		{
 			dependencies: ["6E6232455FAEFC6B"]
@@ -1423,7 +1461,7 @@
 			}]
 			title: "思索"
 			x: 7.0d
-			y: 3.5d
+			y: 4.75d
 		}
 		{
 			dependencies: ["4B348B24C0715A99"]
@@ -1486,7 +1524,7 @@
 			}]
 			title: "询问咲夜"
 			x: 4.5d
-			y: 5.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4B348B24C0715A99"]
@@ -1505,7 +1543,7 @@
 			}]
 			title: "询问紫"
 			x: 7.0d
-			y: 5.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4B348B24C0715A99"]
@@ -1554,7 +1592,7 @@
 			]
 			title: "询问天子"
 			x: 9.5d
-			y: 5.0d
+			y: 6.25d
 		}
 		{
 			dependencies: ["4365FCED0C6DEA6B"]
@@ -1564,14 +1602,16 @@
 				""
 				"完成以后，我们在仓库里见面。"
 			]
+			hide_dependency_lines: true
+			icon: "fruitsdelight:peach"
 			id: "6DF6D21D6A2D86FA"
 			tasks: [{
 				id: "64DAF38B31235A68"
 				type: "checkmark"
 			}]
 			title: "关于天子"
-			x: 9.0d
-			y: -0.5d
+			x: 7.0d
+			y: 3.25d
 		}
 		{
 			dependencies: [
@@ -1665,8 +1705,8 @@
 				item: "thermal:phyto_tnt"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 9.011904761904738d
+			y: -8.626190476190462d
 		}
 		{
 			dependencies: ["1D257A3A5C0271DC"]
@@ -1678,11 +1718,10 @@
 				item: "thermal:phyto_grenade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.5d
+			x: 9.011904761904738d
+			y: -7.126190476190462d
 		}
 		{
-			dependencies: ["4365FCED0C6DEA6B"]
 			description: ["觉：农作物太多，需要更多肥料来进行后续生产？试试批量堆肥器，可以同时处理多份农作物的堆肥"]
 			id: "17E5FB5A9EE37B0C"
 			rewards: [{
@@ -1696,11 +1735,10 @@
 				item: "thermal:device_composter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 25.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2E620B5A91921B5C"]
 			description: ["高效率的挖掘设备，可以替代镐子和铲子，通过加装相应的升级，可以切换为范围挖掘"]
 			id: "00359C86EE9897F0"
 			rewards: [{
@@ -1726,11 +1764,10 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 27.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2E620B5A91921B5C"]
 			description: ["高效率的伐木工具，安装升级可解锁范围砍伐"]
 			id: "4F14CE8B4305F6B7"
 			rewards: [{
@@ -1755,8 +1792,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 27.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1786,7 +1823,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "34DB6067A2649060"
 				item: {
@@ -1804,8 +1841,8 @@
 				type: "item"
 			}]
 			title: "关于热力的能源炉"
-			x: 1.0d
-			y: 3.5d
+			x: 1.875d
+			y: 5.375d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
@@ -1822,7 +1859,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
@@ -1839,7 +1876,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
@@ -1856,7 +1893,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
@@ -1873,7 +1910,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["45E3CBEB47ED01EF"]
@@ -1890,7 +1927,47 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			id: "5C2B81E9C8AB4656"
+			size: 2.0d
+			tasks: [{
+				id: "3675027396660968"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			description: [
+				"主要作用："
+				"1.分离沥青沙得到石油"
+			]
+			id: "25C17EF80DF490A2"
+			size: 2.0d
+			tasks: [{
+				id: "0B9EF02A17AAB706"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4365FCED0C6DEA6B"]
+			id: "1B234D8F1F0813FA"
+			size: 2.0d
+			tasks: [{
+				id: "320F24E936F7A028"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
 		}
 	]
 	title: "地灵殿(热力)"

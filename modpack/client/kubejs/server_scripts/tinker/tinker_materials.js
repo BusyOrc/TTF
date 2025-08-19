@@ -262,7 +262,7 @@ event.custom({//部件加工台
     "needed": 1,
     "value": 1
 })
-event.recipes.create.mixing('4x kubejs:reimu',['youkaishomecoming:reimu_hairband','4x touhou_little_maid:power_point']).superheated()
+event.recipes.create.mixing('16x kubejs:reimu',['youkaishomecoming:reimu_hairband','8x touhou_little_maid:power_point','ltc2:netherite_latiao']).superheated()
 
 //邪恶水晶😪
 event.custom({//部件加工台
@@ -348,19 +348,19 @@ crtm(event,"kubejs:molten_wu_yu","kubejs:wu_yu","kubejs:wu_yu_ingot","none","non
 //天邪鬼
 crtm(event,"kubejs:molten_seija","kubejs:seija","kubejs:seija","none","none",90,1800,40)
 
-crtm(event,"kubejs:molten_devil","touhoutinkermodifier:devil","kubejs:devil","none","none",90,900,120)
-crtm(event,"kubejs:molten_ex_rumia","touhoutinkermodifier:ex_rumia","kubejs:ex_rumia","none","none",90,2700,120)
+crtm(event,"kubejs:molten_devil","touhoutinkermodifier:devil","kubejs:devil","none","none",90,1500,120)
+crtm(event,"kubejs:molten_ex_rumia","touhoutinkermodifier:ex_rumia","kubejs:ex_rumia","none","none",90,3700,120)
 crtm(event,"kubejs:molten_flandre","touhoutinkermodifier:flandre","kubejs:flandre","none","none",90,3800,120)
 crtm(event,"kubejs:molten_ice_warrior","touhoutinkermodifier:ice_warrior","kubejs:ice_warrior","none","none",90,2999,120)
 //crtm(event,"kubejs:molten_inu","touhoutinkermodifier:inu","kubejs:inu","none","none",90,1800,120)
 crtm(event,"kubejs:molten_kosuzu","touhoutinkermodifier:kosuzu","kubejs:kosuzu","none","none",90,1480,120)
-crtm(event,"kubejs:molten_meiling","touhoutinkermodifier:meiling","kubejs:meiling","none","none",90,1800,120)
+crtm(event,"kubejs:molten_meiling","touhoutinkermodifier:meiling","kubejs:meiling","none","none",90,3800,120)
 crtm(event,"kubejs:molten_paru","touhoutinkermodifier:paru","kubejs:paru","none","none",90,980,120)
-crtm(event,"kubejs:molten_patch","touhoutinkermodifier:patch","kubejs:patch","none","none",90,1920,120)
+crtm(event,"kubejs:molten_patch","touhoutinkermodifier:patch","kubejs:patch","none","none",90,2920,120)
 crtm(event,"kubejs:molten_remilia","touhoutinkermodifier:remilia","kubejs:remilia","none","none",90,3888,120)
 crtm(event,"kubejs:molten_rumia","touhoutinkermodifier:rumia","kubejs:rumia","none","none",90,1735,120)
-crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,2480,120)
-crtm(event,"kubejs:molten_sannyo","touhoutinkermodifier:sannyo","kubejs:sannyo","none","none",90,777,120)
+crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,3480,120)
+crtm(event,"kubejs:molten_sannyo","touhoutinkermodifier:sannyo","kubejs:sannyo","none","none",90,1777,120)
 crtm(event,"kubejs:molten_wakasagihime","touhoutinkermodifier:wakasagihime","kubejs:wakasagihime","none","none",90,1285,120)
 
 

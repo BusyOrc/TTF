@@ -5,7 +5,7 @@
 	group: "756D1B6269D2C725"
 	icon: "modulargolems:candy_mixture"
 	id: "0D9C63BA76E0FF6F"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -74,7 +74,11 @@
 		{
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
-			description: ["给荷取材料，寻思出潜水艇以后触发"]
+			description: [
+				"给荷取材料，寻思出潜水艇以后触发"
+				""
+				"（洞穴相关任务暂时均已隐藏，不建议观看。）"
+			]
 			hide_until_deps_complete: true
 			icon: "alexscaves:submarine"
 			id: "5ECAA0A563F0AF71"
@@ -96,8 +100,13 @@
 		{
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
-			description: ["深海的呼唤第一个任务"]
+			description: [
+				"深海的呼唤第一个任务"
+				""
+				"（洞穴相关任务暂时均已隐藏，不建议观看。）"
+			]
 			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "minecraft:red_bed"
 			id: "740A8B75E44EA82C"
 			rewards: [{
@@ -118,7 +127,11 @@
 		{
 			can_repeat: true
 			dependencies: ["1670123577D44C28"]
-			description: ["深海的呼唤章节，给哆来咪金币，让探女给予祝福"]
+			description: [
+				"深海的呼唤章节，给哆来咪金币，让探女给予祝福"
+				""
+				"（洞穴相关任务暂时均已隐藏，不建议观看。）"
+			]
 			hide_until_deps_complete: true
 			icon: "minecraft:milk_bucket"
 			id: "3FAECDD06FFC3A64"

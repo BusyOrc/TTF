@@ -40,13 +40,15 @@
 				}
 			]
 			shape: "rsquare"
+			size: 3.0d
+			subtitle: "真是太厉害了，你居然能找到初始任务"
 			tasks: [{
 				id: "5A9FAFFF4E2A2592"
 				type: "checkmark"
 			}]
 			title: "4.1 山城高岭的良心商店"
 			x: 0.0d
-			y: -0.5d
+			y: -3.25d
 		}
 		{
 			can_repeat: true
@@ -69,8 +71,8 @@
 				type: "item"
 			}]
 			title: "染料"
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: -1.25d
 		}
 		{
 			can_repeat: true
@@ -92,8 +94,8 @@
 				type: "item"
 			}]
 			title: "帽子抽奖"
-			x: 4.0d
-			y: 0.0d
+			x: 5.5d
+			y: -1.25d
 		}
 		{
 			can_repeat: true
@@ -113,8 +115,8 @@
 				type: "item"
 			}]
 			title: "幸运大抽奖"
-			x: 6.0d
-			y: -1.5d
+			x: 7.5d
+			y: -2.75d
 		}
 		{
 			description: [
@@ -189,8 +191,8 @@
 				type: "item"
 			}]
 			title: "FUMO!"
-			x: 2.0d
-			y: -1.5d
+			x: 3.5d
+			y: -2.75d
 		}
 		{
 			can_repeat: true
@@ -217,8 +219,8 @@
 				type: "item"
 			}]
 			title: "饰品回收"
-			x: 4.0d
-			y: -1.5d
+			x: 5.5d
+			y: -2.75d
 		}
 		{
 			description: [
@@ -559,6 +561,7 @@
 				item: "thermal:rubberwood_sapling"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "54E0C05EA79D1AF0"
 				item: {
@@ -767,8 +770,8 @@
 				type: "item"
 			}]
 			title: "Neet姬的清单"
-			x: 6.0d
-			y: 0.0d
+			x: 7.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["57B217730F0E181C"]
@@ -789,6 +792,7 @@
 			y: 5.75d
 		}
 		{
+			dependencies: ["57B217730F0E181C"]
 			description: ["可自行制作，或在黑市中购买"]
 			id: "13B75B14EF91A348"
 			rewards: [{
@@ -807,9 +811,10 @@
 				type: "item"
 			}]
 			x: -1.75d
-			y: 5.75d
+			y: 6.5d
 		}
 		{
+			dependencies: ["57B217730F0E181C"]
 			description: ["可自行制作，或在黑市中购买"]
 			id: "6D2C602B24020B7B"
 			rewards: [{
@@ -828,7 +833,7 @@
 				type: "item"
 			}]
 			x: -1.75d
-			y: 4.75d
+			y: 5.5d
 		}
 	]
 	title: "山城高岭的黑市"

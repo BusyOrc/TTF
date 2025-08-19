@@ -20,7 +20,7 @@
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 4.0d
-			x: 4.5d
+			x: 0.75d
 			y: -5.5d
 		}
 	]
@@ -41,6 +41,8 @@
 				xp: 10
 			}]
 			shape: "rsquare"
+			size: 2.0d
+			subtitle: "恭喜，你已经学会了寻找初始任务"
 			tasks: [{
 				id: "128147AD301BE2FE"
 				type: "checkmark"
@@ -77,7 +79,7 @@
 				}
 			]
 			title: "推荐材料"
-			x: 2.0d
+			x: 1.25d
 			y: 0.0d
 		}
 		{
@@ -95,7 +97,7 @@
 				type: "checkmark"
 			}]
 			title: "如何应对强敌"
-			x: 2.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -112,6 +114,9 @@
 				"家中女仆忙"
 				"整天未见耕地闲"
 				"主人在养生&r"
+				""
+				""
+				"{ \"text\": \"女仆介绍\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"048266508AAAAEBF\" } }"
 			]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -123,12 +128,12 @@
 				type: "checkmark"
 			}]
 			title: "女仆"
-			x: 2.0d
-			y: 2.0d
+			x: -0.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5E5F1E52CE1188C2"]
-			description: ["魔理沙：别误会，这个项圈可是能附魔的，可以给女仆戴上，这样不光能兼顾生产，战斗方面也不会落下。部分附魔书还可以通过女仆祭坛直接制造。"]
+			description: ["魔理沙：别误会，这个项圈可是能附魔的，可以给女仆戴上，这样不光能兼顾生产，战斗方面也不会落下。部分附魔书还可以通过女仆祭坛直接制造，可查看祭坛包含书相关的配方。"]
 			id: "47DC58500D8B3CCA"
 			rewards: [{
 				id: "0EABF2EEDDF01CEE"
@@ -141,199 +146,8 @@
 				type: "item"
 			}]
 			title: "项圈"
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["47DC58500D8B3CCA"]
-			description: [
-				"魔理沙：如果有多个女仆需要携带，可以考虑使用文文相机，这可是我借来的，而且我问过了，她说她没意见"
-				""
-				"除了随身携带女仆，还能用照片来制作手办"
-				""
-				"至于具体的制作方法嘛，这就需要&a思索&r一下了"
-			]
-			id: "7DA7099306373209"
-			rewards: [{
-				id: "5D5EFEF35ABE3C8A"
-				item: "touhou_little_maid:power_point"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7ED20CBBE7DB82E5"
-				item: {
-					Count: 1
-					id: "touhou_little_maid:camera"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "文文新闻"
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["47DC58500D8B3CCA"]
-			description: [
-				"魔理沙：你猜我平时去找帕秋莉借书是怎么通过红魔馆大门的？"
-				""
-				"缺点是，如果你需要用的话，要带一个女仆才能飞行，毕竟我本来就会飞嘛，扫帚只是为了装装样子，这样才像个魔法使的样子"
-			]
-			id: "20B37571D04E75B9"
-			rewards: [{
-				id: "6A241081DD2C208C"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [{
-				id: "5E314AD8CB03425F"
-				item: "touhou_little_maid:broom"
-				type: "item"
-			}]
-			title: "扫帚DA⭐ZE"
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["601095BFB131F14E"]
-			description: ["魔理沙：虽然短时间内可能用不上，但是需要大量矿物资源的时候找找矿脉准没错。如果要用的话，建议你先去完成&a河童的教学&r再来"]
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
-			id: "511F0C51DA0FE7C2"
-			rewards: [{
-				id: "5C67FF0CFDE4F920"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0E18B000A90AB3AC"
-				item: {
-					Count: 1
-					id: "createoreexcavation:vein_finder"
-					tag: {
-						isFiltered: 0b
-					}
-				}
-				type: "item"
-			}]
-			title: "探矿杖"
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["511F0C51DA0FE7C2"]
-			description: [
-				"根据不同的矿脉情况，选择两种钻井，并且记得&a安装合适的钻头&r，否则无法工作"
-				""
-				"钻井只需要放在矿脉所在区块内，通入需要的流体，应力即可开始工作，各种物流方式均可输出物品"
-			]
-			icon: "createoreexcavation:drilling_machine"
-			id: "7CA0EAD7C05544A3"
-			rewards: [{
-				count: 2
-				id: "4B524CE2131441B3"
-				item: "fruitsdelight:lychee_chicken"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4FA60A23002C2151"
-					item: "createoreexcavation:drilling_machine"
-					type: "item"
-				}
-				{
-					id: "0C5BF3882E0D1DEF"
-					item: "createoreexcavation:extractor"
-					type: "item"
-				}
-			]
-			title: "钻井"
-			x: -0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5E5F1E52CE1188C2"]
-			description: ["此任务只是为了方便查看合成配方"]
-			id: "4467137F2E6104CC"
-			tasks: [{
-				id: "7515F2BDDC7B2622"
-				item: {
-					Count: 1
-					id: "touhou_little_maid:entity_placeholder"
-					tag: {
-						RecipeId: "touhou_little_maid:altar/spawn_box"
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7CA0EAD7C05544A3"]
-			description: ["“关于矿脉，除了主世界和下界的常见矿脉以外，&a海洋群系&r可能会有酸液池，而&a暮色森林&r中还有魔力聚集地，可大量产出很多珍贵矿物。”"]
-			icon: "createoreexcavation:diamond_drill"
-			id: "1BF4EB6A99DA5EF6"
-			rewards: [{
-				count: 32
-				id: "179F66803FB1A349"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19833CCD46C72A41"
-				title: "12 矿脉"
-				type: "checkmark"
-			}]
-			title: "矿脉"
-			x: -0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4E0B5BA233E990EF"]
-			description: ["魔理沙：“我听说，如果让&a女仆击杀监守者&r的话有特殊的掉落物。但是恐怕需要做好充足准备，例如给项圈打上足够好的附魔，给女仆穿上高质量匠魂盔甲和拿上武器.”"]
-			icon: "minecraft:sculk_sensor"
-			id: "35E6B0484D3EF7B8"
-			rewards: [{
-				id: "3BBD2589078F3E3D"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [{
-				id: "4BA53880A866EED9"
-				type: "checkmark"
-			}]
-			title: "13 都市传说"
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["47DC58500D8B3CCA"]
-			description: ["P点和神龛可以手动合成，后者放入胶片以后可消耗血量复活女仆"]
-			icon: "touhou_little_maid:power_point"
-			id: "21BEDC92249BD7E7"
-			rewards: [{
-				count: 2
-				id: "72B9310C430F25F9"
-				item: "tconstruct:magma_bottle"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "10CDA9AFDAEE29DC"
-					item: "touhou_little_maid:power_point"
-					type: "item"
-				}
-				{
-					id: "4E950BEFE11C9FBB"
-					item: "touhou_little_maid:shrine"
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 6.0d
+			x: 1.0d
+			y: 2.25d
 		}
 		{
 			description: ["“如果说认为主世界很危险的话，为何不去暮色森林里寻找宝物呢？听说部分地区的地底埋藏着大量矿物，而且很容易获取。还能找到矿脉&a魔力聚集地&r，使用机械动力设备即可挖掘。”"]
@@ -350,7 +164,7 @@
 				id: "2B43A0B2DC386E46"
 				type: "dimension"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -389,11 +203,10 @@
 				}
 			]
 			title: "14 家具"
-			x: -0.5d
-			y: 2.0d
+			x: -2.0d
+			y: 2.25d
 		}
 		{
-			dependencies: ["4E0B5BA233E990EF"]
 			description: [
 				"点燃营火后自动设置复活点，但是，电脑里有一个重生点可以取消的整合包，只需要&a潜行右键&r即可"
 				""
@@ -418,39 +231,10 @@
 				type: "item"
 			}]
 			title: "可以取消的复活点"
-			x: 4.5d
+			x: 0.75d
 			y: -4.5d
 		}
 		{
-			dependencies: ["35E6B0484D3EF7B8"]
-			description: ["“似乎在地下有时候能发现洞穴探索者过去居住的小屋，里面有洞穴勘探台等物品。每一种洞穴都能通过手稿研究解锁相应的介绍。如果要主动寻找洞穴的话，我建议你先寻找一下&a毒化洞穴或者糖果洞穴&r，前者能在其中获得许多有用的东西，后者则有大量的食物可以获取”"]
-			icon: "alexscaves:spelunkery_table"
-			id: "60956B907D05ACF7"
-			rewards: [{
-				count: 3
-				id: "1BCEF9B2A5D21DDA"
-				item: "quark:sugar_cane_block"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5A946A303B83129F"
-					item: "alexscaves:spelunkery_table"
-					type: "item"
-				}
-				{
-					id: "2CF92663DE901991"
-					item: "alexscaves:cave_book"
-					match_nbt: false
-					type: "item"
-				}
-			]
-			title: "15 洞穴寓言"
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["35E6B0484D3EF7B8"]
 			description: [
 				"据说在部分水域群系的可疑沙子中可以用刷子获得&a嗅探兽蛋&r。嗅探兽蛋放在地上等待一段时间即可自然孵化，孵化后为幼年状态，成年嗅探兽在所有&b森林相关群系&r有概率挖出&a姬海棠果&r种子，似乎种子结出来的果实制作的的&b金姬海棠果&r是&a非常优秀的匠魂材料&r，尽管工序较为复杂。"
 				"姬海棠果主要作用为：制作出姬海棠果酱"
@@ -479,17 +263,16 @@
 				item: "minecraft:sniffer_egg"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["35E6B0484D3EF7B8"]
 			description: [
 				"想要灵梦的蝴蝶结的话，目前我知道整整三种获取方法"
 				""
 				"1.击败灵梦固定掉落"
 				"2.喂食灵梦106种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
-				"3.在某个特定结构内的&a神秘隐藏地点&r的箱子里固定会有一个，听说这个结构&b很复杂&r，还包含了&b通往另一个维度的传送门&r"
+				"3.在某个&a特定结构&r内的箱子里概率刷出，听说这个结构&b很复杂&r，还包含了&b通往另一个维度的传送门&r"
 				""
 				"哦对了，别给灵梦吃一些&4诡异的肉&f做出的料理，不然她可是会生气的！"
 			]
@@ -512,10 +295,9 @@
 			}]
 			title: "灵梦的大蝴蝶结"
 			x: 7.0d
-			y: -4.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["35E6B0484D3EF7B8"]
 			description: [
 				"我去&m偷&r借东西的时候最喜欢用的小道具，尤其是安装各种&a升级模块&r以后非常好用，能探查周围敌人，方块的情况。安装不同的模块有不同的效果，还可以安装范围升级来提高扫描范围"
 				""
@@ -554,11 +336,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.0d
+			x: 2.5d
+			y: 2.25d
 		}
 		{
-			dependencies: ["601095BFB131F14E"]
+			dependencies: ["4E0B5BA233E990EF"]
 			description: ["魔理沙：&b要塞和末地&r是很&c危险的区域&r，未深入匠魂材料领域之前，不得踏入要塞与末地传送门"]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -572,14 +354,14 @@
 				xp: 20
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "2135153F07622DA9"
 				type: "checkmark"
 			}]
 			title: "危险区域"
-			x: -2.5d
-			y: 0.0d
+			x: 4.321428571428569d
+			y: -1.982142857142854d
 		}
 		{
 			dependencies: ["5F0BB36E884917E2"]
@@ -605,7 +387,7 @@
 				type: "checkmark"
 			}]
 			title: "【IOSYS】灵梦的106种喂食胜负！（bushi"
-			x: 9.0d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -626,7 +408,7 @@
 				item: "youkaishomecoming:green_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -8.5d
 		}
 		{
@@ -643,7 +425,7 @@
 				item: "youkaishomecoming:genmai_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -0.5d
 		}
 		{
@@ -660,7 +442,7 @@
 				item: "youkaishomecoming:green_water"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: 0.5d
 		}
 		{
@@ -678,7 +460,7 @@
 				item: "youkaishomecoming:sakura_honey_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -695,7 +477,7 @@
 				item: "youkaishomecoming:saidi_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -712,7 +494,7 @@
 				item: "youkaishomecoming:tea_mocha"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -3.5d
 		}
 		{
@@ -729,7 +511,7 @@
 				item: "youkaishomecoming:cornflower_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -747,7 +529,7 @@
 				item: "youkaishomecoming:oolong_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -5.5d
 		}
 		{
@@ -764,7 +546,7 @@
 				item: "youkaishomecoming:black_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -6.5d
 		}
 		{
@@ -781,7 +563,7 @@
 				item: "youkaishomecoming:white_tea"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -7.5d
 		}
 		{
@@ -800,7 +582,7 @@
 				item: "youkaishomecoming:wind_priestesses"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -9.5d
 		}
 		{
@@ -817,7 +599,7 @@
 				item: "youkaishomecoming:sparrow_sake"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -7.5d
 		}
 		{
@@ -834,7 +616,7 @@
 				item: "youkaishomecoming:mead"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -8.5d
 		}
 		{
@@ -853,7 +635,7 @@
 				item: "youkaishomecoming:mio"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -9.5d
 		}
 		{
@@ -875,7 +657,7 @@
 				item: "youkaishomecoming:full_moons_eve"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -897,7 +679,7 @@
 				item: "youkaishomecoming:tengu_tango"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -914,7 +696,7 @@
 				item: "youkaishomecoming:dassai"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
@@ -931,7 +713,7 @@
 				item: "youkaishomecoming:daiginjo"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
@@ -948,7 +730,7 @@
 				item: "youkaishomecoming:big_popsicle"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: 0.5d
 		}
 		{
@@ -965,7 +747,7 @@
 				item: "youkaishomecoming:coffee_mochi"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -9.5d
 		}
 		{
@@ -983,7 +765,7 @@
 				item: "youkaishomecoming:mochi"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
@@ -1000,7 +782,7 @@
 				item: "youkaishomecoming:sakura_mochi"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -7.5d
 		}
 		{
@@ -1017,7 +799,7 @@
 				item: "youkaishomecoming:tsukimi_dango"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: 0.5d
 		}
 		{
@@ -1034,7 +816,7 @@
 				item: "youkaishomecoming:matcha_mochi"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -8.5d
 		}
 		{
@@ -1051,7 +833,7 @@
 				item: "youkaishomecoming:milk_popsicle"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -0.5d
 		}
 		{
@@ -1070,7 +852,7 @@
 				item: "youkaishomecoming:senbei"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -1088,7 +870,7 @@
 				item: "youkaishomecoming:fairy_candy"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -2.5d
 		}
 		{
@@ -1106,7 +888,7 @@
 				item: "youkaishomecoming:higi_chocolate"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -4.5d
 		}
 		{
@@ -1123,7 +905,7 @@
 				item: "youkaishomecoming:candy_apple"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -1.5d
 		}
 		{
@@ -1140,7 +922,7 @@
 				item: "youkaishomecoming:yakumo_inari"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -2.5d
 		}
 		{
@@ -1157,7 +939,7 @@
 				item: "youkaishomecoming:yashouma_dango"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -6.5d
 		}
 		{
@@ -1176,7 +958,7 @@
 				item: "youkaishomecoming:onigili"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -5.5d
 		}
 		{
@@ -1193,7 +975,7 @@
 				item: "youkaishomecoming:tutu_congee"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -8.5d
 		}
 		{
@@ -1210,7 +992,7 @@
 				item: "youkaishomecoming:steamed_egg_in_bamboo"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -7.5d
 		}
 		{
@@ -1236,7 +1018,7 @@
 				item: "youkaishomecoming:bamboo_mizuyokan"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -9.5d
 		}
 		{
@@ -1254,7 +1036,7 @@
 				item: "youkaishomecoming:sekibankiyaki"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -3.5d
 		}
 		{
@@ -1273,7 +1055,7 @@
 				item: "youkaishomecoming:doughnut"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -6.5d
 		}
 		{
@@ -1297,7 +1079,7 @@
 				item: "youkaishomecoming:koishi_mousse"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -1314,7 +1096,7 @@
 				item: "youkaishomecoming:oyaki"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -1331,7 +1113,7 @@
 				item: "youkaishomecoming:avgolemono"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -3.5d
 		}
 		{
@@ -1348,7 +1130,7 @@
 				item: "youkaishomecoming:tofu_burger"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -1365,7 +1147,7 @@
 				item: "youkaishomecoming:stinky_tofu"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -1382,7 +1164,7 @@
 				item: "youkaishomecoming:pork_rice_ball"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -9.5d
 		}
 		{
@@ -1399,7 +1181,7 @@
 				item: "youkaishomecoming:miso_soup"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -1416,7 +1198,7 @@
 				item: "youkaishomecoming:udumbara_cake"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -0.5d
 		}
 		{
@@ -1442,7 +1224,7 @@
 				item: "youkaishomecoming:dried_fish"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -8.5d
 		}
 		{
@@ -1460,7 +1242,7 @@
 				item: "youkaishomecoming:blazing_red_curry"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -2.5d
 		}
 		{
@@ -1482,7 +1264,7 @@
 				item: "youkaishomecoming:kinako_dango"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -9.5d
 		}
 		{
@@ -1501,7 +1283,7 @@
 				item: "youkaishomecoming:mitarashi_dango"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -8.5d
 		}
 		{
@@ -1518,7 +1300,7 @@
 				item: "youkaishomecoming:assorted_dango"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -7.5d
 		}
 		{
@@ -1535,7 +1317,7 @@
 				item: "youkaishomecoming:higi_doughnut"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -3.5d
 		}
 		{
@@ -1552,7 +1334,7 @@
 				item: "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -6.5d
 		}
 		{
@@ -1569,7 +1351,7 @@
 				item: "youkaishomecoming:seven_colored_yokan"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -1586,7 +1368,7 @@
 				item: "youkaishomecoming:shaved_ice_over_rice"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -5.5d
 		}
 		{
@@ -1603,7 +1385,7 @@
 				item: "youkaishomecoming:bun"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 13.5d
 			y: -0.5d
 		}
 		{
@@ -1620,7 +1402,7 @@
 				item: "youkaishomecoming:mushroom_soup"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -4.5d
 		}
 		{
@@ -1637,7 +1419,7 @@
 				item: "youkaishomecoming:lions_head"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -2.5d
 		}
 		{
@@ -1654,7 +1436,7 @@
 				item: "youkaishomecoming:apaki"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -4.5d
 		}
 		{
@@ -1672,7 +1454,7 @@
 				item: "youkaishomecoming:shirayuki"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -7.5d
 		}
 		{
@@ -1689,7 +1471,7 @@
 				item: "youkaishomecoming:mapo_tofu"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -1.5d
 		}
 		{
@@ -1706,7 +1488,7 @@
 				item: "youkaishomecoming:grilled_eel_over_rice"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
@@ -1723,7 +1505,7 @@
 				item: "youkaishomecoming:longevity_noodles"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -0.5d
 		}
 		{
@@ -1740,7 +1522,7 @@
 				item: "youkaishomecoming:sauce_grilled_fish"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
@@ -1766,7 +1548,7 @@
 				item: "youkaishomecoming:imitation_bear_paw"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -7.5d
 		}
 		{
@@ -1783,7 +1565,7 @@
 				item: "youkaishomecoming:tuscan_salmon"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -5.5d
 		}
 		{
@@ -1800,7 +1582,7 @@
 				item: "youkaishomecoming:seafood_miso_soup"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -9.5d
 		}
 		{
@@ -1819,7 +1601,7 @@
 				item: "youkaishomecoming:power_soup"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -8.5d
 		}
 		{
@@ -1836,7 +1618,7 @@
 				item: "youkaishomecoming:pastitsio"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -6.5d
 		}
 		{
@@ -1865,7 +1647,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 16.5d
 			y: 0.5d
 		}
 		{
@@ -1885,7 +1667,7 @@
 				type: "checkmark"
 			}]
 			title: "缺少特定农作物吗？"
-			x: 9.0d
+			x: 7.0d
 			y: -6.5d
 		}
 		{
@@ -2077,19 +1859,21 @@
 				type: "checkmark"
 			}]
 			title: "哇，金色传说"
-			x: 14.5d
+			x: 12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
 			description: ["魔理沙：你问我怎么看？我坐扫帚上面看。开个玩笑，总之这次我也没辙，唯一能告诉你的就是，之前我捡到了一些天上掉下来的东西，似乎是天子的，有一部分看起来很值钱的我给卖出去了。剩下的一部分东西嘛，如果你能帮忙做完106种特定食物我就送给你"]
+			icon: "minecraft:experience_bottle"
 			id: "4B0A942C8D281519"
+			shape: "gear"
 			tasks: [{
 				id: "242BE76E7B662198"
 				type: "checkmark"
 			}]
 			title: "如何看待异变"
-			x: -2.5d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -2101,7 +1885,7 @@
 				item: "youkaishomecoming:suigei"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -3.5d
 		}
 		{
@@ -2113,7 +1897,7 @@
 				item: "youkaishomecoming:kappa_village"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -2125,7 +1909,7 @@
 				item: "youkaishomecoming:hakutsuru"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -5.5d
 		}
 		{
@@ -2137,7 +1921,7 @@
 				item: "youkaishomecoming:kiku"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.5d
 			y: -6.5d
 		}
 		{
@@ -2150,7 +1934,7 @@
 				item: "youkaishomecoming:cold_tofu"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
@@ -2162,7 +1946,7 @@
 				item: "youkaishomecoming:cumberland_loin"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -2175,7 +1959,7 @@
 				item: "youkaishomecoming:scholar_ginkgo"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: 0.5d
 		}
 		{
@@ -2187,7 +1971,7 @@
 				item: "youkaishomecoming:tomato_sauce_cod"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 10.5d
 			y: -9.5d
 		}
 		{
@@ -2204,8 +1988,8 @@
 				item: "easy_villagers:villager"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: -0.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2216,8 +2000,8 @@
 				item: "easy_villagers:trader"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.5d
+			x: -2.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["69C439D4E0A8B825"]
@@ -2228,8 +2012,8 @@
 				item: "easy_villagers:auto_trader"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: -2.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2240,8 +2024,8 @@
 				item: "easy_villagers:farmer"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.5d
+			x: -0.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2252,8 +2036,8 @@
 				item: "easy_villagers:breeder"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: 1.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2264,8 +2048,8 @@
 				item: "easy_villagers:converter"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: -2.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2276,8 +2060,8 @@
 				item: "easy_villagers:iron_farm"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: -0.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -2288,8 +2072,8 @@
 				item: "easy_villagers:incubator"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.0d
+			x: 1.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2299,7 +2083,7 @@
 				item: "youkaishomecoming:black_grape_juice"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -8.5d
 		}
 		{
@@ -2310,7 +2094,7 @@
 				item: "youkaishomecoming:red_grape_juice"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -7.5d
 		}
 		{
@@ -2321,7 +2105,7 @@
 				item: "youkaishomecoming:white_grape_juice"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -6.5d
 		}
 		{
@@ -2332,7 +2116,7 @@
 				item: "youkaishomecoming:red_wine"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -5.5d
 		}
 		{
@@ -2343,7 +2127,7 @@
 				item: "youkaishomecoming:white_wine"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -4.5d
 		}
 		{
@@ -2354,7 +2138,7 @@
 				item: "youkaishomecoming:burgundy"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -3.5d
 		}
 		{
@@ -2365,7 +2149,7 @@
 				item: "youkaishomecoming:champagne"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -2.5d
 		}
 		{
@@ -2376,7 +2160,7 @@
 				item: "youkaishomecoming:van_allen"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.5d
 			y: -1.5d
 		}
 		{
@@ -2387,7 +2171,7 @@
 				item: "youkaishomecoming:kabayaki"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 14.5d
 			y: -5.5d
 		}
 		{
@@ -2398,7 +2182,7 @@
 				item: "youkaishomecoming:lamprey_skewer"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -6.5d
 		}
 		{
@@ -2409,7 +2193,7 @@
 				item: "youkaishomecoming:honey_glazed_cucumber"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
@@ -2420,7 +2204,7 @@
 				item: "youkaishomecoming:tobiko_gunkan"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -9.5d
 		}
 		{
@@ -2431,7 +2215,7 @@
 				item: "youkaishomecoming:seagrass_gunkan"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -8.5d
 		}
 		{
@@ -2442,7 +2226,7 @@
 				item: "youkaishomecoming:nattou_gunkan"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -7.5d
 		}
 		{
@@ -2453,7 +2237,7 @@
 				item: "youkaishomecoming:egg_nigiri"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -6.5d
 		}
 		{
@@ -2464,7 +2248,7 @@
 				item: "youkaishomecoming:lorelei_nigiri"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -5.5d
 		}
 		{
@@ -2475,7 +2259,7 @@
 				item: "youkaishomecoming:tuna_nigiri"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -4.5d
 		}
 		{
@@ -2486,7 +2270,7 @@
 				item: "youkaishomecoming:otoro_nigiri"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -3.5d
 		}
 		{
@@ -2497,7 +2281,7 @@
 				item: "youkaishomecoming:shinnko_maki_slice"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -2.5d
 		}
 		{
@@ -2508,7 +2292,7 @@
 				item: "youkaishomecoming:kappa_maki_slice"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -1.5d
 		}
 		{
@@ -2519,7 +2303,7 @@
 				item: "youkaishomecoming:tekka_maki_slice"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: -0.5d
 		}
 		{
@@ -2530,7 +2314,7 @@
 				item: "youkaishomecoming:egg_futomaki_slice"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 17.5d
 			y: 0.5d
 		}
 		{
@@ -2541,7 +2325,7 @@
 				item: "youkaishomecoming:salmon_futomaki_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -9.5d
 		}
 		{
@@ -2552,7 +2336,7 @@
 				item: "youkaishomecoming:rainbow_futomaki_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -8.5d
 		}
 		{
@@ -2563,7 +2347,7 @@
 				item: "youkaishomecoming:california_roll_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -7.5d
 		}
 		{
@@ -2574,7 +2358,7 @@
 				item: "youkaishomecoming:roe_california_roll_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -6.5d
 		}
 		{
@@ -2585,7 +2369,7 @@
 				item: "youkaishomecoming:salmon_lover_roll_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -5.5d
 		}
 		{
@@ -2596,7 +2380,7 @@
 				item: "youkaishomecoming:volcano_roll"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -4.5d
 		}
 		{
@@ -2607,7 +2391,7 @@
 				item: "youkaishomecoming:rainbow_roll_slice"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 18.5d
 			y: -3.5d
 		}
 	]

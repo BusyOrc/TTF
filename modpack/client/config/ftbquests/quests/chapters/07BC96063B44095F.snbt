@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "07BC96063B44095F"
-	group: "756D1B6269D2C725"
+	group: "4293891DF89E3E58"
 	icon: "armourers_workshop:skin-library"
 	id: "07BC96063B44095F"
-	order_index: 2
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

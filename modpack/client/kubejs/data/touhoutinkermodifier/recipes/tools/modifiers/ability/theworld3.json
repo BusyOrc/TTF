@@ -1,0 +1,35 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "kubejs:meiling",
+        "amount_needed":2
+      },
+      {
+        "item": "ltc2:delicacy_soylatiao",
+        "amount_needed":8
+        
+      },
+      {
+        "ingeredient":
+      [{
+        "item": "supplementaries:antique_ink",
+        "amount_needed":3
+      },
+      {
+        "item": "quark:ancient_tome"
+      }]
+      }
+    ],
+    "level": 3,
+    "result": "touhoutinkermodifier:theworld",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+          {
+            "tag": "tconstruct:modifiable/held"
+          }
+    ]
+  }

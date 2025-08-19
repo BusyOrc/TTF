@@ -237,9 +237,7 @@ event.addLootTableModifier("youkaishomecoming:entities/komeiji_koishi").killedBy
 })
 
     event.addLootTableModifier("hmag:entities/stray_girl")
-    .addLoot('irons_spellbooks:frozen_bone')
-    event.addLootTableModifier("hmag:entities/imp")
-    .addLoot('kubejs:devil').randomChance(0.2)
+    .addLoot('irons_spellbooks:frozen_bone').randomChance(0.3)
 
     event.addLootTableModifier("hmag:entities/wither_skeleton_girl")
     .addLoot('wstweaks:fragment')

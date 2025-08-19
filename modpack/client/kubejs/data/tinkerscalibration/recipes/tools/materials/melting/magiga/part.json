@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input":"tinkerscalibration:magiga",
-  "result": {
-    "fluid": "tinkerscalibration:moltenmagiga",
-    "amount": 90
-  },
-  "temperature": 1240
-}

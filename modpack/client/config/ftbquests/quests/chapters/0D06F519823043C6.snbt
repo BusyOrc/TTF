@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0D06F519823043C6"
-	group: "70B4907D74D7EF03"
+	group: "2F6557FC41D866A7"
 	icon: "ae2:blue_smart_cable"
 	id: "0D06F519823043C6"
 	images: [
@@ -13,8 +13,8 @@
 			image: "touhou_tinker_fantasy:textures/tenshi.png"
 			rotation: 0.0d
 			width: 8.2d
-			x: -3.25d
-			y: -5.75d
+			x: -3.5d
+			y: -11.75d
 		}
 		{
 			alpha: 180
@@ -23,8 +23,8 @@
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
 			width: 3.0d
-			x: 10.5d
-			y: 0.0d
+			x: 10.8d
+			y: 0.8d
 		}
 		{
 			alpha: 180
@@ -51,16 +51,16 @@
 			image: "ae2:item/certus_quartz_crystal"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: 3.5d
+			x: -3.1d
+			y: 7.4d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: 3.5d
+			x: -2.1d
+			y: 7.4d
 		}
 		{
 			click: "#"
@@ -69,8 +69,8 @@
 			image: "ae2:item/certus_quartz_crystal_charged"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 3.5d
+			x: 0.8999999999999999d
+			y: 7.4d
 		}
 		{
 			click: "#"
@@ -79,16 +79,16 @@
 			image: "ae2:block/charger"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 3.5d
+			x: -1.1d
+			y: 7.4d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 3.5d
+			x: -0.10000000000000009d
+			y: 7.4d
 		}
 		{
 			click: "#03EB6EFA4DDFF8E8"
@@ -97,26 +97,29 @@
 			image: "ae2:item/singularity"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.5d
-			y: -10.5d
+			x: 19.6d
+			y: -13.240476190476194d
 		}
 		{
 			click: "#"
 			height: 1.0d
-			hover: ["末影珍珠或末影粉"]
+			hover: [
+				"末影珍珠或末影珍珠粉"
+				"特别提醒：爆炸之前务必看清JEI"
+			]
 			image: "minecraft:item/ender_pearl"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.5d
-			y: -9.0d
+			x: 19.6d
+			y: -11.740476190476194d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.5d
-			y: -9.5d
+			x: 20.6d
+			y: -12.240476190476194d
 		}
 		{
 			click: "#03EB6EFA4DDFF8E8"
@@ -128,8 +131,8 @@
 			image: "ae2:item/quantum_entangled_singularity"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
-			y: -10.5d
+			x: 24.1d
+			y: -13.240476190476194d
 		}
 		{
 			click: "#03EB6EFA4DDFF8E8"
@@ -141,32 +144,32 @@
 			image: "ae2:item/quantum_entangled_singularity"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
-			y: -8.5d
+			x: 24.1d
+			y: -11.240476190476194d
 		}
 		{
 			height: 1.0d
 			image: "fancymenu:textures/contextmenu/icons/arrow_vertical.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
-			y: -9.5d
+			x: 24.1d
+			y: -12.240476190476194d
 		}
 		{
 			height: 1.2d
 			image: "quark:textures/particle/magnet_plus.png"
 			rotation: 0.0d
 			width: 1.2d
-			x: 9.503571428571412d
-			y: -9.726190476190478d
+			x: 19.603571428571414d
+			y: -12.466666666666672d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.5d
-			y: -12.0d
+			x: 30.6d
+			y: -14.740476190476194d
 		}
 		{
 			click: "#"
@@ -175,16 +178,16 @@
 			image: "ae2:block/tnt_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.789285714285697d
-			y: -9.392857142857146d
+			x: 21.8892857142857d
+			y: -12.13333333333334d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.836904761904748d
-			y: -10.202380952380953d
+			x: 21.93690476190475d
+			y: -12.942857142857147d
 		}
 		{
 			click: "#"
@@ -193,8 +196,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 17.5d
-			y: -8.0d
+			x: 27.6d
+			y: -10.740476190476194d
 		}
 		{
 			click: "#7EA5110C1435A142"
@@ -206,8 +209,8 @@
 			image: "ae2:block/quantum_link"
 			rotation: 0.0d
 			width: 1.2d
-			x: 18.5d
-			y: -7.0d
+			x: 28.6d
+			y: -9.8d
 		}
 		{
 			click: "#"
@@ -216,8 +219,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 17.5d
-			y: -7.0d
+			x: 27.6d
+			y: -9.740476190476194d
 		}
 		{
 			click: "#"
@@ -226,8 +229,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 17.5d
-			y: -6.0d
+			x: 27.6d
+			y: -8.740476190476194d
 		}
 		{
 			click: "#"
@@ -236,8 +239,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 18.5d
-			y: -6.0d
+			x: 28.6d
+			y: -8.740476190476194d
 		}
 		{
 			click: "#"
@@ -246,8 +249,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 19.5d
-			y: -6.0d
+			x: 29.6d
+			y: -8.740476190476194d
 		}
 		{
 			click: "#"
@@ -256,8 +259,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 19.5d
-			y: -7.0d
+			x: 29.6d
+			y: -9.740476190476194d
 		}
 		{
 			click: "#"
@@ -266,8 +269,8 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 19.5d
-			y: -8.0d
+			x: 29.6d
+			y: -10.740476190476194d
 		}
 		{
 			click: "#"
@@ -276,16 +279,16 @@
 			image: "ae2:block/quantum_ring"
 			rotation: 0.0d
 			width: 1.2d
-			x: 18.5d
-			y: -8.0d
+			x: 28.6d
+			y: -10.740476190476194d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 15.0d
 			width: 4.0d
-			x: 16.36071428571428d
-			y: -7.86904761904762d
+			x: 26.460714285714282d
+			y: -10.609523809523814d
 		}
 		{
 			click: "#04E69995C5F90640"
@@ -299,16 +302,16 @@
 			image: "ae2wtlib:item/quantum_bridge_card"
 			rotation: 0.0d
 			width: 2.0d
-			x: 18.5d
-			y: -12.0d
+			x: 28.6d
+			y: -14.740476190476194d
 		}
 		{
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: -20.0d
 			width: 3.0d
-			x: 16.0d
-			y: -11.5d
+			x: 26.1d
+			y: -14.240476190476194d
 		}
 		{
 			click: "#547EA3B86B7F02FE"
@@ -320,8 +323,8 @@
 			image: "ae2:item/wireless_terminal"
 			rotation: 0.0d
 			width: 2.0d
-			x: 22.122619047619047d
-			y: -12.059523809523807d
+			x: 32.22261904761905d
+			y: -14.8d
 		}
 		{
 			height: 3.0d
@@ -329,8 +332,8 @@
 			order: 2
 			rotation: 30.0d
 			width: 1.0d
-			x: 21.0d
-			y: -9.5d
+			x: 31.1d
+			y: -12.240476190476194d
 		}
 		{
 			height: 3.0d
@@ -343,8 +346,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 3.0d
-			x: 22.5d
-			y: -9.5d
+			x: 32.6d
+			y: -12.240476190476194d
 		}
 		{
 			click: "#"
@@ -353,8 +356,8 @@
 			image: "ae2:part/cable/core/dense_smart/green"
 			rotation: 0.0d
 			width: 1.5d
-			x: 18.5d
-			y: -5.0d
+			x: 28.6d
+			y: -7.740476190476194d
 		}
 		{
 			click: "#"
@@ -363,8 +366,8 @@
 			image: "ae2:part/cable/core/dense_smart/green"
 			rotation: 0.0d
 			width: 1.5d
-			x: 18.503571428571455d
-			y: -4.345238095238095d
+			x: 28.603571428571456d
+			y: -7.085714285714289d
 		}
 		{
 			click: "#450DD99BA1F5BDDA"
@@ -425,35 +428,83 @@
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
-			y: -9.5d
+			x: 23.1d
+			y: -12.240476190476194d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:item/flint_and_steel"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
-			y: -11.0d
+			x: 22.1d
+			y: -13.740476190476194d
 		}
 		{
 			height: 4.0d
 			image: "advanced_ae:block/crafting/quantum_core_nucleus"
 			rotation: 0.0d
 			width: 4.0d
-			x: 10.5d
-			y: 12.0d
+			x: 8.6d
+			y: 18.4d
 		}
 		{
 			height: 4.0d
 			image: "advanced_ae:block/quantum_crafter_grid_on"
 			rotation: 0.0d
 			width: 4.0d
-			x: 10.5d
-			y: 5.0d
+			x: 10.8d
+			y: 11.0d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.4d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.4d
+			y: 18.4d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.4d
+			y: 19.8d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 18.4d
+		}
+		{
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 19.8d
 		}
 	]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -484,13 +535,13 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 8.0d
 			tasks: [{
 				id: "3915520144B5E38F"
 				title: "7.1 并非并非非想非非想天之女"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -522,7 +573,7 @@
 				type: "observation"
 			}]
 			title: "7.2 注意看"
-			x: 1.5d
+			x: -6.25d
 			y: 0.0d
 		}
 		{
@@ -554,6 +605,8 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				count: 8L
 				id: "529A896CB9F1FE7C"
@@ -561,8 +614,8 @@
 				type: "item"
 			}]
 			title: "7.3 充能"
-			x: 3.5d
-			y: 0.0d
+			x: -4.375680272108802d
+			y: 0.733673469387746d
 		}
 		{
 			dependencies: ["19BF7B860DB28E29"]
@@ -585,8 +638,8 @@
 				type: "item"
 			}]
 			title: "7.4 福鲁伊克斯水晶"
-			x: 5.5d
-			y: 0.0d
+			x: -2.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["00E2CB13C62FDFEE"]
@@ -615,8 +668,8 @@
 				type: "item"
 			}]
 			title: "7.5 基础线缆"
-			x: 5.5d
-			y: 2.5d
+			x: 0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["537552962A22FB7B"]
@@ -638,8 +691,8 @@
 				type: "checkmark"
 			}]
 			title: "7.6 什么是频道"
-			x: 4.35d
-			y: 1.3499999999999999d
+			x: 2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["537552962A22FB7B"]
@@ -661,8 +714,8 @@
 				type: "item"
 			}]
 			title: "7.7 晶体催生"
-			x: 3.5d
-			y: 2.5d
+			x: 4.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["3816D4F839749CA6"]
@@ -691,11 +744,11 @@
 				type: "item"
 			}]
 			title: "7.10 ME控制器"
-			x: 10.5d
-			y: 0.0d
+			x: 10.8d
+			y: 0.8d
 		}
 		{
-			dependencies: ["537552962A22FB7B"]
+			dependencies: ["18988832E624AF7A"]
 			description: ["其中硅板的使用量最大，因为需要和其他基础板材结合生产后续材料。生产方法不止一种，可以选择自己最喜欢的一种方法"]
 			hide_until_deps_complete: false
 			icon: "ae2:printed_silicon"
@@ -729,14 +782,11 @@
 				}
 			]
 			title: "7.8 基础板材"
-			x: 8.0d
-			y: 2.5d
+			x: 6.25d
+			y: 0.75d
 		}
 		{
-			dependencies: [
-				"43516C9503523081"
-				"537552962A22FB7B"
-			]
+			dependencies: ["43516C9503523081"]
 			dependency_requirement: "one_completed"
 			description: [
 				"完成这一步，后面就只剩下合成了"
@@ -775,7 +825,7 @@
 			]
 			title: "7.9 处理器"
 			x: 8.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: [
@@ -802,8 +852,8 @@
 				type: "item"
 			}]
 			title: "7.11 无瑕母岩"
-			x: 3.375d
-			y: -3.75d
+			x: -4.800000000000001d
+			y: -4.800000000000001d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
@@ -814,6 +864,11 @@
 				"{ \"text\": \"具体的例子\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1175B445A5FD46FE\" } }"
 			]
 			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "ae2:name_press"
+				tag: { }
+			}
 			id: "4DF1B2E472B02830"
 			rewards: [{
 				count: 8
@@ -821,30 +876,34 @@
 				item: "fruitsdelight:kiwi"
 				type: "item"
 			}]
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "并非毕业"
 			tasks: [{
 				id: "360D22C2A713FD41"
 				type: "checkmark"
 			}]
 			title: "7.12 AE毕业？"
-			x: 13.0d
-			y: 0.0d
+			x: 14.4d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
 			hide_until_deps_complete: false
+			icon: "ae2:fluix_upgrade_smithing_template"
 			id: "3D23578203E76906"
 			rewards: [{
 				id: "698606F26826123B"
 				item: "fruitsdelight:kiwi_sapling"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "1ED57E67FD3186A5"
 				type: "checkmark"
 			}]
 			title: "7.14 入门"
-			x: 10.5d
+			x: 10.8d
 			y: -2.0d
 		}
 		{
@@ -946,15 +1005,15 @@
 				}
 			]
 			title: "7.16 无线终端"
-			x: 10.5d
-			y: -5.0d
+			x: 15.2d
+			y: -7.0d
 		}
 		{
 			dependencies: ["547EA3B86B7F02FE"]
 			description: [
 				"天子：奇点在AE中主要是用来生成一对的纠缠奇点并放入量子环中或装了量子卡的无线终端里，获得方式有很多，自己选一种喜欢的吧"
 				""
-				"奇点和末影珍珠扔在地上通过TNT爆炸即可获得&a纠缠奇点&r，在量子环中需要放入纠缠奇点。"
+				"奇点和末影珍珠扔在地上通过TNT爆炸即可获得&a纠缠奇点&r（如果要使用末影珍珠粉，请务必看清JEI），在量子环中需要放入纠缠奇点。"
 			]
 			hide_until_deps_complete: false
 			id: "03EB6EFA4DDFF8E8"
@@ -970,8 +1029,8 @@
 				type: "item"
 			}]
 			title: "7.17 奇点"
-			x: 10.5d
-			y: -6.5d
+			x: 15.2d
+			y: -8.4d
 		}
 		{
 			dependencies: ["03EB6EFA4DDFF8E8"]
@@ -1006,8 +1065,8 @@
 				}
 			]
 			title: "7.18 量子环"
-			x: 13.0d
-			y: -6.5d
+			x: 17.6d
+			y: -8.4d
 		}
 		{
 			dependencies: ["348EF2B3721119C8"]
@@ -1065,8 +1124,8 @@
 				}
 			]
 			title: "7.20 样板供应器"
-			x: 7.0d
-			y: -13.0d
+			x: 10.8d
+			y: -12.8d
 		}
 		{
 			dependencies: ["3D23578203E76906"]
@@ -1074,6 +1133,8 @@
 				"天子：在正式开始自动化以前，需要先至少制作一个&a合成存储器&r，这是最基本的合成处理单元多方块结构，或称CPU，一个CPU必须为&b长方体结构&r（只有一个合成存储器方块也算），其余的有效方块可以用来充数"
 				""
 				"合成监控器可以在其上显示当前的合成状态方便查看，并行处理单元可增加并行合成的能力"
+				""
+				"有一点需要特别注意：&d更高级的CPU&r叫“量子计算机”，而&d更高级的分子装配室&r叫“装配矩阵”（装配室的自动合成都需要依赖CPU）"
 			]
 			hide_until_deps_complete: false
 			icon: "ae2:1k_crafting_storage"
@@ -1110,8 +1171,8 @@
 				}
 			]
 			title: "7.19 CPU"
-			x: 7.0d
-			y: -5.0d
+			x: 10.8d
+			y: -7.6d
 		}
 		{
 			dependencies: ["1CE3EA2EC9C3218A"]
@@ -1146,11 +1207,10 @@
 				}
 			]
 			title: "7.21 概率合成"
-			x: 8.5d
-			y: -13.0d
+			x: 13.4d
+			y: -12.8d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: [
 				"天子：输入总线将容器内的物品输入到ME网络中，而输出总线则相反。存储总线比较特殊，可以同时输入输出，并且可以搭配其他仓储模组一起使用，三者均可选择物品过滤。"
 				""
@@ -1178,6 +1238,7 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "035C0628A0A661F9"
@@ -1206,11 +1267,10 @@
 				}
 			]
 			title: "7.22 总线"
-			x: 13.0d
-			y: -1.0d
+			x: 15.0d
+			y: -1.8d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: ["ME驱动器搭配存储元件可以在小空间内存放大量物品或流体，方便管理"]
 			hide_until_deps_complete: false
 			id: "6663A2C41DE69B58"
@@ -1234,17 +1294,17 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "0F4F05C9170A0B60"
 				item: "ae2:drive"
 				type: "item"
 			}]
 			title: "7.23 物品存储"
-			x: 13.0d
-			y: -3.0d
+			x: 14.0d
+			y: -2.8d
 		}
 		{
-			dependencies: ["6663A2C41DE69B58"]
 			description: [
 				"在元件工作台内可以调控每个存储元件的&a过滤&r，方便控制物品的存放"
 				""
@@ -1258,13 +1318,14 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "0AFD445305A1669A"
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.0d
+			x: 16.0d
+			y: -1.8d
 		}
 		{
 			dependencies: ["79BC809DD4B06127"]
@@ -1284,11 +1345,10 @@
 				type: "checkmark"
 			}]
 			title: "法二"
-			x: 6.0d
+			x: 6.8d
 			y: -2.0d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: [
 				"如果要构建子网络，要么让线缆尽量隔开（下策），要么子网线缆和主网相连的地方全部用石英纤维隔开（中策），还可以将线缆染色，并且使用石英纤维&a传递且只传递&r电力（上策）"
 				""
@@ -1299,13 +1359,14 @@
 			]
 			hide_until_deps_complete: false
 			id: "4F3FA44CC73A4A6E"
+			shape: "square"
 			tasks: [{
 				id: "4E18D6ED21AF2037"
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -2.0d
+			x: 14.0d
+			y: -1.8d
 		}
 		{
 			dependencies: ["40370E2E92900A91"]
@@ -1318,8 +1379,8 @@
 				type: "checkmark"
 			}]
 			title: "家庭作业"
-			x: 6.0d
-			y: -1.0d
+			x: 5.8d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19BF7B860DB28E29"]
@@ -1330,40 +1391,43 @@
 			]
 			hide_until_deps_complete: false
 			id: "16DAB76BCCF3813A"
+			shape: "diamond"
 			tasks: [{
 				count: 8L
 				id: "4A3015F9E62B87DA"
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: -5.4d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19BF7B860DB28E29"]
 			description: ["母岩分为不同的品质等级，随着晶体生长，大部分母岩都会&c逐渐损耗&r（无瑕母岩除外），但是可以通过将&a母岩和充能赛特斯石英放入水中&r来获得更好品质的母岩"]
 			hide_until_deps_complete: false
 			id: "1DB669A1777AA545"
+			shape: "diamond"
 			tasks: [{
 				id: "2BEA4542501A0FC2"
 				item: "ae2:flawed_budding_quartz"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: -4.2d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19BF7B860DB28E29"]
 			description: ["可由普通的黑曜石缠魂得到"]
 			hide_until_deps_complete: false
 			id: "458422215D2ADA44"
+			shape: "diamond"
 			tasks: [{
 				id: "1690D408A934AA4D"
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: -4.8d
+			y: -2.4d
 		}
 		{
 			dependencies: ["547EA3B86B7F02FE"]
@@ -1397,8 +1461,8 @@
 				}
 			]
 			title: "量子桥卡"
-			x: 9.0d
-			y: -6.5d
+			x: 13.8d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1489,11 +1553,10 @@
 				}
 			]
 			title: "天庭的善后工作"
-			x: 11.0d
-			y: -8.0d
+			x: 13.8d
+			y: -10.8d
 		}
 		{
-			dependencies: ["4F3FA44CC73A4A6E"]
 			description: ["只是想要在同一维度远程连接线缆，不想到处飞线？用这个吧，虽然不能跨维度，这方面比不过量子环，但是在同一维度非常好用，还可以&b染色&r，染色后只会连接同一颜色的无线连接器"]
 			icon: "expatternprovider:wireless_connect"
 			id: "244BBB8A6FB2A97F"
@@ -1503,6 +1566,7 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "002B028E7641A46C"
@@ -1515,11 +1579,10 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: -2.0d
+			x: 16.0d
+			y: -2.8d
 		}
 		{
-			dependencies: ["537552962A22FB7B"]
 			description: ["想要大规模生产AE的材料？试试这种新型的拓展机器，可以一次生产⑨个"]
 			id: "4EE9F48DCF23F9D7"
 			tasks: [{
@@ -1527,8 +1590,8 @@
 				item: "expatternprovider:circuit_cutter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: -1.1d
+			y: 5.65d
 		}
 		{
 			dependencies: ["1CE3EA2EC9C3218A"]
@@ -1555,8 +1618,8 @@
 				item: "expatternprovider:ex_pattern_provider"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -15.5d
+			x: 10.8d
+			y: -15.6d
 		}
 		{
 			dependencies: ["0735447815DC7DEF"]
@@ -1573,11 +1636,10 @@
 				type: "checkmark"
 			}]
 			title: "额外腰带"
-			x: 9.0d
-			y: -8.0d
+			x: 17.6d
+			y: -10.8d
 		}
 		{
-			dependencies: ["3D23578203E76906"]
 			description: [
 				"天子：ME接口本质上是一个能同时容纳流体和物品的箱子，并且设置好过滤和数量以后会试图快速地从当前网络中调取相应流体或物品来填充自己，直到满足设定好的数量需求为止。同时，如果不设置任何过滤并且以迷你形态放置，用在连接主网和子网上面，可以让主网读取子网的物品，或者传递物品，具体还是看看思索吧"
 				""
@@ -1591,6 +1653,7 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "4093F3E0C5A59961"
@@ -1603,8 +1666,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -4.0d
+			x: 14.0d
+			y: -3.8d
 		}
 		{
 			dependencies: ["4DF1B2E472B02830"]
@@ -1629,8 +1692,8 @@
 				type: "checkmark"
 			}]
 			title: "实际练习"
-			x: 17.0d
-			y: 0.0d
+			x: 19.2d
+			y: 0.8d
 		}
 		{
 			dependencies: ["1175B445A5FD46FE"]
@@ -1657,6 +1720,7 @@
 				}
 			}
 			id: "02AF7C912CF21FA8"
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -1680,8 +1744,8 @@
 				}
 			]
 			title: "例子1：利用P2P传递电力"
-			x: 19.5d
-			y: -2.25d
+			x: 22.600000000000005d
+			y: -0.8d
 		}
 		{
 			dependencies: ["1175B445A5FD46FE"]
@@ -1696,14 +1760,15 @@
 			]
 			icon: "thermal:rf_coil_storage_augment"
 			id: "2D50515D0480C126"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "59547BF1B8173EB5"
 				type: "checkmark"
 			}]
 			title: "例子2：热力机器的自动化"
-			x: 21.75d
-			y: -2.25d
+			x: 24.100000000000005d
+			y: -0.8d
 		}
 		{
 			dependencies: ["1175B445A5FD46FE"]
@@ -1733,14 +1798,15 @@
 			]
 			icon: "thermal:refined_fuel_bucket"
 			id: "3969296B84AE5078"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "593538258F791251"
 				type: "checkmark"
 			}]
 			title: "例子3：利用子网来处理精炼油"
-			x: 19.5d
-			y: 0.0d
+			x: 22.600000000000005d
+			y: 0.7000000000000002d
 		}
 		{
 			dependencies: ["1175B445A5FD46FE"]
@@ -1753,14 +1819,15 @@
 			]
 			icon: "sophisticatedbackpacks:crafting_upgrade"
 			id: "0FDD0CCAB9A6AA64"
+			shape: "square"
 			size: 1.5d
 			tasks: [{
 				id: "6615BAC7CFC66487"
 				type: "checkmark"
 			}]
 			title: "例子4：合成全自动"
-			x: 21.75d
-			y: 0.0d
+			x: 24.100000000000005d
+			y: 0.7000000000000002d
 		}
 		{
 			dependencies: ["0FDD0CCAB9A6AA64"]
@@ -1805,6 +1872,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -1834,8 +1902,8 @@
 				}
 			]
 			title: "进入矩阵"
-			x: 21.75d
-			y: 3.0d
+			x: 24.100000000000005d
+			y: 3.700000000000001d
 		}
 		{
 			description: [
@@ -1853,20 +1921,21 @@
 				type: "checkmark"
 			}]
 			title: "关于快速打开无线终端"
-			x: 25.5d
-			y: -12.0d
+			x: 34.800000000000004d
+			y: -12.600000000000001d
 		}
 		{
 			description: ["对于装配矩阵的每个面，还可以用装配矩阵玻璃来代替墙壁"]
 			id: "2D409DFA2A6DAB08"
+			shape: "hexagon"
 			tasks: [{
 				id: "7EDC7591B7A1176E"
 				item: "expatternprovider:assembler_matrix_glass"
 				type: "item"
 			}]
 			title: "装配矩阵玻璃"
-			x: 20.0d
-			y: 3.0d
+			x: 22.6d
+			y: 3.7d
 		}
 		{
 			dependencies: ["153D1F16AD5F5E4D"]
@@ -1882,8 +1951,8 @@
 				type: "checkmark"
 			}]
 			title: "无法运行？"
-			x: 24.0d
-			y: 3.0d
+			x: 27.200000000000003d
+			y: 3.7d
 		}
 		{
 			dependencies: ["0BFAEF87139FE7EC"]
@@ -1903,11 +1972,10 @@
 				type: "checkmark"
 			}]
 			title: "快速放入样板"
-			x: 24.0d
-			y: 1.5d
+			x: 27.200000000000003d
+			y: 2.2d
 		}
 		{
-			dependencies: ["43F301A1EBCE3923"]
 			description: ["大部分AE的设备可以按W思索，但是&a由于附属模组的问题，线缆会缺失连接纹理&r，这是正常情况。如果对AE有任何疑问，推荐在AE指南中查看介绍（对着AE的设备长按G打开）"]
 			id: "4BA5DA8ADA5676C1"
 			tasks: [{
@@ -1915,11 +1983,10 @@
 				type: "checkmark"
 			}]
 			title: "AE思索介绍"
-			x: -2.55d
-			y: 0.0d
+			x: 0.8999999999999999d
+			y: 10.65d
 		}
 		{
-			dependencies: ["537552962A22FB7B"]
 			description: ["可以临时缓存大量物品或者流体，适合作为产线的缓存中转"]
 			id: "266CE40B712687B7"
 			rewards: [{
@@ -1932,11 +1999,10 @@
 				item: "expatternprovider:ingredient_buffer"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 0.3999999999999999d
+			y: 5.65d
 		}
 		{
-			dependencies: ["3104F957941650DA"]
 			description: ["唯一的区别是可配置更多的物品或流体设置"]
 			id: "74593CFA7E59F2E1"
 			rewards: [{
@@ -1944,16 +2010,16 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "square"
 			tasks: [{
 				id: "7D8306B3396F2068"
 				item: "expatternprovider:ex_interface"
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.0d
+			y: -3.8d
 		}
 		{
-			dependencies: ["537552962A22FB7B"]
 			description: ["可以同时执行4个压印工作，内部UI有按钮可调整堆叠数量，当和样板供应器搭配使用时，将物品堆叠数量调整为1或许能规避部分问题"]
 			id: "6714AF6DA8C2F537"
 			rewards: [{
@@ -1966,11 +2032,10 @@
 				item: "expatternprovider:ex_inscriber"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: -1.1d
+			y: 4.65d
 		}
 		{
-			dependencies: ["537552962A22FB7B"]
 			description: ["同时进行4个充能工作，4倍的效率"]
 			id: "6943D6691CFE4070"
 			rewards: [{
@@ -1983,20 +2048,20 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 0.3999999999999999d
+			y: 4.65d
 		}
 		{
-			dependencies: ["296CAB7CDF48DD3B"]
 			description: ["当且仅当目标容器能完整接收所有配置好的物品时，该总线才会发送物品，只要有任何物品无法进入容器（因为堆叠已满等问题），该总线都不会发送任何物品。非常适合部分需要精准控制物品数量的生产场合"]
 			id: "1E1C03049215CEC8"
+			shape: "square"
 			tasks: [{
 				id: "186EF21055ACF09E"
 				item: "expatternprovider:precise_export_bus"
 				type: "item"
 			}]
 			x: 15.0d
-			y: -1.0d
+			y: -2.8d
 		}
 		{
 			dependencies: ["43F301A1EBCE3923"]
@@ -2022,8 +2087,8 @@
 				}
 			]
 			title: "不需要找陨石的方法"
-			x: 1.5d
-			y: 2.0d
+			x: -6.25d
+			y: 1.5d
 		}
 		{
 			description: ["想要获得更多的陨石？只需要将这三种材料放入感应炉里就能让陨石超级加倍"]
@@ -2050,8 +2115,8 @@
 				}
 			]
 			title: "量产陨石"
-			x: -0.5d
-			y: 5.0d
+			x: -1.2d
+			y: 9.2d
 		}
 		{
 			dependencies: ["43F301A1EBCE3923"]
@@ -2062,8 +2127,8 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["661B0A10209F0A7C"]
@@ -2074,8 +2139,8 @@
 				item: "ae2:crank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -10.75d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -2090,8 +2155,8 @@
 				type: "item"
 			}]
 			title: "AE突然没有电？"
-			x: 1.5d
-			y: 4.5d
+			x: 0.8999999999999999d
+			y: 8.4d
 		}
 		{
 			description: [
@@ -2105,8 +2170,8 @@
 				item: "ae2:vibration_chamber"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: 0.8999999999999999d
+			y: 9.4d
 		}
 		{
 			description: [
@@ -2120,8 +2185,8 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.0d
+			x: 15.2d
+			y: -5.6d
 		}
 		{
 			description: [
@@ -2135,8 +2200,8 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.0d
+			x: 16.6d
+			y: -5.6d
 		}
 		{
 			dependencies: [
@@ -2159,13 +2224,15 @@
 				id: "799020B7598D2788"
 				type: "command"
 			}]
+			shape: "heart"
+			size: 1.5d
 			tasks: [{
 				id: "0F177278D4C329FC"
 				type: "checkmark"
 			}]
 			title: "额外戒指位"
-			x: 15.0d
-			y: -6.5d
+			x: 20.1d
+			y: -8.4d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
@@ -2190,8 +2257,8 @@
 				item: "advanced_ae:reaction_chamber"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.0d
+			x: 10.8d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3BFD63B701AD72D1"]
@@ -2213,8 +2280,8 @@
 				item: "advanced_ae:quantum_processor_press"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 10.8d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7A31EA65F2DFAE46"]
@@ -2230,8 +2297,8 @@
 				item: "advanced_ae:shattered_singularity"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.5d
+			x: 10.8d
+			y: 12.4d
 		}
 		{
 			dependencies: ["7A31EA65F2DFAE46"]
@@ -2246,8 +2313,8 @@
 				item: "advanced_ae:quantum_alloy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: 8.6d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -2266,8 +2333,8 @@
 				item: "advanced_ae:printed_quantum_processor"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 8.0d
+			x: 8.6d
+			y: 14.0d
 		}
 		{
 			dependencies: ["37B84E694E2CC9A2"]
@@ -2287,8 +2354,8 @@
 				item: "advanced_ae:quantum_processor"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.0d
+			x: 8.6d
+			y: 16.2d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2304,13 +2371,15 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "47ED21A172C1820C"
 				item: "advanced_ae:quantum_structure"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.0d
+			x: 14.200000000000001d
+			y: 19.8d
 		}
 		{
 			dependencies: ["26B843D7157AA4E9"]
@@ -2336,8 +2405,8 @@
 				type: "checkmark"
 			}]
 			title: "矩阵革命"
-			x: 10.5d
-			y: 12.0d
+			x: 8.6d
+			y: 18.2d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2348,13 +2417,14 @@
 				type: "xp"
 				xp: 200
 			}]
+			shape: "square"
 			tasks: [{
 				id: "4EDFD131396DEA04"
 				item: "advanced_ae:quantum_multi_threader"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 16.0d
+			x: 14.600000000000001d
+			y: 16.6d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2366,13 +2436,14 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "3DB61455A56D0DB4"
 				item: "advanced_ae:quantum_accelerator"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 14.0d
+			x: 13.8d
+			y: 16.6d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2383,6 +2454,7 @@
 				type: "xp"
 				xp: 200
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "54CCCFB4233C9478"
@@ -2395,8 +2467,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 16.0d
+			x: 13.8d
+			y: 18.2d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2411,14 +2483,15 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
+			shape: "square"
 			subtitle: "所谓全息……"
 			tasks: [{
 				id: "0050D609545D5A8C"
 				item: "advanced_ae:quantum_core"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 12.0d
+			x: 14.600000000000001d
+			y: 17.4d
 		}
 		{
 			dependencies: ["4BFEBE04214AA85A"]
@@ -2429,13 +2502,14 @@
 				type: "xp"
 				xp: 200
 			}]
+			shape: "square"
 			tasks: [{
 				id: "56E86CCF7CB419F7"
 				item: "advanced_ae:data_entangler"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 16.0d
+			x: 13.8d
+			y: 17.4d
 		}
 		{
 			dependencies: ["612CF32E27898C6C"]
@@ -2449,18 +2523,20 @@
 				""
 				"扳手样式按钮：配置启动的条件"
 			]
+			hide_dependency_lines: true
 			id: "5BDAD062DD8EE973"
 			rewards: [{
 				id: "6419F31639219229"
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4CB69008441723FA"
 				item: "advanced_ae:quantum_crafter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 13.8d
 			y: 14.0d
 		}
 		{
@@ -2473,13 +2549,14 @@
 				table_id: 6021782249763501993L
 				type: "random"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "47831C5201116F7B"
 				item: "advanced_ae:quantum_unit"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 14.0d
+			x: 14.600000000000001d
+			y: 18.2d
 		}
 		{
 			description: [
@@ -2489,49 +2566,53 @@
 				"流体需要手持桶右键两次才能设定"
 			]
 			id: "65288A3E7827CEB9"
+			shape: "square"
 			tasks: [{
 				id: "50AA3290F1F6D2E6"
 				item: "ae2:storage_monitor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -15.0d
+			x: 17.2d
+			y: -3.8d
 		}
 		{
 			dependencies: ["65288A3E7827CEB9"]
 			description: ["增加了新功能：类似抽屉一样可以快速拿取/存入物品。每次左键拿取都是拿1组，而且数量不足的话还会触发合成"]
 			id: "05D60814A63561E4"
+			shape: "square"
 			tasks: [{
 				id: "5B9562F7CFCC7CF7"
 				item: "ae2:conversion_monitor"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -15.0d
+			x: 19.0d
+			y: -3.8d
 		}
 		{
 			dependencies: ["65288A3E7827CEB9"]
 			description: ["新增功能：监控物品或流体变化数量"]
 			id: "0E0A65D0F30E71EC"
+			shape: "square"
 			tasks: [{
 				id: "7AE44F1D9673271D"
 				item: "advanced_ae:throughput_monitor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -13.5d
+			x: 17.2d
+			y: -1.8d
 		}
 		{
 			dependencies: ["0E0A65D0F30E71EC"]
 			description: ["调整监控的模式"]
 			id: "1F783F293E0FAEF6"
+			shape: "square"
 			tasks: [{
 				id: "542AF9D30B7CF14D"
 				item: "advanced_ae:throughput_monitor_configurator"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -13.5d
+			x: 19.0d
+			y: -1.8d
 		}
 		{
 			dependencies: [
@@ -2552,8 +2633,8 @@
 				item: "advanced_ae:adv_pattern_provider"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -15.5d
+			x: 8.6d
+			y: -15.6d
 		}
 		{
 			dependencies: ["1CE3EA2EC9C3218A"]
@@ -2577,8 +2658,8 @@
 				item: "advanced_ae:small_adv_pattern_provider"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -13.0d
+			x: 8.6d
+			y: -12.8d
 		}
 		{
 			dependencies: ["253E804B0D79593E"]
@@ -2594,8 +2675,8 @@
 				item: "advanced_ae:adv_pattern_provider_upgrade"
 				type: "item"
 			}]
-			x: 5.241666666666653d
-			y: -16.452380952380956d
+			x: 10.8d
+			y: -17.8d
 		}
 		{
 			dependencies: ["0E16BCF9CE3BCFA7"]
@@ -2606,13 +2687,14 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "square"
 			tasks: [{
 				id: "51E029400C9E481B"
 				item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
 				type: "item"
 			}]
-			x: 3.5273809523809376d
-			y: -14.261904761904766d
+			x: 8.6d
+			y: -14.2d
 		}
 		{
 			dependencies: [
@@ -2636,17 +2718,17 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "7D98CD1379A24EF3"
 				item: "advanced_ae:adv_pattern_encoder"
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.0d
-			y: -13.0d
+			x: 7.2d
+			y: -14.2d
 		}
 		{
-			dependencies: ["0D46E2E307E3D248"]
 			description: ["需要配置过滤器，配置以后，符合过滤条件的执行输出总线的操作（输出到特定容器），不符合的则执行输入（进入ME网络）"]
 			id: "293E8EEA4D5A69D3"
 			rewards: [{
@@ -2654,16 +2736,16 @@
 				type: "xp"
 				xp: 150
 			}]
+			shape: "square"
 			tasks: [{
 				id: "612FDCCA7E0A9A3A"
 				item: "advanced_ae:import_export_bus_part"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.5d
+			x: 19.0d
+			y: -2.8d
 		}
 		{
-			dependencies: ["0D46E2E307E3D248"]
 			description: ["精确控制输出，使容器内物品数量不会超过设定的数量上限，推荐按G开始寻思"]
 			id: "20E249038D93E9F1"
 			rewards: [{
@@ -2671,16 +2753,22 @@
 				type: "xp"
 				xp: 150
 			}]
+			shape: "square"
 			tasks: [{
 				id: "4EA928F40ADD5B47"
 				item: "advanced_ae:stock_export_bus_part"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.5d
+			x: 20.0d
+			y: -2.8d
 		}
 		{
-			description: ["天子：你肯定觉得做一个&d包含所有所需终端的通用终端&r很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"]
+			description: [
+				"天子：你肯定觉得做一个&d包含所有所需终端的通用终端&r很麻烦对不对？我这里恰好有一个，并且最近我想试验一下一些特殊素材的效果，但是我这里并没有，所以如果你有的话，可以来和我交换"
+				""
+				""
+				"{ \"text\": \"藓牙的获取\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DC2B2A861D23DD5\" } }"
+			]
 			icon: "meetyourfight:mossy_tooth"
 			id: "78B3C2822BE5035E"
 			rewards: [{
@@ -2714,8 +2802,8 @@
 				}
 			]
 			title: "以物易！物！"
-			x: 9.5d
-			y: -4.0d
+			x: 13.8d
+			y: -5.6d
 		}
 		{
 			dependencies: ["547EA3B86B7F02FE"]
@@ -2727,8 +2815,8 @@
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.0d
+			x: 16.3d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2750,8 +2838,8 @@
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.0d
+			x: 17.3d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -2776,6 +2864,7 @@
 				team_reward: true
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -2834,6 +2923,7 @@
 				team_reward: true
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -2871,7 +2961,7 @@
 				}
 			]
 			title: "无限血元件"
-			x: 16.5d
+			x: 16.35d
 			y: 4.5d
 		}
 		{
@@ -2891,6 +2981,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -2934,8 +3025,8 @@
 				}
 			]
 			title: "无限牛奶"
-			x: 18.0d
-			y: 4.5d
+			x: 15.000000000000002d
+			y: 5.8500000000000005d
 		}
 		{
 			icon: "tofucraft:bucket_soymilk"
@@ -2954,6 +3045,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [
 				{
@@ -2991,8 +3083,8 @@
 				}
 			]
 			title: "无限豆奶"
-			x: 19.5d
-			y: 4.5d
+			x: 16.35d
+			y: 5.8500000000000005d
 		}
 		{
 			description: ["天子：或许自己来制造维度卡比较麻烦，不过没关系，你帮我再找点研究素材过来，天庭多余的维度卡就直接送给你了"]
@@ -3019,8 +3111,8 @@
 				}
 			]
 			title: "素材回收"
-			x: 13.75d
-			y: -5.0d
+			x: 18.55d
+			y: -7.0d
 		}
 		{
 			description: [""]
@@ -3046,8 +3138,33 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
-			y: 6.25d
+			x: 15.7d
+			y: 7.4d
+		}
+		{
+			description: [
+				"可以在存储元件（AE磁盘），网络存储（例如存储总线连接物品保险库）之间快速转移物品或流体"
+				""
+				"通常用于不同存储之间的快速物品转移，但是还有别的用法"
+				""
+				"例如，甚至可以用于给物质聚合器供应大量水生产奇点"
+			]
+			icon: "ae2:io_port"
+			id: "78655A35DB9AC5EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4301BE1BC57C3C2E"
+				table_id: 6021782249763501993L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "73FE8C01637E7337"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.8d
 		}
 	]
 	title: "有顶天(AE)"

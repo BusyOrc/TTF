@@ -11,7 +11,7 @@
 			image: "touhou_tinker_fantasy:textures/sisters.png"
 			rotation: 0.0d
 			width: 8.0d
-			x: -4.0d
+			x: -13.75d
 			y: 0.0d
 		}
 		{
@@ -19,80 +19,80 @@
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: 7.5d
+			x: 8.25d
+			y: 11.7d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: 6.65d
+			x: 8.25d
+			y: 10.850000000000001d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
-			y: 8.35d
+			x: 8.25d
+			y: 12.55d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.35d
-			y: 5.8d
+			x: 9.1d
+			y: 10.0d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.2d
-			y: 5.8d
+			x: 9.95d
+			y: 10.0d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.35d
-			y: 9.2d
+			x: 9.1d
+			y: 13.399999999999999d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.2d
-			y: 9.2d
+			x: 9.95d
+			y: 13.399999999999999d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.05d
-			y: 6.65d
+			x: 10.8d
+			y: 10.850000000000001d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.05d
-			y: 7.5d
+			x: 10.8d
+			y: 11.7d
 		}
 		{
 			height: 1.0d
 			image: "tofucraft:block/blocktofugrilled"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.05d
-			y: 8.35d
+			x: 10.8d
+			y: 12.55d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -101,8 +101,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.35d
-			y: 6.65d
+			x: 9.1d
+			y: 10.850000000000001d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -111,8 +111,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.2d
-			y: 6.65d
+			x: 9.95d
+			y: 10.850000000000001d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -121,8 +121,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.35d
-			y: 7.5d
+			x: 9.1d
+			y: 11.7d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -131,8 +131,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.2d
-			y: 7.5d
+			x: 9.95d
+			y: 11.7d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -141,8 +141,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.35d
-			y: 8.35d
+			x: 9.1d
+			y: 12.55d
 		}
 		{
 			click: "#3C59A3DCB0689F3A"
@@ -151,8 +151,8 @@
 			image: "tofucraft:block/tofuportal"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.2d
-			y: 8.35d
+			x: 9.95d
+			y: 12.55d
 		}
 	]
 	order_index: 1
@@ -179,50 +179,25 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 8.0d
+			subtitle: "因为有玩家表示不知道从哪个任务开始，所以这个任务才这么大"
 			tasks: [{
 				id: "4F840065DA79FE83"
 				title: "和秋姐妹见面"
 				type: "checkmark"
 			}]
 			title: "2.1 和秋姐妹见面"
-			x: 0.0d
+			x: -3.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E32861636D14303"]
 			description: [
-				"秋穰子：这是烹饪必备的工具，想要做出好菜品的话必不可少，之后其实就很简单了，根据菜谱制作喜欢的菜品就可以了。"
+				"秋静叶：制作一把小刀攻击地上的草即可获取各类种子和草杆，之后都会用到的"
 				""
-				"如果你想知道更多做饭相关的细节，最好去请教米斯蒂娅萝蕾拉，我这边能教你的不多。"
+				"除此之外也有别的获取方式"
 			]
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
-			icon: "farmersdelight:stove"
-			id: "7087617DAA184277"
-			rewards: [{
-				count: 4
-				id: "71AF14E9B17ECC8C"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:gold_barrel"
-					tag: {
-						woodType: "jungle"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C868A250A1BAF62"
-				item: "farmersdelight:stove"
-				type: "item"
-			}]
-			title: "厨房用品"
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6E32861636D14303"]
-			description: ["秋静叶：制作一把小刀攻击地上的草即可获取各类种子和草杆，之后都会用到的"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "37D92640C7776496"
@@ -264,11 +239,11 @@
 				type: "item"
 			}]
 			title: "收集材料"
-			x: 2.0d
-			y: -1.5d
+			x: -3.75d
+			y: -5.0d
 		}
 		{
-			dependencies: ["5DCBE4A3084B8A20"]
+			dependencies: ["080D1FB24C1FF631"]
 			description: ["秋穰子：如果你还想了解更多东西，不想继续待在这里种田的话，可以去找河城荷取学&9机械&r，或者去有顶天找天子了解天上的科技——&9应用能源&r，或者去地灵殿学习所谓“&9热力&r”的机器使用方法，也可以直接去找小伞学习&9工匠&r技术，还能找早苗去学习&9弹幕战&f的内容。"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -280,17 +255,17 @@
 				xp: 10
 			}]
 			shape: "rsquare"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "705C296E96ED03C6"
 				title: "2.4 太想进步了"
 				type: "checkmark"
 			}]
-			x: 7.5d
+			x: 8.625d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DCBE4A3084B8A20"]
+			dependencies: ["301A86CB5AF80153"]
 			description: ["“在盐炉中放入水桶，燃料，并放入玻璃瓶收集，可以制作盐和盐卤，一桶水能作三份盐跟六瓶盐卤”"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -308,7 +283,7 @@
 			}]
 			title: "2.5 豆腐工艺"
 			x: 4.0d
-			y: 2.0d
+			y: 10.25d
 		}
 		{
 			dependencies: ["3316CAA7C23D629C"]
@@ -343,10 +318,14 @@
 			]
 			title: "2.6 盐"
 			x: 4.0d
-			y: 4.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["443AA468F00F802D"]
+			dependencies: [
+				"443AA468F00F802D"
+				"3FE812DD7F6360EA"
+			]
+			dependency_requirement: "one_completed"
 			description: ["可以在任意群系的水下遗迹中有概率获得"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -372,7 +351,7 @@
 			}]
 			title: "2.7 豆腐魔杖"
 			x: 1.5d
-			y: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["443AA468F00F802D"]
@@ -395,7 +374,7 @@
 			}]
 			title: "2.8 大豆"
 			x: 6.5d
-			y: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["68B9E0CF8D086F1E"]
@@ -432,7 +411,7 @@
 			]
 			title: "2.9 嫩豆腐"
 			x: 6.5d
-			y: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -462,7 +441,7 @@
 			}]
 			title: "正在前往：豆腐世界"
 			x: 4.0d
-			y: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["336B0490A300837D"]
@@ -475,6 +454,8 @@
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			id: "3EC355FF7D06096A"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "41CCD93649723BC4"
 				title: "妖怪们的归家的农作物"
@@ -482,7 +463,7 @@
 			}]
 			title: "野生农作物"
 			x: 5.0d
-			y: -7.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -507,8 +488,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -5.5d
+			x: 7.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -529,7 +510,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -5.5d
+			y: -12.75d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -567,7 +548,7 @@
 				}
 			]
 			x: 5.0d
-			y: -3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -597,8 +578,8 @@
 				}
 			]
 			title: "黄豆"
-			x: 5.0d
-			y: -4.5d
+			x: -2.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -627,8 +608,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -4.5d
+			x: 10.25d
+			y: -12.75d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -646,8 +627,8 @@
 				item: "youkaishomecoming:redbean"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 7.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["1222C1C5985B3AC7"]
@@ -668,8 +649,8 @@
 				type: "item"
 			}]
 			title: "给他曝晒个七七四十九天！"
-			x: 8.0d
-			y: -6.5d
+			x: 9.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2572AC119D6D6ED5"]
@@ -685,8 +666,8 @@
 				item: "youkaishomecoming:green_tea_leaves"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.5d
+			x: 12.25d
+			y: -15.5d
 		}
 		{
 			dependencies: ["2DC1A56063F3AF55"]
@@ -730,8 +711,8 @@
 				}
 			]
 			title: "更多茶叶！"
-			x: 12.0d
-			y: -6.5d
+			x: 15.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["12B2976416D8CFB0"]
@@ -754,7 +735,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5DCBE4A3084B8A20"]
@@ -774,6 +755,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "square"
 			subtitle: "\"伊吹萃香想要知道你的位置\""
 			tasks: [{
 				id: "1E423C04FB8A6B70"
@@ -781,11 +763,11 @@
 				type: "item"
 			}]
 			title: "2.3-2酿酒大业"
-			x: 6.75d
-			y: -1.5d
+			x: 3.4d
+			y: -3.8d
 		}
 		{
-			dependencies: ["5DCBE4A3084B8A20"]
+			dependencies: ["42E10B8AB59CDEDD"]
 			description: [
 				"{image:touhou_tinker_fantasy:textures/cookpot.png width:200 height:100 align:center}"
 				"秋穰子：厨锅，顾名思义，是专门烹饪料理的锅子"
@@ -853,8 +835,8 @@
 				}
 			]
 			title: "2.3-1厨锅"
-			x: 7.5d
-			y: 1.5d
+			x: 8.6d
+			y: 2.4d
 		}
 		{
 			dependencies: ["2FDD23A864003F71"]
@@ -881,18 +863,11 @@
 				type: "item"
 			}]
 			title: "特殊料理"
-			x: 11.0d
-			y: 1.5d
+			x: 11.2d
+			y: 2.4d
 		}
 		{
-			dependencies: [
-				"29E67F135C9DD07A"
-				"2FDD23A864003F71"
-				"4222EEF207A5FA58"
-				"47461DA7FDF63E77"
-				"094065F0422C956E"
-				"42E4025A809377FA"
-			]
+			dependencies: ["6E32861636D14303"]
 			dependency_requirement: "one_completed"
 			description: [
 				"秋穰子：相信看着配方的你很好奇，这些食物下面有好多的特殊状态，别担心 我会一个个帮你说明的。"
@@ -940,10 +915,14 @@
 				"&e循环（Cycling）&f：每秒将自己的一点经验变成经验球掉落（用于经验修复）。"
 				"&e嗅觉（Suspicious Smell）&f：可以看到&4谜之炖菜的详细效果&f，以及更容易发现可疑的沙子/沙砾。"
 			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			icon: "delightful:ender_nectar"
 			id: "660810408AEFA584"
+			progression_mode: "flexible"
+			require_sequential_tasks: false
 			rewards: [{
 				count: 2
 				id: "00A44A28F2A703CC"
@@ -955,7 +934,7 @@
 				title: "特殊状态！"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 1.75d
 			y: 0.0d
 		}
 		{
@@ -976,8 +955,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -5.5d
+			x: 2.75d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -997,8 +976,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -4.5d
+			x: 2.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -1018,8 +997,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -4.5d
+			x: 0.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -1032,8 +1011,8 @@
 				item: "farmersdelight:onion"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 0.25d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1063,8 +1042,8 @@
 				title: "温度？什么温度？"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: -2.25d
+			y: -13.0d
 		}
 		{
 			dependencies: ["5DCBE4A3084B8A20"]
@@ -1092,11 +1071,10 @@
 				type: "item"
 			}]
 			title: "幻想乡断。。食材台！"
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 2.4d
 		}
 		{
-			dependencies: ["6E32861636D14303"]
 			description: [
 				"秋穰子：这种土富含营养，种植的作物也比普通耕地生长更快！"
 				"而且有着以下特性"
@@ -1126,8 +1104,8 @@
 				type: "item"
 			}]
 			title: "沃土"
-			x: 0.0d
-			y: 1.5d
+			x: 8.5d
+			y: -2.75d
 		}
 		{
 			dependencies: ["0F698C6A49F609BD"]
@@ -1151,11 +1129,11 @@
 				title: "做点交易吧"
 				type: "checkmark"
 			}]
-			x: 11.0d
-			y: -1.5d
+			x: 17.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3316CAA7C23D629C"]
+			dependencies: ["5DCBE4A3084B8A20"]
 			description: [
 				"“除了盐炉以外，还能制作盐田来获得盐跟盐卤。”"
 				"一个最大的盐田为&c3x3&f大小的九宫格，往盐田中间的方块用水桶&a右键&f就可以一次填满九格了，不会消耗桶。"
@@ -1186,8 +1164,8 @@
 				type: "item"
 			}]
 			title: "2.5-1 老天爷的恩赐！"
-			x: 1.5d
-			y: 2.0d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["68B9E0CF8D086F1E"]
@@ -1206,8 +1184,8 @@
 				type: "item"
 			}]
 			title: "2.11 这可不是俊达萌nanoda"
-			x: 8.5d
-			y: 4.0d
+			x: 6.5d
+			y: 10.25d
 		}
 		{
 			can_repeat: true
@@ -1240,7 +1218,7 @@
 				type: "item"
 			}]
 			title: "防身火把"
-			x: 14.0d
+			x: 18.75d
 			y: -3.5d
 		}
 		{
@@ -1278,7 +1256,7 @@
 				type: "item"
 			}]
 			title: "破铜烂铁...？"
-			x: 14.0d
+			x: 18.75d
 			y: 0.5d
 		}
 		{
@@ -1315,7 +1293,7 @@
 				type: "item"
 			}]
 			title: "种子。"
-			x: 14.0d
+			x: 18.75d
 			y: -1.5d
 		}
 		{
@@ -1343,7 +1321,7 @@
 				type: "item"
 			}]
 			title: "购买农作物"
-			x: 15.75d
+			x: 20.5d
 			y: -3.5d
 		}
 		{
@@ -1367,7 +1345,7 @@
 				type: "item"
 			}]
 			title: "畜牧业"
-			x: 15.75d
+			x: 20.5d
 			y: -1.5d
 		}
 		{
@@ -1396,7 +1374,7 @@
 				type: "item"
 			}]
 			title: "钱币购买海产"
-			x: 15.75d
+			x: 20.5d
 			y: 0.5d
 		}
 		{
@@ -1432,11 +1410,11 @@
 				type: "item"
 			}]
 			title: "酒"
-			x: 17.5d
+			x: 22.25d
 			y: -1.5d
 		}
 		{
-			dependencies: ["7087617DAA184277"]
+			dependencies: ["5DCBE4A3084B8A20"]
 			description: [
 				"你在野外应该能遇到很多野生作物，其中地上的树莓和甜瓜和菠萝🍍值得留意"
 				""
@@ -1444,7 +1422,6 @@
 				""
 				"树莓则需要种植在&a泥土或草地&r上"
 			]
-			hide_dependency_lines: true
 			icon: "delightful:cantaloupe_seeds"
 			id: "080D1FB24C1FF631"
 			shape: "rsquare"
@@ -1466,31 +1443,16 @@
 				}
 			]
 			title: "野外水果"
-			x: 11.0d
-			y: 3.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			description: ["[ \"秋穰子：想了解关于动物养殖的问题吗？我只对农作物相关的比较了解，这方面不如还是去问问\", { \"text\": \"雀食老板娘\", \"underlined\": \"true\", \"color\":\"aqua\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"520862DBF29287DD\" } } ]"]
-			icon: "aquaculture:box_turtle"
-			id: "76F59AAF63523FD9"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "018916F3160032F7"
-				type: "checkmark"
-			}]
-			title: "动物养殖"
-			x: 15.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1A12600B80AA28EB"]
 			description: [
 				"秋穰子：如果确实无法顺利找到豆腐魔杖，还有一种特殊方法可以获得"
 				""
 				"需要右手持有&a下界之星&r的情况下右键强化深板岩，就能获得豆腐魔杖"
 				""
-				"&b强化深板岩无法挖掘，仅会出现在古城当中&r"
+				"&b强化深板岩无法挖掘，仅会出现在古城或神秘吸血鬼的建筑当中&r"
 			]
 			icon: "minecraft:nether_star"
 			id: "3FE812DD7F6360EA"
@@ -1503,7 +1465,7 @@
 			}]
 			title: "额外获得方式"
 			x: -1.5d
-			y: 7.0d
+			y: 13.5d
 		}
 		{
 			description: ["秋穰子：想要自动提交农作物而不是来这里手动交货？试试这个新东西，只需要提前选择好需要完成的任务，用溜槽，管道等输入就可以了。如果觉得中杯太小的话，可以合成大杯，超大杯。你说你只需要中间的这个？但是任务显示器分为中杯，大杯，超大杯……"]
@@ -1521,11 +1483,11 @@
 				type: "item"
 			}]
 			title: "自动交货"
-			x: 11.0d
+			x: 17.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["6E32861636D14303"]
+			dependencies: ["660810408AEFA584"]
 			description: [
 				"秋静叶：知道为什么小刀是最重要的工具吗？因为挖矿不一定要用镐子，可以用镐尖斧，还可以用矿脉锤，甚至可以用机械动力的钻头+动态结构搬空区块，全程不需要用左键。"
 				""
@@ -1590,8 +1552,8 @@
 				type: "item"
 			}]
 			title: "葡萄"
-			x: 7.0d
-			y: -4.5d
+			x: 7.75d
+			y: -12.75d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -1606,13 +1568,14 @@
 				item: "youkaishomecoming:cucumber"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: 10.25d
+			y: -10.5d
 		}
 		{
 			dependencies: ["5DCBE4A3084B8A20"]
 			description: ["秋穰子：蒸食，老祖宗的智慧，将蒸锅放置在火源下后，可以向上放置最多4个蒸笼,每个蒸笼都可以放入你要蒸熟的菜肴。接下来盖上蒸笼盖就会开始烹饪了。"]
 			id: "47461DA7FDF63E77"
+			shape: "square"
 			tasks: [
 				{
 					id: "2EB41B4A2D49F7A1"
@@ -1631,8 +1594,8 @@
 				}
 			]
 			title: "2.3-3 蒸蒸日上！"
-			x: 8.25d
-			y: -1.5d
+			x: 4.4d
+			y: -3.8d
 		}
 		{
 			dependencies: ["5DCBE4A3084B8A20"]
@@ -1644,6 +1607,7 @@
 				"&7你什么意思叫做不洗才对味?"
 			]
 			id: "094065F0422C956E"
+			shape: "square"
 			subtitle: "糯香柠檬汁什么时候有？gkd"
 			tasks: [{
 				id: "57B22359911967AD"
@@ -1651,8 +1615,8 @@
 				type: "item"
 			}]
 			title: "2.3-4 脚踩葡萄酒...?"
-			x: 6.75d
-			y: -2.5d
+			x: 3.4d
+			y: -4.8d
 		}
 		{
 			dependencies: ["5DCBE4A3084B8A20"]
@@ -1662,6 +1626,7 @@
 				"配方请按照顺序摆放，出现手的图案时对其空手右键即可将饭捏形或是卷成卷。"
 			]
 			id: "42E4025A809377FA"
+			shape: "square"
 			subtitle: "回转寿司可能性（？）"
 			tasks: [{
 				id: "14355B144E7F2462"
@@ -1669,8 +1634,8 @@
 				type: "item"
 			}]
 			title: "2.3-5"
-			x: 8.25d
-			y: -2.5d
+			x: 4.4d
+			y: -4.8d
 		}
 	]
 	title: "秋姐妹的住处"

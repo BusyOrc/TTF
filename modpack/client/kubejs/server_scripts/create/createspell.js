@@ -108,12 +108,12 @@ event.custom(
 
     event.recipes.create.splashing("irons_spellbooks:arcane_salvage","minecraft:netherite_scrap")
     event.recipes.create.splashing("irons_spellbooks:arcane_debris","minecraft:ancient_debris")
-
+/*
     event.replaceOutput(
         { input: 'irons_spellbooks:blood_vial' }, 
         "minecraft:glass_bottle",         
         'thermal:jar'
-      )
+      )*/
 
 
 }

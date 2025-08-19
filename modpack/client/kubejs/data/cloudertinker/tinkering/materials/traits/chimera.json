@@ -1,0 +1,70 @@
+{
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_shield": [
+      {
+        "name": "cloudertinker:variablood",
+        "level": 1
+      }
+    ]
+  }
+}

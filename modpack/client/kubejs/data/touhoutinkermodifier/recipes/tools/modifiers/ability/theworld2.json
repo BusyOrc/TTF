@@ -1,0 +1,27 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "advanced_ae:quantum_alloy_plate"
+      },
+      {
+        "item": "ltc2:delicacy_soylatiao",
+        "amount_needed":4
+      },
+      {
+        "item": "thermal:tar_block",
+        "amount_needed":12
+      }
+    ],
+    "level": 2,
+    "result": "touhoutinkermodifier:theworld",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+          {
+            "tag": "tconstruct:modifiable/held"
+          }
+    ]
+  }

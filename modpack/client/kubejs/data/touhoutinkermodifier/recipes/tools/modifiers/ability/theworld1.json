@@ -1,0 +1,40 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+      {
+        "item": "ltc2:time_traveler_watch"
+      },
+      {
+        "item": "ars_nouveau:wilden_tribute"
+      },
+      {
+        "item": "advanced_ae:quantum_alloy_plate",
+        "amount_needed":3
+      },
+      {
+        "ingredient":[
+      {
+        "item": "traveloptics:dark_gem_of_the_living_void"
+      },
+      {
+        "item":"irons_spellbooks:silver_ring"
+      }
+    ]
+  },
+      {
+        "item": "thermal:enderium_glass",
+        "amount_needed":42
+      }
+    ],
+    "level": 1,
+    "result": "touhoutinkermodifier:theworld",
+    "slots": {
+      "abilities": 1
+    },
+    "tools": [
+          {
+            "tag": "tconstruct:modifiable/held"
+          }
+    ]
+  }
