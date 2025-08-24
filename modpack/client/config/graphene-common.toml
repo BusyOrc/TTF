@@ -1,7 +1,7 @@
 
 [Reflex]
 	#启用类似 NVIDIA Reflex 的动态低延迟调度
-	enableReflex = false
+	enableReflex = true
 	#Reflex 微调等待时间（纳秒）。
 	#GPU 吃不满就加正数；队列堆积就加负数。
 	#Range: -1000000 ~ 1000000
@@ -47,20 +47,20 @@
 
 ["渲染优化 | Rendering Optimization"]
 	#Skip outline rendering when no glowing entities are in view
-	skipOutlineWhenNoGlowing = false
+	skipOutlineWhenNoGlowing = true
 	#减少渲染延迟，把「把最终画面从 MC 的离屏 FBO（MainTarget）拷贝到屏幕」这一步，由“画一个全屏三角形”改成了“一次 GPU 内部的 glBlitFramebuffer 指令”
 	fpsoo = true
 
 [chest_optimization]
 	#Enable chest rendering optimization
-	enableOptimization = false
+	enableOptimization = true
 	#Rendering mode
 	#Allowed Values: SIMPLE, VANILLA, SEMI_COMPLEX
 	renderMode = "SIMPLE"
 	#Optimize ender chests
-	optimizeEnderChests = false
+	optimizeEnderChests = true
 	#Optimize trapped chests
-	optimizeTrappedChests = false
+	optimizeTrappedChests = true
 	#Max render distance in chunks
 	#Range: 1 ~ 128
 	maxRenderDistance = 32
@@ -84,7 +84,7 @@
 	["高级剔除 | Advanced Culling"."超激进剔除 | Ultra Culling"]
 		#启用超激进剔除（对所有方块/实体生效）
 		#Enable ultra-aggressive culling (affects all blocks/entities)
-		ultraCulling = false
+		ultraCulling = true
 		#剔除深度 (1-4)，值越大剔除越激进但可能出现bug
 		#Culling depth (1-4), Higher values = more aggressive culling but may cause bugs
 		#Range: 1 ~ 4
@@ -97,7 +97,7 @@
 ["路径追踪 | Path Tracing"]
 	#启用异步路径追踪进行剔除
 	#Enable async path tracing for culling
-	asyncTracing = false
+	asyncTracing = true
 	#路径追踪线程数 (1-8)
 	#Number of threads for path tracing (1-8)
 	#Range: 1 ~ 8
@@ -246,7 +246,7 @@
 [async_optimization]
 	#启用异步粒子处理
 	#Enable asynchronous particle processing
-	asyncParticles = false
+	asyncParticles = true
 	#每tick最大异步操作数
 	#Max async operations processed per tick
 	#Range: 100 ~ 10000

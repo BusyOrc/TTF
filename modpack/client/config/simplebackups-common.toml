@@ -5,7 +5,7 @@ enabled = true
 #- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup
 #- MODIFIED_SINCE_FULL - saves all files which changed after the last full backup
 #Allowed Values: FULL_BACKUPS, MODIFIED_SINCE_LAST, MODIFIED_SINCE_FULL
-backupType = "FULL_BACKUPS"
+backupType = "MODIFIED_SINCE_LAST"
 #Should a save-all be forced before backup?
 saveAll = true
 #How often should a full backup be created if only modified files should be saved? This creates a full backup when x minutes are over and the next backup needs to be done. Once a year is default.
@@ -13,7 +13,7 @@ saveAll = true
 fullBackupTimer = 525960
 #The max amount of backup files to keep.
 #Range: 1 ~ 32767
-backupsToKeep = 10
+backupsToKeep = 3
 #The time between two backups in minutes
 #5 = each 5 minutes
 #60 = each hour

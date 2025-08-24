@@ -73,8 +73,7 @@ event.custom(
     "results": [
       {
         "amount": 1000,
-        "fluid": "biomesoplenty:blood",
-        "nbt": {}
+        "fluid": "biomesoplenty:blood"
       }
     ]
   }
@@ -103,8 +102,7 @@ event.custom(
       "results": [
         {
           "amount": 1000,
-          "fluid": "tconstruct:blazing_blood",
-          "nbt": {}
+          "fluid": "tconstruct:blazing_blood"
         }
       ]
     }

@@ -14,10 +14,10 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 0.4
+	healthGrowth = 0.5
 	#The healthGrowth operation. Effect how health growth calculate (More info you can find here: https://minecraft.fandom.com/wiki/Attribute#Modifiers)
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	maxHealthModifierOperation = "MULTIPLY_TOTAL"
+	maxHealthModifierOperation = "MULTIPLY_BASE"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
 	attackGrowth = 0.7
@@ -44,7 +44,7 @@
 	knockbackResistanceModifierOperation = "ADDITION"
 	#The increase in experience multiplied by the growth factor
 	#Range: > 0
-	experienceGrowth = 2
+	experienceGrowth = 1.5
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
 	explosionGrowth = 3
@@ -60,7 +60,7 @@
 		adaptableDamageReductionIncrement = 0.1
 		#The maximum damage reduction
 		#Range: 0.0 ~ 1.0
-		adaptableMaxDamageReduction = 0.65
+		adaptableMaxDamageReduction = 0.7
 
 	[affixes.arctic]
 		#How often the champion will shoot projectiles (in seconds)
@@ -156,14 +156,14 @@
 		reflectiveMaxPercent = 0.5
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 100
+		reflectiveMax = 120
 		#Set to true to enable deadly reflected strikes
 		reflectiveLethal = false
 
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.02
+		magneticStrength = 0.035
 
 	[affixes.wounding]
 		#The percent chance that an attack will wound targets

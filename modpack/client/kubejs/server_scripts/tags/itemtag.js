@@ -62,8 +62,6 @@ ServerEvents.tags('item', event => {
     event.add('forge:cheese',['vanillacookbook:cheese', 'refurbished_furniture:cheese'])
 
 event.add('forge:ingots/uranium', 'alexscaves:uranium')
-
-
     event.add('createaddtion:plants', [
         'biomesoplenty:enderphyte',
         'biomesoplenty:lumaloop',
@@ -155,7 +153,6 @@ for(let i of tr_latiaos)
 event.add('forge:treasure_latiao',i)
 }
 
-event.add("tconstruct:modifiable/held",["sakuratinker:swift_sword"])
 event.add("tconstruct:modifiable/melee/weapon",["sakuratinker:swift_sword"])
 event.add('forge:salt_blocks',['ltc2:refined_salt_block', 'ltc2:salt_block', 'tofucraft:salt_block'])
 
@@ -188,7 +185,8 @@ event.add('tconstruct:modifiable/held',[
     'sakuratinker:laser_gun',
     'sakuratinker:grappling_hook',
     'tinkers_things:twinblade',
-    "tinkerscalibration:cutlass"
+    "tinkerscalibration:cutlass",
+    "cloudertinker:giantsword"
 ])
 
 event.add('tconstruct:modifiable/bonus_slots',[
@@ -197,7 +195,8 @@ event.add('tconstruct:modifiable/bonus_slots',[
     'sakuratinker:laser_gun',
     'sakuratinker:grappling_hook',
     'tinkers_things:twinblade',
-    "tinkerscalibration:cutlass"
+    "tinkerscalibration:cutlass",
+    "cloudertinker:giantsword"
 ])
 //event.add("create:sandpaper",'advanced_ae:quantum_alloy_plate')
 

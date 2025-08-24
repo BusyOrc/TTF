@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_thunderbolt_epic",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 2 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_thunderbolt_legendary",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 1 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_thunderbolt_mythic",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 1 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_refreshment_epic",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 2 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_refreshment_legendary",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 1 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:augment_refreshment_mythic",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 1 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 13
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:codex_of_the_crushing_depths",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 1 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "traveloptics:hullbreaker_scales",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 4, "max": 7 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

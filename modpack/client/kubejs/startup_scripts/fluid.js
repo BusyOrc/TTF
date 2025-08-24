@@ -28,7 +28,7 @@ StartupEvents.registry('fluid', event => {
     event.create('molten_xy')
     .thickTexture(0xF5DEB3)
     .bucketColor(0xF5DEB3)
-    .displayName('熔融星雨合金')  
+    .displayName('熔融两仪雾星')  
 /*
     event.create('molten_dragonsteel_lightning')
     .thickTexture(0x6A5ACD)

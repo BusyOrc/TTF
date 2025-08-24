@@ -41,6 +41,17 @@
       },
       "tconstruct:plating_shield": {
         "durability": 514
+      },
+      "tconstruct:limb": {
+        "accuracy": -0.1,
+        "draw_speed": 0.2,
+        "durability": 514,
+        "velocity": 0.2
+      },
+      "tconstruct:grip": {
+        "accuracy": -0.1,
+        "durability": 0.3,
+        "melee_damage": 5.14
       }
     }
   }

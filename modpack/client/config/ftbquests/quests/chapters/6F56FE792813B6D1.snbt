@@ -271,7 +271,7 @@
 				"想要灵梦的蝴蝶结的话，目前我知道整整三种获取方法"
 				""
 				"1.击败灵梦固定掉落"
-				"2.喂食灵梦106种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
+				"2.喂食灵梦116种指定妖怪归家的食物（拿着对应食物右键灵梦即可）"
 				"3.在某个&a特定结构&r内的箱子里概率刷出，听说这个结构&b很复杂&r，还包含了&b通往另一个维度的传送门&r"
 				""
 				"哦对了，别给灵梦吃一些&4诡异的肉&f做出的料理，不然她可是会生气的！"
@@ -369,6 +369,7 @@
 			description: [
 				"魔理沙：“如果你很好奇灵梦喜欢吃什么的话，问我可就对了！"
 				"但是灵梦喜欢的食物可多了，一时之间可能说不完，你等等啊，我给你一个名单！"
+				"&7灵梦该不会被幽幽子凭依了吧，这么一下从86种食物飞到116种了"
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -386,7 +387,7 @@
 				title: "关于88种食物"
 				type: "checkmark"
 			}]
-			title: "【IOSYS】灵梦的106种喂食胜负！（bushi"
+			title: "【IOSYS】灵梦的116种喂食胜负！（bushi"
 			x: 7.0d
 			y: -4.5d
 		}
@@ -1778,6 +1779,16 @@
 				"130625B7062D7BA7"
 				"07B5008423FCF1B1"
 				"04118588DF94F870"
+				"438EF24A49E4F002"
+				"01A452B21B39344B"
+				"27CCD645B1144B34"
+				"267EED3EEAC5146C"
+				"03F5A0892B9FE968"
+				"24FABAC3A0F1BAA4"
+				"79D7B056587647BB"
+				"243D488BFAA080AA"
+				"159F14F6367D3C18"
+				"63D304B1F7D77718"
 			]
 			description: ["魔理沙：居然能完成这么多食物的制作，也是不容易啊，辛苦你了，我最近捡到一些天上掉下来的东西，俺寻思也没人要啊就拿走了，好像是天子的东西吧？希望她不会来找我麻烦，不如全送给你好了，这样我也省心，反正这些对我来说没什么用"]
 			hide_dependency_lines: true
@@ -1785,7 +1796,7 @@
 			id: "39F09888FE174593"
 			rewards: [
 				{
-					count: 16
+					count: 32
 					id: "53406F13A2E057BA"
 					item: "ae2:singularity"
 					type: "item"
@@ -1815,19 +1826,19 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 16
 					id: "4A2879DFCA9EBDBD"
 					item: "kubejs:youmus_dualswords"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 24
 					id: "36EB9DF0C46C99A7"
 					item: "kubejs:daiyouseis_bomb"
 					type: "item"
 				}
 				{
-					count: 12
+					count: 16
 					id: "78BBA3AE17FC74B6"
 					item: "lightmanscurrency:coin_netherite"
 					type: "item"
@@ -1839,7 +1850,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 5
 					id: "05BEEF5643D4AE7F"
 					item: "thermalendergy:endergy_upgrade_3"
 					type: "item"
@@ -1853,7 +1864,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "制作完106种食物后可获得奖励"
+			subtitle: "制作完116种食物后可获得奖励"
 			tasks: [{
 				id: "6009C4CBE5A5CC09"
 				type: "checkmark"

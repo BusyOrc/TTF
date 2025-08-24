@@ -11007,7 +11007,7 @@
 				}
 				{
 					id: "01CDE62DDC65599C"
-					observe_type: 0
+					observe_type: 5
 					timer: 0L
 					title: "观察⑨！"
 					to_observe: "youkaishomecoming:cirno"
@@ -11379,7 +11379,7 @@
 				}
 				{
 					id: "59092431B36F9147"
-					observe_type: 0
+					observe_type: 5
 					timer: 0L
 					title: "观察隙间妖怪！"
 					to_observe: "youkaishomecoming:yukari"
@@ -11466,7 +11466,7 @@
 				}
 				{
 					id: "696F5B1B32BC8365"
-					observe_type: 0
+					observe_type: 5
 					timer: 0L
 					title: "观察威严！"
 					to_observe: "youkaishomecoming:remilia_scarlet"

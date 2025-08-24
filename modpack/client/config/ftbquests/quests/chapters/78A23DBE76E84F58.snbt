@@ -243,7 +243,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["080D1FB24C1FF631"]
+			dependencies: ["5DCBE4A3084B8A20"]
 			description: ["秋穰子：如果你还想了解更多东西，不想继续待在这里种田的话，可以去找河城荷取学&9机械&r，或者去有顶天找天子了解天上的科技——&9应用能源&r，或者去地灵殿学习所谓“&9热力&r”的机器使用方法，也可以直接去找小伞学习&9工匠&r技术，还能找早苗去学习&9弹幕战&f的内容。"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: false
@@ -510,7 +510,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -12.75d
+			y: -13.0d
 		}
 		{
 			dependencies: ["3EC355FF7D06096A"]
@@ -672,15 +672,15 @@
 		{
 			dependencies: ["2DC1A56063F3AF55"]
 			description: [
-				"秋穰子:茶叶有四种处理方式。"
+				"秋穰子:茶叶有许多种处理方式。"
 				""
-				"将绿茶拿去烟熏炉烟熏就是&a红茶&f啦，注意是&4烟熏&f哦，别拿去篝火上烤了。"
+				"将生的茶叶直接&e晒干&r即为&a白茶&r"
 				""
-				"拿去篝火&a右键&f就可以放在上面烘烤，一下子就变成&a乌龙茶叶&f啦，注意是&4篝火烘烤&f，别拿去烟熏炉烟熏哦。"
+				"再将&a白茶&r拿去&e发酵&r就是&a红茶&r，或是拿去&e营火烘烤&r即为&a乌龙茶&r"
 				""
-				"把绿茶拿去再晒一次就是&a白茶&f。"
+				"将&a绿茶&r拿去&e砧板用铲子捣碎&r就是&a抹茶&r"
 				""
-				"将绿茶放在砧板上用铲子压碎就是&a抹茶&f啦。"
+				"拿去&e晒干&r就是&a黄茶&r，如果拿去发酵&e就是&a黑茶&r"
 			]
 			id: "0DBC0F2EA1445D90"
 			rewards: [{
@@ -707,6 +707,16 @@
 				{
 					id: "036E4DEC49692C19"
 					item: "youkaishomecoming:white_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "54549E14E46A02AD"
+					item: "youkaishomecoming:yellow_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "4ADBD6932B672852"
+					item: "youkaishomecoming:dark_tea_leaves"
 					type: "item"
 				}
 			]
@@ -1414,7 +1424,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5DCBE4A3084B8A20"]
 			description: [
 				"你在野外应该能遇到很多野生作物，其中地上的树莓和甜瓜和菠萝🍍值得留意"
 				""
@@ -1443,8 +1452,8 @@
 				}
 			]
 			title: "野外水果"
-			x: 6.0d
-			y: 0.0d
+			x: 7.0d
+			y: -2.7d
 		}
 		{
 			description: [
@@ -1636,6 +1645,116 @@
 			title: "2.3-5"
 			x: 4.4d
 			y: -4.8d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "24FABAC3A0F1BAA4"
+			tasks: [{
+				id: "26088E913ED95C53"
+				item: "youkaishomecoming:yellow_tea"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "79D7B056587647BB"
+			tasks: [{
+				id: "56B9E78CA5E1E4AB"
+				item: "youkaishomecoming:dark_tea"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "243D488BFAA080AA"
+			tasks: [{
+				id: "4119F2C81F60CCC7"
+				item: "youkaishomecoming:kaguya_hime"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "438EF24A49E4F002"
+			tasks: [{
+				id: "4DAEC5E71C56C652"
+				item: "youkaishomecoming:pot_of_han_palace"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "27CCD645B1144B34"
+			tasks: [{
+				id: "35CE23949AD0D983"
+				item: "youkaishomecoming:potato_soup"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "63D304B1F7D77718"
+			tasks: [{
+				id: "158CFADD48C902BD"
+				item: "youkaishomecoming:borscht"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "267EED3EEAC5146C"
+			tasks: [{
+				id: "3CB8D5A63302CCAB"
+				item: "youkaishomecoming:signature_mushroom_stew"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "159F14F6367D3C18"
+			tasks: [{
+				id: "4857598BE16A69EE"
+				item: "youkaishomecoming:hokkaido_salmon_hotpot"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "01A452B21B39344B"
+			tasks: [{
+				id: "649136A644673972"
+				item: "youkaishomecoming:rice_powder_pork"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "03F5A0892B9FE968"
+			tasks: [{
+				id: "01ECB8DEE0098A0E"
+				item: "youkaishomecoming:pot_of_tofu_crab_stew"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -9.75d
 		}
 	]
 	title: "秋姐妹的住处"
