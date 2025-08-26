@@ -202,7 +202,7 @@ event.custom(
           "amount":1000
         }
       ],
-      "chances": 0.98,
+      "chances": 1,
       "results": [
         {
           "fluid": "kubejs:magic_fuel",

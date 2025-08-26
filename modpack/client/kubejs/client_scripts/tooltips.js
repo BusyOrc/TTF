@@ -179,4 +179,7 @@ event.addAdvanced('kubejs:seija', (item, advanced, text) => {
   event.addAdvanced('create:blaze_burner', (item, advanced, text) => {
     text.add(Text.gold("可通过烈焰血浇筑获得"))
   })
+  event.addAdvanced('minecraft:bucket', (item, advanced, text) => {
+    text.add(Text.gold("可从女仆身上获得牛奶"))
+  })
 })

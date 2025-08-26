@@ -93,7 +93,21 @@ ServerEvents.recipes(event => {
         })
 
         
-
+event.custom(
+        {
+            "type": "tconstruct:casting_basin",
+            "cast": {
+            "item": 'pasterdream:dyedream_leaves'
+                        },
+            "cooling_time": 20,
+            "cast_consumed": true,
+            "fluid": {
+              "amount": 250,
+              "fluid": "kubejs:fluid_cloud"
+            },
+            "result":'minecraft:phantom_membrane' 
+          }
+        )
 
 
 })

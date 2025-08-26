@@ -66,6 +66,17 @@
         "value": 100000000
       }
     },
+    "alshanex_familiars:sound_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:armor_shred": {
       "enabled": false,
       "min": {
@@ -132,6 +143,17 @@
         "value": 100
       }
     },
+    "pasterdream:magiccd": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "youkaishomecoming:max_resource": {
       "enabled": false,
       "min": {
@@ -165,6 +187,17 @@
         "value": 1024
       }
     },
+    "pasterdream:skillcd": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "exmodifier:durability": {
       "enabled": false,
       "min": {
@@ -196,6 +229,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "pasterdream:total_healing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "ticex:healing_received": {
@@ -253,6 +297,17 @@
         "value": 1024
       }
     },
+    "cataclysm_spellbooks:abyssal_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "exmodifier:firework_damage": {
       "enabled": false,
       "min": {
@@ -284,6 +339,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "alshanex_familiars:sound_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "touhoutinkermodifier:player_fly_movement": {
@@ -405,6 +471,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "pasterdream:san": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "l2damagetracker:explosion_damage": {
@@ -627,6 +704,17 @@
         "value": 1024
       }
     },
+    "pasterdream:meltdreamenergy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "constructs_casting:slime_magic_resist": {
       "enabled": false,
       "min": {
@@ -781,6 +869,28 @@
         "value": 100
       }
     },
+    "pasterdream:teleportationrange": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "cataclysm_spellbooks:technomancy_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecraft:horse.jump_strength": {
       "enabled": true,
       "min": {
@@ -913,6 +1023,17 @@
         "value": 1024
       }
     },
+    "cataclysm_spellbooks:abyssal_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecolonies:mc_mob_damage": {
       "enabled": false,
       "min": {
@@ -977,6 +1098,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "pasterdream:skillmultiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:summon_damage": {
@@ -1243,6 +1375,17 @@
         "value": 100
       }
     },
+    "pasterdream:luck": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "puffish_attributes:stamina": {
       "enabled": false,
       "min": {
@@ -1419,6 +1562,17 @@
         "value": 1
       }
     },
+    "pasterdream:teleportationcd": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "nffgirls:nffgirls.xp_gain_rate": {
       "enabled": false,
       "min": {
@@ -1463,6 +1617,17 @@
         "value": 100
       }
     },
+    "pasterdream:teleportationconsume": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "tconstruct:generic.knockback_multiplier": {
       "enabled": false,
       "min": {
@@ -1483,6 +1648,28 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "cataclysm_spellbooks:technomancy_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "pasterdream:magicpower": {
+      "enabled": false,
+      "min": {
+        "default": -10,
+        "value": -10
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.movement_speed": {

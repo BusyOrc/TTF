@@ -1,30 +1,26 @@
 [
     {
         "dimension": "minecraft:overworld",  
-        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],
+        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider"],
         "gamestage":"easy_stage",
-        "result": "deny"
-    },
-    {
-        "mob": ["alexsmobs:enderiophage"],
         "result": "deny"
     },
     {
         "dimension": "minecraft:overworld",  
         "maxheight": 16,
-        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider","alexsmobs:centipede"],
+        "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider"],
         "gamestage":"normal_stage",
         "result": "allow"
     },
     {
         "dimension": "minecraft:overworld",  
-        "mob":["hmag:ender_executor","hmag:necrotic_reaper","alexsmobs:centipede"],
+        "mob":["hmag:ender_executor","hmag:necrotic_reaper"],
         "gamestage":"challenge_stage",
         "result":"allow"
     },
     {
         "dimension": "minecraft:overworld",  
-        "mob":["hmag:ender_executor","hmag:necrotic_reaper","alexsmobs:centipede"],
+        "mob":["hmag:ender_executor","hmag:necrotic_reaper"],
         "gamestage":"hardcore_stage",
         "result":"allow"
     },

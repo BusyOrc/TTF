@@ -271,72 +271,72 @@
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 9.05d
+			x: 0.10000000000000009d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.75d
-			y: 9.05d
+			x: 1.85d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: 9.05d
+			x: 3.6d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.75d
-			y: 10.8d
+			x: 1.85d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 10.8d
+			x: 0.10000000000000009d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: 10.8d
+			x: 3.6d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.75d
-			y: 12.55d
+			x: 1.85d
+			y: 17.2d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
-			y: 12.55d
+			x: 0.10000000000000009d
+			y: 17.2d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
-			y: 12.55d
+			x: 3.6d
+			y: 17.2d
 		}
 		{
 			click: "#"
@@ -345,8 +345,8 @@
 			image: "iceandfire:block/dragonforge_fire_input"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.75d
-			y: 12.55d
+			x: 8.85d
+			y: 17.2d
 		}
 		{
 			click: "#"
@@ -355,144 +355,144 @@
 			image: "iceandfire:block/dragonforge_fire_core_disabled"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.75d
-			y: 10.8d
+			x: 8.85d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.0d
-			y: 12.55d
+			x: 7.1d
+			y: 17.2d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.0d
-			y: 10.8d
+			x: 7.1d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 7.0d
-			y: 9.05d
+			x: 7.1d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.75d
-			y: 9.05d
+			x: 8.85d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
-			y: 9.05d
+			x: 10.6d
+			y: 13.7d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
-			y: 10.8d
+			x: 10.6d
+			y: 15.45d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
-			y: 12.55d
+			x: 10.6d
+			y: 17.2d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 14.1d
-			y: 9.1d
+			x: 14.2d
+			y: 13.749999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.85d
-			y: 9.1d
+			x: 15.950000000000001d
+			y: 13.749999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.85d
-			y: 10.85d
+			x: 15.950000000000001d
+			y: 15.499999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 14.1d
-			y: 10.85d
+			x: 14.2d
+			y: 15.499999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 17.6d
-			y: 10.85d
+			x: 17.700000000000003d
+			y: 15.499999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragonforge_fire_brick"
 			rotation: 0.0d
 			width: 2.0d
-			x: 15.85d
-			y: 12.6d
+			x: 15.950000000000001d
+			y: 17.25d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 17.6d
-			y: 9.1d
+			x: 17.700000000000003d
+			y: 13.749999999999998d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 14.1d
-			y: 12.6d
+			x: 14.2d
+			y: 17.25d
 		}
 		{
 			height: 2.0d
 			image: "iceandfire:block/dragon_bone_block"
 			rotation: 0.0d
 			width: 2.0d
-			x: 17.6d
-			y: 12.6d
+			x: 17.700000000000003d
+			y: 17.25d
 		}
 		{
 			height: 2.0d
 			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -1.5d
-			y: 6.55d
+			x: -1.3d
+			y: 8.9d
 		}
 		{
 			height: 2.0d
@@ -1376,8 +1376,8 @@
 				type: "item"
 			}]
 			title: "8.13 喷流之刃"
-			x: 15.0d
-			y: -7.0d
+			x: 14.8d
+			y: -6.9d
 		}
 		{
 			dependencies: ["6B67A1C73B6CC072"]
@@ -2764,8 +2764,12 @@
 				xp: 3
 			}]
 			size: 3.0d
+			tasks: [{
+				id: "793A5DE390D2269F"
+				type: "checkmark"
+			}]
 			title: "匠魂部件的制作"
-			x: 1.5d
+			x: 1.8000000000000003d
 			y: 0.0d
 		}
 		{
@@ -2803,8 +2807,8 @@
 				type: "item"
 			}]
 			title: "火焰花"
-			x: 12.0d
-			y: -7.0d
+			x: -2.4d
+			y: -2.6d
 		}
 		{
 			dependencies: ["3EB72ECADB04D683"]
@@ -4238,8 +4242,8 @@
 				item: "tconstruct:seared_casting_tank"
 				type: "item"
 			}]
-			x: 6.6d
-			y: -9.1d
+			x: 3.4d
+			y: -9.2d
 		}
 		{
 			description: ["类似于原版的发射器，只不过区别在于发射的是其中存储的流体，类似于可以红石控制发射的喷流刃。威力完全取决于其中装填的液体和所用的加农炮种类，钴制的加农炮威力更大"]
@@ -4249,8 +4253,8 @@
 				item: "tconstruct:seared_fluid_cannon"
 				type: "item"
 			}]
-			x: 5.6d
-			y: -9.1d
+			x: 3.4d
+			y: -8.2d
 		}
 		{
 			description: ["更强的“流体版发射器”"]
@@ -4260,8 +4264,8 @@
 				item: "tconstruct:scorched_fluid_cannon"
 				type: "item"
 			}]
-			x: 7.6d
-			y: -9.1d
+			x: 3.4d
+			y: -10.2d
 		}
 		{
 			dependencies: ["6B557C22BFBDE30B"]
@@ -4404,8 +4408,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -4.0d
+			x: 4.4d
+			y: -8.2d
 		}
 		{
 			description: ["材料需求更贵，但是容量更大"]
@@ -4450,8 +4454,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -5.25d
+			x: 4.4d
+			y: -9.2d
 		}
 		{
 			description: ["材料需求进一步提升——阿迪特需要前往下界挖掘，但是多了一丁点的输出手段，这真的值得吗？"]
@@ -4500,8 +4504,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: -6.5d
+			x: 4.4d
+			y: -10.2d
 		}
 		{
 			description: ["这部分方块也可以用于搭建冶炼炉和熔铸炉，但是还具有一些特殊的功能……"]
@@ -5220,7 +5224,10 @@
 				{
 					count: 8L
 					id: "0EBFEB4F08184F97"
-					item: { Count: 8, id: "alexscaves:uranium" }
+					item: {
+						Count: 8
+						id: "alexscaves:uranium"
+					}
 					type: "item"
 				}
 			]
@@ -6607,8 +6614,8 @@
 				item: "sakuratinker:molten_fire_dragon_blood_bucket"
 				type: "item"
 			}]
-			x: 8.75d
-			y: 16.05d
+			x: 8.85d
+			y: 20.7d
 		}
 		{
 			dependencies: ["1603192DC135DC21"]
@@ -6618,8 +6625,8 @@
 				item: "sakuratinker:molten_ice_dragon_blood_bucket"
 				type: "item"
 			}]
-			x: 7.75d
-			y: 16.05d
+			x: 7.85d
+			y: 20.7d
 		}
 		{
 			dependencies: ["1603192DC135DC21"]
@@ -6629,8 +6636,8 @@
 				item: "sakuratinker:molten_lightning_dragon_blood_bucket"
 				type: "item"
 			}]
-			x: 9.75d
-			y: 16.05d
+			x: 9.85d
+			y: 20.7d
 		}
 		{
 			description: [
@@ -6644,8 +6651,8 @@
 				type: "checkmark"
 			}]
 			title: "龙血"
-			x: 8.75d
-			y: 14.3d
+			x: 8.85d
+			y: 18.95d
 		}
 		{
 			description: [
@@ -6686,8 +6693,8 @@
 				}
 			]
 			title: "龙钢锻炉"
-			x: -1.5d
-			y: 4.8d
+			x: -1.4d
+			y: 6.6d
 		}
 		{
 			id: "115FEAECE8762317"
@@ -6696,8 +6703,8 @@
 				title: "第一层"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 8.55d
+			x: -1.4d
+			y: 13.2d
 		}
 		{
 			id: "6BDF2BB40A6B934A"
@@ -6706,8 +6713,8 @@
 				title: "第二层"
 				type: "checkmark"
 			}]
-			x: 5.75d
-			y: 8.55d
+			x: 5.85d
+			y: 13.2d
 		}
 		{
 			id: "4B8909CA8D242353"
@@ -6716,8 +6723,8 @@
 				title: "第三层"
 				type: "checkmark"
 			}]
-			x: 12.75d
-			y: 8.55d
+			x: 12.85d
+			y: 13.2d
 		}
 		{
 			dependencies: ["0E0AFD0B60E301E6"]
@@ -6821,187 +6828,6 @@
 			}]
 			x: -13.25d
 			y: -8.75d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			description: [""]
-			id: "56A6E80FDC11598F"
-			shape: "rsquare"
-			size: 0.7d
-			subtitle: "800度"
-			tasks: [{
-				id: "13CA02A1503367E2"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:planks"
-					}
-				}
-				title: "Any #minecraft:planks"
-				type: "item"
-			}]
-			title: "木板或煤炭等"
-			x: 11.824999999999989d
-			y: -15.125000000000004d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "7F48E923BB7AAD1A"
-			shape: "hexagon"
-			size: 1.3d
-			subtitle: "1000度"
-			tasks: [{
-				id: "0BB1E2294AC73E90"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			title: "熔岩"
-			x: 11.87499999999999d
-			y: -13.575d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "2BDDC8CC74C89F00"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "1500度"
-			tasks: [{
-				id: "41A12C4AE303D216"
-				item: "tconstruct:blazing_blood_bucket"
-				type: "item"
-			}]
-			title: "烈焰血"
-			x: 11.89999999999999d
-			y: -12.425d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "4C0C9F769B239947"
-			shape: "diamond"
-			size: 1.8d
-			subtitle: "2000度"
-			tasks: [{
-				id: "2E35B53E0B55272C"
-				item: "sakuratinker:molten_aurumos_bucket"
-				type: "item"
-			}]
-			x: 11.2d
-			y: -10.229761904761911d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "590D267244B46537"
-			shape: "diamond"
-			size: 1.8d
-			subtitle: "2000度"
-			tasks: [{
-				id: "71EC2A1439231F7D"
-				item: "cloudertinker:fire_blood_bucket"
-				type: "item"
-			}]
-			x: 11.95d
-			y: -10.979761904761911d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "3A2FB6E67EA36FFD"
-			shape: "diamond"
-			size: 1.8d
-			subtitle: "2000度"
-			tasks: [{
-				id: "766E406EDC337EF1"
-				item: "cloudertinker:fire_tear_bucket"
-				type: "item"
-			}]
-			x: 11.95d
-			y: -9.479761904761911d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "3CF1665A7AADBA00"
-			shape: "diamond"
-			size: 1.8d
-			subtitle: "2000度"
-			tasks: [{
-				id: "7FC8BF20AB808E50"
-				item: "cloudertinker:molten_fiery_bucket"
-				type: "item"
-			}]
-			x: 12.7d
-			y: -10.229761904761911d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "0C3998F7DFE080E3"
-			shape: "hexagon"
-			size: 2.5d
-			subtitle: "2200度"
-			tasks: [{
-				id: "42832443AA634F2F"
-				item: "kubejs:magic_fuel_bucket"
-				type: "item"
-			}]
-			title: "魔法燃料"
-			x: 16.62499999999999d
-			y: -15.525000000000002d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "24C9D4372A63BA3E"
-			shape: "diamond"
-			size: 3.0d
-			subtitle: "3000度"
-			tasks: [{
-				id: "68AA10B2E5311995"
-				item: "kubejs:nuclear_fuel_bucket"
-				type: "item"
-			}]
-			title: "魔力核燃料"
-			x: 15.17499999999999d
-			y: -13.175d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "67AEA7FECDA7EB08"
-			shape: "hexagon"
-			size: 4.0d
-			subtitle: "4000度"
-			tasks: [{
-				id: "1C13DE2E10E7050F"
-				item: "sakuratinker:molten_nihilite_bucket"
-				type: "item"
-			}]
-			x: 16.62857142857143d
-			y: -10.170238095238116d
-		}
-		{
-			hide_dependent_lines: true
-			icon: "traveloptics:augment_volcana_blessed"
-			id: "4C7129B456ABDC07"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "609C499C2B0B10B6"
-				title: "匠魂熔炉燃料汇总"
-				type: "checkmark"
-			}]
-			x: 14.12499999999999d
-			y: -17.325d
-		}
-		{
-			dependencies: ["4C7129B456ABDC07"]
-			id: "53A5EBC51BABF934"
-			shape: "diamond"
-			size: 3.0d
-			subtitle: "2000度"
-			tasks: [{
-				id: "3CFD06CCA7C1E721"
-				item: "sakuratinker:molten_soul_sakura_bucket"
-				type: "item"
-			}]
-			x: 18.17499999999999d
-			y: -13.175d
 		}
 	]
 	title: "小伞铁匠铺(匠魂)"

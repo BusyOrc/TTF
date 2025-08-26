@@ -34,9 +34,6 @@ event.recipes.thermal.smelter('mystias_izakaya:reisen', ['16x ltc2:refined_salt_
 //粉变液态
 event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cloud', 250), 'kubejs:cloud_dust')
 
-//下界合金门熔融
-event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_trapdoor').energyMod(2.0)
-event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_debris', 90),'supplementaries:netherite_door').energyMod(2.0)
 
 event.recipes.thermal.crucible(Fluid.of('starbunclemania:source_fluid', 100),'biomesoplenty:magic_planks').energyMod(0.8)
 

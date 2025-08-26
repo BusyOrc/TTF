@@ -1,0 +1,10 @@
+{
+    "type":"tconstruct:melting_fuel",
+    "fluid":{
+        "name":"kubejs:youkai_fuel",
+        "amount":50
+    },
+    "duration":300,
+    "temperature": 4000,
+    "rate":15
+}

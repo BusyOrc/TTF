@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         ],
         {
           A: 'hmag:randomberry',
-          B: 'supplementaries:blackstone_lamp',
+          B: 'minecraft:sea_lantern',
           C: 'minecraft:red_glazed_terracotta',
           R: 'biomesoplenty:waterlily',
           S: 'hmag:shulker_shell_block'

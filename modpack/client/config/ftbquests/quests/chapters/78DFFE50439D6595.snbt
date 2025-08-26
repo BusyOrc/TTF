@@ -1,0 +1,856 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "78DFFE50439D6595"
+	group: ""
+	icon: "kubejs:doremy_ingot"
+	id: "78DFFE50439D6595"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60FF68CBAB303FE4"]
+			id: "57B9F93444A21A44"
+			tasks: [{
+				id: "35AFCF779FAF753C"
+				item: "pasterdream:dyedream_log"
+				type: "item"
+			}]
+			x: -1.2d
+			y: -0.7d
+		}
+		{
+			dependencies: ["57B9F93444A21A44"]
+			id: "3A9886444DAC3F17"
+			tasks: [
+				{
+					id: "3A0B91700756DB0A"
+					item: {
+						Count: 1
+						id: "tconstruct:part_builder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "325B26C7E385C265"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.7d
+		}
+		{
+			dependencies: ["3A9886444DAC3F17"]
+			description: ["制作出匠魂工具"]
+			id: "14B40E928037AE1D"
+			tasks: [{
+				id: "0FC4003287AF0154"
+				title: "匠魂工具"
+				type: "checkmark"
+			}]
+			x: 3.1d
+			y: -0.8d
+		}
+		{
+			dependencies: ["14B40E928037AE1D"]
+			description: ["在砧板上用镐子破坏方解石可获得骨粉和圆石"]
+			icon: "minecraft:calcite"
+			id: "22A1AC6633A2B12B"
+			tasks: [
+				{
+					id: "1EDDF0F0D1BB5C5E"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+				{
+					id: "17D7D2BC68EE2E79"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.9d
+		}
+		{
+			dependencies: ["22A1AC6633A2B12B"]
+			description: ["可以用圆石升级你的匠魂工具，只需要在工匠台替换部件即可"]
+			id: "6CB1A226AE0F8199"
+			tasks: [{
+				id: "227968EF24610DE4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 6.8d
+			y: -0.7d
+		}
+		{
+			dependencies: ["22A1AC6633A2B12B"]
+			id: "5D6B0EC0CEE41CE1"
+			tasks: [{
+				id: "705B7A2C14941D44"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 5.1d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CB1A226AE0F8199"]
+			id: "651CADF4699EFA88"
+			tasks: [{
+				id: "20CAB27B7339FB64"
+				item: "pasterdream:dyedream_sand"
+				type: "item"
+			}]
+			x: 8.7d
+			y: -0.6d
+		}
+		{
+			dependencies: ["651CADF4699EFA88"]
+			description: ["利用砧板+任意铲子+染梦沙获取黏土"]
+			id: "35D75E4ECE3491DD"
+			tasks: [{
+				id: "4509066364BD13E5"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 8.6d
+			y: -1.8d
+		}
+		{
+			dependencies: ["651CADF4699EFA88"]
+			id: "04CE4326B1D96B3D"
+			tasks: [{
+				id: "55555AF7904C8BE0"
+				item: "pasterdream:dyedream_glass"
+				type: "item"
+			}]
+			x: 8.8d
+			y: 1.3d
+		}
+		{
+			dependencies: [
+				"3C590DBD3FB3E3EE"
+				"039C488A5BFF049F"
+				"589CCA5DD8328F22"
+			]
+			description: [""]
+			id: "3773C9B571DEDA51"
+			tasks: [{
+				id: "2C4FB7615100380B"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.3d
+		}
+		{
+			dependencies: ["3773C9B571DEDA51"]
+			description: ["利用石墨获取沙砾，以进一步获取燧石"]
+			id: "5827F7E3511EE5AD"
+			tasks: [{
+				id: "689A2A0A8A6C28A5"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 5.9d
+			y: -9.2d
+		}
+		{
+			id: "764B7F27D7A16179"
+			tasks: [{
+				id: "08BD7CEF182BFC38"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dream_plants"
+					}
+				}
+				title: "Any #forge:dream_plants"
+				type: "item"
+			}]
+			title: "梦中的植物"
+			x: 5.1d
+			y: -3.4d
+		}
+		{
+			dependencies: ["22EFDF07F2568DA7"]
+			description: [
+				"在&d工匠砧&r上用5个丝绢可给匠魂工具赋予精准采集的强化，因为需要用到5个原材料槽位，因此无法使用普通的工匠台完成"
+				""
+				"丝绢只需要用到染梦泥土，任意梦境植物和染梦玻璃即可合成"
+			]
+			id: "1198BEC9587D11B6"
+			tasks: [{
+				id: "07C2DE41F721E533"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -6.1d
+		}
+		{
+			dependencies: ["3BD77AA630F16E92"]
+			id: "6CC13CE65596CF26"
+			tasks: [{
+				id: "0B5BC7050FA76C46"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: 14.6d
+			y: -3.2d
+		}
+		{
+			dependencies: ["6CC13CE65596CF26"]
+			id: "662985D1159BA7A5"
+			tasks: [{
+				id: "6DF9936D2B3B1128"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 14.7d
+			y: -8.8d
+		}
+		{
+			dependencies: [
+				"764B7F27D7A16179"
+				"35D75E4ECE3491DD"
+			]
+			description: [
+				"用梦境里的特殊植物右键梦里的云朵方块能获得安山合金"
+				""
+				"用玻璃瓶右键可以收集得到瓶中云"
+			]
+			id: "3BD77AA630F16E92"
+			tasks: [{
+				id: "7DE502B66A5C930A"
+				title: "寻找云朵☁"
+				type: "checkmark"
+			}]
+			x: 8.7d
+			y: -3.4d
+		}
+		{
+			dependencies: ["662985D1159BA7A5"]
+			description: [
+				"手动获取的方法：&b用瓶中云右键染梦树叶&r（目前阶段推荐该方法）"
+				"自动获得的方法：浇筑液态轻云（目前可能无法用该方法获取）"
+			]
+			id: "03B325747B7CDBB6"
+			tasks: [{
+				id: "1EB4DB83A6B43EBC"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -8.8d
+		}
+		{
+			dependencies: [
+				"03B325747B7CDBB6"
+				"6CCE8FAD6B92DE9C"
+				"6E48C5FB25038806"
+			]
+			description: ["浇筑铁得到轻悠化合物"]
+			id: "3197A2B3AD3A4AF3"
+			tasks: [{
+				id: "116A297A1B3CC34A"
+				item: "tinkers_thinking:lightite_compound"
+				type: "item"
+			}]
+			x: 19.3d
+			y: -8.9d
+		}
+		{
+			dependencies: ["2474B1B9A31ECCF5"]
+			description: ["可以让女仆帮你手摇"]
+			id: "3C590DBD3FB3E3EE"
+			tasks: [{
+				id: "4B1D29F70FB88407"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -7.1d
+		}
+		{
+			dependencies: ["3BD77AA630F16E92"]
+			id: "2474B1B9A31ECCF5"
+			tasks: [{
+				id: "3B33C5840200A0B7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 8.8d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2474B1B9A31ECCF5"]
+			description: ["如果要用手摇曲柄驱动石磨，需要额外的一个齿轮放在旁边，然后手摇曲柄放在上面即可"]
+			id: "039C488A5BFF049F"
+			tasks: [{
+				id: "30099A66B22D5B3B"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.1d
+		}
+		{
+			dependencies: ["5827F7E3511EE5AD"]
+			description: [
+				"收集至少9个燧石与1个安山机壳，将安山机壳放在地上，用燧石右键安山机壳即可"
+				""
+				"下一步：给鼓风机寻找水源和灵魂火以满足洗涤与缠魂的配方需求"
+			]
+			icon: "create:encased_fan"
+			id: "3AD3D475EE8AC7B0"
+			tasks: [
+				{
+					count: 9L
+					id: "31B61DC090E2D2ED"
+					item: { Count: 9, id: "minecraft:flint" }
+					type: "item"
+				}
+				{
+					id: "5AC403A84FCB1C20"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "鼓风机"
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			description: ["所有的方块交互相关配方（JEI内没有的）仅在美梦维度生效"]
+			id: "60FF68CBAB303FE4"
+			tasks: [{
+				id: "2608E5657F2E1697"
+				type: "checkmark"
+			}]
+			title: "提示"
+			x: -3.3d
+			y: -0.8d
+		}
+		{
+			dependencies: ["2474B1B9A31ECCF5"]
+			description: ["只需要对着染梦原木直接用安山合金右键即可获取安山机壳"]
+			icon: "create:andesite_casing"
+			id: "589CCA5DD8328F22"
+			tasks: [{
+				id: "4288FC1CB0D145EF"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 9.2d
+			y: -7.1d
+		}
+		{
+			dependencies: ["1198BEC9587D11B6"]
+			description: ["需要注意：不能是失水的珊瑚，需要用到精准采集获取"]
+			id: "14A883989B418447"
+			tasks: [{
+				id: "3CEE5983995DCC97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coral_blocks/alive"
+					}
+				}
+				title: "Any #forge:coral_blocks/alive"
+				type: "item"
+			}]
+			title: "任意珊瑚块"
+			x: 10.7d
+			y: -7.6d
+		}
+		{
+			dependencies: ["1198BEC9587D11B6"]
+			description: ["需要注意：不能是失水的珊瑚，需要用到精准采集获取"]
+			id: "09632392650792B4"
+			tasks: [{
+				id: "22E10882113A7CE0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:corals/alive"
+					}
+				}
+				title: "Any #forge:corals/alive"
+				type: "item"
+			}]
+			title: "任意珊瑚"
+			x: 12.3d
+			y: -7.6d
+		}
+		{
+			dependencies: [
+				"09632392650792B4"
+				"14A883989B418447"
+				"3773C9B571DEDA51"
+			]
+			description: ["利用石磨来磨制珊瑚获得灵魂粉尘"]
+			id: "6E90112DD5744D76"
+			tasks: [{
+				id: "0643691AE06A7DBF"
+				item: "hmag:soul_powder"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -9.4d
+		}
+		{
+			dependencies: ["5827F7E3511EE5AD"]
+			id: "30600FA17BE50A70"
+			tasks: [{
+				id: "3DD11EC755E79F46"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.2d
+		}
+		{
+			dependencies: ["6E90112DD5744D76"]
+			description: ["可供鼓风机缠魂"]
+			id: "435AB7A42F971E76"
+			tasks: [{
+				id: "16BF84100A33D231"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 11.6d
+			y: -11.3d
+		}
+		{
+			dependencies: ["435AB7A42F971E76"]
+			id: "5F965FFAED9B4402"
+			tasks: [{
+				id: "27FEE571473AB5C9"
+				item: {
+					Count: 1
+					id: "tconstruct:flint_and_brick"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "d61654af-76db-4321-9f1d-bb6cc5a2f6a3"
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:firestarter"
+							}
+							{
+								level: 1
+								name: "tconstruct:fiery"
+							}
+							{
+								level: 1
+								name: "tconstruct:scorching"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+						tic_volatile_data: {
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.8d
+			y: -11.3d
+		}
+		{
+			dependencies: ["3AD3D475EE8AC7B0"]
+			description: ["初始能装4B的桶，如果要放出液体，只需要潜行右键，可以直接在物品栏中和其他的容器互动，或者直接与匠魂炉互动"]
+			id: "5FFF90E6726A1782"
+			tasks: [{
+				id: "61EE71CFFD7AB843"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:seared_bucket"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "fee7a5b1-f4d9-489b-8878-934b74b60382"
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:bucketing"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:tank_capacity": 4000.0f
+						}
+						tic_volatile_data: {
+							"tconstruct:total_tanks": 1
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "打水工具"
+			x: 6.0d
+			y: -12.6d
+		}
+		{
+			dependencies: ["435AB7A42F971E76"]
+			description: [
+				"在梦境世界，冶炼炉控制器有新的获取方式："
+				"用&d珊瑚块&r右键能构建焦黑冶炼炉多方块的焦黑方块"
+			]
+			icon: "tconstruct:seared_stone"
+			id: "36441F97C8D5E93D"
+			tasks: [
+				{
+					id: "0B8D4998A8986744"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:coral_blocks/alive"
+						}
+					}
+					title: "Any #forge:coral_blocks/alive"
+					type: "item"
+				}
+				{
+					id: "77D13CBC1AD0175E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:smeltery_bricks"
+						}
+					}
+					title: "Any #tconstruct:smeltery_bricks"
+					type: "item"
+				}
+			]
+			title: "新的控制器获取方式"
+			x: 15.3d
+			y: -11.2d
+		}
+		{
+			dependencies: ["36441F97C8D5E93D"]
+			description: ["有了匠魂冶炼炉的控制器，就能构建出一个匠魂炉的多方块结构"]
+			id: "79D459CB9DFD46FA"
+			tasks: [{
+				id: "345CFB5CA6CB9336"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 15.3d
+			y: -13.7d
+		}
+		{
+			dependencies: ["3197A2B3AD3A4AF3"]
+			icon: "tinkers_thinking:lightite_block"
+			id: "42E7519D52AABEED"
+			tasks: [
+				{
+					count: 3L
+					id: "1728A2EDC9871000"
+					item: { Count: 3, id: "tinkers_thinking:lightite_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39CE6659E85348A6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "tconstruct:smeltery_bricks"
+						}
+					}
+					title: "Any #tconstruct:smeltery_bricks"
+					type: "item"
+				}
+			]
+			title: "收集材料"
+			x: 19.0d
+			y: -4.9d
+		}
+		{
+			dependencies: [
+				"42E7519D52AABEED"
+				"4F1CD661275F83CB"
+			]
+			dependency_requirement: "one_completed"
+			description: ["有了工匠砧，就能制作更多工具，不过目前当下最重要的任务还是用5个丝绢给工具添加丝触强化"]
+			id: "22EFDF07F2568DA7"
+			tasks: [{
+				id: "2E6E3717494B3564"
+				item: {
+					Count: 1
+					id: "tconstruct:scorched_anvil"
+					tag: {
+						texture: "tinkers_thinking:lightite_block"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 11.6d
+			y: -4.6d
+		}
+		{
+			dependencies: ["662985D1159BA7A5"]
+			id: "091E6BB97E710A7C"
+			tasks: [{
+				id: "4263166CCFFEB580"
+				item: "kubejs:doremy_ingot"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -14.7d
+		}
+		{
+			description: ["在砧板上用镐子破坏骨块获取"]
+			id: "567F4D14224B51BD"
+			tasks: [{
+				id: "36D8E0D2FD3D69A4"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 13.3d
+			y: -14.9d
+		}
+		{
+			dependencies: [
+				"091E6BB97E710A7C"
+				"567F4D14224B51BD"
+				"47384E4BF02D0AF7"
+				"1A93831743DBAE05"
+			]
+			description: ["利用苍白骨针，终于能够结束这场梦了"]
+			id: "346416F7051B54C1"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3F98093630DB8B89"
+				item: {
+					Count: 1
+					id: "pasterdream:pale_boneneedle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.6d
+			y: -19.8d
+		}
+		{
+			dependencies: ["79D459CB9DFD46FA"]
+			description: [
+				"将熔岩与水放入匠魂炉的多方块中，即可在不消耗水的情况下生产出“合金”——熔融黑曜石"
+				""
+				"黑曜石可以在焦黑铸造盆里面浇筑得到黑曜石"
+			]
+			icon: "tconstruct:molten_obsidian_bucket"
+			id: "47384E4BF02D0AF7"
+			tasks: [{
+				id: "5F4DDC84750B8DB6"
+				type: "checkmark"
+			}]
+			title: "制作熔融黑曜石"
+			x: 15.1d
+			y: -15.0d
+		}
+		{
+			description: ["工匠砧可以用到多种类型的合金，轻悠只是其中一种"]
+			id: "4F1CD661275F83CB"
+			tasks: [{
+				count: 3L
+				id: "1EA7D1B5275D6D2B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:anvil_metal"
+					}
+				}
+				title: "Any #tconstruct:anvil_metal"
+				type: "item"
+			}]
+			title: "其他类型的合金"
+			x: 10.3d
+			y: -4.6d
+		}
+		{
+			dependencies: ["79D459CB9DFD46FA"]
+			id: "624640A97B0060EF"
+			tasks: [{
+				id: "278892FE356892E2"
+				item: "tconstruct:seared_chute"
+				type: "item"
+			}]
+			x: 17.6d
+			y: -14.7d
+		}
+		{
+			dependencies: ["79D459CB9DFD46FA"]
+			id: "65D7E1797FC15765"
+			tasks: [{
+				id: "6B76B81955FDB5D8"
+				item: "tconstruct:seared_drain"
+				type: "item"
+			}]
+			x: 17.7d
+			y: -13.1d
+		}
+		{
+			dependencies: ["5FFF90E6726A1782"]
+			description: ["鼓风机洗涤获得铁粒"]
+			id: "2B1154624AE3A352"
+			tasks: [{
+				id: "379E9A0134A94782"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 5.9d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"2B1154624AE3A352"
+				"6E48C5FB25038806"
+			]
+			description: ["在匠魂炉中熔融获得熔融铁"]
+			icon: "tconstruct:molten_iron_bucket"
+			id: "6CCE8FAD6B92DE9C"
+			tasks: [{
+				id: "54389C039CD3DAEB"
+				title: "熔融铁"
+				type: "checkmark"
+			}]
+			x: 5.7d
+			y: -15.8d
+		}
+		{
+			dependencies: ["30600FA17BE50A70"]
+			description: ["在熔炉中烧制得到焦黑砖"]
+			id: "1EF119C7B39EC03A"
+			tasks: [{
+				id: "1ECC1B3EF22D8711"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 2.8d
+			y: -9.2d
+		}
+		{
+			dependencies: ["1EF119C7B39EC03A"]
+			id: "623F2B8650108357"
+			tasks: [{
+				id: "554F9CC7FE1DA40E"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: -1.1d
+			y: -9.1d
+		}
+		{
+			dependencies: ["1EF119C7B39EC03A"]
+			id: "7BF0E63D17DC5B9C"
+			tasks: [{
+				id: "32C90C830F2BBA7D"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.2d
+		}
+		{
+			dependencies: ["1EF119C7B39EC03A"]
+			id: "0F705E384260DB70"
+			tasks: [{
+				id: "7AA1F1BF7B28286C"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			x: -0.1d
+			y: -9.2d
+		}
+		{
+			dependencies: ["1EF119C7B39EC03A"]
+			id: "55B9025EAB736DB8"
+			tasks: [{
+				id: "2EF46E79F0E814F9"
+				item: "tconstruct:seared_fuel_gauge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.4d
+		}
+		{
+			dependencies: ["1EF119C7B39EC03A"]
+			icon: "tconstruct:seared_melter"
+			id: "703163459797B3EA"
+			tasks: [
+				{
+					id: "3AD86224303508FA"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "78E1FB814CE9E3BE"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			title: "黄金搭档"
+			x: 0.8d
+			y: -8.8d
+		}
+		{
+			dependencies: [
+				"0F705E384260DB70"
+				"703163459797B3EA"
+				"55B9025EAB736DB8"
+				"7BF0E63D17DC5B9C"
+				"623F2B8650108357"
+			]
+			id: "6E48C5FB25038806"
+			tasks: [{
+				id: "20678C3EEE32B7AB"
+				type: "checkmark"
+			}]
+			title: "基础熔炉完成"
+			x: 0.9d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"47384E4BF02D0AF7"
+				"3AD3D475EE8AC7B0"
+				"435AB7A42F971E76"
+			]
+			id: "1A93831743DBAE05"
+			tasks: [{
+				id: "2636493873B9F92C"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 8.1d
+			y: -16.0d
+		}
+	]
+	title: "陌生的梦境"
+}

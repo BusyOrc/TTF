@@ -1,6 +1,5 @@
 LootJS.modifiers((event) => {
     event.removeGlobalModifier("farmersdelight:rope")
-    event.removeGlobalModifier("supplementaries:rope")
     //矿道
     event
     .addLootTableModifier("minecraft:chests/abandoned_mineshaft")
@@ -10,7 +9,6 @@ LootJS.modifiers((event) => {
     .removeLoot("minecraft:torch")
     .removeLoot("minecraft:coal")
     .removeLoot("farmersdelight:rope")
-    .removeLoot("supplementaries:rope")
     .removeLoot("minecraft:activator_rail")
     
     event.addLootTableModifier("minecraft:chests/shipwreck_supply")
@@ -19,7 +17,6 @@ LootJS.modifiers((event) => {
     event
         .addBlockLootModifier("minecraft:grass")
         .removeLoot(["thermal:tomato_seeds",
-            "thermal:flax_seeds",
             "thermal:onion_seeds",
         "tofucraft:seeds_rice",
     "thermal:rice_seeds","tofucraft:seeds_chili","thermal:bell_pepper"])

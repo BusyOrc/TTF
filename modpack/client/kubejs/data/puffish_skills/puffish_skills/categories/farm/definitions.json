@@ -69,7 +69,7 @@
 		"icon": {
 			"type": "effect",
 			"data": {
-				"effect": "alexsmobs:orcas_might"
+				"effect": "minecraft:strength"
 			}
 		},
 		"cost":2,

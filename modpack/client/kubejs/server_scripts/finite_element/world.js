@@ -25,13 +25,7 @@ if(event.player.hasEffect("youkaishomecoming:unconscious") && event.block.hasTag
       'fruitsdelight:lemon_cookie', 'hmag:lemon', 'hmag:honeyed_lemon','hmag:lemon_pie',
        'youkaishomecoming:lemon_black_tea', 'youkaishomecoming:avgolemono',"mystias_izakaya:ning_meng"]
 
-  BlockEvents.rightClicked('#refurbished_furniture:storage', event => {
-if(event.player.offhandItem == 'supplementaries:soap'|| event.item=='supplementaries:soap')
-{
-  event.cancel()
-}
-  }
-)
+
 
 
 
@@ -58,12 +52,13 @@ PlayerEvents.advancement(event=>{
 
 
   ItemEvents.entityInteracted('item.entity_interact' , event => {
-    if (event.target.type == "entity.alexsmobs.snow_leopard" && event.player.getHeldItem(event.hand) == 'quark:ancient_tome'
+    if (event.target.type == "entity.youkaishomecoming.cirno" && event.player.getHeldItem(event.hand) == 'quark:ancient_tome'
     && event.target.type!= null && event.item!= null)
         {
             event.player.mainHandItem.count-=1
             event.entity.block.popItem('ae2_mega_things:mega_item_disk_housing')
-            event.server.runCommand(`say ${event.player.username} 试图让雪豹学习古卷，雪豹回馈了奖励并且说：知识雪豹`)  
+            event.entity.block.popItem('ae2_mega_things:mega_fluid_disk_housing')
+            event.server.runCommand(`say ${event.player.username} 试图让baka学习古卷，baka回馈了奖励并且说：知识学爆`)  
         }
 
          if (event.target.type == "entity.youkaishomecoming.cirno" && event.player.getHeldItem(event.hand)=='fruitsdelight:lemon_jelly_block'

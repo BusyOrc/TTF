@@ -7,11 +7,10 @@
             "irons_spellbooks:fire_rune"
         ],
         "offhanditem": [
-            "quark:ancient_sapling",
-            "alexscaves:ancient_sapling"
+            "quark:ancient_sapling"
         ],
         "block": {
-            "block": "supplementaries:bubble_block"
+            "block": "quark:cloud"
         },
         "fire": 30,
         "explosion": "10,false,false",

@@ -4,7 +4,6 @@ LootJS.modifiers((event) => {
         .addLootTableModifier("chest")
         .removeLoot('touhou_little_maid:power_point')
         .removeLoot('touhou_little_maid:shrine')
-        .removeLoot('supplementaries:rope')
         .removeLoot('farmersdelight:rope')
         .removeLoot('minecraft:rail')
         .removeLoot('minecraft:powered_rail')
@@ -192,9 +191,6 @@ event.custom({
           },
           {
             "item": "minecraft:book"
-          },
-          {
-            "item": 'supplementaries:flax'
           }
         ]
               })
@@ -431,18 +427,5 @@ event.custom({
                 })
                 
 
-MaidEvents.interactMaid("minecraft:netherite_ingot",event=>{
 
-let maid_name=event.getMaid().getDisplayName().toString()
-//console.log(maid_name.includes("reisen"))
-if(maid_name.includes("reisen"))
-{
-    event.player.addItem("kubejs:reisens_essence_bucket")
-    event.getStack().count-=1
-    event.cancel()
-}
-
-
-
-})
 

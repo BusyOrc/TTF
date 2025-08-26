@@ -1,0 +1,17 @@
+
+[HUD]
+	#仅在潜行时显示融梦能量条和精神值的HUD图标 默认：false
+	"stealth display attribute hud" = false
+	#在加载界面时会弹出帕斯特之梦的tips 默认：true
+	"loading gui tips" = false
+	#启动帕斯特之梦的主题生命值条 默认：true
+	"paster health hud" = false
+	#融梦能量条在屏幕上的xBase位置 默认：1.0
+	"meltdreamenergy tank xbase " = 1.0
+	#融梦能量条在屏幕上的yBase位置 默认：-19.0
+	"meltdreamenergy tank ybase " = -50.0
+	#精神值量条在屏幕上的xBase位置 默认：-36.0
+	"san tank xbase" = -36.0
+	#精神值量条在屏幕上的yBase位置 默认：-34.0
+	"san tank ybase" = -34.0
+

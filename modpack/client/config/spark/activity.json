@@ -5,6 +5,19 @@
       "name": "ElysiaTopaz",
       "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
     },
+    "time": 1756197267495,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UMatTyiXti"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ElysiaTopaz",
+      "uniqueId": "f4566ad0-377a-3d94-87a6-a62b8bf31de7"
+    },
     "time": 1754112163425,
     "type": "Profiler (live)",
     "data": {

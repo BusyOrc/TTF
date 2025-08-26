@@ -628,10 +628,6 @@
 							name: "tconstruct:unburdened"
 						}
 						{
-							level: 2
-							name: "tinker_in_caves:sweety"
-						}
-						{
 							level: 1
 							name: "tconstruct:cultivated"
 						}
@@ -655,10 +651,10 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 5.04f
-						"tconstruct:attack_speed": 0.93500006f
-						"tconstruct:durability": 131.25f
-						"tconstruct:mining_speed": 2.3375f
+						"tconstruct:attack_damage": 5.6f
+						"tconstruct:attack_speed": 0.85f
+						"tconstruct:durability": 175.0f
+						"tconstruct:mining_speed": 2.125f
 						"tconstruct:use_item_speed": 0.3f
 					}
 					tic_volatile_data: {

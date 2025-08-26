@@ -179,7 +179,7 @@
     "modifier.touhoutinkermodifier.radiation_immune":"辐射免疫",
     "modifier.touhoutinkermodifier.radiation_immune.flavor":"原来阿空平时都穿这样吗",
     "modifier.touhoutinkermodifier.radiation_immune.description":"仅需一次强化即可免疫辐照效果",
-        "modifier.touhoutinkermodifier.lichking":"汲血",
+    "modifier.touhoutinkermodifier.lichking":"汲血",
     "modifier.touhoutinkermodifier.lichking.flavor":"都是我的",
     "modifier.touhoutinkermodifier.lichking.description":"每级获得5%生命吸取效果",
 
@@ -199,6 +199,7 @@
     "modifier.touhoutinkermodifier.hotaurum.description":"全面大幅提升工具的各种属性",
     "modifier.touhoutinkermodifier.hotaurum.requirements":"需要下界合金强化和辣条修补强化作为前置",
     "modifier.touhoutinkermodifier.iron_curtain":"铁幕",
+    "modifier.touhoutinkermodifier.iron_curtain.resistance":"铁幕抗性",
     "modifier.touhoutinkermodifier.iron_curtain.flavor":"守矢神社与博丽神社之间铁幕高筑",
     "modifier.touhoutinkermodifier.iron_curtain.description":"额外提升对所有伤害的防护能力，提高盔甲穿透抗性与盔甲撕裂抗性，提高武器暴击伤害",
     "modifier.touhoutinkermodifier.iron_curtain.requirements":"需要不毁强化作为前置",
@@ -237,7 +238,7 @@
     "material.touhoutinkermodifier.sannyo":"驹草山如",
     "material.touhoutinkermodifier.wakasagihime":"若鹭姬",
 
-    "material.touhoutinkermodifier.xy":"星雨合金",
+    "material.touhoutinkermodifier.xy":"两仪雾星",
     "material.touhoutinkermodifier.xy.flavor": "不要小瞧我们的羁绊啊！"
 
 }

@@ -9,10 +9,11 @@ event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose
 
 //event.recipes.create.filling('youkaishomecoming:blood_bottle',[Fluid.of('biomesoplenty:blood',250),'minecraft:glass_bottle'])
 
-
+event.recipes.create.haunting('minecraft:clay','pasterdream:dyedream_sand')
 event.recipes.create.mixing(Fluid.of('starbunclemania:source_fluid', 150),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
 event.recipes.create.mixing("2x minecraft:netherrack",[Fluid.of("lava",50), "minecraft:cobblestone","create:cinder_flour"]).heated()
-
+event.recipes.create.splashing('minecraft:quartz','pasterdream:dyedreamquartz')
+event.recipes.create.item_application("create:andesite_casing",['pasterdream:dyedream_log',"create:andesite_alloy"])
 event.custom(
 {
   "type": "youkaishomecoming:simple_fermentation",
@@ -46,6 +47,12 @@ event.custom(
 }
 )
 event.recipes.create.compacting('irons_spellbooks:frozen_bone',['4x minecraft:blue_ice','minecraft:bone'])
+
+event.recipes.create.milling('2x hmag:soul_powder',"#forge:corals/alive")
+event.recipes.create.crushing('2x hmag:soul_powder',"#forge:corals/alive")
+
+event.recipes.create.milling('4x hmag:soul_powder','#forge:coral_blocks/alive')
+event.recipes.create.crushing('4x hmag:soul_powder','#forge:coral_blocks/alive')
 
 event.custom(
 {
@@ -139,7 +146,7 @@ event.custom(
 
     //种田
 event.recipes.create.mechanical_crafting('8x ae2:fluix_block', [
-          'AGHA',
+          'AGGA',
           'ACDA',
           'AEFA',
           'BBBB'
@@ -150,8 +157,7 @@ C: 'miners_delight:pasta_with_veggieballs',
 D: 'fruitsdelight:lychee_chicken',
 E: 'nethersdelight:warped_moldy_meat',
 F: 'farmersdelight:fruit_salad',
-G: 'minecraft:pumpkin_pie',
-H: 'supplementaries:candy'
+G: 'minecraft:pumpkin_pie'
 
         })
 
@@ -174,12 +180,7 @@ event.custom(
 )
 */
 //搅拌得无暇母岩
-event.recipes.create.mixing('ae2:flawless_budding_quartz', ['4x ae2:charged_certus_quartz_crystal', 'ae2:flawed_budding_quartz', 'minecraft:crying_obsidian',Fluid.of("supplementaries:lumisene",1000)]).heated()
-
-//荧光
-event.recipes.create.mixing(Fluid.of("supplementaries:lumisene",125),'minecraft:glow_berries')
-
-
+event.recipes.create.mixing('ae2:flawless_budding_quartz', ['4x ae2:charged_certus_quartz_crystal', 'ae2:flawed_budding_quartz', 'minecraft:crying_obsidian',Fluid.of("minecraft:lava",1000)]).heated()
 
 let IBM = 'kubejs:incomplete_biochem_mechanism'
 event.recipes.create.sequenced_assembly(
@@ -238,11 +239,6 @@ event.recipes.create.sequenced_assembly(
 //CD
 event.recipes.create.deploying('minecraft:music_disc_cat',['netmusic:music_cd','betterarcheology:ocelot_fossil']).keepHeldItem()
 event.recipes.create.deploying('minecraft:music_disc_13',['netmusic:music_cd','betterarcheology:creeper_fossil']).keepHeldItem()
-
-event.recipes.create.emptying([Fluid.of('supplementaries:lumisene',250), 'minecraft:glass_bottle'], 'supplementaries:lumisene_bottle')
-event.recipes.create.filling('supplementaries:lumisene_bottle',[Fluid.of('supplementaries:lumisene',250), 'minecraft:glass_bottle'] )
-
-
 
 
 //黑石

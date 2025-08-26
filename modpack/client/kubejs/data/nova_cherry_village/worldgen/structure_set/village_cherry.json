@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "nova_cherry_village:village_cherry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 15315095,
+    "spacing": 30,
+    "separation": 13,
+    "spread_type": "triangular"
+  }
+}

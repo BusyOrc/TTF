@@ -1,0 +1,5 @@
+"Should Cataclysm bosses have ISS attributes (default value is True): " = true
+"Should Shutdown spell prevent target from spell casting (default value is True): " = true
+"Should Intrusion Prevent System prevent the entities from receiving projectile damage (default is True): " = true
+"Should Cataclysm: Spellbooks spells cause griefing (default is True): " = true
+

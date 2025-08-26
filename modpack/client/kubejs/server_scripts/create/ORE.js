@@ -19,14 +19,7 @@ event.recipes.createoreexcavation
 .drilling([Item.of('minecraft:ancient_debris').withChance(0.45), 'minecraft:magma_block', Item.of('tconstruct:ichor_slime_ball').withChance(0.7), Item.of('minecraft:blaze_powder').withChance(0.5)], 'kubejs:nether_ancient_vein', 3600)
 .id("kubejs:nether_ancient_mining").drill('createoreexcavation:netherite_drill') 
 .fluid('kubejs:fluid_cloud 100') .stress(360);
-   
-event.recipes.createoreexcavation.vein('{"text": "巨型酸液池"}', 'alexscaves:acid_bucket')
-.placement(16, 8, 1919).id("kubejs:acid_pool").priority(30)
-.biomeWhitelist('is_ocean') 
 
-event.recipes.createoreexcavation
-.extracting(Fluid.of('alexscaves:acid'), 'kubejs:acid_pool', 1800)
-.id("kubejs:acid").drill('createoreexcavation:diamond_drill') ;
 
 //心
 event.recipes.createoreexcavation.vein('{"text": "铜锌深层矿脉"}', 'minecraft:raw_copper')

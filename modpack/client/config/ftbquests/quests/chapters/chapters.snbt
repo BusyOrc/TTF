@@ -143,7 +143,7 @@
 			y: 35.25d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -365,7 +365,10 @@
 				{
 					count: 10L
 					id: "0F518B103E3A1B2F"
-					item: { Count: 10, id: "dimension_of_caves:chimeric_cave_tablet" }
+					item: {
+						Count: 10
+						id: "dimension_of_caves:chimeric_cave_tablet"
+					}
 					type: "item"
 				}
 				{

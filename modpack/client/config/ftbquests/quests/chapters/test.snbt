@@ -5,7 +5,7 @@
 	filename: "test"
 	group: ""
 	id: "477CEA2B675A570F"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [{
 		description: ["这里的内容并不重要"]
@@ -22,5 +22,5 @@
 		x: -2.5d
 		y: -3.5d
 	}]
-	title: "test"
+	title: "你在干神魔"
 }

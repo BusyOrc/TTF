@@ -92,10 +92,36 @@ ServerEvents.recipes(event => {
       )
 
       event.shapeless(
+        'tconstruct:seared_drain', 
+        [
+          '#tconstruct:smeltery_bricks',
+          'minecraft:phantom_membrane'
+        ]
+      )
+
+      event.shapeless(
+        'tconstruct:seared_chute', 
+        [
+          '#tconstruct:smeltery_bricks',
+          'minecraft:phantom_membrane',
+          'minecraft:bone_meal'
+        ]
+      )
+
+      event.shapeless(
         'scannable:block_module', 
         [
           'scannable:blank_module',
           'ae2:flawless_budding_quartz'
+        ]
+      )
+
+      event.shapeless(
+        'pasterdream:pale_boneneedle', 
+        [
+          'minecraft:bone',
+          'kubejs:doremy_ingot',
+          'minecraft:crying_obsidian'
         ]
       )
 
@@ -302,18 +328,6 @@ for(let i of controllers){
 event.recipes.minecraft.stonecutting(i,'ars_nouveau:source_gem_block')
 }
 
-event.shaped('4x dimension_of_caves:chimeric_cave_tablet',
-  [
-    'ACA',
-    'CBC',
-    'ACA'
-  ],
-  {
-    A:'advanced_ae:shattered_singularity',
-    B:'ae2:fluix_block',
-    C:'advanced_ae:quantum_processor'
-  }
-)
 
 event.shaped('createaddition:electric_motor',
   [
@@ -341,6 +355,88 @@ C:'create:andesite_casing'
   }
 )
 
+event.shaped('tconstruct:silky_cloth',
+  [
+    'DDD',
+    ' P ',
+    'SSS'
+  ],
+  {
+    D:"pasterdream:dyedream_dirt",
+    P:"#forge:dream_plants",
+    S:'pasterdream:dyedream_glass'
+  }
+)
+
+event.shaped("minecraft:wooden_axe",
+  [
+    ' DD',
+    ' SD',
+    ' S '
+  ],
+  {
+    D:'#minecraft:planks',
+    S:'create:cogwheel'
+  }
+)
+
+event.shaped("minecraft:wooden_pickaxe",
+  [
+    'DDD',
+    ' P ',
+    ' P '
+  ],
+  {
+    D:'#minecraft:planks',
+    P:'create:cogwheel'
+  }
+)
+
+event.shaped("minecraft:stone_pickaxe",
+  [
+    'DDD',
+    ' P ',
+    ' P '
+  ],
+  {
+    D:'#minecraft:planks',
+    P:'create:cogwheel'
+  }
+)
+
+event.shaped("minecraft:stone_pickaxe",
+  [
+    ' DD',
+    ' PD',
+    ' P '
+  ],
+  {
+    D:'#forge:cobblestone',
+    P:'create:cogwheel'
+  }
+)
+
+event.shaped("minecraft:stone_pickaxe",
+  [
+    'FFF',
+    'FAF',
+    'FFF'
+  ],
+  {
+    F:'#minecraft:flowers',
+    A:'minecraft:leather'
+  }
+)
+
+
+/*     event.shapeless('tconstruct:smeltery_controller', [
+        '#minecraft:pickaxes',
+        '#tconstruct:smeltery_bricks',
+        '#forge:coral_blocks/alive'
+    ])
+    .damageIngredient(1)
+    .keepIngredient('#minecraft:pickaxes') */
+    
 
 
 })

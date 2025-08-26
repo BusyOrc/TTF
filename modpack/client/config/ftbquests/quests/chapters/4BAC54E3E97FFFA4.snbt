@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4BAC54E3E97FFFA4"
+	group: "70B4907D74D7EF03"
+	icon: "minecraft:oak_planks"
+	id: "4BAC54E3E97FFFA4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: "traveloptics:augment_volcana_blessed"
+			id: "328B863CA5764ABB"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4A7817F12B02F845"
+				title: "匠魂熔炉燃料汇总"
+				type: "checkmark"
+			}]
+			x: -5.4d
+			y: -3.0d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			description: [""]
+			id: "3040A102E9B87D1B"
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "800度"
+			tasks: [{
+				id: "677F628987F565B7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "木板或煤炭等"
+			x: -5.319999999999999d
+			y: -0.98d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "74069FBB890B4151"
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "2200度"
+			tasks: [{
+				id: "6CD044F4051B69B4"
+				item: "kubejs:magic_fuel_bucket"
+				type: "item"
+			}]
+			title: "魔法燃料"
+			x: 0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "56AFB2FDAF3DF46D"
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "3000度"
+			tasks: [{
+				id: "5082A6EC1B7239E8"
+				item: "kubejs:nuclear_fuel_bucket"
+				type: "item"
+			}]
+			title: "魔力核燃料"
+			x: -0.6000000000000001d
+			y: 2.1d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "6CF666DACF9804CA"
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "3000度"
+			tasks: [{
+				id: "7E82FBE36F65CD29"
+				item: "sakuratinker:molten_soul_sakura_bucket"
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "496FDCEE723D928D"
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "1000度"
+			tasks: [{
+				id: "6B6EEA14F838F48F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "熔岩"
+			x: -5.33d
+			y: 0.65d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "37721E2B9566455D"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "1500度"
+			tasks: [{
+				id: "69DAADADB729B08E"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			title: "烈焰血"
+			x: -5.4d
+			y: 2.25d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "375825D26B83D726"
+			shape: "diamond"
+			size: 1.8d
+			subtitle: "2000度"
+			tasks: [{
+				id: "76E443678A81F9CA"
+				item: "sakuratinker:molten_aurumos_bucket"
+				type: "item"
+			}]
+			x: -6.120000000000001d
+			y: 4.860000000000001d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "40687CFB45C31384"
+			shape: "diamond"
+			size: 1.8d
+			subtitle: "2000度"
+			tasks: [{
+				id: "65DEB2DC6FA887BC"
+				item: "cloudertinker:fire_blood_bucket"
+				type: "item"
+			}]
+			x: -5.400000000000001d
+			y: 4.140000000000001d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "33E4BE4A3159CDE2"
+			shape: "diamond"
+			size: 1.8d
+			subtitle: "2000度"
+			tasks: [{
+				id: "7FF68408C0532A1B"
+				item: "cloudertinker:molten_fiery_bucket"
+				type: "item"
+			}]
+			x: -4.680000000000001d
+			y: 4.860000000000001d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "4CE3FF4BB1BF51D2"
+			shape: "diamond"
+			size: 1.8d
+			subtitle: "2000度"
+			tasks: [{
+				id: "14D94CB75E565D71"
+				item: "cloudertinker:fire_tear_bucket"
+				type: "item"
+			}]
+			x: -5.400000000000001d
+			y: 5.580000000000001d
+		}
+		{
+			dependencies: ["328B863CA5764ABB"]
+			id: "7B4822657FE4EBF1"
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "4000度"
+			tasks: [{
+				id: "339E9781A0BA88B1"
+				item: "sakuratinker:molten_nihilite_bucket"
+				type: "item"
+			}]
+			x: 0.8d
+			y: 5.2d
+		}
+	]
+	title: "匠魂燃料"
+}

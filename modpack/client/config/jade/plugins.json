@@ -69,6 +69,28 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "gtceu": {
+    "primitive_pump": true,
+    "auto_output_info": true,
+    "workable_provider": true,
+    "transformer": true,
+    "energy_converter_provider": true,
+    "controllable_provider": true,
+    "me_pattern_buffer": true,
+    "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
+    "multiblock_structure": true,
+    "recipe_logic_provider": true,
+    "maintenance_info": true,
+    "machine_mode": true,
+    "electric_container_provider": true,
+    "steam_boiler_info": true,
+    "recipe_output_info": true,
+    "stained_color": true,
+    "hazard_cleaner_provider": true,
+    "cable_info": true,
+    "parallel_info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -80,11 +102,6 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
-  },
-  "infinitybuttons": {
-    "hide_secret_buttons": true,
-    "hide_lantern_buttons": true,
-    "hide_torch_buttons": true
   },
   "functionalstorage": {
     "armory": true
@@ -114,9 +131,6 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
-  "hammerlib": {
-    "root": true
-  },
   "jadeaddons.lootr": {
     "info": true
   },
@@ -127,9 +141,6 @@
   },
   "exmodifier": {
     "element": true
-  },
-  "appliedcooking": {
-    "kitchen_station": true
   },
   "touhou_little_maid": {
     "maid": true,
@@ -143,18 +154,7 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "waystones": {
     "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
   }
 }

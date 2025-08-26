@@ -23,7 +23,10 @@
     "mystias_izakaya",
     "tinkerscalibration",
     "irons_spellbooks",
-    "thermalendergy"
+    "thermalendergy",
+    "biomesoplenty",
+    "pasterdream",
+    "gtceu"
     
   ],
   "stoneStrata": [
@@ -60,13 +63,18 @@
     "forge:bat_wings",
     "forge:fruits/{material}",
     "forge:vegetables/cucumber",
-    "irons_spellbooks:blood_focus"
+    "irons_spellbooks:blood_focus",
+    "forge:reed",
+    "forge:mortar",
+    "forge:crab_bucket"
   ],
   "materials": [
     "lithium",
     "wheat",
+    "rose_gold",
     "gunpowder",
     "rice",
+    "titanium",
     "bell_pepper",
     "pepper_red",
     "onion",

@@ -30,8 +30,6 @@ event.remove({id:"cloudertinker:tables/prublaze_ingot"})
 event.remove({id:"cloudertinker:tables/evilmare_ingot"})
 event.remove({id:"cloudertinker:tables/bloodshed_ingot"})
 event.remove({id:"supplementaries:strings"})
-event.remove({id:"thermal:storage/flax_block"})
-event.remove({id:"supplementaries:flax_block_uncrafting"})
 event.remove({id:"farmersdelight:rice_bag"})
 event.remove({id:"mystias_izakaya:bing_kuai"})
 event.remove({id:"mystias_izakaya:la_jiao"})
@@ -81,7 +79,9 @@ let coe =[
 	'createoreexcavation:drilling/zinc',
     'createoreexcavation:drilling/lapis',
     'createoreexcavation:drilling/nether_gold',
-    'createoreexcavation:drilling/netherite'
+    'createoreexcavation:drilling/netherite',
+	"pasterdream:crafting_38",
+	"pasterdream:crafting_38"
 	]
 	for (let i of coe) {event.remove({id:`${i}`})}
 
@@ -108,13 +108,23 @@ let aae=
 	'functionalstorage:fluid_1', 'functionalstorage:fluid_2', 'functionalstorage:fluid_4','alexsmobs:dimensional_carver',"alexsmobs:transmutation_table",
 	'iceandfire:gold_pile','iceandfire:silver_pile','iceandfire:copper_pile','lightmanscurrency:coinblock_copper', 'lightmanscurrency:coinblock_iron',
 		 'lightmanscurrency:coinblock_gold','lightmanscurrency:coinblock_emerald', 'lightmanscurrency:coinblock_diamond', 'lightmanscurrency:coinblock_netherite',
-'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron','traveloptics:wand_of_final_light',
+'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron',
 	 'lightmanscurrency:coinpile_gold', 'lightmanscurrency:coinpile_emerald', 'lightmanscurrency:coinpile_diamond', 'lightmanscurrency:coinpile_netherite'
+	 
 ]
 
 for(let i of aae)
 {
 	event.remove({output:i})
+}
+
+
+
+let temp_ban=["minecraft:wooden_pickaxe","minecraft:wooden_axe","minecraft:stone_pickaxe","minecraft:stone_axe"
+]
+for(let j of temp_ban)
+{
+	event.remove({id:j})
 }
 
 })

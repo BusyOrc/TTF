@@ -201,4 +201,9 @@ StartupEvents.registry('fluid', event => {
     .bucketColor(0x9400D3)
     .displayName('魔力核燃料')
 
+    event.create('youkai_fuel')
+    .thinTexture(0xFF00FF)
+    .bucketColor(0xFF00FF)
+    .displayName('妖怪燃料')
+
 })

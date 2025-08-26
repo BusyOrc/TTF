@@ -215,7 +215,7 @@
   },
   "Internal": {
     "flySpeedPreset": 0,
-    "gammaValueOriginal": 0.5,
+    "gammaValueOriginal": 1.0,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
     "snapAimLastYaw": 0.0
@@ -877,7 +877,7 @@
       "keys": "BUTTON_4"
     },
     "tweakGammaOverride": {
-      "keys": ""
+      "keys": "BUTTON_5"
     },
     "tweakHandRestock": {
       "keys": ""

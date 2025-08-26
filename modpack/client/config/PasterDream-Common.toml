@@ -1,0 +1,35 @@
+
+[Basic]
+	#玩家在主世界的夜晚会降低精神值 默认：true
+	"overworld night lowers san" = true
+	#染梦裂隙自然生成（如非特别需要勿关，会影响游戏正常流程） 默认：true
+	"dyedream crack generate" = true
+	#精神值低于一定数值时会产生负面buff效果 默认：true
+	"low san debuff" = true
+	#在精神值大于等于这个数值时会给予玩家振奋效果 默认：99
+	"cheerup buff threshold value" = 90.0
+	#融梦水晶箱触发传说宝藏的额外倍率 默认：1
+	"meltdream chest legend multiplier" = 1.5
+	#融梦水晶箱触发稀有宝藏的额外倍率 默认：1
+	"meltdream chest rare multiplier" = 1.5
+	#玩家在睡眠完成时的精神值回复量 默认：10
+	"sleep san recovery amount" = 10.0
+	#玩家在过低精神值时会产生画面抖动 默认：true
+	"low san picture jitter" = true
+	#初始生成世界时在0,0原点生成染梦裂隙 默认：false
+	"the origin of the world initially generated dyedream crack " = false
+	#启用模组进入游戏时的聊天栏公告 默认：true
+	"mod accouocement" = false
+	#进入主题梦境《灯影之下》时是否给予苍白骨针 默认：false
+	"in lamp shadow give pale boneneedle" = false
+	#禁止在使用染梦世界的染梦裂隙向主世界的返程传送 默认：false
+	"no return dyedream crack" = true
+	#在染梦世界生成初始出生点岛屿 默认：true
+	"dyedream origin spawnpoint" = true
+	#在与无名第三次对话后会被强制传送回主世界 默认：true
+	"shadow npc third dialogue after tp player back to overworld" = true
+
+[property]
+	#pasterdream玩家刻功能程序更新频率，算法：每-[此配置单位时间]-进行一次更新 单位/tick，过快的更新频率可能会影响性能，过慢的频率会让部分功能显得非常迟钝，推荐频率范围[2~20]整数  默认：5
+	"player total tick update" = 5.0
+

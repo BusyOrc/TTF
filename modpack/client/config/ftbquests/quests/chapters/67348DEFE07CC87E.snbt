@@ -608,10 +608,6 @@
 						}
 						{
 							level: 1
-							name: "tinker_in_caves:sweety"
-						}
-						{
-							level: 1
 							name: "tconstruct:antiaquatic"
 						}
 						{
@@ -626,10 +622,10 @@
 					}
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:attack_damage": 3.6000001f
-						"tconstruct:attack_speed": 1.98f
-						"tconstruct:durability": 42.0f
-						"tconstruct:mining_speed": 3.3000002f
+						"tconstruct:attack_damage": 4.0f
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:durability": 56.0f
+						"tconstruct:mining_speed": 3.0f
 						"tconstruct:use_item_speed": 0.4f
 					}
 					tic_volatile_data: {

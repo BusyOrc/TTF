@@ -75,7 +75,7 @@ event.custom(
             "item": "kubejs:fantasy_tofu"
           },
           {
-            "item": "supplementaries:lumisene_bottle"
+            "tag": 'forge:milk/milk_bottle'
           },
           {
             "item": "immortalers_delight:yogurt"
@@ -88,5 +88,28 @@ event.custom(
         }
       }
 )
+
+event.recipes.farmersdelight.cutting(
+        'minecraft:calcite',
+        '#minecraft:pickaxes',
+            ['minecraft:cobblestone',
+                Item.of("minecraft:bone_meal").withChance(0.2)
+            ]
+    )
+
+event.recipes.farmersdelight.cutting(
+        'minecraft:bone_block',
+        '#minecraft:pickaxes',
+            ['minecraft:bone',
+                Item.of('minecraft:bone').withChance(0.75)
+            ]
+    )
+event.recipes.farmersdelight.cutting(
+        'pasterdream:dyedream_sand',
+        '#minecraft:shovels',
+            ['minecraft:clay_ball',
+                Item.of('minecraft:clay_ball').withChance(0.5)
+            ]
+    )
 
 })

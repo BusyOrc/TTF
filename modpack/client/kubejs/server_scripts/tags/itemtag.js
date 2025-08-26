@@ -24,13 +24,25 @@ ServerEvents.tags('item', event => {
         'biomesoplenty:desert_grass'
 
     ])
-
+    event.add("forge:sand",'pasterdream:dyedream_sand')
     event.add('forge:vegetables/cucumber',"mystias_izakaya:huang_gua")
-    event.add("forge:storage_blocks/flax","supplementaries:flax_block")
     event.add("forge:storage_blocks/rice",'tofucraft:rice_block')
     event.add('forge:stoves',['refurbished_furniture:light_stove', 'twilightdelight:maze_stove',
          'nethersdelight:blackstone_stove',  'farmersdelight:stove', 'ends_delight:end_stove'])
+        event.add("forge:corals/alive",['minecraft:bubble_coral', 'minecraft:tube_coral', 'minecraft:brain_coral',
+             'minecraft:fire_coral', 'minecraft:horn_coral', 'minecraft:tube_coral_fan', 'minecraft:brain_coral_fan',
+              'minecraft:bubble_coral_fan', 'minecraft:fire_coral_fan','minecraft:horn_coral_fan'])
 
+event.add("forge:coral_blocks/alive",['minecraft:bubble_coral_block', 'minecraft:tube_coral_block',
+     'minecraft:brain_coral_block', 'minecraft:fire_coral_block', 'minecraft:horn_coral_block'])
+event.add("forge:raw_materials",'pasterdream:raw_titanium')
+event.add("forge:raw_materials/titanium",'pasterdream:raw_titanium')
+event.add("forge:ores",'pasterdream:deepslate_titanium_ore')
+event.add("forge:ores",'pasterdream:titanium_ore')
+event.add("forge:ores/titanium",'pasterdream:deepslate_titanium_ore')
+event.add("forge:ores/titanium",'pasterdream:titanium_ore')
+event.add("forge:ingots/titanium",'pasterdream:titanium_ingot')
+event.add("forge:reed",['biomesoplenty:reed', 'pasterdream:reedrod'])
 
     event.add("irons_spellbooks:blood_focus", 'youkaishomecoming:blood_bottle')
     event.add('forge:salt','refurbished_furniture:sea_salt')
@@ -129,7 +141,7 @@ let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
 event.add('forge:multiblock_controller', controllers)
 
 event.add('tconstruct:modifiable/multipart','tinkers_thinking:mace')
-
+event.add("forge:dream_plants",['pasterdream:crop_3a', 'pasterdream:crop_2a', 'pasterdream:flower_9', 'pasterdream:crop_0a','pasterdream:vine_0'])
 
 
 
@@ -214,9 +226,10 @@ event.add('thermal:crafting/casts/ingot', ['tconstruct:ingot_cast', 'thermal:chi
 event.add('tconstruct:casts/multi_use', 'thermal:chiller_ingot_cast')
 event.add('tconstruct:casts/multi_use/ingot', 'thermal:chiller_ingot_cast')
 event.add('tconstruct:patterns/reusable', 'thermal:chiller_ingot_cast')
-
+event.add("forge:crab_bucket",['quark:crab_bucket','youkaishomecoming:crab_bucket'])
+event.add('minecraft:shovels',"tinkers_things:shovel")
 event.add('forge:fished_treasure_chest',['lavafishing:prometheus_bounty','aquaculture:neptunes_bounty'])
-
+event.add("minecraft:sand",'pasterdream:dyedream_sand')
 event.add('forge:cakes',['vanillacookbook:book_cake', 'tconstruct:sky_cake',
      'tconstruct:earth_cake', 'vanillacookbook:glow_berry_cake', 'meetyourfight:aether_glazed_cupcake',
       'tconstruct:magma_cake', 'tconstruct:blood_cake', 'tconstruct:ender_cake', 'tconstruct:ichor_cake',
@@ -230,7 +243,11 @@ event.add('forge:cakes',['vanillacookbook:book_cake', 'tconstruct:sky_cake',
        'tconstruct:sky_cake', 'tconstruct:earth_cake', 'vanillacookbook:glow_berry_cake', 'meetyourfight:aether_glazed_cupcake'])
 
 event.add('forge:golden_fabric',['immortalers_delight:golden_fabric','tinkers_thinking:gilded_silky_cloth'])
-event.add('forge:flour/wheat',['mystias_izakaya:mian_fen','refurbished_furniture:dough'])
+event.add('forge:flour/wheat',['mystias_izakaya:mian_fen','refurbished_furniture:dough','pasterdream:flour'])
+event.add("forge:flour","pasterdream:flour")
+event.add("forge:dough/wheat",'pasterdream:dough')
+event.add("forge:dough",'pasterdream:dough')
+event.add("forge:mortar",['ltc2:mortar', 'pasterdream:mortar'])
 event.add("forge:plate_armor",["tconstruct:plate_helmet","tconstruct:plate_chestplate","tconstruct:plate_leggings","tconstruct:plate_boots"])
 event.add("forge:laminar_armor",["tinkers_things:laminar_helmet","tinkers_things:laminar_chestplate","tinkers_things:laminar_leggings","tinkers_things:laminar_boots"])
 event.add("forge:embedded_armor",["sakuratinker:embedded_helmet","sakuratinker:embedded_chestplate","sakuratinker:embedded_leggings","sakuratinker:embedded_boots"])
