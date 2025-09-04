@@ -530,33 +530,6 @@
 				}
 			]
 			title: "龟龟"
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			description: [
-				"水龟比较特殊，常见于水边，可用海草繁殖得到水龟蛋"
-				""
-				"可放置于地上来孵化出小水龟，但是注意会被踩碎"
-				""
-				"放置后需要用精准采集附魔工具才能挖掘获取"
-				""
-				"水龟可以用水桶运输"
-			]
-			icon: "alexsmobs:terrapin_egg"
-			id: "720DEAF3B2B739E6"
-			rewards: [{
-				id: "2C985F0ED9953417"
-				type: "xp"
-				xp: 20
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5E3172A88C05457B"
-				item: "alexsmobs:terrapin_egg"
-				type: "item"
-			}]
-			title: "水龟"
 			x: 0.0d
 			y: 3.5d
 		}

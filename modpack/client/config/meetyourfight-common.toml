@@ -23,7 +23,7 @@
 		#eg ghast fireballs are 1, creepers are 3, tnt 4, charged creeper 6
 		#Default: 2.5
 		#Range: 0.1 ~ 20.0
-		explosion = 0.5
+		explosion = 0.1
 
 	#Bellringer
 	[stats.bellringer]

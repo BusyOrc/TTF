@@ -50,11 +50,11 @@
 	#Range: 0.0 ~ 1.0
 	ReplaceAllayPercent = 0.7
 	#These items cannot be used as a maid's work meals
-	MaidWorkMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit","pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
+	MaidWorkMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit", "pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
 	#These items cannot be used as a maid's home meals
-	MaidHomeMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit","pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
+	MaidHomeMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit", "pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
 	#These items cannot be used as a maid's heal meals
-	MaidHealMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye","pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
+	MaidHealMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "pasterdream:queer_soup", "pasterdream:dyedream_juice", "pasterdream:dyedream_popsicle", "pasterdream:dream_cotton_candy", "pasterdream:yinhul_cotton_candy", "pasterdream:meltdream_elixir_bottle"]
 	#These items cannot be used as a maid's work meals which match the regex
 	MaidWorkMealsBlockListRegEx = []
 	#These items cannot be used as a maid's home meals which match the regex

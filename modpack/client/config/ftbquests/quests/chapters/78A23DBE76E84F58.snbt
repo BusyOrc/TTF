@@ -1228,8 +1228,8 @@
 				type: "item"
 			}]
 			title: "防身火把"
-			x: 18.75d
-			y: -3.5d
+			x: 19.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1266,8 +1266,8 @@
 				type: "item"
 			}]
 			title: "破铜烂铁...？"
-			x: 18.75d
-			y: 0.5d
+			x: 19.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -1303,7 +1303,7 @@
 				type: "item"
 			}]
 			title: "种子。"
-			x: 18.75d
+			x: 19.0d
 			y: -1.5d
 		}
 		{
@@ -1332,7 +1332,7 @@
 			}]
 			title: "购买农作物"
 			x: 20.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1384,8 +1384,8 @@
 				type: "item"
 			}]
 			title: "钱币购买海产"
-			x: 20.5d
-			y: 0.5d
+			x: 21.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -1654,8 +1654,8 @@
 				item: "youkaishomecoming:yellow_tea"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -2.75d
+			x: 19.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1665,8 +1665,8 @@
 				item: "youkaishomecoming:dark_tea"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -1.75d
+			x: 20.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1676,8 +1676,8 @@
 				item: "youkaishomecoming:kaguya_hime"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -0.75d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1687,8 +1687,8 @@
 				item: "youkaishomecoming:pot_of_han_palace"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 0.25d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1698,8 +1698,8 @@
 				item: "youkaishomecoming:potato_soup"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -4.75d
+			x: 19.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1709,8 +1709,8 @@
 				item: "youkaishomecoming:borscht"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -5.75d
+			x: 19.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1720,8 +1720,8 @@
 				item: "youkaishomecoming:signature_mushroom_stew"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -6.75d
+			x: 19.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1731,8 +1731,8 @@
 				item: "youkaishomecoming:hokkaido_salmon_hotpot"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -7.75d
+			x: 19.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1742,8 +1742,8 @@
 				item: "youkaishomecoming:rice_powder_pork"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -8.75d
+			x: 19.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1753,8 +1753,8 @@
 				item: "youkaishomecoming:pot_of_tofu_crab_stew"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -9.75d
+			x: 19.0d
+			y: -10.5d
 		}
 	]
 	title: "秋姐妹的住处"

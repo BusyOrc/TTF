@@ -10,7 +10,7 @@
 	quests: [
 		{
 			hide_dependent_lines: true
-			icon: "traveloptics:augment_volcana_blessed"
+			icon: "minecraft:coal"
 			id: "328B863CA5764ABB"
 			shape: "rsquare"
 			size: 2.0d
@@ -57,8 +57,8 @@
 				type: "item"
 			}]
 			title: "魔法燃料"
-			x: 0.75d
-			y: -0.5d
+			x: 1.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["328B863CA5764ABB"]
@@ -72,8 +72,8 @@
 				type: "item"
 			}]
 			title: "魔力核燃料"
-			x: -0.6000000000000001d
-			y: 2.1d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["328B863CA5764ABB"]
@@ -86,8 +86,8 @@
 				item: "sakuratinker:molten_soul_sakura_bucket"
 				type: "item"
 			}]
-			x: 2.1d
-			y: 2.1d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["328B863CA5764ABB"]
@@ -186,8 +186,22 @@
 				item: "sakuratinker:molten_nihilite_bucket"
 				type: "item"
 			}]
-			x: 0.8d
-			y: 5.2d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "563E36317BABFBF9"
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "4000度"
+			tasks: [{
+				id: "1856E3D139C29EEE"
+				item: "kubejs:youkai_fuel_bucket"
+				type: "item"
+			}]
+			title: "妖怪燃料"
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	title: "匠魂燃料"

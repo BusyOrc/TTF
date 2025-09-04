@@ -1,6 +1,6 @@
 BlockEvents.rightClicked('pasterdream:cloud', event => {
 let dim= event.level.getDimension()
-let r_item=event.item
+let r_item=event.player.mainHandItem
     let x=event.block.getX()
     let y=event.block.getY()
     let z=event.block.getZ()
@@ -33,7 +33,7 @@ BlockEvents.rightClicked("create:andesite_casing",event =>{
     let dim= event.level.getDimension()
 if(event.item!=null)
 {
-    if(dim=="pasterdream:dyedream_world" && event.item=="minecraft:flint")
+    if(dim=="pasterdream:dyedream_world" && event.player.mainHandItem=='hmag:soul_powder')
     {
         if(event.item.count>=9)
         {
@@ -42,7 +42,7 @@ if(event.item!=null)
             event.cancel()
         }
         else{
-            var text = Component.red(`燧石数量不足，至少需要⑨个`)
+            var text = Component.red(`数量不足，至少需要⑨个`)
             event.player.setStatusMessage(text)
             event.cancel()
         }
@@ -61,10 +61,11 @@ BlockEvents.rightClicked('#tconstruct:smeltery',event=>{
     {
         if(event.block.hasTag("tconstruct:smeltery") && dim== "pasterdream:dyedream_world")
     {
-        if(event.item.hasTag('forge:coral_blocks/alive'))
+        if(event.player.mainHandItem.hasTag('forge:coral_blocks/alive'))
         {
             event.server.runCommandSilent(`execute in pasterdream:dyedream_world run setblock ${x} ${y} ${z} tconstruct:smeltery_controller`)
-            event.server.runCommand(`say 梦境的奇异力量让方块变成了新的形态`)
+            var text = Component.green(`梦境的奇异力量让方块变成了新的形态`)
+            event.player.setStatusMessage(text)
             event.player.mainHandItem.count-=1
             event.cancel()
             
@@ -82,11 +83,12 @@ BlockEvents.rightClicked('pasterdream:dyedream_leaves', event=>{
     let z=event.block.getZ()
 if(event.item!=null)
 {
-    if(event.item=='quark:bottled_cloud')
+    if(event.player.mainHandItem=='quark:bottled_cloud')
     {
         
         event.server.runCommandSilent(`execute in pasterdream:dyedream_world run setblock ${x} ${y} ${z} air`)
-        event.player.mainHandItem.count-=1
+//        event.player.mainHandItem.count-=1
+//        event.player.give("minecraft:glass_bottle")
         event.block.popItem('minecraft:phantom_membrane')
         event.cancel()
         
@@ -95,5 +97,56 @@ if(event.item!=null)
     
 })
 
+/* BlockEvents.rightClicked(event=>{
+    if(event.item!=null)
+    {
+        if(event.item.hasTag("forge:tools") && event.item.nbt["tic_broken"]==true)
+            event.cancel()
+        event.server.runCommand(`say ${event.item.nbt["tic_broken"]}`)
+    }
+}) */
 
+
+ServerEvents.recipes(event=>{
+event.custom(
+    {
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "tag": "hmag:milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+        "item":"minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:bar_of_chocolate"
+  }
+}
+)
+
+
+
+/* event.shaped(
+    "minecraft:apple",
+    [
+        'ABB'
+    ],
+    {A:Item.of("tconstruct:pickaxe",'{tic_broken:false}').weakNBT(),
+      B:   "minecraft:iron_ingot"}
+).damageIngredient("#minecraft:pickaxes",1).keepIngredient("#minecraft:pickaxes") */
+
+
+
+
+
+})
 

@@ -3,7 +3,6 @@ event.create('kubejs:magnetic_apple').displayName("磁场苹果").rarity("rare")
     food
       .hunger(4)
       .saturation(1.5)
-      .effect('alexscaves:magnetizing', 20*120, 0, 1)
       .effect('minecraft:hunger', 20*10, 0, 1)
       .effect('minecraft:resistance', 20*120, 1, 1)
     })
@@ -13,7 +12,6 @@ event.create('kubejs:magnetic_cola')
     food
       .hunger(2)
       .saturation(2)
-      .effect('alexscaves:magnetizing', 20*180, 0, 1)
       .effect('minecraft:nausea', 20*30, 0, 0.5)
       .effect('minecraft:resistance', 20*180, 1, 1)
       .eaten(foodEaten=>{
@@ -32,7 +30,6 @@ event.create('kubejs:nuclear_soda')
     food
       .hunger(3)
       .saturation(2)
-      .effect('alexscaves:irradiated', 20*10, 0, 0.5)
       .effect('minecraft:nausea', 20*30, 0, 1)
       .effect('minecraft:speed', 20*180, 1, 1)
       .effect('farmersdelight:comfort',20*20,0,1)

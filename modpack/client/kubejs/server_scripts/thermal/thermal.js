@@ -14,8 +14,7 @@ function EventRecipeRockGen(adjacent,below,out,id) {
     }
     event.custom(recipe).id(id)
 }
-//EventRecipeRockGen(Slot_1, Slot_2, Output, Recipes ID)
-EventRecipeRockGen('alexscaves:acid','ae2:flawless_budding_quartz','minecraft:andesite','kubejs:andesite')
+
 EventRecipeRockGen('biomesoplenty:blood','minecraft:honey_block','biomesoplenty:porous_flesh','kubejs:flesh')
 
 //流云
@@ -29,7 +28,7 @@ event.recipes.thermal.smelter('4x kubejs:cloud_dust', ['ars_nouveau:air_essence'
 
 event.recipes.thermal.smelter('quark:diamond_heart', ['6x minecraft:diamond','3x #forge:ingots/dragon_steel', 'touhou_little_maid:power_point']).energyMod(16.0)
 event.recipes.thermal.smelter('mystias_izakaya:reisen', ['16x ltc2:refined_salt_block','5x ltc2:hotaurum_ingot', 'hmag:fortune_crystal']).energyMod(16.0)
-
+event.recipes.thermal.smelter('cataclysm:black_steel_ingot',['extendedcrafting:black_iron_ingot','thermal:coal_coke']).energyMod(2)
 
 //粉变液态
 event.recipes.thermal.crucible(Fluid.of('kubejs:fluid_cloud', 250), 'kubejs:cloud_dust')
@@ -39,12 +38,11 @@ event.recipes.thermal.crucible(Fluid.of('starbunclemania:source_fluid', 100),'bi
 
 //远古
 event.recipes.thermal.refinery([Fluid.of('kubejs:greatrune_forgery_fluid', 30), Fluid.of('kubejs:ancient_essence', 70)], Fluid.of('kubejs:ancient_resin', 100)).energyMod(4.0)
-event.recipes.thermal.centrifuge([Fluid.of('kubejs:ancient_resin', 20)], 'alexscaves:tree_star').energyMod(4.0)
+
 
 event.recipes.thermal.refinery(['5x thermal:rich_slag',Fluid.of('kubejs:waste_water', 900), Fluid.of('starbunclemania:source_fluid', 200)], Fluid.of('kubejs:ore_fluid', 1000)).energy(72000)
 event.recipes.thermal.refinery(['thermal:rich_slag',Fluid.of('cofh_core:experience', 50), Fluid.of('minecraft:water', 450)], Fluid.of('kubejs:waste_water', 500)).energy(72000)
-//event.recipes.thermal.tree_extractor(Fluid.of('kubejs:ancient_resin', 100), 'minecraft:jungle_log', 'alexscaves:ancient_leaves')
-//event.recipes.thermal.tree_extractor(Fluid.of('kubejs:ancient_resin', 100), 'quark:ancient_log', 'quark:ancient_leaves')
+
 event.recipes.thermal.crystallizer('irons_spellbooks:lightning_bottle',[Fluid.of("starbunclemania:source_fluid",100),'minecraft:glass_bottle','hmag:lightning_particle'])
 
 //绿宝石齿轮
@@ -55,7 +53,7 @@ event.recipes.thermal.centrifuge(["minecraft:glass_bottle",'hmag:lightning_parti
 
 
 event.recipes.thermal.centrifuge([Fluid.of('thermal:refined_fuel', 200),'2x thermal:rich_slag',
-     Item.of('alexscaves:guano').withChance(0.2), 'delightful:animal_fat'],'ltc2:refined_underground_oil').energy(24000)
+    'delightful:animal_fat'],'ltc2:refined_underground_oil').energy(24000)
 
 event.recipes.thermal.insolator([Item.of('fruitsdelight:pineapple').withChance(1.5),Item.of('fruitsdelight:pineapple_sapling').withChance(1.2)],
     'fruitsdelight:pineapple_sapling').energyMod(4.0)

@@ -46,7 +46,7 @@ event.custom(
   "type": "youkaishomecoming:simple_fermentation",
   "ingredients": [
     {
-      "item": "alexscaves:green_soylent"
+      "item": "cloudertinker:magnet_ingot"
     },
     {
       "item": "minecraft:sugar"
@@ -87,7 +87,7 @@ event.custom(
             "tag": "forge:milk"
           },
           {
-            "item": "alexscaves:amber_curiosity"
+            "item": "ae2:fluix_pearl"
           },
           {
             "item": "youkaishomecoming:oolong_tea_leaves"

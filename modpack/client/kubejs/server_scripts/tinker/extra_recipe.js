@@ -92,7 +92,6 @@ ServerEvents.recipes(event => {
             "time": 20
         })
 
-        
 event.custom(
         {
             "type": "tconstruct:casting_basin",

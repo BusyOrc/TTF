@@ -1,8 +1,9 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapters"
-	group: ""
+	group: "756D1B6269D2C725"
 	icon: "minecraft:experience_bottle"
 	id: "433A2F033DBE9D48"
 	images: [

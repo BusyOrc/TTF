@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
         [
           '#tconstruct:smeltery_bricks',
           'minecraft:phantom_membrane',
-          'minecraft:bone_meal'
+          'minecraft:bone_block'
         ]
       )
 
@@ -121,7 +121,8 @@ ServerEvents.recipes(event => {
         [
           'minecraft:bone',
           'kubejs:doremy_ingot',
-          'minecraft:crying_obsidian'
+          'minecraft:crying_obsidian',
+          'ae2:fluix_crystal'
         ]
       )
 
@@ -131,6 +132,21 @@ ServerEvents.recipes(event => {
           'scannable:blank_module',
           'biomesoplenty:porous_flesh',
           'biomesoplenty:bramble'
+        ]
+      )
+
+      event.shapeless(
+        '4x tconstruct:blank_sand_cast', 
+        [
+          'pasterdream:dyedream_sand'
+        ]
+      )
+
+      event.shapeless(
+        '2x tinkers_thinking:ender_slime_drop', 
+        [
+          'tconstruct:ender_slime_ball',
+          'thermal:ender_pearl_dust'
         ]
       )
 
@@ -185,7 +201,7 @@ event.shaped(
   {
     A:'irons_spellbooks:arcane_essence',
     B:'minecraft:ender_eye',
-    C:'irons_spellbooks:blood_vial',
+    C:'youkaishomecoming:blood_bottle',
     D:'minecraft:stick'
   }
 )
@@ -199,7 +215,7 @@ event.shaped(
   ],
   {
     A:'hmag:cubic_nucleus',
-    B:'alexsmobs:soul_heart',
+    B:'minecraft:diamond_block',
     C:'kubejs:creative_mechanism',
     D:'cataclysm:void_core'
   }
@@ -220,7 +236,7 @@ event.shaped('4x tinkers_thinking:silky_jewel',
     }
 )
 
-event.shaped('exmodifier:refresh_table',
+/* event.shaped('exmodifier:refresh_table',
   [ 'EAE',
     'BCB',
     'DDD'
@@ -232,7 +248,7 @@ event.shaped('exmodifier:refresh_table',
     D:'minecraft:crying_obsidian',
     E:"#forge:ingots/dragon_steel"
   }
-)
+) */
 
 event.shaped('mbd2:tofu_input',
   [
@@ -392,31 +408,8 @@ event.shaped("minecraft:wooden_pickaxe",
   }
 )
 
-event.shaped("minecraft:stone_pickaxe",
-  [
-    'DDD',
-    ' P ',
-    ' P '
-  ],
-  {
-    D:'#minecraft:planks',
-    P:'create:cogwheel'
-  }
-)
 
-event.shaped("minecraft:stone_pickaxe",
-  [
-    ' DD',
-    ' PD',
-    ' P '
-  ],
-  {
-    D:'#forge:cobblestone',
-    P:'create:cogwheel'
-  }
-)
-
-event.shaped("minecraft:stone_pickaxe",
+event.shaped('twilightforest:transformation_powder',
   [
     'FFF',
     'FAF',
@@ -425,6 +418,17 @@ event.shaped("minecraft:stone_pickaxe",
   {
     F:'#minecraft:flowers',
     A:'minecraft:leather'
+  }
+)
+
+event.shaped("3x minecraft:glass_bottle",
+  [
+    '   ',
+    'F F',
+    ' F '
+  ],
+  {
+    F:'pasterdream:dyedream_glass'
   }
 )
 

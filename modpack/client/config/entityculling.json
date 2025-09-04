@@ -12,12 +12,18 @@
   ],
   "entityWhitelist": [
     "botania:mana_burst",
-    "drg_flares:drg_flares"
+    "drg_flares:drg_flares",
+    "create:contraption",
+    "create:crafting_blueprint",
+    "create:package",
+    "create:carriage_contraption",
+    "create:gantry_contraption"
   ],
   "tracingDistance": 128,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,
+  "captureRate": 5,
   "skipMarkerArmorStands": true,
   "tickCulling": true,
   "tickCullingWhitelist": [

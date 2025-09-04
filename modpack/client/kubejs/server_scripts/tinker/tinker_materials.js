@@ -229,7 +229,7 @@ event.custom(
     {
         "type": "tconstruct:casting_table",
         "cast": {
-          "item": "alexsmobs:soul_heart"
+          "item": "cataclysm:witherite_ingot"
         },
         "cast_consumed": true,
         "cooling_time": 20,

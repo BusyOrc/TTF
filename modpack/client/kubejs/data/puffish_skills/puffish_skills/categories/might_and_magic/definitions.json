@@ -851,7 +851,7 @@
 	},
 	"koishi": {
 		"title": "弗洛伊德之梦",
-		"description": "消耗技能点：§a16\n野外偶遇恋恋，在什么都没看见的情况下被强迫进行了运动。获得效果：\n§4 -51.4%经验获取§r\n§a 获得+120%暴击伤害，+51.4%暴击率，§a+51.4%背后攻击伤害.\n§9无意识中，经验值似乎都溜走了",
+		"description": "消耗技能点：§a16\n野外偶遇恋恋，在什么都没看见的情况下被强迫进行了运动。获得效果：\n§4 -51.4%经验获取§r\n§a 获得+120%暴击伤害，+51.4%暴击率.\n§9无意识中，经验值似乎都溜走了",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -881,14 +881,6 @@
 				"data": {
 					"attribute": "attributeslib:experience_gained",
 					"value": -0.514,
-					"operation": "multiply_total"
-				}
-			},
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "exmodifier:behind_damage",
-					"value": 0.514,
 					"operation": "multiply_total"
 				}
 			}

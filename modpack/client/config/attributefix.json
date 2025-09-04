@@ -55,17 +55,6 @@
         "value": 1
       }
     },
-    "exmodifier:all_attribute_boost": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100000000,
-        "value": 100000000
-      }
-    },
     "alshanex_familiars:sound_spell_power": {
       "enabled": false,
       "min": {
@@ -75,6 +64,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "exmodifier:all_attribute_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000000,
+        "value": 100000000
       }
     },
     "attributeslib:armor_shred": {
@@ -198,17 +198,6 @@
         "value": 2
       }
     },
-    "exmodifier:durability": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100000000,
-        "value": 100000000
-      }
-    },
     "touhoutinkermodifier:mana_cost_reduction": {
       "enabled": false,
       "min": {
@@ -218,6 +207,17 @@
       "max": {
         "default": 100,
         "value": 0.75
+      }
+    },
+    "exmodifier:durability": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000000,
+        "value": 100000000
       }
     },
     "exmodifier:max_dodge": {
@@ -264,17 +264,6 @@
         "value": 10
       }
     },
-    "exmodifier:max_injury_free": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "nffgirls:nffgirls.critical_rate": {
       "enabled": false,
       "min": {
@@ -295,6 +284,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "exmodifier:max_injury_free": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "cataclysm_spellbooks:abyssal_spell_power": {
@@ -330,17 +330,6 @@
         "value": 100
       }
     },
-    "exmodifier:percent_heal": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "alshanex_familiars:sound_magic_resist": {
       "enabled": false,
       "min": {
@@ -350,6 +339,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "exmodifier:percent_heal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "touhoutinkermodifier:player_fly_movement": {
@@ -1276,17 +1276,6 @@
         "value": 100
       }
     },
-    "exmodifier:defense": {
-      "enabled": false,
-      "min": {
-        "default": -100000,
-        "value": -100000
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "l2damagetracker:bow_strength": {
       "enabled": false,
       "min": {
@@ -1309,7 +1298,29 @@
         "value": 10000
       }
     },
+    "exmodifier:defense": {
+      "enabled": false,
+      "min": {
+        "default": -100000,
+        "value": -100000
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
+      }
+    },
     "traveloptics:aqua_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "irons_spellbooks:ender_spell_power": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -1329,17 +1340,6 @@
       "max": {
         "default": 100000000,
         "value": 100000000
-      }
-    },
-    "irons_spellbooks:ender_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "nffgirls:nffgirls.looting_level": {
@@ -1485,17 +1485,6 @@
         "value": 1
       }
     },
-    "exmodifier:dodge": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000000,
-        "value": 10000000
-      }
-    },
     "ars_nouveau:ars_nouveau.perk.mana_regen": {
       "enabled": false,
       "min": {
@@ -1505,6 +1494,17 @@
       "max": {
         "default": 2000,
         "value": 2000
+      }
+    },
+    "exmodifier:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000000,
+        "value": 10000000
       }
     },
     "minecraft:generic.attack_damage": {
@@ -1694,17 +1694,6 @@
         "value": 100
       }
     },
-    "exmodifier:behind_damage": {
-      "enabled": false,
-      "min": {
-        "default": -100000000,
-        "value": -100000000
-      },
-      "max": {
-        "default": 100000000,
-        "value": 100000000
-      }
-    },
     "youkaishomecoming:initial_resource": {
       "enabled": false,
       "min": {
@@ -1714,6 +1703,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "exmodifier:behind_damage": {
+      "enabled": false,
+      "min": {
+        "default": -100000000,
+        "value": -100000000
+      },
+      "max": {
+        "default": 100000000,
+        "value": 100000000
       }
     },
     "tconstruct:generic.protection_cap": {

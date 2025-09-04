@@ -1,9 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "create:mechanical_crafting",
   "acceptMirrored": false,
   "key": {
     "A": {
       "item": "minecraft:sculk"
+    },
+    "P": {
+      "tag": "forge:plates/obsidian"
+    },
+    "T": {
+      "item": "create:fluid_tank"
     },
     "B": {
       "item": "create:basin"
@@ -13,12 +19,20 @@
     },
     "C": {
       "item": "create:andesite_casing"
+    },
+    "H": {
+      "item": "create:hose_pulley"
+    },
+    "I": {
+      "tag": "forge:storage_blocks/steel"
     }
   },
   "pattern": [
-    " B ",
-    "SCA",
-    " B "
+    "APA",
+    "TBT",
+    "SCS",
+    "HBI",
+    "APA"
   ],
   "result": {
     "item": "sculkcatalyticchamber:chamber"

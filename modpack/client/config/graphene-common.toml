@@ -152,14 +152,16 @@
 		#水平检测范围(方块)
 		#Horizontal detection range (blocks)
 		#Range: 1 ~ 256
-		horizontalRange = 64
+		horizontalRange = 96
 		#垂直检测范围(方块)
 		#Vertical detection range (blocks)
 		#Range: 1 ~ 256
-		verticalRange = 32
+		verticalRange = 62
 		#忽略已死亡的实体
 		#Ignore dead entities
 		ignoreDeadEntities = false
+		#优化村民在1x1空间内的AI
+		villagerMoveOptimize = true
 
 	[entity_optimization."实体白名单 | Entity Whitelist"]
 		#启用死亡实体清理
@@ -241,6 +243,14 @@
 	#Chunk unload delay (seconds)
 	#Range: 10 ~ 600
 	chunkUnloadDelay = 60
+	#区块加载速度优化
+	#Chunk Optimize
+	"加速区块加载" = true
+	#区块优化-Beta
+	#Chunk Optimize Beta
+	"Chunk Optimize Beta" = false
+	#快速区块-实体加载优化
+	"快速区块-实体加载优化延迟加载" = true
 
 #异步优化 | Async Optimization
 [async_optimization]
@@ -265,11 +275,11 @@
 	[async_optimization."线程配置 | Thread Configuration"]
 		#异步系统最大CPU核心数
 		#Max CPU Cores for async system
-		#Range: 2 ~ 9999
+		#Range: 2 ~ 128
 		maxCPUPro = 8
 		#最大线程数
 		#Max Threads for general async operations
-		#Range: 2 ~ 9999
+		#Range: 2 ~ 256
 		maxthreads = 8
 
 #事件系统 | Event System
@@ -292,4 +302,10 @@
 	#启用调试日志
 	#Enable debug logging
 	debug = false
+
+[Light]
+	#光照优化
+	enableFixedLight = true
+	#竹子光照优化
+	enablebambooFixedLight = true
 

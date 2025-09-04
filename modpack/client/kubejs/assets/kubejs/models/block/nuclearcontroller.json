@@ -1,5 +1,6 @@
 {
   "parent": "block/cube_directional",
+  "particle": "create:block/andesite_block",
   "textures": {
     "north": "kubejs:block/nuclearcontroller1",  
     "south": "kubejs:block/nuclearcontroller2",  

@@ -1,0 +1,5 @@
+{
+  "item.ae2_toggleable_view_cell.toggleable_view_cell": "可切换显示元件",
+  "item.ae2_toggleable_view_cell.toggleable_view_cell.tooltip.enabled": "开启: %s",
+  "item.ae2_toggleable_view_cell.toggleable_view_cell.tooltip.howto": "右键以切换"
+}

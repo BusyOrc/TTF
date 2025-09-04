@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_directional",
+  "particle": "create:block/andesite_block",
+  "textures": {
+    "north": "ttf:block/input_casing",  
+    "south": "ttf:block/input_casing", 
+    "east": "create:block/andesite_casing",   
+    "west": "create:block/andesite_casing",     
+    "up": "create:block/andesite_casing",      
+    "down": "create:block/andesite_casing"
+  }
+}

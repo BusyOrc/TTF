@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
     //沥青沙
 event.recipes.createoreexcavation.vein('{"text": "沥青沙"}', 'thermal:oil_sand')
-.placement(24, 8, 114514).id("kubejs:oil_sand").alwaysFinite().priority(10).veinSize(8, 12)
+.placement(24, 8, 114514).id("kubejs:oil_sand").alwaysInfinite().priority(10)
 .biomeWhitelist('minecraft:is_overworld') 
 
 event.recipes.createoreexcavation
@@ -12,7 +12,7 @@ event.recipes.createoreexcavation
    
 
 event.recipes.createoreexcavation.vein('{"text": "下界远古矿脉"}', 'minecraft:ancient_debris')
-.placement(24, 8, 1919810).id("kubejs:nether_ancient_vein").alwaysInfinite().priority(30).veinSize(7,9.5 )
+.placement(24, 8, 1919810).id("kubejs:nether_ancient_vein").alwaysInfinite().priority(30)
 .biomeWhitelist('minecraft:is_nether') 
 
 event.recipes.createoreexcavation

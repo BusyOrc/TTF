@@ -10891,10 +10891,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"16A1B3AB6C5E4BFF"
-				"78D254568DE41DBD"
-			]
+			dependencies: ["16A1B3AB6C5E4BFF"]
 			dependency_requirement: "one_completed"
 			description: [
 				"东风谷早苗：（&c毫不掩饰的对你手中的肉表达嫌弃&f）"

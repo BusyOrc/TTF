@@ -1,0 +1,26 @@
+
+[extendedae_plus]
+	#扩展样板供应器总槽位容量的倍率。
+	#基础为36，每页仍显示36格，倍率会增加总页数/总容量。
+	#建议范围 1-16
+	#Range: 1 ~ 64
+	pageMultiplier = 1
+	#无线收发器最大连接距离（单位：方块）
+	#从端与主端的直线距离需小于等于该值才会建立连接。
+	#Range: 1.0 ~ 4096.0
+	wirelessMaxRange = 256.0
+	#是否允许无线收发器跨维度建立连接
+	#开启后，从端可连接到不同维度的主端（忽略距离限制）
+	wirelessCrossDimEnable = true
+	#是否显示样板编码玩家
+	#开启后将在样板 HoverText 上添加样板的编码玩家
+	showEncoderPatternPlayer = true
+	#智能倍增时是否对样板供应器轮询分配
+	#仅多个供应器有相同样板时生效，开启后请求会均分到所有可用供应器，关闭则全部分配给单一供应器
+	#注意：所有相关供应器需开启智能倍增，否则可能失效
+	#默认: true
+	providerRoundRobinEnable = true
+	#样板终端默认是否显示槽位
+	#影响进入界面时SlotsRow的默认可见性，仅影响客户端显示
+	patternTerminalShowSlotsDefault = true
+

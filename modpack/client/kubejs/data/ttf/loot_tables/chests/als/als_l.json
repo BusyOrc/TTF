@@ -77,17 +77,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{golem_material:\"alexscaves:magnetic\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "modulargolems:metal_golem_legs",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{golem_material:\"modulargolems:sculk\"}"
             }
           ]

@@ -53,37 +53,6 @@
 		}
 		{
 			dependencies: ["601095BFB131F14E"]
-			description: [
-				"魔理沙：&b妖精冰晶&r是前期就能获得的好东西。在妖精化状态下可以和琪露诺交易来获取，或者也许还有另外的配方？而琪露诺的小屋通常在寒冷群系。如果想了解更多材料介绍，应该去找小伞"
-				""
-				"{ \"text\": \"车万材料\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"327CB47AE3CD98AF\" } }"
-			]
-			icon: "youkaishomecoming:fairy_ice_crystal"
-			id: "78D254568DE41DBD"
-			rewards: [{
-				count: 4
-				id: "1CC0968941928B11"
-				item: "create:brass_casing"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "529289340F21CDA0"
-					item: "youkaishomecoming:fairy_ice_crystal"
-					type: "item"
-				}
-				{
-					id: "1316767961782DDF"
-					item: "youkaishomecoming:fairy_candy"
-					type: "item"
-				}
-			]
-			title: "推荐材料"
-			x: 1.25d
-			y: 0.0d
-		}
-		{
-			dependencies: ["601095BFB131F14E"]
 			description: ["魔理沙：别担心，三十六计走为上计，总还是有办法的DA⭐ZE。其次，多去了解一下小伞的锻造技术，有本书叫工匠大百科，如果你有的话可一定要多看看，里面收录了各种材料的数据，如果确实没什么办法，可以用巨型火把阻止周围产生敌人"]
 			icon: "torchmaster:megatorch"
 			id: "4E0B5BA233E990EF"
@@ -99,112 +68,6 @@
 			title: "如何应对强敌"
 			x: 2.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["601095BFB131F14E"]
-			description: [
-				"魔理沙：如果有女仆的话……"
-				""
-				"简而言之，女仆几乎是万能的，"
-				""
-				" &a                       车万女仆&r"
-				"&b左顾右盼把怪打，战斗守家钓鱼忙"
-				"&b种地做饭都能干，上天下海样样行"
-				""
-				"家中女仆忙"
-				"整天未见耕地闲"
-				"主人在养生&r"
-				""
-				""
-				"{ \"text\": \"女仆介绍\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"048266508AAAAEBF\" } }"
-			]
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
-			id: "5E5F1E52CE1188C2"
-			tasks: [{
-				id: "5567BD4626B43819"
-				type: "checkmark"
-			}]
-			title: "女仆"
-			x: -0.5d
-			y: 2.25d
-		}
-		{
-			dependencies: ["5E5F1E52CE1188C2"]
-			description: ["魔理沙：别误会，这个项圈可是能附魔的，可以给女仆戴上，这样不光能兼顾生产，战斗方面也不会落下。部分附魔书还可以通过女仆祭坛直接制造，可查看祭坛包含书相关的配方。"]
-			id: "47DC58500D8B3CCA"
-			rewards: [{
-				id: "0EABF2EEDDF01CEE"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [{
-				id: "1623AC7D9A247816"
-				item: "domesticationinnovation:collar_tag"
-				type: "item"
-			}]
-			title: "项圈"
-			x: 1.0d
-			y: 2.25d
-		}
-		{
-			description: ["“如果说认为主世界很危险的话，为何不去暮色森林里寻找宝物呢？听说部分地区的地底埋藏着大量矿物，而且很容易获取。还能找到矿脉&a魔力聚集地&r，使用机械动力设备即可挖掘。”"]
-			id: "47564D5FF0B41FA8"
-			rewards: [{
-				id: "5678B759C0339628"
-				item: "waystones:waystone"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "2B43A0B2DC386E46"
-				type: "dimension"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["5E5F1E52CE1188C2"]
-			description: ["“俗话说，饱暖思建筑，解决了基本问题就想着搞建筑和养老，那我推荐你试试这款98新的家具套装，只需要供应&a电力和相应材料&r就能自动制作出需要的家具，需要使用&a专属发电机&r供电，燃料输入可以用物流方式自动化。”"]
-			icon: "refurbished_furniture:wrench"
-			id: "7DAADCD3685D6CA0"
-			rewards: [
-				{
-					count: 16
-					id: "208318DDDB73EB00"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					id: "1E5C5DFC57249737"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [
-				{
-					id: "0B1E250EE1A4E562"
-					item: "refurbished_furniture:wrench"
-					type: "item"
-				}
-				{
-					id: "64A28A69CE91CB5F"
-					item: "refurbished_furniture:workbench"
-					type: "item"
-				}
-				{
-					id: "125458D5929A282C"
-					item: "refurbished_furniture:light_electricity_generator"
-					type: "item"
-				}
-			]
-			title: "14 家具"
-			x: -2.0d
-			y: 2.25d
 		}
 		{
 			description: [
@@ -236,38 +99,6 @@
 		}
 		{
 			description: [
-				"据说在部分水域群系的可疑沙子中可以用刷子获得&a嗅探兽蛋&r。嗅探兽蛋放在地上等待一段时间即可自然孵化，孵化后为幼年状态，成年嗅探兽在所有&b森林相关群系&r有概率挖出&a姬海棠果&r种子，似乎种子结出来的果实制作的的&b金姬海棠果&r是&a非常优秀的匠魂材料&r，尽管工序较为复杂。"
-				"姬海棠果主要作用为：制作出姬海棠果酱"
-				""
-				"如果要寻找嗅探兽蛋的话，提示：嗅探兽英文为sniffer，而你可能恰好有一个探险家指南针，那么该怎么做呢？"
-				"{@pagebreak}"
-				"补充：&a所有包含森林标签&r的群系里嗅探兽均可挖掘出姬海棠果种子。具体的群系名称太多，这里空白太小写不下，省流：&b主世界里长了树的群系&r。"
-				""
-				"另外，用指南针搜索ruins with cherry tree或者immortalers relic也可以找到有嗅探兽蛋的遗迹"
-				""
-				"如果觉得制作金姬海棠果太麻烦，有简单的获取方法"
-				""
-				"{ \"text\": \"灵视交换物品\", \"color\":\"aqua\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A383347D6F3719B\" } }"
-				""
-				"如果要让嗅探兽重置挖掘冷却时间，快速挖掘出所需物品，可以通过给嗅探兽&d喂食榴莲肉&r的方法"
-			]
-			icon: "minecraft:sniffer_egg"
-			id: "3933E02335457909"
-			rewards: [{
-				id: "772F3B60BD1894EE"
-				item: "fruitsdelight:durian_sapling"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1250A0017C86F671"
-				item: "minecraft:sniffer_egg"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			description: [
 				"想要灵梦的蝴蝶结的话，目前我知道整整三种获取方法"
 				""
 				"1.击败灵梦固定掉落"
@@ -296,48 +127,6 @@
 			title: "灵梦的大蝴蝶结"
 			x: 7.0d
 			y: -2.5d
-		}
-		{
-			description: [
-				"我去&m偷&r借东西的时候最喜欢用的小道具，尤其是安装各种&a升级模块&r以后非常好用，能探查周围敌人，方块的情况。安装不同的模块有不同的效果，还可以安装范围升级来提高扫描范围"
-				""
-				" 海晶锭需要在感应炉里制作，如果不知道感应炉是什么的话，我给你指条路："
-				"{ \"text\": \"感应炉\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"609C738A0F0B222C\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "scannable:scanner"
-				tag: {
-					energy: 0
-				}
-			}
-			id: "1CDAA330D9FB0ECC"
-			rewards: [{
-				id: "0BD2586F3F5848CC"
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [
-				{
-					id: "23C9F69CB24DC84E"
-					item: {
-						Count: 1
-						id: "scannable:scanner"
-						tag: {
-							energy: 0
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "6CF0E757CA20F96C"
-					item: "scannable:blank_module"
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 2.25d
 		}
 		{
 			dependencies: ["4E0B5BA233E990EF"]

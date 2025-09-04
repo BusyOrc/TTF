@@ -69,27 +69,8 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "gtceu": {
-    "primitive_pump": true,
-    "auto_output_info": true,
-    "workable_provider": true,
-    "transformer": true,
-    "energy_converter_provider": true,
-    "controllable_provider": true,
-    "me_pattern_buffer": true,
-    "exhaust_vent_info": true,
-    "me_pattern_buffer_proxy": true,
-    "multiblock_structure": true,
-    "recipe_logic_provider": true,
-    "maintenance_info": true,
-    "machine_mode": true,
-    "electric_container_provider": true,
-    "steam_boiler_info": true,
-    "recipe_output_info": true,
-    "stained_color": true,
-    "hazard_cleaner_provider": true,
-    "cable_info": true,
-    "parallel_info": true
+  "createsifter": {
+    "sifter_data": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -125,6 +106,28 @@
     "recipe_logic_provider": true,
     "multiblock_provider": true
   },
+  "extendedae_plus": {
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_master_location": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -138,9 +141,6 @@
     "villager": true,
     "converter": true,
     "breeder": true
-  },
-  "exmodifier": {
-    "element": true
   },
   "touhou_little_maid": {
     "maid": true,
@@ -156,5 +156,16 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "servant_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
   }
 }

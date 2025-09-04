@@ -13,6 +13,7 @@ event.recipes.create.haunting('minecraft:clay','pasterdream:dyedream_sand')
 event.recipes.create.mixing(Fluid.of('starbunclemania:source_fluid', 150),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
 event.recipes.create.mixing("2x minecraft:netherrack",[Fluid.of("lava",50), "minecraft:cobblestone","create:cinder_flour"]).heated()
 event.recipes.create.splashing('minecraft:quartz','pasterdream:dyedreamquartz')
+event.recipes.create.splashing('minecraft:glass','pasterdream:dyedream_glass')
 event.recipes.create.item_application("create:andesite_casing",['pasterdream:dyedream_log',"create:andesite_alloy"])
 event.custom(
 {
@@ -144,7 +145,7 @@ event.custom(
 
 
 
-    //种田
+/*     //种田
 event.recipes.create.mechanical_crafting('8x ae2:fluix_block', [
           'AGGA',
           'ACDA',
@@ -160,7 +161,7 @@ F: 'farmersdelight:fruit_salad',
 G: 'minecraft:pumpkin_pie'
 
         })
-
+ */
 
 
       
@@ -209,7 +210,7 @@ event.recipes.create.milling(['2x minecraft:red_dye','2x minecraft:sugar',Item.o
 event.recipes.create.mixing('3x thermal:rubber',Fluid.of('thermal:latex',1000))
 event.recipes.create.mixing('thermal:rubber',[Fluid.of('minecraft:water',1000),'8x minecraft:vine'])
 event.recipes.create.mixing('thermal:rubber',[Fluid.of('minecraft:water',1000),'8x minecraft:dandelion'])
-
+event.recipes.create.pressing('ttf:rubber_sheet','thermal:cured_rubber')
 
 //生化构件反哺陶片
 event.recipes.create.mixing(['kubejs:biochem_mechanism','3x minecraft:prize_pottery_sherd' ],['kubejs:biochem_mechanism','3x minecraft:brick','minecraft:nether_star'])
@@ -222,6 +223,7 @@ event.recipes.create.haunting('minecraft:coal_block','#forge:storage_blocks/char
 event.recipes.create.mixing(Fluid.of("biomesoplenty:blood", 500), [Fluid.of("minecraft:water",500),'biomesoplenty:bramble'])
 
 event.recipes.create.filling('irons_spellbooks:blank_rune', ['advanced_ae:quantum_alloy_plate', Fluid.of('kubejs:ancient_essence',180)])
+event.recipes.create.filling('extendedcrafting:black_iron_ingot', ['minecraft:iron_ingot', Fluid.of('create_enchantment_industry:ink',1000)])
 
 let ICM = 'kubejs:incomplete_creative_mechanism'
 event.recipes.create.sequenced_assembly(
@@ -257,11 +259,6 @@ C:'minecraft:rabbit_hide',
 D:'simplehats:rabbitonhead',
 E:'minecraft:rabbit_foot'
 })
-
-
-
-
-
 
 
 

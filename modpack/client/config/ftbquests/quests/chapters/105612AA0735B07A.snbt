@@ -641,7 +641,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D850318A0225EA4"]
+			dependencies: [
+				"6D850318A0225EA4"
+				"327CB47AE3CD98AF"
+			]
 			description: [
 				"小伞：这些是最基础的部分，完成以后才能进行之后的工作"
 				""
@@ -2746,7 +2749,10 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["5ED241C44B8A8429"]
+			dependencies: [
+				"5ED241C44B8A8429"
+				"327CB47AE3CD98AF"
+			]
 			description: [
 				"匠魂材料分为两种类型："
 				"1.可直接制作匠魂部件"
@@ -4143,92 +4149,6 @@
 			]
 			x: 14.75d
 			y: -5.5d
-		}
-		{
-			description: [
-				"小伞：当你制作出一把匠魂武器以后，或许会发现有一些&b额外的属性&r。这些属性并不是材料提供的，而是由“付丧神”所提供。而如果付丧神所提供的额外属性并不符合需求，可以使用一些独特的道具来安抚付丧神，使其重新生成属性，或者也可称为&b重铸&r。使用部分材料重铸的话会使工具获得更多的属性"
-				""
-				"对于以下类型的匠魂工具会有特殊词条出现："
-				"刀，匕首：背后伤害提高"
-				"镶板盔甲：法强，法力上限，法力回复速度，法术抗性"
-				"层板盔甲：护甲，盔甲韧性，保护撕裂和保护穿透"
-				"内嵌盔甲：护甲，盔甲韧性，保护撕裂和保护穿透（但数值比层板更低）"
-				""
-				"如果你使用以前制作的工具发现并没有这些特殊属性，可以通过重铸台上消耗材料刷新属性的方式来获得新属性"
-			]
-			id: "2FA67ADA1D645D99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0E9C8885FC327BB7"
-				table_id: 6568354217492425317L
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "31A36631D3766826"
-				item: "exmodifier:refresh_table"
-				type: "item"
-			}]
-			x: -13.1d
-			y: -10.85d
-		}
-		{
-			dependencies: ["2FA67ADA1D645D99"]
-			description: ["随机出的属性一定是正面的"]
-			icon: "kubejs:doremy_ingot"
-			id: "4D1B7B8585A051C6"
-			tasks: [
-				{
-					id: "02016699EFF2087C"
-					item: "kubejs:doremy_ingot"
-					type: "item"
-				}
-				{
-					id: "340613E34B1B8CE6"
-					item: "sakuratinker:youkai_ingot"
-					type: "item"
-				}
-				{
-					id: "22CE51C7E7829745"
-					item: "kubejs:daiyouseis_bomb"
-					type: "item"
-				}
-				{
-					id: "59A3FA2B099C784E"
-					item: "kubejs:youmus_dualswords"
-					type: "item"
-				}
-				{
-					id: "3C053277FA1B1027"
-					item: "youkaishomecoming:fairy_ice_crystal"
-					type: "item"
-				}
-			]
-			title: "普通的重铸材料"
-			x: -14.6d
-			y: -13.6d
-		}
-		{
-			dependencies: ["2FA67ADA1D645D99"]
-			description: ["这些材料会让工具获得额外属性"]
-			icon: "kubejs:reimu"
-			id: "27FC6D3C82110931"
-			tasks: [
-				{
-					id: "4482F7B5772A6146"
-					item: "kubejs:reimu"
-					type: "item"
-				}
-				{
-					id: "2FC7ABF9E633FCDB"
-					item: "kubejs:mysterious_hat"
-					type: "item"
-				}
-			]
-			title: "特殊重铸材料"
-			x: -11.6d
-			y: -13.6d
 		}
 		{
 			description: [

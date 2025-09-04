@@ -32,6 +32,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:sheep",
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
         "type": "allay",
         "weight": 20,
         "minCount": 1,

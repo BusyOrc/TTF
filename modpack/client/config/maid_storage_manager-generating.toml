@@ -83,3 +83,27 @@
 	[ars_nouveau.enchantment]
 		enable = true
 
+[mekanism]
+
+	[mekanism.enriching]
+		enable = true
+
+	[mekanism.metallurgic_infusing]
+		enable = true
+
+	[mekanism.crushing]
+		enable = true
+
+	[mekanism.sawing]
+		enable = true
+
+	[mekanism.compressing]
+		enable = true
+
+	[mekanism.combining]
+		enable = true
+
+	[mekanism.smelting]
+		enable = true
+		replace_furnace = true
+

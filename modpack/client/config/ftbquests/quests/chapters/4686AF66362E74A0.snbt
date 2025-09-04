@@ -7,75 +7,6 @@
 	id: "4686AF66362E74A0"
 	images: [
 		{
-			click: "#"
-			height: 2.0d
-			hover: ["没有稳定附魔，只能吹出普通泡泡"]
-			image: "supplementaries:item/bubble_blower_using"
-			rotation: 0.0d
-			width: 2.0d
-			x: 14.5d
-			y: -8.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/particle/bubble.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.0d
-			y: -8.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/particle/bubble_pop_1.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.5d
-			y: -7.5d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/particle/bubble_pop_2.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 17.5d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/particle/bubble.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 17.0d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:textures/particle/bubble_pop_4.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 15.5d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
-			image: "alexscaves:textures/entity/deep_one/bubble.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 16.5d
-			y: -5.5d
-		}
-		{
-			click: "#"
-			color: 12368127
-			height: 2.0d
-			hover: ["有稳定附魔，可以吹出方块泡泡"]
-			image: "supplementaries:item/bubble_blower_using"
-			rotation: 0.0d
-			width: 2.0d
-			x: 14.5d
-			y: -5.5d
-		}
-		{
 			height: 2.0d
 			image: "ars_nouveau:block/manabloom/stage3"
 			rotation: 0.0d
@@ -509,128 +440,6 @@
 			title: "询问帕秋莉关于异变"
 			x: -7.35d
 			y: 6.3d
-		}
-		{
-			dependencies: ["5CF8AF2437575020"]
-			description: ["做一个泡泡环出来，之后有用。如果需要补充泡泡，可以用肥皂合成"]
-			icon: {
-				Count: 1
-				id: "supplementaries:bubble_blower"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7DB7704A00A238EA"
-			tasks: [
-				{
-					id: "2B3800D6A84D877A"
-					item: {
-						Count: 1
-						id: "supplementaries:bubble_blower"
-						tag: {
-							Damage: 0
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "7B96055D822E94B7"
-					item: "supplementaries:soap"
-					type: "item"
-				}
-			]
-			x: 14.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["7DB7704A00A238EA"]
-			description: [
-				"帕秋莉：第二步，给泡泡环用铁砧附魔上稳定"
-				""
-				"这个附魔书在各种地牢中应该都能找到，除此之外，末地城出现的概率可能会略高一些"
-				""
-				"这个附魔的意义在于，让泡泡环能够吹出稳定存在的泡泡方块，在某些特殊的能量汇集点，例如下界的某些地点，这种方块能够聚集能量并且可以用一些方式提取出来"
-			]
-			id: "468C88C4EA840FC0"
-			tasks: [{
-				id: "77F1D9E9BB451E23"
-				type: "checkmark"
-			}]
-			title: "附魔"
-			x: 17.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["468C88C4EA840FC0"]
-			description: [
-				"帕秋莉：还需要准备&a一个炽焰符文和一个远古树苗&r，&b树苗需要放在副手&r，除此之外，最好给你的盔甲多准备点爆炸抗性和恢复相关道具，试试用黑曜石板给匠魂盔甲打上爆炸防护"
-				""
-				"都准备妥当之后，前往下界寻找这种特殊的自然生成结构（探险家指南针可搜索fumo_nether），尽管目前仍不知道形成的具体原理，但是根据简单的推算，异变产生的大量能量会在这种节点汇集。"
-				""
-				"你需要做的事情很简单，&b来到这种下界fumo结构&r所在地方，吹出来一个泡泡方块，&b主手用炽焰符文左键泡泡方块&r。根据《高等魔法》《魔法流体动力学》和《结构魔法》的相关理论推算，这种行为会将能量和物质相互转化。尽管目前还没有任何实验结果，但是根据能量=魔力×紫传送速度^2，在这个过程中损失的很小一部分魔力也会产生一定的影响。"
-			]
-			icon: "irons_spellbooks:fire_rune"
-			id: "17B8018E470F9D14"
-			rewards: [{
-				id: "6C92B17CB36F1F29"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [
-				{
-					id: "00EE5FA4B5EBD180"
-					structure: "ttf:fumo_nether"
-					type: "structure"
-				}
-				{
-					id: "20E20B24FBC90100"
-					item: "irons_spellbooks:fire_rune"
-					type: "item"
-				}
-			]
-			x: 20.5d
-			y: -7.75d
-		}
-		{
-			can_repeat: true
-			dependencies: ["17B8018E470F9D14"]
-			description: ["帕秋莉：这些液体我很需要，可以尽量多拿一些来。我这里有一些你可能需要的东西"]
-			id: "7F3B5F89C3FBB1E6"
-			rewards: [{
-				count: 4
-				id: "2F8DBDD45CF803E4"
-				item: "ae2:singularity"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7E9C3D5F405B35B8"
-				item: "kubejs:ancient_resin_bucket"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -9.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["17B8018E470F9D14"]
-			description: ["帕秋莉：正常获取大量蜂蜜可能看起来很困难，实际上一点也不简单，如果这方面遇到困难的话，或许可以试试这种新方法？"]
-			id: "01BC608A8986D7DB"
-			rewards: [{
-				count: 2
-				id: "66CFEFC11080ABC0"
-				item: "minecraft:honey_block"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "240734CA00DC2647"
-				item: "kubejs:greatrune_forgery_fluid_bucket"
-				type: "item"
-			}]
-			x: 22.0d
-			y: -8.75d
 		}
 		{
 			dependencies: ["18AAD55258BE9D87"]
@@ -2562,7 +2371,7 @@
 				type: "item"
 			}]
 			x: -30.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["048F95BD85B41085"]
@@ -3024,42 +2833,6 @@
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
-			description: ["“前人感悟的物质化实体，注入自己的灵感就能体悟到前人的感悟，不仅可以获得一个随机法术，还能获得对应派系的法强。”"]
-			hide_dependency_lines: true
-			id: "4C2E14A69485DC4A"
-			min_width: 45
-			rewards: [
-				{
-					id: "3780CE343607AF94"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "57CEAFC20635BA37"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "42F28DE94B3A7818"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "traveloptics:spell_imbued_curio"
-					}
-				}
-				title: "回响护符"
-				type: "item"
-			}]
-			x: 12.25d
-			y: 4.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
 			description: ["“元素与奥术残骸锻造而成，会自然释放魔力保护佩戴者免疫对应的伤害。”"]
 			hide_dependency_lines: true
 			id: "01D2B445B08244DF"
@@ -3095,8 +2868,8 @@
 					type: "item"
 				}
 			]
-			x: 14.25d
-			y: 4.25d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3123,8 +2896,8 @@
 				item: "irons_spellbooks:mana_ring"
 				type: "item"
 			}]
-			x: 12.25d
-			y: 5.25d
+			x: 12.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3152,8 +2925,8 @@
 				type: "item"
 			}]
 			title: "专注护身符"
-			x: 13.25d
-			y: 5.25d
+			x: 13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3180,8 +2953,8 @@
 				item: "irons_spellbooks:cast_time_ring"
 				type: "item"
 			}]
-			x: 14.25d
-			y: 5.25d
+			x: 14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3211,8 +2984,8 @@
 				item: "irons_spellbooks:affinity_ring"
 				type: "item"
 			}]
-			x: 15.25d
-			y: 4.25d
+			x: 15.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3240,8 +3013,8 @@
 				item: "irons_spellbooks:emerald_stoneplate_ring"
 				type: "item"
 			}]
-			x: 15.25d
-			y: 7.25d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5957FFA7029C6F88"]
@@ -3268,230 +3041,8 @@
 				item: "irons_spellbooks:cooldown_ring"
 				type: "item"
 			}]
-			x: 13.25d
-			y: 4.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“自然的代表物和蜘蛛遗物混合而成，让你在获得蛛之势后和真正的洞穴蜘蛛一样。”"]
-			hide_dependency_lines: true
-			id: "388A8FB285BBFBE5"
-			rewards: [
-				{
-					id: "5F3D8A6A08490A31"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "2933BB6EC6EBA2FD"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "313D6020788DF6BE"
-				item: "traveloptics:sigil_of_the_spider_sorcerer"
-				type: "item"
-			}]
-			x: 14.25d
-			y: 7.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“以速度为代价换取自由的施法角度。”"]
-			hide_dependency_lines: true
-			id: "383F95AA53B819EF"
-			rewards: [
-				{
-					id: "798E42516E3C5899"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "329DA7E894C5D972"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "4116173C3070B3B5"
-				item: "traveloptics:energy_unbound_necklace"
-				type: "item"
-			}]
-			x: 13.25d
-			y: 6.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“奥术锭与腾焰锭熔铸，辅以下界砖定型。让你的灵魂之火燃烧，增强焰魔系法术。”"]
-			hide_dependency_lines: true
-			id: "4DE6F21DB4642699"
-			rewards: [
-				{
-					id: "1C98A6E7FF14BD9A"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "4E3D99A3F9482D59"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "11161C7880063FB4"
-				item: "traveloptics:azure_ignition_bracelet"
-				type: "item"
-			}]
-			x: 13.25d
-			y: 7.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			hide_dependency_lines: true
-			id: "51F0C80D0B1C4433"
-			rewards: [
-				{
-					id: "4C3E8559F4335382"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "0FF7129A2A319F1D"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "04C9515DDC407B75"
-				item: "traveloptics:firestorm_ring"
-				type: "item"
-			}]
-			x: 12.25d
-			y: 6.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“咒魂与远古力量的结合，让你对死灰斩的体悟更上一层。”"]
-			hide_dependency_lines: true
-			id: "722E9F44065446DD"
-			rewards: [
-				{
-					id: "0EFB279DF1A0A066"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "2F6FDA54A007662C"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "0820C163AAF1AF6A"
-				item: "traveloptics:aetherial_despair_ring"
-				type: "item"
-			}]
-			x: 14.25d
-			y: 6.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“说实话这种东西你应该去问荷取。”"]
-			hide_dependency_lines: true
-			id: "12BB1EA004559A46"
-			rewards: [
-				{
-					id: "3174C48A635C96F8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "1D5AD8D665D4377A"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "3752C9016AEB7C3F"
-				item: "traveloptics:elytra_jetpack_component"
-				type: "item"
-			}]
-			x: 12.25d
-			y: 7.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“用源流法术将雨云封存在瓶中，让雨落可以驱散增益、腐蚀盔甲、削弱火抗。”"]
-			hide_dependency_lines: true
-			id: "1AF21B05A710A4B5"
-			rewards: [
-				{
-					id: "55987A0488BA12DC"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "51DADA3BDF8625E4"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "396ADD21A750DB54"
-				item: "traveloptics:bottled_raincloud"
-				type: "item"
-			}]
-			x: 15.25d
-			y: 5.25d
-		}
-		{
-			dependencies: ["5957FFA7029C6F88"]
-			description: ["“从魔法的角度来讲，这是一个里程碑；从实用的角度来讲，这简直是荒谬，制作者用一个危险的天体制作了一个经验磁铁？”"]
-			hide_dependency_lines: true
-			id: "1F3C7DA947DB086F"
-			rewards: [
-				{
-					id: "41DC897A8921A8EF"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 3
-					id: "0C56F7C3D1CDDA72"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "7ED89CA989C5A197"
-				item: "traveloptics:pocket_black_hole"
-				type: "item"
-			}]
-			x: 15.25d
-			y: 6.25d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["516CC2BCAE3BCCDE"]
@@ -3547,24 +3098,6 @@
 			}]
 			x: 4.25d
 			y: -1.0d
-		}
-		{
-			dependencies: ["516CC2BCAE3BCCDE"]
-			description: ["“从&a渊海贻贝&r中撬出的珍珠，带有浓厚的渊海魔力，作为源流法术材料是极好的。”"]
-			id: "74AAA5578A50F024"
-			rewards: [{
-				id: "10D647414490C8E2"
-				type: "xp"
-				xp: 25
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6CB61C41F4416D69"
-				item: "alexscaves:pearl"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.5d
 		}
 		{
 			dependencies: ["516CC2BCAE3BCCDE"]
@@ -4110,222 +3643,6 @@
 			y: 0.25d
 		}
 		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: ["“怎么说呢？有一种湿润苔藓的土腥味，书页还有点湿。”"]
-			hide_dependency_lines: true
-			id: "25680B8A306D72C0"
-			rewards: [{
-				id: "65A88CBFF8AD24AD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "46830FD1064DB57F"
-				item: {
-					Count: 1
-					id: "traveloptics:tome_of_abyssal_flora"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 17.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: ["“从各种意义上来讲，这都是他的最后之作。魔法探索的道路上不乏因研究而疯狂的人，但在他们看来是值得的。”"]
-			hide_dependency_lines: true
-			id: "413E7BF0E3426F4D"
-			rewards: [{
-				id: "255D04C45FB3F8B6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "7C1E2405ABBE42B4"
-				item: {
-					Count: 1
-					id: "traveloptics:guide_to_watery_whispers"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 16.75d
-			y: 2.5d
-		}
-		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: ["“带着滑腻的粘液和某种深海鱼类的味道，你是从哪找到的？”"]
-			hide_dependency_lines: true
-			id: "13DA56CCA0456240"
-			rewards: [{
-				id: "304B717A16B8B2FC"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			subtitle: "这都是你的错！"
-			tasks: [{
-				id: "30565D84DF2C85BF"
-				item: {
-					Count: 1
-					id: "traveloptics:codex_of_the_crushing_depths"
-					tag: {
-						ISBEnhance: "traveloptics:vortex_of_the_deep"
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:aqua_missiles"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 16.75d
-			y: 3.5d
-		}
-		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: [
-				"“这上面记录了他的罪名，和受害者的控诉，已经多到可以凑成一本书了。”"
-				"“第一罪：弑亲......第七罪：暴虐统治......第二十一罪：死而复生，嗯...这一条也算罪？那你已经恶贯满盈了。”"
-			]
-			hide_dependency_lines: true
-			id: "4F6368630DD38062"
-			rewards: [{
-				id: "6086FB6886957122"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "119744EEBD38D9D7"
-				item: {
-					Count: 1
-					id: "traveloptics:the_accused_codex"
-					tag: {
-						ISBEnhance: "traveloptics:cursed_blast"
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:halberd_horizon"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 17.75d
-			y: 2.5d
-		}
-		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: ["“我不建议你阅读这本书，拿着用就好了，别去想有的没的。也别让其他人看到上面的内容。”"]
-			hide_dependency_lines: true
-			id: "03EDDDA3B3AC36B5"
-			rewards: [{
-				id: "72C4C4C26E7DD952"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0962D0CA5C3F1DA8"
-				item: {
-					Count: 1
-					id: "traveloptics:archive_of_abyssal_secrets"
-					tag: {
-						ISBEnhance: "traveloptics:cursed_minefield"
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:orbital_void"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 17.25d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6DD3E47978B9510F"]
-			description: ["“与其说是编年史，不如说是祂的自传。”"]
-			hide_dependency_lines: true
-			id: "4276A6A20BA24DDF"
-			rewards: [{
-				id: "399F83BA0DDD1287"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6D86CA24D17C2278"
-				item: {
-					Count: 1
-					id: "traveloptics:chronicles_of_the_firelord"
-					tag: {
-						ISBEnhance: "traveloptics:burning_judgment"
-						ISB_Spells: {
-							data: [
-								{
-									id: "irons_spellbooks:flaming_strike"
-									index: 0
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "traveloptics:meteor_storm"
-									index: 1
-									level: 5
-									locked: 1b
-								}
-							]
-							maxSpells: 12
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 17.25d
-			y: 3.0d
-		}
-		{
 			dependencies: ["675426B2C88EB4C0"]
 			description: ["“一本优质的魔法书不仅可以为法师提供足够的法术槽，更能增强法师的&a施法能力&r，所以一本好书是有必要的。”"]
 			hide_dependency_lines: true
@@ -4421,141 +3738,6 @@
 		{
 			dependencies: ["3CFB5C1859A937C8"]
 			hide_dependency_lines: true
-			id: "775563C9BAF30612"
-			rewards: [
-				{
-					id: "5308F9AB96982F00"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "273C405410756F90"
-					item: {
-						Count: 1
-						id: "traveloptics:augment_balance_wild"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "5E6A236A2F8C053D"
-				item: "traveloptics:titanlord_scepter"
-				type: "item"
-			}]
-			x: 9.25d
-			y: -9.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "148D76D6CA176FFD"
-			rewards: [{
-				id: "7407A761AAC01491"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			subtitle: "法术被邪恶大妖精偷走了！"
-			tasks: [{
-				id: "6D72EB1343A82349"
-				item: {
-					Count: 1
-					id: "traveloptics:abyssal_tidecaller"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "16B2917CF4EF2A01"
-			rewards: [
-				{
-					id: "28552B00B17D0944"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "5ED120F2F58D8553"
-					item: "traveloptics:cradle_of_will"
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "7804577642389402"
-				item: {
-					Count: 1
-					id: "traveloptics:stellothorn"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:shear_of_the_stars"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -11.75d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "374ECC7C89ACC96D"
-			rewards: [{
-				id: "63F30C3CD91C07B4"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4E8751EDCE937FF1"
-				item: {
-					Count: 1
-					id: "traveloptics:gauntlet_of_extinction"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:extinction"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-						geckolibAnimation: ""
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["3CFB5C1859A937C8"]
-			hide_dependency_lines: true
 			id: "4C646985DC35DEA4"
 			rewards: [{
 				id: "0FBBEE1FF2B76A94"
@@ -4608,77 +3790,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "7D46162A1A2D58A6"
-			rewards: [{
-				id: "52AEDA86903B04CA"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "67E630D1268CF456"
-				item: {
-					Count: 1
-					id: "traveloptics:mechanized_wraithblade"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:rapid_laser"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-						PlasmaCore: 14
-						SwingCounter: 1
-						geckolibAnimation: ""
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "2F9EE595A8BCE962"
-			rewards: [{
-				id: "01CF85F86A758E2E"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "25838975DBD12280"
-				item: {
-					Count: 1
-					id: "traveloptics:harbingers_wrath"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:em_pulse"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -10.0d
-		}
-		{
 			dependencies: ["3CFB5C1859A937C8"]
 			hide_dependency_lines: true
 			id: "1911FA36481AC51B"
@@ -4697,40 +3808,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "66C658215D763F3A"
-			rewards: [{
-				id: "6825DC937ACCAC4A"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "1E536026DFD1B89D"
-				item: {
-					Count: 1
-					id: "traveloptics:voidstrike_reaper"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:vortex_punch"
-								index: 0
-								level: 3
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -7.0d
-		}
-		{
 			dependencies: ["3CFB5C1859A937C8"]
 			hide_dependency_lines: true
 			id: "1F8B5466B5671EC9"
@@ -4746,242 +3823,6 @@
 				type: "item"
 			}]
 			x: 8.25d
-			y: -9.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "248606C99954AD76"
-			rewards: [{
-				id: "5E49E2224F3E867A"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "42B29ED145A4A28D"
-				item: {
-					Count: 1
-					id: "traveloptics:thorns_of_oblivion"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:blight"
-								index: 0
-								level: 8
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "0BE5EDE4808C4F25"
-			rewards: [{
-				id: "3E293482F9F88A92"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "61CBB68301478B9E"
-				item: {
-					Count: 1
-					id: "traveloptics:scourge_of_the_sands"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:stele_cascade"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "3F5090BB1F1EA355"
-			rewards: [{
-				id: "4721950179CEAF4E"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "3D730955DE6BC132"
-				item: {
-					Count: 1
-					id: "traveloptics:flames_of_eldritch"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:burning_judgment"
-								index: 0
-								level: 6
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "559AFBF96271C7D4"
-			rewards: [{
-				id: "5351091AF9C00100"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			subtitle: "法术被邪恶大妖精偷走了！"
-			tasks: [{
-				id: "5EE60F8725BDE148"
-				item: {
-					Count: 1
-					id: "traveloptics:the_obliterator"
-					tag: {
-						ISB_Spells: {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "362E2CC8295319BB"
-			rewards: [{
-				id: "631E15699A412E18"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "580398743325004F"
-				item: {
-					Count: 1
-					id: "traveloptics:trident_of_the_eternal_maelstrom"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:tidal_slash"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "4CBD042FA3247D58"
-			rewards: [{
-				id: "597E56A56613832D"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "55A18ABB93051B4A"
-				item: {
-					Count: 1
-					id: "traveloptics:infernal_devastator"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:gyro_slash"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["7C2C017C3BAC2A43"]
-			hide_dependency_lines: true
-			id: "4C80BF72455AD045"
-			rewards: [{
-				id: "78A1D8D8FC82DC5F"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "5585A0BCEAF02AF7"
-				item: {
-					Count: 1
-					id: "traveloptics:cursed_wraithblade"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:cursed_blast"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-						SpiritPoints: 0
-						SwingCounter: 3
-					}
-				}
-				type: "item"
-			}]
-			x: 3.5d
 			y: -9.0d
 		}
 		{
@@ -5005,11 +3846,6 @@
 					type: "item"
 				}
 				{
-					id: "47AA7C121336D726"
-					item: "traveloptics:eldritch_upgrade_orb"
-					type: "item"
-				}
-				{
 					id: "54FFDE8729038B54"
 					item: "irons_spellbooks:evocation_upgrade_orb"
 					type: "item"
@@ -5022,11 +3858,6 @@
 				{
 					id: "6667495122371BE0"
 					item: "irons_spellbooks:ice_upgrade_orb"
-					type: "item"
-				}
-				{
-					id: "4F8FED1D0EEC916D"
-					item: "traveloptics:aqua_upgrade_orb"
 					type: "item"
 				}
 				{
@@ -5096,44 +3927,6 @@
 			}]
 			x: 8.75d
 			y: -6.0d
-		}
-		{
-			dependencies: ["516CC2BCAE3BCCDE"]
-			description: ["“这些武器拿在手中时可以为你提供法强增益。“"]
-			hide_dependency_lines: true
-			id: "7C2C017C3BAC2A43"
-			tasks: [{
-				id: "75301A23BB1CB7A3"
-				title: "魔法武器"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["1DDE66A7B9C6393F"]
-			description: ["“12个法术槽不够用？还有更好的拓展法术槽。更好的材料有更好的性能，天经地义不是吗？”"]
-			id: "27BC0778368CEFBA"
-			rewards: [{
-				id: "7B684826E5D5BEDA"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "7807E10228D3BFDD"
-					item: "traveloptics:spectral_spell_slot_upgrade"
-					type: "item"
-				}
-				{
-					id: "63CC600F5654AA45"
-					item: "traveloptics:sanctified_spell_slot_upgrade"
-					type: "item"
-				}
-			]
-			title: "幽影与神圣法术槽改进"
-			x: 4.5d
-			y: 5.25d
 		}
 		{
 			dependencies: ["3C2B638C0E4AE4DA"]
@@ -5494,6 +4287,22 @@
 			}]
 			x: 6.785714285714278d
 			y: 1.6642857142857324d
+		}
+		{
+			dependencies: ["53E917831F2D3A9B"]
+			description: [
+				"部分附魔配方（如美铃锭）所需魔源较多，普通的魔源罐无法满足配方需求，此时可以用ME魔源罐代替"
+				""
+				"并且ME魔源罐也是ME魔源元件与外界输入输出的一个中转站，想要将魔源输入到ME网络中存储起来的话，用这个准没错"
+			]
+			id: "63DFD3723155D752"
+			tasks: [{
+				id: "016C6A4B30BC53CE"
+				item: "arseng:me_source_jar"
+				type: "item"
+			}]
+			x: -29.0d
+			y: 3.0d
 		}
 	]
 	title: "大书库(魔法)"

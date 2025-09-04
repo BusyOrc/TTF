@@ -1,5 +1,6 @@
 {
   "parent": "block/cube_bottom_top",
+  "particle": "create:block/andesite_block",
   "textures": {
     "top": "kubejs:block/kosuzu_top",
     "side": "kubejs:block/kosuzu_side",

@@ -9,17 +9,6 @@
       "amount": 1,
       "price": [15, 20],
       "maxUses": 12
-    },
-    {
-        "action": "settings",
-        "level": 2
-    },
-    {
-      "action": "sell",
-      "item": "alexscaves:block_of_uranium",
-      "amount": 1,
-      "price": [8, 12],
-      "maxUses": 18
     }
   ]
   

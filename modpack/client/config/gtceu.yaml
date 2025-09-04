@@ -135,7 +135,7 @@ worldgen:
 
     # Make bedrock ore/fluid veins infinite?
     # Default: false
-    infiniteBedrockOresFluids: false
+    infiniteBedrockOresFluids: true
 
     # Generate ores indicators above ore veins
     # Default: true
@@ -155,7 +155,7 @@ worldgen:
 machines:
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: true
-  requireGTToolsForBlocks: true
+  requireGTToolsForBlocks: false
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
@@ -176,7 +176,7 @@ machines:
 
   # Enables Safe Active Transformers, removing their ability to explode if unformed while transmitting/receiving power.
   # Default: false
-  harmlessActiveTransformers: false
+  harmlessActiveTransformers: true
 
   # Whether to play machine sounds while machines are active.
   # Default: true
@@ -234,7 +234,7 @@ machines:
 
   # Whether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -621,7 +621,7 @@ dev:
 
   # Dump all registered GT recipes?
   # Default: false
-  dumpRecipes: false
+  dumpRecipes: true
 
   # Dump all registered GT models/blockstates/etc?
   # Default: false

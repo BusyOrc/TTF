@@ -14,13 +14,13 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 0.5
+	healthGrowth = 0.6
 	#The healthGrowth operation. Effect how health growth calculate (More info you can find here: https://minecraft.fandom.com/wiki/Attribute#Modifiers)
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	maxHealthModifierOperation = "MULTIPLY_BASE"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.7
+	attackGrowth = 1
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	attackModifierOperation = "MULTIPLY_TOTAL"
@@ -47,7 +47,7 @@
 	experienceGrowth = 1.5
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
-	explosionGrowth = 3
+	explosionGrowth = 2
 
 [affixes]
 	#Set the maximum distance that mobs can use their targeted abilities from, 0 to disable

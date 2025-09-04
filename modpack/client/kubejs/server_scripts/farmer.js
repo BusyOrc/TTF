@@ -93,7 +93,7 @@ event.recipes.farmersdelight.cutting(
         'minecraft:calcite',
         '#minecraft:pickaxes',
             ['minecraft:cobblestone',
-                Item.of("minecraft:bone_meal").withChance(0.2)
+                Item.of("minecraft:bone_meal").withChance(0.5)
             ]
     )
 
@@ -107,9 +107,41 @@ event.recipes.farmersdelight.cutting(
 event.recipes.farmersdelight.cutting(
         'pasterdream:dyedream_sand',
         '#minecraft:shovels',
-            ['minecraft:clay_ball',
-                Item.of('minecraft:clay_ball').withChance(0.5)
+            [
+                Item.of('minecraft:clay_ball').withChance(0.2)
             ]
     )
+
+event.custom(
+  {
+  "type": "minecraft:crafting_shapeless",
+  "group":"pepper_powder",
+  "ingredients": [
+    {
+      "item": "ltc2:mortar",
+      "data":32767
+    },
+    {
+      "item": 'minecraft:calcite'
+    },
+    {
+      "item": 'minecraft:calcite'
+    }
+  ],
+  "result": {
+    "item": 'minecraft:cobblestone',
+    "count": 1 
+    
+  }
+}
+)
+
+
+
+
+
+
+
+
 
 })

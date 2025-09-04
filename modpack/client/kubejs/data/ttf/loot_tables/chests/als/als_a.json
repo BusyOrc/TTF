@@ -154,17 +154,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{golem_material:\"alexscaves:magnetic\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "modulargolems:metal_golem_arm",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{golem_material:\"tconstruct:rose_gold\"}"
             }
           ]

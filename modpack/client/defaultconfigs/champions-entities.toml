@@ -518,3 +518,307 @@
 	presetAffixes = ["champions:adaptable"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:warlock"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wraith"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:border_wraith"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:muck_wraith"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:cairn_necromancer"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:haunted_armor"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:crypt_slime"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bone_spider"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:hostile_black_wolf"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:heretic"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:maverick"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:reaper"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:necromancer"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:web_spider"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ice_spider"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:apostle"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:vizier"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:hostile_redstone_monstrosity"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:crone"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:minister"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:skull_lord"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bone_lord"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:hostile_redstone_golem"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wither_necromancer"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wight"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:brood_mother"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:armored_ravager"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:envioker"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:inquillager"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective","champions:magnetic"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:conquillager"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:piker"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:preacher"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:crusher"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:storm_caster"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ripper"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:cryologer"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:trampler"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:sorcerer"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"

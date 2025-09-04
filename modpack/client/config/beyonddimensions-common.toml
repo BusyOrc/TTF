@@ -1,0 +1,21 @@
+#存储UI搜索按钮值 (除非你知道你在做什么，否则不要手动修改)
+#Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID
+ui_sort_button = "SORT_MODID"
+#存储UI倒序按钮值 (除非你知道你在做什么，否则不要手动修改)
+#Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID
+ui_reverse_button = "DISABLED"
+#存储UI搜索按钮值 (除非你知道你在做什么，否则不要手动修改)
+#Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID
+ui_search_button = "DISABLED"
+#决定打开菜单时是否显示合成槽
+#Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID
+ui_craft_button = "ENABLED"
+#决定工艺菜单关闭时，物品优先转移的方向；启用则优先向存储，关闭则优先向背包
+#Allowed Values: ENABLED, DISABLED, SORT_DEFAULT, SORT_QUANTITY, SORT_NAME, SORT_MODID
+ui_craft_return_button = "ENABLED"
+#存储UI当前显示的总页数 (除非你知道你在做什么，否则不要手动修改)
+#Range: 2 ~ 99
+ui_page_num = 5
+#存储UI搜索框内容 (除非你知道你在做什么，否则不要手动修改)
+ui_search = ""
+

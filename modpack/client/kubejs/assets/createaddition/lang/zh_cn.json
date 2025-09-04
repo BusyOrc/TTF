@@ -1,0 +1,18 @@
+{
+  "createaddition.tooltip.energy.capacity": "容量:",
+  "createaddition.tooltip.energy.charged": "已充能",
+  "createaddition.tooltip.energy.consumption": "已使用的能量：",
+  "createaddition.tooltip.energy.demand": "网络消耗量：",
+  "createaddition.tooltip.energy.input": "输入",
+  "createaddition.tooltip.energy.mode": "模式：",
+  "createaddition.tooltip.energy.none": "无",
+  "createaddition.tooltip.energy.output": "输出",
+  "createaddition.tooltip.energy.passive": "被动",
+  "createaddition.tooltip.energy.production": "已产生的能量：",
+  "createaddition.tooltip.energy.pull": "输出",
+  "createaddition.tooltip.energy.push": "输入",
+  "createaddition.tooltip.energy.selected": "看向的连接器：",
+  "createaddition.tooltip.energy.stored": "已存储的能量：",
+  "createaddition.tooltip.energy.supply": "网络生产量：",
+  "createaddition.tooltip.energy.usage": "网络使用情况："
+}

@@ -32,6 +32,12 @@
         "maxCount": 2
       },
       {
+        "type": "minecraft:sheep",
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
         "type": "pasterdream:pink_slime",
         "weight": 20,
         "minCount": 1,

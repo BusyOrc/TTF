@@ -159,10 +159,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"24CD1BFBAC0F7C68"
-				"47564D5FF0B41FA8"
-			]
+			dependencies: ["24CD1BFBAC0F7C68"]
 			description: [
 				"灵梦：目前主要有以下目标，分别是&a暮色森林，灾变&r的众多强敌以及路上能遇到的各种敌人。暮色森林有阶段流程的限制，需要按照顺序击杀BOSS，不过你也可以给我点食物，我帮你解除限制"
 				"{ \"text\": \"解除封印\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F304CCA2EC8128A\" } }"
@@ -2083,65 +2080,6 @@
 			}]
 			x: 9.0d
 			y: 13.0d
-		}
-		{
-			dependencies: ["46DDE4AB21A27C0B"]
-			description: ["击杀夜巡者获得，而夜巡者在位于末地的虚空大教堂（搜索Void Cathedral）"]
-			hide_dependency_lines: true
-			id: "3626147F7ED83FF9"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "3785BA9E71E6667D"
-				item: {
-					Count: 1
-					id: "traveloptics:stellothorn"
-					tag: {
-						ISB_Spells: {
-							data: [{
-								id: "traveloptics:shear_of_the_stars"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			x: 17.4d
-			y: 10.0d
-		}
-		{
-			dependencies: ["3626147F7ED83FF9"]
-			description: ["利用夜巡者掉落物的武器，加上其他几种材料，可以复制腾炎锭"]
-			icon: "ltc2:hotaurum_block"
-			id: "051378D56BE4953E"
-			size: 2.0d
-			tasks: [
-				{
-					id: "07BA76B52840DD28"
-					item: "cataclysm:ignitium_ingot"
-					type: "item"
-				}
-				{
-					id: "46B9D2B04A9BCD0D"
-					item: "ltc2:hotaurum_block"
-					type: "item"
-				}
-				{
-					id: "0496702D22FEC424"
-					item: "ltc2:refined_underground_oil_block"
-					type: "item"
-				}
-			]
-			title: "复制腾炎锭"
-			x: 21.2d
-			y: 10.0d
 		}
 	]
 	title: "退治异变"

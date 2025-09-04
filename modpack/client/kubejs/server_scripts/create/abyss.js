@@ -141,37 +141,7 @@ event.custom(
       }
 )
 
-//灵魂之心
-event.custom(
-  {
-      "type": "sculkcatalyticchamber:chamber",
-      "heatRequirement": "heated",
-      "topIngredients": [
-        {
-          "item": "hmag:soul_apple"
-        },
-        {
-          "item": "quark:soul_bead"
-        }
-      ],
-      "bottomIngredients": [
-        {
-          "item": "minecraft:echo_shard"
-        }
-      ],
-      "catalysts": [
-        {
-          "item": "minecraft:dragon_head"
-        }
-      ],
-      "chances": 0.5,
-      "results": [
-        {
-          "item": "alexsmobs:soul_heart"
-        }
-      ]
-    }
-)
+
 
 //魔法燃料
 event.custom(
@@ -198,7 +168,7 @@ event.custom(
       ],
       "catalysts": [
         {
-          "fluid": "alexscaves:acid",
+          "fluid": 'starbunclemania:source_fluid',
           "amount":1000
         }
       ],

@@ -127,13 +127,12 @@
 			id: "0A69BE56B68AE353"
 			tasks: [{
 				consume_items: true
-				count: 3L
 				id: "48EA2A2C9901B42B"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			title: "可靠情报1"
-			x: 2.0d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -152,7 +151,7 @@
 				type: "checkmark"
 			}]
 			title: "完成后可查看文本"
-			x: 2.0d
+			x: 3.5d
 			y: -8.0d
 		}
 		{
@@ -223,44 +222,6 @@
 			y: -2.75d
 		}
 		{
-			description: [
-				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
-				""
-				"这个情报是关于某个&b特殊结构&r的"
-			]
-			id: "3DCF537D5C62DCBC"
-			tasks: [{
-				consume_items: true
-				count: 9L
-				id: "55218389939D4FD8"
-				item: "lightmanscurrency:coin_gold"
-				type: "item"
-			}]
-			title: "可靠情报2"
-			x: 4.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["3DCF537D5C62DCBC"]
-			description: [
-				"{ \"text\": \"关于灵梦的蝴蝶结，据说灵梦会把她备用的蝴蝶结都存放在主世界要塞里头。\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F0BB36E884917E2\" } }"
-				"如果我的情报没有错的话，应该就存放在了整个要塞里面的其中部分箱子里，具体是哪个箱子完全是随机的，根本没有也是有可能的，另外还有一个很神秘的房间似乎很少有人发现，估计是有&e暗门之类&r的东西，但是这个暗门里似乎&b也并不一定有蝴蝶结&r。"
-				""
-				"小心点，里面的敌人&a不光实力强大，个别敌人还有隐身的能力&r，如果是我的话，就会先准备好再去，比如说带上扫描器，或者准备好魔法。"
-			]
-			hide_text_until_complete: true
-			icon: "minecraft:book"
-			id: "2C9040DAB80AC95D"
-			subtitle: "目前可公开的情报："
-			tasks: [{
-				id: "1D6CF4383C3ECE93"
-				type: "checkmark"
-			}]
-			title: "完成后可查看文本"
-			x: 4.0d
-			y: -8.0d
-		}
-		{
 			dependency_requirement: "one_completed"
 			description: [
 				"我知道很多内线情报，还有很多小知识，例如关于钱币的情报，你只需要给我点小钱就告诉你"
@@ -275,8 +236,8 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "可靠情报3"
-			x: 6.0d
+			title: "可靠情报2"
+			x: 5.5d
 			y: -6.5d
 		}
 		{
@@ -294,50 +255,8 @@
 				type: "checkmark"
 			}]
 			title: "完成后可查看文本"
-			x: 6.0d
+			x: 5.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["2C9040DAB80AC95D"]
-			description: ["你肯定很好奇，这个暗门在哪里，如何破解对吧？也很简单哦，给点小钱我就告诉你破解的方法，而且我还会告诉你需要小心里面的某种东西"]
-			icon: "lightmanscurrency:coin_diamond"
-			id: "5F4619F1381480E4"
-			tasks: [{
-				consume_items: true
-				id: "3DCFE71CD1F2C73D"
-				item: "lightmanscurrency:coin_diamond"
-				type: "item"
-			}]
-			title: "内线情报"
-			x: 4.05d
-			y: -9.6d
-		}
-		{
-			dependencies: ["5F4619F1381480E4"]
-			description: [
-				"首先，不管是根据末影之眼的指引，还是探险家指南针的指示，你首先能找到的是一个有传送石碑的起始大厅"
-				""
-				"这个起始大厅的旁边就是要塞的大图书馆了，最好小心里面的小恶魔哦"
-				""
-				"之后，你在大图书馆的箱子里，包括要塞其他地方的箱子里都有可能找到相应的指示书，根据指示书上的提示，可以将大图书馆里面拉杆旁写的符号翻译成对应的文字"
-				""
-				"谜底则是ONE ABOVE ALL"
-				""
-				"不过，如果你要找蝴蝶结的话，最好在整个要塞里都仔细搜寻一下各种箱子"
-				""
-				"另外，这个暗房里面还可能会出现监守者，敌人实力也很强，探索之前务必小心"
-			]
-			hide_text_until_complete: true
-			icon: "minecraft:book"
-			id: "2616C36720C156A6"
-			subtitle: "目前可公开的情报："
-			tasks: [{
-				id: "5F1C7860CBB09AD9"
-				type: "checkmark"
-			}]
-			title: "完成后可查看文本"
-			x: 4.05d
-			y: -11.25d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -354,8 +273,8 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "可靠情报5"
-			x: 10.0d
+			title: "可靠情报4"
+			x: 9.5d
 			y: -6.5d
 		}
 		{
@@ -376,36 +295,8 @@
 				type: "checkmark"
 			}]
 			title: "完成后可查看文本"
-			x: 10.0d
+			x: 9.5d
 			y: -8.0d
-		}
-		{
-			dependencies: ["5CC75E2571801F49"]
-			description: [
-				"再免费告诉你一些情报吧，是关于不同的矿脉挖掘点，矿机所需液体的信息"
-				""
-				"沥青沙：需要水"
-				""
-				"魔力聚集地（位于暮色森林）：需要液态魔源，这种液体需要用魔源来转化"
-				"{ \"text\": \"魔源凝聚器\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54B7370E8DAD098A\" } }"
-				""
-				"软质豆腐矿脉：需要豆奶"
-				""
-				"硬化豆腐矿脉：需要远古树脂"
-				""
-				"下界远古矿脉：需要液态轻云，至于这种液体的获得方式嘛，我给个提示，需要用到瓶中云"
-			]
-			hide_text_until_complete: true
-			icon: "minecraft:book"
-			id: "0AF27FCCF7C0F99B"
-			subtitle: "目前可公开的情报："
-			tasks: [{
-				id: "064931B633E7C8B4"
-				type: "checkmark"
-			}]
-			title: "完成后可查看文本"
-			x: 2.0d
-			y: -9.5d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -422,8 +313,8 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "可靠情报4"
-			x: 8.0d
+			title: "可靠情报3"
+			x: 7.5d
 			y: -6.5d
 		}
 		{
@@ -482,7 +373,7 @@
 				type: "checkmark"
 			}]
 			title: "完成后可查看文本"
-			x: 8.0d
+			x: 7.5d
 			y: -8.0d
 		}
 		{
@@ -520,7 +411,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 9.5d
 			y: -9.5d
 		}
 		{
@@ -539,13 +430,12 @@
 			subtitle: "只要加钱，都好说"
 			tasks: [{
 				consume_items: true
-				count: 3L
 				id: "2EA9B2D9C7F50508"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			title: "加钱"
-			x: 11.5d
+			x: 11.0d
 			y: -9.5d
 		}
 		{
@@ -587,8 +477,8 @@
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "可靠情报6"
-			x: 13.0d
+			title: "可靠情报5"
+			x: 12.5d
 			y: -6.5d
 		}
 		{
@@ -598,10 +488,8 @@
 				""
 				"幻金，山铜，地心晶：主世界地下深层和浅层都有一定分布"
 				""
-				"钴：在下界很常见"
+				"钴,阿迪特：在下界很常见"
 				""
-				"阿迪特：在下界出现，情况类似于远古残骸，要找的话&a可不能只找表面"
-				"&r"
 				"锡，铅，镍，银：主世界和暮色森林都广泛分布"
 				""
 				"硝石，硫，磷灰石在主世界表层很常见，应该不用特意去找"
@@ -615,7 +503,7 @@
 				type: "checkmark"
 			}]
 			title: "完成后可查看"
-			x: 13.0d
+			x: 12.5d
 			y: -8.0d
 		}
 		{
@@ -754,24 +642,6 @@
 			title: "随身购买"
 			x: 9.0d
 			y: 3.0d
-		}
-		{
-			id: "78A4C7AA38E92F0D"
-			rewards: [{
-				count: 9
-				id: "0EB9F80DF8F98C3B"
-				item: "lightmanscurrency:coin_netherite"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "17CC2B6DBA21EAA9"
-				item: "alexscaves:game_controller"
-				type: "item"
-			}]
-			title: "Neet姬的清单"
-			x: 7.5d
-			y: -1.25d
 		}
 		{
 			dependencies: ["57B217730F0E181C"]

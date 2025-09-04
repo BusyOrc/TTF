@@ -12,7 +12,6 @@ event.remove({id:'twilightforest:uncrafting_table'})
 event.remove({id:'createappliedkinetics:energy_provider'})
 event.remove({id:'create:milling/beetroot'})
 event.remove({id:'exmodifier:refresh_table'})
-event.remove({id:'alexscaves:polymer_plate'})
 event.remove({id:'createoreexcavation:vein_finder'})
 event.remove({id:'immortalers_delight:golden_himekaido'})
 event.remove({id:'mystias_izakaya:nan_gua'})
@@ -80,8 +79,10 @@ let coe =[
     'createoreexcavation:drilling/lapis',
     'createoreexcavation:drilling/nether_gold',
     'createoreexcavation:drilling/netherite',
+	"pasterdream:crafting_37",
 	"pasterdream:crafting_38",
-	"pasterdream:crafting_38"
+	"pasterdream:crafting_92",
+	"farmersdelight:pie_crust"
 	]
 	for (let i of coe) {event.remove({id:`${i}`})}
 
@@ -109,8 +110,8 @@ let aae=
 	'iceandfire:gold_pile','iceandfire:silver_pile','iceandfire:copper_pile','lightmanscurrency:coinblock_copper', 'lightmanscurrency:coinblock_iron',
 		 'lightmanscurrency:coinblock_gold','lightmanscurrency:coinblock_emerald', 'lightmanscurrency:coinblock_diamond', 'lightmanscurrency:coinblock_netherite',
 'lightmanscurrency:coinpile_copper', 'lightmanscurrency:coinpile_iron',
-	 'lightmanscurrency:coinpile_gold', 'lightmanscurrency:coinpile_emerald', 'lightmanscurrency:coinpile_diamond', 'lightmanscurrency:coinpile_netherite'
-	 
+	 'lightmanscurrency:coinpile_gold', 'lightmanscurrency:coinpile_emerald', 'lightmanscurrency:coinpile_diamond', 'lightmanscurrency:coinpile_netherite',
+	 'createdeco:netherite_coin', 'createdeco:gold_coin', 'createdeco:brass_coin', 'createdeco:iron_coin', 'createdeco:copper_coin', 'createdeco:industrial_iron_coin', 'createdeco:zinc_coin'
 ]
 
 for(let i of aae)
@@ -120,11 +121,12 @@ for(let i of aae)
 
 
 
-let temp_ban=["minecraft:wooden_pickaxe","minecraft:wooden_axe","minecraft:stone_pickaxe","minecraft:stone_axe"
+let temp_ban=["minecraft:stone_pickaxe"
 ]
 for(let j of temp_ban)
 {
 	event.remove({id:j})
+	event.remove({output:j})
 }
 
 })

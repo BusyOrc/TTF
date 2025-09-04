@@ -48,6 +48,9 @@ StartupEvents.registry('item', event => {
 
 
 	event.create('kubejs:incom_polymer_plate').displayName("半成品聚合物板")
+	event.create('ttf:rubber_sheet').displayName("橡胶片")
+	event.create('ttf:magic_tube').displayName("魔力电子管")
+
 
 })
 

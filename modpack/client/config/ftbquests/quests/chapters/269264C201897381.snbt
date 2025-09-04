@@ -24,8 +24,8 @@
 			image: "tconstruct:item/tool/armor/slime/helmet_skull_tconstruct_ender_pearl"
 			rotation: 0.0d
 			width: 4.0d
-			x: 2.25d
-			y: 6.75d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			click: "#0A828772950AD42E"
@@ -33,8 +33,8 @@
 			image: "cataclysm:block/melting_netherrack_3"
 			rotation: 0.0d
 			width: 3.0d
-			x: -0.5d
-			y: 6.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			click: "https://www.mcmod.cn/modpack/version/1070.html?jump=3806"
@@ -110,7 +110,7 @@
 				type: "checkmark"
 			}]
 			title: "重要的改动"
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -244,8 +244,8 @@
 				type: "checkmark"
 			}]
 			title: "修改过的敌人刷新情况"
-			x: -0.5d
-			y: 6.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0C6DFF00454B7779"]
@@ -300,6 +300,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6DEADF6A1FC87F67"]
 			description: [
 				"曾经有一位Minecraft玩家非常喜欢当时的&aMC科技模组&r（大概率有IC2等模组，至于格雷科技，GTNH之类的暂不清楚）并且希望加入游戏的制作组来做出贡献，但是被拒绝了"
 				""
@@ -560,8 +561,8 @@
 				type: "checkmark"
 			}]
 			title: "弹射保护最有用的一集"
-			x: -2.75d
-			y: 6.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["212E662535D00165"]
@@ -635,7 +636,7 @@
 				"但是，机会只有一次，&c如果回答错误的话，没有再次选择的机会&r"
 			]
 			hide_dependency_lines: true
-			icon: "supplementaries:present_lime"
+			icon: "alshanex_familiars:sound_upgrade_orb"
 			id: "6216B7A02E75F9A1"
 			shape: "rsquare"
 			size: 4.0d
@@ -787,13 +788,7 @@
 		}
 		{
 			dependencies: ["441A595A189A0EAF"]
-			description: [
-				"奖励内容：32能量管道，工匠工作台，能源炉和相应升级"
-				""
-				"使用方法：能源炉能量管道，&d能量管道连接控制器&r给AE供电"
-				""
-				"这种能源炉需要消耗和熔炉相同的燃料（如木板，煤炭等）才能发电，精炼地沟油同样可以发电"
-			]
+			description: [""]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -803,41 +798,35 @@
 			id: "45C4F08277EDDC62"
 			rewards: [
 				{
-					count: 32
-					id: "27ABB8C0917EF4A8"
-					item: "thermal:energy_duct"
-					team_reward: true
+					id: "4757E925EF49D0E1"
+					item: {
+						Count: 1
+						id: "lightmanscurrency:wallet_gold"
+						tag: {
+							AutoConvert: 1b
+							Enchantments: [{
+								id: "lightmanscurrency:coin_magnet"
+								lvl: 3s
+							}]
+							Items: [ ]
+							RepairCost: 1
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "474B9FA9C7AE716D"
-					item: "thermal:tinker_bench"
+					count: 3
+					id: "2FD18A366E51D135"
+					item: "ae2:storage_bus"
 					type: "item"
 				}
 				{
-					id: "6E28C84E34D87261"
-					item: "thermal:dynamo_stirling"
-					type: "item"
-				}
-				{
-					id: "20A0D542960D3142"
-					item: "thermalendergy:dynamo_consumption_nullifier_augment"
-					type: "item"
-				}
-				{
-					id: "4BB22750141313BE"
-					item: "thermal:upgrade_augment_3"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "24C84A5338E3E26E"
-					item: "ltc2:refined_underground_oil"
-					type: "item"
-				}
-				{
-					id: "1B6211F9659C8B22"
-					item: "thermal:dynamo_throttle_augment"
+					id: "058172B3EB3ED85C"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -852,17 +841,7 @@
 		}
 		{
 			dependencies: ["5FD2AADF95761C81"]
-			description: [
-				"使用方法：控制器连接线缆，终端放置于线缆上，线缆连接驱动器和能源元件，驱动器里面放磁盘"
-				""
-				"这样只需要打开合成终端，就能将物品都存入其中"
-				""
-				"能源元件的作用是存储电力，例如太阳能多方块所提供的电力"
-				""
-				"晶体共振发电机：每个ME网络中仅能允许存在一个，但能无消耗持续提供能源"
-				""
-				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
-			]
+			description: ["[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -871,13 +850,6 @@
 			}
 			id: "69808FAB3B02FC08"
 			rewards: [
-				{
-					count: 2
-					id: "5193D1B734AF1D72"
-					item: "ae2:controller"
-					team_reward: true
-					type: "item"
-				}
 				{
 					id: "359B7EBE085298A6"
 					item: "ae2:drive"
@@ -895,25 +867,9 @@
 					type: "item"
 				}
 				{
-					id: "18E700584E25FFD7"
-					item: "ae2:crafting_terminal"
-					team_reward: true
-					type: "item"
-				}
-				{
 					count: 32
 					id: "6C5F59089EBA415D"
 					item: "ae2:fluix_glass_cable"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7194EF1D21DBDA14"
-					item: {
-						Count: 1
-						id: "ae2:energy_cell"
-						tag: { }
-					}
 					team_reward: true
 					type: "item"
 				}
@@ -937,10 +893,6 @@
 			description: [
 				"奖励道具的用法较为复杂，推荐按W思索，按G在指南中查看使用方法。主要作用：传输各种物品，流体，方便进行自动化"
 				""
-				"样板需要在样板编码终端里进行配方编码，随后放入样板供应器中，等待给机器发配材料。换句话说，只是相当于一个自动搬运工，给机器搬运材料，然后收回产物。"
-				""
-				"在有CPU的情况下（单个合成存储器连入ME网络即可构成一个CPU），在合成终端里下单相应物品即可实现自动生产"
-				""
 				"[ \"更多教程请查看：\", { \"text\": \"还是AE大佬\", \"underlined\": \"true\",\"color\":\"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D06F519823043C6\" } } ]"
 			]
 			hide_until_deps_complete: true
@@ -951,12 +903,6 @@
 			}
 			id: "7D60534E9538FECE"
 			rewards: [
-				{
-					id: "35DE1E33852F687F"
-					item: "ae2:pattern_encoding_terminal"
-					team_reward: true
-					type: "item"
-				}
 				{
 					count: 3
 					id: "2B1C53C6F981BA39"
@@ -972,20 +918,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "79AEBA233C792428"
-					item: "ae2:storage_bus"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 12
-					id: "72FFF24E2D524B5C"
-					item: "ae2:blank_pattern"
-					team_reward: true
-					type: "item"
-				}
-				{
 					count: 4
 					id: "63AC74673D0949A9"
 					item: "ae2:pattern_provider"
@@ -993,8 +925,12 @@
 					type: "item"
 				}
 				{
-					id: "28C9CF119E0A7A4B"
-					item: "ae2:1k_crafting_storage"
+					id: "7F6E7A1FD8804F81"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					type: "item"
 				}
 			]

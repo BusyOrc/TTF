@@ -2,21 +2,15 @@
   "attributeType": "irons_spellbooks:spell_resist",
   "conditions": {
     "affixes": {
-      "values": [        
-      "champions:dampening",
-      "champions:desecrating",
-      "champions:enkindling",
-      "champions:hasty",
-      "champions:wounding"]
+      "values": []
     },
     "entity": [
-      "hmag:ender_executor"
     ],
     "permission": "blacklist"
   },
   "enable": true,
   "modifier": {
     "operation": "ADDITION",
-    "value": 0.07
+    "value": 0.3
   }
 }

@@ -829,7 +829,6 @@
 		}
 		{
 			dependencies: [
-				"16DAB76BCCF3813A"
 				"1DB669A1777AA545"
 				"458422215D2ADA44"
 			]
@@ -852,8 +851,8 @@
 				type: "item"
 			}]
 			title: "7.11 无瑕母岩"
-			x: -4.800000000000001d
-			y: -4.800000000000001d
+			x: -4.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["0D46E2E307E3D248"]
@@ -1384,25 +1383,6 @@
 		}
 		{
 			dependencies: ["19BF7B860DB28E29"]
-			description: [
-				"荧光液需要用到&a发光浆果&r，这种作物的量产可以考虑用地灵殿的“有机灌注器”"
-				""
-				"要获得荧光液，将发光浆果&a在工作盆里搅拌&r即可，无需加热"
-			]
-			hide_until_deps_complete: false
-			id: "16DAB76BCCF3813A"
-			shape: "diamond"
-			tasks: [{
-				count: 8L
-				id: "4A3015F9E62B87DA"
-				item: "minecraft:glow_berries"
-				type: "item"
-			}]
-			x: -5.4d
-			y: -3.0d
-		}
-		{
-			dependencies: ["19BF7B860DB28E29"]
 			description: ["母岩分为不同的品质等级，随着晶体生长，大部分母岩都会&c逐渐损耗&r（无瑕母岩除外），但是可以通过将&a母岩和充能赛特斯石英放入水中&r来获得更好品质的母岩"]
 			hide_until_deps_complete: false
 			id: "1DB669A1777AA545"
@@ -1412,7 +1392,7 @@
 				item: "ae2:flawed_budding_quartz"
 				type: "item"
 			}]
-			x: -4.2d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -1426,8 +1406,8 @@
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
-			x: -4.8d
-			y: -2.4d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["547EA3B86B7F02FE"]
@@ -2842,70 +2822,6 @@
 			y: -7.0d
 		}
 		{
-			description: [
-				"天子：最近我发现有一些不怀好意的妖怪在海上定居，严重影响了天界的能源发展，必须清理！而我顺便也发现了部分材料的特别之处——可以用来制作特殊的元件，里面包含了无限的流体，除此之外，还可以用其他材料来制作别的无限流体元件，不过只有特定的流体可以制作为无限元件。"
-				""
-				"如果你能找到这些材料，就来找我交换吧"
-			]
-			icon: "alexscaves:acid_bucket"
-			id: "68D20C7705966D34"
-			rewards: [{
-				id: "68DB626C182902AE"
-				item: {
-					Count: 1
-					id: "expatternprovider:infinity_cell"
-					tag: {
-						record: {
-							"#c": "ae2:f"
-							id: "alexscaves:acid"
-						}
-					}
-				}
-				team_reward: true
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "726299EB72C12D1A"
-					item: "cataclysm:essence_of_the_storm"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 2L
-					id: "2DADD8D58A12B518"
-					item: "cataclysm:lacrima"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 4L
-					id: "09AC259E30AEE465"
-					item: "advanced_ae:quantum_alloy_plate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "0869192DA7D9354B"
-					item: "alexscaves:acid_bucket"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "578865301807F3F5"
-					item: "ae2:fluid_cell_housing"
-					type: "item"
-				}
-			]
-			title: "交换无限酸液元件"
-			x: 15.0d
-			y: 4.5d
-		}
-		{
 			icon: "biomesoplenty:blood_bucket"
 			id: "0B14428B2D39089D"
 			rewards: [{
@@ -2928,20 +2844,6 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 4L
-					id: "386CA64851D3FC7C"
-					item: "alexscaves:scarlet_neodymium_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 4L
-					id: "49721806586B6F65"
-					item: "alexscaves:azure_neodymium_ingot"
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 8L
 					id: "2539D5D3ECFE66AD"
 					item: "youkaishomecoming:flesh_feast"
@@ -2961,7 +2863,7 @@
 				}
 			]
 			title: "无限血元件"
-			x: 16.35d
+			x: 15.75d
 			y: 4.5d
 		}
 		{

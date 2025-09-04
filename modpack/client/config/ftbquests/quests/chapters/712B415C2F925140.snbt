@@ -1,0 +1,1112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "712B415C2F925140"
+	group: "756D1B6269D2C725"
+	icon: {
+		Count: 1
+		id: "beyonddimensions:net_magnet_item"
+		tag: {
+			NetId: 0
+			control_mode: "IGNORE"
+			filter_mode: "BLACK"
+			filter_slots: [
+				{
+					Amount: 1L
+					Stack: {
+						id: "lightmanscurrency:coin_gold"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 1L
+					Stack: {
+						id: "lightmanscurrency:coin_iron"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 1L
+					Stack: {
+						id: "lightmanscurrency:coin_copper"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+				{
+					Amount: 0L
+					Stack: {
+						id: "minecraft:air"
+					}
+					Type: "beyonddimensions:stack_type/item"
+				}
+			]
+			hopper_fluid_mode: "DENY"
+			hopper_item_mode: "ALLOW"
+			hopper_nbt_mode: "DENY"
+			hopper_range_mode: "RADIUS_MID"
+			hopper_xp_mode: "ALLOW"
+		}
+	}
+	id: "712B415C2F925140"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"使用方法："
+				"如何存入经验：shift右键改变每次存取的等级，设定好以后，拿在手上右键即可存入维度网络"
+				""
+				"&d如何取出存入维度网络的经验&r："
+				"1.打开维度网络界面"
+				"2.找到存入其中的液态经验"
+				"3.在物品栏中拿起经验棒，对着液态经验按中键"
+			]
+			id: "1323460A50465903"
+			tasks: [{
+				id: "6C0B8DB95BEAF937"
+				item: {
+					Count: 1
+					id: "beyonddimensions:xp_exchange_item"
+					tag: {
+						xp_transfer_speed_mode: "SLOW"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"使用方法：拿在手上右键可以打开GUI界面，可以在其中设定过滤，是否启用磁铁等"
+				""
+				"设定好以后，放入护符栏位即可自动将周围物品吸收进入维度网络"
+			]
+			id: "4BABFF0404FD0E33"
+			tasks: [{
+				id: "7A0DFA9E9BE034FB"
+				item: {
+					Count: 1
+					id: "beyonddimensions:net_magnet_item"
+					tag: {
+						NetId: 0
+						control_mode: "IGNORE"
+						filter_mode: "BLACK"
+						filter_slots: [
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+						]
+						hopper_fluid_mode: "DENY"
+						hopper_item_mode: "ALLOW"
+						hopper_nbt_mode: "DENY"
+						hopper_range_mode: "RADIUS_MID"
+						hopper_xp_mode: "DENY"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2403A3FFA2CEAA6B"]
+			description: [
+				"获取方法：解锁维度网络以后每隔一段时间会自动在维度网络中产生，无需任何成本"
+				""
+				"在熔炉中烧制能得到锭，可用于许多配方"
+				""
+				"除此之外，据说某个外界的神秘社团需要这种特殊物质，也许山童的在线商店里面能将其出售给这个社团"
+			]
+			hide_dependent_lines: true
+			id: "0B3906AC2CF0046B"
+			rewards: [
+				{
+					id: "321BE67B2741130F"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "13CE81B8481EA319"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "100D4F01F1F32835"
+				item: "beyonddimensions:shattered_space_time_crystallization"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63FDF426AA0E0947"]
+			description: [
+				"维度网络的起始点，只需要右键使用，就能用快捷键打开维度网络（&b默认快捷键为O&r，可根据个人需要进行调整）"
+				""
+				"维度网络类似于有&a几乎无限空间的AE存储&r，并且自带不消耗任何能源的远程终端，除了手动将物品放入维度网络，还有其他偏向于自动的方式"
+			]
+			id: "2403A3FFA2CEAA6B"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "51A9EFF405702DD5"
+				item: "beyonddimensions:net_creater"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: ["将相邻容器内的物品输入进维度网络，&d相当于一个AE模组的ME输入总线&r（并且塞满了加速卡）"]
+			id: "03C15F61CC15F77C"
+			tasks: [{
+				id: "295344F1011BF8F1"
+				item: "beyonddimensions:net_pump_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"相当于一个特殊的漏斗，可以大范围收集附近的各种掉落物，可配置黑名单或白名单"
+				""
+				"&d相当于热力的真空吸尘器&r"
+			]
+			id: "247406234451C945"
+			tasks: [{
+				id: "1E8949963A8097BF"
+				item: "beyonddimensions:net_hopper_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"&d相当于ME接口&r，并且可设置弹出模式，将物品自动弹出到旁边的容器"
+				""
+				"需要先设置好过滤才能正常发配物品，但是还有另外一个作用：将多余的物品直接送入&b&mME网络&r&r维度网络中，和ME接口用法几乎一样"
+			]
+			id: "4A7B4DFE3CF83651"
+			tasks: [{
+				id: "02036E7027E085F1"
+				item: "beyonddimensions:net_interface"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"&d相当于抽屉模组的抽屉控制器&r，尽管这是一个0科技整合包，但是同样有用——搭配女仆仓管"
+				""
+				"在女仆单独配置中调整为&a协同工作模式&r，可以直接在JEI中给附近空闲的仓管模式女仆下单，并让其取回对应的JEI原材料"
+				""
+				"或者使用请求列表，写好特定的物品以后可让女仆直接从维度网络中找回"
+				""
+				"而这一切都依赖于维度网络通道这个方块"
+				""
+				"如果在某个有AE的整合包里，还可以直接将存储总线贴在这个方块上面，这样能直接读取其中的所有物品"
+			]
+			id: "33BBAD24452EAB09"
+			tasks: [{
+				id: "55B0BD3A7BE715E8"
+				item: "beyonddimensions:net_pathway"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: ["&d相当于背包模组的自动喂食升级&r，只不过是直接从网络库存里面喂食"]
+			id: "4D354B0E676BB6C1"
+			tasks: [{
+				id: "701DAFB139349ACD"
+				item: {
+					Count: 1
+					id: "beyonddimensions:net_feeder_item"
+					tag: {
+						control_mode: "IGNORE"
+						feeder_mode: "NORMAL"
+						filter_slots: [
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+							{
+								Amount: 0L
+								Stack: {
+									id: "minecraft:air"
+								}
+								Type: "beyonddimensions:stack_type/item"
+							}
+						]
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: ["&d相当于AE的合成终端&r，区别在于，无需贴在ME线缆上面，而是可以任意放置"]
+			id: "17D9F734824D797D"
+			tasks: [{
+				id: "183A9EE49F11BC96"
+				item: "beyonddimensions:net_terminal_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: ["可实现自动熔炼，无需庞杂的熔炉组，在没有鼓风机的整合包里有一定作用"]
+			id: "6A735E3CAEE5244A"
+			tasks: [{
+				id: "041AE71935EF6B47"
+				item: "beyonddimensions:net_furnace_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"潜行右键绑定网络以后可使用，&a相当于AE的无线合成终端&r，不过即使没有该道具，也可以用快捷键直接打开维度网络"
+				""
+				"主要作用是给其他玩家访问绑定的对应网络"
+			]
+			id: "77F020B10FFDE66C"
+			tasks: [{
+				id: "6A11DB6DF4EE466E"
+				item: "beyonddimensions:net_terminal_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"维度网络管理员潜行右键可以将其绑定到当前网络。"
+				""
+				"未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
+			]
+			id: "7685A7098361D155"
+			tasks: [{
+				id: "7F07D9CE7B3AB893"
+				item: "beyonddimensions:net_member_inviter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"维度网络管理员潜行右键可以将其绑定到当前网络。"
+				""
+				"未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
+			]
+			id: "454041E83A0752B3"
+			tasks: [{
+				id: "72F19752046E8594"
+				item: "beyonddimensions:net_manager_inviter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"维度网络所有者潜行右键后可以将其绑定到当前网络。"
+				""
+				""
+				"绑定后仅能由其他网络的所有者使用，使用后合并对方网络："
+				""
+				"    所有对方网络成员将会加入此网络，对方所有者将成为管理员，其他成员保留原有权限等级；"
+				""
+				"    对方网络的所有资源均转移到此网络；"
+				""
+				"    对方网络绑定的所有物品和方块均回归到未绑定状态。"
+			]
+			id: "223304E1493D878C"
+			tasks: [{
+				id: "5E81B289ACF2FD81"
+				item: "beyonddimensions:net_gifter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"右键打开当前玩家的维度网络控制界面。"
+				""
+				"用于管理成员的权限等级以及移除成员。"
+			]
+			id: "0194E3F462190C1B"
+			tasks: [{
+				id: "7868E528C36C2A42"
+				item: "beyonddimensions:net_control"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["将其放在物品栏中1小时即可转化为稳态时空碎片"]
+			id: "63FDF426AA0E0947"
+			tasks: [{
+				id: "6B16A2C6A0813EFE"
+				item: "beyonddimensions:unstable_space_time_fragment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+	]
+	title: "维度网络存储"
+}

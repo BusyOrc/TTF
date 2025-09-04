@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "tag": "forge:ingots/copper"
+    },
+    "S":{
+      "tag":"minecraft:planks"
+    }
+  },
+  "pattern": [
+    "XSX",
+    " X "
+  ],
+  "result": {
+    "item": "miners_delight:copper_cup"
+  },
+  "show_notification": true
+}

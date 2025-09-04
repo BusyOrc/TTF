@@ -1,0 +1,18 @@
+#The base cooldown time (in ticks) after each mana charging action
+#Range: > 0
+coolingTime = 200
+#The base maximum mana amount added to source jar per charge
+#Range: > 0
+maxPerCharge = 200
+#Interval between source jar searches (in ticks)
+#Range: > 1
+scanInterval = 200
+#If true, maid's favorability affects charging amount and cooldown
+enableFavorEffect = true
+#Extra mana per levels (only effective if enableFavorEffect = true)
+#Range: > -2147483648
+favorChargeBonus = 100
+#Cooldown reduction (in ticks) per levels (only effective if enableFavorEffect = true)
+#Range: > -2147483648
+favorCooldownReduction = 20
+

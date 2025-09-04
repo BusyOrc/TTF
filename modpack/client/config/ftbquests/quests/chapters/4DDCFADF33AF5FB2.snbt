@@ -250,7 +250,7 @@
 				"3.如需用灵视交易物品，需要手持特定物品右键&a仪式火盆&r"
 				"{ \"text\": \"了解仪式火盆\",\"color\":\"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EEB0383390322ED\" } }"
 			]
-			icon: "traveloptics:aqua_upgrade_orb"
+			icon: "tf_dnv:trader_token"
 			id: "3A5D4E796774DA5B"
 			shape: "rsquare"
 			size: 2.0d

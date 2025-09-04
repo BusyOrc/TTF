@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "check_trait_level": false,
+  "inputs": [
+    {
+      "item": "cloudertinker:frostiron_ingot"
+    },
+    {
+      "item": "twilightforest:ice_bow"
+    },
+    {
+      "item": "cloudertinker:frostiron_ingot"
+    }
+  ],
+  "level": {
+    "max": 1
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "result": "cloudertinker:frosttought",
+  "tools": [{
+    "tag": "tconstruct:modifiable/ranged"
+  },{
+    "tag": "tconstruct:modifiable/melee/weapon"
+  }]
+}

@@ -3,6 +3,8 @@
     "minecraft",
     "kubejs",
     "fruitsdelight",
+    "ae2",
+    "expatternprovider",
     "hmag",
     "supplementaries",
     "youkaishomecoming",
@@ -26,7 +28,8 @@
     "thermalendergy",
     "biomesoplenty",
     "pasterdream",
-    "gtceu"
+    "gtceu",
+    "extendedcrafting"
     
   ],
   "stoneStrata": [
@@ -70,7 +73,10 @@
   ],
   "materials": [
     "lithium",
+    "wood",
+    "certus_quartz",
     "wheat",
+    "silicon",
     "rose_gold",
     "gunpowder",
     "rice",

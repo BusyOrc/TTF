@@ -1,0 +1,9 @@
+{
+    "block.cfm_wap.light_circuit_breaker":"淡色断路器",
+    "block.cfm_wap.dark_circuit_breaker":"深色断路器",
+    "container.cfm_wap.circuit_breaker":"断路器",
+    "gui.cfm_wap.status.online":"在线",
+    "gui.cfm_wap.status.offline":"离线",
+    "gui.cfm_wap.requires_power":"需要能源",
+    "gui.cfm_wap.node_count":"%s / %s"
+}

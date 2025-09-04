@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ttf:block/mech_interface"
+  },
+  "particle": "create:block/andesite_block"
+}

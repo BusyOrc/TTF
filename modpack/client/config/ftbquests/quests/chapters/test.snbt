@@ -8,7 +8,7 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
-		description: ["这里的内容并不重要"]
+		description: ["这里的内容并不重要，正常游玩请关闭任务编辑模式，有特殊需要时再打开"]
 		hide_until_deps_complete: true
 		hide_until_deps_visible: true
 		id: "46D916928C2B6DA5"
@@ -22,5 +22,5 @@
 		x: -2.5d
 		y: -3.5d
 	}]
-	title: "你在干神魔"
+	title: "你在干神魔（神绮，魅魔）"
 }

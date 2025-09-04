@@ -266,7 +266,7 @@
 		}
 		{
 			description: [
-				"对于部分有概率合成的配方，如果要使用AE的&b合成终端手动下单控制合成，而不是自动合成&r，请选择&a所有操作步骤都正确&r的选项"
+				"以下关于整合包各种&a特殊多方块结构&r（例如博丽祭坛）中，&a正确的说法&r是什么？"
 				""
 				"慧音：回答了前面的问题，你应该已经清楚正确和错误的情况了，因此接下来的题目将不会隐藏回答以后的文本，但是也不会在正文中提示该选项是正确还是错误的"
 			]
@@ -276,14 +276,14 @@
 				id: "35E8DC70EB68E375"
 				type: "checkmark"
 			}]
-			title: "3.概率合成"
+			title: "3.多方块"
 			x: 3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7F150D54B8E22683"]
-			description: ["用ME精确输出总线调整好过滤和数量，连接需要供应材料的机器或容器，不安装任何升级卡"]
-			icon: "expatternprovider:precise_export_bus"
+			description: ["搭建时不能使用建造工具右键，只能所有方块手动搭建"]
+			icon: "minecraft:stone_bricks"
 			id: "26CE0E9B690A3D09"
 			rewards: [
 				{
@@ -330,14 +330,14 @@
 				id: "7480854FA3EBD121"
 				type: "checkmark"
 			}]
-			title: "ME精确输出总线"
+			title: "关于搭建"
 			x: 1.5d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7F150D54B8E22683"]
-			description: ["建造装配矩阵+CPU来合成对应物品，写好样板以后放入装配矩阵中，在合成终端里下单控制合成"]
-			icon: "expatternprovider:assembler_matrix_frame"
+			description: ["为了避免出错，整合包鼓励在使用多方块时手动放入物品和流体"]
+			icon: "ae2:pattern_provider"
 			id: "6166CF4D72D71ACF"
 			rewards: [
 				{
@@ -384,14 +384,14 @@
 				id: "3E9668ECD44E0A46"
 				type: "checkmark"
 			}]
-			title: "装配矩阵合成"
+			title: "关于配方"
 			x: 5.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7F150D54B8E22683"]
-			description: ["发信器+合成卡，在发信器UI左侧配置成“发出信号以合成”，并且用红石电路连接控制对应机器"]
-			icon: "ae2:level_emitter"
+			description: ["多方块结构部分方块可以根据JEI提示与实际需求替换为其他的方块"]
+			icon: "create:brass_casing"
 			id: "0DA36D089094D4BF"
 			rewards: [
 				{
@@ -432,18 +432,26 @@
 					silent: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "4EFB5A086024747D"
+					item: "lightmanscurrency:portable_terminal"
+					only_one: true
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2F51A979E03A5DF7"
 				type: "checkmark"
 			}]
-			title: "ME标准发信器"
+			title: "关于方块替换"
 			x: 1.5d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7F150D54B8E22683"]
-			description: ["使用P2P的方式传递控制器的频道，用石英纤维隔开频道构建子网，在子网中用样板供应器提供机器所需样板"]
+			description: ["多方块所需材料只能手动制作，没有自动化的方法"]
 			icon: "ae2:me_p2p_tunnel"
 			id: "21095E993CA0890F"
 			rewards: [
@@ -491,7 +499,7 @@
 				id: "7BF7B0288A94F939"
 				type: "checkmark"
 			}]
-			title: "P2P+样板供应器"
+			title: "关于材料制作"
 			x: 5.5d
 			y: -3.5d
 		}
@@ -746,7 +754,7 @@
 		}
 		{
 			dependencies: ["0DA36D089094D4BF"]
-			description: ["ME标准发信器是正确答案，这道题可能略难，你猜对了吗？"]
+			description: ["这是正确答案，你猜对了吗？"]
 			hide_until_deps_complete: true
 			id: "1E72946724340DE5"
 			tasks: [{
@@ -755,7 +763,7 @@
 			}]
 			title: "正确答案"
 			x: 1.5d
-			y: -2.5d
+			y: -6.5d
 		}
 	]
 	title: "慧音小课堂"

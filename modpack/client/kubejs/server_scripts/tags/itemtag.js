@@ -37,10 +37,10 @@ event.add("forge:coral_blocks/alive",['minecraft:bubble_coral_block', 'minecraft
      'minecraft:brain_coral_block', 'minecraft:fire_coral_block', 'minecraft:horn_coral_block'])
 event.add("forge:raw_materials",'pasterdream:raw_titanium')
 event.add("forge:raw_materials/titanium",'pasterdream:raw_titanium')
-event.add("forge:ores",'pasterdream:deepslate_titanium_ore')
-event.add("forge:ores",'pasterdream:titanium_ore')
-event.add("forge:ores/titanium",'pasterdream:deepslate_titanium_ore')
-event.add("forge:ores/titanium",'pasterdream:titanium_ore')
+event.add("forge:ores",['pasterdream:deepslate_titanium_ore','pasterdream:titanium_ore',
+    'pasterdream:dyedreamquartz_ore', 'pasterdream:dyedreamdust_ore', 'pasterdream:amber_candy_ore',
+     'pasterdream:moltengold_ore', 'pasterdream:soul_ore', 'pasterdream:windrunner_crystal_ore', 'pasterdream:congeal_wind_ore'])
+event.add("forge:ores/titanium",['pasterdream:deepslate_titanium_ore','pasterdream:titanium_ore'])
 event.add("forge:ingots/titanium",'pasterdream:titanium_ingot')
 event.add("forge:reed",['biomesoplenty:reed', 'pasterdream:reedrod'])
 
@@ -141,10 +141,13 @@ let controllers = ['mbd2:aqua', 'mbd2:touhou_shrine',
 event.add('forge:multiblock_controller', controllers)
 
 event.add('tconstruct:modifiable/multipart','tinkers_thinking:mace')
-event.add("forge:dream_plants",['pasterdream:crop_3a', 'pasterdream:crop_2a', 'pasterdream:flower_9', 'pasterdream:crop_0a','pasterdream:vine_0'])
-
-
-
+event.add("forge:dream_plants",['pasterdream:crop_3a', 'pasterdream:crop_2a','pasterdream:flower_11',
+     'pasterdream:flower_9', 'pasterdream:crop_0a','pasterdream:vine_0','pasterdream:flower_13','pasterdream:dyedream_lotus','pasterdream:flower_16'])
+event.add("forge:wrenches",'refurbished_furniture:wrench')
+event.add("forge:sifters",['createsifter:sifter', 'createsifter:brass_sifter'])
+event.add("forge:ingots/enderium",'extendedcrafting:ender_ingot')
+event.add("forge:nuggets/enderium",'extendedcrafting:ender_nugget')
+event.add("forge:storage_blocks/enderium",'extendedcrafting:ender_ingot_block')
 let tr_latiaos=
 ['ltc2:treasure_cleanse_latiao', 'ltc2:treasure_pepper_white_latiao',
      'ltc2:treasure_pepper_green_latiao', 'ltc2:treasure_pepper_red_latiao',

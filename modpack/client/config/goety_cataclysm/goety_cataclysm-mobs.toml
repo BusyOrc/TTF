@@ -1,0 +1,32 @@
+
+[Servants]
+	#Whether owned Kobolediators drop Warrior Spirits, Default: true
+	kobolediatorSpirit = true
+	#Whether Ancient Remnant, owned by players, breaks blocks if mob griefing is enabled, Default: false
+	ancientRemnantGriefing = false
+	#Whether owned Prowlers drop Mechanized Cores, Default: true
+	prowlerCore = true
+	#Whether owned Wadjets drop Arcane Spirits, Default: true
+	wadjetSpirit = true
+
+	[Servants."Abyss Servants"]
+		#How long until a Deepling Angler Servant will catch another Lionfish if they don't have one already attached, Default: 12000
+		#Range: > 0
+		deeplingAnglerCatchTime = 12000
+		#Whether Deeplings can lose moistness out of water which would lead to them losing health, Default: true
+		deeplingMoistness = true
+		#Whether Coralssus can lose moistness out of water which would lead to them losing health, Default: true
+		coralssusMoistness = true
+		#Whether Symbioctos provide water breathing to ridden entity, Default: true
+		symbioctoBreath = true
+
+	[Servants."Nether Servants"]
+		#Whether owned Ignited Revenants drop Ignited Helms, Default: true
+		ignitedRevenantHelm = true
+		#Whether owned Ignited Berserkers drop Ignited Souls, Default: true
+		ignitedBerserkerSoul = true
+		#Whether Ignited Helms works on Blazes instead of just Wildfires, Default: false
+		blazeIgnitedHelm = false
+		#Whether Netherite Monstrosity, owned by players, breaks blocks if mob griefing is enabled, Default: false
+		netheriteMonstrosityGriefing = false
+

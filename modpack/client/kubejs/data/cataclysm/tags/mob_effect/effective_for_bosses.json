@@ -38,6 +38,8 @@
     "irons_spellbooks:rend",
     "irons_spellbooks:blight",
     "irons_spellbooks:guided",
-    "irons_spellbooks:slowed"
+    "irons_spellbooks:slowed",
+    "touhoutinkermodifier:fragile",
+    "touhoutinkermodifier:radiation"
   ]
 }

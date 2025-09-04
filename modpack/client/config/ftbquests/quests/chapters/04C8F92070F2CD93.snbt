@@ -113,42 +113,6 @@
 			x: -8.0d
 			y: 10.0d
 		}
-		{
-			click: "#"
-			height: 3.0d
-			hover: ["一切安全，并不会爆炸"]
-			image: "alexscaves:block/nuclear_bomb_side_0"
-			rotation: 0.0d
-			width: 3.0d
-			x: -18.5d
-			y: 0.25d
-		}
-		{
-			click: "#"
-			height: 3.0d
-			hover: ["一切安全，并不会爆炸"]
-			image: "alexscaves:block/nuclear_bomb_side_1"
-			rotation: 0.0d
-			width: 3.0d
-			x: -16.0d
-			y: 0.25d
-		}
-		{
-			height: 3.0d
-			image: "alexscaves:block/block_of_uranium"
-			rotation: 0.0d
-			width: 3.0d
-			x: -16.0d
-			y: -2.25d
-		}
-		{
-			height: 3.0d
-			image: "alexscaves:block/block_of_uranium"
-			rotation: 0.0d
-			width: 3.0d
-			x: -18.5d
-			y: -2.25d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
