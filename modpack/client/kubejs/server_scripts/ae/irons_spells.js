@@ -239,4 +239,36 @@ event.custom(
 }
 )
 
+event.custom(
+    {
+  "type": "advanced_ae:reaction",
+  "energy": 20000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 4000,
+      "FluidName": "starbunclemania:source_fluid"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 12,
+      "ingredient": {
+        "item": 'minecraft:amethyst_shard'
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": 'create:electron_tube'
+      }
+    }
+  ],
+  "output": {
+    "#": 4,
+    "#c": "ae2:i",
+    "id": 'ttf:magic_tube'
+  }
+}
+)
+
 })

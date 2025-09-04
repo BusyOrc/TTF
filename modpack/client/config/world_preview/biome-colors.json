@@ -1,1 +1,710 @@
-{}
+{
+  "twilightforest:lake": {
+    "r": 64,
+    "g": 145,
+    "b": 25,
+    "cave": false
+  },
+  "biomesoplenty:end_reef": {
+    "r": 118,
+    "g": 12,
+    "b": 16,
+    "cave": false
+  },
+  "biomesoplenty:lavender_field": {
+    "r": 126,
+    "g": 47,
+    "b": 53,
+    "cave": false
+  },
+  "biomesoplenty:mystic_grove": {
+    "r": 155,
+    "g": 153,
+    "b": 79,
+    "cave": false
+  },
+  "youkaishomecoming:sakura_birch_forest": {
+    "r": 160,
+    "g": 25,
+    "b": 10,
+    "cave": false
+  },
+  "tofucraft:tofu_waste": {
+    "r": 161,
+    "g": 200,
+    "b": 88,
+    "cave": false
+  },
+  "quark:glimmering_weald": {
+    "r": 241,
+    "g": 141,
+    "b": 229,
+    "cave": false
+  },
+  "biomesoplenty:jacaranda_glade": {
+    "r": 214,
+    "g": 112,
+    "b": 160,
+    "cave": false
+  },
+  "biomesoplenty:rainforest": {
+    "r": 62,
+    "g": 69,
+    "b": 225,
+    "cave": false
+  },
+  "biomesoplenty:visceral_heap": {
+    "r": 175,
+    "g": 253,
+    "b": 165,
+    "cave": false
+  },
+  "biomesoplenty:prairie": {
+    "r": 72,
+    "g": 197,
+    "b": 204,
+    "cave": false
+  },
+  "biomesoplenty:bayou": {
+    "r": 178,
+    "g": 238,
+    "b": 147,
+    "cave": false
+  },
+  "tofucraft:tofu_river": {
+    "r": 5,
+    "g": 150,
+    "b": 177,
+    "cave": false
+  },
+  "twilightforest:stream": {
+    "r": 189,
+    "g": 120,
+    "b": 113,
+    "cave": false
+  },
+  "pasterdream:wind_journey_biome_0": {
+    "r": 54,
+    "g": 157,
+    "b": 249,
+    "cave": false
+  },
+  "twilightforest:final_plateau": {
+    "r": 168,
+    "g": 64,
+    "b": 29,
+    "cave": false
+  },
+  "pasterdream:wind_journey_biome_1": {
+    "r": 221,
+    "g": 23,
+    "b": 23,
+    "cave": false
+  },
+  "twilightforest:glacier": {
+    "r": 188,
+    "g": 51,
+    "b": 90,
+    "cave": false
+  },
+  "biomesoplenty:snowy_fir_clearing": {
+    "r": 2,
+    "g": 233,
+    "b": 210,
+    "cave": false
+  },
+  "pasterdream:biome_shadow_1": {
+    "r": 215,
+    "g": 82,
+    "b": 80,
+    "cave": false
+  },
+  "biomesoplenty:pasture": {
+    "r": 2,
+    "g": 189,
+    "b": 146,
+    "cave": false
+  },
+  "pasterdream:biome_shadow_0": {
+    "r": 152,
+    "g": 90,
+    "b": 216,
+    "cave": false
+  },
+  "twilightforest:snowy_forest": {
+    "r": 3,
+    "g": 51,
+    "b": 60,
+    "cave": false
+  },
+  "lionfishapi:original_source_marker": {
+    "r": 99,
+    "g": 249,
+    "b": 201,
+    "cave": false
+  },
+  "biomesoplenty:jade_cliffs": {
+    "r": 65,
+    "g": 210,
+    "b": 206,
+    "cave": false
+  },
+  "pasterdream:biome_shadow_2": {
+    "r": 67,
+    "g": 110,
+    "b": 7,
+    "cave": false
+  },
+  "biomesoplenty:snowblossom_grove": {
+    "r": 160,
+    "g": 0,
+    "b": 176,
+    "cave": false
+  },
+  "biomesoplenty:dead_forest": {
+    "r": 91,
+    "g": 197,
+    "b": 89,
+    "cave": false
+  },
+  "youkaishomecoming:sakura_taiga": {
+    "r": 30,
+    "g": 144,
+    "b": 154,
+    "cave": false
+  },
+  "biomesoplenty:cold_desert": {
+    "r": 60,
+    "g": 177,
+    "b": 166,
+    "cave": false
+  },
+  "twilightforest:dark_forest": {
+    "r": 35,
+    "g": 246,
+    "b": 116,
+    "cave": false
+  },
+  "biomesoplenty:fir_clearing": {
+    "r": 8,
+    "g": 7,
+    "b": 50,
+    "cave": false
+  },
+  "biomesoplenty:coniferous_forest": {
+    "r": 187,
+    "g": 135,
+    "b": 1,
+    "cave": false
+  },
+  "biomesoplenty:dune_beach": {
+    "r": 98,
+    "g": 127,
+    "b": 231,
+    "cave": false
+  },
+  "biomesoplenty:hot_springs": {
+    "r": 36,
+    "g": 94,
+    "b": 188,
+    "cave": false
+  },
+  "biomesoplenty:wasteland": {
+    "r": 51,
+    "g": 51,
+    "b": 15,
+    "cave": false
+  },
+  "twilightforest:clearing": {
+    "r": 129,
+    "g": 225,
+    "b": 67,
+    "cave": false
+  },
+  "twilightforest:mushroom_forest": {
+    "r": 109,
+    "g": 21,
+    "b": 231,
+    "cave": false
+  },
+  "biomesoplenty:seasonal_forest": {
+    "r": 242,
+    "g": 219,
+    "b": 2,
+    "cave": false
+  },
+  "biomesoplenty:wetland": {
+    "r": 115,
+    "g": 83,
+    "b": 222,
+    "cave": false
+  },
+  "biomesoplenty:lush_savanna": {
+    "r": 128,
+    "g": 156,
+    "b": 79,
+    "cave": false
+  },
+  "biomesoplenty:crag": {
+    "r": 110,
+    "g": 123,
+    "b": 135,
+    "cave": false
+  },
+  "terrablender:deferred_placeholder": {
+    "r": 250,
+    "g": 240,
+    "b": 234,
+    "cave": false
+  },
+  "pasterdream:aaroncos_arena_biome": {
+    "r": 39,
+    "g": 79,
+    "b": 178,
+    "cave": false
+  },
+  "biomesoplenty:highland": {
+    "r": 27,
+    "g": 48,
+    "b": 137,
+    "cave": false
+  },
+  "biomesoplenty:forested_field": {
+    "r": 134,
+    "g": 85,
+    "b": 174,
+    "cave": false
+  },
+  "biomesoplenty:field": {
+    "r": 69,
+    "g": 62,
+    "b": 21,
+    "cave": false
+  },
+  "ars_nouveau:archwood_forest": {
+    "r": 8,
+    "g": 14,
+    "b": 159,
+    "cave": false
+  },
+  "tofucraft:soybean_forest_sparse": {
+    "r": 60,
+    "g": 85,
+    "b": 136,
+    "cave": false
+  },
+  "biomesoplenty:end_corruption": {
+    "r": 195,
+    "g": 84,
+    "b": 196,
+    "cave": false
+  },
+  "biomesoplenty:snowy_maple_woods": {
+    "r": 5,
+    "g": 137,
+    "b": 61,
+    "cave": false
+  },
+  "twilightforest:fire_swamp": {
+    "r": 173,
+    "g": 242,
+    "b": 149,
+    "cave": false
+  },
+  "biomesoplenty:origin_valley": {
+    "r": 121,
+    "g": 125,
+    "b": 47,
+    "cave": false
+  },
+  "biomesoplenty:rocky_shrubland": {
+    "r": 248,
+    "g": 176,
+    "b": 93,
+    "cave": false
+  },
+  "biomesoplenty:wintry_origin_valley": {
+    "r": 215,
+    "g": 147,
+    "b": 201,
+    "cave": false
+  },
+  "twilightforest:firefly_forest": {
+    "r": 9,
+    "g": 102,
+    "b": 185,
+    "cave": false
+  },
+  "biomesoplenty:scrubland": {
+    "r": 8,
+    "g": 118,
+    "b": 223,
+    "cave": false
+  },
+  "biomesoplenty:pumpkin_patch": {
+    "r": 103,
+    "g": 205,
+    "b": 77,
+    "cave": false
+  },
+  "twilightforest:highlands": {
+    "r": 178,
+    "g": 3,
+    "b": 177,
+    "cave": false
+  },
+  "ae2:spatial_storage": {
+    "r": 189,
+    "g": 248,
+    "b": 12,
+    "cave": false
+  },
+  "biomesoplenty:shrubland": {
+    "r": 16,
+    "g": 239,
+    "b": 20,
+    "cave": false
+  },
+  "biomesoplenty:volcanic_plains": {
+    "r": 229,
+    "g": 189,
+    "b": 117,
+    "cave": false
+  },
+  "tofucraft:tofu_mountain": {
+    "r": 85,
+    "g": 79,
+    "b": 74,
+    "cave": false
+  },
+  "tofucraft:tofu_forest": {
+    "r": 0,
+    "g": 210,
+    "b": 223,
+    "cave": false
+  },
+  "pasterdream:biome_dyedream_0": {
+    "r": 89,
+    "g": 40,
+    "b": 19,
+    "cave": false
+  },
+  "biomesoplenty:ominous_woods": {
+    "r": 216,
+    "g": 61,
+    "b": 207,
+    "cave": false
+  },
+  "biomesoplenty:floodplain": {
+    "r": 102,
+    "g": 143,
+    "b": 176,
+    "cave": false
+  },
+  "biomesoplenty:moor": {
+    "r": 194,
+    "g": 36,
+    "b": 161,
+    "cave": false
+  },
+  "pasterdream:biome_dyedream_1": {
+    "r": 69,
+    "g": 128,
+    "b": 140,
+    "cave": false
+  },
+  "biomesoplenty:tundra": {
+    "r": 230,
+    "g": 94,
+    "b": 40,
+    "cave": false
+  },
+  "pasterdream:biome_dyedream_2": {
+    "r": 216,
+    "g": 182,
+    "b": 2,
+    "cave": false
+  },
+  "pasterdream:biome_dyedream_3": {
+    "r": 27,
+    "g": 41,
+    "b": 253,
+    "cave": false
+  },
+  "twilightforest:swamp": {
+    "r": 196,
+    "g": 1,
+    "b": 177,
+    "cave": false
+  },
+  "twilightforest:dense_forest": {
+    "r": 19,
+    "g": 109,
+    "b": 190,
+    "cave": false
+  },
+  "biomesoplenty:mediterranean_forest": {
+    "r": 52,
+    "g": 46,
+    "b": 69,
+    "cave": false
+  },
+  "biomesoplenty:end_wilds": {
+    "r": 151,
+    "g": 218,
+    "b": 123,
+    "cave": false
+  },
+  "biomesoplenty:aspen_glade": {
+    "r": 156,
+    "g": 180,
+    "b": 218,
+    "cave": false
+  },
+  "biomesoplenty:crystalline_chasm": {
+    "r": 9,
+    "g": 57,
+    "b": 73,
+    "cave": false
+  },
+  "tofucraft:tofu_beach": {
+    "r": 229,
+    "g": 158,
+    "b": 94,
+    "cave": false
+  },
+  "twilightforest:enchanted_forest": {
+    "r": 41,
+    "g": 30,
+    "b": 59,
+    "cave": false
+  },
+  "biomesoplenty:muskeg": {
+    "r": 181,
+    "g": 4,
+    "b": 7,
+    "cave": false
+  },
+  "biomesoplenty:bog": {
+    "r": 228,
+    "g": 199,
+    "b": 197,
+    "cave": false
+  },
+  "biomesoplenty:rocky_rainforest": {
+    "r": 158,
+    "g": 158,
+    "b": 225,
+    "cave": false
+  },
+  "twilightforest:spooky_forest": {
+    "r": 192,
+    "g": 41,
+    "b": 198,
+    "cave": false
+  },
+  "biomesoplenty:maple_woods": {
+    "r": 109,
+    "g": 241,
+    "b": 146,
+    "cave": false
+  },
+  "biomesoplenty:glowing_grotto": {
+    "r": 241,
+    "g": 181,
+    "b": 102,
+    "cave": true
+  },
+  "biomesoplenty:gravel_beach": {
+    "r": 81,
+    "g": 231,
+    "b": 216,
+    "cave": false
+  },
+  "biomesoplenty:dryland": {
+    "r": 222,
+    "g": 229,
+    "b": 123,
+    "cave": false
+  },
+  "biomesoplenty:grassland": {
+    "r": 143,
+    "g": 8,
+    "b": 143,
+    "cave": false
+  },
+  "tofucraft:tofu_plains": {
+    "r": 166,
+    "g": 152,
+    "b": 2,
+    "cave": false
+  },
+  "tofucraft:tofu_ocean": {
+    "r": 89,
+    "g": 55,
+    "b": 166,
+    "cave": false
+  },
+  "biomesoplenty:old_growth_woodland": {
+    "r": 172,
+    "g": 164,
+    "b": 60,
+    "cave": false
+  },
+  "biomesoplenty:erupting_inferno": {
+    "r": 82,
+    "g": 42,
+    "b": 200,
+    "cave": false
+  },
+  "biomesoplenty:old_growth_dead_forest": {
+    "r": 158,
+    "g": 140,
+    "b": 17,
+    "cave": false
+  },
+  "biomesoplenty:volcano": {
+    "r": 70,
+    "g": 176,
+    "b": 48,
+    "cave": false
+  },
+  "biomesoplenty:redwood_forest": {
+    "r": 99,
+    "g": 93,
+    "b": 47,
+    "cave": false
+  },
+  "twilightforest:oak_savannah": {
+    "r": 28,
+    "g": 248,
+    "b": 141,
+    "cave": false
+  },
+  "biomesoplenty:tropics": {
+    "r": 239,
+    "g": 92,
+    "b": 240,
+    "cave": false
+  },
+  "twilightforest:thornlands": {
+    "r": 196,
+    "g": 125,
+    "b": 247,
+    "cave": false
+  },
+  "twilightforest:forest": {
+    "r": 5,
+    "g": 188,
+    "b": 156,
+    "cave": false
+  },
+  "youkaishomecoming:sakura_forest": {
+    "r": 38,
+    "g": 239,
+    "b": 247,
+    "cave": false
+  },
+  "biomesoplenty:lush_desert": {
+    "r": 113,
+    "g": 136,
+    "b": 197,
+    "cave": false
+  },
+  "biomesoplenty:overgrown_greens": {
+    "r": 0,
+    "g": 76,
+    "b": 105,
+    "cave": false
+  },
+  "tofucraft:zunda_forest": {
+    "r": 73,
+    "g": 195,
+    "b": 151,
+    "cave": false
+  },
+  "twilightforest:underground": {
+    "r": 92,
+    "g": 27,
+    "b": 86,
+    "cave": false
+  },
+  "biomesoplenty:orchard": {
+    "r": 144,
+    "g": 177,
+    "b": 33,
+    "cave": false
+  },
+  "biomesoplenty:auroral_garden": {
+    "r": 95,
+    "g": 78,
+    "b": 255,
+    "cave": false
+  },
+  "biomesoplenty:woodland": {
+    "r": 96,
+    "g": 132,
+    "b": 68,
+    "cave": false
+  },
+  "twilightforest:dark_forest_center": {
+    "r": 1,
+    "g": 203,
+    "b": 242,
+    "cave": false
+  },
+  "twilightforest:dense_mushroom_forest": {
+    "r": 253,
+    "g": 24,
+    "b": 83,
+    "cave": false
+  },
+  "biomesoplenty:snowy_coniferous_forest": {
+    "r": 190,
+    "g": 29,
+    "b": 205,
+    "cave": false
+  },
+  "biomesoplenty:fungal_jungle": {
+    "r": 212,
+    "g": 36,
+    "b": 149,
+    "cave": false
+  },
+  "biomesoplenty:undergrowth": {
+    "r": 169,
+    "g": 241,
+    "b": 107,
+    "cave": false
+  },
+  "biomesoplenty:spider_nest": {
+    "r": 112,
+    "g": 93,
+    "b": 155,
+    "cave": true
+  },
+  "biomesoplenty:wasteland_steppe": {
+    "r": 57,
+    "g": 87,
+    "b": 176,
+    "cave": false
+  },
+  "biomesoplenty:marsh": {
+    "r": 146,
+    "g": 21,
+    "b": 82,
+    "cave": false
+  },
+  "biomesoplenty:withered_abyss": {
+    "r": 30,
+    "g": 118,
+    "b": 102,
+    "cave": false
+  },
+  "tofucraft:soybean_forest": {
+    "r": 76,
+    "g": 31,
+    "b": 202,
+    "cave": false
+  }
+}

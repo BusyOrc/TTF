@@ -927,28 +927,28 @@
 			redstoneMonstrosityArmor = 0.0
 			#How much damage Redstone Monstrosities deals, Default: 21.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneMonstrosityDamage = 21.0
+			redstoneMonstrosityDamage = 42.0
 			#How much following/detection range Redstone Monstrosities have, Default: 32.0
 			#Range: 1.0 ~ 2048.0
 			redstoneMonstrosityFollowRange = 32.0
 			#Redstone Monstrosities attack HP percent damage, Default: 0.08
 			#Range: 0.0 ~ 1.0
-			redstoneMonstrosityHPPercentDamage = 0.08
+			redstoneMonstrosityHPPercentDamage = 0.12
 			#How many blocks or distance away an attack can be from Redstone Monstrosities to damage them, Default: 20.0
 			#Range: 6.0 ~ 1.7976931348623157E308
 			redstoneMonstrosityHurtRange = 20.0
 			#The maximum amount of damage an Redstone Monstrosities can attain per hit, Default: 25.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneMonstrosityDamageCap = 25.0
+			redstoneMonstrosityDamageCap = 500.0
 			#How much Max Health Redstone Cubes have, Default: 10.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneCubeHealth = 10.0
+			redstoneCubeHealth = 25.0
 			#How much natural armor points Redstone Cubes have, Default: 0.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			redstoneCubeArmor = 0.0
 			#How much damage Redstone Cubes deals, Default: 4.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneCubeDamage = 4.0
+			redstoneCubeDamage = 8.0
 			#How much following/detection range Redstone Cubes have, Default: 16.0
 			#Range: 1.0 ~ 2048.0
 			redstoneCubeFollowRange = 16.0
@@ -1004,7 +1004,7 @@
 			vizierHealth = 300.0
 			#The maximum amount of damage a Vizier can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			vizierDamageCap = 20.0
+			vizierDamageCap = 200.0
 
 		[Attributes.Bosses.Apostle]
 			#How much Max Health Apostles have, Default: 320.0
@@ -1012,17 +1012,17 @@
 			apostleHealth = 320.0
 			#How much natural Armor Points Apostles have, Default: 12.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			apostleArmor = 12.0
+			apostleArmor = 24.0
 			#How much natural Toughness Points Apostles have, Default: 6.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			apostleToughness = 6.0
+			apostleToughness = 9.0
 			#The maximum amount of damage an Apostle can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			apostleDamageCap = 20.0
+			apostleDamageCap = 50.0
 			#Multiplies Apostle's Bow damage, Default: 2
 			#Range: > 1
-			apostleBowDamage = 2
+			apostleBowDamage = 5
 			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0
 			#Range: 6.0 ~ 1.7976931348623157E308
-			apostleMagicDamage = 6.0
+			apostleMagicDamage = 12.0
 

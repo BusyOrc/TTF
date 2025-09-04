@@ -432,6 +432,18 @@ event.shaped("3x minecraft:glass_bottle",
   }
 )
 
+event.shaped('create:electron_tube',
+  [
+    ' R ',
+    ' S ',
+    ' F '
+  ],
+  {
+    F:'ae2:fluix_crystal',
+    S:'ae2:engineering_processor',
+    R:'create:polished_rose_quartz'
+  }
+)
 
 /*     event.shapeless('tconstruct:smeltery_controller', [
         '#minecraft:pickaxes',
@@ -441,6 +453,77 @@ event.shaped("3x minecraft:glass_bottle",
     .damageIngredient(1)
     .keepIngredient('#minecraft:pickaxes') */
     
+event.shaped('ttf:magic_tube',
+  [
+    ' R ',
+    'CSC',
+    ' C '
+  ],
+  {
+    C:'minecraft:amethyst_shard',
+    S:'starbunclemania:source_fluid_bucket',
+    R:'create:electron_tube'
+  }
+)
 
+event.shaped('thermal:rf_coil',
+  [
+    '  S',
+    ' M ',
+    'S  '
+  ],
+  {
+S:'appflux:redstone_crystal',
+M:'ttf:magic_tube'
+  }
+)
+
+event.shaped('32x tofucraft:filtercloth',
+  [
+    ' W ',
+    'WCW',
+    ' W '
+  ],
+  {
+W:"#minecraft:wool",
+C:'minecraft:string'
+  }
+)
+
+event.shaped(Item.of('irons_restrictions:manuscript', '{SchoolId:"cataclysm_spellbooks:abyssal"}'),
+  [
+    ' W ',
+    'WCW',
+    ' W '
+  ],
+  {
+W:'irons_restrictions:fragment',
+C:'goety_cataclysm:abyss_essence'
+  }
+)
+
+event.shaped(Item.of('irons_restrictions:manuscript', '{SchoolId:"cataclysm_spellbooks:technomancy"}'),
+  [
+    ' W ',
+    'WCW',
+    ' W '
+  ],
+  {
+W:'irons_restrictions:fragment',
+C:'appflux:redstone_crystal'
+  }
+)
+
+event.shaped(Item.of('irons_restrictions:manuscript', '{SchoolId:"alshanex_familiars:sound"}'),
+  [
+    ' W ',
+    'WCW',
+    ' W '
+  ],
+  {
+W:'irons_restrictions:fragment',
+C:'minecraft:note_block'
+  }
+)
 
 })

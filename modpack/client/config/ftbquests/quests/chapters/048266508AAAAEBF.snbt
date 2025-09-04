@@ -1172,6 +1172,22 @@
 			x: 2.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["4D75120750E966CB"]
+			id: "4DE25B151BABD70F"
+			rewards: [{
+				id: "6EA34A3B06459D0C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "504BF818B4A5ED84"
+				item: "touhou_little_maid_spell:blue_note"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
 	]
 	title: "车万女仆"
 }

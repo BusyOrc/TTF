@@ -1,0 +1,51 @@
+{
+  "item.irons_restrictions.fire_manuscript": "火焰手稿",
+  "item.irons_restrictions.fire_manuscript_desc": "使用以学习火焰法术",
+  "item.irons_restrictions.nature_manuscript": "自然手稿",
+  "item.irons_restrictions.nature_manuscript_desc": "使用以学习自然法术",
+  "item.irons_restrictions.evocation_manuscript": "唤魔手稿",
+  "item.irons_restrictions.evocation_manuscript_desc": "使用以学习唤魔法术",
+  "item.irons_restrictions.ender_manuscript": "末影手稿",
+  "item.irons_restrictions.ender_manuscript_desc": "使用以学习末影法术",
+  "item.irons_restrictions.ice_manuscript": "冰霜手稿",
+  "item.irons_restrictions.ice_manuscript_desc": "使用以学习冰霜法术",
+  "item.irons_restrictions.holy_manuscript": "神圣手稿",
+  "item.irons_restrictions.holy_manuscript_desc": "使用以学习神圣法术",
+  "item.irons_restrictions.blood_manuscript": "鲜血手稿",
+  "item.irons_restrictions.blood_manuscript_desc": "使用以学习鲜血法术",
+  "item.irons_restrictions.lightning_manuscript": "雷霆手稿",
+  "item.irons_restrictions.lightning_manuscript_desc": "使用以学习雷霆法术",
+
+  "item.irons_restrictions.unfinished_manuscript": "未完成手稿",
+  "item.irons_restrictions.unfinished_manuscript_desc": "有概率学习到随机法术",
+  "item.irons_restrictions.unfinished_manuscript.full": "你已经学会了所有能学的法术.",
+  "item.irons_restrictions.unfinished_manuscript.fail": "手稿化为齑粉...",
+  "item.irons_restrictions.unfinished_manuscript.success": "你学到了一个新法术: ",
+
+  "item.irons_restrictions.fragment": "卷轴碎片",
+
+
+  "item.irons_restrictions.sound_manuscript": "律灵手稿",
+  "item.irons_restrictions.sound_manuscript_desc": "使用以学习律灵法术",
+
+  "item.irons_restrictions.abyssal_manuscript": "深渊手稿",
+  "item.irons_restrictions.abyssal_manuscript_desc": "使用以学习深渊法术",
+
+  "item.irons_restrictions.symmetry_manuscript": "Symmetry Manuscript",
+  "item.irons_restrictions.symmetry_manuscript_desc": "Use to learn Symmetry spells",
+  "item.irons_restrictions.spirit_manuscript": "Spirit Manuscript",
+  "item.irons_restrictions.spirit_manuscript_desc": "Use to learn Spirit spells",
+  "item.irons_restrictions.dune_manuscript": "Dune Manuscript",
+  "item.irons_restrictions.dune_manuscript_desc": "Use to learn Dune spells",
+
+  "item.irons_restrictions.wind_manuscript": "Wind Manuscript",
+  "item.irons_restrictions.wind_manuscript_desc": "Use to learn Wind spells",
+
+  "item.irons_restrictions.technomancy_manuscript": "机魂手稿",
+  "item.irons_restrictions.technomancy_manuscript_desc": "使用以学习机魂法术",
+
+  "item.irons_restrictions.aqua_manuscript": "Aqua Manuscript",
+  "item.irons_restrictions.aqua_manuscript_desc": "Use to learn Aqua spells",
+
+  "itemGroup.irons_restrictions.restrictions_items_tab": "Iron's Restrictions Items"
+}

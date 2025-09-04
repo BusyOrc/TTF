@@ -318,7 +318,7 @@
 			icon: "minecraft:iron_ingot"
 			id: "32B3421E3CA0E280"
 			rewards: [{
-				id: "21920BDF877A50B0"
+				id: "500E1CA9557020F6"
 				item: {
 					Count: 1
 					id: "akashictome:tome"
@@ -337,36 +337,31 @@
 									}
 								}
 							}
-							alchemistry: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"akashictome:displayName": {
-										text: "{\"translate\":\"alchemistry.patchouli.book_name\"}"
-									}
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"alchemistry.patchouli.book_name\"}]}"
-									}
-									"patchouli:book": "alchemistry:alchemistry_book"
-								}
-							}
-							alexsmobs: {
-								Count: 1b
-								id: "alexsmobs:animal_dictionary"
-								tag: {
-									"akashictome:displayName": {
-										text: "{\"translate\":\"item.alexsmobs.animal_dictionary\"}"
-									}
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.alexsmobs.animal_dictionary\"}]}"
-									}
-								}
-							}
 							ars_nouveau: {
 								Count: 1b
 								id: "ars_nouveau:worn_notebook"
+							}
+							extendedcrafting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							goety: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "goety:black_book"
+								}
+							}
+							goety_0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:definedMod": "goety_0"
+									"patchouli:book": "goety:witches_brew"
+								}
 							}
 							irons_spellbooks: {
 								Count: 1b
@@ -421,6 +416,13 @@
 									display: {
 										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.nffgirls.mob_dictionary\"}]}"
 									}
+								}
+							}
+							packagedauto: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "packagedauto:guide"
 								}
 							}
 							solcarrot: {

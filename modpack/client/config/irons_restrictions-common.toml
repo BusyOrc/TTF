@@ -1,0 +1,14 @@
+#For untextured items, should the generated texture tint the base layer
+tintBasePage = true
+#For untextured items, should the generated texture tint the overlay layer
+tintOverlayPage = true
+#If true, to use a spell on an imbued item, the spell must be learnt
+imbuedItemsRequireLearning = true
+#A list of spells that the player will already know
+defaultLearntSpells = ["irons_spellbooks:firebolt", "irons_spellbooks:icicle"]
+#A list of spells that will not be able to be learnt through the Unfinished Manuscript
+excludeRandomLearntSpells = ["irons_spellbooks:abyssal_shroud", "irons_spellbooks:sculk_tentacles", "irons_spellbooks:sonic_boom", "irons_spellbooks:planar_sight", "irons_spellbooks:telekinesis", "irons_spellbooks:eldritch_blast", "irons_spellbooks:pocket_dimension"]
+#The chance for an Unfinished Manuscript to fail
+#Range: 0.0 ~ 1.0
+failChance = 0.3
+

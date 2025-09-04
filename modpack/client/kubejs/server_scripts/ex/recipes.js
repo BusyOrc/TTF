@@ -338,7 +338,39 @@ event.custom(
 }
 )
 
-
+event.custom(
+  {
+  "type":"extendedcrafting:shaped_table",
+  "pattern": [
+    "RQQQR",
+    "QIIIQ",
+    "QMTMQ",
+    "QIIIQ",
+    "RQQQR"
+  ],
+  "key": {
+    "R": {
+      "item": 'ttf:rubber_sheet'
+    },
+    "Q": {
+      "item": 'ae2:quartz_glass'
+    },
+    "M": {
+      "item": 'ttf:magic_tube'
+    },
+    "I": {
+      "item": 'tconstruct:ichor_congealed_slime'
+    },
+    "T": {
+      "tag": 'forge:gears/tin'
+    }
+  },
+  "result": {
+    "item": "thermal:machine_frame"
+  },
+  "acceptMirrored": true
+}
+)
 
 })
 

@@ -108,7 +108,7 @@
 			baseDamageThreshold = 1.0
 			#每等级对阈值的影响系数(0.2 = 每等级减少20%阈值)
 			#Range: 0.0 ~ 1.0
-			damageMultiplier = 0.2
+			damageMultiplier = 0.35
 
 		#死神祝福配置
 		["兼容配置".modifiers.reapers_blessing]

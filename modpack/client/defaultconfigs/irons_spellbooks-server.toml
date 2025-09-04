@@ -1956,3 +1956,13 @@
 		CooldownInSeconds = 0.0
 		AllowCrafting = true
 
+	[Spells."cataclysm_spellbooks:pilfer"]
+		Enabled = false
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 100.0
+		AllowCrafting = false
