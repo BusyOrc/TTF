@@ -451,7 +451,7 @@
 		}
 		{
 			dependencies: ["7F150D54B8E22683"]
-			description: ["多方块所需材料只能手动制作，没有自动化的方法"]
+			description: ["所有MBD2多方块一定都有GUI（用户界面）可以查看，以方便手动放入物品和流体"]
 			icon: "ae2:me_p2p_tunnel"
 			id: "21095E993CA0890F"
 			rewards: [
@@ -499,7 +499,7 @@
 				id: "7BF7B0288A94F939"
 				type: "checkmark"
 			}]
-			title: "关于材料制作"
+			title: "关于GUI"
 			x: 5.5d
 			y: -3.5d
 		}
