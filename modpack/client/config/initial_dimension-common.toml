@@ -3,3 +3,7 @@
 	#The initial dimension that players will spawn in
 	InitialDimension = "pasterdream:dyedream_world"
 
+[RespawnTP]
+	#Whether to enable random respawning, if false, player may get stuck in walls in certain dimensions like nether; else: saved respawn point will not work.
+	isRespawnOn = false
+

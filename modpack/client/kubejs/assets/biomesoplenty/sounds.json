@@ -1,0 +1,783 @@
+{
+  "block.blood.ambient": {
+    "sounds": [
+	  {
+        "name": "minecraft:liquid/lava",
+        "pitch": 0.5,
+		"volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.biomesoplenty.blood.ambient"
+  },
+  "block.pus_bubble.pop": {
+    "sounds": [
+      "minecraft:liquid/lavapop"
+    ],
+    "subtitle": "subtitles.block.biomesoplenty.pus_bubble.pop"
+  },
+  "block.spider_egg.break": {
+    "sounds": [
+	  "minecraft:mob/turtle/egg/egg_break1",
+      "minecraft:mob/turtle/egg/egg_break2"
+    ],
+    "subtitle": "subtitles.block.biomesoplenty.spider_egg.break"
+  },
+  "block.flesh_tendon.drip": {
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip1",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip1",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip2",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip2",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip3",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip3",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip4",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip4",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip5",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip5",
+        "pitch": 0.9,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip6",
+        "pitch": 0.7,
+        "volume": 0.3
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "minecraft:block/beehive/drip6",
+        "pitch": 0.9,
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.block.biomesoplenty.flesh_tendon.drip"
+  },
+  "music_disc.wanderer": {
+    "sounds": [
+      {
+        "name": "biomesoplenty:records/wanderer",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.origin_valley": {
+    "sounds": [
+      {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.nether.crystalline_chasm": {
+    "sounds": [
+	  {
+        "name": "biomesoplenty:music/game/nether/redhead",
+        "stream": true,
+		"weight": 4,
+		"volume": 0.9
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/blot",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/timber",
+        "stream": true,
+		"weight": 2
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/mesh",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.8
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/cortisol",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.6
+      },
+      {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.nether.erupting_inferno": {
+    "sounds": [
+	  {
+        "name": "biomesoplenty:music/game/nether/blot",
+        "stream": true,
+		"weight": 1,
+		"volume": 0.4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/redhead",
+        "stream": true,
+		"weight": 1,
+		"volume": 0.9
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/timber",
+        "stream": true,
+		"weight": 1
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/mesh",
+        "stream": true,
+		"weight": 1,
+		"volume": 0.8
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/cortisol",
+        "stream": true,
+		"weight": 1,
+		"volume": 0.6
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.nether.undergrowth": {
+    "sounds": [
+	  {
+        "name": "biomesoplenty:music/game/nether/timber",
+        "stream": true,
+		"weight": 4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/redhead",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.9
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/blot",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/mesh",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.8
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/cortisol",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.6
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.nether.visceral_heap": {
+    "sounds": [
+	  {
+        "name": "biomesoplenty:music/game/nether/mesh",
+        "stream": true,
+		"weight": 4,
+		"volume": 0.8
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/redhead",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.9
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/blot",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/timber",
+        "stream": true,
+		"weight": 2
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/cortisol",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.6
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.nether.withered_abyss": {
+    "sounds": [
+	  {
+        "name": "biomesoplenty:music/game/nether/cortisol",
+        "stream": true,
+		"weight": 4,
+		"volume": 0.6
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/redhead",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.9
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/blot",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.4
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/timber",
+        "stream": true,
+		"weight": 2
+      },
+	  {
+        "name": "biomesoplenty:music/game/nether/mesh",
+        "stream": true,
+		"weight": 2,
+		"volume": 0.8
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  }
+}

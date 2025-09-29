@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls":1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trials:ominous_bottle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "trials:gameplay/diamond_armor",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trials:flow_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trials:music_disc_creator",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:melting_pan_handle_cast_fragment_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:melting_pan_handle_cast_fragment_2",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:swasher_head_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_head_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:staff_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:long_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:long_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:battlesign_head_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:battlesign_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:war_pick_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:war_pick_limb_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:melting_pan_handle_cast",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tinkersancient:melting_pan_head_cast",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

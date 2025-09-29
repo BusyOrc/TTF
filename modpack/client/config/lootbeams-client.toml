@@ -1,17 +1,17 @@
 
 #Beam Config
 ["Loot Beams"]
-	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
-	color_overrides = []
 	#If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
 	render_name_color = true
+	#If the rarity should be rendered under the nametag.
+	render_rarity = false
 	#If beams should be colored the same as the Items rarity.
 	render_rarity_color = true
 	#How close the player has to be to see the beam. (note: in vanill ItemEntities stop rendering at 24 blocks.)
 	#Range: 0.0 ~ 1024.0
 	render_distance = 48.0
-	#If the rarity should be rendered under the nametag.
-	render_rarity = true
+	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
+	color_overrides = []
 
 	#Beam Configuration
 	["Loot Beams".Beam]
@@ -31,22 +31,22 @@
 		beam_alpha = 0.75
 		#The distance from the player the beam should start fading.
 		#Range: 0.0 ~ 100.0
-		beam_fade_distance = 2.0
+		beam_fade_distance = 10.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
-		solid_beam = false
+		solid_beam = true
+		#If the Loot Beam should have a white center.
+		white_center = true
+		#If the Loot Beam should be glowing.
+		glowing_beam = true
 		#If the Loot Beam should have a glow effect around the base of the item.
 		glow_effect = true
 		#The radius of the glow effect.
 		#Range: 1.0E-5 ~ 1.0
 		glow_effect_radius = 0.5
-		#If the item must be on the ground to render a beam.
-		require_on_ground = true
-		#If the Loot Beam should have a white center.
-		white_center = false
-		#If the Loot Beam should be glowing.
-		glowing_beam = true
 		#If the glow effect should be animated.
 		animate_glow = true
+		#If the item must be on the ground to render a beam.
+		require_on_ground = true
 
 	#Particle Config
 	["Loot Beams".Particles]
@@ -105,7 +105,7 @@
 		#If items should glow.
 		items_glow = true
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = false
+		all_items = true
 		#If Loot Beams should only be rendered on items with rarity.
 		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
@@ -115,30 +115,12 @@
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
 		blacklist = []
 
-	#Sounds
-	["Loot Beams".Sounds]
-		#If sounds should be played when items are dropped up.
-		play_sounds = true
-		#The volume of the sound.
-		#Range: 0.0 ~ 1.0
-		sound_volume = 1.0
-		#If sounds should play on all items. Has priority over sound_only_equipment and sound_only_rare.
-		sound_all_items = true
-		#If sounds should only be played on items with rarity.
-		sound_only_rare = true
-		#If sounds should only be played on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
-		sound_only_equipment = true
-		#Registry names of items that sounds should play on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
-		sound_whitelist = []
-		#Registry names of items that sounds should NOT play on. This has priority over everything. You can also specify modids for a whole mod's items.
-		sound_blacklist = []
-
 	#Item nametags
 	["Loot Beams".Nametags]
 		#If vanilla tooltips should be rendered on items in world.
 		advanced_tooltips = false
 		#If tooltips should be rendered in world.
-		worldspace_tooltips = true
+		worldspace_tooltips = false
 		#Render nametags as bordered. Set to false for flat nametag with background.
 		borders = true
 		#If Item nametags should be rendered.
@@ -169,9 +151,27 @@
 		#If rarities should ignore color and render as white (This is really only used for modpacks)
 		white_rarities = false
 		#If vanilla rarities should be rendered.
-		vanilla_rarities = true
+		vanilla_rarities = false
 		#If the player should be crouching to see extended advanced tooltips.
 		screen_tooltips_require_crouch = true
 		#If the name and rarity should be combined into one tooltip.
 		combine_name_and_rarity = true
+
+	#Sounds
+	["Loot Beams".Sounds]
+		#If sounds should be played when items are dropped up.
+		play_sounds = true
+		#The volume of the sound.
+		#Range: 0.0 ~ 1.0
+		sound_volume = 1.0
+		#If sounds should play on all items. Has priority over sound_only_equipment and sound_only_rare.
+		sound_all_items = false
+		#If sounds should only be played on items with rarity.
+		sound_only_rare = true
+		#If sounds should only be played on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
+		sound_only_equipment = false
+		#Registry names of items that sounds should play on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
+		sound_whitelist = []
+		#Registry names of items that sounds should NOT play on. This has priority over everything. You can also specify modids for a whole mod's items.
+		sound_blacklist = []
 

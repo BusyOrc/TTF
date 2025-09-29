@@ -1,0 +1,69 @@
+{
+  "icon": {
+    "item": "tconstruct:swasher",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "input_slots": [
+    {
+      "filter": {
+        "item": "tinkersancient:swasher_head"
+      },
+      "icon": "tinkersancient:swasher_head",
+      "translation_key": "item.tinkersancient.swasher_head",
+      "x": 18,
+      "y": 32
+    },
+    {
+      "filter": {
+        "item": "tconstruct:tool_handle"
+      },
+      "icon": "tconstruct:tool_handle",
+      "translation_key": "item.tconstruct.tool_handle",
+      "x": 39,
+      "y": 57
+    },
+    {
+      "filter": {
+        "item": "tconstruct:bow_limb"
+      },
+      "icon": "tconstruct:bow_limb",
+      "translation_key": "item.tconstruct.bow_limb",
+      "x": 39,
+      "y": 35
+    },
+    {
+      "icon": "tinkersancient:fuel_tanks",
+      "translation_key": "item.tinkersancient.fuel_tank",
+      "x": 60,
+      "y": 41,
+      "filter": [
+        {
+          "item": "tconstruct:seared_fuel_tank"
+        },
+        {
+          "item": "tconstruct:seared_fuel_gauge"
+        },
+        {
+          "item": "tconstruct:seared_ingot_tank"
+        },
+        {
+          "item": "tconstruct:seared_ingot_gauge"
+        },
+        {
+          "item": "tconstruct:scorched_fuel_tank"
+        },
+        {
+          "item": "tconstruct:scorched_fuel_gauge"
+        },
+        {
+          "item": "tconstruct:scorched_ingot_tank"
+        },
+        {
+          "item": "tconstruct:scorched_ingot_gauge"
+        }
+      ]
+    }
+  ],
+  "sortIndex": 5,
+  "translation_key": "item.tinkersancient.swasher"
+}

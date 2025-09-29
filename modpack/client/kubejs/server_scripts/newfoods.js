@@ -1,13 +1,13 @@
 ServerEvents.recipes(event => {
 let ICM = 'kubejs:magnetic_apple'
-event.recipes.create.sequenced_assembly(
+/* event.recipes.create.sequenced_assembly(
   ['kubejs:magnetic_apple'],
   'minecraft:golden_apple',
   [
     event.recipes.createFilling(ICM, [ICM, Fluid.of('tinker_in_caves:molten_scarlet_neodymium',90)]),
     event.recipes.createFilling(ICM, [ICM, Fluid.of('tinker_in_caves:molten_azure_neodymium',90)]),
 
-]).transitionalItem("minecraft:golden_apple").loops(1)
+]).transitionalItem("minecraft:golden_apple").loops(1) */
 event.custom(
 {
   "type": "youkaishomecoming:simple_fermentation",
@@ -46,7 +46,7 @@ event.custom(
   "type": "youkaishomecoming:simple_fermentation",
   "ingredients": [
     {
-      "item": "cloudertinker:magnet_ingot"
+      "item": "alexscaves:green_soylent"
     },
     {
       "item": "minecraft:sugar"
@@ -87,7 +87,7 @@ event.custom(
             "tag": "forge:milk"
           },
           {
-            "item": "ae2:fluix_pearl"
+            "item": "alexscaves:amber_curiosity"
           },
           {
             "item": "youkaishomecoming:oolong_tea_leaves"
@@ -97,6 +97,111 @@ event.custom(
         "recipe_book_tab":"drinks",
         "result": {
           "item": "kubejs:amber_bubble_tea"
+        }
+      }
+)
+event.custom(
+    {
+        "type": "farmersdelight:cooking",
+        "container":{
+          "item":"minecraft:bowl"
+        },
+        "cookingtime": 300,
+        "experience": 40.0,
+        "ingredients": [
+          {
+            "item": "iceandfire:fire_dragon_flesh"
+          },
+          {
+            "item": "iceandfire:fire_dragon_blood"
+          },
+          {
+            "item": "iceandfire:fire_lily"
+          },
+          {
+            "item": "iceandfire:dragonbone"
+          },
+          {
+            "item": "minecraft:gold_nugget"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "kubejs:fire_dragon_stew"
+        }
+      }
+)
+event.custom(
+    {
+        "type": "farmersdelight:cooking",
+        "container":{
+          "item":"minecraft:bowl"
+        },
+        "cookingtime": 300,
+        "experience": 40.0,
+        "ingredients": [
+          {
+            "item": "iceandfire:ice_dragon_flesh"
+          },
+          {
+            "item": "iceandfire:ice_dragon_blood"
+          },
+          {
+            "item": "iceandfire:frost_lily"
+          },
+          {
+            "item": "iceandfire:dragonbone"
+          },
+          {
+            "tag": "forge:nuggets/silver"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "kubejs:ice_dragon_stew"
+        }
+      }
+)
+event.custom(
+    {
+        "type": "farmersdelight:cooking",
+        "container":{
+          "item":"minecraft:bowl"
+        },
+        "cookingtime": 300,
+        "experience": 40.0,
+        "ingredients": [
+          {
+            "item": "iceandfire:lightning_dragon_flesh"
+          },
+          {
+            "item": "iceandfire:lightning_dragon_blood"
+          },
+          {
+            "item": "iceandfire:lightning_lily"
+          },
+          {
+            "item": "iceandfire:dragonbone"
+          },
+          {
+            "tag": "forge:nuggets/copper"
+          },
+          {
+            "item": "minecraft:potato"
+          },
+
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+          "item": "kubejs:lightning_dragon_stew"
         }
       }
 )

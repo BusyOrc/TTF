@@ -23,7 +23,7 @@ if(event.player.hasEffect("youkaishomecoming:unconscious") && event.block.hasTag
   let lemon=['fruitsdelight:lemon', 'fruitsdelight:lemon_jelly', 'fruitsdelight:lemon_jello',
      'fruitsdelight:lemon_juice', 'fruitsdelight:lemon_slice', 'fruitsdelight:lemon_tart',
       'fruitsdelight:lemon_cookie', 'hmag:lemon', 'hmag:honeyed_lemon','hmag:lemon_pie',
-       'youkaishomecoming:lemon_black_tea', 'youkaishomecoming:avgolemono',"mystias_izakaya:ning_meng"]
+       'youkaishomecoming:lemon_black_tea', 'youkaishomecoming:avgolemono']
 
 
 
@@ -145,16 +145,17 @@ PlayerEvents.advancement(event=>{
     if(event.source.getActual() != null && killer.isPlayer())
     {
       
-      if(flag<1)
+      if(flag==0)
       {
         event.source.actual.give('10x kubejs:rumia')
-        console.log("1 yes")
+//        console.log("1 yes")
       }
     
      else
+      if(flag==4)
      { 
          event.source.actual.give('10x kubejs:ex_rumia')  
-         console.log("2 yes")
+//         console.log("2 yes")
      }
 
     }

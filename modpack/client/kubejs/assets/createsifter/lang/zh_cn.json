@@ -20,6 +20,7 @@
   "createsifter.ponder.sifter.text_5": "物品也可通过自动化的方式输出",
   "createsifter.recipe.sifting.brass_required": "需要黄铜筛子",
   "createsifter.recipe.sifting.minimumspeed": "%1$s RPM",
+  "createsifter.tooltip.minimumspeed": "需求转速 %1$s RPM",
   "createsifter.recipe.sifting.waterlogged": "含水",
   "item.createsifter.advanced_brass_mesh": "高级黄铜筛网",
   "item.createsifter.advanced_custom_mesh": "Advanced Custom Mesh",

@@ -5,7 +5,7 @@
 	group: "756D1B6269D2C725"
 	icon: "sfm:manager"
 	id: "7F57671BC250B56D"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1087,7 +1087,7 @@
 		}
 		{
 			id: "37310832D86E6366"
-			shape: "rsquare"
+			shape: "none"
 			size: 2.0d
 			tasks: [{
 				id: "4D2B073F189CACDA"

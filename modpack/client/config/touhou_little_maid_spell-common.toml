@@ -13,9 +13,9 @@ farRange = 8.5
 #女仆伤害倍率 (默认: 1.0，仅在法术战斗任务下生效)
 #Maid damage multiplier(default:1.0,only effective on spellCombatTask)
 #Range: 0.0 ~ 50.0
-maidDamageMultiplier = 1.0
+maidDamageMultiplier = 1.2
 #女仆法术冷却倍率 (默认: 1.0，仅在法术战斗任务下生效)
 #Maid cooldown multiplier(default:1.0,only effective on spellCombatTask)
 #Range: 0.0 ~ 50.0
-maidCooldownMultiplier = 1.0
+maidCooldownMultiplier = 0.9
 

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0D06F519823043C6"
-	group: "2F6557FC41D866A7"
+	group: "756D1B6269D2C725"
 	icon: "ae2:blue_smart_cable"
 	id: "0D06F519823043C6"
 	images: [
@@ -70,16 +70,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.8999999999999999d
-			y: 7.4d
-		}
-		{
-			click: "#"
-			height: 1.0d
-			hover: ["充能器"]
-			image: "ae2:block/charger"
-			rotation: 0.0d
-			width: 1.0d
-			x: -1.1d
 			y: 7.4d
 		}
 		{
@@ -503,12 +493,21 @@
 			x: 16.0d
 			y: 19.8d
 		}
+		{
+			click: "#"
+			height: 1.0d
+			hover: ["充能器"]
+			image: "ae2:block/charger_inside"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 7.5d
+		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F698C6A49F609BD"]
 			description: [
 				"天子：小心点，我手上可是有一把会冒火的直剑。哦，原来不是灵梦啊，那好说。不好意思有点反应过度，毕竟刚刚处理完大闹有顶天的孙美天，她现在已经被压到妖怪之山下面了，而且六根已经被瓜分了，等500年就能出来。"
 				""
@@ -2370,7 +2369,7 @@
 				""
 				"&b其余的方块（核心除外）只能放置于内部&r，且不允许留空，如果需要额外填充，则需要用量子合成单元来填补"
 			]
-			icon: "alexsmobs:straddlite_block"
+			icon: "advanced_ae:adv_pattern_provider_part"
 			id: "4BFEBE04214AA85A"
 			rewards: [{
 				auto: "enabled"

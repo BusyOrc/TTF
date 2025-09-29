@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "048266508AAAAEBF"
-	group: "4293891DF89E3E58"
+	group: "26F1962A4E5A2646"
 	icon: {
 		Count: 1
 		id: "touhou_little_maid:maid_beacon"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "048266508AAAAEBF"
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

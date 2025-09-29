@@ -1,0 +1,16 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "addition",
+          "value": 0.15
+        }
+      ],
+      "name": "touhoutinkermodifier:bibliophilia_charm"
+    }
+  ]
+}

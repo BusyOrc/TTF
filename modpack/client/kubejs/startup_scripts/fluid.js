@@ -206,4 +206,9 @@ StartupEvents.registry('fluid', event => {
     .bucketColor(0xFF00FF)
     .displayName('妖怪燃料')
 
+    event.create('molten_patch_slime')
+    .thinTexture(0xFF69B4)
+    .bucketColor(0xFF69B4)
+    .displayName('熔融帕琪黏液')
+
 })

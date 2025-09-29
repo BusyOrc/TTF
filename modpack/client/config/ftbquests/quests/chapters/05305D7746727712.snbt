@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05305D7746727712"
+	group: "221DDC614A1C707D"
+	icon: "mbd2:mech_interface"
+	id: "05305D7746727712"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DBD2E2E4438805A"]
+			id: "75424DA5925A69EB"
+			tasks: [{
+				id: "4E87B0055BD52986"
+				item: "mbd2:mech_interface"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7DBD2E2E4438805A"]
+			id: "5CB48D0A87B37301"
+			tasks: [{
+				id: "4DED54FCD5B9FC3A"
+				item: "mbd2:stress1"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7DBD2E2E4438805A"]
+			id: "060BA279851543AE"
+			tasks: [
+				{
+					id: "34EAC315FBC05F32"
+					item: "mbd2:input_casing"
+					type: "item"
+				}
+				{
+					id: "60E32C0E53F76700"
+					item: "mbd2:output_casing"
+					type: "item"
+				}
+			]
+			x: -1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"75424DA5925A69EB"
+				"060BA279851543AE"
+				"5CB48D0A87B37301"
+			]
+			id: "1714C5EDC961301D"
+			tasks: [{
+				id: "3074C7D7D321ED20"
+				item: "mbd2:create1"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			icon: "create:cogwheel"
+			id: "7DBD2E2E4438805A"
+			tasks: [
+				{
+					id: "7D63698CDDEC0011"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "04602F52C569B34E"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1714C5EDC961301D"]
+			id: "2101D894ED956D08"
+			tasks: [{
+				id: "500F8C37DC01537B"
+				item: "thermal:sawdust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: "初步探索"
+}

@@ -618,9 +618,10 @@
 		}
 		{
 			dependencies: [
-				"2D97609AFEA7E2BE"
 				"346416F7051B54C1"
+				"71031A658BFF69D7"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"你能否正确回答车万角色的相关问题呢？如果回答正确的话有&a丰厚奖励&r"
 				""

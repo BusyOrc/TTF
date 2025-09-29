@@ -1,0 +1,35 @@
+{
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ],  
+  "type": "advanced_ae:reaction",
+  "energy": 24000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 4000,
+      "FluidName": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ltc2:pepper_jalapeno_powder"
+      }
+    },
+    {
+      "amount": 32,
+      "ingredient": {
+        "tag": "ltc2:pepper_powders"
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#c": "ae2:i",
+    "id": "minecraft:gunpowder"
+  }
+}

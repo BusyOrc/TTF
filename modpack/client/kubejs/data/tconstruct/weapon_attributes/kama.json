@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:sickle"
+    "parent": "bettercombat:sickle",
+    "attack_range": 3.3
   }

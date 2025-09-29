@@ -272,7 +272,7 @@
 		}
 	}
 	id: "712B415C2F925140"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -287,6 +287,12 @@
 				"3.在物品栏中拿起经验棒，对着液态经验按中键"
 			]
 			id: "1323460A50465903"
+			rewards: [{
+				count: 3
+				id: "5079117B76D5F419"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C0B8DB95BEAF937"
 				item: {
@@ -299,7 +305,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
@@ -310,6 +316,12 @@
 				"设定好以后，放入护符栏位即可自动将周围物品吸收进入维度网络"
 			]
 			id: "4BABFF0404FD0E33"
+			rewards: [{
+				count: 3
+				id: "52A7A753C5685F93"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A0DFA9E9BE034FB"
 				item: {
@@ -583,14 +595,14 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2403A3FFA2CEAA6B"]
 			description: [
-				"获取方法：解锁维度网络以后每隔一段时间会自动在维度网络中产生，无需任何成本"
-				""
+				"获取方法：解锁个人存储隙间以后&a每隔一段时间会自动在维度网络中产生，无需任何成本"
+				"&r"
 				"在熔炉中烧制能得到锭，可用于许多配方"
 				""
 				"除此之外，据说某个外界的神秘社团需要这种特殊物质，也许山童的在线商店里面能将其出售给这个社团"
@@ -628,18 +640,19 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["63FDF426AA0E0947"]
 			description: [
-				"维度网络的起始点，只需要右键使用，就能用快捷键打开维度网络（&b默认快捷键为O&r，可根据个人需要进行调整）"
+				"个人存储隙间的起始点，&b只需要右键交给灵梦&r，就能用快捷键打开个人存储隙间，即维度网络（&b默认快捷键为O&r，可根据个人需要进行调整）"
 				""
-				"维度网络类似于有&a几乎无限空间的AE存储&r，并且自带不消耗任何能源的远程终端，除了手动将物品放入维度网络，还有其他偏向于自动的方式"
+				"维度网络类似于一个&a初始存储空间很小但是可以升级拓展的AE磁盘&r，自带不消耗任何能源的远程终端，除了手动将物品放入维度网络，还有其他偏向于自动的方式"
+				""
+				"其中存储的液态经验也能输出，并且作为合成原材料使用"
 			]
 			id: "2403A3FFA2CEAA6B"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "51A9EFF405702DD5"
-				item: "beyonddimensions:net_creater"
+				id: "68F569655C29CB39"
+				item: "kubejs:doremy_ingot"
 				type: "item"
 			}]
 			x: -3.0d
@@ -649,12 +662,18 @@
 			dependencies: ["0B3906AC2CF0046B"]
 			description: ["将相邻容器内的物品输入进维度网络，&d相当于一个AE模组的ME输入总线&r（并且塞满了加速卡）"]
 			id: "03C15F61CC15F77C"
+			rewards: [{
+				count: 3
+				id: "71FBCAAC0803AF3B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "295344F1011BF8F1"
 				item: "beyonddimensions:net_pump_block"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 3.0d
 		}
 		{
@@ -665,12 +684,18 @@
 				"&d相当于热力的真空吸尘器&r"
 			]
 			id: "247406234451C945"
+			rewards: [{
+				count: 3
+				id: "10866A7BC78B417A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E8949963A8097BF"
 				item: "beyonddimensions:net_hopper_block"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -681,12 +706,18 @@
 				"需要先设置好过滤才能正常发配物品，但是还有另外一个作用：将多余的物品直接送入&b&mME网络&r&r维度网络中，和ME接口用法几乎一样"
 			]
 			id: "4A7B4DFE3CF83651"
+			rewards: [{
+				count: 3
+				id: "7AD5C0188FF32DCA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02036E7027E085F1"
 				item: "beyonddimensions:net_interface"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -703,18 +734,30 @@
 				"如果在某个有AE的整合包里，还可以直接将存储总线贴在这个方块上面，这样能直接读取其中的所有物品"
 			]
 			id: "33BBAD24452EAB09"
+			rewards: [{
+				count: 3
+				id: "50F1A8C0F05A3F10"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "55B0BD3A7BE715E8"
 				item: "beyonddimensions:net_pathway"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["0B3906AC2CF0046B"]
 			description: ["&d相当于背包模组的自动喂食升级&r，只不过是直接从网络库存里面喂食"]
 			id: "4D354B0E676BB6C1"
+			rewards: [{
+				count: 3
+				id: "26DB57937C3FEEE8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "701DAFB139349ACD"
 				item: {
@@ -982,31 +1025,47 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["0B3906AC2CF0046B"]
 			description: ["&d相当于AE的合成终端&r，区别在于，无需贴在ME线缆上面，而是可以任意放置"]
 			id: "17D9F734824D797D"
+			rewards: [{
+				count: 3
+				id: "142C2BDD9E5D1308"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "183A9EE49F11BC96"
 				item: "beyonddimensions:net_terminal_block"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0B3906AC2CF0046B"]
-			description: ["可实现自动熔炼，无需庞杂的熔炉组，在没有鼓风机的整合包里有一定作用"]
+			description: [
+				"可实现自动熔炼，无需庞杂的熔炉组，在没有鼓风机的整合包里有一定作用"
+				""
+				"支持使用FE和熔岩流体作为燃料，输出的成品支持弹出到周围容器，也支持直接存入网络"
+			]
 			id: "6A735E3CAEE5244A"
+			rewards: [{
+				count: 3
+				id: "5E7D4C353CBE01D8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "041AE71935EF6B47"
 				item: "beyonddimensions:net_furnace_block"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -1017,12 +1076,18 @@
 				"主要作用是给其他玩家访问绑定的对应网络"
 			]
 			id: "77F020B10FFDE66C"
+			rewards: [{
+				count: 3
+				id: "3D56B686C92DBA99"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A11DB6DF4EE466E"
 				item: "beyonddimensions:net_terminal_item"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -1033,12 +1098,18 @@
 				"未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
 			]
 			id: "7685A7098361D155"
+			rewards: [{
+				count: 3
+				id: "7075DD2980FA7749"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F07D9CE7B3AB893"
 				item: "beyonddimensions:net_member_inviter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -1049,12 +1120,18 @@
 				"未加入任何维度网络的玩家使用绑定过的连接器可以加入此网络。"
 			]
 			id: "454041E83A0752B3"
+			rewards: [{
+				count: 3
+				id: "006AFABECCA01037"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72F19752046E8594"
 				item: "beyonddimensions:net_manager_inviter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 5.5d
 		}
 		{
@@ -1072,12 +1149,18 @@
 				"    对方网络绑定的所有物品和方块均回归到未绑定状态。"
 			]
 			id: "223304E1493D878C"
+			rewards: [{
+				count: 3
+				id: "61069FB66626635B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E81B289ACF2FD81"
 				item: "beyonddimensions:net_gifter"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
@@ -1088,25 +1171,56 @@
 				"用于管理成员的权限等级以及移除成员。"
 			]
 			id: "0194E3F462190C1B"
+			rewards: [{
+				count: 3
+				id: "164493C46135CED9"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7868E528C36C2A42"
 				item: "beyonddimensions:net_control"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
-			description: ["将其放在物品栏中1小时即可转化为稳态时空碎片"]
-			id: "63FDF426AA0E0947"
-			tasks: [{
-				id: "6B16A2C6A0813EFE"
-				item: "beyonddimensions:unstable_space_time_fragment"
+			dependencies: ["0B3906AC2CF0046B"]
+			id: "559EA8552D54F06B"
+			rewards: [{
+				count: 3
+				id: "421BD300D9639F7B"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.5d
+			tasks: [{
+				id: "3E9095AB999431C8"
+				item: "beyonddimensions:ars_source_pathway"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B3906AC2CF0046B"]
+			description: [
+				"Shift右键绑定到当前玩家所在的个人存储隙间。管理员Shift右键可取消绑定"
+				""
+				"用于AE2的存储元件，放入ME驱动器后即可让ME网络读取其所绑定的维度网络内容"
+				""
+				"比起存储总线，&a优化水平遥遥领先&r"
+			]
+			id: "47937613165B933C"
+			shape: "hexagon"
+			tasks: [{
+				id: "25526123CCC795B5"
+				item: "beyonddimensions:net_ae_storage_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
-	title: "维度网络存储"
+	title: "个人存储隙间"
 }

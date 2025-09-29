@@ -48,8 +48,8 @@
 
 [Animations]
 	#What to render in first person while casting.
-	showFirstPersonArms = false
-	showFirstPersonItems = false
+	showFirstPersonArms = true
+	showFirstPersonItems = true
 
 [Renderers]
 	#By default, both fireballs are replaced with an enhanced model used by fire spells.

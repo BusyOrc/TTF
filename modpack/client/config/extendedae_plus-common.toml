@@ -8,7 +8,7 @@
 	#无线收发器最大连接距离（单位：方块）
 	#从端与主端的直线距离需小于等于该值才会建立连接。
 	#Range: 1.0 ~ 4096.0
-	wirelessMaxRange = 256.0
+	wirelessMaxRange = 1024.0
 	#是否允许无线收发器跨维度建立连接
 	#开启后，从端可连接到不同维度的主端（忽略距离限制）
 	wirelessCrossDimEnable = true
@@ -23,4 +23,12 @@
 	#样板终端默认是否显示槽位
 	#影响进入界面时SlotsRow的默认可见性，仅影响客户端显示
 	patternTerminalShowSlotsDefault = true
+	#智能倍增的最大倍数（0 表示不限制）
+	#此倍数是针对单次样板产出的放大倍数上限，用于限制一次推送中按倍增缩放的规模
+	#Range: 0 ~ 1048576
+	smartScalingMaxMultiplier = 0
+	#智能倍增最小收益因子（默认 4）
+	#当目标请求量小于 perOperationTarget * 此因子 时，智能倍增将不被启用以避免无意义包装
+	#Range: 1 ~ 1024
+	smartScalingMinBenefitFactor = 4
 

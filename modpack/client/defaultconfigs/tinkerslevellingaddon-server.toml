@@ -30,13 +30,13 @@
 	maxLevel = 5
 	#Base amount of experience required to reach next level.
 	#Range: > 1
-	baseExperience = 500
+	baseExperience = 200
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
 	requiredXpMultiplier = 1.5
 	#Additional multiplier for broad tools for experience required to level up.
 	#Range: 1.0 ~ 10.0
-	broadToolRequiredXpMultiplier = 2.0
+	broadToolRequiredXpMultiplier = 1.2
 
 	#Modifier slots settings
 	[general.slots]
@@ -63,7 +63,7 @@
 		#List of modifier slot types (in order) that will be awarded when leveling up armor. If level is higher than list size the mod will start over.
 		#If empty default order will be used (upgrade, defense, upgrade, ability, defense).
 		#Allowed values: upgrade, ability, soul, defense
-		armorSlotTypeOrder = ["ability", "upgrade", "upgrade", "ability", "defense"]
+		armorSlotTypeOrder = ["ability", "upgrade", "defense", "ability", "defense"]
 		#Set of modifier slot types from which random slot will be awarded when leveling up staffs.
 		#If empty default pool will be used (upgrade, upgrade, upgrade, defense, ability).
 		#Allowed values: upgrade, ability, soul, defense
@@ -230,7 +230,7 @@
 		#Range: > 0
 		attacking = 0
 		#Range: > 0
-		shooting = 0
+		shooting = 20
 		#Range: > 0
 		takingDamage = 0
 		#Range: > 0

@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:sword"
+    "parent": "bettercombat:sword",
+    "attack_range": 3.5
   }

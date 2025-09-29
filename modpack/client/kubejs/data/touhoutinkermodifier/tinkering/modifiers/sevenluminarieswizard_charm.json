@@ -1,0 +1,51 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        },
+        {
+          "attribute": "touhoutinkermodifier:mana_cost_reduction",
+          "operation": "addition",
+          "value": 0.15
+        }
+      ],
+      "name": "touhoutinkermodifier:sevenluminarieswizard_charm"
+    }
+  ]
+}

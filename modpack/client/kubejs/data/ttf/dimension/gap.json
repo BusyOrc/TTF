@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:smooth_stone",
+          "height": 10
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "067685C32F8B8BDD"
+	group: "756D1B6269D2C725"
+	icon: "mbd2:create1"
+	id: "067685C32F8B8BDD"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "42D37D6454A3E548"
+			tasks: [{
+				id: "526D7CCB8658F3D6"
+				item: "mbd2:input_casing"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -5.5d
+		}
+		{
+			id: "2AD63DA233DDD63C"
+			tasks: [{
+				id: "0DAA328EA5DD61E6"
+				title: "单方块机器"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "4394DB22C9A24F16"
+			tasks: [{
+				id: "79F91CAB451CDF5E"
+				item: "mbd2:mech_interface"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "4CC16B61D9DB45EC"
+			tasks: [{
+				id: "4307E467F9761165"
+				item: "mbd2:output_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "21C6C541266BF07B"
+			tasks: [{
+				id: "646DCE2EDC47B8D4"
+				item: "mbd2:tofu_input"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.25d
+		}
+		{
+			description: [""]
+			id: "6A67AB17EC1D4892"
+			subtitle: "具体请查看JEI"
+			tasks: [{
+				id: "4F594542893C796F"
+				title: "多方块的控制器"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "7B618AC81CD2DE13"
+			tasks: [{
+				id: "50F77C3690210B37"
+				item: "mbd2:aqua"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "3356DB3865EA2E42"
+			tasks: [{
+				id: "51AC297F4EEC41D3"
+				item: "mbd2:border_stablizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "470B6E99E3DD4FAE"
+			tasks: [{
+				id: "48C178E150BF3E13"
+				item: "mbd2:create1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "6650D0455D0E3F82"
+			tasks: [{
+				id: "4DA885A08A722A4A"
+				item: "mbd2:touhou_shrine"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "674B2380C029BCE5"
+			tasks: [{
+				id: "2FADA905831A1AFE"
+				item: "mbd2:big_tofu_shrine"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "2F35FCBCAB33D54B"
+			tasks: [{
+				id: "16B75E61A292CFB6"
+				item: "mbd2:small_tofu_shrine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "7364E367B56E847F"
+			tasks: [{
+				id: "79759FBA38D8831C"
+				item: "mbd2:scarlet_rocket"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "67BB1DEE6FAEB368"
+			tasks: [{
+				id: "0411860D95784028"
+				item: "mbd2:oil_drill"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "546B0A1C303F5B31"
+			tasks: [{
+				id: "737C56311EF0AB64"
+				item: "mbd2:nuclear_plant"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "6ED0E8E1EEE15FA6"
+			tasks: [{
+				id: "5A02F1A03D270330"
+				item: "mbd2:mental_generator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A67AB17EC1D4892"]
+			id: "64143AAABD6D4059"
+			tasks: [{
+				id: "7791C9514CE7803B"
+				item: "mbd2:killing_machine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "23C40590BFD5CB69"
+			tasks: [{
+				id: "0C129EAB2668F540"
+				item: "mbd2:stress1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AD63DA233DDD63C"]
+			id: "78D46D16D189953C"
+			tasks: [{
+				id: "0D235EF6F41EB142"
+				item: "mbd2:stress_provider"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+	]
+	title: "特殊机器汇总"
+}

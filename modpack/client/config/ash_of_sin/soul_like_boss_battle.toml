@@ -1,0 +1,20 @@
+#Soul Like Boss Battle On
+#Enable Soul Like Boss Battle
+"Soul Like Boss Battle On" = true
+#Soul Like Boss Battle Entity
+#Soul Like Boss Battle Entity id.
+"Soul Like Boss Battle Entity" = ["youkaishomecoming:komeiji_koishi","youkaishomecoming:kochiya_sanae","youkaishomecoming:remilia_scarlet","youkaishomecoming:shrine_maiden","youkaishomecoming:kirisame_marisa","minecraft:wither", "minecraft:ender_dragon", "cataclysm:ancient_remnant", "cataclysm:the_leviathan", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "cataclysm:ender_guardian", "cataclysm:maledictus", "cataclysm:scylla", "witherstormmod:wither_storm", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:umvuthi", "mowziesmobs:naga", "aquamirae:captain_cornelia", "graveyard:lich", "irons_spellbooks:dead_king",  "alexsmobs:void_worm_part", "bosses_of_mass_destruction:gauntlet", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:obsidilith", "bosses_of_mass_destruction:void_blossom"]
+#Soul Like Boss Battle Distance
+#Radius of Soul Like Boss Battle. Minimum is 1, maximum is 128.(Default is 64 blocks)
+#Range: 1 ~ 128
+"Soul Like Boss Battle Distance" = 64
+#Soul Like Boss Battle Check Player Gamemode
+#Soul Like Boss Battle Valid Player's Gamemode: [survival, adventure, creative, spectator]
+Gamemode = ["survival", "adventure"]
+#Iron Golem Entity
+#Iron Golem entity id.
+"Iron Golem Entity" = ["minecraft:iron_golem"]
+#Anti-Iron Golem
+#Not allow Iron Golem hurt BOSS.
+"Anti-Iron Golem" = false
+

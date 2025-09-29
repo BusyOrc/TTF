@@ -95,6 +95,9 @@
 
 "material.kubejs.seija":"鬼人正邪",
 "material.kubejs.seija.flavor": "所谓下克上，就是以弱胜强",
-"material.kubejs.seija.encyclopedia":"越弱小，越强大。尽管敌人很强，但是越强的敌人越是要努力战胜。"
+"material.kubejs.seija.encyclopedia":"越弱小，越强大。尽管敌人很强，但是越强的敌人越是要努力战胜。",
+"task.kubejs.crystal":"水晶采集",
+"task.kubejs.crystal.desc":"自动挖掘各种水晶簇。水晶母岩需要放在地面上。",
+"task.kubejs.crystal.condition.need_pickaxe":"需要镐子"
 
 }

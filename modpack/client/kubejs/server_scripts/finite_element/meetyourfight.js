@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
         {
             T:'biomesoplenty:huge_clover_petal',
             P:'#minecraft:decorated_pot_sherds',
-            G:'nethersdelight:propelplant_cane',
+            G:'mynethersdelight:powder_cannon',
             K:'kubejs:dream_tofu',
             D:'farmersdelight:rich_soil'
         }

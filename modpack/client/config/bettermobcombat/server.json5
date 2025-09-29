@@ -34,7 +34,7 @@
 		"hmag:dullahan",
 		"hmag:redcap",
 		"hmag:imp",
-		"touhou_little_maid:maid"
+		"hmag:maverick"
 	],
 	/* Allows the mob blacklist to instead be used as a whitelist. 
 	   This makes it so that only mobs in the whitelist can use the Better Combat system.

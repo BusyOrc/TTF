@@ -46,15 +46,29 @@
 			#Range: 1.0 ~ 2.147483647E9
 			enableTinkerBookATKBonus = 2.4
 
-	["兼容配置".drop]
+		#战术刺刀激光步枪
+		["兼容配置"."工具配置"."Laser Gun"]
+			#激光普通模式能量消耗
+			#Range: > 0
+			laserBaseEnergy = 500
+			#激光连发模式每tick增加的能量消耗
+			#Range: > 0
+			continuousModePerTickEnergyCost = 50
+			#激光连发模式每tick伤害增幅
+			#Range: 0.0 ~ 1.7976931348623157E308
+			continuousModePerTickDamageIncrease = 0.05
+			#激光连发模式伤害增幅持平普通模式所需要的tick大小
+			#Range: > 1
+			continuousModeDamageToBaseBonus = 40
 
-		#万剑归一掉落配置
-		["兼容配置".drop.blade_convergence]
-			#万剑归一的掉落概率 (0.0 - 1.0)
-			#Range: 0.0 ~ 1.0
-			dropChance = 0.0
-			#可以掉落万剑归一的生物 (用逗号分隔)
-			dropMobs = "minecraft:ender_dragon"
+		#炼金手套
+		["兼容配置"."工具配置"."Alchemical Gloves"]
+			#每次投掷消耗的流体数量，默认250
+			#The amount of fluid consumed per throw is 250 by default.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			fluidConsume = 50.0
+
+	["兼容配置".drop]
 
 		#虚空珍珠掉落配置
 		["兼容配置".drop.void_pearl]

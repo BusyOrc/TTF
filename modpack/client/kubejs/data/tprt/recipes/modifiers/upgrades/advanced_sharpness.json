@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:reinforced_deepslate"
+    },
+    {
+      "item": "minecraft:reinforced_deepslate"
+    }
+  ],
+  "level": {
+    "max": 3
+  },
+  "result": "tprt:advanced_sharpness",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": [
+
+    {
+      "tag": "tconstruct:modifiable/melee/weapon"
+    }
+  ]
+}

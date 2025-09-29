@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:enchanting_table"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "result": "tprt:enchantment",
+  "slots": {
+    "upgrades": 2
+  },
+  "tools": [
+
+    {
+      "tag": "tconstruct:modifiable"
+    }
+  ]
+}

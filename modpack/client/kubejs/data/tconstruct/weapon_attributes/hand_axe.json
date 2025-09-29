@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:axe"
+    "parent": "bettercombat:axe",
+    "attack_range": 3.5
   }

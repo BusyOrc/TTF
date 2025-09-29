@@ -57,7 +57,9 @@
     "companion":"#00FA9A" ,
     "fountain_magic":"#FF00FF",
     "expelleescanaan":"#00E5EE",
-    "spell_resist":"#8470FF"
+    "spell_resist":"#8470FF",
+    "sevenluminarieswizard_charm":"#483D8B",
+    "bibliophilia_charm":"#FF69B4"
     },
     "material.touhoutinkermodifier": {
         "devil":"#FF4500",

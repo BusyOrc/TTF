@@ -117,6 +117,15 @@ ServerEvents.recipes(event => {
       )
 
       event.shapeless(
+        'extendedcrafting:ultimate_component', 
+        [
+          'extendedcrafting:black_iron_slate',
+          'extendedcrafting:luminessence',
+          'goety:soul_emerald','goety:soul_emerald'
+        ]
+      )
+
+      event.shapeless(
         'pasterdream:pale_boneneedle', 
         [
           'minecraft:bone',
@@ -221,10 +230,7 @@ event.shaped(
   }
 )
 
-event.shaped('6x mystias_izakaya:nan_gua',
-  ['PP'],
-    {P:'minecraft:pumpkin'}
-)
+
 
 event.shaped('4x tinkers_thinking:silky_jewel',
   [' A ',
@@ -466,6 +472,18 @@ event.shaped('ttf:magic_tube',
   }
 )
 
+event.shaped('extendedcrafting:crystaltine_ingot',
+  [
+    'CCC',
+    'CRC',
+    'CCC'
+  ],
+  {
+    C:'ae2:charged_certus_quartz_crystal',
+    R:'appflux:charged_redstone'
+  }
+)
+
 event.shaped('thermal:rf_coil',
   [
     '  S',
@@ -523,6 +541,160 @@ event.shaped(Item.of('irons_restrictions:manuscript', '{SchoolId:"alshanex_famil
   {
 W:'irons_restrictions:fragment',
 C:'minecraft:note_block'
+  }
+)
+
+event.shaped('createsifter:brass_sifter',
+  [
+    'LLL',
+    'BCB',
+    'BMB'
+  ],
+  {
+M:"kubejs:magic_tube",
+B:'create:brass_block',
+C:'createsifter:sifter',
+L:'thermal:lead_plate'
+  }
+)
+
+event.shaped('kubejs:stacked_charged_redstone',
+  [
+    'SSS',
+    'SSS',
+    'SSS'
+  ],
+  {
+S:'appflux:charged_redstone'
+  }
+)
+
+event.shaped('beyonddimensions:net_interface',
+  [
+    'FMF',
+    'MSM',
+    'FMF'
+  ],
+  {
+M:'expatternprovider:oversize_interface',
+F:'fluxnetworks:flux_core',
+S:'appflux:core_256m'
+  }
+)
+
+event.shaped('mbd2:create1',
+  [
+    ' C ',
+    'MAM',
+    'LLL'
+  ],
+  {
+M:'create:mechanical_saw',
+A:'create:andesite_casing',
+L:'create:linear_chassis',
+C:'create:chain_conveyor'
+  }
+)
+
+event.shaped('mbd2:mental_generator',
+  [
+    'MEM',
+    'FAF',
+    'MEM'
+  ],
+  {
+M:'ae2:matter_ball',
+F:'ae2:fluix_pearl',
+E:'ae2:engineering_processor',
+A:'ae2:cell_component_256k'
+  }
+)
+
+event.shaped('mbd2:oil_drill',
+  [
+    'PSR',
+    'ERE',
+    'RSP'
+  ],
+  {
+E:'extendedae_plus:64x_crafting_accelerator',
+P:'create:precision_mechanism',
+R:'thermal:rf_coil',
+S:'create:sturdy_sheet'
+  }
+)
+
+event.shaped('thermal:redstone_servo',
+  [
+    'C C',
+    ' I ',
+    'C C'
+  ],
+  {
+    C:'appflux:charged_redstone',
+    I:'create:iron_sheet'
+  }
+)
+
+event.shaped('mbd2:input_casing',
+  [
+    ' C ',
+    ' A ',
+    ' C '
+  ],
+  {
+    C:'create:chute',
+    A:'create:andesite_casing'
+  }
+)
+
+event.shaped('mbd2:output_casing',
+  [
+    ' C ',
+    ' A ',
+    ' C '
+  ],
+  {
+    C:'create:andesite_funnel',
+    A:'create:andesite_casing'
+  }
+)
+
+event.shaped('mbd2:killing_machine',
+  [
+    ' S ',
+    'FAF',
+    ' S '
+  ],
+  {
+    S:'create:shaft',
+    A:'create:andesite_casing',
+    F:'farmersdelight:safety_net'
+  }
+)
+
+event.shaped('mbd2:mech_interface',
+  [
+    ' S ',
+    'FIF',
+    ' S '
+  ],
+  {
+    S:'create_connected:six_way_gearbox',
+    I:'ae2:interface',
+    F:'farmersdelight:safety_net'
+  }
+)
+
+event.shaped('mbd2:stress1',
+  [
+    'MMM',
+    'MGM',
+    'MMM'
+  ],
+  {
+    G:'create:gearbox',
+    M:'ae2:matter_ball'
   }
 )
 

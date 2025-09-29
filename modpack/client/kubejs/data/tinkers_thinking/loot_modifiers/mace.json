@@ -1,0 +1,43 @@
+{
+  "type": "mantle:add_entry",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ender_dragon"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "entry": {
+    "type": "minecraft:item",
+    "name": "tinkers_thinking:mace"
+  },
+  "functions": [
+    {
+      "function": "tconstruct:add_tool_data",
+      "materials": [
+        {
+          "type": "tconstruct:random",
+          "allow_hidden": true,
+          "material": {
+            "type": "mantle:inverted",
+            "inverted_type": "mantle:tag",
+            "tag": "tconstruct:exclude_from_loot"
+          }
+        },
+        {
+          "type": "tconstruct:random",
+          "allow_hidden": true,
+          "material": {
+            "type": "mantle:inverted",
+            "inverted_type": "mantle:tag",
+            "tag": "tconstruct:exclude_from_loot"
+          }
+        }
+      ]
+    }
+  ],
+  "post_conditions": [
+  ]
+}

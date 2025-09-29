@@ -18,12 +18,22 @@
 	EnchanterBookLevel = true
 	#Does Latiao Mending work on items in armor slots? / “辣条修补”是否对护甲槽的物品生效
 	LatiaoMendingArmor = true
+	#The count of Latiao Frames obtained after consuming Duplishape Latiao / 通过食用衍变辣条可获取辣条框架的数量
+	#Range: 1 ~ 128
+	LatiaoFrameCount = 16
+	#The count of Legendary Yummy Sauce obtained after consuming Duplishape Latiao / 通过食用衍变辣条可获取传世美味酱的数量
+	#Range: 1 ~ 128
+	LegendaryYummySauceCount = 16
 
 ["Mob Drop / 生物掉落"]
 	#Allow the Warden to drop items from Latiao Craft 2 / 监守者是否会掉落本模组的物品
 	WardenDrop = true
-	#Allow the Strider Traders to drop items from Latiao Craft 2 / 炽足兽是否会掉落本模组的物品
+	#Allow the Strider to drop items from Latiao Craft 2 / 炽足兽是否会掉落本模组的物品
 	StriderDrop = true
+	#Allow the Ravager to drop items from Latiao Craft 2 / 劫掠兽是否会掉落本模组的物品
+	RavagerDrop = true
+	#Allow the Undead mob to drop items from Latiao Craft 2 / 亡灵生物是否会掉落本模组的物品
+	UndeadDrop = true
 
 ["Pepper Fertilizer / 辣椒催生粉"]
 	#Minimum wild pepper count when using Pepper Fertilizer / 使用辣椒催生粉生成的野生辣椒最小数量

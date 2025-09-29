@@ -44,9 +44,8 @@
 	entity = "touhou_little_maid:fairy"
 	minTier = 2
 	maxTier = 5
-	presetAffixes = ["champions:reflective","champions:magnetic"]
-	affixList = ["champions:magnetic", "champions:reflective",
- "champions:hasty", "champions:dampening", "champions:paralyzing"]
+	presetAffixes = ["champions:reflective", "champions:magnetic"]
+	affixList = ["champions:magnetic", "champions:reflective", "champions:hasty", "champions:dampening", "champions:paralyzing"]
 	affixPermission = "WHITELIST"
 
 [[entities]]
@@ -193,7 +192,6 @@
 	affixList = []
 	affixPermission = "BLACKLIST"
 
-
 [[entities]]
 	entity = "twilightforest:naga"
 	minTier = 2
@@ -215,7 +213,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:dampening", "champions:adaptable"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -223,7 +221,7 @@
 	minTier = 3
 	maxTier = 3
 	presetAffixes = ["champions:enkindling"]
-	affixList = ["champions:magnetic","champions:dampening","champions:adaptable"]
+	affixList = ["champions:magnetic", "champions:dampening", "champions:adaptable"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -239,7 +237,7 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:lively", "champions:adaptable"]
-	affixList = ["champions:magnetic","champions:dampening"]
+	affixList = ["champions:magnetic", "champions:dampening"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -254,31 +252,31 @@
 	entity = "twilightforest:snow_queen"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:arctic", "champions:adaptable","champions:dampening"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	presetAffixes = ["champions:arctic", "champions:adaptable", "champions:dampening"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:ender_guardian"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:dampening"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	presetAffixes = ["champions:adaptable", "champions:dampening"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:ignis"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:dampening", "champions:lively"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	presetAffixes = ["champions:adaptable", "champions:dampening", "champions:lively"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:netherite_monstrosity"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:molten", "champions:lively"]
+	presetAffixes = ["champions:adaptable", "champions:molten", "champions:lively"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
 
@@ -286,7 +284,7 @@
 	entity = "cataclysm:the_harbinger"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:paralyzing", "champions:dampening"]
+	presetAffixes = ["champions:adaptable", "champions:paralyzing", "champions:dampening"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
 
@@ -294,16 +292,15 @@
 	entity = "cataclysm:the_leviathan"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:hasty", "champions:wounding"]
+	presetAffixes = ["champions:adaptable", "champions:hasty", "champions:wounding"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
-
 
 [[entities]]
 	entity = "cataclysm:ancient_remnant"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:wounding"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:wounding"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
 
@@ -311,15 +308,15 @@
 	entity = "cataclysm:maledictus"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:kobolediator"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:dampening"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
 	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
@@ -328,14 +325,14 @@
 	minTier = 4
 	maxTier = 5
 	presetAffixes = ["champions:adaptable", "champions:dampening"]
-	affixList = ["champions:magnetic","champions:reflective"]
+	affixList = ["champions:magnetic", "champions:reflective"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "tofucraft:tofu_gandlem"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:reflective"]
 	affixList = ["champions:magnetic"]
 	affixPermission = "BLACKLIST"
 
@@ -378,16 +375,15 @@
 	entity = "hmag:ghastly_seeker"
 	minTier = 4
 	maxTier = 5
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:reflective"]
 	affixList = []
 	affixPermission = "BLACKLIST"
-
 
 [[entities]]
 	entity = "meetyourfight:swampjaw"
 	minTier = 2
 	maxTier = 3
-	presetAffixes = ["champions:adaptable","champions:knocking"]
+	presetAffixes = ["champions:adaptable", "champions:knocking"]
 	affixList = []
 	affixPermission = "BLACKLIST"
 
@@ -417,7 +413,7 @@
 
 [[entities]]
 	entity = "minecraft:warden"
-	minTier = 4
+	minTier = 5
 	maxTier = 5
 	presetAffixes = ["champions:adaptable"]
 	affixList = []
@@ -747,7 +743,7 @@
 	entity = "goety:inquillager"
 	minTier = 1
 	maxTier = 4
-	presetAffixes = ["champions:adaptable","champions:desecrating", "champions:reflective","champions:magnetic"]
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:reflective", "champions:magnetic"]
 	affixList = []
 	affixPermission = "BLACKLIST"
 
@@ -821,4 +817,1124 @@
 	maxTier = 4
 	presetAffixes = []
 	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:guardian_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:brood_mother_servant"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ally_vex"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:mini_ghast"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:quick_growing_vine"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:quick_growing_kelp"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:poison_quill_vine"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:poison_anemone"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ice_golem"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:redstone_cube"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:spider_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:cave_spider_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:web_spider_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ice_spider_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bone_spider_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:crypt_slime_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:tropical_slime_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:slime_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:magma_cube_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:black_wolf_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:skeleton_wolf"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:snapper"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:twilight_goat"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:hoglin_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bear_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:polar_bear_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:watchling_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:blastling_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:snareling_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:neoillager"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:pillager_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:vindicator_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:vindicator_chef_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:evoker_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:iceloger_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:geomance_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wind_caller_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:crusher_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:storm_caster_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:phantom_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zpiglin_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zpiglin_brute_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wraith_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:muck_wraith_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:reaper_servant"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:haunted_skull"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zombie_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:husk_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:drowned_servant"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:frozen_zombie_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:jungle_zombie_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zombie_vindicator"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:skeleton_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:stray_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:mossy_skeleton_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:sunken_skeleton_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:skeleton_pillager"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zombie_villager_servant"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:malghast"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:inferno"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:vanguard_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:blackguard_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:black_beast"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:necromancer_servant"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:cairn_necromancer_servant"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ravaged"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ravager"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:zombie_ravager"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ally_trampler"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:redstone_golem"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:whisperer"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wavewhisperer"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:leapleaf"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:squall_golem"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:redstone_monstrosity"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable",]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wither_skeleton_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:ghast_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:blaze_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wildfire"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:wither_necromancer_servant"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:grave_golem"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:haunt"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bound_evoker"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:border_wraith_servant"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:bound_iceologer"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:tormentor"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = []
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:vizier_clone"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:magnetic"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:carrio_maggot"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety:damned"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:coral_golem"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:coralssus"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:kobolediator"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:koboleton_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:koboleton"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:coral_golem"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:coralssus"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:draugr_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:draugr"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:royal_draugr_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:royal_draugr"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:elite_draugr_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:elite_draugrt"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:aptrgangr"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:aptrgangr"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:wadjet"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:wadjet"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:deepling_angler_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:deepling_brute_servant"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:deepling_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:deepling_priest_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:deepling_warlock_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:deepling_angler"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:deepling_brute"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:deepling_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:deepling_priest"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:deepling_warlock"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:the_prowler"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:the_prowler"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:watcher_servant"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:paralyzing"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:watcher"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["champions:paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:Hippocamtus"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:molten"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:Hippocamtus"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:cindaria_servant"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:molten"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:cindaria"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:clawdian"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:molten", "champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:clawdian"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:molten", "champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:urchinkin_servant"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = ["champions:molten"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:urchinkin"
+	minTier = 0
+	maxTier = 2
+	presetAffixes = ["champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:drowned_host_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:molten"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:symbiocto_servant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:molten"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:drowned_host"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:symbiocto"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:molten"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:ignited_revenant"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:wounding"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:ignited_berserker"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["champions:wounding"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ignited_revenant"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ignited_berserker"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["champions:wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:ender_golem"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:dampening"]
+	affixList = ["champions:infested","champions:magnetic","champions:plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ender_golem"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["champions:adaptable","champions:dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:netherite_monstrosity"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:molten", "champions:lively","champions:hasty"]
+	affixList = ["champions:magnetic","champions:plagued","champions:infested"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "goety_cataclysm:ancient_remnant"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["champions:adaptable", "champions:desecrating", "champions:wounding","champions:hasty"]
+	affixList = ["champions:magnetic","champions:plagued","champions:infested"]
 	affixPermission = "BLACKLIST"

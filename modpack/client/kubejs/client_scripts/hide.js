@@ -15,7 +15,9 @@ JEIEvents.hideItems((event) => {
       'tinkerscalibration:oraclium_nugget', 'tinkerscalibration:oraclium_ingot', 'tinkerscalibration:oraclium_block', 'tinkerscalibration:tonium_ingot',
        'tinkerscalibration:tonium_nugget', 'tinkerscalibration:tonium_block', 'tinkerscalibration:raw_tonium', 'tinkerscalibration:tonium_ore',
         'tinkerscalibration:deepslate_tonium_ore', 'tinkerscalibration:magiga_ingot', 'tinkerscalibration:magiga_nugget',
-         'tinkerscalibration:magiga_block', 'tinkerscalibration:raw_magiga', 'tinkerscalibration:magiga_ore', 'tinkerscalibration:deepslate_magiga_ore'
+         'tinkerscalibration:magiga_block', 'tinkerscalibration:raw_magiga', 'tinkerscalibration:magiga_ore', 'tinkerscalibration:deepslate_magiga_ore',
+         'tprt:lr_apple', 'tprt:lr_block', 'tprt:lriron', 'tprt:raw_lriron', 'tprt:raw_lr_block', 'tprt:king_of_mc',
+          'tprt:king_of_cataclysm', 'tprt:king_of_magic', 'tprt:king_of_fireandice','tprt:king_of_forest'
     ]
 
     let regexHide = []

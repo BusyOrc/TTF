@@ -10,7 +10,7 @@
 	#Range: 0 ~ 1000
 	hudRange = 50
 	#Set to true to move the WAILA overlay underneath the champion HUD
-	enableWailaIntegration = true
+	enableWailaIntegration = false
 	#Set false to close the plagued affix particle
 	enablePlaguedParticle = true
 	#The affix line count of the jade compact

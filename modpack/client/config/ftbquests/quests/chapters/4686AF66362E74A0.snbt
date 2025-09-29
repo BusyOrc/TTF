@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4686AF66362E74A0"
-	group: "70B4907D74D7EF03"
+	group: "398070A2413EA53F"
 	icon: "touhou_little_maid:bookshelf"
 	id: "4686AF66362E74A0"
 	images: [
@@ -42,7 +42,7 @@
 			click: "#"
 			height: 2.0d
 			hover: ["击杀疣猪兽获得外皮"]
-			image: "nethersdelight:item/hoglin_hide"
+			image: "mynethersdelight:item/hoglin_hide"
 			rotation: 27.0d
 			width: 2.0d
 			x: -1.0d
@@ -61,8 +61,8 @@
 			image: "irons_spellbooks:item/gold_crown"
 			rotation: 0.0d
 			width: 5.0d
-			x: -2.5d
-			y: 3.5d
+			x: -2.75d
+			y: 1.75d
 		}
 		{
 			height: 3.0d
@@ -139,8 +139,8 @@
 			image: "irons_spellbooks:item/upgrade_orb_lightning"
 			rotation: 0.0d
 			width: 3.0d
-			x: 17.25d
-			y: 0.0d
+			x: 15.0d
+			y: -3.25d
 		}
 		{
 			height: 1.0d
@@ -206,7 +206,7 @@
 			y: -1.25d
 		}
 		{
-			dependencies: ["49D50CFF3DF41852"]
+			dependencies: ["610510FD25CFE483"]
 			description: [
 				"帕秋莉：法术卷轴是一次性&c消耗品&r，但只要将其魔力融入法术书中，就能&a持续使用&r。"
 				""
@@ -456,8 +456,8 @@
 				type: "checkmark"
 			}]
 			title: "纯天然零添加"
-			x: 12.5d
-			y: -10.0d
+			x: 5.0d
+			y: -4.75d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -501,8 +501,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -11.75d
+			x: 3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5CF8AF2437575020"]
@@ -559,8 +559,8 @@
 				}
 			]
 			title: "熔岩钓鱼"
-			x: 12.5d
-			y: -11.25d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["10952F79C0619272"]
@@ -594,8 +594,8 @@
 				}
 			]
 			title: "收获"
-			x: 12.5d
-			y: -12.75d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1716,12 +1716,17 @@
 				""
 				"新生魔艺学派的使魔在签订契约后可以&a辅助施法&r，或是生产某些&a资源&r;  当然，使魔不会随便签订契约，要根据使魔的习性使用&a合适的物品&r作为条件，获取使魔的信物，再通过&d附魔装置&r制作绑定使魔护符来签订契约"
 				""
-				"而且这些使魔都&c超~可爱&r！"
+				"而且这些使魔都&c超~可爱，姆Q&r！"
 				"小恶魔：“帕秋莉大人QAQ”"
 			]
 			hide_dependency_lines: true
 			icon: "ars_nouveau:ritual_animal_summon"
 			id: "029068998879B2F8"
+			rewards: [{
+				id: "3C386107EA51941D"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "某四字游戏第四强职业"
@@ -1827,19 +1832,11 @@
 		{
 			dependencies: ["029068998879B2F8"]
 			description: [
-				"帕秋莉：本来在过去德格米是很常见的生物，不过可能是由于过度利用，现在大部分的德格米已经销声匿迹，不过在整个暮色森林中都有可能见到德格米，而主世界并不会出现"
+				"帕秋莉：本来在过去德格米是很常见的生物，不过可能是由于过度利用，现在大部分的德格米已经销声匿迹，不过在整个暮色森林中都有可能见到德格米，而主世界并不会出现。&c坏消息是，由于德格米在过去被很多人过度开发利用，现在已经无法产出任何物品"
 				""
-				"在野生德格米旁放下&e荒野之角&r可以向它表示友好，随后它会掉落&e德格米碎片&r。"
+				"&r在野生德格米旁放下&e荒野之角&r可以向它表示友好，随后它会掉落&e德格米碎片&r。"
 				"{@pagebreak}"
 				"在附魔装置中使用&e德格米碎片&r合成&e德格米护符&r，随后&6右键苔石&r即可召唤出你的德格米。此时苔石会变成德格米石阵。想&e召唤更多的德格米&r只需用德格米护符再次&6右击石阵&r。"
-				""
-				"德格米的工作范围是以家为中心任意方向10格内，它会利用该区域来&e产出附近任何实体的掉落物&r。其工作效率取决于幸福度。幸福度可以通过&e增加家中的实体数量和实体种类&r来提高。"
-				""
-				"围绕石阵工作的每个德格米都会间歇性的为生产进度作出贡献。当&e达到了最大进度&r，石阵会&e生产出物品和经验宝石&r，并将其&6存入相邻容器&r。每次生产后，石阵都需要&6吸取魔源重新充能&r。掉落物和经验宝石的数量取决于德格米的幸福度和对应实体的经验值。"
-				""
-				"要让德格米开始工作，必须&6紧贴石阵放置一个箱子和一个有魔源的魔源罐&r。"
-				"{@pagebreak}"
-				"也就是说，&d只要供给魔源，德格米能够源源不断的为你产生生物掉落物。&r"
 			]
 			hide_dependency_lines: true
 			id: "61800058E061BE74"
@@ -2646,7 +2643,7 @@
 				type: "checkmark"
 			}]
 			title: "铁魔法学派"
-			x: -2.5d
+			x: -5.75d
 			y: 4.25d
 		}
 		{
@@ -3316,8 +3313,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.75d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3346,8 +3343,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 1.25d
+			x: 18.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3376,8 +3373,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 1.25d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3432,8 +3429,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -0.75d
+			x: 17.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3481,8 +3478,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -0.75d
+			x: 18.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3511,8 +3508,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.75d
-			y: -2.75d
+			x: 15.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3541,8 +3538,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.75d
-			y: -2.75d
+			x: 14.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3579,8 +3576,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.25d
-			y: -1.75d
+			x: 15.25d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3609,8 +3606,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: 0.25d
+			x: 18.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3639,8 +3636,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 0.25d
+			x: 17.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["675426B2C88EB4C0"]
@@ -3652,8 +3649,8 @@
 				title: "魔法书"
 				type: "checkmark"
 			}]
-			x: 17.25d
-			y: 0.25d
+			x: 15.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6DD3E47978B9510F"]
@@ -3732,8 +3729,8 @@
 				type: "checkmark"
 			}]
 			title: "工匠秘典"
-			x: 15.0d
-			y: -0.25d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3CFB5C1859A937C8"]
@@ -3750,8 +3747,8 @@
 				item: "irons_spellbooks:ice_staff"
 				type: "item"
 			}]
-			x: 8.25d
-			y: -8.0d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CFB5C1859A937C8"]
@@ -3768,8 +3765,8 @@
 				item: "irons_spellbooks:artificer_cane"
 				type: "item"
 			}]
-			x: 9.25d
-			y: -7.0d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3CFB5C1859A937C8"]
@@ -3786,8 +3783,8 @@
 				item: "irons_spellbooks:lightning_rod"
 				type: "item"
 			}]
-			x: 8.25d
-			y: -7.0d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3CFB5C1859A937C8"]
@@ -3804,8 +3801,8 @@
 				item: "irons_spellbooks:blood_staff"
 				type: "item"
 			}]
-			x: 9.25d
-			y: -8.0d
+			x: 9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CFB5C1859A937C8"]
@@ -3822,8 +3819,8 @@
 				item: "irons_spellbooks:graybeard_staff"
 				type: "item"
 			}]
-			x: 8.25d
-			y: -9.0d
+			x: 8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["202B0571F40E4DC4"]
@@ -3925,8 +3922,8 @@
 				title: "法杖"
 				type: "checkmark"
 			}]
-			x: 8.75d
-			y: -6.0d
+			x: 9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3C2B638C0E4AE4DA"]
@@ -4303,6 +4300,72 @@
 			}]
 			x: -29.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["49D50CFF3DF41852"]
+			description: ["学习法术的第一步是收集手稿碎片，根据需要制作出相应流派的手稿"]
+			id: "610510FD25CFE483"
+			tasks: [{
+				id: "0326BAA5FFCE4225"
+				item: "irons_restrictions:fragment"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["以音乐🎵的力量提供辅助或战斗能力"]
+			id: "30A87C2665B36560"
+			rewards: [{
+				id: "1C5618DAD17E8C93"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "477A4D1DA45C1D99"
+				item: "minecraft:note_block"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["来自利维坦的奇特物质，获取以后可以通过合成来复制"]
+			id: "6661E68BC9ED75A6"
+			rewards: [{
+				id: "4C6CF50EAC7D4A49"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CA37FADF40E79EC"
+				item: "goety_cataclysm:abyss_essence"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["516CC2BCAE3BCCDE"]
+			description: ["召唤机械体生物协助作战的法术流派"]
+			id: "1681E399D3254980"
+			rewards: [{
+				id: "4928C0078A8793CE"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "243024BB3F7F1424"
+				item: "appflux:redstone_crystal"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -4.25d
 		}
 	]
 	title: "大书库(魔法)"

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "6F56FE792813B6D1"
-	group: "4293891DF89E3E58"
+	group: "4FC3997E36CADCCF"
 	icon: "touhou_little_maid:broom"
 	id: "6F56FE792813B6D1"
 	images: [
@@ -24,7 +24,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -199,7 +199,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -215,8 +215,8 @@
 				item: "youkaishomecoming:genmai_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -232,8 +232,8 @@
 				item: "youkaishomecoming:green_water"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.5d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -250,8 +250,8 @@
 				item: "youkaishomecoming:sakura_honey_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -267,8 +267,8 @@
 				item: "youkaishomecoming:saidi_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.5d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -284,8 +284,8 @@
 				item: "youkaishomecoming:tea_mocha"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.5d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -301,8 +301,8 @@
 				item: "youkaishomecoming:cornflower_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 11.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -319,8 +319,8 @@
 				item: "youkaishomecoming:oolong_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.5d
+			x: 11.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -336,8 +336,8 @@
 				item: "youkaishomecoming:black_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 11.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -353,8 +353,8 @@
 				item: "youkaishomecoming:white_tea"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.5d
+			x: 11.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -373,7 +373,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -389,8 +389,8 @@
 				item: "youkaishomecoming:sparrow_sake"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -7.5d
+			x: 12.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -407,7 +407,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -426,7 +426,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -447,8 +447,8 @@
 				item: "youkaishomecoming:full_moons_eve"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.5d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -469,8 +469,8 @@
 				item: "youkaishomecoming:tengu_tango"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -0.5d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -486,8 +486,8 @@
 				item: "youkaishomecoming:dassai"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -503,8 +503,8 @@
 				item: "youkaishomecoming:daiginjo"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 12.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -520,8 +520,8 @@
 				item: "youkaishomecoming:big_popsicle"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.5d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -538,7 +538,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -555,8 +555,8 @@
 				item: "youkaishomecoming:mochi"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -0.5d
+			x: 13.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -572,8 +572,8 @@
 				item: "youkaishomecoming:sakura_mochi"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.5d
+			x: 14.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -589,8 +589,8 @@
 				item: "youkaishomecoming:tsukimi_dango"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.5d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -607,7 +607,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -623,8 +623,8 @@
 				item: "youkaishomecoming:milk_popsicle"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -0.5d
+			x: 15.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -642,8 +642,8 @@
 				item: "youkaishomecoming:senbei"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 14.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -660,8 +660,8 @@
 				item: "youkaishomecoming:fairy_candy"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.5d
+			x: 15.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -678,8 +678,8 @@
 				item: "youkaishomecoming:higi_chocolate"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -4.5d
+			x: 15.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -695,8 +695,8 @@
 				item: "youkaishomecoming:candy_apple"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 15.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -712,8 +712,8 @@
 				item: "youkaishomecoming:yakumo_inari"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -2.5d
+			x: 14.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -729,8 +729,8 @@
 				item: "youkaishomecoming:yashouma_dango"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -6.5d
+			x: 14.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -748,8 +748,8 @@
 				item: "youkaishomecoming:onigili"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -5.5d
+			x: 14.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -766,7 +766,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -782,8 +782,8 @@
 				item: "youkaishomecoming:steamed_egg_in_bamboo"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -7.5d
+			x: 15.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -826,8 +826,8 @@
 				item: "youkaishomecoming:sekibankiyaki"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.5d
+			x: 14.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -845,8 +845,8 @@
 				item: "youkaishomecoming:doughnut"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -6.5d
+			x: 15.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -869,8 +869,8 @@
 				item: "youkaishomecoming:koishi_mousse"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.5d
+			x: 14.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -886,8 +886,8 @@
 				item: "youkaishomecoming:oyaki"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 0.5d
+			x: 14.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -903,8 +903,8 @@
 				item: "youkaishomecoming:avgolemono"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.5d
+			x: 16.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -955,7 +955,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -971,8 +971,8 @@
 				item: "youkaishomecoming:miso_soup"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 0.5d
+			x: 16.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -988,8 +988,8 @@
 				item: "youkaishomecoming:udumbara_cake"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -0.5d
+			x: 17.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1032,8 +1032,8 @@
 				item: "youkaishomecoming:blazing_red_curry"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.5d
+			x: 16.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1055,7 +1055,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1074,7 +1074,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1090,8 +1090,8 @@
 				item: "youkaishomecoming:assorted_dango"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -7.5d
+			x: 16.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1107,8 +1107,8 @@
 				item: "youkaishomecoming:higi_doughnut"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.5d
+			x: 15.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1124,8 +1124,8 @@
 				item: "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.5d
+			x: 17.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1158,8 +1158,8 @@
 				item: "youkaishomecoming:shaved_ice_over_rice"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -5.5d
+			x: 16.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1175,8 +1175,8 @@
 				item: "youkaishomecoming:bun"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -0.5d
+			x: 14.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1192,8 +1192,8 @@
 				item: "youkaishomecoming:mushroom_soup"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -4.5d
+			x: 17.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1209,8 +1209,8 @@
 				item: "youkaishomecoming:lions_head"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -2.5d
+			x: 17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1226,8 +1226,8 @@
 				item: "youkaishomecoming:apaki"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -4.5d
+			x: 16.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1244,8 +1244,8 @@
 				item: "youkaishomecoming:shirayuki"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -7.5d
+			x: 17.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1261,8 +1261,8 @@
 				item: "youkaishomecoming:mapo_tofu"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -1.5d
+			x: 17.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1278,8 +1278,8 @@
 				item: "youkaishomecoming:grilled_eel_over_rice"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.5d
+			x: 16.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1295,8 +1295,8 @@
 				item: "youkaishomecoming:longevity_noodles"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -0.5d
+			x: 16.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1355,8 +1355,8 @@
 				item: "youkaishomecoming:tuscan_salmon"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -5.5d
+			x: 17.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1373,7 +1373,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1392,7 +1392,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1437,8 +1437,8 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
-			y: 0.5d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1568,16 +1568,15 @@
 				"130625B7062D7BA7"
 				"07B5008423FCF1B1"
 				"04118588DF94F870"
-				"438EF24A49E4F002"
-				"01A452B21B39344B"
-				"27CCD645B1144B34"
-				"267EED3EEAC5146C"
-				"03F5A0892B9FE968"
-				"24FABAC3A0F1BAA4"
-				"79D7B056587647BB"
-				"243D488BFAA080AA"
-				"159F14F6367D3C18"
-				"63D304B1F7D77718"
+				"4A87E3E6B7F6BFC0"
+				"2A3B101C62FB9292"
+				"4424F02F9837E85E"
+				"649C63F8CFF98F7E"
+				"5033CE7B3D4B1BF5"
+				"7389A8FB13D30EC6"
+				"0C2A2362AC5EF08E"
+				"436D7BB26AA9F58B"
+				"185FE25A5AD4960E"
 			]
 			description: ["魔理沙：居然能完成这么多食物的制作，也是不容易啊，辛苦你了，我最近捡到一些天上掉下来的东西，俺寻思也没人要啊就拿走了，好像是天子的东西吧？希望她不会来找我麻烦，不如全送给你好了，这样我也省心，反正这些对我来说没什么用"]
 			hide_dependency_lines: true
@@ -1685,8 +1684,8 @@
 				item: "youkaishomecoming:suigei"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.5d
+			x: 12.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1697,8 +1696,8 @@
 				item: "youkaishomecoming:kappa_village"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 12.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1709,8 +1708,8 @@
 				item: "youkaishomecoming:hakutsuru"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.5d
+			x: 12.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1721,8 +1720,8 @@
 				item: "youkaishomecoming:kiku"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -6.5d
+			x: 12.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1788,8 +1787,8 @@
 				item: "easy_villagers:villager"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.25d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1800,8 +1799,8 @@
 				item: "easy_villagers:trader"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.75d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["69C439D4E0A8B825"]
@@ -1812,8 +1811,8 @@
 				item: "easy_villagers:auto_trader"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.25d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1824,8 +1823,8 @@
 				item: "easy_villagers:farmer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.75d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1836,8 +1835,8 @@
 				item: "easy_villagers:breeder"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.75d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1848,8 +1847,8 @@
 				item: "easy_villagers:converter"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.25d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1860,8 +1859,8 @@
 				item: "easy_villagers:iron_farm"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.25d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4360E102FE6814FB"]
@@ -1872,8 +1871,8 @@
 				item: "easy_villagers:incubator"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.25d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1884,7 +1883,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1894,8 +1893,8 @@
 				item: "youkaishomecoming:red_grape_juice"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.5d
+			x: 13.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1905,8 +1904,8 @@
 				item: "youkaishomecoming:white_grape_juice"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -6.5d
+			x: 13.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1916,8 +1915,8 @@
 				item: "youkaishomecoming:red_wine"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.5d
+			x: 13.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1927,8 +1926,8 @@
 				item: "youkaishomecoming:white_wine"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -4.5d
+			x: 13.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1938,8 +1937,8 @@
 				item: "youkaishomecoming:burgundy"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -3.5d
+			x: 13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1949,8 +1948,8 @@
 				item: "youkaishomecoming:champagne"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.5d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1960,8 +1959,8 @@
 				item: "youkaishomecoming:van_allen"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1971,8 +1970,8 @@
 				item: "youkaishomecoming:kabayaki"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -5.5d
+			x: 15.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1982,8 +1981,8 @@
 				item: "youkaishomecoming:lamprey_skewer"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -6.5d
+			x: 16.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -1993,8 +1992,8 @@
 				item: "youkaishomecoming:honey_glazed_cucumber"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.5d
+			x: 17.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2005,7 +2004,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2016,7 +2015,7 @@
 				type: "item"
 			}]
 			x: 17.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2026,8 +2025,8 @@
 				item: "youkaishomecoming:nattou_gunkan"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -7.5d
+			x: 18.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2037,8 +2036,8 @@
 				item: "youkaishomecoming:egg_nigiri"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -6.5d
+			x: 18.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2048,8 +2047,8 @@
 				item: "youkaishomecoming:lorelei_nigiri"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -5.5d
+			x: 18.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2059,8 +2058,8 @@
 				item: "youkaishomecoming:tuna_nigiri"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.5d
+			x: 18.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2070,8 +2069,8 @@
 				item: "youkaishomecoming:otoro_nigiri"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -3.5d
+			x: 18.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2081,8 +2080,8 @@
 				item: "youkaishomecoming:shinnko_maki_slice"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.5d
+			x: 18.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2092,8 +2091,8 @@
 				item: "youkaishomecoming:kappa_maki_slice"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -1.5d
+			x: 18.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2103,8 +2102,8 @@
 				item: "youkaishomecoming:tekka_maki_slice"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -0.5d
+			x: 18.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2114,8 +2113,8 @@
 				item: "youkaishomecoming:egg_futomaki_slice"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 0.5d
+			x: 18.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2126,7 +2125,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2137,7 +2136,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2147,8 +2146,8 @@
 				item: "youkaishomecoming:california_roll_slice"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -7.5d
+			x: 19.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2158,8 +2157,8 @@
 				item: "youkaishomecoming:roe_california_roll_slice"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -6.5d
+			x: 19.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2169,8 +2168,8 @@
 				item: "youkaishomecoming:salmon_lover_roll_slice"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -5.5d
+			x: 19.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2180,8 +2179,8 @@
 				item: "youkaishomecoming:volcano_roll"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -4.5d
+			x: 19.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2397E7707E755DB6"]
@@ -2191,8 +2190,107 @@
 				item: "youkaishomecoming:rainbow_roll_slice"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "4A87E3E6B7F6BFC0"
+			tasks: [{
+				id: "7178B5E6D8860E2A"
+				item: "youkaishomecoming:dark_tea"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "2A3B101C62FB9292"
+			tasks: [{
+				id: "5F4DFF6813708027"
+				item: "youkaishomecoming:yellow_tea"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "649C63F8CFF98F7E"
+			tasks: [{
+				id: "4A071227B0F066B1"
+				item: "youkaishomecoming:kaguya_hime"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "185FE25A5AD4960E"
+			tasks: [{
+				id: "5DAE5C5855C65B7D"
+				item: "youkaishomecoming:rice_powder_pork"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "436D7BB26AA9F58B"
+			tasks: [{
+				id: "200078E030243861"
+				item: "youkaishomecoming:hokkaido_salmon_hotpot"
+				type: "item"
+			}]
+			x: 10.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "0C2A2362AC5EF08E"
+			tasks: [{
+				id: "2E820A9184BD4D2F"
+				item: "youkaishomecoming:signature_mushroom_stew"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "7389A8FB13D30EC6"
+			tasks: [{
+				id: "11B7F3426FE0FB07"
+				item: "youkaishomecoming:borscht"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "5033CE7B3D4B1BF5"
+			tasks: [{
+				id: "3B4734D7B866D0E6"
+				item: "youkaishomecoming:potato_soup"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2397E7707E755DB6"]
+			id: "4424F02F9837E85E"
+			tasks: [{
+				id: "79FAB5A7BB1493B7"
+				item: "youkaishomecoming:pot_of_han_palace"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
 		}
 	]
 	title: "魔理沙的小屋"

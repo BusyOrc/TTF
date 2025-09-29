@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "105612AA0735B07A"
-	group: "70B4907D74D7EF03"
+	group: "756D1B6269D2C725"
 	icon: {
 		Count: 1
 		id: "tconstruct:tinkers_anvil"
@@ -17,7 +17,7 @@
 			image: "touhou_tinker_fantasy:textures/skr.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: -16.75d
+			x: -23.0d
 			y: 0.0d
 		}
 		{
@@ -512,7 +512,7 @@
 			y: 6.25d
 		}
 	]
-	order_index: 0
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -571,7 +571,7 @@
 				type: "checkmark"
 			}]
 			title: "8.1 多多良小伞"
-			x: -8.0d
+			x: -12.0d
 			y: 0.0d
 		}
 		{
@@ -2067,25 +2067,6 @@
 		}
 		{
 			dependencies: ["46F19FB7EAE347CC"]
-			description: ["相关材料需要前往“毒化洞穴”挖掘矿物或击杀敌人后获得"]
-			hide_dependency_lines: true
-			id: "056C8B7C4E64923C"
-			rewards: [{
-				id: "6305932EDAC393DD"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "698AD7D6EFA737F4"
-				item: "alexscaves:nuclear_bomb"
-				type: "item"
-			}]
-			title: "世界毁灭者"
-			x: 35.25d
-			y: -11.25d
-		}
-		{
-			dependencies: ["46F19FB7EAE347CC"]
 			description: ["额外增加一个升级槽位"]
 			hide_dependency_lines: true
 			icon: "thermal:basalz_powder"
@@ -2590,79 +2571,6 @@
 			title: "更简单办法？"
 			x: 46.75d
 			y: 2.25d
-		}
-		{
-			dependencies: ["0E0AFD0B60E301E6"]
-			description: ["获得辐射免疫效果，对Alex毒化洞穴内的辐射免疫，得益于靠谱的河童科技，&a仅需一次&r强化即可让自身彻底免疫辐射，可用于任意盔甲。"]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "alexscaves:hazmat_mask"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6191A07C0BF056F2"
-			rewards: [{
-				id: "3C8EB756C5049276"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					id: "4ADC7F396CA62316"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_mask"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B42D122BEB185B2"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "795706C0EFDA0726"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14A1F540D87F84A5"
-					item: {
-						Count: 1
-						id: "alexscaves:hazmat_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "5CCC961CFD385BC2"
-					item: "thermal:lead_plate"
-					type: "item"
-				}
-			]
-			title: "辐射免疫"
-			x: 29.25d
-			y: -0.75d
 		}
 		{
 			dependencies: ["1364495DCD420BC0"]
@@ -3990,45 +3898,6 @@
 			y: -2.25d
 		}
 		{
-			dependencies: ["46F19FB7EAE347CC"]
-			description: [
-				"获得1个防御槽"
-				""
-				"相关材料需要前往磁场洞穴获取"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: false
-			icon: "alexscaves:telecore"
-			id: "33DB1B46A4F2B3ED"
-			rewards: [{
-				id: "5EBE332537443F0E"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					id: "18AD11320D7E1407"
-					item: "alexscaves:telecore"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "74A3006A3011B017"
-					item: "alexscaves:block_of_scarlet_neodymium"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "5814F0287E9EFA7B"
-					item: "alexscaves:block_of_azure_neodymium"
-					type: "item"
-				}
-			]
-			title: "磁力核心"
-			x: 33.25d
-			y: -11.25d
-		}
-		{
 			dependencies: ["633F35405883FB99"]
 			description: ["小伞：想获得更多的铸模吗？可以去和猪灵蛮兵交易，但是要小心被打，不过你可以&a手持金块右键&r猪灵蛮兵，这样的话这些喜欢金子的猪灵就会沉迷交易无法自拔"]
 			icon: "tinkersancient:battlesign_head_cast"
@@ -4624,106 +4493,6 @@
 		}
 		{
 			dependencies: ["22B34E373DB9DA8E"]
-			description: ["每级增加2点伤害，最高2级"]
-			hide_dependency_lines: true
-			icon: "alexscaves:amber_curiosity"
-			id: "685DE8EF286694BA"
-			rewards: [{
-				id: "1A8FCE3EF1B62CC0"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					id: "1D4F5678FCE6F276"
-					item: "alexscaves:amber_curiosity"
-					type: "item"
-				}
-				{
-					id: "19EA197D92901986"
-					item: "alexscaves:heavy_bone"
-					type: "item"
-				}
-				{
-					id: "4ABAB0ABE14782D9"
-					item: "alexscaves:tough_hide"
-					type: "item"
-				}
-			]
-			title: "原始之力"
-			x: 33.25d
-			y: -8.25d
-		}
-		{
-			dependencies: ["46F19FB7EAE347CC"]
-			description: ["增加一个升级槽, &a 琥珀珍品&r和&a琥珀&r都可以在原始洞穴中获得"]
-			hide_dependency_lines: true
-			id: "3C8592E558EAA0E6"
-			tasks: [
-				{
-					count: 3L
-					id: "68D38284C929C4E6"
-					item: "alexscaves:amber_curiosity"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4210416E95865A0F"
-					item: "alexscaves:amber"
-					type: "item"
-				}
-			]
-			title: "珍品"
-			x: 25.25d
-			y: -11.25d
-		}
-		{
-			dependencies: ["22B34E373DB9DA8E"]
-			description: ["攻击有概率眩晕敌人"]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "alexscaves:primitive_club"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "5A96292E85D72412"
-			rewards: [{
-				id: "797135430275570D"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [
-				{
-					id: "639700F1B52E5A4E"
-					item: {
-						Count: 1
-						id: "alexscaves:primitive_club"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "787525898969FDAC"
-					item: "alexscaves:amber_curiosity"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "79E5157BFFAF8B99"
-					item: "alexscaves:pewen_sap"
-					type: "item"
-				}
-			]
-			x: 25.25d
-			y: -8.25d
-		}
-		{
-			dependencies: ["22B34E373DB9DA8E"]
 			description: ["每级提高0.08攻击速度"]
 			hide_dependency_lines: true
 			id: "5C3CCB2926AA4DB4"
@@ -5174,26 +4943,6 @@
 			title: "穿刺"
 			x: 43.25d
 			y: -8.25d
-		}
-		{
-			dependencies: ["41494C75729ED34F"]
-			description: ["破坏以自身为中心比自己高的方块，  范围随等级扩大（拆家警告）"]
-			hide_dependency_lines: true
-			id: "08166CFE266E07F9"
-			rewards: [{
-				id: "4C956A84205938E5"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "最被低估的一集"
-			tasks: [{
-				id: "15C227EB9D87538E"
-				item: "alexscaves:atlatitan_egg"
-				type: "item"
-			}]
-			title: "擎天龙之践踏"
-			x: 41.25d
-			y: -6.75d
 		}
 		{
 			dependencies: ["02AF21C12DA17637"]
@@ -6052,8 +5801,8 @@
 				type: "checkmark"
 			}]
 			title: "特别的匠魂材料"
-			x: -13.25d
-			y: 7.5d
+			x: -12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6068,8 +5817,8 @@
 				item: "kubejs:devil"
 				type: "item"
 			}]
-			x: -19.25d
-			y: 10.5d
+			x: -18.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6095,8 +5844,8 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
-			y: 10.5d
+			x: -16.25d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6113,8 +5862,8 @@
 				item: "kubejs:flandre"
 				type: "item"
 			}]
-			x: -15.75d
-			y: 10.5d
+			x: -14.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6125,8 +5874,8 @@
 				item: "kubejs:komachis_scythe"
 				type: "item"
 			}]
-			x: -13.75d
-			y: 10.5d
+			x: -12.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6137,8 +5886,8 @@
 				item: "kubejs:sakura"
 				type: "item"
 			}]
-			x: -11.75d
-			y: 10.5d
+			x: -10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6148,8 +5897,8 @@
 				item: "kubejs:daiyouseis_bomb"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 10.5d
+			x: -8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6160,8 +5909,8 @@
 				item: "youkaishomecoming:fairy_ice_crystal"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 10.5d
+			x: -6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6171,8 +5920,8 @@
 				item: "kubejs:youmus_dualswords"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 11.75d
+			x: -6.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6192,8 +5941,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.25d
-			y: 11.75d
+			x: -18.0d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6203,8 +5952,8 @@
 				item: "kubejs:doremy_ingot"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 11.75d
+			x: -16.25d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6214,8 +5963,8 @@
 				item: "kubejs:mysterious_hat"
 				type: "item"
 			}]
-			x: -15.75d
-			y: 11.75d
+			x: -14.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6230,8 +5979,8 @@
 				item: "kubejs:seija"
 				type: "item"
 			}]
-			x: -13.75d
-			y: 11.75d
+			x: -12.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6246,8 +5995,8 @@
 				item: "kubejs:reimu"
 				type: "item"
 			}]
-			x: -11.75d
-			y: 11.75d
+			x: -10.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6267,8 +6016,8 @@
 				item: "kubejs:koishi_hat"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 11.75d
+			x: -8.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6278,8 +6027,8 @@
 				item: "kubejs:meiling"
 				type: "item"
 			}]
-			x: -19.25d
-			y: 13.000000000000002d
+			x: -18.0d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6300,8 +6049,8 @@
 				item: "kubejs:patch"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 13.000000000000002d
+			x: -16.25d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6331,8 +6080,8 @@
 					type: "item"
 				}
 			]
-			x: -15.75d
-			y: 13.000000000000002d
+			x: -14.5d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6343,8 +6092,8 @@
 				item: "kubejs:ice_warrior"
 				type: "item"
 			}]
-			x: -13.75d
-			y: 13.000000000000002d
+			x: -12.5d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6361,8 +6110,8 @@
 				item: "kubejs:wakasagihime"
 				type: "item"
 			}]
-			x: -11.75d
-			y: 13.000000000000002d
+			x: -10.5d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6372,8 +6121,8 @@
 				item: "kubejs:sannyo"
 				type: "item"
 			}]
-			x: -9.75d
-			y: 13.000000000000002d
+			x: -8.5d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6396,8 +6145,8 @@
 					type: "item"
 				}
 			]
-			x: -7.75d
-			y: 13.000000000000002d
+			x: -6.5d
+			y: 12.500000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6414,8 +6163,8 @@
 				item: "kubejs:kosuzu"
 				type: "item"
 			}]
-			x: -19.25d
-			y: 14.500000000000002d
+			x: -18.0d
+			y: 14.000000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6430,8 +6179,8 @@
 				item: "kubejs:inu"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 14.500000000000002d
+			x: -16.25d
+			y: 14.000000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6446,8 +6195,8 @@
 				item: "kubejs:rumia"
 				type: "item"
 			}]
-			x: -15.75d
-			y: 14.500000000000002d
+			x: -14.5d
+			y: 14.000000000000002d
 		}
 		{
 			dependencies: ["327CB47AE3CD98AF"]
@@ -6462,8 +6211,8 @@
 				item: "kubejs:ex_rumia"
 				type: "item"
 			}]
-			x: -13.75d
-			y: 14.500000000000002d
+			x: -12.5d
+			y: 14.000000000000002d
 		}
 		{
 			dependencies: ["41494C75729ED34F"]
@@ -6502,8 +6251,8 @@
 				}
 			]
 			title: "识文解字"
-			x: 43.25d
-			y: -6.75d
+			x: 43.27678571428571d
+			y: -6.703571428571436d
 		}
 		{
 			dependencies: ["3483E51E70FCBFE5"]

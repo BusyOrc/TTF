@@ -60,28 +60,6 @@ event.custom(
 )
 
 event.custom(
-    {
-      "type": "extendedcrafting:shaped_table",
-  "pattern":[
-  ' ABA ',
-  'CCDCC',
-  ' E E ',
-  ' E E '
-  ],
-  "key":
-{A:{"item":'iceandfire:earplugs'},
-B:{"item":'simplehats:rabbitears'},
-C:{"item":'minecraft:rabbit_hide'},
-D:{"item":'simplehats:rabbitonhead'},
-E:{"item":'minecraft:rabbit_foot'}
-  },
-  "result":{
-    "item":'mystias_izakaya:reisen'
-  }
-}
-)
-
-event.custom(
   {
   "type": "extendedcrafting:shaped_table",
   "key": {
@@ -369,6 +347,243 @@ event.custom(
     "item": "thermal:machine_frame"
   },
   "acceptMirrored": true
+}
+)
+
+event.custom(
+  {
+  "type":"extendedcrafting:shaped_table",
+  "pattern": [
+    "ICCCI",
+    "CDMDC",
+    "CMBMC",
+    "CDMDC",
+    "ICCCI"
+  ],
+  "key": {
+    "C": {
+      "item": 'ae2:charged_certus_quartz_crystal'
+    },
+    "M": {
+      "item": 'tconstruct:pattern'
+    },
+    "B": {
+      "item": 'minecraft:bone_block'
+    },
+    "D": {
+      "item": 'ae2:certus_quartz_dust'
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": 'minecraft:skeleton_skull',
+    "count":8
+  }
+}
+)
+
+event.custom(
+  {
+  "type":"extendedcrafting:shaped_table",
+  "pattern": [
+    "I LLI",
+    "S M  ",
+    "  T  ",
+    "  M S",
+    "ILL I"
+  ],
+  "key": {
+    "T": {
+      "item": 'tofucraft:tofu_core'
+    },
+    "M": {
+      "item": 'ttf:magic_tube'
+    },
+    "L": {
+      "item": 'irons_spellbooks:legendary_ink'
+    },
+    "I": {
+      "item": 'sakuratinker:unholy_alloy'
+    },
+    "S": {
+      "item": 'beyonddimensions:space_time_bar'
+    }
+  },
+  "result": {
+    "item": 'touhou_little_maid_spell:flow_core'
+  }
+}
+)
+
+event.custom(
+  {
+  "type":"extendedcrafting:shaped_table",
+  "pattern": [
+    " RRRRR ",
+    "RRRRRRR",
+    "RRUUURR",
+    "RRUSURR",
+    "RRUUURR",
+    "RRRRRRR",
+    " RRRRR "
+  ],
+  "key": {
+    "U": {
+      "item": 'ttf:rubber_sheet'
+    },
+    "S": {
+      "item": 'minecraft:skeleton_skull'
+    },
+    "R": {
+      "item": 'create:scorchia'
+    }
+  },
+  "result": {
+    "item": 'minecraft:wither_skeleton_skull',
+    "count":2
+  }
+}
+)
+
+event.custom(
+  {
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABAA",
+    "ABCBA",
+    "DEFED",
+    "AFCFA",
+    "AABAA"
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_block"
+    },
+    "B": {
+      "item": "ae2:calculation_processor"
+    },
+    "C": {
+      "item": "ttf:magic_tube"
+    },
+    "D": {
+      "tag": "forge:ingots/melodium"
+    },
+    "E": {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    "F": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "thermal_parallel:argument_parallel"
+  }
+}
+)
+
+
+event.custom(
+  {
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AABBBAA",
+    "ACDDDCA",
+    "BEFGFEB",
+    "BHGFGHB",
+    "BEFGFEB",
+    "ACDDDCA",
+    "AABBBAA"
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_block"
+    },
+    "B": {
+      "item": 'advanced_ae:quantum_alloy'
+    },
+    "C": {
+      "item": "advanced_ae:quantum_processor"
+    },
+    "D": {
+      "tag": "forge:gears/diamond"
+    },
+    "E": {
+      "item": "megacells:accumulation_processor"
+    },
+    "F": {
+      "item": "ttf:magic_tube"
+    },
+    "G": {
+      "item": "thermal_parallel:argument_parallel"
+    },
+    "H": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "result": {
+    "item": 'thermal_parallel:argument_parallel_2'
+  }
+}
+)
+
+
+event.custom(
+  {
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "AAABBBAAA",
+    "ACDDEDDCA",
+    "AFGEHEGFA",
+    "IFEHJHEFI",
+    "KIHJLJHIK",
+    "IFEHJHEFI",
+    "AFGEHEGFA",
+    "ACDDEDDCA",
+    "AAABBBAAA"
+  ],
+  "key": {
+    "A": {
+      "item": "cataclysm:black_steel_block"
+    },
+    "B": {
+      "item": "kubejs:doremy_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/dragon_steel"
+    },
+    "D": {
+      "item": 'minecraft:magma_block'
+    },
+    "E": {
+      "item": "touhou_little_maid:power_point"
+    },
+    "F": {
+      "item": "kubejs:fantasy_tofu"
+    },
+    "G": {
+      "item": "cataclysm:burning_ashes"
+    },
+    "H": {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    "I": {
+      "item": "kubejs:gap_tofu"
+    },
+    "J": {
+      "item": "thermal_parallel:argument_parallel_2"
+    },
+    "K": {
+      "item": "kubejs:flandre"
+    },
+    "L": {
+      "item": "kubejs:devil"
+    }
+  },
+  "result": {
+    "item": 'thermal_parallel:argument_parallel_3'
+  }
 }
 )
 

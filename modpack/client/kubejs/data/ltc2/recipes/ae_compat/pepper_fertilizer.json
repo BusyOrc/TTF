@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],    
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "minecraft:bone_meal"
+    },
+    "middle": {
+      "tag": "forge:vegetables/pepper"
+    },
+    "top": {
+      "item": "ae2:certus_quartz_dust"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "item": "ltc2:pepper_fertilizer",
+    "count":2
+  }
+}

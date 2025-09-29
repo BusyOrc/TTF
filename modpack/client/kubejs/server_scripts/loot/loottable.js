@@ -36,15 +36,6 @@ event.modify("minecraft:shipwreck_supply",loot=>{
 
 
 
-/*const houses=
-[
-    "minecraft:village_armorer", "minecraft:village_butcher",
-    "minecraft:village_cartographer", "minecraft:village_fisher",
-    "minecraft:village_fletcher", "minecraft:village_mason",
-    "minecraft:village_shepherd", "minecraft:village_tannery",
-    "minecraft:village_temple", "minecraft:village_toolsmith",
-    "minecraft:village_weaponsmith"
-]*/
 
 const airships=
 [
@@ -256,13 +247,6 @@ event.addBlockLootModifier("biomesoplenty:barley").addLoot('thermal:barley');
     event.addLootTableModifier("minecraft:entities/wither")
     .addLoot('3x hmag:nether_star_fragment')
 
-    event.addBlockLootModifier("mystias_izakaya:cooking_range").addLoot("mystias_izakaya:cooking_range");
-    event.addBlockLootModifier("mystias_izakaya:table").addLoot("mystias_izakaya:table");
-    event.addBlockLootModifier("mystias_izakaya:cutting_board").addLoot("mystias_izakaya:cutting_board");
-    event.addBlockLootModifier("mystias_izakaya:boiling_pot").addLoot("mystias_izakaya:boiling_pot");
-    event.addBlockLootModifier("mystias_izakaya:frying_pan").addLoot("mystias_izakaya:frying_pan");
-    event.addBlockLootModifier("mystias_izakaya:steamer").addLoot("mystias_izakaya:steamer");
-    event.addBlockLootModifier("mystias_izakaya:grill").addLoot("mystias_izakaya:grill");
 
     event.addLootTableModifier("youkaishomecoming:entities/shrine_maiden").addLoot('youkaishomecoming:reimu_hairband')
     event.addLootTableModifier("youkaishomecoming:entities/kochiya_sanae").addLoot('youkaishomecoming:suwako_hat')

@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "ae2:calculation_processor"
   },
-  "loops": 5,
+  "loops": 3,
   "results": [
     {
       "chance": 120.0,
@@ -52,6 +52,22 @@
         },
         {
           "tag": "forge:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "ttf:magic_tube"
         }
       ],
       "results": [

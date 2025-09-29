@@ -1,0 +1,82 @@
+{"description": "哆来咪介绍",
+  "id": "first_dream",
+  "start": "1",
+  "title": "First Dream",
+  "entries": [
+    {
+      "id": "1",
+      "next": "2",
+      "speaker": {
+        "text": "哆来咪",
+        "color":"purple"
+      },
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "51797648_p5.png",
+          "position": "CENTER"
+        }
+      ],
+      "text": {
+        "text": "是@i对吧，现在你正在梦里哦，为了避免过早接触到危险，我特意将您先安置在了梦里以防万一。在这个梦的世界有很多不一样的地方，比如说部分物品的特殊获取方式。"
+      }
+    },
+    {
+      "id": "2",
+      "next": "3",
+      "speaker": {
+        "text": "哆来咪",
+        "color":"purple"
+      },
+      "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "51797648_p5.png",
+          "position": "CENTER"
+        }
+      ],
+      "text": {
+        "text":"另外这里也是一个相对安全的地方，毕竟做的是美梦。强烈建议您在不熟悉的情况下先跟着学习一次，如果已经熟练了，可以直接选择速通，快速跳过这场梦。"
+      }
+    },
+    {
+      "id": "3",
+      "next": "4",
+      "speaker": {
+        "text": "哆来咪",
+        "color":"purple"
+      },
+            "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "51797648_p5.png",
+          "position": "CENTER"
+        }
+      ],
+      "text": {
+        "text": "不用担心在梦里会浪费太多时间，你在这个梦里所能了解的东西对于之后也是有所帮助的。另外，在这个梦里，虽然我已经帮忙吃掉了大部分噩梦，但是可能还会剩下一点点，如果你遇到的话最好注意一下。"
+      }
+    },
+    {
+      "id": "4",
+      "speaker": {
+        "text": "哆来咪",
+        "color":"purple"
+      },
+            "portraits": [
+        {
+          "animationType": "NONE",
+          "brightness": 1.0,
+          "path": "51797648_p5.png",
+          "position": "CENTER"
+        }
+      ],
+      "text": {
+        "text": "作为开始，就请打开任务书看看有什么可以做的事情吧。"
+      }
+    }
+  ]
+}

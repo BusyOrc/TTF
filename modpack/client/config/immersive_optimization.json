@@ -12,8 +12,8 @@
   "blocksPerLevelViewportCulled": 20,
   "maxLevel": 20,
   "blocksPerLevelBlockEntities": 32,
-  "entityTickBudget": 30.0,
   "stressedThreshold": 45,
+  "minDecreaseFactor": 0.25,
   "dimensions": {
     "minecraft:overworld": true,
     "minecraft:the_nether": true,

@@ -1,0 +1,34 @@
+{
+    "default": [
+      {
+        "level": 1,
+        "name": "tconstruct:ductile"
+      },
+      {
+        "level": 1,
+        "name": "tprt:forged_steel"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 1,
+            "name": "tconstruct:ductile"
+        },
+        {
+            "level": 1,
+            "name": "tprt:forged_steel"
+        }
+      ],
+      "tconstruct:ranged": [
+        {
+            "level": 1,
+            "name": "tconstruct:ductile"
+        },
+        {
+            "level": 1,
+            "name": "tprt:forged_steel"
+        }
+      ]
+    }
+  }

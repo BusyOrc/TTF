@@ -1,0 +1,5 @@
+showLineNumbers = true
+#Allowed Values: OFF, BASIC, ADVANCED
+intellisenseLevel = "ADVANCED"
+preferredEditor = "sfm:v1"
+

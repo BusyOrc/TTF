@@ -16,7 +16,10 @@ event.recipes.createoreexcavation.vein('{"text": "下界远古矿脉"}', 'minecr
 .biomeWhitelist('minecraft:is_nether') 
 
 event.recipes.createoreexcavation
-.drilling([Item.of('minecraft:ancient_debris').withChance(0.45), 'minecraft:magma_block', Item.of('tconstruct:ichor_slime_ball').withChance(0.7), Item.of('minecraft:blaze_powder').withChance(0.5)], 'kubejs:nether_ancient_vein', 3600)
+.drilling([Item.of('minecraft:ancient_debris').withChance(0.9),
+ '2x minecraft:magma_block', Item.of('3x tconstruct:ichor_slime_ball').withChance(0.7),
+Item.of('minecraft:blaze_powder'),Item.of('tinkers_thinking:raw_ardite').withChance(0.5),'tconstruct:raw_cobalt'],
+ 'kubejs:nether_ancient_vein', 3600)
 .id("kubejs:nether_ancient_mining").drill('createoreexcavation:netherite_drill') 
 .fluid('kubejs:fluid_cloud 100') .stress(360);
 

@@ -264,9 +264,143 @@ event.custom(
     }
   ],
   "output": {
-    "#": 4,
+    "#": 6,
     "#c": "ae2:i",
     "id": 'ttf:magic_tube'
+  }
+}
+)
+
+event.custom(
+    {
+  "type": "advanced_ae:reaction",
+  "energy": 80000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 1000,
+      "FluidName": "starbunclemania:source_fluid"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": 'extendedcrafting:crystaltine_ingot'
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": 'appflux:charged_redstone'
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#c": "ae2:i",
+    "id": 'extendedcrafting:crystaltine_ingot'
+  }
+}
+)
+
+event.custom(
+    {
+  "type": "advanced_ae:reaction",
+  "energy": 40000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 2000,
+      "FluidName": "minecraft:lava"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 64,
+      "ingredient": {
+        "item": 'thermal:steel_plate'
+      }
+    },
+    {
+      "amount": 48,
+      "ingredient": {
+        "item": 'appflux:redstone_crystal'
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#c": "ae2:i",
+    "id": 'extendedcrafting:redstone_ingot'
+  }
+}
+)
+
+event.custom(
+    {
+  "type": "advanced_ae:reaction",
+  "energy": 6000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 4000,
+      "FluidName": "create_enchantment_industry:ink"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": 'minecraft:iron_ingot'
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": 'goety:cursed_ingot'
+      }
+    }
+  ],
+  "output": {
+    "#": 64,
+    "#c": "ae2:i",
+    "id": 'extendedcrafting:black_iron_ingot'
+  }
+}
+)
+
+event.custom(
+    {
+  "type": "advanced_ae:reaction",
+  "energy": 80000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 2000,
+      "FluidName": "minecraft:lava"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": 'appflux:redstone_crystal'
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": 'appflux:harden_insulating_resin'
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": 'ae2:sky_stone_block'
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#c": "ae2:i",
+    "id": 'appflux:sky_harden_insulating_resin'
   }
 }
 )

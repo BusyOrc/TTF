@@ -1,0 +1,15 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 10,
+      "operation": "addition",
+      "attribute": "attributeslib:fire_damage",
+      "unique": "tconstruct.modifier.ignitium",
+      "slots": [
+        "mainhand"
+      ]
+    }
+  ]
+}

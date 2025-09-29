@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "78A23DBE76E84F58"
-	group: "4293891DF89E3E58"
+	group: "4FC3997E36CADCCF"
 	icon: "biomesoplenty:barley"
 	id: "78A23DBE76E84F58"
 	images: [
@@ -155,7 +155,7 @@
 			y: 12.55d
 		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1129,11 +1129,18 @@
 			hide_until_deps_visible: false
 			icon: "lightmanscurrency:trading_core"
 			id: "7D79F11DFB914EAC"
-			rewards: [{
-				id: "2120F8F09609698B"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2120F8F09609698B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "311D5E2D60ACA4C7"
+					item: "lightmanscurrency:portable_gem_terminal"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3ACC0866E6A902D9"
 				title: "做点交易吧"
@@ -1645,116 +1652,6 @@
 			title: "2.3-5"
 			x: 4.4d
 			y: -4.8d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "24FABAC3A0F1BAA4"
-			tasks: [{
-				id: "26088E913ED95C53"
-				item: "youkaishomecoming:yellow_tea"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "79D7B056587647BB"
-			tasks: [{
-				id: "56B9E78CA5E1E4AB"
-				item: "youkaishomecoming:dark_tea"
-				type: "item"
-			}]
-			x: 20.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "243D488BFAA080AA"
-			tasks: [{
-				id: "4119F2C81F60CCC7"
-				item: "youkaishomecoming:kaguya_hime"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "438EF24A49E4F002"
-			tasks: [{
-				id: "4DAEC5E71C56C652"
-				item: "youkaishomecoming:pot_of_han_palace"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "27CCD645B1144B34"
-			tasks: [{
-				id: "35CE23949AD0D983"
-				item: "youkaishomecoming:potato_soup"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "63D304B1F7D77718"
-			tasks: [{
-				id: "158CFADD48C902BD"
-				item: "youkaishomecoming:borscht"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "267EED3EEAC5146C"
-			tasks: [{
-				id: "3CB8D5A63302CCAB"
-				item: "youkaishomecoming:signature_mushroom_stew"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "159F14F6367D3C18"
-			tasks: [{
-				id: "4857598BE16A69EE"
-				item: "youkaishomecoming:hokkaido_salmon_hotpot"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "01A452B21B39344B"
-			tasks: [{
-				id: "649136A644673972"
-				item: "youkaishomecoming:rice_powder_pork"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["2397E7707E755DB6"]
-			id: "03F5A0892B9FE968"
-			tasks: [{
-				id: "01ECB8DEE0098A0E"
-				item: "youkaishomecoming:pot_of_tofu_crab_stew"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -10.5d
 		}
 	]
 	title: "秋姐妹的住处"

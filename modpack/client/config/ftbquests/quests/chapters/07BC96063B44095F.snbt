@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "07BC96063B44095F"
-	group: "4293891DF89E3E58"
+	group: "26F1962A4E5A2646"
 	icon: "armourers_workshop:skin-library"
 	id: "07BC96063B44095F"
-	order_index: 7
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,6 +19,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			size: 2.0d
 			tasks: [
 				{
 					id: "2B92B3BBE1059800"
@@ -31,8 +32,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["054A7E7F9C4C41B8"]
@@ -51,6 +52,7 @@
 				item: "quark:azalea_bookshelf"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "335665B63D830804"
@@ -63,8 +65,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3441BA058015CEA0"]
@@ -76,6 +78,7 @@
 				type: "xp"
 				xp: 30
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "3026C42DA54C8B9F"
@@ -89,8 +92,8 @@
 				}
 			]
 			title: "镶嵌与移除"
-			x: 2.0d
-			y: -2.5d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3441BA058015CEA0"]
@@ -103,6 +106,7 @@
 				item: "tconstruct:cobalt_reinforcement"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "7DE82371081FE14B"
@@ -115,8 +119,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3441BA058015CEA0"]
@@ -135,6 +139,7 @@
 				item: "tconstruct:cobalt_reinforcement"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "545A7390FBE6A055"
@@ -148,8 +153,8 @@
 				}
 			]
 			title: "方块连连看"
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "时装工坊"

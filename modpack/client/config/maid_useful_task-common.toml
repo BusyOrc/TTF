@@ -12,3 +12,9 @@
 	full = true
 	rotate = true
 
+[misc]
+	self_rescue = true
+
+[logging]
+	disable_blockup = false
+

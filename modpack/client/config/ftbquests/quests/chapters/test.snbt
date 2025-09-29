@@ -5,22 +5,317 @@
 	filename: "test"
 	group: ""
 	id: "477CEA2B675A570F"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["这里的内容并不重要，正常游玩请关闭任务编辑模式，有特殊需要时再打开"]
-		hide_until_deps_complete: true
-		hide_until_deps_visible: true
-		id: "46D916928C2B6DA5"
-		invisible: true
-		size: 2.0d
-		tasks: [{
-			id: "2C450042CB9E9D7F"
-			type: "checkmark"
-		}]
-		title: "你现在是编辑模式"
-		x: -2.5d
-		y: -3.5d
-	}]
+	quests: [
+		{
+			description: ["这里的内容并不重要，正常游玩请关闭任务编辑模式，有特殊需要时再打开"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "46D916928C2B6DA5"
+			invisible: true
+			size: 2.0d
+			tasks: [{
+				id: "4623331ED327C5BF"
+				type: "custom"
+			}]
+			title: "你现在是编辑模式"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "3412CD3D492D2A27"
+			rewards: [{
+				id: "4A63C5FA026B0848"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ae2.guide\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.guide\"}]}"
+									}
+								}
+							}
+							ae2_0: {
+								Count: 1b
+								id: "ae2:network_tool"
+								tag: {
+									"akashictome:definedMod": "ae2_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ae2.network_tool\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.network_tool\"}]}"
+									}
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							ars_nouveau_0: {
+								Count: 1b
+								id: "ars_nouveau:dominion_wand"
+								tag: {
+									"akashictome:definedMod": "ars_nouveau_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ars_nouveau.dominion_wand\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ars_nouveau.dominion_wand\"}]}"
+									}
+								}
+							}
+							create: {
+								Count: 1b
+								id: "create:wrench"
+							}
+							extendedcrafting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							goety: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "goety:black_book"
+								}
+							}
+							goety_0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:definedMod": "goety_0"
+									"patchouli:book": "goety:witches_brew"
+								}
+							}
+							irons_spellbooks: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"Iron's Guidebook\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Iron's Guidebook\"}]}"
+									}
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+							}
+							laserio: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "laserio:laseriobook"
+								}
+							}
+							laserio_0: {
+								Count: 1b
+								id: "laserio:laser_wrench"
+								tag: {
+									"akashictome:definedMod": "laserio_0"
+									connectiondimpos: {
+										blockpos: {
+											X: 0
+											Y: 0
+											Z: 0
+										}
+										level: "minecraft:overworld"
+									}
+								}
+							}
+							ltc2: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ltc2.guidebook\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ltc2.guidebook\"}]}"
+									}
+									"patchouli:book": "ltc2:guidebook"
+								}
+							}
+							modulargolems: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "modulargolems:golem_guide"
+								}
+							}
+							nffgirls: {
+								Count: 1b
+								id: "nffgirls:mob_dictionary"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.nffgirls.mob_dictionary\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.nffgirls.mob_dictionary\"}]}"
+									}
+								}
+							}
+							packagedauto: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "packagedauto:guide"
+								}
+							}
+							refurbished_furniture: {
+								Count: 1b
+								id: "refurbished_furniture:wrench"
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+							tconstruct: {
+								Count: 1b
+								id: "tconstruct:materials_and_you"
+								tag: {
+									mantle: {
+										book: {
+											current_page: "intro.introduction"
+										}
+									}
+								}
+							}
+							tconstruct_0: {
+								Count: 1b
+								id: "tconstruct:puny_smelting"
+								tag: {
+									"akashictome:definedMod": "tconstruct_0"
+								}
+							}
+							tconstruct_1: {
+								Count: 1b
+								id: "tconstruct:tinkers_gadgetry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_1"
+								}
+							}
+							tconstruct_2: {
+								Count: 1b
+								id: "tconstruct:mighty_smelting"
+								tag: {
+									"akashictome:definedMod": "tconstruct_2"
+								}
+							}
+							tconstruct_3: {
+								Count: 1b
+								id: "tconstruct:fantastic_foundry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_3"
+								}
+							}
+							tconstruct_4: {
+								Count: 1b
+								id: "tconstruct:encyclopedia"
+								tag: {
+									"akashictome:definedMod": "tconstruct_4"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.tconstruct.encyclopedia\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tconstruct.encyclopedia\"}]}"
+									}
+									mantle: {
+										book: {
+											current_page: ""
+										}
+									}
+								}
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							thermal_0: {
+								Count: 1b
+								id: "thermal:wrench"
+								tag: {
+									"akashictome:definedMod": "thermal_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.thermal.wrench\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.thermal.wrench\"}]}"
+									}
+								}
+							}
+							tofucraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.tofucraft.tofu_book\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tofucraft.tofu_book\"}]}"
+									}
+									"patchouli:book": "tofucraft:tofu_book"
+								}
+							}
+							touhou_little_maid: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"patchouli.touhou_little_maid.book.name\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"patchouli.touhou_little_maid.book.name\"}]}"
+									}
+									"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+								}
+							}
+							twilightdelight: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "twilightdelight:twilight_guide"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			secret: true
+			tasks: [{
+				id: "344FAC27C581E8A4"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
 	title: "你在干神魔（神绮，魅魔）"
 }

@@ -29,7 +29,7 @@
 	lodReductionFactor = 0.3
 	#启用固定时间步长
 	#Enable fixed timestep for particle physics
-	enableFixedTimestep = true
+	enableFixedTimestep = false
 	#固定时间步长间隔 (秒)
 	#Fixed timestep interval in seconds
 	#Range: 0.001 ~ 0.1
@@ -169,7 +169,7 @@
 		entityCleanup = true
 		#实体白名单（始终不优化）
 		#Entity whitelist (always optimized)
-		entityWhitelist = ["minecraft:ender_dragon"]
+		entityWhitelist = ["minecraft:ender_dragon", "cataclysm:kobolediator", "cataclysm:scylla", "cataclysm:ender_guardian", "cataclysm:ignis", "cataclysm:netherite_monstrosity", "cataclysm:the_harbinger", "cataclysm:the_leviathan", "cataclysm:ancient_remnant", "cataclysm:maledictus", "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra", "twilightforest:knight_phantom", "twilightforest:ur_ghast", "twilightforest:alpha_yeti", "twilightforest:snow_queen", "hmag:ghastly_seeker", "meetyourfight:swampjaw", "meetyourfight:dame_fortuna", "meetyourfight:bellringer", "meetyourfight:rosalyne", "mowziesmobs:naga", "mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "mowziesmobs:bluff"]
 
 	[entity_optimization."袭击事件 | Raid Events"]
 		#在袭击中保持袭击者tick

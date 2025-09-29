@@ -8,5 +8,19 @@
         "level": 2,
         "name": "touhoutinkermodifier:sevenluminarieswizard"
       }
+    ],
+    "perStat": {
+    "sakuratinker:charm":[
+        {
+        "level":2,
+        "name":"touhoutinkermodifier:sevenluminarieswizard_charm"
+      }
+    ],
+    "sakuratinker:spell_cloth": [
+      {
+        "level": 1,
+        "name": "touhoutinkermodifier:sevenluminarieswizard_charm"
+      }
     ]
+  }
   }

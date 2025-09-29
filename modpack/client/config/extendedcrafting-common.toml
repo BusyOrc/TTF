@@ -52,7 +52,7 @@
 	autoCrafterEnabled = true
 	#How long a single Ender Crafter crafting operation should take (in seconds) by default.
 	#Range: > 1
-	defaultTimeRequired = 60
+	defaultTimeRequired = 15
 	#How much a single Ender Alternator should speed up a craft. This is a percentage of the time required.
 	#Range: 0.0 ~ 1.0
 	alternatorEffectiveness = 0.01
@@ -88,7 +88,7 @@
 	enabled = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 9961
 	#The default amount of FE required to create a Singularity.
 	#Range: > 0
 	defaultPowerRequired = 5000000
@@ -104,7 +104,7 @@
 	#Should the Recipe Maker be enabled?
 	enabled = true
 	#Should the recipe maker try to use tags when possible?
-	useTags = false
+	useTags = true
 	#Should the recipe maker add NBT tags when possible?
 	useNBT = true
 

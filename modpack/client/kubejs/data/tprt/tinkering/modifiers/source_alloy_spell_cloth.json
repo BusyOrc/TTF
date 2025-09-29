@@ -1,0 +1,17 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "addition",
+          "value": 0.50
+        }
+      ],
+      "name": "tprt:source_alloy_spell_cloth"
+    }
+  ],
+  "tooltip_display": "always"
+}

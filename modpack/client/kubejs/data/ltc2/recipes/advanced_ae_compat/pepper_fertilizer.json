@@ -1,0 +1,41 @@
+{
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ],  
+  "type": "advanced_ae:reaction",
+  "energy": 32000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 8000,
+      "FluidName": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "tag": "forge:vegetables/pepper"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "ae2:certus_quartz_dust"
+      }
+    }
+  ],
+  "output": {
+    "#": 16,
+    "#c": "ae2:i",
+    "id": "ltc2:pepper_fertilizer"
+  }
+}

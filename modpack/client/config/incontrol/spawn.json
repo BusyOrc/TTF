@@ -6,6 +6,17 @@
         "result": "deny"
     },
     {
+        "mob":["minecraft:warden"],
+        "result":"allow",
+        "healthmultiply": 5,
+        "damagemultiply": 3,
+        "potion": [
+            "minecraft:regeneration,32000,4",
+            "minecraft:resistance,32000,2"
+        ]
+
+    },
+    {
         "dimension": "minecraft:overworld",  
         "maxheight": 16,
         "mob": ["hmag:ender_executor", "minecraft:enderman", "minecraft:spider"],

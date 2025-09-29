@@ -1,6 +1,6 @@
 #Set to true to enable debug info
 #设置为true以启用调试信息
-debug = true
+debug = false
 #The maximum number of turnovers to store
 #要存储的最大流水次数
 #Range: > 0

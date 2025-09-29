@@ -63,7 +63,7 @@ event.remove({id:/^createoreexcavation:ore_vein_type\//})
 
 // event.remove({id:'thermal:machines/insolator/insolator_tomato'})
 
-let coe =[
+let recipe_ban =[
 	'createoreexcavation:extractor/water',
 	'createoreexcavation:drilling/coal',
 	'createoreexcavation:drilling/copper',
@@ -85,9 +85,22 @@ let coe =[
 	"farmersdelight:pie_crust",
 	"thermal:machine_frame",
 	"create:crafting/materials/electron_tube",
-	'tofucraft:filtercloth'
+	'tofucraft:filtercloth',
+	'touhou_little_maid_spell:flow_core',
+	'extendedcrafting:crystaltine_ingot',
+	'extendedcrafting:black_iron_slate',
+	'extendedcrafting:ultimate_component',
+	'createsifter:brass_sifter',
+	'thermal_parallel:argument_parallel',
+	"tprt:black_steel/alloy",
+	"extendedcrafting:ender_ingot",'appflux:insulating_resin',
+	"create:industrial_iron_block_from_ingots_iron_stonecutting",
+	'extendedae_plus:infinity_biginteger_cell',
+	'beyonddimensions:net_interface',
+	'beyonddimensions:unstable_space_time_fragment',
+	'beyonddimensions:net_creater','thermal:redstone_servo'
 	]
-	for (let i of coe) {event.remove({id:`${i}`})}
+	for (let i of recipe_ban) {event.remove({id:`${i}`})}
 
 
 let fxxking_knives=

@@ -1,10 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "4293891DF89E3E58", title: "Easy" }
-		{ id: "70B4907D74D7EF03", title: "Normal" }
-		{ id: "2F6557FC41D866A7", title: "Hard" }
-		{ id: "398070A2413EA53F", title: "Lunatic" }
-		{ id: "7E2BC7A0DAD568E2", title: "洞穴奇遇" }
-		{ id: "756D1B6269D2C725", title: "Extra" }
+		{ id: "193CD093E44A0DB8", title: "主线-梦之世界探索" }
+		{ id: "221DDC614A1C707D", title: "主线-结界侵蚀推演" }
+		{ id: "12FA86E2737D0BEE", title: "主线-百鬼夜行退治" }
+		{ id: "398070A2413EA53F", title: "冒险" }
+		{ id: "756D1B6269D2C725", title: "科技" }
+		{ id: "26F1962A4E5A2646", title: "Extra" }
+		{ id: "4FC3997E36CADCCF", title: "养生" }
 	]
 }

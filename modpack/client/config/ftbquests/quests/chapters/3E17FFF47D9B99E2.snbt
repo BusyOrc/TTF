@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3E17FFF47D9B99E2"
-	group: "2F6557FC41D866A7"
+	group: "756D1B6269D2C725"
 	icon: "create:goggles"
 	id: "3E17FFF47D9B99E2"
 	images: [
@@ -222,7 +222,7 @@
 			y: 12.35d
 		}
 	]
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

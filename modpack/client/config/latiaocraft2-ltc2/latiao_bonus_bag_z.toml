@@ -15,4 +15,27 @@
 	#Weight: Enchanter Latiao / 权重：附魔师辣条
 	#Range: 0 ~ 512
 	WeightEnchanterLatiao = 5
+	#Weight: Duplishape Latiao / 权重：衍变辣条
+	#Range: 0 ~ 512
+	WeightDuplishapeLatiao = 5
+
+["Item Drop Count Settings for Latiao Bonus Bag Z / 辣条福袋Z 物品抽取数量设置"]
+	#Count: Evil Latiao / 数量：邪恶辣条
+	#Range: 0 ~ 64
+	CountEvilLatiao = 1
+	#Count: Time Latiao / 数量：时间辣条
+	#Range: 0 ~ 64
+	CountTimeLatiao = 1
+	#Count: Poseidon Latiao / 数量：海神辣条
+	#Range: 0 ~ 64
+	CountPoseidonLatiao = 1
+	#Count: Undying Latiao / 数量：不死辣条
+	#Range: 0 ~ 64
+	CountUndyingLatiao = 1
+	#Count: Enchanter Latiao / 数量：附魔师辣条
+	#Range: 0 ~ 64
+	CountEnchanterLatiao = 1
+	#Count: Duplishape Latiao / 数量：衍变辣条
+	#Range: 0 ~ 64
+	CountDuplishapeLatiao = 1
 

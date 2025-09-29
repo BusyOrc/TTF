@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "03906D1D5B64B535"
-	group: "4293891DF89E3E58"
+	group: "193CD093E44A0DB8"
 	icon: {
 		Count: 1
 		id: "touhou_little_maid:hakurei_gohei"
@@ -25,11 +25,11 @@
 			image: "thermal:block/devices/device_collector_underlay"
 			rotation: 0.0d
 			width: 4.0d
-			x: 4.75d
-			y: 4.25d
+			x: 4.5d
+			y: 5.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -85,7 +85,7 @@
 				id: "23D5B9BF84AE6AE9"
 				type: "checkmark"
 			}]
-			title: "1.1 初次见面"
+			title: "初次见面"
 			x: -3.9464285714285694d
 			y: -0.5678571428571431d
 		}
@@ -111,7 +111,7 @@
 				id: "57171E013B7A05DE"
 				type: "checkmark"
 			}]
-			title: "1.2 阿卡什宝典"
+			title: "阿卡什宝典"
 			x: 2.0d
 			y: -0.5d
 		}
@@ -157,7 +157,7 @@
 				id: "1980F8FAACC41A6F"
 				type: "checkmark"
 			}]
-			title: "1.3 补充"
+			title: "补充"
 			x: 4.5d
 			y: -0.5d
 		}
@@ -194,7 +194,7 @@
 				id: "7C0E209C0B849A4D"
 				type: "checkmark"
 			}]
-			title: "1.4 永别了，牢笼"
+			title: "永别了，牢笼"
 			x: 7.5d
 			y: -0.5d
 		}
@@ -231,9 +231,9 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "1.5 重寻战斗的记忆"
-			x: 5.75d
-			y: 4.25d
+			title: "重获战斗的记忆"
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -264,9 +264,9 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "1.6 重寻旅行的意义"
-			x: 3.75d
-			y: 4.25d
+			title: "重寻旅行的意义"
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4AF3B5DC86723CE3"]
@@ -303,7 +303,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "1.7 搭建祭坛"
+			title: "搭建祭坛"
 			x: 13.0d
 			y: -0.5d
 		}
@@ -311,14 +311,14 @@
 			can_repeat: true
 			dependencies: ["0760661C2440F82B"]
 			description: [
-				"灵梦：丢了？拿十万来我就给你找回来，不过没有十万的话，"
+				"灵梦：拿十万的话就给你换一本更强的书，甚至还包含了各种工具"
 				""
-				"就用10个铁锭代替吧"
+				"没有十万？那就换成别的吧，这些材料如何？"
 			]
-			icon: "minecraft:iron_ingot"
+			icon: "ars_nouveau:source_gem"
 			id: "32B3421E3CA0E280"
 			rewards: [{
-				id: "500E1CA9557020F6"
+				id: "1A2A704E652736C1"
 				item: {
 					Count: 1
 					id: "akashictome:tome"
@@ -337,9 +337,41 @@
 									}
 								}
 							}
+							ae2_0: {
+								Count: 1b
+								id: "ae2:network_tool"
+								tag: {
+									"akashictome:definedMod": "ae2_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ae2.network_tool\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.network_tool\"}]}"
+									}
+								}
+							}
 							ars_nouveau: {
 								Count: 1b
 								id: "ars_nouveau:worn_notebook"
+							}
+							ars_nouveau_0: {
+								Count: 1b
+								id: "ars_nouveau:dominion_wand"
+								tag: {
+									"akashictome:definedMod": "ars_nouveau_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ars_nouveau.dominion_wand\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ars_nouveau.dominion_wand\"}]}"
+									}
+								}
+							}
+							create: {
+								Count: 1b
+								id: "create:wrench"
 							}
 							extendedcrafting: {
 								Count: 1b
@@ -384,6 +416,21 @@
 									"patchouli:book": "laserio:laseriobook"
 								}
 							}
+							laserio_0: {
+								Count: 1b
+								id: "laserio:laser_wrench"
+								tag: {
+									"akashictome:definedMod": "laserio_0"
+									connectiondimpos: {
+										blockpos: {
+											X: 0
+											Y: 0
+											Z: 0
+										}
+										level: "minecraft:overworld"
+									}
+								}
+							}
 							ltc2: {
 								Count: 1b
 								id: "patchouli:guide_book"
@@ -424,6 +471,10 @@
 								tag: {
 									"patchouli:book": "packagedauto:guide"
 								}
+							}
+							refurbished_furniture: {
+								Count: 1b
+								id: "refurbished_furniture:wrench"
 							}
 							solcarrot: {
 								Count: 1b
@@ -494,6 +545,20 @@
 									"patchouli:book": "thermal:guidebook"
 								}
 							}
+							thermal_0: {
+								Count: 1b
+								id: "thermal:wrench"
+								tag: {
+									"akashictome:definedMod": "thermal_0"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.thermal.wrench\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.thermal.wrench\"}]}"
+									}
+								}
+							}
 							tofucraft: {
 								Count: 1b
 								id: "patchouli:guide_book"
@@ -549,8 +614,15 @@
 					item: "minecraft:writable_book"
 					type: "item"
 				}
+				{
+					consume_items: true
+					count: 10L
+					id: "76702E8789C502AC"
+					item: { Count: 10, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
 			]
-			title: "这本书给弄丢了"
+			title: "更好的书"
 			x: 2.0d
 			y: 1.5d
 		}
@@ -579,24 +651,6 @@
 			title: "询问灵梦关于异变"
 			x: -4.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["0A3142642A7A7D2F"]
-			description: ["想要复活女仆？拿上胶片，可在祭坛进行复活，或者将胶片放入神龛也可以，前者消耗材料，后者消耗自身血量"]
-			id: "6C841A11F83976DD"
-			rewards: [{
-				id: "6278F20DC7CB4C4D"
-				item: "touhou_little_maid:power_point"
-				type: "item"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "7D02BEDD16C01877"
-				item: "touhou_little_maid:shrine"
-				type: "item"
-			}]
-			x: 14.857142857142861d
-			y: -0.47857142857142776d
 		}
 		{
 			dependencies: [
@@ -796,6 +850,9 @@
 				team_reward: true
 				type: "command"
 			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "可选任务，并非必须完成"
 			tasks: [
 				{
 					consume_items: true
@@ -880,7 +937,7 @@
 				type: "structure"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			description: ["指南针搜索：alice"]
@@ -900,8 +957,8 @@
 				title: "发现爱丽丝小屋"
 				type: "structure"
 			}]
-			x: 11.5d
-			y: 4.5d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["13025B20518A9BD2"]
@@ -1003,6 +1060,74 @@
 			title: "特殊小技巧"
 			x: 7.5d
 			y: -3.25d
+		}
+		{
+			description: ["fumo overworld"]
+			icon: "touhou_little_maid:maid_spawn_egg"
+			id: "6C2A78FB974B848D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "558CDE37F4F33C8F"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "038CC7B892E2E29A"
+				structure: "ttf:fumo_overworld"
+				title: "发现主世界的fumo"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			description: ["fumo nether"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:garage_kit"
+				tag: {
+					EntityInfo: {
+						IsYsmModel: 0b
+						MaidTaskDataMaps: { }
+						ModelId: "touhou_little_maid:shikieiki_yamaxanadu"
+						id: "touhou_little_maid:maid"
+					}
+				}
+			}
+			id: "0333A0E9F269C607"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "636DF534564F0BE4"
+				table_id: 2362152798840615926L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1DF63800FEE69213"
+				structure: "ttf:fumo_nether"
+				title: "发现下界的fumo"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			description: ["mystia iazakaya"]
+			icon: "youkaishomecoming:fermentation_tank"
+			id: "4EE0403EF4739366"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "44C341C5D5352B5B"
+				structure: "ttf:mystia_izakaya"
+				title: "发现夜雀食堂"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: 5.0d
 		}
 	]
 	title: "初遇灵梦"

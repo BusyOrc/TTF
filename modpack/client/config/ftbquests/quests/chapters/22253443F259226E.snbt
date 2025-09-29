@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "22253443F259226E"
-	group: "70B4907D74D7EF03"
+	group: "756D1B6269D2C725"
 	icon: "ae2:controller"
 	id: "22253443F259226E"
 	images: [
@@ -12,7 +12,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 1.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			height: 2.0d
@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 3.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			click: "#61EFB763D2CC53A9"
@@ -36,7 +36,7 @@
 			image: "fluxnetworks:item/flux_core"
 			rotation: 0.0d
 			width: 2.0d
-			x: 13.5d
+			x: 15.5d
 			y: 3.0d
 		}
 		{
@@ -46,7 +46,7 @@
 			image: "fluxnetworks:item/flux_dust"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.0d
+			x: 16.0d
 			y: -3.5d
 		}
 		{
@@ -54,7 +54,7 @@
 			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.0d
+			x: 15.0d
 			y: -3.5d
 		}
 		{
@@ -64,7 +64,7 @@
 			image: "minecraft:block/obsidian"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.0d
+			x: 14.0d
 			y: -5.5d
 		}
 		{
@@ -72,7 +72,7 @@
 			image: "minecraft:block/bedrock"
 			rotation: 0.0d
 			width: 2.0d
-			x: 12.0d
+			x: 14.0d
 			y: -2.5d
 		}
 		{
@@ -82,7 +82,7 @@
 			image: "minecraft:item/redstone"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
+			x: 14.0d
 			y: -3.5d
 		}
 		{
@@ -93,7 +93,7 @@
 			order: 2
 			rotation: 0.0d
 			width: 0.8d
-			x: 11.0d
+			x: 13.0d
 			y: -5.5d
 		}
 		{
@@ -104,11 +104,11 @@
 			order: 3
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
+			x: 12.0d
 			y: -5.5d
 		}
 	]
-	order_index: 5
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -127,7 +127,7 @@
 			}]
 			title: "精妙背包"
 			x: -0.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5C07EAA34865A7AD"]
@@ -149,7 +149,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -170,7 +170,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -192,7 +192,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -230,7 +230,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -247,7 +247,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -270,7 +270,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -295,7 +295,7 @@
 			}]
 			title: "精妙存储的容器"
 			x: 6.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -360,7 +360,7 @@
 			]
 			title: "存储IO"
 			x: 4.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -383,7 +383,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -414,7 +414,7 @@
 			]
 			title: "额外装饰"
 			x: 4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -443,7 +443,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["61623C20C4A7E85E"]
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7516B02F6A70925A"]
@@ -482,7 +482,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7516B02F6A70925A"]
@@ -498,7 +498,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7516B02F6A70925A"]
@@ -514,7 +514,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7516B02F6A70925A"]
@@ -535,7 +535,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -552,7 +552,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -569,7 +569,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5712615CA4DA2956"]
@@ -586,7 +586,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -640,8 +640,8 @@
 				type: "item"
 			}]
 			title: "抽屉"
-			x: -2.0d
-			y: 5.0d
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["05D96B47A90AB7BE"]
@@ -672,8 +672,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 7.0d
+			x: 2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
@@ -684,8 +684,8 @@
 				item: "functionalstorage:controller_extension"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: 1.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["05D96B47A90AB7BE"]
@@ -702,8 +702,8 @@
 				item: "functionalstorage:framed_2"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -0.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
@@ -729,8 +729,8 @@
 				item: "functionalstorage:simple_compacting_drawer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
@@ -746,8 +746,8 @@
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
 			description: ["最基础的部件之一，需要先制作未成形的逻辑芯片然后&a烧制&r得到"]
@@ -1340,7 +1340,7 @@
 			}]
 			title: "限类容器"
 			x: 8.0d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			description: [
@@ -1361,7 +1361,7 @@
 		}
 		{
 			dependencies: ["0C7B98102B625CC6"]
-			description: ["末影黏液球可前往末地寻找，将其放在晾干架上等待一段时间即可变为通量网络所需的基础材料之一"]
+			description: ["末影黏液球可前往末地寻找，将其&a放在晾干架上&r等待一段时间即可变为通量网络所需的基础材料之一"]
 			icon: "tconstruct:ender_slime_ball"
 			id: "77B77FA63DB1FBE2"
 			tasks: [
@@ -1376,18 +1376,19 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 11.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["77B77FA63DB1FBE2"]
+			description: ["用末影珍珠粉合成是另一种方法"]
 			id: "6A5DAB87CCD22B12"
 			tasks: [{
 				id: "51A9647E64C73DC0"
 				item: "tinkers_thinking:ender_slime_drop"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: 2.0d
 		}
 		{
@@ -1401,7 +1402,7 @@
 				type: "checkmark"
 			}]
 			title: "通量网络"
-			x: 7.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -1431,7 +1432,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 13.5d
 			y: 0.5d
 		}
 		{
@@ -1442,7 +1443,7 @@
 				item: "fluxnetworks:flux_core"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -1456,7 +1457,7 @@
 				item: "fluxnetworks:flux_block"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -1476,7 +1477,7 @@
 				item: "fluxnetworks:flux_plug"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.5d
 			y: 0.5d
 		}
 		{
@@ -1496,7 +1497,7 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.5d
 			y: 2.0d
 		}
 		{
@@ -1511,7 +1512,7 @@
 				item: "fluxnetworks:basic_flux_storage"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -1535,7 +1536,7 @@
 				item: "fluxnetworks:herculean_flux_storage"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.5d
 			y: -1.0d
 		}
 		{
@@ -1547,7 +1548,7 @@
 				item: "fluxnetworks:gargantuan_flux_storage"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.5d
 			y: -1.0d
 		}
 		{
@@ -1557,7 +1558,7 @@
 				item: "thermal:signalum_block"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.5d
 			y: 2.0d
 		}
 		{
@@ -1567,7 +1568,7 @@
 				item: "thermal:enderium_glass"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: -1.0d
 		}
 		{
@@ -1590,7 +1591,7 @@
 				item: "fluxnetworks:flux_configurator"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: 0.5d
 		}
 		{
@@ -1600,7 +1601,7 @@
 				item: "thermal:enderium_block"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
@@ -1632,7 +1633,7 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.5d
 			y: 0.5d
 		}
 		{
@@ -1657,8 +1658,8 @@
 				}
 			]
 			title: "特殊配方"
-			x: -0.5d
-			y: 5.0d
+			x: 3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["05D96B47A90AB7BE"]
@@ -1675,8 +1676,8 @@
 				item: "functionalstorage:configuration_tool"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1687,8 +1688,8 @@
 				item: "functionalstorage:puller_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 9.0d
+			x: 1.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1699,8 +1700,8 @@
 				item: "functionalstorage:collector_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -0.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1711,8 +1712,8 @@
 				item: "functionalstorage:pusher_upgrade"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: 3.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
@@ -1734,8 +1735,8 @@
 				type: "checkmark"
 			}]
 			title: "抽屉的升级"
-			x: -2.0d
-			y: 8.0d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1745,8 +1746,8 @@
 				item: "functionalstorage:copper_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.0d
+			x: -0.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1756,8 +1757,8 @@
 				item: "functionalstorage:gold_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.0d
+			x: 1.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1767,8 +1768,8 @@
 				item: "functionalstorage:diamond_upgrade"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: 3.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1778,8 +1779,8 @@
 				item: "functionalstorage:netherite_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: 4.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1790,8 +1791,8 @@
 				item: "functionalstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
+			x: 4.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["686124C84B60F31D"]
@@ -1806,8 +1807,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: 2.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["26B1A6886D29E0EB"]
@@ -1829,10 +1830,11 @@
 				item: "functionalstorage:ender_drawer"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -0.5d
+			y: 13.0d
 		}
 		{
+			dependencies: ["26B1A6886D29E0EB"]
 			description: [
 				"需要特别说明的物品：可以储存最多4096件不可堆叠物品。不能打开它，它没有GUI。只能使用自动化来插入和提取。"
 				""
@@ -1853,14 +1855,14 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "0C635DED0752BBF1"
 				item: "functionalstorage:armory_cabinet"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -0.5d
+			y: 14.0d
 		}
 	]
 	title: "物流与仓储"

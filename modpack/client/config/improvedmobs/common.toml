@@ -217,13 +217,13 @@
 	"Equipment Chance" = 0.10000000149011612
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.05
+	"Additional Equipment Chance" = 0.0
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Equipment Addition" = 0.003
+	"Equipment Addition" = 0.0
 	#Chance for an equipment to have a random armor trim
 	#Range: 0.0 ~ 1.0
-	"Armor Trim Chance" = 0.05000000074505806
+	"Armor Trim Chance" = 0.0
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
 	"Weapon Chance" = 0.0
@@ -244,7 +244,7 @@
 	"Enchanting Whitelist" = false
 	#Chance for mobs to have an item in offhand
 	#Range: 0.0 ~ 1.0
-	"Item Equip Chance" = 0.2
+	"Item Equip Chance" = 0.0
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Item Chance add" = 0.20000000298023224

@@ -19,6 +19,10 @@
     "hmag:snow_canine",
     "hmag:melty_monster",
     "hmag:redcap",
-    "hmag:imp"
+    "hmag:imp",
+    "minecraft:illager",
+    "goety:inquillager",
+    "goety:maverick",
+    "goety:wight"
   ]
 }

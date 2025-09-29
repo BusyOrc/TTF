@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2D4DF2A6CAD8FC54"
-	group: "4293891DF89E3E58"
+	group: "4FC3997E36CADCCF"
 	icon: "minecraft:blaze_powder"
 	id: "2D4DF2A6CAD8FC54"
 	images: [
@@ -63,7 +63,7 @@
 			y: -15.9d
 		}
 	]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,11 @@
+ {
+  "type": "mantle:fill_item",
+  "fluid": {
+    "amount": 250,
+    "fluid": "minecraft:lava"
+  },
+  "input": {
+    "item": "minecraft:bowl"
+  },
+  "result": "kubejs:lava_bowl" 
+}

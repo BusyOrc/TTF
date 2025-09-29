@@ -1,0 +1,43 @@
+{
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "attributeslib"
+      }
+    ],
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": -0.05,
+        "operation": "multiply_total",
+        "attribute": "l2damagetracker:damage_reduction",
+        "unique": "tconstruct.modifier.mixeddragon_armor",
+        "slots": [
+  
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      },
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.1,
+        "operation": "addition",
+        "attribute": "irons_spellbooks:spell_resist",
+        "unique": "tconstruct.modifier.source_alloy_armor",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ],
+    "tooltip_display": "always"
+  }

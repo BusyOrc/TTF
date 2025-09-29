@@ -1,0 +1,35 @@
+{
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "advanced_ae"
+    }
+  ],  
+  "type": "advanced_ae:reaction",
+  "energy": 10000,
+  "fluid": {
+    "fluidStack": {
+      "Amount": 4000,
+      "FluidName": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "tag": "forge:gems/emerald"
+      }
+    },
+    {
+      "amount": 32,
+      "ingredient": {
+        "tag": "ltc2:pepper_powders"
+      }
+    }
+  ],
+  "output": {
+    "#": 4,
+    "#c": "ae2:i",
+    "id": "ltc2:pyrospicy_jade"
+  }
+}

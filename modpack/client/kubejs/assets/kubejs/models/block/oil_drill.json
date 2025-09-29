@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_directional",
+  "particle": "create:block/andesite_block",
+  "textures": {
+    "north": "kubejs:block/oil_drill",  
+    "south": "kubejs:block/nuclearcontroller2",  
+    "east": "kubejs:block/nuclearcontroller2",   
+    "west": "kubejs:block/nuclearcontroller2",   
+    "up": "kubejs:block/nuclearcontroller2",     
+    "down": "kubejs:block/nuclearcontroller2"    
+  }
+}

@@ -242,7 +242,7 @@ event.add('forge:cakes',['vanillacookbook:book_cake', 'tconstruct:sky_cake',
           'vanillacookbook:berry_cake', 'mystias_izakaya:xing_hong_e_mo_dan_gao','mystias_izakaya:pu_tong_xia_dan_gao',
            'youkaishomecoming:red_velvet_cake', 'youkaishomecoming:scarlet_devil_cake', 'nffgirls:soul_cake', 'createaddition:honey_cake',
      'vanillacookbook:chocolate_cake', 'vanillacookbook:mohnkuchen', 'vanillacookbook:ice_cream_cake',
-      'vanillacookbook:rose_cake', 'vanillacookbook:chorus_cake','vanillacookbook:book_cake',
+      'vanillacookbook:rose_cake', 'vanillacookbook:chorus_cake','vanillacookbook:book_cake','mynethersdelight:magma_cake_block',
        'tconstruct:sky_cake', 'tconstruct:earth_cake', 'vanillacookbook:glow_berry_cake', 'meetyourfight:aether_glazed_cupcake'])
 
 event.add('forge:golden_fabric',['immortalers_delight:golden_fabric','tinkers_thinking:gilded_silky_cloth'])
@@ -254,12 +254,12 @@ event.add("forge:mortar",['ltc2:mortar', 'pasterdream:mortar'])
 event.add("forge:plate_armor",["tconstruct:plate_helmet","tconstruct:plate_chestplate","tconstruct:plate_leggings","tconstruct:plate_boots"])
 event.add("forge:laminar_armor",["tinkers_things:laminar_helmet","tinkers_things:laminar_chestplate","tinkers_things:laminar_leggings","tinkers_things:laminar_boots"])
 event.add("forge:embedded_armor",["sakuratinker:embedded_helmet","sakuratinker:embedded_chestplate","sakuratinker:embedded_leggings","sakuratinker:embedded_boots"])
-
-
+event.add("forge:crude_oil_latiao",['ltc2:delicacy_blaze_latiao', 'ltc2:delicacy_soylatiao'])
+event.add("kubejs:gift",['youkaishomecoming:higi_doughnut', 'youkaishomecoming:scarlet_devil_cake', 'youkaishomecoming:koishi_mousse', 'youkaishomecoming:grilled_eel_over_rice'])
 
 event.add('ftbultimine:tools',["thermal:flux_drill","thermal:flux_saw"])
 event.add('forge:tools',["thermal:flux_drill","thermal:flux_saw"])
-
-
+event.add("forge:heavy_core",['tinkersancient:heavy_core', 'trials:heavy_core'])
+event.add("forge:tools/shovels","tinkers_things:shovel")
 })
 

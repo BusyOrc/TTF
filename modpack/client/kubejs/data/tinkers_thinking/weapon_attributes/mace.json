@@ -6,9 +6,9 @@
       "attacks": [
         {
           "hitbox": "HORIZONTAL_PLANE",
-          "damage_multiplier": 0.9,
+          "damage_multiplier": 1.5,
           "angle": 150,
-          "upswing": 0.5,
+          "upswing": 0.0,
           "animation": "bettercombat:two_handed_slash_horizontal_right",
           "swing_sound": {
             "id": "bettercombat:anchor_slam"
@@ -16,9 +16,9 @@
         },
         {
           "hitbox": "HORIZONTAL_PLANE",
-          "damage_multiplier": 0.9,
+          "damage_multiplier": 1.5,
           "angle": 150,
-          "upswing": 0.5,
+          "upswing": 0.0,
           "animation": "bettercombat:two_handed_slash_horizontal_left",
           "swing_sound": {
             "id": "bettercombat:anchor_slam"
@@ -26,9 +26,9 @@
         },
         {
           "hitbox": "FORWARD_BOX",
-          "damage_multiplier": 1.5,
+          "damage_multiplier": 2,
           "angle": 180,
-          "upswing": 0.5,
+          "upswing": 0.0,
           "animation": "bettercombat:two_handed_slam_heavy",
           "swing_sound": {
             "id": "bettercombat:anchor_slam"
@@ -36,9 +36,9 @@
         },
         {
             "hitbox": "HORIZONTAL_PLANE",
-            "damage_multiplier": 2,
+            "damage_multiplier": 4,
             "angle": 360,
-            "upswing": 0.5,
+            "upswing": 0.0,
             "animation": "bettercombat:two_handed_spin",
             "swing_sound": {
               "id": "bettercombat:anchor_slam"

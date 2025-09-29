@@ -39,4 +39,8 @@
 	#Count obtained by igniting a Wild Red Pepper with Gunpowder / 通过火药点燃野生红辣椒获取火爆辣椒的数量
 	#Range: 0 ~ 128
 	JalapenoCountWild = 1
+	#Is the 'Shift' key required to ignite a Red Pepper Plant to obtain Jalapeno/ 点燃红辣椒植株获取火爆辣椒是否需要按住 Shift 键
+	ShiftJalapenoObtain = false
+	#Is the 'Shift' key required to ignite a Wild Red Pepper to obtain Jalapeno/ 点燃野生红辣椒获取火爆辣椒是否需要按住 Shift 键
+	ShiftJalapenoObtainWild = false
 

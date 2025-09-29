@@ -1,0 +1,529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63CFCDFAF9D148DC"
+	group: "756D1B6269D2C725"
+	icon: "extendedcrafting:crafting_core"
+	id: "63CFCDFAF9D148DC"
+	images: [
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["直接用ME线缆连接，无需样板供应器"]
+			image: "ae2:part/cable/core/dense_smart/blue"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: -5.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: [
+				"封包配方编码器"
+				"提前写好配方存储器，可放置在任意位置"
+			]
+			image: "packagedauto:block/encoder_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: [
+				"解包机"
+				"需要放入写好的配方存储器"
+			]
+			image: "packagedauto:block/unpackager_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: [
+				"封包机"
+				"需要放入写好的配方存储器"
+			]
+			image: "packagedauto:block/packager_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["直接用ME线缆连接，无需样板供应器"]
+			image: "ae2:part/cable/core/dense_smart/blue"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: [
+				"ME封包供应器"
+				"需要放入写好的配方存储器"
+			]
+			image: "packagedauto:block/packaging_provider_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["对应的封包合成器"]
+			image: "packagedexcrafting:block/advanced_crafter_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["对应的封包合成器"]
+			image: "packagedexcrafting:block/advanced_crafter_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.5d
+			y: -5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["019361B8E135B5AF"]
+			id: "38E59ED0D37A0679"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3938B2CA94E8A802"
+				item: "extendedcrafting:basic_auto_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["557F64347BD73612"]
+			id: "61627D1E41E70FEF"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "498ECB60A3B9D00E"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D3FEA30225AA251"]
+			id: "68837BDF9E04E437"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "25DF63E733FEE345"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7147C139A81BD90B"]
+			id: "2B4BC495EC3AA0F7"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1899BA5733A89D94"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			id: "019361B8E135B5AF"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0358B675A9AA6FC9"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			id: "557F64347BD73612"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "20DCFE86684F255F"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			id: "5D3FEA30225AA251"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7EF44F2D77C86CE6"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			id: "7147C139A81BD90B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "37A977498187A3A5"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"前面部分为只能手动合成的特殊工作台，可以升级得到能自动化的版本，&d如果要搭配封包合成，只能使用封包合成器"
+				""
+				"&r除了专属配方，还能合成机械动力的动力合成器相关配方"
+			]
+			icon: "minecraft:crafting_table"
+			id: "727C4580DBC0BB01"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "282B0854A0490216"
+				type: "checkmark"
+			}]
+			title: "特殊工作台"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			description: [
+				"分为三步："
+				"1.将封包配方存储器放入封包配方编码器里，在其中写好配方，可用JEI辅助，特别注意，相关的合成台等级需要完全对应，例如，存储器里如果写的是精英等级的合成台，则实际合成时也必须使用精英等级。一共有20个配方栏位可供编写，写好后点击右上角保存"
+				""
+				"2.a 将写好配方的封包配方存储器复制1份，共2份，分别放入封包机和解包机里，&a将空白的存储器和已经写好的在一起合成即可实现复制&r"
+				"2.b 或者只需要一份配方存储器，将其放入ME封包供应器"
+				""
+				"3.在ME合成终端里直接下单相应物品（例如：粉碎轮等），不要下单封包的中间包裹道具"
+			]
+			icon: "packagedauto:recipe_holder"
+			id: "2D3C5262B9E36277"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7874028A61CFFA67"
+				type: "checkmark"
+			}]
+			title: "封包合成教程"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["02E7BB93B9283B50"]
+			id: "0E657834EC0EF1C0"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5BE149F41639A73D"
+				item: "extendedcrafting:ender_crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E657834EC0EF1C0"]
+			description: [""]
+			icon: "extendedcrafting:auto_ender_crafter"
+			id: "05ED2B6C0D3004C7"
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "75E5F3AC911305B0"
+					item: "extendedcrafting:auto_ender_crafter"
+					type: "item"
+				}
+				{
+					id: "7FFE94054CF87D94"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			description: ["放入相应的催化剂后，输入对应数量的物品即可得到奇点"]
+			id: "237509C569FB68E5"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2BD782F3A5B8BF78"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["197E3D09174DA912"]
+			id: "5C8DD66459264E19"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2BE42049CEE702C2"
+				item: "extendedcrafting:flux_crafter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C8DD66459264E19"]
+			description: [""]
+			icon: "extendedcrafting:auto_flux_crafter"
+			id: "7AA23C42EB951B1A"
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1F8A002558B927B0"
+					item: "extendedcrafting:auto_flux_crafter"
+					type: "item"
+				}
+				{
+					id: "20F64A4F84767F50"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E59ED0D37A0679"]
+			id: "4595B637E0A76B7E"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "39DE65EB71024627"
+				item: "packagedexcrafting:basic_crafter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61627D1E41E70FEF"]
+			id: "5968BFDE438FEB31"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1E8D604DC041AF1A"
+				item: "packagedexcrafting:advanced_crafter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68837BDF9E04E437"]
+			id: "79DC49621416E242"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "29CAA221BCC30BFD"
+				item: "packagedexcrafting:elite_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B4BC495EC3AA0F7"]
+			id: "598897F916C4191D"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1A8BC23722D997BE"
+				item: "packagedexcrafting:ultimate_crafter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05ED2B6C0D3004C7"]
+			description: ["即使是封包合成，也必须使用末影发电机"]
+			id: "1CADD9B91C8B8C8C"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "317339DA2BFF710C"
+				item: "packagedexcrafting:ender_crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AA23C42EB951B1A"]
+			description: ["即使是封包合成，也必须使用通量发电机"]
+			id: "3EA3AD44A24235B8"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "69F8C61F3CE532DE"
+				item: "packagedexcrafting:flux_crafter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			id: "4B679CACA10818AC"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "24F4E14A5F6E5A69"
+				item: "packagedexcrafting:combination_crafter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D3C5262B9E36277"]
+			description: ["想知道如何放置方块？看看右侧的排布情况就是相应物品的放置情况"]
+			icon: "packagedauto:encoder"
+			id: "55EBA934DE243F4C"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "03FB8F9F396A3BC5"
+					item: "packagedauto:encoder"
+					type: "item"
+				}
+				{
+					id: "4E8F5B7DD13649EA"
+					item: "packagedauto:recipe_holder"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55EBA934DE243F4C"]
+			id: "69676EB9E2315156"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "191309D6C01F77F8"
+				item: "packagedauto:packager"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69676EB9E2315156"]
+			id: "3196B79CC28BFAB2"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "49D7E859910A0A1A"
+				item: "packagedauto:unpackager"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["55EBA934DE243F4C"]
+			description: [
+				"相当于封包机+解包机二合一，放入带有配方的封包配方存储器就能实现二者或者其一的功能。不具备解包机的存储功能。"
+				""
+				"选择提供径直配方，可以直接省略掉封包合成过程，直接合成对应的物品。"
+				""
+				"不提供径直配方模式，会有合成封包的过程，然后对其解包合成。"
+			]
+			id: "7808D616DF09F11A"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "14EE0BBB4DC2FCFD"
+				item: "packagedauto:packaging_provider"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			description: [
+				"需要将末影发电机摆放在末影合成器附近3格内，发电机本身无需任何额外材料供应，数量越多，合成效率越高"
+				""
+				"&c没有特殊发电机，合成将无法进行&r"
+			]
+			id: "02E7BB93B9283B50"
+			tasks: [{
+				id: "661CCA170025C434"
+				item: "extendedcrafting:ender_alternator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["727C4580DBC0BB01"]
+			description: [
+				"需要将通量发电机摆放在合成器附近3格内，发电机本身无需任何额外材料供应，数量越多，合成效率越高"
+				""
+				"&c没有特殊发电机，合成将无法进行&r"
+			]
+			id: "197E3D09174DA912"
+			tasks: [{
+				id: "01DCD1AE70E5D239"
+				item: "extendedcrafting:flux_alternator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+	]
+	title: "拓展合成"
+}

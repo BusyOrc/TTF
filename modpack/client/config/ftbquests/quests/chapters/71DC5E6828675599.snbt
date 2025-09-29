@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "71DC5E6828675599"
-	group: "2F6557FC41D866A7"
+	group: "756D1B6269D2C725"
 	icon: "create:wrench"
 	id: "71DC5E6828675599"
 	images: [
@@ -432,11 +432,10 @@
 			y: 13.0d
 		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0F698C6A49F609BD"]
 			description: [
 				"荷取：盟友，欢迎来到河童的机械动力大学习课堂。这里我会教你一些&a最基础&r的内容，如果忘了也没关系，后面的进阶课堂会把很多基础内容给回顾一遍。"
 				""
@@ -1158,6 +1157,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 8L
 				id: "78BFB189FD6A1875"
 				item: "youkaishomecoming:cucumber"
@@ -1914,7 +1914,7 @@
 			}]
 			title: "无限抽取"
 			x: -2.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3A08C7AFC709D349"]
@@ -2003,8 +2003,8 @@
 				item: "tofucraft:bucket_soymilk"
 				type: "item"
 			}]
-			x: -2.625d
-			y: 13.5d
+			x: -1.9642857142857153d
+			y: 13.714285714285715d
 		}
 		{
 			dependencies: ["3FCC6F6E186A2F38"]
@@ -2018,19 +2018,6 @@
 			}]
 			x: -0.375d
 			y: 12.75d
-		}
-		{
-			dependencies: ["3FCC6F6E186A2F38"]
-			id: "4861EB37FC221978"
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				id: "2B6894B0EFF71841"
-				item: "alexscaves:acid_bucket"
-				type: "item"
-			}]
-			x: -1.125d
-			y: 13.5d
 		}
 		{
 			dependencies: ["08AE04BA5F001F55"]

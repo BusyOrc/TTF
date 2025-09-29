@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 360,
+      "fluid": "tconstruct:molten_manyullyn"
+    },
+    {
+      "amount": 90,
+      "fluid": "tconstruct:molten_netherite"
+    },
+    {
+      "amount": 450,
+      "fluid": "kubejs:molten_skysteel"
+    }
+  ],
+  "result": {
+    "amount": 90,
+    "fluid": "tprt:molten_advanced_manyullyn"
+  },
+  "temperature": 2700
+}

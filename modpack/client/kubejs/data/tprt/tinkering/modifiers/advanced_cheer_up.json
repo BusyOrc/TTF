@@ -1,0 +1,44 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "attributeslib"
+    }
+  ],
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "tconstruct:requirements",
+      "display_modifiers": [
+        {
+          "level": 1,
+          "name": "tprt:heart_of_life"
+        }
+      ],
+      "requirement": {
+
+        "type": "tconstruct:has_modifier",
+        "check": "all",
+        "modifier": {
+          "type": "tconstruct:single",
+          "modifier": "tprt:heart_of_life"
+        }
+      },
+      "translation_key": "modifier.tprt.advanced_cheer_up.requirements"
+    },
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 0.1,
+      "operation": "multiply_base",
+      "attribute": "minecraft:generic.max_health",
+      "unique": "tconstruct.modifier.advanced_cheer_up",
+      "tooltip_style": "percent",
+      "slots": [
+        "feet",
+        "legs",
+        "chest",
+        "head"
+      ]
+    }
+  ]
+}

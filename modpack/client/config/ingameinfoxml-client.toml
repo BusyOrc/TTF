@@ -5,17 +5,17 @@
 	#Replace the debug overlay (F3) with the InGameInfoXML overlay.
 	replaceDebug = false
 	#Display the overlay in chat.
-	showInChat = true
+	showInChat = false
 	#Display the overlay on the player list.
 	showOnPlayerList = true
 	#The overlay will be scaled by this amount.
 	#Range: 0.5 ~ 2.0
-	scale = 1.0
+	scale = 0.5
 	#The interval between file reads for the 'file' tag (in seconds).
 	#Range: 1 ~ 60
 	fileInterval = 5
 	#Display the vanilla potion overlay.
-	showOverlayPotions = true
+	showOverlayPotions = false
 	#Display the item overlay on icon (durability, stack size).
 	showOverlayItemIcons = true
 	#Use numerical values to display effect amplifier instead of Roman numerals銆�
@@ -25,7 +25,7 @@
 
 [alignment]
 	#Offsets for TOPLEFT (X<space>Y).
-	topleft = "2 18"
+	topleft = "2 180"
 	#Offsets for TOPCENTER (X<space>Y).
 	topcenter = "0 2"
 	#Offsets for TOPRIGHT (X<space>Y).
@@ -37,7 +37,7 @@
 	#Offsets for MIDDLERIGHT (X<space>Y).
 	middleright = "-2 0"
 	#Offsets for BOTTOMLEFT (X<space>Y).
-	bottomleft = "2 -2"
+	bottomleft = "2 -20"
 	#Offsets for BOTTOMCENTER (X<space>Y).
 	bottomcenter = "0 -45"
 	#Offsets for BOTTOMRIGHT (X<space>Y).

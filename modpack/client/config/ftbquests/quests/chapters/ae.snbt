@@ -1,0 +1,677 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae"
+	group: "756D1B6269D2C725"
+	icon: "me_beam_former:beam_former_block"
+	id: "0F88D8564685BC24"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["只能放置于ME“细线”上，需要成对放置才能使用，成对放置时必须都放在细线上面，并且头部两两相对，互相面向对方，成功放置后，可以远程传递频道"]
+			id: "7508857168B2B563"
+			tasks: [{
+				id: "3E1E2D98B54FD421"
+				item: "me_beam_former:beam_former_part"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["需要放置在粗线上，和ME光束成型器一样可远程传递频道，使用方法基本一致"]
+			id: "4AF54F25AF32EF5A"
+			tasks: [{
+				id: "20C641F5A1018CB1"
+				item: "me_beam_former:beam_former_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "69DE6AFBB71A55A0"
+			tasks: [{
+				id: "3B4833568A4F6604"
+				item: "extendedae_plus:16x_crafting_accelerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "074FF6D245268603"
+			tasks: [{
+				id: "1537425BEFDBA573"
+				item: "extendedae_plus:64x_crafting_accelerator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "317659DECB66F68B"
+			tasks: [{
+				id: "50988D2AF4AA2660"
+				item: "extendedae_plus:256x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4957DE8F285758F3"
+			tasks: [{
+				id: "65B9D5056DDD2335"
+				item: "extendedae_plus:1024x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "3994BE164F2045F6"
+			tasks: [{
+				id: "37CCF45ECF8465B4"
+				item: "extendedae_plus:4x_crafting_accelerator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"省流：耗电量很低的无线连接器，可以远程连接ME网络。相当于更精简的量子环"
+				""
+				"使用方法："
+				"右键切换主从模式"
+				"shift+左键/shift+右键可减少/增加频率，不同频率的无线收发器各自独立，无法相互连接"
+				""
+				"&a推荐在设置好以后用扳手右键锁定，避免误操作导致频率改变&r"
+			]
+			id: "52140DD497049BEA"
+			tasks: [{
+				id: "7E74FBAC781E3ECB"
+				item: "extendedae_plus:wireless_transceiver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["可以方便地控制同一网络中所有样板供应器的部分配置情况"]
+			id: "557137A5C9EAE032"
+			tasks: [{
+				id: "12A9BE08B8DC125B"
+				item: "extendedae_plus:network_pattern_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["可用于分析ME网络的连接情况，快速找出有问题的部分"]
+			id: "78BDAD7AAD747781"
+			tasks: [{
+				id: "6C111C901704FF39"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"可用于过滤终端的显示内容，并且可以直接右键切换。需要提前在元件工作台中配置好过滤"
+				""
+				"例如：需要查看赛特斯石英水晶的数量，在提前设置好显示元件过滤的情况下，直接右键即可让终端里只显示对应的物品"
+			]
+			id: "14C426050AFEE437"
+			tasks: [{
+				id: "40F2F776F56BE7F7"
+				item: {
+					Count: 1
+					id: "ae2_toggleable_view_cell:toggleable_view_cell"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"将物品栏里特定位置的物品自动导入ME网络，可设置过滤条件"
+				""
+				"可搭配模糊卡与反相卡"
+			]
+			id: "7230F04E5BE7E70B"
+			tasks: [{
+				id: "692B90976EA4BF49"
+				item: "ae2insertexportcard:insert_card"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"从ME网络中为特定位置的物品栏自动提供物品"
+				""
+				"可搭配模糊卡，加速卡与合成卡"
+			]
+			id: "1CC9E89650253E3F"
+			tasks: [{
+				id: "55D5E6F3AD43D0AF"
+				item: "ae2insertexportcard:export_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"手持切割刀右键可以重命名AE的部分方块，例如样板供应器"
+				""
+				"使用shift+右键方块的操作可以直接复制方块的中文名称，例如，复制“感应炉”"
+				""
+				"之后只需要右键感应炉对应的样板供应器，ctrl+v即可粘贴名称，这样在样板管理终端里就能直接看到区分开的不同样板供应器"
+			]
+			id: "49E0F372A309E1DE"
+			size: 2.0d
+			tasks: [{
+				id: "1344692012419B2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:knife"
+					}
+				}
+				title: "Any #ae2:knife"
+				type: "item"
+			}]
+			title: "切割刀"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49E0F372A309E1DE"]
+			description: [
+				"如果ME网络中已经有了&a装配矩阵&r，并且里面有&a上传核心&r，写好的“工作台”等相关样板（即装配矩阵能直接处理的）会直接进入装配矩阵中，无需手动放置"
+				""
+				"除此之外，还可以调整自动放入样板。或者在扩展样板管理终端里点击左侧的红色箭头，除了会在世界中显示出对应的样板供应器之外，此时还能直接用shift+左键将样板放入其中（即使槽位关闭显示的情况下也可以，无需展开槽位）"
+			]
+			id: "0010CD4B7E1D9EE3"
+			size: 2.0d
+			tasks: [{
+				id: "123D16F313CCE2E0"
+				type: "checkmark"
+			}]
+			title: "样板进阶操作"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075842E91CF3329A"]
+			id: "15F4031B08305F3D"
+			tasks: [{
+				id: "5FC7AE56978D3B9F"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 2
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["075842E91CF3329A"]
+			id: "46423522A6D72F10"
+			tasks: [{
+				id: "602A7BC00C358AB1"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 4
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["075842E91CF3329A"]
+			id: "760C631B4E21EBBB"
+			tasks: [{
+				id: "7AB520A1E18633B6"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 8
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["075842E91CF3329A"]
+			id: "6545872AB1FE2E14"
+			tasks: [{
+				id: "11355CC22A6D4589"
+				item: {
+					Count: 1
+					id: "extendedae_plus:entity_speed_card"
+					tag: {
+						"EAS:mult": 16
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52140DD497049BEA"]
+			description: [
+				"右键增加频率，shift右键减少频率"
+				""
+				"频道卡需要结合无线收发器使用，将频道卡调整好频率放在ME设备里，会自动将该设备与对应频率的无线收发器连接上，进一步节省空间，而且无需飞线"
+			]
+			id: "0DAA66302B356EBE"
+			tasks: [{
+				id: "2AF0E5811DFB90E7"
+				item: "extendedae_plus:channel_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"可以加速实体方块的设备，以消耗&c大量能量&r为代价，给实体方块提供强力的加速效果"
+				""
+				"具体倍率与放入的&a实体加速卡&r相关"
+			]
+			id: "075842E91CF3329A"
+			tasks: [{
+				id: "28C2867BF905A2BE"
+				item: "extendedae_plus:entity_speed_ticker"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0010CD4B7E1D9EE3"]
+			description: ["只有装配矩阵里有这种核心方块，写好的工作台样板才能自动上传到其中"]
+			id: "125C029B55E0C652"
+			tasks: [{
+				id: "3AEBF568A498E92C"
+				item: "extendedae_plus:assembler_matrix_upload_core"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "1B93457E18031801"
+			tasks: [{
+				id: "14538D35109171F3"
+				item: "appflux:induction_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "2CD2F418F1F281B5"
+			tasks: [{
+				id: "66DDF217701F1F21"
+				item: "appflux:flux_accessor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "0D3DB59E881EE9B6"
+			tasks: [{
+				id: "5DA516A463B3081C"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "3BA0CB05EE66D62C"
+			tasks: [{
+				id: "36D8B767B4294338"
+				item: {
+					Count: 1
+					id: "appflux:fe_4k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "3ED3FBB26D70D3B1"
+			tasks: [{
+				id: "3A9D403E373C6BF8"
+				item: {
+					Count: 1
+					id: "appflux:fe_16k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "102C131CB2420AF3"
+			tasks: [{
+				id: "30CEBB21FFF2D5B6"
+				item: {
+					Count: 1
+					id: "appflux:fe_64k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "117C2EFD806884D1"
+			tasks: [{
+				id: "0E7E8380B4F15532"
+				item: {
+					Count: 1
+					id: "appflux:fe_256k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "183B8ABCE811EB29"
+			tasks: [{
+				id: "204205F4D6E00848"
+				item: {
+					Count: 1
+					id: "appflux:fe_1m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "7E5DE4FDE08D547F"
+			tasks: [{
+				id: "2DA06D285812A79E"
+				item: {
+					Count: 1
+					id: "appflux:fe_4m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "45E19283D1ABAFF3"
+			tasks: [{
+				id: "7B1A48736438C9D2"
+				item: {
+					Count: 1
+					id: "appflux:fe_16m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "639851EC00C21835"
+			tasks: [{
+				id: "094F6E2566A42AB0"
+				item: {
+					Count: 1
+					id: "appflux:fe_64m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "6885578D9762BFED"
+			tasks: [{
+				id: "7C832E367B5BB05A"
+				item: {
+					Count: 1
+					id: "appflux:fe_256m_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "5C071BC36E45A70C"
+			tasks: [{
+				id: "21585F39C6FE201D"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "747806BBFCF3E160"
+			tasks: [{
+				id: "6E43D0395F458E55"
+				item: {
+					Count: 1
+					id: "appflux:fe_4k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "5E662FDF3D2F4733"
+			tasks: [{
+				id: "7B0BB43E4366B527"
+				item: {
+					Count: 1
+					id: "appflux:fe_16k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "3C8B9202FC14C3B0"
+			tasks: [{
+				id: "548F17EBF4A2C78A"
+				item: {
+					Count: 1
+					id: "appflux:fe_64k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "2E768B04F234885B"
+			tasks: [{
+				id: "556E3E2691808903"
+				item: {
+					Count: 1
+					id: "appflux:fe_256k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "28ACD52786DF320F"
+			tasks: [{
+				id: "17F617B83C15C6C7"
+				item: {
+					Count: 1
+					id: "appflux:fe_1m_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "21C43711CE248C45"
+			tasks: [{
+				id: "77255D033661D6F0"
+				item: {
+					Count: 1
+					id: "appflux:fe_4m_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "2EB94D76C50AEA85"
+			tasks: [{
+				id: "790A82944994F30B"
+				item: {
+					Count: 1
+					id: "appflux:fe_16m_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "73640151D6530D41"
+			tasks: [{
+				id: "43028E9E6F2EA07B"
+				item: {
+					Count: 1
+					id: "appflux:fe_256m_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0C455FF8601E7907"]
+			id: "7D36E9F893BF0FFC"
+			tasks: [{
+				id: "424BED1ABCE26F27"
+				item: {
+					Count: 1
+					id: "appflux:fe_64m_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"如果要使用AE存储电力，需要先保证网络里有能存储的FE磁盘"
+				""
+				"之后，推荐给ME接口安装感应卡，再给ME接口输入能源，就能往FE磁盘里存入电力"
+				""
+				"便携FE元件+感应卡还可以自动给玩家物品栏的物品充电"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+				}
+			}
+			id: "0C455FF8601E7907"
+			size: 1.5d
+			tasks: [{
+				id: "332E032FA0942979"
+				type: "checkmark"
+			}]
+			title: "AE存储电力"
+			x: 4.5d
+			y: 6.0d
+		}
+	]
+	title: "进阶AE"
+}

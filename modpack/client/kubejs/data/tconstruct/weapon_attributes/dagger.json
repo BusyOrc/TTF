@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:dagger"
+    "parent": "bettercombat:dagger",
+    "attack_range": 3.2
   }

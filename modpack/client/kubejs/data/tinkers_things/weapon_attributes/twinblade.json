@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 3.8,
+    "attack_range": 4,
     "pose": "bettercombat:pose_two_handed_twinblade",
     "two_handed": true,
     "category": "twin_blade",

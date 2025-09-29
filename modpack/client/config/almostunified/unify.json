@@ -29,7 +29,9 @@
     "biomesoplenty",
     "pasterdream",
     "gtceu",
-    "extendedcrafting"
+    "extendedcrafting",
+    "tinkersancient",
+    "trials"
     
   ],
   "stoneStrata": [
@@ -69,7 +71,8 @@
     "irons_spellbooks:blood_focus",
     "forge:reed",
     "forge:mortar",
-    "forge:crab_bucket"
+    "forge:crab_bucket",
+    "forge:heavy_core"
   ],
   "materials": [
     "lithium",
@@ -107,7 +110,6 @@
     "diamond",
     "electrum",
     "elementium",
-    "emerald",
     "enderium",
     "fluorite",
     "gold",

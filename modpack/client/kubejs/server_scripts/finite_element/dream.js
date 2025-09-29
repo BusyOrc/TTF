@@ -57,6 +57,7 @@ BlockEvents.rightClicked('#tconstruct:smeltery',event=>{
     let y=event.block.getY()
     let z=event.block.getZ()
     let dim= event.level.getDimension()
+//    console.log(`${event.player.uuid}`)
     if(event.block!=null && event.item!=null)
     {
         if(event.block.hasTag("tconstruct:smeltery") && dim== "pasterdream:dyedream_world")

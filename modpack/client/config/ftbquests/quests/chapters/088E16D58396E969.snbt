@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "088E16D58396E969"
-	group: "70B4907D74D7EF03"
+	group: "398070A2413EA53F"
 	icon: "youkaishomecoming:red_bubble_danmaku"
 	id: "088E16D58396E969"
 	images: [
@@ -10788,7 +10788,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["0F698C6A49F609BD"]
 			description: [
 				"东风谷早苗：欢迎守矢神社！客人是要来购买绘马还是御守？"
 				"啊！你是......史蒂夫！"
@@ -10927,8 +10926,13 @@
 				""
 				"注意，他们可是弹幕战的高手，每颗弹幕能对你造成&a最少5%最大生命&r！"
 				"并且 &c 你若是没有妖怪化的话，受到弹幕伤害就会使他们回复5%最大生命！&r"
+				"{@pagebreak}"
+				"东风谷早苗：我再来说说关于弹幕战吧"
+				"在妖怪们的归家当中 所进行的战斗均为弹幕战"
+				"在弹幕战的影响下，除了&a当前的仇恨目标&r外，其他生物&a均不会受到来自归家角色的弹幕伤害&r。"
 			]
 			id: "7B5EEA98731FDCFB"
+			subtitle: "BGM:信仰是为了虚幻之人"
 			tasks: [{
 				id: "6699BEA8393E57E9"
 				title: "EX 4"

@@ -181,7 +181,7 @@
     }
   },
   "throw": {
-    "enabled": true,
+    "enabled": false,
     "maxStages": 6,
     "multiplierPerStage": 1,
     "stageChargeTime": 10

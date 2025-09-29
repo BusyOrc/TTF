@@ -26,6 +26,31 @@ let crushed_ores=['create:crushed_raw_iron', 'create:crushed_raw_gold',
 
 ServerEvents.recipes(event => {
 
+        event.custom({
+            "type": "tconstruct:melting",
+            "ingredient": {
+                "item": 'minecraft:glowstone_dust'
+            },
+            "result": {
+                "amount": 250,
+                "fluid": "thermal:glowstone"
+            },
+            "temperature": 400,
+            "time": 10
+        })
+event.custom({
+            "type": "tconstruct:melting",
+            "ingredient": {
+                "item": 'minecraft:glowstone'
+            },
+            "result": {
+                "amount": 1000,
+                "fluid": "thermal:glowstone"
+            },
+            "temperature": 400,
+            "time": 40
+        })
+
     event.custom(
         {
             "type": "tconstruct:casting_basin",
@@ -79,6 +104,7 @@ ServerEvents.recipes(event => {
             crushed_melting(event,"tconstruct:molten_lead",'create:crushed_raw_lead',120, 330,40)
             crushed_melting(event,"tconstruct:molten_nickel",'create:crushed_raw_nickel',120, 950,64)
 
+
         event.custom({
             "type": "tconstruct:melting",
             "ingredient": {
@@ -107,6 +133,23 @@ event.custom(
             "result":'minecraft:phantom_membrane' 
           }
         )
+
+event.custom(
+        {
+            "type": "tconstruct:casting_table",
+            "cast": {
+            "item": "minecraft:bowl"
+                        },
+            "cooling_time": 20,
+            "cast_consumed": true,
+            "fluid": {
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            },
+            "result":'kubejs:lava_bowl' 
+          }
+        )
+
 
 
 })

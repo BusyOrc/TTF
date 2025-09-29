@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "78DFFE50439D6595"
-	group: ""
+	group: "193CD093E44A0DB8"
 	icon: "kubejs:doremy_ingot"
 	id: "78DFFE50439D6595"
 	images: [
@@ -58,8 +58,218 @@
 			x: -3.0d
 			y: -14.5d
 		}
+		{
+			height: 2.1d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 2.1d
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 2.1d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 2.1d
+			x: 1.75d
+			y: -3.75d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 2.1d
+			x: 1.75d
+			y: -2.0d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 2.1d
+			x: 3.5d
+			y: -3.75d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 2.1d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 2.1d
+			x: -1.75d
+			y: -3.75d
+		}
+		{
+			height: 2.1d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 2.1d
+			x: -1.75d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "quark:textures/emote/headbang.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -5.25d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 12.25d
+			y: -20.75d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 14.0d
+			y: -20.75d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 15.75d
+			y: -20.75d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 12.25d
+			y: -19.0d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 12.25d
+			y: -22.5d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 14.0d
+			y: -22.5d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 15.75d
+			y: -22.5d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 17.5d
+			y: -22.5d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 17.5d
+			y: -20.75d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/controller/smeltery_active"
+			rotation: 0.0d
+			width: 2.1d
+			x: 15.75d
+			y: -19.0d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 19.25d
+			y: -22.5d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 19.25d
+			y: -20.75d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/seared/bricks"
+			rotation: 0.0d
+			width: 2.1d
+			x: 19.25d
+			y: -19.0d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/tank/fuel_tank"
+			rotation: 0.0d
+			width: 2.1d
+			x: 17.5d
+			y: -19.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/lava_still"
+			order: -1
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.5d
+			y: -19.0d
+		}
+		{
+			height: 2.1d
+			image: "tconstruct:block/smeltery/io/drain_front_active"
+			rotation: 0.0d
+			width: 2.1d
+			x: 14.0d
+			y: -19.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:fluid/molten/compat_alloy/refined_glowstone/still"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -19.0d
+		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1210,7 +1420,9 @@
 			description: [
 				"石英可通过缠魂沙子+洗涤灵魂沙获得"
 				""
-				"扳手的“潜行右键”拆除方块这个功能是通用的，可以用任意扳手潜行右键拆除各种模组的方块（安山机壳，ME线缆），甚至包括GTCEU模组的扳手"
+				"扳手的“潜行右键”拆除方块这个功能&d大部分情况下是通用的&r，可以用任意扳手潜行右键拆除各种模组的方块（安山机壳，ME线缆），甚至包括GTCEU模组的扳手"
+				""
+				"但是部分通过标签额外添加扳手拆除的方块仅能用机械动力的扳手"
 			]
 			id: "1AEF4E9195D57969"
 			subtitle: "等下会用到的神奇妙妙工具"
@@ -1358,7 +1570,7 @@
 				"593EBDDE469CB902"
 				"6E48C5FB25038806"
 			]
-			description: ["等下会用到的神奇工具"]
+			description: ["等下会用到的神奇妙妙工具"]
 			icon: "minecraft:bone_block"
 			id: "10FA910936A80D08"
 			rewards: [{
@@ -1543,114 +1755,7 @@
 			y: -25.5d
 		}
 		{
-			dependencies: ["52FC4CD003D6EC36"]
-			description: [
-				"请编写一个刚才任务中提到的样板，配方需要按照步骤要求的写"
-				""
-				"如果无法完成，请根据上一条任务的步骤从第一步开始执行，并且配方也要符合步骤要求"
-			]
-			icon: {
-				Count: 1
-				id: "ae2:crafting_pattern"
-				tag: {
-					encodePlayer: "ElysiaTopaz"
-					in: [
-						{
-							Count: 1b
-							id: "pasterdream:dyedream_log"
-						}
-						{ }
-						{ }
-						{ }
-						{ }
-						{ }
-						{ }
-						{ }
-						{ }
-					]
-					out: {
-						Count: 4b
-						id: "pasterdream:dyedream_planks"
-					}
-					recipe: "pasterdream:crafting_24"
-					substitute: 0b
-					substituteFluids: 1b
-				}
-			}
-			id: "6C14BC0C7B306CDD"
-			rewards: [
-				{
-					id: "3155FACBA6D07A1C"
-					item: "starbunclemania:source_condenser"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7258852D85B1B2A0"
-					item: {
-						Count: 1
-						id: "ars_nouveau:source_jar"
-						tag: {
-							BlockEntityTag: {
-								ForgeCaps: {
-									"improvedmobs:opened_flag": {
-										HasBeenOpened: 0b
-									}
-								}
-								color: 16718260
-								id: "ars_nouveau:source_jar"
-								max_source: 10000
-								source: 1000
-							}
-							display: {
-								Lore: ["\"(+NBT)\""]
-							}
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-			]
-			subtitle: "如果不会，请再次阅读上一个任务"
-			tasks: [{
-				icon: "ae2:blank_pattern"
-				id: "4E18AEB8AF2C8069"
-				item: {
-					Count: 1
-					id: "ae2:crafting_pattern"
-					tag: {
-						encodePlayer: "ElysiaTopaz"
-						in: [
-							{
-								Count: 1b
-								id: "pasterdream:dyedream_log"
-							}
-							{ }
-							{ }
-							{ }
-							{ }
-							{ }
-							{ }
-							{ }
-							{ }
-						]
-						out: {
-							Count: 4b
-							id: "pasterdream:dyedream_planks"
-						}
-						recipe: "pasterdream:crafting_24"
-					}
-				}
-				match_nbt: true
-				title: "样板自己写"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 25.5d
-			y: -27.0d
-		}
-		{
-			dependencies: ["6C14BC0C7B306CDD"]
+			dependencies: ["263ADA2103217AB3"]
 			description: [
 				"魔源凝聚器会自动将魔源转化为液体形式，用铁桶就可以取出来了"
 				""
@@ -1735,6 +1840,94 @@
 			}]
 			x: -1.5d
 			y: -18.0d
+		}
+		{
+			dependencies: ["52FC4CD003D6EC36"]
+			description: [
+				"请编写一个刚才任务中提到的样板，配方需要按照步骤要求的写"
+				""
+				"如果无法完成，请根据上一条任务的步骤从第一步开始执行，并且配方也要符合步骤要求"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:crafting_pattern"
+				tag: {
+					encodePlayer: "ElysiaTopaz"
+					in: [
+						{
+							Count: 1b
+							id: "pasterdream:dyedream_log"
+						}
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					out: {
+						Count: 4b
+						id: "pasterdream:dyedream_planks"
+					}
+					recipe: "pasterdream:crafting_24"
+					substitute: 0b
+					substituteFluids: 1b
+				}
+			}
+			id: "263ADA2103217AB3"
+			rewards: [
+				{
+					id: "605E699C60E079F2"
+					item: "starbunclemania:source_condenser"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "203AD22CC42E1DA1"
+					item: {
+						Count: 1
+						id: "ars_nouveau:source_jar"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: {
+									"improvedmobs:opened_flag": {
+										HasBeenOpened: 0b
+									}
+								}
+								color: 16718260
+								id: "ars_nouveau:source_jar"
+								max_source: 10000
+								source: 1000
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "如果不会，请再次阅读上一个任务"
+			tasks: [{
+				icon: "ae2:blank_pattern"
+				id: "0867916A2209DD53"
+				item: {
+					Count: 1
+					id: "ae2:crafting_pattern"
+					tag: {
+						recipe: "pasterdream:crafting_24"
+					}
+				}
+				match_nbt: true
+				title: "样板自己写"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 25.5d
+			y: -27.0d
 		}
 	]
 	title: "陌生的梦境"

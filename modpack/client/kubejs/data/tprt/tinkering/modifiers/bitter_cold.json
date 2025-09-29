@@ -1,0 +1,15 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:attribute",
+      "each_level": 15,
+      "operation": "addition",
+      "attribute": "attributeslib:cold_damage",
+      "unique": "tconstruct.modifier.bitter_cold",
+      "slots": [
+        "mainhand"
+      ]
+    }
+  ]
+}

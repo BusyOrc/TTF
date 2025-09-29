@@ -1,0 +1,694 @@
+{
+  "music.menu": {
+	"_comment": "游戏菜单",  
+    "replace": true,
+    "sounds": [
+      {
+        "name": "snk:title",
+        "stream": true
+      },
+	  {
+        "name": "snk:magicmenu",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+	"_comment":"结尾名单",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "snk:win",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+	"_comment":"主世界",  
+    "replace": true,
+    "sounds": [
+      {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.creative": {
+	"_comment":"创造模式",  
+    "replace": true,
+    "sounds": [
+      {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+		"name": "snk:sbl",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimu",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:wy",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:shanghai",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:fallnight",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:land",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:th",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:keiki",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:moneymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:rmymkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:kamimkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:sblmkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:blue",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:reimumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:dog",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:zumkiii",
+        "stream": true  
+	  },
+	  {
+		"name": "snk:love",
+        "stream": true  
+	  }
+    ]
+  },
+  "music.overworld.deep_dark":{
+	"_comment":"深暗之域",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:fire",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves":{
+	"_comment":"溶洞",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:dog",
+        "stream": true
+      },
+	  {
+        "name": "snk:fallnight",
+        "stream": true
+      },
+	  {
+        "name": "snk:reimumkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+        "name": "snk:sbl",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.grove":{
+	"_comment":"雪林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:lili",
+        "stream": true
+      },
+	  {
+        "name": "snk:baka",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks":{
+	"_comment":"尖峭山峰",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:aya",
+        "stream": true
+      },
+	  {
+        "name": "snk:dog",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.stony_peaks":{
+	"_comment":"裸岩山峰",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:aya",
+        "stream": true
+      },
+	  {
+        "name": "snk:dog",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks":{
+	"_comment":"冰封山峰",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:aya",
+        "stream": true
+      },
+	  {
+        "name": "snk:lili",
+        "stream": true
+      },
+	  {
+        "name": "snk:baka",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes":{
+	"_comment":"积雪山坡",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:aya",
+        "stream": true
+      },
+	  {
+        "name": "snk:lili",
+        "stream": true
+      },
+	  {
+        "name": "snk:baka",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.badlands":{
+	"_comment":"恶地",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:keiki",
+        "stream": true
+      },
+	  {
+        "name": "snk:sblmkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:love",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle":{
+	"_comment":"竹林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:zu",
+        "stream": true
+      },
+	  {
+        "name": "snk:zumkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:zumkiii",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.forest":{
+	"_comment":"森林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:reimu",
+        "stream": true
+      },
+	  {
+        "name": "snk:rmy",
+        "stream": true
+      },
+	  {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+        "name": "snk:th",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jungle":{
+	"_comment":"丛林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:zumkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:zumkiii",
+        "stream": true
+      },
+	  {
+        "name": "snk:fallnight",
+        "stream": true
+      },
+	  {
+        "name": "snk:kamimkii",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.lush_caves":{
+	"_comment":"繁茂洞穴",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:dog",
+        "stream": true
+      },
+	  {
+        "name": "snk:fallnight",
+        "stream": true
+      },
+	  {
+        "name": "snk:kamimkii",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga":{
+	"_comment":"针叶林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:kamimkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:reimumkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:lili",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.sparse_jungle":{
+	"_comment":"稀疏丛林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:zumkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:zumkiii",
+        "stream": true
+      },
+	  {
+        "name": "snk:kamimkii",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.desert":{
+	"_comment":"沙漠",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:keiki",
+        "stream": true
+      },
+	  {
+        "name": "snk:sblmkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:moneymkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:love",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.meadow":{
+	"_comment":"草甸",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:broken_moon",
+        "stream": true
+      },
+	  {
+        "name": "snk:red",
+        "stream": true
+      },
+	  {
+        "name": "snk:love",
+        "stream": true
+      },
+	  {
+        "name": "snk:kamimkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:wy",
+        "stream": true
+      },
+	  {
+        "name": "snk:shanghai",
+        "stream": true
+      },
+	  {
+        "name": "snk:reimumkii",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.flower_forest":{
+	"_comment":"繁花树林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:sblmkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:blue",
+        "stream": true
+      },
+	  {
+        "name": "snk:lili",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove":{
+	"_comment":"樱花树林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:sakura",
+        "stream": true
+      },
+	  {
+        "name": "snk:sblmkii",
+        "stream": true
+      },
+	  {
+        "name": "snk:blue",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.swamp":{
+	"_comment":"沼泽",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:magic",
+        "stream": true
+      },
+	  {
+        "name": "snk:keiki",
+        "stream": true
+      },
+	  {
+        "name": "snk:shanghai",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.under_water":{
+	"_comment":"水下",  
+	"replace": true,
+    "sounds": [
+	  {
+        "name": "snk:hequ",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.basalt_deltas":{
+	"_comment":"玄武岩三角洲",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:pls",
+        "stream": true
+      },
+	  {
+        "name": "snk:firehell",
+        "stream": true
+      },
+	  {
+        "name": "snk:chun",
+        "stream": true
+      },
+	  {
+        "name": "snk:magichell",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes":{
+	"_comment":"下界荒地",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:pls",
+        "stream": true
+      },
+	  {
+        "name": "snk:hell",
+        "stream": true
+      },
+	  {
+        "name": "snk:chun",
+        "stream": true
+      },
+	  {
+        "name": "snk:magichell",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley":{
+	"_comment":"灵魂沙峡谷",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:pls",
+        "stream": true
+      },
+	  {
+        "name": "snk:dead",
+        "stream": true
+      },
+	  {
+        "name": "snk:chun",
+        "stream": true
+      },
+	  {
+        "name": "snk:magichell",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.crimson_forest":{
+	"_comment":"绯红森林",  
+	"replace": true,
+    "sounds": [
+      {
+        "name": "snk:pls",
+        "stream": true
+      },
+	  {
+        "name": "snk:sleep",
+        "stream": true
+      },
+	  {
+        "name": "snk:chun",
+        "stream": true
+      },
+	  {
+        "name": "snk:magichell",
+        "stream": true
+      }
+    ]
+  }
+}

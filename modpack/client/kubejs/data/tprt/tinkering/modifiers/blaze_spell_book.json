@@ -1,0 +1,22 @@
+{
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+          "operation": "addition",
+          "value": 200.0
+        },
+        {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "operation": "addition",
+          "value": 0.10
+        }
+      ],
+      "name": "tprt:blaze_spell_book"
+    }
+  ],
+  "tooltip_display": "tinker_station"
+}

@@ -1,0 +1,39 @@
+{
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "attributeslib"
+      }
+    ],
+    "level_display": "tconstruct:default",
+    "modules": [
+      {
+        "type": "tconstruct:attribute",
+        "each_level": 0.4,
+        "operation": "multiply_total",
+        "attribute": "attributeslib:arrow_damage",
+        "unique": "tconstruct.modifier.mixeddragon_ranged",
+        "slots": [
+          "feet",
+          "legs",
+          "chest",
+          "head",
+          "mainhand",
+          "offhand"
+        ]
+      },
+      
+      {
+      "type": "tconstruct:stat_boost",
+      "each_level": 3.0,
+      "operation": "add",
+      "stat": "tconstruct:projectile_damage",
+      "unique": "tconstruct.modifier.crystalline_phase",
+      "tool": {
+        "type": "mantle:tag",
+        "tag": "tconstruct:modifiable/ranged"
+      }
+      }
+    ],
+    "tooltip_display": "always"
+  }

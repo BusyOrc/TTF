@@ -1,0 +1,50 @@
+{
+    "default": [
+      {
+        "level": 3,
+        "name": "sakuratinker:dragon_martyr"
+      },
+      {
+        "level": 1,
+        "name": "tprt:the_dragon_power"
+      },
+      {
+        "level": 3,
+        "name": "tconstruct:sharpness"
+      }
+    ],
+    "perStat": {
+      "tconstruct:armor": [
+        {
+            "level": 3,
+            "name": "sakuratinker:dragon_soul"
+        },
+        {
+            "level": 2,
+            "name": "sakuratinker:breath_resistance"
+        },
+        {
+            "level": 1,
+            "name": "tprt:mixeddragon_armor"
+        },
+        {
+            "level": 1,
+            "name": "sakuratinker:fire_immunity"
+        },
+        {
+            "level": 1,
+            "name": "sakuratinker:ice_immunity"
+        },
+        {
+            "level": 1,
+            "name": "sakuratinker:lightning_immunity"
+        }
+      ],
+      "tconstruct:ranged": [
+          {
+            "level": 1,
+            "name": "tprt:mixeddragon_ranged"
+          }
+      ]
+    }
+  }

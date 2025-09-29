@@ -56,7 +56,7 @@
 	
 	#The position offset from the defined corner.
 	#Default: 5,-5
-	displayOffset=5,-35
+	displayOffset=5,-20
 	
 	#Whether the wallets contents should be displayed as a coin item, or as value text.
 	#Options: ITEMS_WIDE, ITEMS_NARROW, TEXT
@@ -78,6 +78,13 @@
 	#A default search filter that will be automatically added to the search parameters
 	#Default: "ready:true"
 	searchFilter="ready:true"
+	
+	#The default sorting mode that will be automatically selected when you first open the terminal
+	#Note: The game will remember your last selection option within the same session, so editing this after the screen has been opened will not change anything until you close and re-open your game.
+	#Options: 
+	#"lightmanscurrency:name","!lightmanscurrency:name","lightmanscurrency:id","!lightmanscurrency:id","lightmanscurrency:recent","!lightmanscurrency:recent","lightmanscurrency:offers","!lightmanscurrency:offers","lightmanscurrency:popularity","!lightmanscurrency:popularity"
+	#Default: "lightmanscurrency:name"
+	defaultSortMode="lightmanscurrency:name"
 	
 #Inventory Button Settings
 [inventory_buttons]

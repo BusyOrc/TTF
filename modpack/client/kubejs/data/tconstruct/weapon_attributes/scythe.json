@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:scythe"
+    "parent": "bettercombat:scythe",
+    "attack_range": 4
   }

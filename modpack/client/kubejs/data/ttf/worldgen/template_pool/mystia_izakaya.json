@@ -1,0 +1,20 @@
+{
+  "name": "touhou_structures:mystia_izakaya",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "ttf:mystia_izakaya",
+
+        
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

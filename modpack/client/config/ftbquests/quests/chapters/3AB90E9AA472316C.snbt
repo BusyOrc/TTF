@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3AB90E9AA472316C"
-	group: "2F6557FC41D866A7"
+	group: "398070A2413EA53F"
 	icon: "touhou_little_maid:power_point"
 	id: "3AB90E9AA472316C"
 	images: [
@@ -94,13 +94,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"13025B20518A9BD2"
-				"0F698C6A49F609BD"
-				"633F35405883FB99"
-				"4E39135CBEF52C40"
-				"0C6DFF00454B7779"
-			]
+			dependencies: ["13025B20518A9BD2"]
 			description: ["灵梦：简单介绍一下，处理魔物的方法主要分为退治和收容两种方式，其中仅有部分魔物可以收容，具体可以参考阿卡什宝典里包含的HMaG图鉴。收容需要的材料和条件其中都有说明，但总的来说都比较麻烦，有兴趣的话可以试试，但是按照我的风格，只要长得像魔物的，全部干掉就行了，不用想太多"]
 			hide_until_deps_complete: false
 			icon: "hmag:evil_crystal"

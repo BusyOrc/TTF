@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ttf:mystia_izakaya",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 684125122,
+
+    "spacing": 40,
+
+    "separation": 10,
+
+    "type": "minecraft:random_spread"
+  }
+}

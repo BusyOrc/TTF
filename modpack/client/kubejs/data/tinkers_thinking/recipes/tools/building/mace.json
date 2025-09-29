@@ -1,0 +1,6 @@
+{
+  "type": "tconstruct:tool_building",
+  "extra_requirements": [{"tag": "forge:heavy_core"}],
+  "result": "tinkers_thinking:mace",
+  "result_count": 1
+}

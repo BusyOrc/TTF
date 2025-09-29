@@ -11,6 +11,7 @@ event.recipes.create.deploying('create:polished_rose_quartz', ['#forge:gems/rose
 
 event.recipes.create.haunting('minecraft:clay','pasterdream:dyedream_sand')
 event.recipes.create.mixing(Fluid.of('starbunclemania:source_fluid', 150),['thermal:sulfur_dust','4x minecraft:blue_ice']).superheated()
+event.recipes.create.mixing('appflux:insulating_resin',['2x ae2:silicon','minecraft:slime_block',Fluid.of('thermal:resin', 500)]).superheated()
 event.recipes.create.mixing("2x minecraft:netherrack",[Fluid.of("lava",50), "minecraft:cobblestone","create:cinder_flour"]).heated()
 event.recipes.create.splashing('minecraft:quartz','pasterdream:dyedreamquartz')
 event.recipes.create.splashing('minecraft:glass','pasterdream:dyedream_glass')
@@ -144,26 +145,6 @@ event.custom(
 
 
 
-
-/*     //种田
-event.recipes.create.mechanical_crafting('8x ae2:fluix_block', [
-          'AGGA',
-          'ACDA',
-          'AEFA',
-          'BBBB'
-        ], {
-A: 'farmersdelight:safety_net',
-B: 'farmersdelight:rich_soil',
-C: 'miners_delight:pasta_with_veggieballs',
-D: 'fruitsdelight:lychee_chicken',
-E: 'nethersdelight:warped_moldy_meat',
-F: 'farmersdelight:fruit_salad',
-G: 'minecraft:pumpkin_pie'
-
-        })
- */
-
-
       
 
 //黑曜石缠魂
@@ -211,6 +192,7 @@ event.recipes.create.mixing('3x thermal:rubber',Fluid.of('thermal:latex',1000))
 event.recipes.create.mixing('thermal:rubber',[Fluid.of('minecraft:water',1000),'8x minecraft:vine'])
 event.recipes.create.mixing('thermal:rubber',[Fluid.of('minecraft:water',1000),'8x minecraft:dandelion'])
 event.recipes.create.pressing('ttf:rubber_sheet','thermal:cured_rubber')
+event.recipes.create.pressing('extendedcrafting:black_iron_slate','extendedcrafting:black_iron_ingot')
 
 //生化构件反哺陶片
 event.recipes.create.mixing(['kubejs:biochem_mechanism','3x minecraft:prize_pottery_sherd' ],['kubejs:biochem_mechanism','3x minecraft:brick','minecraft:nether_star'])
@@ -245,20 +227,6 @@ event.recipes.create.deploying('minecraft:music_disc_13',['netmusic:music_cd','b
 
 //黑石
 event.recipes.create.mixing('minecraft:gilded_blackstone',['minecraft:blackstone',Fluid.of('tconstruct:molten_gold',270)]).heated()
-
-//铃仙
-event.recipes.create.mechanical_crafting('mystias_izakaya:reisen', [
-  ' ABA ',
-  'CCDCC',
-  ' E E ',
-  ' E E '
-], {
-A:'iceandfire:earplugs',
-B:'simplehats:rabbitears',
-C:'minecraft:rabbit_hide',
-D:'simplehats:rabbitonhead',
-E:'minecraft:rabbit_foot'
-})
 
 
 

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "67348DEFE07CC87E"
-	group: "756D1B6269D2C725"
+	group: "26F1962A4E5A2646"
 	icon: "irons_spellbooks:cooldown_rune"
 	id: "67348DEFE07CC87E"
 	images: [{
@@ -13,7 +13,7 @@
 		x: -10.0d
 		y: -4.0d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -80,16 +80,18 @@
 					exclude_from_claim_all: true
 					id: "324E6FA99B0C852F"
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "290EEA61E0331C9C"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
@@ -150,12 +152,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "7D0E3F3321CE4773"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
@@ -194,12 +197,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "6CECEE7DC5ED6B79"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
@@ -297,12 +301,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "248E9246825268CE"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
@@ -351,12 +356,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "70B4F046306422D8"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
@@ -466,12 +472,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "38F5932AF699CD67"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
@@ -577,12 +584,13 @@
 				}
 				{
 					auto: "invisible"
-					command: "/summon hmag:creeper_girl ~ ~ ~"
+					command: "/summon hmag:imp ~ ~ ~"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "5203C24C8C488AD9"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]
@@ -707,6 +715,7 @@
 					id: "5232DED468C41319"
 					ignore_reward_blocking: true
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 			]

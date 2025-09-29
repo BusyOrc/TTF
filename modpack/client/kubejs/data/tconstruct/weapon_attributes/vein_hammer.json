@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:hammer"
+    "parent": "bettercombat:hammer",
+    "attack_range": 4.5
   }

@@ -4,5 +4,13 @@
         "level": 1,
         "name": "touhoutinkermodifier:bibliophilia"
       }
-    ]
+    ],
+    "perStat":{
+      "sakuratinker:charm":[
+        {
+          "level":1,
+          "name":"touhoutinkermodifier:bibliophilia_charm"
+        }
+      ]
+    }
   }

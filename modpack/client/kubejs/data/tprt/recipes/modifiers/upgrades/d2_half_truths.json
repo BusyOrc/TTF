@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "level": 1,
+  "result": "tprt:d2_half_truths",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": [
+
+    {
+      "tag": "tconstruct:modifiable/melee/weapon"
+    }
+  ]
+}

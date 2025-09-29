@@ -57,35 +57,6 @@ event.custom(
 
         event.recipes.create.mixing('kubejs:daiyouseis_bomb',['youkaishomecoming:fairy_ice_crystal','minecraft:lime_dye'])
 
-event.custom(
-  {
-    "type": "tconstruct:alloy",
-    "inputs": [
-      {
-        "amount": 1000,
-        "tag": "forge:acid"
-      },
-      {
-        "amount": 100,
-        "tag": "forge:crude_oil"
-      },
-      
-      {
-        "amount": 250,
-        "fluid": "kubejs:fluid_cloud"
-      },
-      {
-        "amount": 300,
-        "fluid": "jaopca:molten.coal"
-      }
-    ],
-    "result": {
-      "amount": 2000,
-      "tag": "forge:crude_oil"
-    },
-    "temperature": 1360
-  }
-)
 
 event.custom(
 {
@@ -194,6 +165,22 @@ event.custom(
       }
     )
 
+    event.custom(
+    {
+        "type": "tconstruct:casting_table",
+        "cast": {
+          "item": "kubejs:patch"
+        },
+        "cast_consumed": true,
+        "cooling_time": 80,
+        "fluid": {
+          "amount": 810,
+          "fluid": "tconstruct:molten_cinderslime"
+        },
+        "result":"kubejs:patch_slime"
+            
+      }
+    )
 
 
 })

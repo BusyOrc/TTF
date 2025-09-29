@@ -33,3 +33,13 @@
 	#pasterdream玩家刻功能程序更新频率，算法：每-[此配置单位时间]-进行一次更新 单位/tick，过快的更新频率可能会影响性能，过慢的频率会让部分功能显得非常迟钝，推荐频率范围[2~20]整数  默认：5
 	"player total tick update" = 7.0
 
+[Ban]
+	#关闭并禁止所有翅膀的功能  默认：false
+	"ban all the wings" = false
+	#关闭并禁止大地之刃的功能  默认：false
+	"ban terra sword" = false
+	#关闭并禁止业火项链的功能  默认：false
+	"ban fire necklace" = false
+	#关闭并禁止时之沙的功能  默认：false
+	"ban time hourglass" = false
+

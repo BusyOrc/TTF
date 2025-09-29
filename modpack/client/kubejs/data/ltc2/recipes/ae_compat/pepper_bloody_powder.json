@@ -1,0 +1,19 @@
+{
+    "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],   
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ltc2:pepper_bloody"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ltc2:pepper_bloody_powder",
+    "count":2
+  }
+}

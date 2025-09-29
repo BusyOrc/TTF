@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "59D9458C10A2958A"
-	group: "4293891DF89E3E58"
+	group: "26F1962A4E5A2646"
 	icon: "lightmanscurrency:coin_gold"
 	id: "59D9458C10A2958A"
 	images: [{
@@ -14,7 +14,7 @@
 		x: -5.0d
 		y: -1.0d
 	}]
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -344,16 +344,25 @@
 				""
 				"Sunken City：沉没之城（利维坦老家）"
 				"{@pagebreak}"
-				"&e原版结构&r魔改："
-				"Strongehold：要塞（原版要塞魔改）"
+				"&e原版结构(YUNG's)&r魔改："
+				"Fortress：下界要塞（YUNG的更好要塞）"
 				""
-				"&eIDAS魔改&r模组结构："
-				"iceandfire/dread_citadel：悚陵（冰火传说模组）"
+				"Desert Temple：沙漠神殿（YUNG的更好沙漠神殿）"
 				""
-				"Haunted Manor：闹鬼庄园/墓地（冰火传说模组）"
+				"Jungle Temple：丛林神殿（YUNG的更好丛林神殿)"
 				""
-				"Labyrinth：迷宫/蛇发女妖神庙（冰火传说模组）"
+				"&e冰火传说&r模组结构："
+				"Mausoleum：悚陵"
 				""
+				"Graveyard：墓地"
+				""
+				"Gorgon temple：蛇发女妖神庙"
+				""
+				"Hydra Lair：九头蛇巢穴"
+				""
+				"Cyclops Coves：独眼巨人海湾"
+				""
+				"{@pagebreak}"
 				"&e东方匠魂传独有结构："
 				""
 				"alice:爱丽丝小屋"

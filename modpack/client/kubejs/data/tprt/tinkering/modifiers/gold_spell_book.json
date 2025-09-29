@@ -1,0 +1,23 @@
+{
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+          "operation": "addition",
+          "value": 50.0
+        },
+        {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "operation": "addition",
+          "value": 0.15
+        }
+
+      ],
+      "name": "tprt:gold_spell_book"
+    }
+  ],
+  "tooltip_display": "tinker_station"
+}

@@ -1,0 +1,29 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "sakuratinker:multi_curio_attribute",
+      "attributes": [
+        {
+          "attribute": "attributeslib:experience_gained",
+          "operation": "addition",
+          "tooltip_style": "percent",
+          "value": 0.321
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "multiply_total",
+          "tooltip_style": "percent",
+          "value": 0.123
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "multiply_total",
+          "tooltip_style": "percent",
+          "value": 0.123
+        }
+      ],
+      "name": "touhoutinkermodifier:doremy_charm"
+    }
+  ]
+}

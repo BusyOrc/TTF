@@ -16,6 +16,9 @@ function EventRecipeRockGen(adjacent,below,out,id) {
 }
 
 EventRecipeRockGen('biomesoplenty:blood','minecraft:honey_block','biomesoplenty:porous_flesh','kubejs:flesh')
+EventRecipeRockGen('thermal:lumium_block',"minecraft:amethyst_block",'create:asurine','kubejs:asurine')
+EventRecipeRockGen('thermal:enderium_block','minecraft:gold_block','create:crimsite','kubejs:crimsite')
+EventRecipeRockGen('thermal:signalum_block','minecraft:iron_block','create:veridium','kubejs:veridium')
 
 //流云
 event.recipes.thermal.centrifuge([Fluid.of('kubejs:fluid_cloud', 250),'minecraft:glass_bottle'], 'quark:bottled_cloud')
@@ -23,7 +26,7 @@ event.recipes.thermal.centrifuge([Fluid.of('kubejs:fluid_cloud', 250),'minecraft
 event.recipes.thermal.crystallizer('kubejs:cloud_dust', ['advanced_ae:shattered_singularity', Fluid.of('kubejs:fluid_cloud', 250)])
 //流云量产
 event.recipes.thermal.smelter('4x kubejs:cloud_dust', ['ars_nouveau:air_essence','thermal:lumium_ingot', 'kubejs:cloud_dust'])
-
+event.recipes.thermal.smelter('4x extendedcrafting:luminessence', ['thermal:lumium_dust','minecraft:redstone'])
 
 
 event.recipes.thermal.smelter('quark:diamond_heart', ['6x minecraft:diamond','3x #forge:ingots/dragon_steel', 'touhou_little_maid:power_point']).energyMod(16.0)

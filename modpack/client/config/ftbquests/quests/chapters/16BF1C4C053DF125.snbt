@@ -1,0 +1,850 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16BF1C4C053DF125"
+	group: "398070A2413EA53F"
+	icon: {
+		Count: 1
+		id: "goety:philosophers_stone"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "16BF1C4C053DF125"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0A2B787027143D43"
+			tasks: [{
+				id: "0E50A82C85BE20F1"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A2B787027143D43"]
+			icon: {
+				Count: 1
+				id: "goety:totem_of_roots"
+				tag: {
+					"Max Souls": 100
+					Souls: 0
+				}
+			}
+			id: "54E72C75688CF2C4"
+			rewards: [{
+				id: "15F182A36AB8CB6A"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "罪的开端？登神的起点！"
+			tasks: [{
+				id: "403B55EC2B8BE5A8"
+				type: "checkmark"
+			}]
+			title: "小礼物"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "767217538038A1C1"
+			shape: "square"
+			tasks: [{
+				id: "2982F13CCBFADB4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:abyss_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			id: "7C0C7DAF6B2A4986"
+			shape: "square"
+			tasks: [{
+				id: "6B3562355534CB08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:wild_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			id: "6C96273BDA9CC572"
+			shape: "square"
+			tasks: [{
+				id: "2DD9AF12F95D00AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:frost_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -18.0d
+		}
+		{
+			id: "7AA6EEEBACB78605"
+			shape: "square"
+			tasks: [{
+				id: "5F625AE1D1968D35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:storm_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			id: "5F76DF3F9F15BCC0"
+			shape: "square"
+			tasks: [{
+				id: "41D7B4D6DD23D2C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:wind_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			id: "7F6CC4627A072FC1"
+			shape: "square"
+			tasks: [{
+				id: "07D76AF121455485"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:geo_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			id: "39F0165AC1785520"
+			shape: "square"
+			tasks: [{
+				id: "74C8E4E767C093AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:ominous_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -14.0d
+		}
+		{
+			id: "4057F7662619531B"
+			shape: "square"
+			tasks: [{
+				id: "613CEB75E2608019"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:necro_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -15.0d
+		}
+		{
+			id: "4071C9E0E68187FA"
+			shape: "square"
+			tasks: [{
+				id: "6C97641AD942852E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:nameless_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.5d
+		}
+		{
+			id: "53E0D316EBE5FC0B"
+			shape: "square"
+			tasks: [{
+				id: "36A9D94D49B1F077"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:nether_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.0d
+		}
+		{
+			id: "024E95B3C929EA1F"
+			shape: "square"
+			tasks: [{
+				id: "361C2FEB9E8417BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:void_staff"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -18.0d
+		}
+		{
+			id: "299D207685CECCC5"
+			shape: "square"
+			tasks: [{
+				id: "2EDD9A573D1EAC7A"
+				item: "goety:nether_robe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			id: "2A6D6B7286CC96EF"
+			shape: "square"
+			tasks: [{
+				id: "10CA3A9B985CDCE9"
+				item: "goety:grand_turban"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.0d
+		}
+		{
+			id: "7B639B30CE43B620"
+			shape: "square"
+			tasks: [{
+				id: "32E1CEAA5C2D7CBF"
+				item: "goety:wild_crown"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.5d
+		}
+		{
+			id: "764114DB40C68F7C"
+			shape: "square"
+			tasks: [{
+				id: "0C222E8A3C6F74A2"
+				item: "goety:frost_crown"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"1F24AA6E370DF4E6"
+				"744E30168720F78D"
+			]
+			id: "5B4E036D574CCD24"
+			shape: "square"
+			tasks: [{
+				id: "6E6329C93DB50C1C"
+				item: "goety:dark_hat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "105A0E9CDF6C134D"
+			shape: "square"
+			tasks: [{
+				id: "14799EB78001F0E3"
+				item: "goety:abyss_crown"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -16.0d
+		}
+		{
+			id: "37F9E7B7CDF85740"
+			shape: "square"
+			tasks: [{
+				id: "0D00FB5357A56F37"
+				item: "goety:void_crown"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -18.5d
+		}
+		{
+			id: "303DFA6B26BB2288"
+			shape: "square"
+			tasks: [{
+				id: "6C141949423CFC95"
+				item: "goety:nether_crown"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			id: "69A363D2E89881CA"
+			shape: "square"
+			tasks: [{
+				id: "5145F6EB931D5678"
+				item: "goety:necro_crown"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -15.5d
+		}
+		{
+			id: "7311066EB0102EF2"
+			shape: "square"
+			tasks: [{
+				id: "5F6543FB5007E505"
+				item: "goety:nameless_crown"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -13.0d
+		}
+		{
+			id: "2E49DA6F4080F487"
+			shape: "square"
+			tasks: [{
+				id: "0A7572A44C3A09A0"
+				item: "goety:witch_hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			id: "5B71049CF1154C8B"
+			shape: "square"
+			tasks: [{
+				id: "330935DCC12F78C4"
+				item: "goety:amethyst_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			id: "172AF30361822417"
+			shape: "square"
+			tasks: [{
+				id: "136A0FE9FFE6A428"
+				item: "goety:unholy_hat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.0d
+		}
+		{
+			id: "6198DF56C3206310"
+			shape: "square"
+			tasks: [{
+				id: "01D27C7E75076FD3"
+				item: "goety:wild_robe"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.5d
+		}
+		{
+			id: "76C83BFD95299B65"
+			shape: "square"
+			tasks: [{
+				id: "1BCF71B6C5532EFE"
+				item: "goety:storm_robe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			id: "41AAD14AE671F81B"
+			shape: "square"
+			tasks: [{
+				id: "3CDEE87E7F6E7BB3"
+				item: "goety:wind_robe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			id: "12D7B67EAD24850E"
+			shape: "square"
+			tasks: [{
+				id: "16D3B816BBBD0D9C"
+				item: "goety:frost_robe"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -17.5d
+		}
+		{
+			id: "20DF44FFA2DBF172"
+			shape: "square"
+			tasks: [{
+				id: "36C875AAF2C43A9B"
+				item: "goety:illusion_robe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			id: "18AAE43236E38F4A"
+			shape: "square"
+			tasks: [{
+				id: "6F6991A3746F025D"
+				item: "goety:nameless_cape"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			id: "6F5ECF37CE05A937"
+			shape: "square"
+			tasks: [{
+				id: "408DDFB901AB056B"
+				item: "goety:grand_robe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1F24AA6E370DF4E6"
+				"744E30168720F78D"
+			]
+			id: "2DB1CCCD4C55436B"
+			shape: "square"
+			tasks: [{
+				id: "60FD051317503B3B"
+				item: "goety:dark_robe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "2E9D5B8FF6DB192E"
+			shape: "square"
+			tasks: [{
+				id: "2244A5AC897EB26F"
+				item: "goety:necro_cape"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -14.5d
+		}
+		{
+			id: "3C4933945DC3CD63"
+			shape: "square"
+			tasks: [{
+				id: "1F87CB65896DD576"
+				item: "goety:unholy_robe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			id: "1F08E7EC2E0EEF63"
+			shape: "square"
+			tasks: [{
+				id: "638478A44115D5CB"
+				item: "goety:warlock_robe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			id: "2909FCD64BD4333C"
+			shape: "square"
+			tasks: [{
+				id: "37ECBB41DD36BD2C"
+				item: {
+					Count: 1
+					id: "goety:witch_robe"
+					tag: {
+						WITCH_ROBE_BREW: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			id: "127C566A1C42DCEE"
+			shape: "square"
+			tasks: [{
+				id: "2EB5B40BEC0A13EF"
+				item: "goety:void_robe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			id: "52703C90359B0360"
+			shape: "square"
+			tasks: [{
+				id: "1202513C54BBDA42"
+				item: "goety:abyss_robe"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -15.0d
+		}
+		{
+			id: "3FD675D6415E1389"
+			shape: "square"
+			tasks: [{
+				id: "33DC278C754D5D66"
+				item: "goety:warlock_sash"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"744E30168720F78D"
+				"69232937B3448316"
+				"7CC296067961C99D"
+			]
+			id: "07BF77D167B01DBA"
+			shape: "square"
+			tasks: [{
+				id: "0B73CBFD64F3C2F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:dark_wand"
+					tag: {
+						"Cast Time": 0
+						Cooldown: 0
+						Duration: 0
+						Shots: 0
+						"Soul Cost": 0
+						"Soul Use": 0
+						cap: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16B8FC3226B72480"]
+			id: "7CC296067961C99D"
+			tasks: [{
+				id: "120205E5AC8459EF"
+				item: "goety:haunted_log"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54E72C75688CF2C4"]
+			id: "16B8FC3226B72480"
+			tasks: [{
+				id: "403C7FD6365394A3"
+				item: "goety:haunted_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["54E72C75688CF2C4"]
+			id: "69232937B3448316"
+			tasks: [{
+				id: "6F02DD9717C7FE16"
+				item: "goety:empty_focus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54E72C75688CF2C4"]
+			id: "744E30168720F78D"
+			tasks: [{
+				id: "10636EDE8B45418B"
+				item: "goety:magic_fabric"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "1F24AA6E370DF4E6"
+			tasks: [{
+				id: "31C98F954D7ADA5C"
+				item: "goety:dark_fabric"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	subtitle: ["灵魂与■■的艺术"]
+	title: "诡厄与禁忌"
+}

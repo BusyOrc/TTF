@@ -1,6 +1,6 @@
 
 ["Item Drop Weight Settings for Latiao Bonus Bag Y / 辣条福袋Y 物品抽取权重设置"]
-	#Weight: Powerful Latiao / 权重：辣条
+	#Weight: Latiao / 权重：辣条
 	#Range: 0 ~ 512
 	WeightLatiao = 5
 	#Weight: Powerful Latiao / 权重：至尊辣条
@@ -30,7 +30,7 @@
 	#Weight: Bloody Latiao / 权重：血魔辣条
 	#Range: 0 ~ 512
 	WeightPepperBloodyLatiao = 5
-	#Weight: Iced Latiao / 权重：悲怨辣条
+	#Weight: Complained Latiao / 权重：悲怨辣条
 	#Range: 0 ~ 512
 	WeightPepperComplainedLatiao = 5
 	#Weight: Cleanse Latiao / 权重：净化辣条
@@ -45,4 +45,63 @@
 	#Weight: Enchanted Netherite Latiao / 权重：附魔下界合金辣条
 	#Range: 0 ~ 512
 	WeightEnchantedNetheriteLatiao = 5
+	#Weight: Umbrvol Latiao / 权重：影翼辣条
+	#Range: 0 ~ 512
+	WeightPepperUmbrvolLatiao = 5
+	#Weight: Endbond Latiao / 权重：末缚辣条
+	#Range: 0 ~ 512
+	WeightPepperEndbondLatiao = 5
+
+["Item Drop Count Settings for Latiao Bonus Bag Y / 辣条福袋Y 物品抽取数量设置"]
+	#Count: Latiao / 数量：辣条
+	#Range: 0 ~ 64
+	CountLatiao = 1
+	#Count: Powerful Latiao / 数量：至尊辣条
+	#Range: 0 ~ 64
+	CountPepperRedLatiao = 1
+	#Count: Numbness Latiao / 数量：麻辣辣条
+	#Range: 0 ~ 64
+	CountPepperGreenLatiao = 1
+	#Count: Callous Latiao / 数量：黑冷辣条
+	#Range: 0 ~ 64
+	CountPepperBlackLatiao = 1
+	#Count: Refreshing Latiao / 数量：甜辣辣条
+	#Range: 0 ~ 64
+	CountPepperSweetLatiao = 1
+	#Count: Cooling Latiao / 数量：爽辣辣条
+	#Range: 0 ~ 64
+	CountPepperYellowLatiao = 1
+	#Count: Explosion Latiao / 数量：爆辣辣条
+	#Range: 0 ~ 64
+	CountPepperJalapenoLatiao = 1
+	#Count: Iced Latiao / 数量：冰镇辣条
+	#Range: 0 ~ 64
+	CountPepperFrostLatiao = 1
+	#Count: Vengeance Latiao / 数量：死神辣条
+	#Range: 0 ~ 64
+	CountPepperJolokiaLatiao = 1
+	#Count: Bloody Latiao / 数量：血魔辣条
+	#Range: 0 ~ 64
+	CountPepperBloodyLatiao = 1
+	#Count: Complained Latiao / 数量：悲怨辣条
+	#Range: 0 ~ 64
+	CountPepperComplainedLatiao = 1
+	#Count: Umbrvol Latiao / 数量：影翼辣条
+	#Range: 0 ~ 64
+	CountPepperUmbrvolLatiao = 1
+	#Count: Endbond Latiao / 数量：末缚辣条
+	#Range: 0 ~ 64
+	CountPepperEndbondLatiao = 1
+	#Count: Cleanse Latiao / 数量：净化辣条
+	#Range: 0 ~ 64
+	CountCleanseLatiao = 1
+	#Count: Underground Oil Latiao / 数量：地沟油辣条
+	#Range: 0 ~ 64
+	CountUndergroundOilLatiao = 1
+	#Count: Enchanted Diamond Latiao / 数量：附魔钻石辣条
+	#Range: 0 ~ 64
+	CountEnchantedDiamondLatiao = 1
+	#Count: Enchanted Netherite Latiao / 数量：附魔下界合金辣条
+	#Range: 0 ~ 64
+	CountEnchantedNetheriteLatiao = 1
 

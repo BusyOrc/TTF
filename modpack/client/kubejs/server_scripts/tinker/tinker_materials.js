@@ -9,9 +9,9 @@ let crtm = (event,flu    ,mat  ,ingo ,blo ,nug, cnt,           tmp ,tim) =>{
         },
         "result": {//结果
             "amount": cnt,
-            "fluid": flu//你定义的流体
+            "fluid": flu
         },
-        "temperature": tmp,//温度 800是常规燃料 1000是岩浆 1500是烈焰血
+        "temperature": tmp,
         "time": tim//时间 100是25秒
     })
     event.custom({//浇筑为锭
@@ -40,7 +40,8 @@ let crtm = (event,flu    ,mat  ,ingo ,blo ,nug, cnt,           tmp ,tim) =>{
         "result": ingo
     })
 }
-    event.custom({//部件加工台
+if(ingo!= "none")
+{    event.custom({//部件加工台
         "type": "tconstruct:material",
         "ingredient": {
             "item": ingo
@@ -48,7 +49,8 @@ let crtm = (event,flu    ,mat  ,ingo ,blo ,nug, cnt,           tmp ,tim) =>{
         "material": mat,
         "needed": 1,
         "value": 1
-    })
+    })}
+
     if(blo != "none"){
         event.custom({//定义块在炉子里融化
             "type": "tconstruct:melting",
@@ -59,7 +61,7 @@ let crtm = (event,flu    ,mat  ,ingo ,blo ,nug, cnt,           tmp ,tim) =>{
                 "amount": cnt * 9,
                 "fluid": flu//你定义的流体
             },
-            "temperature": tmp,//温度 800是常规燃料 1000是岩浆 1500是烈焰血
+            "temperature": tmp,
             "time": tim//时间 100是25秒
         })
         event.custom({//定义块在部件加工台上
@@ -297,7 +299,7 @@ crtm(event,"kubejs:molten_koishi","kubejs:koishi","kubejs:koishi_hat","none","no
 
 
 //sakura
-event.recipes.create.compacting("sakuratinker:soul_sakura",['minecraft:chorus_flower', '3x tconstruct:cinderslime_ingot', 'minecraft:spore_blossom']).heated()
+//event.recipes.create.compacting("sakuratinker:soul_sakura",['minecraft:chorus_flower', '3x tconstruct:cinderslime_ingot', 'minecraft:spore_blossom']).heated()
 
 //豆腐
 event.custom({
@@ -362,7 +364,7 @@ crtm(event,"kubejs:molten_rumia","touhoutinkermodifier:rumia","kubejs:rumia","no
 crtm(event,"kubejs:molten_sakuya","touhoutinkermodifier:sakuya","kubejs:sakuya","none","none",90,3480,120)
 crtm(event,"kubejs:molten_sannyo","touhoutinkermodifier:sannyo","kubejs:sannyo","none","none",90,1777,120)
 crtm(event,"kubejs:molten_wakasagihime","touhoutinkermodifier:wakasagihime","kubejs:wakasagihime","none","none",90,1285,120)
-
+crtm(event,"kubejs:molten_patch_slime","touhoutinkermodifier:patch_slime","kubejs:patch_slime","none","none",90,2800,120)
 
 })
 

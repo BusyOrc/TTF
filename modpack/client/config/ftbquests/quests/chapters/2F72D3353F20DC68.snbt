@@ -2,114 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2F72D3353F20DC68"
-	group: "4293891DF89E3E58"
-	icon: "mystias_izakaya:donation"
+	group: "4FC3997E36CADCCF"
+	icon: "youkaishomecoming:spruce_wine_shelf"
 	id: "2F72D3353F20DC68"
 	images: [{
 		height: 3.0d
 		image: "touhou_tinker_fantasy:textures/mystia.png"
 		rotation: 0.0d
 		width: 5.5d
-		x: 4.5d
-		y: -2.5d
+		x: 11.5d
+		y: -6.5d
 	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"米斯蒂娅：开店之前确认一下，你应该已经收集到了大部分农作物了吧？总之思路很简单，先准备好基础的厨具和原材料."
-				""
-				"一共有5种不同的厨具，做好以后先别着急，等下会教你如何制作菜品。"
-			]
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
-			icon: {
-				Count: 1
-				id: "mystias_izakaya:steamer"
-				tag: { }
-			}
-			id: "3ED303DD7845B6C9"
-			rewards: [
-				{
-					count: 3
-					id: "7E0DD7F1A2491D67"
-					item: "nightlights:mushroom_lime"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "40B4D70D1DD81CDB"
-					item: "nightlights:fairy_lights_pink"
-					type: "item"
-				}
-				{
-					id: "6CAA2979E2128B4B"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 5.0d
-			subtitle: "因为有玩家表示不知道从哪个任务开始，所以这个任务才这么大"
-			tasks: [
-				{
-					id: "71AB03A2122475F2"
-					item: "mystias_izakaya:cooking_range"
-					type: "item"
-				}
-				{
-					id: "4772E52F529850B1"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:cutting_board"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3A41F01809E4F0FE"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:boiling_pot"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "75F24B5274E66895"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:frying_pan"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "59993CDEFBC7E51F"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:steamer"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "4AF666CF493B94BD"
-					item: {
-						Count: 1
-						id: "mystias_izakaya:grill"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "3.1 雀食老板娘"
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3ED303DD7845B6C9"]
 			description: [
 				"米斯蒂娅：除了自己制作以外，也可以用电话订购需要的食材"
 				""
@@ -359,7 +266,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3ED303DD7845B6C9"]
 			description: [
 				"图片来自车万游戏《东方夜雀食堂》，在steam上好评如潮"
 				""
@@ -373,8 +279,8 @@
 				type: "checkmark"
 			}]
 			title: "图片来源"
-			x: 1.5d
-			y: -2.5d
+			x: 8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["09C5874A9D31ABBF"]
@@ -495,8 +401,8 @@
 				}
 			]
 			title: "螃蟹"
-			x: -1.0d
-			y: 3.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -530,11 +436,10 @@
 				}
 			]
 			title: "龟龟"
-			x: 0.0d
-			y: 3.5d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3ED303DD7845B6C9"]
 			description: ["米斯蒂娅：也许以前也尝试过钓鱼，只要有相关经验都好说，整体思路基本一样。首先，钓鱼竿分为很多种（JEI中@aqua与@lava可搜索到），这里先给你一个比较基础的鱼竿吧，可以随便试试，或者拿给女仆用也行"]
 			icon: {
 				Count: 1
@@ -696,7 +601,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["3ED303DD7845B6C9"]
 			description: ["米斯蒂娅：也许你已经了解过嗅探兽在森林群系挖掘的产物，但你是否好奇过嗅探兽在其他群系会发现什么呢？谜底马上揭晓"]
 			id: "5806146AF7515466"
 			tasks: [{
@@ -704,8 +608,8 @@
 				type: "checkmark"
 			}]
 			title: "特殊作物？"
-			x: -0.5d
-			y: -5.0d
+			x: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -727,8 +631,8 @@
 				item: "immortalers_delight:himekaido_seed"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.0d
+			x: 1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -744,8 +648,8 @@
 				item: "immortalers_delight:pearlipearl"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: 3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -765,8 +669,8 @@
 				item: "immortalers_delight:contains_tea_leisamboo"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.0d
+			x: 5.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -786,8 +690,8 @@
 				item: "immortalers_delight:evolutcorn_grains"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: -1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -809,8 +713,8 @@
 				item: "immortalers_delight:kwat_wheat_seeds"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.0d
+			x: -3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["0B57E2867E6CF6A2"]
@@ -838,8 +742,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -5.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5806146AF7515466"]
@@ -860,8 +764,8 @@
 				item: "immortalers_delight:enchantal_cooler"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5DEEE4DC9BC90BF3"]
@@ -939,11 +843,10 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -5.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["3ED303DD7845B6C9"]
 			description: ["小碎骨：最近缺一些基础食材，如果有的话可以和我交换一点东西。另外我可不是无限收购，只要这些就足够了。"]
 			id: "04151AE497BC345A"
 			rewards: [

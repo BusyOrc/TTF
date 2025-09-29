@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ttf:mystia_izakaya",
+  "size": 4,
+  
+
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:taiga"
+  ],
+  "terrain_adaptation": "beard_box",
+  "use_expansion_hack": false,
+
+  "start_height": {
+    "absolute": 0
+  },
+
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "step": "surface_structures",
+  "max_distance_from_center": 80,
+
+  "spawn_overrides": {
+  }
+}

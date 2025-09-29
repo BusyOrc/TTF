@@ -1,0 +1,84 @@
+{
+    "stats": {
+      "tconstruct:binding": {},
+      "tconstruct:handle": {
+        "durability": 0.8,
+        "melee_damage": 0.6,
+        "melee_speed": 0.4,
+        "mining_speed": 0.4
+      },
+      "tconstruct:head": {
+        "durability": 2580,
+        "melee_attack": 15,
+        "mining_speed": 10,
+        "mining_tier": "minecraft:netherite"
+      },
+      "tconstruct:grip": {
+        "accuracy": 0.5,
+        "durability": 1.0,
+        "melee_damage": 8
+      },
+      "tconstruct:limb": {
+        "accuracy": 0.8,
+        "draw_speed": 0.9,
+        "durability": 1750,
+        "velocity": 0.75
+      },
+      "sakuratinker:energy_unit": {
+        "durability": 1.2,
+        "energy_storage": 150000
+      },
+      "sakuratinker:laser_medium": {
+        "cooldown": 0.2,
+        "range": 160.0
+      },
+      "sakuratinker:flag": {
+        "attack_buff_time": 3000,
+        "charge_time": 20,
+        "defence_buff_time": 3000,
+        "range": 25
+      },
+      "sakuratinker:axle": {
+        "attack_interval": 3.3,
+        "time": 600.0,
+        "weight": 2.0
+      },
+      "sakuratinker:chord": {
+        "length": 18.0
+      },
+      "sakuratinker:yoyo_ring": {
+        "max_collected": 4.0
+      },
+      "tconstruct:maille": {},
+      "tconstruct:plating_boots": {
+        "armor": 12.0,
+        "durability": 1200,
+        "knockback_resistance": 0.12,
+        "toughness": 4
+      },
+      "tconstruct:plating_chestplate": {
+        "armor": 24,
+        "durability": 2400,
+        "knockback_resistance": 0.24,
+        "toughness": 8
+      },
+      "tconstruct:plating_helmet": {
+        "armor": 15,
+        "durability": 1500,
+        "knockback_resistance": 0.15,
+        "toughness": 5
+      },
+      "tconstruct:plating_leggings": {
+        "armor": 21,
+        "durability": 2100,
+        "knockback_resistance": 0.21,
+        "toughness": 7
+      },
+      "tconstruct:plating_shield": {
+        "armor": 9,
+        "durability": 900,
+        "knockback_resistance": 0.09,
+        "toughness": 3
+      }
+    }
+  }

@@ -1,3 +1,4 @@
 {
-    "parent": "bettercombat:staff"
+    "parent": "bettercombat:staff",
+    "attack_range": 3.5
   }

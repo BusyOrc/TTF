@@ -1,0 +1,268 @@
+{
+  "creativetab.tprt_tab": "挚爱",
+
+
+
+  "item.tprt.lriron": "LR锭",
+  "item.tprt.raw_lriron": "略提纯LR锭",
+  "item.tprt.awairon": "雇佣兵的罐头",
+  "item.tprt.raw_awairon": "雇佣兵的粗粮",
+  "item.tprt.lr_apple": "lr的精华之果",
+  "item.tprt.king_of_forest": "暮色核心",
+  "item.tprt.king_of_fireandice": "冰火核心",
+  "item.tprt.king_of_cataclysm": "灾变核心",
+  "item.tprt.king_of_magic": "法术核心",
+  "item.tprt.king_of_mc": "原版核心",
+  "item.tprt.tanpowasd": "挚爱",
+  "item.tprt.mixeddragon":"龙神钢",
+  "item.tprt.forged_steel": "锻造钢",
+  "item.tprt.source_alloy": "源质合金",
+  "item.tprt.advanced_manyullyn": "界玛玉灵",
+  "item.tprt.pig_bun": "🐖包",
+  "item.tprt.red_turtle": "红温🐢",
+  "item.tprt.blue_lancer": "蓝色枪兵",
+
+
+
+  "block.tprt.lr_block":"lr块",
+  "block.tprt.raw_lr_block":"粗制lr块",
+
+
+
+  "effect.tprt.moredamage": "易伤",
+  "effect.tprt.lllegally_modified_holsters": "非法改造枪套",
+  "effect.tprt.eager_edge": "急切刀锋",
+  "effect.tprt.de_eager_edge": "急切刀锋cd",
+  "effect.tprt.myl_girig_pro": "贪欲",
+
+
+  "fluid.tconstruct.king_of_mc_fluid": "熔融世界",
+  "fluid.tconstruct.king_of_magic_fluid": "熔融魔法",
+  "fluid.tconstruct.king_of_fireandice_fluid": "可燃冰",
+  "fluid.tconstruct.king_of_forest_fluid": "熔融暮光",
+  "fluid.tconstruct.king_of_cataclysm_fluid": "熔融灾变",
+  "fluid.tconstruct.tanpowasd_fluid": "熔融挚爱",
+  "fluid.tconstruct.mixeddragon_fluid": "熔融龙神钢",
+  "fluid.tconstruct.source_alloy_fluid": "熔融源质合金",
+  "fluid.tconstruct.forged_steel_fluid": "熔融锻造钢",
+  "fluid.tconstruct.molten_cursium": "熔融咒魂",
+  "fluid.tconstruct.molten_advanced_manyullyn": "熔融超限玛玉灵",
+
+
+
+  "material.tprt.tanpowasd": "挚爱",
+  "material.tprt.tanpowasd.flavor": "爱在永恒",
+
+  "material.tprt.mixeddragon":"龙神钢",
+  "material.tprt.mixeddragon.flavor": "听见万龙咆哮的声音",
+
+  "material.tprt.forged_steel":"锻造钢",
+  "material.tprt.forged_steel.flavor": "千锤百炼所铸",
+
+  "material.tprt.source_alloy":"源质合金",
+  "material.tprt.source_alloy.flavor": "魔法与金属的完美结合",
+
+  "material.tprt.ignitium":"腾炎",
+  "material.tprt.ignitium.flavor":"永恒燃烧的怒火",
+
+  "material.tprt.cursium":"咒魂",
+  "material.tprt.cursium.flavor":"昔日的传奇战士，今日的诅咒亡灵",
+
+  "material.tprt.witherite":"凋零合金",
+  "material.tprt.witherite.flavor":"上古的科技结晶",
+
+  "material.tprt.advanced_manyullyn":"界玛玉灵",
+  "material.tprt.advanced_manyullyn.flavor":"界＞标",
+
+  "material.tprt.blue_lancer":"蓝色枪兵",
+  "material.tprt.blue_lancer.flavor":"旋转突进的蓝色枪兵",
+
+
+
+  "modifier.tprt.lastone": "荣!",
+  "modifier.tprt.lastone.flavor": "人类战士最后的荣光!",
+  "modifier.tprt.lastone.description": "代码的名义",
+
+  "modifier.tprt.the_dragon_power":"龙神之力",
+  "modifier.tprt.the_dragon_power.flavor":"取得龙神的力量",
+  "modifier.tprt.the_dragon_power.description":"每10点最大生命值提高20%造成伤害，当最大生命值超过400时有隐藏效果",
+
+  "modifier.tprt.mixeddragon_armor":"龙神护体",
+  "modifier.tprt.mixeddragon_armor.flavor":"来自龙神的庇佑",
+  "modifier.tprt.mixeddragon_armor.description":"每级获得5%物理伤害减免和10%法术抗性",
+
+  "modifier.tprt.mixeddragon_ranged":"龙吟",
+  "modifier.tprt.mixeddragon_ranged.flavor":"众龙的力量激荡不息",
+  "modifier.tprt.mixeddragon_ranged.description":"每级提高40%弓箭伤害，大幅提高弹射物力量",
+
+  "modifier.tprt.forged_steel":"千锤百炼",
+  "modifier.tprt.forged_steel.flavor":"锻造的力量蕴含其中",
+  "modifier.tprt.forged_steel.description":"较大幅度提高工具的所有属性",
+
+  "modifier.tprt.source_alloy_default":"魔力升华",
+  "modifier.tprt.source_alloy_default.flavor":"你的魔力变得无比纯净",
+  "modifier.tprt.source_alloy_default.description":"提高造成的法术伤害",
+
+  "modifier.tprt.source_alloy_charm":"魔力棱镜",
+  "modifier.tprt.source_alloy_charm.flavor":"聚焦你的魔力",
+  "modifier.tprt.source_alloy_charm.description":"大幅提升法术伤害，会主动吞噬持有者的魔力并给予强大的生命回复效果",
+
+  "modifier.tprt.source_alloy_armor":"魔源裹身",
+  "modifier.tprt.source_alloy_armor.flavor":"自然的魔力正在涌向你",
+  "modifier.tprt.source_alloy_armor.description":"提升法术抗性，法力上限和法力回复速度",
+
+  "modifier.tprt.source_alloy_spell_cloth":"魔法凝聚",
+  "modifier.tprt.source_alloy_spell_cloth.flavor":"一字一言皆为法力凝聚",
+  "modifier.tprt.source_alloy_spell_cloth.description":"大幅提高法术强度",
+
+  "modifier.tprt.sacred_sacrifice": "神圣献祭",
+  "modifier.tprt.sacred_sacrifice.flavor": "以我之血",
+  "modifier.tprt.sacred_sacrifice.description": "燃烧生命，杀死它们！",
+
+  "modifier.tprt.burning_flames": "焚焰",
+  "modifier.tprt.burning_flames.flavor": "焚尽世间的烈焰",
+  "modifier.tprt.burning_flames.description": "攻击附加炽热烙印，等级上限为词条等级上限",
+
+  "modifier.tprt.wrath_of_flames": "焰魔之怒",
+  "modifier.tprt.wrath_of_flames.flavor":"来自下界烈焰领主的怒火",
+  "modifier.tprt.wrath_of_flames.description":"攻击目标每有一层炽热烙印，攻击额外造成30%伤害",
+
+  "modifier.tprt.lord_of_fire": "烈焰领主",
+  "modifier.tprt.lord_of_fire.flavor":"成为烈焰的象征",
+  "modifier.tprt.lord_of_fire.description":"攻击附带10点火焰伤害",
+
+  "modifier.tprt.cursed_spirit": "死灰咒言",
+  "modifier.tprt.cursed_spirit.flavor":"死亡诅咒的力量为你所用",
+  "modifier.tprt.cursed_spirit.description":"造成的伤害提高50%",
+
+  "modifier.tprt.bitter_cold": "苦寒",
+  "modifier.tprt.bitter_cold.flavor":"极地的严寒浸入骨髓",
+  "modifier.tprt.bitter_cold.description":"攻击额外造成15点冰冻伤害",
+
+  "modifier.tprt.soul_dodge": "魂灵闪避",
+  "modifier.tprt.soul_dodge.flavor":"身体仿若幽魂",
+  "modifier.tprt.soul_dodge.description":"有较低概率免疫受到的伤害",
+
+  "modifier.tprt.advanced_greed": "贪欲",
+  "modifier.tprt.advanced_greed.flavor":"什么时候满足过？",
+  "modifier.tprt.advanced_greed.description":"每次攻击提高10%攻击伤害，上限10层",
+
+  "modifier.tprt.mechanical_star_att": "机械之星",
+  "modifier.tprt.mechanical_star_att.flavor":"机械工程的杰作，战争机器的化身",
+  "modifier.tprt.mechanical_star_att.description":"每1点护甲值提高1%造成伤害",
+
+  "modifier.tprt.mechanical_star_arm": "机械之星",
+  "modifier.tprt.mechanical_star_arm.flavor":"机械工程的杰作，战争机器的化身",
+  "modifier.tprt.mechanical_star_arm.description":"每1点护甲值使受到伤害降低0.3%",
+
+  "modifier.tprt.machine_iron_casting": "机铁铸就",
+  "modifier.tprt.machine_iron_casting.flavor":"这种高密度材料带来的防御性能无与伦比，但是也非常沉重",
+  "modifier.tprt.machine_iron_casting.description":"+20%护甲值，但是-25%移动速度",
+
+  "modifier.tprt.flame_rising": "火焰升腾",
+  "modifier.tprt.flame_rising.flavor":"纯粹的烈焰升华了你的装备",
+  "modifier.tprt.flame_rising.description":"这位烈焰主宰的力量为你带来了一个升级槽，一个防御以及一个能力槽",
+
+  "modifier.tprt.the_spirit_of_evil_curse": "恶咒之灵",
+  "modifier.tprt.the_spirit_of_evil_curse.flavor":"诅咒的力量重塑了你的装备",
+  "modifier.tprt.the_spirit_of_evil_curse.description":"这位诅咒亡灵的力量为你带来了一个升级槽，一个防御以及一个能力槽",
+
+  "modifier.tprt.mechanical_innovation": "机械革新",
+  "modifier.tprt.mechanical_innovation.flavor":"利用这种跨时代的材料锻造你的装备",
+  "modifier.tprt.mechanical_innovation.description":"远古工程的杰作为你带来了一个升级槽，一个防御以及一个能力槽",
+
+  "modifier.tprt.storm_potential": "风暴潜能",
+  "modifier.tprt.storm_potential.flavor":"风暴的精粹附魔了你的装备",
+  "modifier.tprt.storm_potential.description":"难以驾驭的风暴为你带来了一个升级槽，一个防御以及一个能力槽",
+
+  "modifier.tprt.solid_armor": "坚固护甲",
+  "modifier.tprt.solid_armor.flavor":"锻造你的护甲，使其更加坚固",
+  "modifier.tprt.solid_armor.description":"以一个升级槽为代价获得一个防御槽",
+
+  "modifier.tprt.armor_fragmentation": "盔甲碎裂",
+  "modifier.tprt.armor_fragmentation.flavor":"粉碎你的护甲，使其更加易塑",
+  "modifier.tprt.armor_fragmentation.description":"以一个防御槽为代价获得一个升级槽",
+
+  "modifier.tprt.enchantment": "附魔升华",
+  "modifier.tprt.enchantment.flavor":"附魔你的物品，使其能力更加强大",
+  "modifier.tprt.enchantment.description":"以两个升级槽为代价获得一个能力槽",
+
+  "modifier.tprt.advanced_cheer_up": "生命续行",
+  "modifier.tprt.advanced_cheer_up.flavor":"体内的生命能量在涌动",
+  "modifier.tprt.advanced_cheer_up.description":"每级提高10%生命上限",
+  "modifier.tprt.advanced_cheer_up.requirements": "需要生命之心强化作为前置",
+
+  "modifier.tprt.heart_of_life": "生命之心",
+  "modifier.tprt.heart_of_life.flavor":"你的生命获得了升华",
+  "modifier.tprt.heart_of_life.description":"提高10点生命上限",
+
+  "modifier.tprt.advanced_sharpness": "米○○的锋刃",
+  "modifier.tprt.advanced_sharpness.flavor":"tie dollar",
+  "modifier.tprt.advanced_sharpness.description":"第一级提高2.5+10%攻击力，之后每级提高2.5攻击力",
+  "modifier.tprt.advanced_sharpness.requirements": "需要锋利++强化作为前置",
+
+  "modifier.tprt.netherite_spell_book": "远古法典增强",
+  "modifier.tprt.netherite_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.netherite_spell_book.description":"+200最大法力值，+20%法术冷却缩减",
+
+  "modifier.tprt.gold_spell_book": "学徒魔导书增强",
+  "modifier.tprt.gold_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.gold_spell_book.description":"+50最大法力值，+15%法术吟唱缩减",
+
+  "modifier.tprt.evoker_spell_book": "唤魔者典籍增强",
+  "modifier.tprt.evoker_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.evoker_spell_book.description":"+200最大法力值，+10%唤魔法术强度",
+
+  "modifier.tprt.blaze_spell_book": "炽焰术士典籍增强",
+  "modifier.tprt.blaze_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.blaze_spell_book.description":"+200最大法力值，+10%炽焰法术强度",
+
+  "modifier.tprt.necronomicon_spell_book": "亡灵律典增强",
+  "modifier.tprt.necronomicon_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.necronomicon_spell_book.description":"+200最大法力值，+10%猩红法术强度",
+
+  "modifier.tprt.dragonskin_spell_book": "龙鳞魔导书增强",
+  "modifier.tprt.dragonskin_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.dragonskin_spell_book.description":"+200最大法力值，+10%末影法术强度",
+
+  "modifier.tprt.villager_spell_book": "村民圣典增强",
+  "modifier.tprt.villager_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.villager_spell_book.description":"+200最大法力值，+8%神圣法术强度，+8%法术吟唱缩减",
+
+  "modifier.tprt.druidic_spell_book": "德鲁伊巨著增强",
+  "modifier.tprt.druidic_spell_book.flavor":"镌刻法典的力量",
+  "modifier.tprt.druidic_spell_book.description":"+200最大法力值，+10%自然法术强度",
+
+  "modifier.tprt.real_attack": "真实攻击",
+  "modifier.tprt.real_attack.flavor": "暴露他们的弱点",
+  "modifier.tprt.real_attack.description": "直触目标的灵魂，忽视其部分护甲和抗性",
+
+  "modifier.tprt.double_or_none": "狂赌深渊",
+  "modifier.tprt.double_or_none.flavor": "0 or 2 ?",
+  "modifier.tprt.double_or_none.description": "我赌你的枪里没有子弹!",
+
+  "modifier.tprt.for_the_love": "爱之力",
+  "modifier.tprt.for_the_love.flavor": "以爱之名",
+
+  "modifier.tprt.disruption_break": "瓦解破裂",
+  "modifier.tprt.disruption_break.flavor": "",
+  "modifier.tprt.disruption_break.description": "",
+
+  "modifier.tprt.luck_strike": "幸运一击",
+  "modifier.tprt.luck_strike.flavor": "自古枪兵。。。",
+  "modifier.tprt.luck_strike.description": "攻击伤害有概率翻数倍，幸运和词条等级越高，倍率越高；不暴击时伤害降低",
+
+  "modifier.tprt.cinder_slash": "灰烬斩击",
+  "modifier.tprt.cinder_slash.flavor": "现价3900",
+  "modifier.tprt.cinder_slash.description": "税前伤害的一定比例向后溅射；等级越高，溅射越远，倍率越高",
+  "modifier.tprt.cinder_slash.attack_damage": "灰烬斩击倍率",
+  "modifier.tprt.cinder_slash.use_item_speed": "灰烬斩击范围",
+
+  "modifier.tprt.d2_lucky_pants": "幸运裤",
+  "modifier.tprt.d2_lucky_pants.flavor": "来自异域",
+  "modifier.tprt.d2_lucky_pants.description": " “什么？没有，我没有非法改造枪套。这只是一条超级幸运的裤子！”——凯德6号 ",
+
+  "modifier.tprt.d2_half_truths": "真假参半",
+  "modifier.tprt.d2_half_truths.flavor": "急切刀锋",
+  "modifier.tprt.d2_half_truths.description": "切换到此武器后立即提高刀剑前冲距离"
+}
